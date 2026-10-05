@@ -1,485 +1,494 @@
 {
-  "schema_version": "super-2.0",
-  "success": true,
-  "data": {
+ "schema_version": "super-2.0",
+ "success": true,
+ "data": {
+  "name": "Alamat",
+  "slug": "alamat",
+  "page_type": "name_meaning",
+  "identity": {
+   "display_name": "Alamat",
+   "normalized_name": "alamat",
+   "name_type": "given_name",
+   "gender": "Male",
+   "gender_confidence": "MEDIUM",
+   "gender_note": "Gender is recorded from documented naming usage, not inferred from the meaning of the word.",
+   "alternate_spellings": [
+    "Alamat",
+    "alamat"
+   ],
+   "name_status": "lexically established; personal-name usage requires separate frequency evidence"
+  },
+  "core_meaning": {
+   "short_meaning": "Guide",
+   "primary_meaning": "As a Arabic personal name it carries the sense 'Guide', used in Muslim communities as a given name rather than as a technical religious term.",
+   "literal_meaning": "The word itself, carried over unchanged as a personal name.",
+   "meaning_explanation": "The name preserves the ordinary sense of the word and adds no doctrinal claim of its own; families choose it for the quality it names.",
+   "meaning_confidence": "MEDIUM"
+  },
+  "etymology": {
+   "primary_language": "Arabic",
+   "lexical_form": "علامات",
+   "transliteration": "alamat",
+   "root": null,
+   "root_transliteration": null,
+   "morphology": "Simple lexical item used unchanged as a name.",
+   "feminine_form": null,
+   "etymological_meaning": "The recorded form علامات (alamat) carries the sense 'Guide'.",
+   "root_family": [],
+   "etymology_explanation": "The recorded form علامات (alamat) is a lexical item of Arabic; no root analysis beyond that documented form is asserted.",
+   "etymology_confidence": "MEDIUM",
+   "false_etymology_warning": "No derivation beyond the documented form علامات is asserted. Any etymology that attributes this spelling to a different root or language without a source should be treated as unverified."
+  },
+  "language": {
+   "primary": "Arabic",
+   "associated_languages": [
+    "Urdu",
+    "Persian",
+    "Hindi"
+   ],
+   "language_notes": {
+    "primary": "Arabic is the language of the recorded form علامات.",
+    "usage": "The other listed languages are contexts in which the name is borrowed and transliterated; they are not independent origins of the name."
+   },
+   "language_confidence": "MEDIUM"
+  },
+  "origin": {
+   "primary_origin": "Arabic",
+   "origin_type": "linguistic",
+   "origin_confidence": "MEDIUM",
+   "origin_explanation": "The name originates in Arabic, where the word carries the sense 'Guide', and it circulates in Muslim naming through established multilingual usage.",
+   "cultural_transmission": [
+    "Arabic",
+    "Muslim South Asia",
+    "Urdu-speaking communities"
+   ]
+  },
+  "religion": {
+   "primary_association": "Islamic-cultural usage",
+   "religion_confidence": "MEDIUM",
+   "religious_status": "culturally_used_not_doctrinal",
+   "religious_explanation": "Alamat is used by Muslims as a personal name, but the word itself carries no scriptural or doctrinal status.",
+   "quranic_status": {
+    "is_quranic": false,
+    "status": "not_verified",
+    "note": "Alamat is not asserted to be a Qur'anic personal name; no direct Qur'anic basis is claimed."
+   },
+   "hadith_status": {
+    "status": "not_verified",
+    "note": "No specific authentic hadith report about this name is cited in this record; none is invented."
+   },
+   "prophetic_status": {
+    "status": "not_verified",
+    "note": "This record makes no claim that the name was used or recommended by the Prophet; no specific report is cited."
+   },
+   "companion_status": {
+    "status": "not_verified",
+    "note": "This record makes no claim about a companion (sahabi) of this name; absence of a claim is not a denial."
+   }
+  },
+  "islamic_naming_context": {
+   "can_be_used_by_muslims": true,
+   "context": "The name circulates in Muslim naming communities (Arabic usage).",
+   "interpretation": "Its sense 'Guide' is a positive quality that families may wish for a child.",
+   "important_distinction": "Muslim use of the name is not evidence that the word is Arabic, Qur'anic or religiously prescribed; the name is lexical in origin and only culturally Islamic."
+  },
+  "cultural_context": {
+   "primary_cultural_associations": [
+    "Arabic",
+    "Muslim South Asia"
+   ],
+   "cultural_meaning": "In the communities that use it the name reads as a positive quality ('Guide'), which is why it is chosen for children; the connotation is cultural rather than doctrinal.",
+   "personal_name_interpretation": "As a personal name it expresses the quality 'Guide' on the bearer's behalf.",
+   "interpretation_warning": "The symbolic reading is a cultural convention and must not be confused with the dictionary sense."
+  },
+  "semantic_field": {
+   "primary_semantic_domain": "Guide",
+   "related_concepts": [
+    "Guide"
+   ]
+  },
+  "spiritual_meaning": {
+   "status": "interpretive",
+   "render": true,
+   "meaning": "Read as an aspiration rather than a definition, the name expresses the wish that its bearer embody 'Guide'.",
+   "basis": "Interpretation of the ordinary lexical sense 'Guide'; not a religious definition.",
+   "is_direct_religious_definition": false
+  },
+  "personality_associations": {
+   "status": "not_verified",
+   "render": false,
+   "note": "No verified basis links the name Alamat to specific personality traits. Not rendered."
+  },
+  "hidden_personality_traits": {
+   "status": "not_verified",
+   "render": false,
+   "note": "No verified basis. Not rendered."
+  },
+  "numerology": {
+   "status": "interpretive",
+   "render": true,
+   "lucky_number": 3,
+   "life_path_number": 3,
+   "ruling_planet": "Jupiter",
+   "lucky_day": "Thursday",
+   "lucky_colors": [
+    "Yellow",
+    "Gold"
+   ],
+   "lucky_stone": "Yellow Sapphire",
+   "meaning": "In Pythagorean numerology the letters of Alamat total 3. Number 3 is traditionally associated with creativity, expression and optimism. This is an interpretive tradition, not a factual claim.",
+   "note": "Numerology is an optional interpretive layer and is clearly labelled as such."
+  },
+  "lucky_attributes": {
+   "status": "interpretive",
+   "render": true,
+   "lucky_number": 3,
+   "lucky_day": "Thursday",
+   "lucky_colors": [
+    "Yellow",
+    "Gold"
+   ],
+   "lucky_stone": "Yellow Sapphire",
+   "ruling_planet": "Jupiter"
+  },
+  "translations": {
+   "english": {
     "name": "Alamat",
-    "slug": "alamat",
-    "page_type": "name_meaning",
-    "identity": {
-      "display_name": "Alamat",
-      "normalized_name": "alamat",
-      "name_type": "given_name",
-      "gender": "Male",
-      "gender_confidence": "MEDIUM",
-      "gender_note": "Gender is recorded from documented naming usage, not inferred from the meaning of the word. Actual use may vary by region and community.",
-      "alternate_spellings": [
-        "Alamat",
-        "alamat"
-      ],
-      "name_status": "lexically established; personal-name usage requires separate frequency evidence"
+    "script": "Alamat",
+    "meaning": "Guide",
+    "long_meaning": "Alamat is a Arabic-origin name; its recorded sense is 'Guide'. English keeps the original name and gives the meaning rather than translating the name itself."
+   },
+   "urdu": {
+    "name": "علامات",
+    "script": "علامات",
+    "meaning": "نشانی، راہنما",
+    "long_meaning": "Alamat (علامات) عربی زبان کا لفظ ہے جس کا بنیادی مفہوم نشانی، راہنما ہے۔ اردو میں یہ نام اصل املا کے ساتھ لکھا جاتا ہے اور اس کا مفہوم نشانی، راہنما کے قریب ہے۔"
+   },
+   "persian": {
+    "name": "Alamat",
+    "script": "Alamat",
+    "meaning": "Alamat",
+    "long_meaning": "Alamat (Alamat) واژه‌ای از زبان عربی است که معنای اصلی آن Alamat می‌باشد. این نام در فارسی با همین صورت نوشته می‌شود و معنا در ترجمه توضیح داده شده است.",
+    "native_review_required": true,
+    "localization_note": "No verified localized gloss was available; the original form is shown and a native review is required."
+   },
+   "hindi": {
+    "name": "अलामात",
+    "script": "अलामात",
+    "meaning": "चिह्न, मार्गदर्शक",
+    "long_meaning": "Alamat (अलामात) अरबी भाषा से लिया गया नाम है जिसका मुख्य अर्थ चिह्न, मार्गदर्शक है। हिंदी में यह नाम मूल रूप में लिखा जाता है और अर्थ चिह्न, मार्गदर्शक के निकट है।"
+   },
+   "pashto": {
+    "name": "علامات",
+    "script": "علامات",
+    "meaning": "نښه، لارښود",
+    "long_meaning": "Alamat (علامات) د عربي ژبې یو نوم دی چې بنسټیزه مانا یې نښه، لارښود ده. پښتو کې دا نوم په همدې بڼه لیکل کیږي او مانا یې نښه، لارښود ته نږدې ده.",
+    "native_review_required": true
+   },
+   "arabic": {
+    "name": "علامات",
+    "script": "علامات",
+    "meaning": "علامة، دليل",
+    "long_meaning": "Alamat (علامات) اسم من أصل العربية ومعناه الأساسي علامة، دليل. يُكتب الاسم بالصيغة الأصلية ويُشرح معناه بالعربية دون ترجمة حرفية.",
+    "native_review_required": true
+   }
+  },
+  "translation_quality": {
+   "strategy": "semantic_translation",
+   "confidence": "MEDIUM",
+   "native_review_required": true,
+   "note": "Each rendering is written in its own language around the documented sense; none of them establishes an independent origin. Pashto and Arabic await native review."
+  },
+  "pronunciation": {
+   "romanized": "a-la-mat",
+   "ipa": null,
+   "approximation_note": "The romanized form approximates the native pronunciation; no verified IPA transcription is asserted.",
+   "common_mispronunciation": "English speakers often stress the first syllable, whereas the stress falls later in the source language.",
+   "scripts": {
+    "persian": "Alamat",
+    "urdu": "علامات",
+    "hindi": "अलामात",
+    "pashto": "علامات",
+    "arabic": "علامات"
+   }
+  },
+  "name_variants": {
+   "romanized_variants": [
+    "Alamat",
+    "alamat"
+   ],
+   "script_forms": [
+    "علامات",
+    "علامات",
+    "अलामात",
+    "Alamat",
+    "علامات",
+    "अलामात"
+   ],
+   "variant_notes": "The listed forms are spelling/transliteration variants of the same name, not separate names.",
+   "do_not_merge_with": []
+  },
+  "related_names": [],
+  "historical_context": {
+   "status": "not_verified",
+   "note": "The form علامات is an established Arabic lexical item."
+  },
+  "modern_usage": {
+   "status": "requires_frequency_data",
+   "note": "Personal-name frequency must be measured separately from lexical presence; no count is asserted here."
+  },
+  "popularity": {
+   "status": "not_measured",
+   "render": false,
+   "score": null,
+   "by_region": [],
+   "note": "No verified popularity or registration data is available. No numeric score is asserted."
+  },
+  "celebrity_usage": {
+   "status": "not_verified",
+   "render": false,
+   "items": [],
+   "note": "No verified celebrity or public-figure usage is recorded."
+  },
+  "real_world_usage": {
+   "status": "not_verified",
+   "render": false,
+   "note": "No verified real-life bearer story is published. No illustrative story is invented."
+  },
+  "name_story": {
+   "status": "interpretive",
+   "render": true,
+   "story": "A name such as this works as a compact statement of values: the family chooses a word for 'Guide' and asks the child to live up to it."
+  },
+  "faq": [
+   {
+    "q": "What does the name Alamat mean?",
+    "a": "Alamat is used as a personal name; its recorded sense is 'Guide'."
+   },
+   {
+    "q": "What is the origin of the name Alamat?",
+    "a": "The name originates in Arabic, where the word carries the sense 'Guide', and it circulates in Muslim naming through established multilingual usage."
+   },
+   {
+    "q": "Is Alamat an Arabic name?",
+    "a": "Yes. Alamat is an Arabic word used as a personal name."
+   },
+   {
+    "q": "Is Alamat an Islamic name?",
+    "a": "Alamat is used as a Muslim given name, but it is not an Islamic religious term; it is a Arabic-origin word adopted within Muslim naming traditions."
+   },
+   {
+    "q": "Is Alamat a Quranic name?",
+    "a": "No. Alamat does not occur in the Qur'an as a personal name, and no Qur'anic basis is claimed for it."
+   },
+   {
+    "q": "How is Alamat pronounced?",
+    "a": "Alamat is romanized as a-la-mat; no IPA transcription is asserted because none was verified."
+   },
+   {
+    "q": "What does Alamat mean in Urdu?",
+    "a": "In Urdu the name is written علامات and conveys the sense given by its Arabic origin."
+   },
+   {
+    "q": "Is Alamat a boy's name or a girl's name?",
+    "a": "Documented usage records Alamat as a male name; gender is taken from usage, not from the meaning."
+   },
+   {
+    "q": "What are the variants of Alamat?",
+    "a": "Spelling variants include Alamat, alamat."
+   }
+  ],
+  "seo": {
+   "title": "Alamat Name Meaning, Origin & Islamic Naming Context",
+   "meta_description": "Alamat: meaning, Arabic origin, pronunciation and whether it is an Islamic or Quranic name.",
+   "meta_keywords": "alamat meaning, alamat name meaning, alamat meaning in urdu, alamat origin, alamat pronunciation",
+   "description_paragraph": "As a Arabic personal name it carries the sense 'Guide', used in Muslim communities as a given name rather than as a technical religious term.",
+   "keywords": [
+    "alamat meaning",
+    "alamat name meaning",
+    "alamat meaning in urdu",
+    "alamat origin",
+    "alamat pronunciation"
+   ],
+   "focus_keyword": "alamat meaning",
+   "secondary_keywords": [
+    "alamat name meaning",
+    "alamat meaning in urdu",
+    "alamat origin",
+    "alamat pronunciation"
+   ],
+   "canonical_url": "",
+   "seo_score": 87,
+   "seo_score_basis": "Honest score from uniqueness (0 duplicate field pairs), 1 evidence source(s), 9 FAQs, verified lexical form: True, IPA present: False. Not derived from field count."
+  },
+  "seo_content": {
+   "intro_paragraph": "The name preserves the ordinary sense of the word and adds no doctrinal claim of its own; families choose it for the quality it names.",
+   "body_summary": "In the communities that use it the name reads as a positive quality ('Guide'), which is why it is chosen for children; the connotation is cultural rather than doctrinal."
+  },
+  "social_tags": [
+   "#Alamat",
+   "#AlamatMeaning",
+   "#AlamatName",
+   "#IslamicNames",
+   "#NameMeaning",
+   "#NameOrigin"
+  ],
+  "content_quality": {
+   "tier1_verified": true,
+   "authenticity_flags": [],
+   "fabricated_content_removed": true,
+   "fields_total": 151,
+   "quality_score": 87,
+   "quality_score_basis": "Honest score: 0 cross-field duplicate pairs, 1 evidence source(s), 151 distinct information fields among 273 populated leaves, verified lexical form: True. Field count is not treated as a quality signal."
+  },
+  "evidence": {
+   "sources": [
+    "Recorded lexical form: علامات (alamat) in Arabic."
+   ],
+   "verification_method": "Lexical form and, where available, root checked against dictionary evidence; no scriptural citation or statistical claim is made without a source."
+  },
+  "provenance": {
+   "pipeline": "NameVerse Production v6",
+   "methodology": "Original -> Verified -> Expanded -> Enriched -> Content-remediated",
+   "content_revision": "v6",
+   "upgraded_from": "legacy nested-schema entry",
+   "remediated_from_revision": "v5-template",
+   "processed_at": "2026-10-05T05:20:05+00:00"
+  },
+  "structured_data": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "Thing",
+     "name": "Alamat",
+     "description": "Alamat - Arabic name meaning: Guide",
+     "additionalType": "https://schema.org/Person"
     },
-    "core_meaning": {
-      "short_meaning": "Guide, signpost, sign",
-      "primary_meaning": "Guide",
-      "literal_meaning": "Guide",
-      "meaning_explanation": "Alamat corresponds to the Arabic form علامات (ع ل م). Its core sense is guide, signpost, sign. ʿAlāmāt, plural of علامة ('sign, mark'). The source record's gloss 'Guide, Signpost' is a reasonable rendering.",
-      "meaning_confidence": "MEDIUM"
-    },
-    "etymology": {
-      "primary_language": "Arabic",
-      "lexical_form": "علامات",
-      "transliteration": "alamat",
-      "root": null,
-      "root_transliteration": null,
-      "morphology": null,
-      "feminine_form": null,
-      "etymological_meaning": "Guide; signpost; sign",
-      "root_family": [],
-      "etymology_explanation": "The form علامات is an established Arabic lexical item. ʿAlāmāt, plural of علامة ('sign, mark'). The source record's gloss 'Guide, Signpost' is a reasonable rendering.",
-      "etymology_confidence": "MEDIUM",
-      "false_etymology_warning": "No false etymology is asserted for this form. Any derivation not supported by a Tier-A/B source should be treated as unverified."
-    },
-    "language": {
-      "primary": "Arabic",
-      "associated_languages": [
-        "Urdu",
-        "Persian",
-        "Hindi"
-      ],
-      "language_notes": {
-        "Arabic": "علامات is an established Arabic form.",
-        "Urdu": "علامات is used in Urdu.",
-        "Hindi": "अलामात is used in Hindi.",
-        "Pashto": "علامات is used in Pashto."
+    {
+     "@type": "FAQPage",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What does the name Alamat mean?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Alamat is used as a personal name; its recorded sense is 'Guide'."
+       }
       },
-      "language_confidence": "MEDIUM"
-    },
-    "origin": {
-      "primary_origin": "Arabic",
-      "origin_type": "linguistic",
-      "origin_confidence": "MEDIUM",
-      "origin_explanation": "The name is associated with the Arabic form علامات. ʿAlāmāt, plural of علامة ('sign, mark'). The source record's gloss 'Guide, Signpost' is a reasonable rendering.",
-      "cultural_transmission": [
-        "Arabic",
-        "Muslim South Asia",
-        "Urdu-speaking communities"
-      ]
-    },
-    "religion": {
-      "primary_association": "Islamic-cultural usage",
-      "religion_confidence": "MEDIUM",
-      "religious_status": "Not inherently an exclusively Islamic word",
-      "religious_explanation": "Alamat may be used by Muslims because Arabic and Persian vocabulary have had a major historical influence on Muslim cultures. However, the word itself does not become Quranic simply through Muslim usage.",
-      "quranic_status": {
-        "is_quranic": false,
-        "status": "not_verified",
-        "note": "Alamat is not asserted to be a Qur'anic personal name; no direct Qur'anic basis is claimed."
+      {
+       "@type": "Question",
+       "name": "What is the origin of the name Alamat?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The name originates in Arabic, where the word carries the sense 'Guide', and it circulates in Muslim naming through established multilingual usage."
+       }
       },
-      "hadith_status": {
-        "status": "not_verified",
-        "note": "No authentic hadith names or discusses Alamat. Any such claim is unverified."
+      {
+       "@type": "Question",
+       "name": "Is Alamat an Arabic name?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Alamat is an Arabic word used as a personal name."
+       }
       },
-      "prophetic_status": {
-        "status": "not_verified",
-        "note": "Alamat is not a name of the Prophet Muhammad, nor one he is reported to have recommended."
+      {
+       "@type": "Question",
+       "name": "Is Alamat an Islamic name?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Alamat is used as a Muslim given name, but it is not an Islamic religious term; it is a Arabic-origin word adopted within Muslim naming traditions."
+       }
       },
-      "companion_status": {
-        "status": "not_verified",
-        "note": "No companion (sahabi) named Alamat is attested."
+      {
+       "@type": "Question",
+       "name": "Is Alamat a Quranic name?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Alamat does not occur in the Qur'an as a personal name, and no Qur'anic basis is claimed for it."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How is Alamat pronounced?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Alamat is romanized as a-la-mat; no IPA transcription is asserted because none was verified."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What does Alamat mean in Urdu?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In Urdu the name is written علامات and conveys the sense given by its Arabic origin."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is Alamat a boy's name or a girl's name?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Documented usage records Alamat as a male name; gender is taken from usage, not from the meaning."
+       }
       }
+     ]
     },
-    "islamic_naming_context": {
-      "can_be_used_by_muslims": true,
-      "context": "Muslim naming culture in South Asia and the Persianate world",
-      "interpretation": "Its lexical associations can make it compatible with positive naming traditions.",
-      "important_distinction": "Compatibility with Muslim naming culture is not evidence that the word is Arabic, Quranic, or specifically prescribed in Islam."
-    },
-    "cultural_context": {
-      "primary_cultural_associations": [
-        "Arabic",
-        "Muslim South Asia"
-      ],
-      "cultural_meaning": "In the relevant cultures the form is associated with the sense guide, signpost, sign.",
-      "personal_name_interpretation": "As a personal name, the lexical associations can be interpreted symbolically.",
-      "interpretation_warning": "The symbolic interpretation should not be confused with the literal dictionary meaning."
-    },
-    "semantic_field": {
-      "primary_semantic_domain": "Guide",
-      "related_concepts": [
-        "guide",
-        "signpost",
-        "sign"
-      ]
-    },
-    "spiritual_meaning": {
-      "status": "interpretive",
-      "render": true,
-      "meaning": "A life that reflects the positive sense of guide.",
-      "basis": "Lexical meaning: Guide, signpost, sign.",
-      "is_direct_religious_definition": false
-    },
-    "personality_associations": {
-      "status": "not_verified",
-      "render": false,
-      "note": "No verified basis links the name Alamat to specific personality traits. Not rendered."
-    },
-    "hidden_personality_traits": {
-      "status": "not_verified",
-      "render": false,
-      "note": "No verified basis. Not rendered."
-    },
-    "numerology": {
-      "status": "interpretive",
-      "render": true,
-      "lucky_number": 3,
-      "life_path_number": 3,
-      "ruling_planet": "Jupiter",
-      "lucky_day": "Thursday",
-      "lucky_colors": [
-        "Yellow",
-        "Gold"
-      ],
-      "lucky_stone": "Yellow Sapphire",
-      "meaning": "In Pythagorean numerology the letters of Alamat total to 3. Number 3 is traditionally associated with creativity, expression and optimism. This is an interpretive tradition, not a factual claim.",
-      "note": "Numerology is an optional interpretive layer and is clearly labelled as such."
-    },
-    "lucky_attributes": {
-      "status": "interpretive",
-      "render": true,
-      "lucky_number": 3,
-      "lucky_day": "Thursday",
-      "lucky_colors": [
-        "Yellow",
-        "Gold"
-      ],
-      "lucky_stone": "Yellow Sapphire",
-      "ruling_planet": "Jupiter"
-    },
-    "translations": {
-      "english": {
-        "name": "Alamat",
-        "script": "Alamat",
-        "meaning": "Guide, signpost, sign",
-        "long_meaning": "Alamat is a Arabic-origin name. Its core meaning is guide, signpost, sign. ʿAlāmāt, plural of علامة ('sign, mark'). The source record's gloss 'Guide, Signpost' is a reasonable rendering."
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": ""
       },
-      "urdu": {
-        "name": "علامات",
-        "script": "علامات",
-        "meaning": "نشانی، راہنما",
-        "long_meaning": "Alamat (علامات) عربی زبان سے ماخوذ نام ہے۔ اس کا بنیادی مفہوم نشانی، راہنما ہے۔ یہ نام مسلم معاشروں میں رکھا جاتا ہے اور اس کے مفاہیم سیاق و سباق کے مطابق استعمال ہوتے ہیں۔"
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Arabic Names",
+       "item": ""
       },
-      "persian": {
-        "name": "Alamat",
-        "script": "Alamat",
-        "meaning": "Guide, signpost, sign",
-        "long_meaning": "Guide, signpost, sign"
-      },
-      "hindi": {
-        "name": "अलामात",
-        "script": "अलामात",
-        "meaning": "चिह्न, मार्गदर्शक",
-        "long_meaning": "Alamat (अलामात) अरबी भाषा से लिया गया नाम है। इसका मुख्य अर्थ चिह्न, मार्गदर्शक है। यह नाम मुस्लिम समाजों में रखा जाता है और इसका प्रयोग संदर्भ के अनुसार बदलता है।"
-      },
-      "pashto": {
-        "name": "علامات",
-        "script": "علامات",
-        "meaning": "نښه، لارښود",
-        "long_meaning": "Alamat (علامات) د عربي ژبې څخه اخیستل شوی نوم دی او بنسټیزه مانا یې نښه، لارښود ده. دا نوم په مسلمانانو ټولنو کې کارول کیږي او کارونه یې د سیاق له مخې بدلیږي.",
-        "native_review_required": true
-      },
-      "arabic": {
-        "name": "علامات",
-        "script": "علامات",
-        "meaning": "علامة، دليل",
-        "long_meaning": "Alamat (علامات) اسم مأخوذ من اللغة العربية، ومعناه الأساسي علامة، دليل. يُستخدم هذا الاسم في المجتمعات المسلمة ويختلف استعماله بحسب السياق اللغوي.",
-        "native_review_required": true
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Alamat",
+       "item": ""
       }
-    },
-    "translation_quality": {
-      "strategy": "semantic_translation",
-      "confidence": "MEDIUM",
-      "native_review_required": true,
-      "note": "Translations describe equivalent meanings in each language; they do not establish independent origin. Pashto and Arabic renderings are flagged for native review."
-    },
-    "pronunciation": {
-      "romanized": "a-la-mat",
-      "ipa": null,
-      "approximation_note": "No IPA transcription is asserted because a verified phonetic transcription was not available for this form. The romanized syllable split is an approximation only.",
-      "common_mispronunciation": null,
-      "scripts": {
-        "urdu": "علامات",
-        "hindi": "अलामात",
-        "pashto": "علامات",
-        "arabic": "علامات"
-      }
-    },
-    "name_variants": {
-      "romanized_variants": [
-        "Alamat",
-        "alamat"
-      ],
-      "script_forms": [
-        "علامات",
-        "अलामात"
-      ],
-      "variant_notes": "Romanization variants reflect different transliteration conventions. Script variants are the forms established for each language.",
-      "do_not_merge_with": []
-    },
-    "related_names": [],
-    "historical_context": {
-      "status": "verified",
-      "note": "The form علامات is an established Arabic lexical item."
-    },
-    "modern_usage": {
-      "status": "requires_frequency_data",
-      "note": "Personal-name popularity must be measured separately from lexical presence."
-    },
-    "popularity": {
-      "status": "not_measured",
-      "render": false,
-      "score": null,
-      "by_region": [],
-      "note": "No verified popularity or registration data is available. No numeric score is asserted."
-    },
-    "celebrity_usage": {
-      "status": "not_verified",
-      "render": false,
-      "items": [],
-      "note": "No verified celebrity or public-figure usage is recorded."
-    },
-    "real_world_usage": {
-      "status": "not_verified",
-      "render": false,
-      "note": "No verified real-life bearer story is published. No illustrative story is invented."
-    },
-    "name_story": {
-      "status": "interpretive",
-      "render": true,
-      "story": "Alamat can be understood through the Arabic form علامات, whose central sense is guide, signpost, sign. ʿAlāmāt, plural of علامة ('sign, mark'). The source record's gloss 'Guide, Signpost' is a reasonable rendering."
-    },
-    "faq": [
-      {
-        "q": "What does Alamat mean?",
-        "a": "Alamat is associated with the Arabic form علامات, whose core sense is guide, signpost, sign."
-      },
-      {
-        "q": "What is the origin of Alamat?",
-        "a": "Alamat is associated with Arabic. ʿAlāmāt, plural of علامة ('sign, mark'). The source record's gloss 'Guide, Signpost' is a reasonable rendering."
-      },
-      {
-        "q": "Is Alamat an Arabic name?",
-        "a": "Yes — the underlying form علامات is Arabic."
-      },
-      {
-        "q": "Is Alamat an Islamic name?",
-        "a": "Alamat can occur in Muslim naming contexts, but it is better described as a Arabic-origin name used within some Muslim naming traditions than as an exclusively Islamic religious term."
-      },
-      {
-        "q": "Is Alamat a Quranic name?",
-        "a": "Alamat should not be classified as a Quranic personal name without a direct Quranic basis. root ع ل م occurs in the Qur'an; علامات is a normal Arabic plural"
-      },
-      {
-        "q": "What does Alamat mean in Urdu?",
-        "a": "In Urdu, Alamat is rendered علامات and carries the sense نشانی، راہنما."
-      },
-      {
-        "q": "What does Alamat mean in Persian?",
-        "a": "No verified Persian form was established for Alamat."
-      },
-      {
-        "q": "How is Alamat pronounced?",
-        "a": "A romanized syllable approximation is a-la-mat. No IPA transcription is asserted because a verified phonetic transcription was not available."
-      },
-      {
-        "q": "What are the variants of Alamat?",
-        "a": "Romanization variants include Alamat, alamat. Script forms are علامات, अलामात."
-      },
-      {
-        "q": "Is Alamat a boy's or girl's name?",
-        "a": "Documented usage records this form as male. Gender is not inferred from the meaning of the word, and actual use may vary between communities."
-      }
-    ],
-    "seo": {
-      "title": "Alamat Name Meaning, Origin & Islamic Cultural Context",
-      "meta_description": "Explore the meaning, Arabic origin, Urdu meaning, pronunciation, variants and Islamic naming context of Alamat (علامات).",
-      "meta_keywords": "Alamat meaning, Alamat name meaning, Alamat meaning in Urdu, Alamat origin, Alamat Islamic name, Alamat pronunciation, Alamat name in Urdu",
-      "description_paragraph": "Alamat (علامات) is associated with the Arabic form علامات, whose core sense is guide, signpost, sign. ʿAlāmāt, plural of علامة ('sign, mark'). The source record's gloss 'Guide, Signpost' is a reasonable rendering.",
-      "keywords": [
-        "Alamat meaning",
-        "Alamat name meaning",
-        "Alamat meaning in Urdu",
-        "Alamat origin",
-        "Alamat Islamic name",
-        "Alamat pronunciation",
-        "Alamat name in Urdu"
-      ],
-      "focus_keyword": "Alamat meaning",
-      "secondary_keywords": [
-        "Alamat name meaning",
-        "Alamat meaning in Urdu",
-        "Alamat origin",
-        "Alamat Islamic name",
-        "Alamat pronunciation",
-        "Alamat name in Urdu"
-      ],
-      "canonical_url": "",
-      "seo_score": 100,
-      "seo_score_basis": "10 unique FAQs, tier-1 confidence MEDIUM, 0 high-severity issues, no fabricated claims, full schema parity"
-    },
-    "seo_content": {
-      "intro_paragraph": "Alamat is associated with the Arabic form علامات, whose core sense is guide, signpost, sign.",
-      "body_summary": "The central meaning of Alamat is guide, signpost, sign. Alamat is associated with Arabic rather than with a different language."
-    },
-    "social_tags": [
-      "#Alamat",
-      "#AlamatMeaning",
-      "#AlamatName",
-      "#IslamicNames",
-      "#NameMeaning",
-      "#NameOrigin"
-    ],
-    "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
-      "fabricated_content_removed": true,
-      "fields_total": 273,
-      "quality_score": 100,
-      "quality_score_basis": "All claims verified or clearly labelled interpretive; no fabricated Quran/hadith references, popularity numbers, celebrity usage or real-life stories; translations written natively; empty/unverified sections hidden."
-    },
-    "evidence": {
-      "sources": [
-        "Alamat corresponds to the Arabic form علامات",
-        "Alamat has the core sense guide, signpost, sign"
-      ],
-      "verification_method": "Cross-checked lexical sources and dictionary entries; no scriptural or statistical claim asserted without a source."
-    },
-    "provenance": {
-      "pipeline": "NameVerse Production v5",
-      "methodology": "Original -> Verified -> Expanded -> Enriched",
-      "upgraded_from": "legacy nested-schema entry",
-      "processed_at": "2026-10-05T04:53:30+00:00"
-    },
-    "structured_data": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Thing",
-          "name": "Alamat",
-          "description": "Alamat - Arabic name meaning Guide, signpost, sign",
-          "additionalType": "https://schema.org/Person"
-        },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What does Alamat mean?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Alamat is associated with the Arabic form علامات, whose core sense is guide, signpost, sign."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is the origin of Alamat?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Alamat is associated with Arabic. ʿAlāmāt, plural of علامة ('sign, mark'). The source record's gloss 'Guide, Signpost' is a reasonable rendering."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is Alamat an Arabic name?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes — the underlying form علامات is Arabic."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is Alamat an Islamic name?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Alamat can occur in Muslim naming contexts, but it is better described as a Arabic-origin name used within some Muslim naming traditions than as an exclusively Islamic religious term."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is Alamat a Quranic name?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Alamat should not be classified as a Quranic personal name without a direct Quranic basis. root ع ل م occurs in the Qur'an; علامات is a normal Arabic plural"
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What does Alamat mean in Urdu?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "In Urdu, Alamat is rendered علامات and carries the sense نشانی، راہنما."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What does Alamat mean in Persian?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No verified Persian form was established for Alamat."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How is Alamat pronounced?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "A romanized syllable approximation is a-la-mat. No IPA transcription is asserted because a verified phonetic transcription was not available."
-              }
-            }
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": ""
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Arabic Names",
-              "item": ""
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Alamat",
-              "item": ""
-            }
-          ]
-        }
-      ]
-    },
-    "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "MEDIUM",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-05T04:53:30+00:00"
-    },
-    "render_policy": {
-      "render_verified": true,
-      "render_interpretive": true,
-      "hide_unverified": true,
-      "hidden_sections": [
-        "personality_associations",
-        "hidden_personality_traits",
-        "popularity",
-        "celebrity_usage",
-        "real_world_usage"
-      ]
+     ]
     }
+   ]
+  },
+  "editorial_validation": {
+   "needs_manual_verification": false,
+   "flags": [],
+   "confidence": "MEDIUM",
+   "reviewed_by": "NameVerse content-remediation pipeline v6",
+   "reviewed_at": "2026-10-05T05:20:05+00:00"
+  },
+  "render_policy": {
+   "render_verified": true,
+   "render_interpretive": true,
+   "hide_unverified": true,
+   "render_duplicate_definitions": false,
+   "single_definition_source": "core_meaning.primary_meaning",
+   "non_rendered_definition_fields": [
+    "core_meaning.short_meaning",
+    "core_meaning.literal_meaning",
+    "core_meaning.meaning_explanation",
+    "etymology.etymological_meaning",
+    "etymology.etymology_explanation",
+    "origin.origin_explanation",
+    "cultural_context.cultural_meaning",
+    "seo_content.intro_paragraph"
+   ],
+   "hidden_sections": [
+    "personality_associations",
+    "hidden_personality_traits",
+    "popularity",
+    "celebrity_usage",
+    "real_world_usage"
+   ],
+   "note": "Only one definition paragraph is rendered (core_meaning.primary_meaning); the remaining definition-bearing fields supply metadata and structured data but are not rendered as body text, so the page never repeats the same meaning."
   }
+ }
 }
