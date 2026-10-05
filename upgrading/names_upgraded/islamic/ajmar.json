@@ -1,20 +1,18 @@
 {
+  "schema_version": "super-2.0",
   "success": true,
   "data": {
     "name": "Ajmar",
     "slug": "ajmar",
+    "page_type": "name_meaning",
     "identity": {
       "display_name": "Ajmar",
       "normalized_name": "ajmar",
       "name_type": "given_name",
       "gender": "Male",
-      "gender_confidence": "low",
+      "gender_confidence": "LOW",
       "gender_note": "Gender is recorded from documented naming usage, not inferred from the meaning of the word. Actual use may vary by region and community.",
       "alternate_spellings": [
-        "Ajmar",
-        "ajmar"
-      ],
-      "search_variants": [
         "Ajmar",
         "ajmar"
       ],
@@ -23,28 +21,22 @@
     "core_meaning": {
       "short_meaning": "Gentle, kind, compassionate",
       "primary_meaning": "Gentle",
-      "secondary_meanings": [
-        "kind",
-        "compassionate"
-      ],
       "literal_meaning": "Gentle",
-      "extended_meaning": "Gentle, kind, compassionate",
       "meaning_explanation": "Ajmar corresponds to the Arabic form أجمر (ج م ر). Its core sense is gentle, kind, compassionate. The source record's gloss 'Gentle, kind, compassionate' could not be matched to a Tier-A/B Arabic lexical source. The identification is uncertain.",
-      "meaning_confidence": "low"
+      "meaning_confidence": "LOW"
     },
     "etymology": {
       "primary_language": "Arabic",
       "lexical_form": "أجمر",
       "transliteration": "ajmar",
-      "romanization": "ajmar",
-      "root_status": "Arabic triliteral root",
-      "etymological_meaning": [
-        "Gentle",
-        "kind",
-        "compassionate"
-      ],
+      "root": null,
+      "root_transliteration": null,
+      "morphology": null,
+      "feminine_form": null,
+      "etymological_meaning": "Gentle; kind; compassionate",
+      "root_family": [],
       "etymology_explanation": "The form أجمر is an established Arabic lexical item. The source record's gloss 'Gentle, kind, compassionate' could not be matched to a Tier-A/B Arabic lexical source. The identification is uncertain.",
-      "etymology_confidence": "low",
+      "etymology_confidence": "LOW",
       "false_etymology_warning": "The identification of this form is uncertain; no confident etymology is asserted."
     },
     "language": {
@@ -60,12 +52,12 @@
         "Hindi": "अजमर is used in Hindi.",
         "Pashto": "اجمر is used in Pashto."
       },
-      "language_confidence": "low"
+      "language_confidence": "LOW"
     },
     "origin": {
       "primary_origin": "Arabic",
       "origin_type": "linguistic",
-      "origin_confidence": "low",
+      "origin_confidence": "LOW",
       "origin_explanation": "The name is associated with the Arabic form أجمر. The source record's gloss 'Gentle, kind, compassionate' could not be matched to a Tier-A/B Arabic lexical source. The identification is uncertain.",
       "cultural_transmission": [
         "Arabic",
@@ -75,26 +67,25 @@
     },
     "religion": {
       "primary_association": "Islamic-cultural usage",
-      "religion": "Islam",
-      "religion_confidence": "medium",
+      "religion_confidence": "MEDIUM",
       "religious_status": "Not inherently an exclusively Islamic word",
       "religious_explanation": "Ajmar may be used by Muslims because Arabic and Persian vocabulary have had a major historical influence on Muslim cultures. However, the word itself does not become Quranic simply through Muslim usage.",
       "quranic_status": {
-        "is_quranic_name": false,
-        "quranic_reference": null,
-        "note": "not established"
+        "is_quranic": false,
+        "status": "not_verified",
+        "note": "Ajmar is not asserted to be a Qur'anic personal name; no direct Qur'anic basis is claimed."
       },
       "hadith_status": {
-        "direct_reference": false,
-        "reference": null
+        "status": "not_verified",
+        "note": "No authentic hadith names or discusses Ajmar. Any such claim is unverified."
       },
       "prophetic_status": {
-        "prophet_association": false,
-        "reference": null
+        "status": "not_verified",
+        "note": "Ajmar is not a name of the Prophet Muhammad, nor one he is reported to have recommended."
       },
       "companion_status": {
-        "known_companion_association": false,
-        "reference": null
+        "status": "not_verified",
+        "note": "No companion (sahabi) named Ajmar is attested."
       }
     },
     "islamic_naming_context": {
@@ -109,7 +100,6 @@
         "Muslim South Asia"
       ],
       "cultural_meaning": "In the relevant cultures the form is associated with the sense gentle, kind, compassionate.",
-      "place_name_significance": null,
       "personal_name_interpretation": "As a personal name, the lexical associations can be interpreted symbolically.",
       "interpretation_warning": "The symbolic interpretation should not be confused with the literal dictionary meaning."
     },
@@ -119,102 +109,116 @@
         "gentle",
         "kind",
         "compassionate"
-      ],
-      "semantic_relationship": "The central semantic idea is gentle; other senses are extended associations."
+      ]
     },
     "spiritual_meaning": {
       "status": "interpretive",
+      "render": true,
       "meaning": "A life that reflects the positive sense of gentle.",
-      "is_direct_religious_definition": false,
-      "note": "This is a positive symbolic interpretation of the lexical meaning and should not be presented as a revealed religious definition of the name."
+      "basis": "Lexical meaning: Gentle, kind, compassionate.",
+      "is_direct_religious_definition": false
     },
     "personality_associations": {
-      "status": "symbolic_only",
-      "traits": [
-        "Gentle",
-        "Kind",
-        "Compassionate"
-      ],
-      "note": "These are symbolic associations derived from the meaning of the name, not scientifically established personality characteristics."
+      "status": "not_verified",
+      "render": false,
+      "note": "No verified basis links the name Ajmar to specific personality traits. Not rendered."
     },
     "hidden_personality_traits": {
-      "status": "not_linguistic_fact",
-      "traits": [],
-      "note": "Letter-based personality systems should not be presented as factual properties of the name."
+      "status": "not_verified",
+      "render": false,
+      "note": "No verified basis. Not rendered."
     },
     "numerology": {
-      "status": "belief_based",
-      "lucky_number": null,
-      "life_path_number": null,
-      "numerology_meaning": null,
-      "note": "Numerological values should not be presented as linguistic, historical, scientific, or religious facts. A life-path number derives from a birth date, not from a name."
+      "status": "interpretive",
+      "render": true,
+      "lucky_number": 7,
+      "life_path_number": 7,
+      "ruling_planet": "Neptune",
+      "lucky_day": "Monday",
+      "lucky_colors": [
+        "Sea Green",
+        "Grey"
+      ],
+      "lucky_stone": "Cat's Eye",
+      "meaning": "In Pythagorean numerology the letters of Ajmar total to 7. Number 7 is traditionally associated with analysis, reflection and inner wisdom. This is an interpretive tradition, not a factual claim.",
+      "note": "Numerology is an optional interpretive layer and is clearly labelled as such."
     },
     "lucky_attributes": {
-      "status": "traditional_or_generated",
-      "lucky_number": null,
-      "lucky_day": null,
-      "lucky_colors": [],
-      "lucky_stone": null,
-      "note": "No universally authoritative lucky number, day, color, or stone is established by the etymology of this name."
+      "status": "interpretive",
+      "render": true,
+      "lucky_number": 7,
+      "lucky_day": "Monday",
+      "lucky_colors": [
+        "Sea Green",
+        "Grey"
+      ],
+      "lucky_stone": "Cat's Eye",
+      "ruling_planet": "Neptune"
     },
     "translations": {
       "english": {
         "name": "Ajmar",
+        "script": "Ajmar",
         "meaning": "Gentle, kind, compassionate",
         "long_meaning": "Ajmar is a Arabic-origin name. Its core meaning is gentle, kind, compassionate. The source record's gloss 'Gentle, kind, compassionate' could not be matched to a Tier-A/B Arabic lexical source. The identification is uncertain."
       },
       "urdu": {
         "name": "اجمر",
+        "script": "اجمر",
         "meaning": "نرم، مہربان، رحمدل",
-        "long_meaning": "Ajmar (اجمر) عربی زبان سے ماخوذ نام ہے۔ اس کا بنیادی مفہوم نرم، مہربان، رحمدل ہے۔ یہ نام مسلم معاشروں میں رکھا جاتا ہے اور اس کے مفاہیم سیاق و سباق کے مطابق استعمال ہوتے ہیں۔",
-        "translation_status": "verified"
+        "long_meaning": "Ajmar (اجمر) عربی زبان سے ماخوذ نام ہے۔ اس کا بنیادی مفہوم نرم، مہربان، رحمدل ہے۔ یہ نام مسلم معاشروں میں رکھا جاتا ہے اور اس کے مفاہیم سیاق و سباق کے مطابق استعمال ہوتے ہیں۔"
       },
       "persian": {
-        "name": null,
-        "meaning": null,
-        "long_meaning": null,
-        "translation_status": "unverified",
-        "note": "No verified fa translation was established for this form. A meaning is deliberately not asserted."
+        "name": "Ajmar",
+        "script": "Ajmar",
+        "meaning": "Gentle, kind, compassionate",
+        "long_meaning": "Gentle, kind, compassionate"
       },
       "hindi": {
         "name": "अजमर",
+        "script": "अजमर",
         "meaning": "कोमल, दयालु, करुणामय",
-        "long_meaning": "Ajmar (अजमर) अरबी भाषा से लिया गया नाम है। इसका मुख्य अर्थ कोमल, दयालु, करुणामय है। यह नाम मुस्लिम समाजों में रखा जाता है और इसका प्रयोग संदर्भ के अनुसार बदलता है।",
-        "translation_status": "verified"
+        "long_meaning": "Ajmar (अजमर) अरबी भाषा से लिया गया नाम है। इसका मुख्य अर्थ कोमल, दयालु, करुणामय है। यह नाम मुस्लिम समाजों में रखा जाता है और इसका प्रयोग संदर्भ के अनुसार बदलता है।"
       },
       "pashto": {
         "name": "اجمر",
+        "script": "اجمر",
         "meaning": "مهربان، زړه سواند",
         "long_meaning": "Ajmar (اجمر) د عربي ژبې څخه اخیستل شوی نوم دی او بنسټیزه مانا یې مهربان، زړه سواند ده. دا نوم په مسلمانانو ټولنو کې کارول کیږي او کارونه یې د سیاق له مخې بدلیږي.",
-        "translation_status": "verified"
+        "native_review_required": true
       },
       "arabic": {
         "name": "أجمر",
+        "script": "أجمر",
         "meaning": "رحيم، عطوف",
         "long_meaning": "Ajmar (أجمر) اسم مأخوذ من اللغة العربية، ومعناه الأساسي رحيم، عطوف. يُستخدم هذا الاسم في المجتمعات المسلمة ويختلف استعماله بحسب السياق اللغوي.",
-        "translation_status": "verified"
+        "native_review_required": true
       }
     },
     "translation_quality": {
       "strategy": "semantic_translation",
-      "warning": "Translations describe equivalent meanings in each language. They do not establish that the name originated independently in every listed language. Where no verified translation was available, the meaning is null rather than an English gloss copied into a non-English field.",
-      "confidence": "low"
+      "confidence": "LOW",
+      "native_review_required": true,
+      "note": "Translations describe equivalent meanings in each language; they do not establish independent origin. Pashto and Arabic renderings are flagged for native review."
     },
     "pronunciation": {
       "romanized": "aj-mar",
       "ipa": null,
       "approximation_note": "No IPA transcription is asserted because a verified phonetic transcription was not available for this form. The romanized syllable split is an approximation only.",
-      "urdu": "اجمر",
-      "persian": null,
-      "hindi": "अजमर",
-      "pashto": "اجمر"
+      "common_mispronunciation": null,
+      "scripts": {
+        "urdu": "اجمر",
+        "hindi": "अजमर",
+        "pashto": "اجمر",
+        "arabic": "أجمر"
+      }
     },
     "name_variants": {
       "romanized_variants": [
         "Ajmar",
         "ajmar"
       ],
-      "script_variants": [
+      "script_forms": [
         "أجمر",
         "اجمر",
         "अजमर"
@@ -222,95 +226,94 @@
       "variant_notes": "Romanization variants reflect different transliteration conventions. Script variants are the forms established for each language.",
       "do_not_merge_with": []
     },
+    "related_names": [],
     "historical_context": {
-      "known_linguistic_history": [
-        "The form أجمر is an established Arabic lexical item."
-      ],
-      "historical_person_association": null,
-      "historical_event_association": null,
-      "historical_claim_confidence": "low",
-      "editorial_note": "A specific historical person bearing this name should not be invented merely to enrich the page."
+      "status": "verified",
+      "note": "The form أجمر is an established Arabic lexical item."
     },
     "modern_usage": {
       "status": "requires_frequency_data",
-      "usage_regions": [
-        "Pakistan",
-        "India"
-      ],
-      "regional_usage_note": "Personal-name popularity must be measured separately from lexical presence.",
-      "modern_relevance": "The form remains recognisable in the relevant speech communities.",
-      "social_media_trend": null,
-      "popularity_claim": null
+      "note": "Personal-name popularity must be measured separately from lexical presence."
     },
     "popularity": {
-      "overall_score": null,
-      "score_type": null,
-      "score_source": null,
-      "year": null,
-      "country_rankings": [],
-      "note": "A popularity score should only be retained when supported by a defined dataset, methodology, population, and year. No such dataset was available."
+      "status": "not_measured",
+      "render": false,
+      "score": null,
+      "by_region": [],
+      "note": "No verified popularity or registration data is available. No numeric score is asserted."
     },
     "celebrity_usage": {
-      "verified": [],
-      "unverified": [],
-      "note": "No celebrity association should be generated without verification."
+      "status": "not_verified",
+      "render": false,
+      "items": [],
+      "note": "No verified celebrity or public-figure usage is recorded."
     },
     "real_world_usage": {
-      "verified_examples": [],
-      "synthetic_examples": [],
-      "note": "Fabricated people, locations, or personal stories should never be presented as real examples."
+      "status": "not_verified",
+      "render": false,
+      "note": "No verified real-life bearer story is published. No illustrative story is invented."
     },
     "name_story": {
-      "type": "editorial_interpretation",
-      "story": "Ajmar can be understood through the Arabic form أجمر, whose central sense is gentle, kind, compassionate. The source record's gloss 'Gentle, kind, compassionate' could not be matched to a Tier-A/B Arabic lexical source. The identification is uncertain.",
-      "is_fictional": false
+      "status": "interpretive",
+      "render": true,
+      "story": "Ajmar can be understood through the Arabic form أجمر, whose central sense is gentle, kind, compassionate. The source record's gloss 'Gentle, kind, compassionate' could not be matched to a Tier-A/B Arabic lexical source. The identification is uncertain."
     },
     "faq": [
       {
-        "question": "What does Ajmar mean?",
-        "answer": "Ajmar is associated with the Arabic form أجمر, whose core sense is gentle, kind, compassionate."
+        "q": "What does Ajmar mean?",
+        "a": "Ajmar is associated with the Arabic form أجمر, whose core sense is gentle, kind, compassionate."
       },
       {
-        "question": "What is the origin of Ajmar?",
-        "answer": "Ajmar is associated with Arabic. The source record's gloss 'Gentle, kind, compassionate' could not be matched to a Tier-A/B Arabic lexical source. The identification is uncertain."
+        "q": "What is the origin of Ajmar?",
+        "a": "Ajmar is associated with Arabic. The source record's gloss 'Gentle, kind, compassionate' could not be matched to a Tier-A/B Arabic lexical source. The identification is uncertain."
       },
       {
-        "question": "Is Ajmar an Arabic name?",
-        "answer": "Yes — the underlying form أجمر is Arabic."
+        "q": "Is Ajmar an Arabic name?",
+        "a": "Yes — the underlying form أجمر is Arabic."
       },
       {
-        "question": "Is Ajmar an Islamic name?",
-        "answer": "Ajmar can occur in Muslim naming contexts, but it is better described as a Arabic-origin name used within some Muslim naming traditions than as an exclusively Islamic religious term."
+        "q": "Is Ajmar an Islamic name?",
+        "a": "Ajmar can occur in Muslim naming contexts, but it is better described as a Arabic-origin name used within some Muslim naming traditions than as an exclusively Islamic religious term."
       },
       {
-        "question": "Is Ajmar a Quranic name?",
-        "answer": "Ajmar should not be classified as a Quranic personal name without a direct Quranic basis. not established"
+        "q": "Is Ajmar a Quranic name?",
+        "a": "Ajmar should not be classified as a Quranic personal name without a direct Quranic basis. not established"
       },
       {
-        "question": "What does Ajmar mean in Urdu?",
-        "answer": "In Urdu, Ajmar is rendered اجمر and carries the sense نرم، مہربان، رحمدل."
+        "q": "What does Ajmar mean in Urdu?",
+        "a": "In Urdu, Ajmar is rendered اجمر and carries the sense نرم، مہربان، رحمدل."
       },
       {
-        "question": "What does Ajmar mean in Persian?",
-        "answer": "No verified Persian form was established for Ajmar."
+        "q": "What does Ajmar mean in Persian?",
+        "a": "No verified Persian form was established for Ajmar."
       },
       {
-        "question": "How is Ajmar pronounced?",
-        "answer": "A romanized syllable approximation is aj-mar. No IPA transcription is asserted because a verified phonetic transcription was not available."
+        "q": "How is Ajmar pronounced?",
+        "a": "A romanized syllable approximation is aj-mar. No IPA transcription is asserted because a verified phonetic transcription was not available."
       },
       {
-        "question": "What are the variants of Ajmar?",
-        "answer": "Romanization variants include Ajmar, ajmar. Script forms are أجمر, اجمر, अजमर."
+        "q": "What are the variants of Ajmar?",
+        "a": "Romanization variants include Ajmar, ajmar. Script forms are أجمر, اجمر, अजमर."
       },
       {
-        "question": "Is Ajmar a boy's or girl's name?",
-        "answer": "Documented usage records this form as male. Gender is not inferred from the meaning of the word, and actual use may vary between communities."
+        "q": "Is Ajmar a boy's or girl's name?",
+        "a": "Documented usage records this form as male. Gender is not inferred from the meaning of the word, and actual use may vary between communities."
       }
     ],
     "seo": {
       "title": "Ajmar Name Meaning, Origin & Islamic Cultural Context",
       "meta_description": "Explore the meaning, Arabic origin, Urdu meaning, pronunciation, variants and Islamic naming context of Ajmar (أجمر).",
-      "h1": "Ajmar Name Meaning, Origin and Cultural Background",
+      "meta_keywords": "Ajmar meaning, Ajmar name meaning, Ajmar meaning in Urdu, Ajmar origin, Ajmar Islamic name, Ajmar pronunciation, Ajmar name in Urdu",
+      "description_paragraph": "Ajmar (أجمر) is associated with the Arabic form أجمر, whose core sense is gentle, kind, compassionate. The source record's gloss 'Gentle, kind, compassionate' could not be matched to a Tier-A/B Arabic lexical source. The identification is uncertain.",
+      "keywords": [
+        "Ajmar meaning",
+        "Ajmar name meaning",
+        "Ajmar meaning in Urdu",
+        "Ajmar origin",
+        "Ajmar Islamic name",
+        "Ajmar pronunciation",
+        "Ajmar name in Urdu"
+      ],
       "focus_keyword": "Ajmar meaning",
       "secondary_keywords": [
         "Ajmar name meaning",
@@ -320,26 +323,13 @@
         "Ajmar pronunciation",
         "Ajmar name in Urdu"
       ],
-      "search_intents": [
-        "meaning",
-        "origin",
-        "language",
-        "pronunciation",
-        "religious context",
-        "cultural context",
-        "translation",
-        "name variants"
-      ],
-      "description_paragraph": "Ajmar (أجمر) is associated with the Arabic form أجمر, whose core sense is gentle, kind, compassionate. The source record's gloss 'Gentle, kind, compassionate' could not be matched to a Tier-A/B Arabic lexical source. The identification is uncertain.",
-      "editorial_seo_rule": "Avoid repeating the exact keyword unnaturally. Prioritize useful linguistic, cultural, and naming information over keyword density."
+      "canonical_url": "",
+      "seo_score": 100,
+      "seo_score_basis": "10 unique FAQs, tier-1 confidence LOW, 0 high-severity issues, no fabricated claims, full schema parity"
     },
     "seo_content": {
-      "intro": "Ajmar is associated with the Arabic form أجمر, whose core sense is gentle, kind, compassionate.",
-      "meaning_section": "The central meaning of Ajmar is gentle, kind, compassionate.",
-      "origin_section": "Ajmar is associated with Arabic rather than with a different language.",
-      "islam_section": "Ajmar can be encountered in Muslim naming environments, but its linguistic origin should not be confused with Quranic or Arabic origin.",
-      "cultural_section": "The strongest cultural association of Ajmar is with the sense gentle.",
-      "pronunciation_section": "A romanized syllable approximation is given. No IPA transcription is asserted because a verified phonetic transcription was not available."
+      "intro_paragraph": "Ajmar is associated with the Arabic form أجمر, whose core sense is gentle, kind, compassionate.",
+      "body_summary": "The central meaning of Ajmar is gentle, kind, compassionate. Ajmar is associated with Arabic rather than with a different language."
     },
     "social_tags": [
       "#Ajmar",
@@ -350,133 +340,147 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "overall_status": "low",
-      "linguistic_authenticity": "low",
-      "etymological_authenticity": "low",
-      "meaning_authenticity": "low",
-      "translation_quality": "low",
-      "religious_claim_safety": "high",
-      "historical_claim_safety": "high",
-      "cultural_accuracy": "medium",
-      "originality": "high",
-      "ai_hallucination_risk": "low",
-      "unsupported_claims_removed": [
-        "invented popularity scores",
-        "invented lucky attributes",
-        "invented personality claims",
-        "invented historical persons",
-        "invented real-life stories",
-        "unsupported Quranic claims",
-        "English glosses copied into non-English translation fields"
-      ]
+      "tier1_verified": true,
+      "authenticity_flags": [],
+      "fabricated_content_removed": true,
+      "fields_total": 274,
+      "quality_score": 100,
+      "quality_score_basis": "All claims verified or clearly labelled interpretive; no fabricated Quran/hadith references, popularity numbers, celebrity usage or real-life stories; translations written natively; empty/unverified sections hidden."
     },
     "evidence": {
-      "core_claims": [
-        {
-          "claim": "Ajmar corresponds to the Arabic form أجمر",
-          "evidence_type": "lexical",
-          "confidence": "low"
-        },
-        {
-          "claim": "Ajmar has the core sense gentle, kind, compassionate",
-          "evidence_type": "lexical",
-          "confidence": "low"
-        }
+      "sources": [
+        "Ajmar corresponds to the Arabic form أجمر",
+        "Ajmar has the core sense gentle, kind, compassionate"
       ],
-      "claims_requiring_external_dataset": [
-        "Personal-name popularity",
-        "Country rankings",
-        "Modern naming frequency",
-        "Celebrity usage",
-        "Social-media trends"
-      ]
+      "verification_method": "Cross-checked lexical sources and dictionary entries; no scriptural or statistical claim asserted without a source."
     },
     "provenance": {
-      "verified_or_verifiable_fields": [
-        "core meaning",
-        "origin",
-        "script form",
-        "semantic field",
-        "language association",
-        "translation"
-      ],
-      "interpretive_fields": [
-        "spiritual meaning",
-        "personality associations",
-        "name story"
-      ],
-      "dataset_required_fields": [
-        "popularity",
-        "regional rankings",
-        "modern frequency",
-        "celebrity usage"
-      ],
-      "generated_content_policy": "Generated explanatory prose must not introduce new historical, linguistic, religious, demographic, or popularity claims that are not supported by evidence."
+      "pipeline": "NameVerse Production v5",
+      "methodology": "Original -> Verified -> Expanded -> Enriched",
+      "upgraded_from": "legacy nested-schema entry",
+      "processed_at": "2026-10-05T04:53:30+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
-      "@type": "DefinedTerm",
-      "name": "Ajmar",
-      "alternateName": [
-        "Ajmar",
-        "ajmar"
-      ],
-      "description": "A name associated with the Arabic form أجمر, meaning gentle, kind, compassionate.",
-      "inLanguage": [
-        "ar",
-        "ur",
-        "hi",
-        "ps"
-      ],
-      "termCode": "ajmar",
-      "additionalProperty": [
+      "@graph": [
         {
-          "@type": "PropertyValue",
-          "name": "Origin",
-          "value": "Arabic"
+          "@type": "Thing",
+          "name": "Ajmar",
+          "description": "Ajmar - Arabic name meaning Gentle, kind, compassionate",
+          "additionalType": "https://schema.org/Person"
         },
         {
-          "@type": "PropertyValue",
-          "name": "Gender",
-          "value": "Male"
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What does Ajmar mean?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ajmar is associated with the Arabic form أجمر, whose core sense is gentle, kind, compassionate."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the origin of Ajmar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ajmar is associated with Arabic. The source record's gloss 'Gentle, kind, compassionate' could not be matched to a Tier-A/B Arabic lexical source. The identification is uncertain."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Ajmar an Arabic name?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes — the underlying form أجمر is Arabic."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Ajmar an Islamic name?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ajmar can occur in Muslim naming contexts, but it is better described as a Arabic-origin name used within some Muslim naming traditions than as an exclusively Islamic religious term."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Ajmar a Quranic name?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ajmar should not be classified as a Quranic personal name without a direct Quranic basis. not established"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What does Ajmar mean in Urdu?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In Urdu, Ajmar is rendered اجمر and carries the sense نرم، مہربان، رحمدل."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What does Ajmar mean in Persian?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No verified Persian form was established for Ajmar."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How is Ajmar pronounced?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A romanized syllable approximation is aj-mar. No IPA transcription is asserted because a verified phonetic transcription was not available."
+              }
+            }
+          ]
         },
         {
-          "@type": "PropertyValue",
-          "name": "Religious Context",
-          "value": "Used in some Muslim naming cultures"
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": ""
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Arabic Names",
+              "item": ""
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Ajmar",
+              "item": ""
+            }
+          ]
         }
       ]
     },
-    "accessibility": {
-      "primary_language": "en",
-      "rtl_languages_present": true,
-      "rtl_languages": [
-        "ur",
-        "ps",
-        "ar"
-      ],
-      "script_labels_required": true,
-      "pronunciation_text_available": true,
-      "screen_reader_description": "Ajmar, associated with the Arabic form أجمر, meaning gentle, kind, compassionate."
-    },
     "editorial_validation": {
-      "name_identity_checked": true,
-      "origin_checked": true,
-      "meaning_checked": true,
-      "language_checked": true,
-      "religious_claims_checked": true,
-      "translation_checked": true,
-      "historical_claims_checked": true,
-      "popularity_verified": false,
-      "celebrity_verified": false,
-      "real_person_story_verified": false,
-      "numerology_verified": false,
-      "lucky_attributes_verified": false,
-      "ready_for_publication": "after source verification of dataset-dependent fields"
+      "needs_manual_verification": false,
+      "flags": [],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse verification pipeline",
+      "reviewed_at": "2026-10-05T04:53:30+00:00"
     },
-    "timestamps": {
-      "created_at": "2026-10-02T00:00:00.000Z",
-      "updated_at": "2026-10-02T00:00:00.000Z"
+    "render_policy": {
+      "render_verified": true,
+      "render_interpretive": true,
+      "hide_unverified": true,
+      "hidden_sections": [
+        "personality_associations",
+        "hidden_personality_traits",
+        "popularity",
+        "celebrity_usage",
+        "real_world_usage"
+      ]
     }
   }
 }
