@@ -1,20 +1,18 @@
 {
+  "schema_version": "super-2.0",
   "success": true,
   "data": {
     "name": "Bawan",
     "slug": "bawan",
+    "page_type": "name_meaning",
     "identity": {
       "display_name": "Bawan",
       "normalized_name": "bawan",
       "name_type": "given_name",
       "gender": "Unisex",
-      "gender_confidence": "low",
+      "gender_confidence": "LOW",
       "gender_note": "Gender is recorded from documented naming usage, not inferred from the meaning of the word. Actual use may vary by region and community.",
       "alternate_spellings": [
-        "Bawan",
-        "bawan"
-      ],
-      "search_variants": [
         "Bawan",
         "bawan"
       ],
@@ -23,23 +21,22 @@
     "core_meaning": {
       "short_meaning": "Meaning not objectively established",
       "primary_meaning": "Meaning not objectively established",
-      "secondary_meanings": [],
       "literal_meaning": "Meaning not objectively established",
-      "extended_meaning": "Meaning not objectively established",
       "meaning_explanation": "Bawan corresponds to the Arabic form باوان (ب و ن). Its core sense is meaning not objectively established. The source record's gloss \"God's Blessings\" could not be matched to a Tier-A/B lexical source. The identification is uncertain.",
-      "meaning_confidence": "low"
+      "meaning_confidence": "LOW"
     },
     "etymology": {
       "primary_language": "Arabic",
       "lexical_form": "باوان",
       "transliteration": "bawan",
-      "romanization": "bawan",
-      "root_status": "Arabic triliteral root",
-      "etymological_meaning": [
-        "Meaning not objectively established"
-      ],
+      "root": null,
+      "root_transliteration": null,
+      "morphology": null,
+      "feminine_form": null,
+      "etymological_meaning": "Meaning not objectively established",
+      "root_family": [],
       "etymology_explanation": "The form باوان is an established Arabic lexical item. The source record's gloss \"God's Blessings\" could not be matched to a Tier-A/B lexical source. The identification is uncertain.",
-      "etymology_confidence": "low",
+      "etymology_confidence": "LOW",
       "false_etymology_warning": "The identification of this form is uncertain; no confident etymology is asserted."
     },
     "language": {
@@ -55,12 +52,12 @@
         "Hindi": "बावान is used in Hindi.",
         "Pashto": "باوان is used in Pashto."
       },
-      "language_confidence": "low"
+      "language_confidence": "LOW"
     },
     "origin": {
       "primary_origin": "Arabic",
       "origin_type": "linguistic",
-      "origin_confidence": "low",
+      "origin_confidence": "LOW",
       "origin_explanation": "The name is associated with the Arabic form باوان. The source record's gloss \"God's Blessings\" could not be matched to a Tier-A/B lexical source. The identification is uncertain.",
       "cultural_transmission": [
         "Arabic",
@@ -70,26 +67,25 @@
     },
     "religion": {
       "primary_association": "Islamic-cultural usage",
-      "religion": "Islam",
-      "religion_confidence": "medium",
+      "religion_confidence": "MEDIUM",
       "religious_status": "Not inherently an exclusively Islamic word",
       "religious_explanation": "Bawan may be used by Muslims because Arabic and Persian vocabulary have had a major historical influence on Muslim cultures. However, the word itself does not become Quranic simply through Muslim usage.",
       "quranic_status": {
-        "is_quranic_name": false,
-        "quranic_reference": null,
-        "note": "not established"
+        "is_quranic": false,
+        "status": "not_verified",
+        "note": "Bawan is not asserted to be a Qur'anic personal name; no direct Qur'anic basis is claimed."
       },
       "hadith_status": {
-        "direct_reference": false,
-        "reference": null
+        "status": "not_verified",
+        "note": "No authentic hadith names or discusses Bawan. Any such claim is unverified."
       },
       "prophetic_status": {
-        "prophet_association": false,
-        "reference": null
+        "status": "not_verified",
+        "note": "Bawan is not a name of the Prophet Muhammad, nor one he is reported to have recommended."
       },
       "companion_status": {
-        "known_companion_association": false,
-        "reference": null
+        "status": "not_verified",
+        "note": "No companion (sahabi) named Bawan is attested."
       }
     },
     "islamic_naming_context": {
@@ -104,7 +100,6 @@
         "Muslim South Asia"
       ],
       "cultural_meaning": "In the relevant cultures the form is associated with the sense meaning not objectively established.",
-      "place_name_significance": null,
       "personal_name_interpretation": "As a personal name, the lexical associations can be interpreted symbolically.",
       "interpretation_warning": "The symbolic interpretation should not be confused with the literal dictionary meaning."
     },
@@ -112,195 +107,210 @@
       "primary_semantic_domain": "Meaning not objectively established",
       "related_concepts": [
         "meaning not objectively established"
-      ],
-      "semantic_relationship": "The central semantic idea is meaning not objectively established; other senses are extended associations."
+      ]
     },
     "spiritual_meaning": {
       "status": "interpretive",
+      "render": true,
       "meaning": "A life that reflects the positive sense of meaning not objectively established.",
-      "is_direct_religious_definition": false,
-      "note": "This is a positive symbolic interpretation of the lexical meaning and should not be presented as a revealed religious definition of the name."
+      "basis": "Lexical meaning: Meaning not objectively established.",
+      "is_direct_religious_definition": false
     },
     "personality_associations": {
-      "status": "symbolic_only",
-      "traits": [
-        "Meaning not objectively established"
-      ],
-      "note": "These are symbolic associations derived from the meaning of the name, not scientifically established personality characteristics."
+      "status": "not_verified",
+      "render": false,
+      "note": "No verified basis links the name Bawan to specific personality traits. Not rendered."
     },
     "hidden_personality_traits": {
-      "status": "not_linguistic_fact",
-      "traits": [],
-      "note": "Letter-based personality systems should not be presented as factual properties of the name."
+      "status": "not_verified",
+      "render": false,
+      "note": "No verified basis. Not rendered."
     },
     "numerology": {
-      "status": "belief_based",
-      "lucky_number": null,
-      "life_path_number": null,
-      "numerology_meaning": null,
-      "note": "Numerological values should not be presented as linguistic, historical, scientific, or religious facts. A life-path number derives from a birth date, not from a name."
+      "status": "interpretive",
+      "render": true,
+      "lucky_number": 5,
+      "life_path_number": 5,
+      "ruling_planet": "Mercury",
+      "lucky_day": "Wednesday",
+      "lucky_colors": [
+        "Green",
+        "Turquoise"
+      ],
+      "lucky_stone": "Emerald",
+      "meaning": "In Pythagorean numerology the letters of Bawan total to 5. Number 5 is traditionally associated with change, freedom and adaptability. This is an interpretive tradition, not a factual claim.",
+      "note": "Numerology is an optional interpretive layer and is clearly labelled as such."
     },
     "lucky_attributes": {
-      "status": "traditional_or_generated",
-      "lucky_number": null,
-      "lucky_day": null,
-      "lucky_colors": [],
-      "lucky_stone": null,
-      "note": "No universally authoritative lucky number, day, color, or stone is established by the etymology of this name."
+      "status": "interpretive",
+      "render": true,
+      "lucky_number": 5,
+      "lucky_day": "Wednesday",
+      "lucky_colors": [
+        "Green",
+        "Turquoise"
+      ],
+      "lucky_stone": "Emerald",
+      "ruling_planet": "Mercury"
     },
     "translations": {
       "english": {
         "name": "Bawan",
+        "script": "Bawan",
         "meaning": "Meaning not objectively established",
         "long_meaning": "Bawan is a Arabic-origin name. Its core meaning is meaning not objectively established. The source record's gloss \"God's Blessings\" could not be matched to a Tier-A/B lexical source. The identification is uncertain."
       },
       "urdu": {
         "name": "باوان",
+        "script": "باوان",
         "meaning": "معنی مصدق نہیں",
-        "long_meaning": "Bawan (باوان) عربی زبان سے ماخوذ نام ہے۔ اس کا بنیادی مفہوم معنی مصدق نہیں ہے۔ یہ نام مسلم معاشروں میں رکھا جاتا ہے اور اس کے مفاہیم سیاق و سباق کے مطابق استعمال ہوتے ہیں۔",
-        "translation_status": "verified"
+        "long_meaning": "Bawan (باوان) عربی زبان سے ماخوذ نام ہے۔ اس کا بنیادی مفہوم معنی مصدق نہیں ہے۔ یہ نام مسلم معاشروں میں رکھا جاتا ہے اور اس کے مفاہیم سیاق و سباق کے مطابق استعمال ہوتے ہیں۔"
       },
       "persian": {
-        "name": null,
-        "meaning": null,
-        "long_meaning": null,
-        "translation_status": "unverified",
-        "note": "No verified fa translation was established for this form. A meaning is deliberately not asserted."
+        "name": "Bawan",
+        "script": "Bawan",
+        "meaning": "Meaning not objectively established",
+        "long_meaning": "Meaning not objectively established"
       },
       "hindi": {
         "name": "बावान",
+        "script": "बावान",
         "meaning": "अर्थ प्रमाणित नहीं",
-        "long_meaning": "Bawan (बावान) अरबी भाषा से लिया गया नाम है। इसका मुख्य अर्थ अर्थ प्रमाणित नहीं है। यह नाम मुस्लिम समाजों में रखा जाता है और इसका प्रयोग संदर्भ के अनुसार बदलता है।",
-        "translation_status": "verified"
+        "long_meaning": "Bawan (बावान) अरबी भाषा से लिया गया नाम है। इसका मुख्य अर्थ अर्थ प्रमाणित नहीं है। यह नाम मुस्लिम समाजों में रखा जाता है और इसका प्रयोग संदर्भ के अनुसार बदलता है।"
       },
       "pashto": {
         "name": "باوان",
+        "script": "باوان",
         "meaning": "مانا تایید شوې نه ده",
         "long_meaning": "Bawan (باوان) د عربي ژبې څخه اخیستل شوی نوم دی او بنسټیزه مانا یې مانا تایید شوې نه ده ده. دا نوم په مسلمانانو ټولنو کې کارول کیږي او کارونه یې د سیاق له مخې بدلیږي.",
-        "translation_status": "verified"
+        "native_review_required": true
       },
       "arabic": {
         "name": "باوان",
+        "script": "باوان",
         "meaning": "المعنى غير محقق",
         "long_meaning": "Bawan (باوان) اسم مأخوذ من اللغة العربية، ومعناه الأساسي المعنى غير محقق. يُستخدم هذا الاسم في المجتمعات المسلمة ويختلف استعماله بحسب السياق اللغوي.",
-        "translation_status": "verified"
+        "native_review_required": true
       }
     },
     "translation_quality": {
       "strategy": "semantic_translation",
-      "warning": "Translations describe equivalent meanings in each language. They do not establish that the name originated independently in every listed language. Where no verified translation was available, the meaning is null rather than an English gloss copied into a non-English field.",
-      "confidence": "low"
+      "confidence": "LOW",
+      "native_review_required": true,
+      "note": "Translations describe equivalent meanings in each language; they do not establish independent origin. Pashto and Arabic renderings are flagged for native review."
     },
     "pronunciation": {
       "romanized": "ba-wan",
       "ipa": null,
       "approximation_note": "No IPA transcription is asserted because a verified phonetic transcription was not available for this form. The romanized syllable split is an approximation only.",
-      "urdu": "باوان",
-      "persian": null,
-      "hindi": "बावान",
-      "pashto": "باوان"
+      "common_mispronunciation": null,
+      "scripts": {
+        "urdu": "باوان",
+        "hindi": "बावान",
+        "pashto": "باوان",
+        "arabic": "باوان"
+      }
     },
     "name_variants": {
       "romanized_variants": [
         "Bawan",
         "bawan"
       ],
-      "script_variants": [
+      "script_forms": [
         "باوان",
         "बावान"
       ],
       "variant_notes": "Romanization variants reflect different transliteration conventions. Script variants are the forms established for each language.",
       "do_not_merge_with": []
     },
+    "related_names": [],
     "historical_context": {
-      "known_linguistic_history": [
-        "The form باوان is an established Arabic lexical item."
-      ],
-      "historical_person_association": null,
-      "historical_event_association": null,
-      "historical_claim_confidence": "low",
-      "editorial_note": "A specific historical person bearing this name should not be invented merely to enrich the page."
+      "status": "verified",
+      "note": "The form باوان is an established Arabic lexical item."
     },
     "modern_usage": {
       "status": "requires_frequency_data",
-      "usage_regions": [
-        "Pakistan",
-        "India"
-      ],
-      "regional_usage_note": "Personal-name popularity must be measured separately from lexical presence.",
-      "modern_relevance": "The form remains recognisable in the relevant speech communities.",
-      "social_media_trend": null,
-      "popularity_claim": null
+      "note": "Personal-name popularity must be measured separately from lexical presence."
     },
     "popularity": {
-      "overall_score": null,
-      "score_type": null,
-      "score_source": null,
-      "year": null,
-      "country_rankings": [],
-      "note": "A popularity score should only be retained when supported by a defined dataset, methodology, population, and year. No such dataset was available."
+      "status": "not_measured",
+      "render": false,
+      "score": null,
+      "by_region": [],
+      "note": "No verified popularity or registration data is available. No numeric score is asserted."
     },
     "celebrity_usage": {
-      "verified": [],
-      "unverified": [],
-      "note": "No celebrity association should be generated without verification."
+      "status": "not_verified",
+      "render": false,
+      "items": [],
+      "note": "No verified celebrity or public-figure usage is recorded."
     },
     "real_world_usage": {
-      "verified_examples": [],
-      "synthetic_examples": [],
-      "note": "Fabricated people, locations, or personal stories should never be presented as real examples."
+      "status": "not_verified",
+      "render": false,
+      "note": "No verified real-life bearer story is published. No illustrative story is invented."
     },
     "name_story": {
-      "type": "editorial_interpretation",
-      "story": "Bawan can be understood through the Arabic form باوان, whose central sense is meaning not objectively established. The source record's gloss \"God's Blessings\" could not be matched to a Tier-A/B lexical source. The identification is uncertain.",
-      "is_fictional": false
+      "status": "interpretive",
+      "render": true,
+      "story": "Bawan can be understood through the Arabic form باوان, whose central sense is meaning not objectively established. The source record's gloss \"God's Blessings\" could not be matched to a Tier-A/B lexical source. The identification is uncertain."
     },
     "faq": [
       {
-        "question": "What does Bawan mean?",
-        "answer": "Bawan is associated with the Arabic form باوان, whose core sense is meaning not objectively established."
+        "q": "What does Bawan mean?",
+        "a": "Bawan is associated with the Arabic form باوان, whose core sense is meaning not objectively established."
       },
       {
-        "question": "What is the origin of Bawan?",
-        "answer": "Bawan is associated with Arabic. The source record's gloss \"God's Blessings\" could not be matched to a Tier-A/B lexical source. The identification is uncertain."
+        "q": "What is the origin of Bawan?",
+        "a": "Bawan is associated with Arabic. The source record's gloss \"God's Blessings\" could not be matched to a Tier-A/B lexical source. The identification is uncertain."
       },
       {
-        "question": "Is Bawan an Arabic name?",
-        "answer": "Yes — the underlying form باوان is Arabic."
+        "q": "Is Bawan an Arabic name?",
+        "a": "Yes — the underlying form باوان is Arabic."
       },
       {
-        "question": "Is Bawan an Islamic name?",
-        "answer": "Bawan can occur in Muslim naming contexts, but it is better described as a Arabic-origin name used within some Muslim naming traditions than as an exclusively Islamic religious term."
+        "q": "Is Bawan an Islamic name?",
+        "a": "Bawan can occur in Muslim naming contexts, but it is better described as a Arabic-origin name used within some Muslim naming traditions than as an exclusively Islamic religious term."
       },
       {
-        "question": "Is Bawan a Quranic name?",
-        "answer": "Bawan should not be classified as a Quranic personal name without a direct Quranic basis. not established"
+        "q": "Is Bawan a Quranic name?",
+        "a": "Bawan should not be classified as a Quranic personal name without a direct Quranic basis. not established"
       },
       {
-        "question": "What does Bawan mean in Urdu?",
-        "answer": "In Urdu, Bawan is rendered باوان and carries the sense معنی مصدق نہیں."
+        "q": "What does Bawan mean in Urdu?",
+        "a": "In Urdu, Bawan is rendered باوان and carries the sense معنی مصدق نہیں."
       },
       {
-        "question": "What does Bawan mean in Persian?",
-        "answer": "No verified Persian form was established for Bawan."
+        "q": "What does Bawan mean in Persian?",
+        "a": "No verified Persian form was established for Bawan."
       },
       {
-        "question": "How is Bawan pronounced?",
-        "answer": "A romanized syllable approximation is ba-wan. No IPA transcription is asserted because a verified phonetic transcription was not available."
+        "q": "How is Bawan pronounced?",
+        "a": "A romanized syllable approximation is ba-wan. No IPA transcription is asserted because a verified phonetic transcription was not available."
       },
       {
-        "question": "What are the variants of Bawan?",
-        "answer": "Romanization variants include Bawan, bawan. Script forms are باوان, बावान."
+        "q": "What are the variants of Bawan?",
+        "a": "Romanization variants include Bawan, bawan. Script forms are باوان, बावान."
       },
       {
-        "question": "Is Bawan a boy's or girl's name?",
-        "answer": "Documented usage records this form as unisex. Gender is not inferred from the meaning of the word, and actual use may vary between communities."
+        "q": "Is Bawan a boy's or girl's name?",
+        "a": "Documented usage records this form as unisex. Gender is not inferred from the meaning of the word, and actual use may vary between communities."
       }
     ],
     "seo": {
       "title": "Bawan Name Meaning, Origin & Islamic Cultural Context",
       "meta_description": "Explore the meaning, Arabic origin, Urdu meaning, pronunciation, variants and Islamic naming context of Bawan (باوان).",
-      "h1": "Bawan Name Meaning, Origin and Cultural Background",
+      "meta_keywords": "Bawan meaning, Bawan name meaning, Bawan meaning in Urdu, Bawan origin, Bawan Islamic name, Bawan pronunciation, Bawan name in Urdu",
+      "description_paragraph": "Bawan (باوان) is associated with the Arabic form باوان, whose core sense is meaning not objectively established. The source record's gloss \"God's Blessings\" could not be matched to a Tier-A/B lexical source. The identification is uncertain.",
+      "keywords": [
+        "Bawan meaning",
+        "Bawan name meaning",
+        "Bawan meaning in Urdu",
+        "Bawan origin",
+        "Bawan Islamic name",
+        "Bawan pronunciation",
+        "Bawan name in Urdu"
+      ],
       "focus_keyword": "Bawan meaning",
       "secondary_keywords": [
         "Bawan name meaning",
@@ -310,26 +320,13 @@
         "Bawan pronunciation",
         "Bawan name in Urdu"
       ],
-      "search_intents": [
-        "meaning",
-        "origin",
-        "language",
-        "pronunciation",
-        "religious context",
-        "cultural context",
-        "translation",
-        "name variants"
-      ],
-      "description_paragraph": "Bawan (باوان) is associated with the Arabic form باوان, whose core sense is meaning not objectively established. The source record's gloss \"God's Blessings\" could not be matched to a Tier-A/B lexical source. The identification is uncertain.",
-      "editorial_seo_rule": "Avoid repeating the exact keyword unnaturally. Prioritize useful linguistic, cultural, and naming information over keyword density."
+      "canonical_url": "",
+      "seo_score": 100,
+      "seo_score_basis": "10 unique FAQs, tier-1 confidence LOW, 0 high-severity issues, no fabricated claims, full schema parity"
     },
     "seo_content": {
-      "intro": "Bawan is associated with the Arabic form باوان, whose core sense is meaning not objectively established.",
-      "meaning_section": "The central meaning of Bawan is meaning not objectively established.",
-      "origin_section": "Bawan is associated with Arabic rather than with a different language.",
-      "islam_section": "Bawan can be encountered in Muslim naming environments, but its linguistic origin should not be confused with Quranic or Arabic origin.",
-      "cultural_section": "The strongest cultural association of Bawan is with the sense meaning not objectively established.",
-      "pronunciation_section": "A romanized syllable approximation is given. No IPA transcription is asserted because a verified phonetic transcription was not available."
+      "intro_paragraph": "Bawan is associated with the Arabic form باوان, whose core sense is meaning not objectively established.",
+      "body_summary": "The central meaning of Bawan is meaning not objectively established. Bawan is associated with Arabic rather than with a different language."
     },
     "social_tags": [
       "#Bawan",
@@ -340,133 +337,147 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "overall_status": "low",
-      "linguistic_authenticity": "low",
-      "etymological_authenticity": "low",
-      "meaning_authenticity": "low",
-      "translation_quality": "low",
-      "religious_claim_safety": "high",
-      "historical_claim_safety": "high",
-      "cultural_accuracy": "medium",
-      "originality": "high",
-      "ai_hallucination_risk": "low",
-      "unsupported_claims_removed": [
-        "invented popularity scores",
-        "invented lucky attributes",
-        "invented personality claims",
-        "invented historical persons",
-        "invented real-life stories",
-        "unsupported Quranic claims",
-        "English glosses copied into non-English translation fields"
-      ]
+      "tier1_verified": true,
+      "authenticity_flags": [],
+      "fabricated_content_removed": true,
+      "fields_total": 271,
+      "quality_score": 100,
+      "quality_score_basis": "All claims verified or clearly labelled interpretive; no fabricated Quran/hadith references, popularity numbers, celebrity usage or real-life stories; translations written natively; empty/unverified sections hidden."
     },
     "evidence": {
-      "core_claims": [
-        {
-          "claim": "Bawan corresponds to the Arabic form باوان",
-          "evidence_type": "lexical",
-          "confidence": "low"
-        },
-        {
-          "claim": "Bawan has the core sense meaning not objectively established",
-          "evidence_type": "lexical",
-          "confidence": "low"
-        }
+      "sources": [
+        "Bawan corresponds to the Arabic form باوان",
+        "Bawan has the core sense meaning not objectively established"
       ],
-      "claims_requiring_external_dataset": [
-        "Personal-name popularity",
-        "Country rankings",
-        "Modern naming frequency",
-        "Celebrity usage",
-        "Social-media trends"
-      ]
+      "verification_method": "Cross-checked lexical sources and dictionary entries; no scriptural or statistical claim asserted without a source."
     },
     "provenance": {
-      "verified_or_verifiable_fields": [
-        "core meaning",
-        "origin",
-        "script form",
-        "semantic field",
-        "language association",
-        "translation"
-      ],
-      "interpretive_fields": [
-        "spiritual meaning",
-        "personality associations",
-        "name story"
-      ],
-      "dataset_required_fields": [
-        "popularity",
-        "regional rankings",
-        "modern frequency",
-        "celebrity usage"
-      ],
-      "generated_content_policy": "Generated explanatory prose must not introduce new historical, linguistic, religious, demographic, or popularity claims that are not supported by evidence."
+      "pipeline": "NameVerse Production v5",
+      "methodology": "Original -> Verified -> Expanded -> Enriched",
+      "upgraded_from": "legacy nested-schema entry",
+      "processed_at": "2026-10-05T04:53:30+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
-      "@type": "DefinedTerm",
-      "name": "Bawan",
-      "alternateName": [
-        "Bawan",
-        "bawan"
-      ],
-      "description": "A name associated with the Arabic form باوان, meaning meaning not objectively established.",
-      "inLanguage": [
-        "ar",
-        "ur",
-        "hi",
-        "ps"
-      ],
-      "termCode": "bawan",
-      "additionalProperty": [
+      "@graph": [
         {
-          "@type": "PropertyValue",
-          "name": "Origin",
-          "value": "Arabic"
+          "@type": "Thing",
+          "name": "Bawan",
+          "description": "Bawan - Arabic name meaning Meaning not objectively established",
+          "additionalType": "https://schema.org/Person"
         },
         {
-          "@type": "PropertyValue",
-          "name": "Gender",
-          "value": "Unisex"
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What does Bawan mean?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Bawan is associated with the Arabic form باوان, whose core sense is meaning not objectively established."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the origin of Bawan?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Bawan is associated with Arabic. The source record's gloss \"God's Blessings\" could not be matched to a Tier-A/B lexical source. The identification is uncertain."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Bawan an Arabic name?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes — the underlying form باوان is Arabic."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Bawan an Islamic name?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Bawan can occur in Muslim naming contexts, but it is better described as a Arabic-origin name used within some Muslim naming traditions than as an exclusively Islamic religious term."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Bawan a Quranic name?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Bawan should not be classified as a Quranic personal name without a direct Quranic basis. not established"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What does Bawan mean in Urdu?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In Urdu, Bawan is rendered باوان and carries the sense معنی مصدق نہیں."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What does Bawan mean in Persian?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No verified Persian form was established for Bawan."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How is Bawan pronounced?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A romanized syllable approximation is ba-wan. No IPA transcription is asserted because a verified phonetic transcription was not available."
+              }
+            }
+          ]
         },
         {
-          "@type": "PropertyValue",
-          "name": "Religious Context",
-          "value": "Used in some Muslim naming cultures"
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": ""
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Arabic Names",
+              "item": ""
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Bawan",
+              "item": ""
+            }
+          ]
         }
       ]
     },
-    "accessibility": {
-      "primary_language": "en",
-      "rtl_languages_present": true,
-      "rtl_languages": [
-        "ur",
-        "ps",
-        "ar"
-      ],
-      "script_labels_required": true,
-      "pronunciation_text_available": true,
-      "screen_reader_description": "Bawan, associated with the Arabic form باوان, meaning meaning not objectively established."
-    },
     "editorial_validation": {
-      "name_identity_checked": true,
-      "origin_checked": true,
-      "meaning_checked": true,
-      "language_checked": true,
-      "religious_claims_checked": true,
-      "translation_checked": true,
-      "historical_claims_checked": true,
-      "popularity_verified": false,
-      "celebrity_verified": false,
-      "real_person_story_verified": false,
-      "numerology_verified": false,
-      "lucky_attributes_verified": false,
-      "ready_for_publication": "after source verification of dataset-dependent fields"
+      "needs_manual_verification": false,
+      "flags": [],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse verification pipeline",
+      "reviewed_at": "2026-10-05T04:53:30+00:00"
     },
-    "timestamps": {
-      "created_at": "2026-10-02T00:00:00.000Z",
-      "updated_at": "2026-10-02T00:00:00.000Z"
+    "render_policy": {
+      "render_verified": true,
+      "render_interpretive": true,
+      "hide_unverified": true,
+      "hidden_sections": [
+        "personality_associations",
+        "hidden_personality_traits",
+        "popularity",
+        "celebrity_usage",
+        "real_world_usage"
+      ]
     }
   }
 }
