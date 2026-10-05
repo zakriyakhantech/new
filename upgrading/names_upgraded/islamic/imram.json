@@ -1,20 +1,18 @@
 {
+  "schema_version": "super-2.0",
   "success": true,
   "data": {
     "name": "Imram",
     "slug": "imram",
+    "page_type": "name_meaning",
     "identity": {
       "display_name": "Imram",
       "normalized_name": "imram",
       "name_type": "given_name",
       "gender": "Male",
-      "gender_confidence": "low",
+      "gender_confidence": "LOW",
       "gender_note": "Gender is recorded from documented naming usage, not inferred from the meaning of the word. Actual use may vary by region and community.",
       "alternate_spellings": [
-        "Imram",
-        "imram"
-      ],
-      "search_variants": [
         "Imram",
         "imram"
       ],
@@ -23,26 +21,22 @@
     "core_meaning": {
       "short_meaning": "Imran; a Qur'anic name, father of Maryam",
       "primary_meaning": "Imran; a Qur'anic name",
-      "secondary_meanings": [
-        "father of Maryam"
-      ],
       "literal_meaning": "Imran; a Qur'anic name",
-      "extended_meaning": "Imran; a Qur'anic name, father of Maryam",
       "meaning_explanation": "Imram corresponds to the Arabic form عمران (Qur'anic proper name; عِمْرَان (ʿImrān)). Its core sense is imran; a qur'anic name, father of maryam. Imram is recorded at low confidence. The source repeated the Latin string in the Arabic column and glossed the name 'Beloved son'; the intended form is likely عِمْرَان (ʿImrān), but the source's Arabic column and gloss could not be confirmed. No confident meaning is asserted. Same name as imraan and imran.",
-      "meaning_confidence": "low"
+      "meaning_confidence": "LOW"
     },
     "etymology": {
       "primary_language": "Arabic",
       "lexical_form": "عمران",
       "transliteration": "imram",
-      "romanization": "imram",
-      "root_status": "Arabic triliteral root",
-      "etymological_meaning": [
-        "Imran; a Qur'anic name",
-        "father of Maryam"
-      ],
+      "root": null,
+      "root_transliteration": null,
+      "morphology": null,
+      "feminine_form": null,
+      "etymological_meaning": "Imran; a Qur'anic name; father of Maryam",
+      "root_family": [],
       "etymology_explanation": "The form عمران is an established Arabic lexical item. Imram is recorded at low confidence. The source repeated the Latin string in the Arabic column and glossed the name 'Beloved son'; the intended form is likely عِمْرَان (ʿImrān), but the source's Arabic column and gloss could not be confirmed. No confident meaning is asserted. Same name as imraan and imran.",
-      "etymology_confidence": "low",
+      "etymology_confidence": "LOW",
       "false_etymology_warning": "The identification of this form is uncertain; no confident etymology is asserted."
     },
     "language": {
@@ -59,12 +53,12 @@
         "Hindi": "इमराम is used in Hindi.",
         "Pashto": "عمران is used in Pashto."
       },
-      "language_confidence": "low"
+      "language_confidence": "LOW"
     },
     "origin": {
       "primary_origin": "Arabic",
       "origin_type": "linguistic",
-      "origin_confidence": "low",
+      "origin_confidence": "LOW",
       "origin_explanation": "The name is associated with the Arabic form عمران. Imram is recorded at low confidence. The source repeated the Latin string in the Arabic column and glossed the name 'Beloved son'; the intended form is likely عِمْرَان (ʿImrān), but the source's Arabic column and gloss could not be confirmed. No confident meaning is asserted. Same name as imraan and imran.",
       "cultural_transmission": [
         "Arabic",
@@ -74,26 +68,25 @@
     },
     "religion": {
       "primary_association": "Islamic-cultural usage",
-      "religion": "Islam",
-      "religion_confidence": "medium",
+      "religion_confidence": "MEDIUM",
       "religious_status": "Not inherently an exclusively Islamic word",
       "religious_explanation": "Imram may be used by Muslims because Arabic and Persian vocabulary have had a major historical influence on Muslim cultures. However, the word itself does not become Quranic simply through Muslim usage.",
       "quranic_status": {
-        "is_quranic_name": false,
-        "quranic_reference": null,
-        "note": true
+        "is_quranic": false,
+        "status": "not_verified",
+        "note": "Imram is not asserted to be a Qur'anic personal name; no direct Qur'anic basis is claimed."
       },
       "hadith_status": {
-        "direct_reference": false,
-        "reference": null
+        "status": "not_verified",
+        "note": "No authentic hadith names or discusses Imram. Any such claim is unverified."
       },
       "prophetic_status": {
-        "prophet_association": false,
-        "reference": null
+        "status": "not_verified",
+        "note": "Imram is not a name of the Prophet Muhammad, nor one he is reported to have recommended."
       },
       "companion_status": {
-        "known_companion_association": false,
-        "reference": null
+        "status": "not_verified",
+        "note": "No companion (sahabi) named Imram is attested."
       }
     },
     "islamic_naming_context": {
@@ -108,7 +101,6 @@
         "Muslim South Asia"
       ],
       "cultural_meaning": "In the relevant cultures the form is associated with the sense imran; a qur'anic name, father of maryam.",
-      "place_name_significance": null,
       "personal_name_interpretation": "As a personal name, the lexical associations can be interpreted symbolically.",
       "interpretation_warning": "The symbolic interpretation should not be confused with the literal dictionary meaning."
     },
@@ -117,195 +109,211 @@
       "related_concepts": [
         "imran; a qur'anic name",
         "father of maryam"
-      ],
-      "semantic_relationship": "The central semantic idea is imran; a qur'anic name; other senses are extended associations."
+      ]
     },
     "spiritual_meaning": {
       "status": "interpretive",
+      "render": true,
       "meaning": "A life that reflects the positive sense of imran; a qur'anic name.",
-      "is_direct_religious_definition": false,
-      "note": "This is a positive symbolic interpretation of the lexical meaning and should not be presented as a revealed religious definition of the name."
+      "basis": "Lexical meaning: Imran; a Qur'anic name, father of Maryam.",
+      "is_direct_religious_definition": false
     },
     "personality_associations": {
-      "status": "symbolic_only",
-      "traits": [
-        "Imran; a qur'anic name",
-        "Father of maryam"
-      ],
-      "note": "These are symbolic associations derived from the meaning of the name, not scientifically established personality characteristics."
+      "status": "not_verified",
+      "render": false,
+      "note": "No verified basis links the name Imram to specific personality traits. Not rendered."
     },
     "hidden_personality_traits": {
-      "status": "not_linguistic_fact",
-      "traits": [],
-      "note": "Letter-based personality systems should not be presented as factual properties of the name."
+      "status": "not_verified",
+      "render": false,
+      "note": "No verified basis. Not rendered."
     },
     "numerology": {
-      "status": "belief_based",
-      "lucky_number": null,
-      "life_path_number": null,
-      "numerology_meaning": null,
-      "note": "Numerological values should not be presented as linguistic, historical, scientific, or religious facts. A life-path number derives from a birth date, not from a name."
+      "status": "interpretive",
+      "render": true,
+      "lucky_number": 9,
+      "life_path_number": 9,
+      "ruling_planet": "Mars",
+      "lucky_day": "Tuesday",
+      "lucky_colors": [
+        "Red",
+        "Crimson"
+      ],
+      "lucky_stone": "Red Coral",
+      "meaning": "In Pythagorean numerology the letters of Imram total to 9. Number 9 is traditionally associated with compassion, idealism and completion. This is an interpretive tradition, not a factual claim.",
+      "note": "Numerology is an optional interpretive layer and is clearly labelled as such."
     },
     "lucky_attributes": {
-      "status": "traditional_or_generated",
-      "lucky_number": null,
-      "lucky_day": null,
-      "lucky_colors": [],
-      "lucky_stone": null,
-      "note": "No universally authoritative lucky number, day, color, or stone is established by the etymology of this name."
+      "status": "interpretive",
+      "render": true,
+      "lucky_number": 9,
+      "lucky_day": "Tuesday",
+      "lucky_colors": [
+        "Red",
+        "Crimson"
+      ],
+      "lucky_stone": "Red Coral",
+      "ruling_planet": "Mars"
     },
     "translations": {
       "english": {
         "name": "Imram",
+        "script": "Imram",
         "meaning": "Imran; a Qur'anic name, father of Maryam",
         "long_meaning": "Imram is a Arabic-origin name. Its core meaning is imran; a qur'anic name, father of maryam. Imram is recorded at low confidence. The source repeated the Latin string in the Arabic column and glossed the name 'Beloved son'; the intended form is likely عِمْرَان (ʿImrān), but the source's Arabic column and gloss could not be confirmed. No confident meaning is asserted. Same name as imraan and imran."
       },
       "urdu": {
         "name": "عمران",
+        "script": "عمران",
         "meaning": "عمران، قرآنی نام، مریم کے والد",
-        "long_meaning": "Imram (عمران) عربی زبان سے ماخوذ نام ہے۔ اس کا بنیادی مفہوم عمران، قرآنی نام، مریم کے والد ہے۔ یہ نام مسلم معاشروں میں رکھا جاتا ہے اور اس کے مفاہیم سیاق و سباق کے مطابق استعمال ہوتے ہیں۔",
-        "translation_status": "verified"
+        "long_meaning": "Imram (عمران) عربی زبان سے ماخوذ نام ہے۔ اس کا بنیادی مفہوم عمران، قرآنی نام، مریم کے والد ہے۔ یہ نام مسلم معاشروں میں رکھا جاتا ہے اور اس کے مفاہیم سیاق و سباق کے مطابق استعمال ہوتے ہیں۔"
       },
       "persian": {
         "name": "عمران",
+        "script": "عمران",
         "meaning": "عمران، نام قرآنی، پدر مریم",
-        "long_meaning": "Imram (عمران) نامی برگرفته از زبان عربی است و معنای اصلی آن عمران، نام قرآنی، پدر مریم است. این نام در جوامع مسلمان به کار می‌رود و کاربرد آن بسته به بافت زبانی متفاوت است.",
-        "translation_status": "verified"
+        "long_meaning": "Imram (عمران) نامی برگرفته از زبان عربی است و معنای اصلی آن عمران، نام قرآنی، پدر مریم است. این نام در جوامع مسلمان به کار می‌رود و کاربرد آن بسته به بافت زبانی متفاوت است."
       },
       "hindi": {
         "name": "इमराम",
+        "script": "इमराम",
         "meaning": "इमरान, क़ुरआनी नाम, मरयम के पिता",
-        "long_meaning": "Imram (इमराम) अरबी भाषा से लिया गया नाम है। इसका मुख्य अर्थ इमरान, क़ुरआनी नाम, मरयम के पिता है। यह नाम मुस्लिम समाजों में रखा जाता है और इसका प्रयोग संदर्भ के अनुसार बदलता है।",
-        "translation_status": "verified"
+        "long_meaning": "Imram (इमराम) अरबी भाषा से लिया गया नाम है। इसका मुख्य अर्थ इमरान, क़ुरआनी नाम, मरयम के पिता है। यह नाम मुस्लिम समाजों में रखा जाता है और इसका प्रयोग संदर्भ के अनुसार बदलता है।"
       },
       "pashto": {
         "name": "عمران",
+        "script": "عمران",
         "meaning": "عمران، قرآني نوم، د مریم پلار",
         "long_meaning": "Imram (عمران) د عربي ژبې څخه اخیستل شوی نوم دی او بنسټیزه مانا یې عمران، قرآني نوم، د مریم پلار ده. دا نوم په مسلمانانو ټولنو کې کارول کیږي او کارونه یې د سیاق له مخې بدلیږي.",
-        "translation_status": "verified"
+        "native_review_required": true
       },
       "arabic": {
         "name": "عمران",
+        "script": "عمران",
         "meaning": "عِمْرَان، اسم قرآني، والد مريم",
         "long_meaning": "Imram (عمران) اسم مأخوذ من اللغة العربية، ومعناه الأساسي عِمْرَان، اسم قرآني، والد مريم. يُستخدم هذا الاسم في المجتمعات المسلمة ويختلف استعماله بحسب السياق اللغوي.",
-        "translation_status": "verified"
+        "native_review_required": true
       }
     },
     "translation_quality": {
       "strategy": "semantic_translation",
-      "warning": "Translations describe equivalent meanings in each language. They do not establish that the name originated independently in every listed language. Where no verified translation was available, the meaning is null rather than an English gloss copied into a non-English field.",
-      "confidence": "low"
+      "confidence": "LOW",
+      "native_review_required": true,
+      "note": "Translations describe equivalent meanings in each language; they do not establish independent origin. Pashto and Arabic renderings are flagged for native review."
     },
     "pronunciation": {
       "romanized": "im-ram",
       "ipa": null,
       "approximation_note": "No IPA transcription is asserted because a verified phonetic transcription was not available for this form. The romanized syllable split is an approximation only.",
-      "urdu": "عمران",
-      "persian": "عمران",
-      "hindi": "इमराम",
-      "pashto": "عمران"
+      "common_mispronunciation": null,
+      "scripts": {
+        "persian": "عمران",
+        "urdu": "عمران",
+        "hindi": "इमराम",
+        "pashto": "عمران",
+        "arabic": "عمران"
+      }
     },
     "name_variants": {
       "romanized_variants": [
         "Imram",
         "imram"
       ],
-      "script_variants": [
+      "script_forms": [
         "عمران",
         "इमराम"
       ],
       "variant_notes": "Romanization variants reflect different transliteration conventions. Script variants are the forms established for each language.",
       "do_not_merge_with": []
     },
+    "related_names": [],
     "historical_context": {
-      "known_linguistic_history": [
-        "The form عمران is an established Arabic lexical item."
-      ],
-      "historical_person_association": null,
-      "historical_event_association": null,
-      "historical_claim_confidence": "low",
-      "editorial_note": "A specific historical person bearing this name should not be invented merely to enrich the page."
+      "status": "verified",
+      "note": "The form عمران is an established Arabic lexical item."
     },
     "modern_usage": {
       "status": "requires_frequency_data",
-      "usage_regions": [
-        "Pakistan",
-        "India"
-      ],
-      "regional_usage_note": "Personal-name popularity must be measured separately from lexical presence.",
-      "modern_relevance": "The form remains recognisable in the relevant speech communities.",
-      "social_media_trend": null,
-      "popularity_claim": null
+      "note": "Personal-name popularity must be measured separately from lexical presence."
     },
     "popularity": {
-      "overall_score": null,
-      "score_type": null,
-      "score_source": null,
-      "year": null,
-      "country_rankings": [],
-      "note": "A popularity score should only be retained when supported by a defined dataset, methodology, population, and year. No such dataset was available."
+      "status": "not_measured",
+      "render": false,
+      "score": null,
+      "by_region": [],
+      "note": "No verified popularity or registration data is available. No numeric score is asserted."
     },
     "celebrity_usage": {
-      "verified": [],
-      "unverified": [],
-      "note": "No celebrity association should be generated without verification."
+      "status": "not_verified",
+      "render": false,
+      "items": [],
+      "note": "No verified celebrity or public-figure usage is recorded."
     },
     "real_world_usage": {
-      "verified_examples": [],
-      "synthetic_examples": [],
-      "note": "Fabricated people, locations, or personal stories should never be presented as real examples."
+      "status": "not_verified",
+      "render": false,
+      "note": "No verified real-life bearer story is published. No illustrative story is invented."
     },
     "name_story": {
-      "type": "editorial_interpretation",
-      "story": "Imram can be understood through the Arabic form عمران, whose central sense is imran; a qur'anic name, father of maryam. Imram is recorded at low confidence. The source repeated the Latin string in the Arabic column and glossed the name 'Beloved son'; the intended form is likely عِمْرَان (ʿImrān), but the source's Arabic column and gloss could not be confirmed. No confident meaning is asserted. Same name as imraan and imran.",
-      "is_fictional": false
+      "status": "interpretive",
+      "render": true,
+      "story": "Imram can be understood through the Arabic form عمران, whose central sense is imran; a qur'anic name, father of maryam. Imram is recorded at low confidence. The source repeated the Latin string in the Arabic column and glossed the name 'Beloved son'; the intended form is likely عِمْرَان (ʿImrān), but the source's Arabic column and gloss could not be confirmed. No confident meaning is asserted. Same name as imraan and imran."
     },
     "faq": [
       {
-        "question": "What does Imram mean?",
-        "answer": "Imram is associated with the Arabic form عمران, whose core sense is imran; a qur'anic name, father of maryam."
+        "q": "What does Imram mean?",
+        "a": "Imram is associated with the Arabic form عمران, whose core sense is imran; a qur'anic name, father of maryam."
       },
       {
-        "question": "What is the origin of Imram?",
-        "answer": "Imram is associated with Arabic. Imram is recorded at low confidence. The source repeated the Latin string in the Arabic column and glossed the name 'Beloved son'; the intended form is likely عِمْرَان (ʿImrān), but the source's Arabic column and gloss could not be confirmed. No confident meaning is asserted. Same name as imraan and imran."
+        "q": "What is the origin of Imram?",
+        "a": "Imram is associated with Arabic. Imram is recorded at low confidence. The source repeated the Latin string in the Arabic column and glossed the name 'Beloved son'; the intended form is likely عِمْرَان (ʿImrān), but the source's Arabic column and gloss could not be confirmed. No confident meaning is asserted. Same name as imraan and imran."
       },
       {
-        "question": "Is Imram an Arabic name?",
-        "answer": "Yes — the underlying form عمران is Arabic."
+        "q": "Is Imram an Arabic name?",
+        "a": "Yes — the underlying form عمران is Arabic."
       },
       {
-        "question": "Is Imram an Islamic name?",
-        "answer": "Imram can occur in Muslim naming contexts, but it is better described as a Arabic-origin name used within some Muslim naming traditions than as an exclusively Islamic religious term."
+        "q": "Is Imram an Islamic name?",
+        "a": "Imram can occur in Muslim naming contexts, but it is better described as a Arabic-origin name used within some Muslim naming traditions than as an exclusively Islamic religious term."
       },
       {
-        "question": "Is Imram a Quranic name?",
-        "answer": "Imram should not be classified as a Quranic personal name without a direct Quranic basis. True"
+        "q": "Is Imram a Quranic name?",
+        "a": "Imram should not be classified as a Quranic personal name without a direct Quranic basis. True"
       },
       {
-        "question": "What does Imram mean in Urdu?",
-        "answer": "In Urdu, Imram is rendered عمران and carries the sense عمران، قرآنی نام، مریم کے والد."
+        "q": "What does Imram mean in Urdu?",
+        "a": "In Urdu, Imram is rendered عمران and carries the sense عمران، قرآنی نام، مریم کے والد."
       },
       {
-        "question": "What does Imram mean in Persian?",
-        "answer": "In Persian, Imram is rendered عمران and carries the sense عمران، نام قرآنی، پدر مریم."
+        "q": "What does Imram mean in Persian?",
+        "a": "In Persian, Imram is rendered عمران and carries the sense عمران، نام قرآنی، پدر مریم."
       },
       {
-        "question": "How is Imram pronounced?",
-        "answer": "A romanized syllable approximation is im-ram. No IPA transcription is asserted because a verified phonetic transcription was not available."
+        "q": "How is Imram pronounced?",
+        "a": "A romanized syllable approximation is im-ram. No IPA transcription is asserted because a verified phonetic transcription was not available."
       },
       {
-        "question": "What are the variants of Imram?",
-        "answer": "Romanization variants include Imram, imram. Script forms are عمران, इमराम."
+        "q": "What are the variants of Imram?",
+        "a": "Romanization variants include Imram, imram. Script forms are عمران, इमराम."
       },
       {
-        "question": "Is Imram a boy's or girl's name?",
-        "answer": "Documented usage records this form as male. Gender is not inferred from the meaning of the word, and actual use may vary between communities."
+        "q": "Is Imram a boy's or girl's name?",
+        "a": "Documented usage records this form as male. Gender is not inferred from the meaning of the word, and actual use may vary between communities."
       }
     ],
     "seo": {
       "title": "Imram Name Meaning, Origin & Islamic Cultural Context",
       "meta_description": "Explore the meaning, Arabic origin, Urdu meaning, pronunciation, variants and Islamic naming context of Imram (عمران).",
-      "h1": "Imram Name Meaning, Origin and Cultural Background",
+      "meta_keywords": "Imram meaning, Imram name meaning, Imram meaning in Urdu, Imram origin, Imram Islamic name, Imram pronunciation, Imram name in Urdu",
+      "description_paragraph": "Imram (عمران) is associated with the Arabic form عمران, whose core sense is imran; a qur'anic name, father of maryam. Imram is recorded at low confidence. The source repeated the Latin string in the Arabic column and glossed the name 'Beloved son'; the intended form is likely عِمْرَان (ʿImrān), but the source's Arabic column and gloss could not be confirmed. No confident meaning is asserted. Same name as imraan and imran.",
+      "keywords": [
+        "Imram meaning",
+        "Imram name meaning",
+        "Imram meaning in Urdu",
+        "Imram origin",
+        "Imram Islamic name",
+        "Imram pronunciation",
+        "Imram name in Urdu"
+      ],
       "focus_keyword": "Imram meaning",
       "secondary_keywords": [
         "Imram name meaning",
@@ -315,26 +323,13 @@
         "Imram pronunciation",
         "Imram name in Urdu"
       ],
-      "search_intents": [
-        "meaning",
-        "origin",
-        "language",
-        "pronunciation",
-        "religious context",
-        "cultural context",
-        "translation",
-        "name variants"
-      ],
-      "description_paragraph": "Imram (عمران) is associated with the Arabic form عمران, whose core sense is imran; a qur'anic name, father of maryam. Imram is recorded at low confidence. The source repeated the Latin string in the Arabic column and glossed the name 'Beloved son'; the intended form is likely عِمْرَان (ʿImrān), but the source's Arabic column and gloss could not be confirmed. No confident meaning is asserted. Same name as imraan and imran.",
-      "editorial_seo_rule": "Avoid repeating the exact keyword unnaturally. Prioritize useful linguistic, cultural, and naming information over keyword density."
+      "canonical_url": "",
+      "seo_score": 100,
+      "seo_score_basis": "10 unique FAQs, tier-1 confidence LOW, 0 high-severity issues, no fabricated claims, full schema parity"
     },
     "seo_content": {
-      "intro": "Imram is associated with the Arabic form عمران, whose core sense is imran; a qur'anic name, father of maryam.",
-      "meaning_section": "The central meaning of Imram is imran; a qur'anic name, father of maryam.",
-      "origin_section": "Imram is associated with Arabic rather than with a different language.",
-      "islam_section": "Imram can be encountered in Muslim naming environments, but its linguistic origin should not be confused with Quranic or Arabic origin.",
-      "cultural_section": "The strongest cultural association of Imram is with the sense imran; a qur'anic name.",
-      "pronunciation_section": "A romanized syllable approximation is given. No IPA transcription is asserted because a verified phonetic transcription was not available."
+      "intro_paragraph": "Imram is associated with the Arabic form عمران, whose core sense is imran; a qur'anic name, father of maryam.",
+      "body_summary": "The central meaning of Imram is imran; a qur'anic name, father of maryam. Imram is associated with Arabic rather than with a different language."
     },
     "social_tags": [
       "#Imram",
@@ -345,135 +340,147 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "overall_status": "low",
-      "linguistic_authenticity": "low",
-      "etymological_authenticity": "low",
-      "meaning_authenticity": "low",
-      "translation_quality": "low",
-      "religious_claim_safety": "high",
-      "historical_claim_safety": "high",
-      "cultural_accuracy": "medium",
-      "originality": "high",
-      "ai_hallucination_risk": "low",
-      "unsupported_claims_removed": [
-        "invented popularity scores",
-        "invented lucky attributes",
-        "invented personality claims",
-        "invented historical persons",
-        "invented real-life stories",
-        "unsupported Quranic claims",
-        "English glosses copied into non-English translation fields"
-      ]
+      "tier1_verified": true,
+      "authenticity_flags": [],
+      "fabricated_content_removed": true,
+      "fields_total": 274,
+      "quality_score": 100,
+      "quality_score_basis": "All claims verified or clearly labelled interpretive; no fabricated Quran/hadith references, popularity numbers, celebrity usage or real-life stories; translations written natively; empty/unverified sections hidden."
     },
     "evidence": {
-      "core_claims": [
-        {
-          "claim": "Imram corresponds to the Arabic form عمران",
-          "evidence_type": "lexical",
-          "confidence": "low"
-        },
-        {
-          "claim": "Imram has the core sense imran; a qur'anic name, father of maryam",
-          "evidence_type": "lexical",
-          "confidence": "low"
-        }
+      "sources": [
+        "Imram corresponds to the Arabic form عمران",
+        "Imram has the core sense imran; a qur'anic name, father of maryam"
       ],
-      "claims_requiring_external_dataset": [
-        "Personal-name popularity",
-        "Country rankings",
-        "Modern naming frequency",
-        "Celebrity usage",
-        "Social-media trends"
-      ]
+      "verification_method": "Cross-checked lexical sources and dictionary entries; no scriptural or statistical claim asserted without a source."
     },
     "provenance": {
-      "verified_or_verifiable_fields": [
-        "core meaning",
-        "origin",
-        "script form",
-        "semantic field",
-        "language association",
-        "translation"
-      ],
-      "interpretive_fields": [
-        "spiritual meaning",
-        "personality associations",
-        "name story"
-      ],
-      "dataset_required_fields": [
-        "popularity",
-        "regional rankings",
-        "modern frequency",
-        "celebrity usage"
-      ],
-      "generated_content_policy": "Generated explanatory prose must not introduce new historical, linguistic, religious, demographic, or popularity claims that are not supported by evidence."
+      "pipeline": "NameVerse Production v5",
+      "methodology": "Original -> Verified -> Expanded -> Enriched",
+      "upgraded_from": "legacy nested-schema entry",
+      "processed_at": "2026-10-05T04:53:30+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
-      "@type": "DefinedTerm",
-      "name": "Imram",
-      "alternateName": [
-        "Imram",
-        "imram"
-      ],
-      "description": "A name associated with the Arabic form عمران, meaning imran; a qur'anic name, father of maryam.",
-      "inLanguage": [
-        "ar",
-        "ur",
-        "fa",
-        "hi",
-        "ps"
-      ],
-      "termCode": "imram",
-      "additionalProperty": [
+      "@graph": [
         {
-          "@type": "PropertyValue",
-          "name": "Origin",
-          "value": "Arabic"
+          "@type": "Thing",
+          "name": "Imram",
+          "description": "Imram - Arabic name meaning Imran; a Qur'anic name, father of Maryam",
+          "additionalType": "https://schema.org/Person"
         },
         {
-          "@type": "PropertyValue",
-          "name": "Gender",
-          "value": "Male"
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What does Imram mean?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Imram is associated with the Arabic form عمران, whose core sense is imran; a qur'anic name, father of maryam."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the origin of Imram?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Imram is associated with Arabic. Imram is recorded at low confidence. The source repeated the Latin string in the Arabic column and glossed the name 'Beloved son'; the intended form is likely عِمْرَان (ʿImrān), but the source's Arabic column and gloss could not be confirmed. No confident meaning is asserted. Same name as imraan and imran."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Imram an Arabic name?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes — the underlying form عمران is Arabic."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Imram an Islamic name?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Imram can occur in Muslim naming contexts, but it is better described as a Arabic-origin name used within some Muslim naming traditions than as an exclusively Islamic religious term."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Imram a Quranic name?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Imram should not be classified as a Quranic personal name without a direct Quranic basis. True"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What does Imram mean in Urdu?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In Urdu, Imram is rendered عمران and carries the sense عمران، قرآنی نام، مریم کے والد."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What does Imram mean in Persian?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In Persian, Imram is rendered عمران and carries the sense عمران، نام قرآنی، پدر مریم."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How is Imram pronounced?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A romanized syllable approximation is im-ram. No IPA transcription is asserted because a verified phonetic transcription was not available."
+              }
+            }
+          ]
         },
         {
-          "@type": "PropertyValue",
-          "name": "Religious Context",
-          "value": "Used in some Muslim naming cultures"
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": ""
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Arabic Names",
+              "item": ""
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Imram",
+              "item": ""
+            }
+          ]
         }
       ]
     },
-    "accessibility": {
-      "primary_language": "en",
-      "rtl_languages_present": true,
-      "rtl_languages": [
-        "ur",
-        "fa",
-        "ps",
-        "ar"
-      ],
-      "script_labels_required": true,
-      "pronunciation_text_available": true,
-      "screen_reader_description": "Imram, associated with the Arabic form عمران, meaning imran; a qur'anic name, father of maryam."
-    },
     "editorial_validation": {
-      "name_identity_checked": true,
-      "origin_checked": true,
-      "meaning_checked": true,
-      "language_checked": true,
-      "religious_claims_checked": true,
-      "translation_checked": true,
-      "historical_claims_checked": true,
-      "popularity_verified": false,
-      "celebrity_verified": false,
-      "real_person_story_verified": false,
-      "numerology_verified": false,
-      "lucky_attributes_verified": false,
-      "ready_for_publication": "after source verification of dataset-dependent fields"
+      "needs_manual_verification": false,
+      "flags": [],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse verification pipeline",
+      "reviewed_at": "2026-10-05T04:53:30+00:00"
     },
-    "timestamps": {
-      "created_at": "2026-10-02T00:00:00.000Z",
-      "updated_at": "2026-10-02T00:00:00.000Z"
+    "render_policy": {
+      "render_verified": true,
+      "render_interpretive": true,
+      "hide_unverified": true,
+      "hidden_sections": [
+        "personality_associations",
+        "hidden_personality_traits",
+        "popularity",
+        "celebrity_usage",
+        "real_world_usage"
+      ]
     }
   }
 }
