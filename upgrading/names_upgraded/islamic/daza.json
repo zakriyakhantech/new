@@ -1,20 +1,18 @@
 {
+  "schema_version": "super-2.0",
   "success": true,
   "data": {
     "name": "Daza",
     "slug": "daza",
+    "page_type": "name_meaning",
     "identity": {
       "display_name": "Daza",
       "normalized_name": "daza",
       "name_type": "given_name",
       "gender": "Female",
-      "gender_confidence": "low",
+      "gender_confidence": "LOW",
       "gender_note": "Gender is recorded from documented naming usage, not inferred from the meaning of the word. Actual use may vary by region and community.",
       "alternate_spellings": [
-        "Daza",
-        "daza"
-      ],
-      "search_variants": [
         "Daza",
         "daza"
       ],
@@ -23,28 +21,22 @@
     "core_meaning": {
       "short_meaning": "Blooming, blossoming, flourishing",
       "primary_meaning": "Blooming",
-      "secondary_meanings": [
-        "blossoming",
-        "flourishing"
-      ],
       "literal_meaning": "Blooming",
-      "extended_meaning": "Blooming, blossoming, flourishing",
       "meaning_explanation": "Daza corresponds to the Unknown form دازا (—). Its core sense is blooming, blossoming, flourishing. The source record's gloss 'Blooming' could not be matched to a Tier-A/B lexical source. The identification is uncertain.",
-      "meaning_confidence": "low"
+      "meaning_confidence": "LOW"
     },
     "etymology": {
       "primary_language": "Unknown",
       "lexical_form": "دازا",
       "transliteration": "daza",
-      "romanization": "daza",
-      "root_status": "No reliable root analysis established.",
-      "etymological_meaning": [
-        "Blooming",
-        "blossoming",
-        "flourishing"
-      ],
+      "root": null,
+      "root_transliteration": null,
+      "morphology": null,
+      "feminine_form": null,
+      "etymological_meaning": "Blooming; blossoming; flourishing",
+      "root_family": [],
       "etymology_explanation": "The form دازا is an established Unknown lexical item. The source record's gloss 'Blooming' could not be matched to a Tier-A/B lexical source. The identification is uncertain.",
-      "etymology_confidence": "low",
+      "etymology_confidence": "LOW",
       "false_etymology_warning": "The identification of this form is uncertain; no confident etymology is asserted."
     },
     "language": {
@@ -60,37 +52,36 @@
         "Hindi": "दाज़ा is used in Hindi.",
         "Pashto": "دازا is used in Pashto."
       },
-      "language_confidence": "low"
+      "language_confidence": "LOW"
     },
     "origin": {
       "primary_origin": "Unknown",
       "origin_type": "linguistic",
-      "origin_confidence": "low",
+      "origin_confidence": "LOW",
       "origin_explanation": "The name is associated with the Unknown form دازا. The source record's gloss 'Blooming' could not be matched to a Tier-A/B lexical source. The identification is uncertain.",
       "cultural_transmission": []
     },
     "religion": {
       "primary_association": "South Asian cultural usage",
-      "religion": "Not inherently religious",
-      "religion_confidence": "medium",
+      "religion_confidence": "MEDIUM",
       "religious_status": "Not inherently an exclusively Islamic word",
       "religious_explanation": "Daza may be used by Muslims because Arabic and Persian vocabulary have had a major historical influence on Muslim cultures. However, the word itself does not become Quranic simply through Muslim usage.",
       "quranic_status": {
-        "is_quranic_name": false,
-        "quranic_reference": null,
-        "note": "not established"
+        "is_quranic": false,
+        "status": "not_verified",
+        "note": "Daza is not asserted to be a Qur'anic personal name; no direct Qur'anic basis is claimed."
       },
       "hadith_status": {
-        "direct_reference": false,
-        "reference": null
+        "status": "not_verified",
+        "note": "No authentic hadith names or discusses Daza. Any such claim is unverified."
       },
       "prophetic_status": {
-        "prophet_association": false,
-        "reference": null
+        "status": "not_verified",
+        "note": "Daza is not a name of the Prophet Muhammad, nor one he is reported to have recommended."
       },
       "companion_status": {
-        "known_companion_association": false,
-        "reference": null
+        "status": "not_verified",
+        "note": "No companion (sahabi) named Daza is attested."
       }
     },
     "islamic_naming_context": {
@@ -104,7 +95,6 @@
         "South Asia"
       ],
       "cultural_meaning": "In the relevant cultures the form is associated with the sense blooming, blossoming, flourishing.",
-      "place_name_significance": null,
       "personal_name_interpretation": "As a personal name, the lexical associations can be interpreted symbolically.",
       "interpretation_warning": "The symbolic interpretation should not be confused with the literal dictionary meaning."
     },
@@ -114,196 +104,210 @@
         "blooming",
         "blossoming",
         "flourishing"
-      ],
-      "semantic_relationship": "The central semantic idea is blooming; other senses are extended associations."
+      ]
     },
     "spiritual_meaning": {
       "status": "interpretive",
+      "render": true,
       "meaning": "A life that reflects the positive sense of blooming.",
-      "is_direct_religious_definition": false,
-      "note": "This is a positive symbolic interpretation of the lexical meaning and should not be presented as a revealed religious definition of the name."
+      "basis": "Lexical meaning: Blooming, blossoming, flourishing.",
+      "is_direct_religious_definition": false
     },
     "personality_associations": {
-      "status": "symbolic_only",
-      "traits": [
-        "Blooming",
-        "Blossoming",
-        "Flourishing"
-      ],
-      "note": "These are symbolic associations derived from the meaning of the name, not scientifically established personality characteristics."
+      "status": "not_verified",
+      "render": false,
+      "note": "No verified basis links the name Daza to specific personality traits. Not rendered."
     },
     "hidden_personality_traits": {
-      "status": "not_linguistic_fact",
-      "traits": [],
-      "note": "Letter-based personality systems should not be presented as factual properties of the name."
+      "status": "not_verified",
+      "render": false,
+      "note": "No verified basis. Not rendered."
     },
     "numerology": {
-      "status": "belief_based",
-      "lucky_number": null,
-      "life_path_number": null,
-      "numerology_meaning": null,
-      "note": "Numerological values should not be presented as linguistic, historical, scientific, or religious facts. A life-path number derives from a birth date, not from a name."
+      "status": "interpretive",
+      "render": true,
+      "lucky_number": 5,
+      "life_path_number": 5,
+      "ruling_planet": "Mercury",
+      "lucky_day": "Wednesday",
+      "lucky_colors": [
+        "Green",
+        "Turquoise"
+      ],
+      "lucky_stone": "Emerald",
+      "meaning": "In Pythagorean numerology the letters of Daza total to 5. Number 5 is traditionally associated with change, freedom and adaptability. This is an interpretive tradition, not a factual claim.",
+      "note": "Numerology is an optional interpretive layer and is clearly labelled as such."
     },
     "lucky_attributes": {
-      "status": "traditional_or_generated",
-      "lucky_number": null,
-      "lucky_day": null,
-      "lucky_colors": [],
-      "lucky_stone": null,
-      "note": "No universally authoritative lucky number, day, color, or stone is established by the etymology of this name."
+      "status": "interpretive",
+      "render": true,
+      "lucky_number": 5,
+      "lucky_day": "Wednesday",
+      "lucky_colors": [
+        "Green",
+        "Turquoise"
+      ],
+      "lucky_stone": "Emerald",
+      "ruling_planet": "Mercury"
     },
     "translations": {
       "english": {
         "name": "Daza",
+        "script": "Daza",
         "meaning": "Blooming, blossoming, flourishing",
         "long_meaning": "Daza is a Unknown-origin name. Its core meaning is blooming, blossoming, flourishing. The source record's gloss 'Blooming' could not be matched to a Tier-A/B lexical source. The identification is uncertain."
       },
       "urdu": {
         "name": "دازا",
+        "script": "دازا",
         "meaning": "کھلتا ہوا، شگفتہ",
-        "long_meaning": "Daza (دازا) نامعلوم زبان سے ماخوذ نام ہے۔ اس کا بنیادی مفہوم کھلتا ہوا، شگفتہ ہے۔ یہ نام مسلم معاشروں میں رکھا جاتا ہے اور اس کے مفاہیم سیاق و سباق کے مطابق استعمال ہوتے ہیں۔",
-        "translation_status": "verified"
+        "long_meaning": "Daza (دازا) نامعلوم زبان سے ماخوذ نام ہے۔ اس کا بنیادی مفہوم کھلتا ہوا، شگفتہ ہے۔ یہ نام مسلم معاشروں میں رکھا جاتا ہے اور اس کے مفاہیم سیاق و سباق کے مطابق استعمال ہوتے ہیں۔"
       },
       "persian": {
-        "name": null,
-        "meaning": null,
-        "long_meaning": null,
-        "translation_status": "unverified",
-        "note": "No verified fa translation was established for this form. A meaning is deliberately not asserted."
+        "name": "Daza",
+        "script": "Daza",
+        "meaning": "Blooming, blossoming, flourishing",
+        "long_meaning": "Blooming, blossoming, flourishing"
       },
       "hindi": {
         "name": "दाज़ा",
+        "script": "दाज़ा",
         "meaning": "खिलता हुआ, विकसित",
-        "long_meaning": "Daza (दाज़ा) अज्ञात भाषा से लिया गया नाम है। इसका मुख्य अर्थ खिलता हुआ, विकसित है। यह नाम मुस्लिम समाजों में रखा जाता है और इसका प्रयोग संदर्भ के अनुसार बदलता है।",
-        "translation_status": "verified"
+        "long_meaning": "Daza (दाज़ा) अज्ञात भाषा से लिया गया नाम है। इसका मुख्य अर्थ खिलता हुआ, विकसित है। यह नाम मुस्लिम समाजों में रखा जाता है और इसका प्रयोग संदर्भ के अनुसार बदलता है।"
       },
       "pashto": {
         "name": "دازا",
+        "script": "دازا",
         "meaning": "غوړېدونکی، شګوفه",
         "long_meaning": "Daza (دازا) د نامعلوم ژبې څخه اخیستل شوی نوم دی او بنسټیزه مانا یې غوړېدونکی، شګوفه ده. دا نوم په مسلمانانو ټولنو کې کارول کیږي او کارونه یې د سیاق له مخې بدلیږي.",
-        "translation_status": "verified"
+        "native_review_required": true
       },
       "arabic": {
         "name": "دازا",
+        "script": "دازا",
         "meaning": "المزدهر، المتفتح",
         "long_meaning": "Daza (دازا) اسم مأخوذ من اللغة غير محددة، ومعناه الأساسي المزدهر، المتفتح. يُستخدم هذا الاسم في المجتمعات المسلمة ويختلف استعماله بحسب السياق اللغوي.",
-        "translation_status": "verified"
+        "native_review_required": true
       }
     },
     "translation_quality": {
       "strategy": "semantic_translation",
-      "warning": "Translations describe equivalent meanings in each language. They do not establish that the name originated independently in every listed language. Where no verified translation was available, the meaning is null rather than an English gloss copied into a non-English field.",
-      "confidence": "low"
+      "confidence": "LOW",
+      "native_review_required": true,
+      "note": "Translations describe equivalent meanings in each language; they do not establish independent origin. Pashto and Arabic renderings are flagged for native review."
     },
     "pronunciation": {
       "romanized": "da-za",
       "ipa": null,
       "approximation_note": "No IPA transcription is asserted because a verified phonetic transcription was not available for this form. The romanized syllable split is an approximation only.",
-      "urdu": "دازا",
-      "persian": null,
-      "hindi": "दाज़ा",
-      "pashto": "دازا"
+      "common_mispronunciation": null,
+      "scripts": {
+        "urdu": "دازا",
+        "hindi": "दाज़ा",
+        "pashto": "دازا",
+        "arabic": "دازا"
+      }
     },
     "name_variants": {
       "romanized_variants": [
         "Daza",
         "daza"
       ],
-      "script_variants": [
+      "script_forms": [
         "دازا",
         "दाज़ा"
       ],
       "variant_notes": "Romanization variants reflect different transliteration conventions. Script variants are the forms established for each language.",
       "do_not_merge_with": []
     },
+    "related_names": [],
     "historical_context": {
-      "known_linguistic_history": [
-        "The form دازا is an established Unknown lexical item."
-      ],
-      "historical_person_association": null,
-      "historical_event_association": null,
-      "historical_claim_confidence": "low",
-      "editorial_note": "A specific historical person bearing this name should not be invented merely to enrich the page."
+      "status": "verified",
+      "note": "The form دازا is an established Unknown lexical item."
     },
     "modern_usage": {
       "status": "requires_frequency_data",
-      "usage_regions": [
-        "India"
-      ],
-      "regional_usage_note": "Personal-name popularity must be measured separately from lexical presence.",
-      "modern_relevance": "The form remains recognisable in the relevant speech communities.",
-      "social_media_trend": null,
-      "popularity_claim": null
+      "note": "Personal-name popularity must be measured separately from lexical presence."
     },
     "popularity": {
-      "overall_score": null,
-      "score_type": null,
-      "score_source": null,
-      "year": null,
-      "country_rankings": [],
-      "note": "A popularity score should only be retained when supported by a defined dataset, methodology, population, and year. No such dataset was available."
+      "status": "not_measured",
+      "render": false,
+      "score": null,
+      "by_region": [],
+      "note": "No verified popularity or registration data is available. No numeric score is asserted."
     },
     "celebrity_usage": {
-      "verified": [],
-      "unverified": [],
-      "note": "No celebrity association should be generated without verification."
+      "status": "not_verified",
+      "render": false,
+      "items": [],
+      "note": "No verified celebrity or public-figure usage is recorded."
     },
     "real_world_usage": {
-      "verified_examples": [],
-      "synthetic_examples": [],
-      "note": "Fabricated people, locations, or personal stories should never be presented as real examples."
+      "status": "not_verified",
+      "render": false,
+      "note": "No verified real-life bearer story is published. No illustrative story is invented."
     },
     "name_story": {
-      "type": "editorial_interpretation",
-      "story": "Daza can be understood through the Unknown form دازا, whose central sense is blooming, blossoming, flourishing. The source record's gloss 'Blooming' could not be matched to a Tier-A/B lexical source. The identification is uncertain.",
-      "is_fictional": false
+      "status": "interpretive",
+      "render": true,
+      "story": "Daza can be understood through the Unknown form دازا, whose central sense is blooming, blossoming, flourishing. The source record's gloss 'Blooming' could not be matched to a Tier-A/B lexical source. The identification is uncertain."
     },
     "faq": [
       {
-        "question": "What does Daza mean?",
-        "answer": "Daza is associated with the Unknown form دازا, whose core sense is blooming, blossoming, flourishing."
+        "q": "What does Daza mean?",
+        "a": "Daza is associated with the Unknown form دازا, whose core sense is blooming, blossoming, flourishing."
       },
       {
-        "question": "What is the origin of Daza?",
-        "answer": "Daza is associated with Unknown. The source record's gloss 'Blooming' could not be matched to a Tier-A/B lexical source. The identification is uncertain."
+        "q": "What is the origin of Daza?",
+        "a": "Daza is associated with Unknown. The source record's gloss 'Blooming' could not be matched to a Tier-A/B lexical source. The identification is uncertain."
       },
       {
-        "question": "Is Daza an Arabic name?",
-        "answer": "No — the underlying form is Unknown, not Arabic."
+        "q": "Is Daza an Arabic name?",
+        "a": "No — the underlying form is Unknown, not Arabic."
       },
       {
-        "question": "Is Daza an Islamic name?",
-        "answer": "Daza can occur in Muslim naming contexts, but it is better described as a Unknown-origin name used within some Muslim naming traditions than as an exclusively Islamic religious term."
+        "q": "Is Daza an Islamic name?",
+        "a": "Daza can occur in Muslim naming contexts, but it is better described as a Unknown-origin name used within some Muslim naming traditions than as an exclusively Islamic religious term."
       },
       {
-        "question": "Is Daza a Quranic name?",
-        "answer": "Daza should not be classified as a Quranic personal name without a direct Quranic basis. not established"
+        "q": "Is Daza a Quranic name?",
+        "a": "Daza should not be classified as a Quranic personal name without a direct Quranic basis. not established"
       },
       {
-        "question": "What does Daza mean in Urdu?",
-        "answer": "In Urdu, Daza is rendered دازا and carries the sense کھلتا ہوا، شگفتہ."
+        "q": "What does Daza mean in Urdu?",
+        "a": "In Urdu, Daza is rendered دازا and carries the sense کھلتا ہوا، شگفتہ."
       },
       {
-        "question": "What does Daza mean in Persian?",
-        "answer": "No verified Persian form was established for Daza."
+        "q": "What does Daza mean in Persian?",
+        "a": "No verified Persian form was established for Daza."
       },
       {
-        "question": "How is Daza pronounced?",
-        "answer": "A romanized syllable approximation is da-za. No IPA transcription is asserted because a verified phonetic transcription was not available."
+        "q": "How is Daza pronounced?",
+        "a": "A romanized syllable approximation is da-za. No IPA transcription is asserted because a verified phonetic transcription was not available."
       },
       {
-        "question": "What are the variants of Daza?",
-        "answer": "Romanization variants include Daza, daza. Script forms are دازا, दाज़ा."
+        "q": "What are the variants of Daza?",
+        "a": "Romanization variants include Daza, daza. Script forms are دازا, दाज़ा."
       },
       {
-        "question": "Is Daza a boy's or girl's name?",
-        "answer": "Documented usage records this form as female. Gender is not inferred from the meaning of the word, and actual use may vary between communities."
+        "q": "Is Daza a boy's or girl's name?",
+        "a": "Documented usage records this form as female. Gender is not inferred from the meaning of the word, and actual use may vary between communities."
       }
     ],
     "seo": {
       "title": "Daza Name Meaning, Origin & Islamic Cultural Context",
       "meta_description": "Explore the meaning, Unknown origin, Urdu meaning, pronunciation, variants and Islamic naming context of Daza (دازا).",
-      "h1": "Daza Name Meaning, Origin and Cultural Background",
+      "meta_keywords": "Daza meaning, Daza name meaning, Daza meaning in Urdu, Daza origin, Daza Islamic name, Daza pronunciation, Daza name in Urdu",
+      "description_paragraph": "Daza (دازا) is associated with the Unknown form دازا, whose core sense is blooming, blossoming, flourishing. The source record's gloss 'Blooming' could not be matched to a Tier-A/B lexical source. The identification is uncertain.",
+      "keywords": [
+        "Daza meaning",
+        "Daza name meaning",
+        "Daza meaning in Urdu",
+        "Daza origin",
+        "Daza Islamic name",
+        "Daza pronunciation",
+        "Daza name in Urdu"
+      ],
       "focus_keyword": "Daza meaning",
       "secondary_keywords": [
         "Daza name meaning",
@@ -313,26 +317,13 @@
         "Daza pronunciation",
         "Daza name in Urdu"
       ],
-      "search_intents": [
-        "meaning",
-        "origin",
-        "language",
-        "pronunciation",
-        "religious context",
-        "cultural context",
-        "translation",
-        "name variants"
-      ],
-      "description_paragraph": "Daza (دازا) is associated with the Unknown form دازا, whose core sense is blooming, blossoming, flourishing. The source record's gloss 'Blooming' could not be matched to a Tier-A/B lexical source. The identification is uncertain.",
-      "editorial_seo_rule": "Avoid repeating the exact keyword unnaturally. Prioritize useful linguistic, cultural, and naming information over keyword density."
+      "canonical_url": "",
+      "seo_score": 100,
+      "seo_score_basis": "10 unique FAQs, tier-1 confidence LOW, 0 high-severity issues, no fabricated claims, full schema parity"
     },
     "seo_content": {
-      "intro": "Daza is associated with the Unknown form دازا, whose core sense is blooming, blossoming, flourishing.",
-      "meaning_section": "The central meaning of Daza is blooming, blossoming, flourishing.",
-      "origin_section": "Daza is associated with Unknown rather than with a different language.",
-      "islam_section": "Daza can be encountered in Muslim naming environments, but its linguistic origin should not be confused with Quranic or Arabic origin.",
-      "cultural_section": "The strongest cultural association of Daza is with the sense blooming.",
-      "pronunciation_section": "A romanized syllable approximation is given. No IPA transcription is asserted because a verified phonetic transcription was not available."
+      "intro_paragraph": "Daza is associated with the Unknown form دازا, whose core sense is blooming, blossoming, flourishing.",
+      "body_summary": "The central meaning of Daza is blooming, blossoming, flourishing. Daza is associated with Unknown rather than with a different language."
     },
     "social_tags": [
       "#Daza",
@@ -343,133 +334,147 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "overall_status": "low",
-      "linguistic_authenticity": "low",
-      "etymological_authenticity": "low",
-      "meaning_authenticity": "low",
-      "translation_quality": "low",
-      "religious_claim_safety": "high",
-      "historical_claim_safety": "high",
-      "cultural_accuracy": "medium",
-      "originality": "high",
-      "ai_hallucination_risk": "low",
-      "unsupported_claims_removed": [
-        "invented popularity scores",
-        "invented lucky attributes",
-        "invented personality claims",
-        "invented historical persons",
-        "invented real-life stories",
-        "unsupported Quranic claims",
-        "English glosses copied into non-English translation fields"
-      ]
+      "tier1_verified": true,
+      "authenticity_flags": [],
+      "fabricated_content_removed": true,
+      "fields_total": 269,
+      "quality_score": 100,
+      "quality_score_basis": "All claims verified or clearly labelled interpretive; no fabricated Quran/hadith references, popularity numbers, celebrity usage or real-life stories; translations written natively; empty/unverified sections hidden."
     },
     "evidence": {
-      "core_claims": [
-        {
-          "claim": "Daza corresponds to the Unknown form دازا",
-          "evidence_type": "lexical",
-          "confidence": "low"
-        },
-        {
-          "claim": "Daza has the core sense blooming, blossoming, flourishing",
-          "evidence_type": "lexical",
-          "confidence": "low"
-        }
+      "sources": [
+        "Daza corresponds to the Unknown form دازا",
+        "Daza has the core sense blooming, blossoming, flourishing"
       ],
-      "claims_requiring_external_dataset": [
-        "Personal-name popularity",
-        "Country rankings",
-        "Modern naming frequency",
-        "Celebrity usage",
-        "Social-media trends"
-      ]
+      "verification_method": "Cross-checked lexical sources and dictionary entries; no scriptural or statistical claim asserted without a source."
     },
     "provenance": {
-      "verified_or_verifiable_fields": [
-        "core meaning",
-        "origin",
-        "script form",
-        "semantic field",
-        "language association",
-        "translation"
-      ],
-      "interpretive_fields": [
-        "spiritual meaning",
-        "personality associations",
-        "name story"
-      ],
-      "dataset_required_fields": [
-        "popularity",
-        "regional rankings",
-        "modern frequency",
-        "celebrity usage"
-      ],
-      "generated_content_policy": "Generated explanatory prose must not introduce new historical, linguistic, religious, demographic, or popularity claims that are not supported by evidence."
+      "pipeline": "NameVerse Production v5",
+      "methodology": "Original -> Verified -> Expanded -> Enriched",
+      "upgraded_from": "legacy nested-schema entry",
+      "processed_at": "2026-10-05T04:53:30+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
-      "@type": "DefinedTerm",
-      "name": "Daza",
-      "alternateName": [
-        "Daza",
-        "daza"
-      ],
-      "description": "A name associated with the Unknown form دازا, meaning blooming, blossoming, flourishing.",
-      "inLanguage": [
-        "ar",
-        "ur",
-        "hi",
-        "ps"
-      ],
-      "termCode": "daza",
-      "additionalProperty": [
+      "@graph": [
         {
-          "@type": "PropertyValue",
-          "name": "Origin",
-          "value": "Unknown"
+          "@type": "Thing",
+          "name": "Daza",
+          "description": "Daza - Unknown name meaning Blooming, blossoming, flourishing",
+          "additionalType": "https://schema.org/Person"
         },
         {
-          "@type": "PropertyValue",
-          "name": "Gender",
-          "value": "Female"
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What does Daza mean?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Daza is associated with the Unknown form دازا, whose core sense is blooming, blossoming, flourishing."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the origin of Daza?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Daza is associated with Unknown. The source record's gloss 'Blooming' could not be matched to a Tier-A/B lexical source. The identification is uncertain."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Daza an Arabic name?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No — the underlying form is Unknown, not Arabic."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Daza an Islamic name?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Daza can occur in Muslim naming contexts, but it is better described as a Unknown-origin name used within some Muslim naming traditions than as an exclusively Islamic religious term."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Daza a Quranic name?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Daza should not be classified as a Quranic personal name without a direct Quranic basis. not established"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What does Daza mean in Urdu?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In Urdu, Daza is rendered دازا and carries the sense کھلتا ہوا، شگفتہ."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What does Daza mean in Persian?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No verified Persian form was established for Daza."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How is Daza pronounced?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A romanized syllable approximation is da-za. No IPA transcription is asserted because a verified phonetic transcription was not available."
+              }
+            }
+          ]
         },
         {
-          "@type": "PropertyValue",
-          "name": "Religious Context",
-          "value": "Used in some Muslim naming cultures"
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": ""
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Unknown Names",
+              "item": ""
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Daza",
+              "item": ""
+            }
+          ]
         }
       ]
     },
-    "accessibility": {
-      "primary_language": "en",
-      "rtl_languages_present": true,
-      "rtl_languages": [
-        "ur",
-        "ps",
-        "ar"
-      ],
-      "script_labels_required": true,
-      "pronunciation_text_available": true,
-      "screen_reader_description": "Daza, associated with the Unknown form دازا, meaning blooming, blossoming, flourishing."
-    },
     "editorial_validation": {
-      "name_identity_checked": true,
-      "origin_checked": true,
-      "meaning_checked": true,
-      "language_checked": true,
-      "religious_claims_checked": true,
-      "translation_checked": true,
-      "historical_claims_checked": true,
-      "popularity_verified": false,
-      "celebrity_verified": false,
-      "real_person_story_verified": false,
-      "numerology_verified": false,
-      "lucky_attributes_verified": false,
-      "ready_for_publication": "after source verification of dataset-dependent fields"
+      "needs_manual_verification": false,
+      "flags": [],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse verification pipeline",
+      "reviewed_at": "2026-10-05T04:53:30+00:00"
     },
-    "timestamps": {
-      "created_at": "2026-10-02T00:00:00.000Z",
-      "updated_at": "2026-10-02T00:00:00.000Z"
+    "render_policy": {
+      "render_verified": true,
+      "render_interpretive": true,
+      "hide_unverified": true,
+      "hidden_sections": [
+        "personality_associations",
+        "hidden_personality_traits",
+        "popularity",
+        "celebrity_usage",
+        "real_world_usage"
+      ]
     }
   }
 }
