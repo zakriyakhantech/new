@@ -1,0 +1,64 @@
+name: fix-islamic-content
+
+on:
+  workflow_dispatch:
+    inputs:
+      script_url:
+        description: "URL of the content-remediation composer script"
+        required: true
+      script_sha256:
+        description: "Expected SHA-256 of the composer script"
+        required: true
+      batch_size:
+        description: "Names per commit/push batch"
+        required: false
+        default: "100"
+      max_batches:
+        description: "Max batches this run (0 = all remaining)"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fix-islamic-content
+  cancel-in-progress: false
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch and verify composer
+        env:
+          SCRIPT_URL: ${{ github.event.inputs.script_url }}
+          SCRIPT_SHA: ${{ github.event.inputs.script_sha256 }}
+        run: |
+          set -euo pipefail
+          mkdir -p upgrading/scripts
+          curl -sSL -o upgrading/scripts/super2_content_fix.py "$SCRIPT_URL"
+          echo "$SCRIPT_SHA  upgrading/scripts/super2_content_fix.py" | sha256sum -c -
+          python3 -c "import ast;ast.parse(open('upgrading/scripts/super2_content_fix.py').read())"
+
+      - name: Configure git
+        run: |
+          git config user.name "NameVerse Content Agent"
+          git config user.email "agent@nameverse.local"
+
+      - name: Fix islamic name content (de-duplicate and de-overclaim)
+        env:
+          BATCH_SIZE: ${{ github.event.inputs.batch_size }}
+          MAX_BATCHES: ${{ github.event.inputs.max_batches }}
+          TARGET_BRANCH: main
+        run: python3 upgrading/scripts/super2_content_fix.py
