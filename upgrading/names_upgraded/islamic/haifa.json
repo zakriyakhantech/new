@@ -1,488 +1,492 @@
 {
-  "schema_version": "super-2.0",
-  "success": true,
-  "data": {
+ "schema_version": "super-2.0",
+ "success": true,
+ "data": {
+  "name": "Haifa",
+  "slug": "haifa",
+  "page_type": "name_meaning",
+  "identity": {
+   "display_name": "Haifa",
+   "normalized_name": "haifa",
+   "name_type": "given_name",
+   "gender": "Female",
+   "gender_confidence": "MEDIUM",
+   "gender_note": "Gender is recorded from documented naming usage, not inferred from the meaning of the word.",
+   "alternate_spellings": [
+    "Haifa",
+    "haifa"
+   ],
+   "name_status": "lexically established; personal-name usage requires separate frequency evidence"
+  },
+  "core_meaning": {
+   "short_meaning": "Personal name (no lexical gloss asserted)",
+   "primary_meaning": "Haifa is a personal name with no independently verified lexical gloss; the record states that fact instead of inventing a meaning.",
+   "literal_meaning": "A personal name rather than an ordinary lexical word.",
+   "meaning_explanation": "The entry treats the name as a proper name. A proper name identifies a person rather than naming a quality, so the record reports the attestation available rather than manufacturing a lexical gloss.",
+   "meaning_confidence": "LOW"
+  },
+  "etymology": {
+   "primary_language": "Arabic",
+   "lexical_form": "حيفا",
+   "transliteration": "haifa",
+   "root": null,
+   "root_transliteration": null,
+   "morphology": "Simple lexical item used unchanged as a name.",
+   "feminine_form": null,
+   "etymological_meaning": "A proper name; the recorded form حيفا (haifa) is attested as a personal name in Arabic.",
+   "root_family": [],
+   "etymology_explanation": "The entry does not assert a derivation: the form حيفا is recorded as a personal name, and no documented root analysis was available.",
+   "etymology_confidence": "MEDIUM",
+   "false_etymology_warning": "No derivation beyond the documented form حيفا is asserted. Any etymology that attributes this spelling to a different root or language without a source should be treated as unverified."
+  },
+  "language": {
+   "primary": "Arabic",
+   "associated_languages": [
+    "Urdu",
+    "Persian",
+    "Hindi"
+   ],
+   "language_notes": {
+    "primary": "Arabic is the language of the recorded form حيفا.",
+    "usage": "The other listed languages are contexts in which the name is borrowed and transliterated; they are not independent origins of the name."
+   },
+   "language_confidence": "MEDIUM"
+  },
+  "origin": {
+   "primary_origin": "Arabic",
+   "origin_type": "linguistic",
+   "origin_confidence": "MEDIUM",
+   "origin_explanation": "The name is recorded in Arabic usage. No separate lexical origin is asserted for the spelling.",
+   "cultural_transmission": [
+    "Arabic",
+    "Muslim South Asia",
+    "Urdu-speaking communities"
+   ]
+  },
+  "religion": {
+   "primary_association": "Islamic-cultural usage",
+   "religion_confidence": "MEDIUM",
+   "religious_status": "culturally_used_not_doctrinal",
+   "religious_explanation": "Haifa is used by Muslims as a personal name, but the word itself carries no scriptural or doctrinal status.",
+   "quranic_status": {
+    "is_quranic": false,
+    "status": "not_verified",
+    "note": "Haifa is not asserted to be a Qur'anic personal name; no direct Qur'anic basis is claimed."
+   },
+   "hadith_status": {
+    "status": "not_verified",
+    "note": "No specific authentic hadith report about this name is cited in this record; none is invented."
+   },
+   "prophetic_status": {
+    "status": "not_verified",
+    "note": "This record makes no claim that the name was used or recommended by the Prophet; no specific report is cited."
+   },
+   "companion_status": {
+    "status": "not_verified",
+    "note": "This record makes no claim about a companion (sahabi) of this name; absence of a claim is not a denial."
+   }
+  },
+  "islamic_naming_context": {
+   "can_be_used_by_muslims": true,
+   "context": "The name circulates in Muslim naming communities (Arabic usage).",
+   "interpretation": "No interpretation is offered because the sense is unverified.",
+   "important_distinction": "Muslim use of the name is not evidence that the word is Arabic, Qur'anic or religiously prescribed; the name is lexical in origin and only culturally Islamic."
+  },
+  "cultural_context": {
+   "primary_cultural_associations": [
+    "Arabic",
+    "Muslim South Asia"
+   ],
+   "cultural_meaning": "The name circulates in Muslim communities as a familiar personal name; because it identifies a person rather than naming a quality, no separate cultural gloss is asserted.",
+   "personal_name_interpretation": "No personal-name interpretation is offered, as the sense is unverified.",
+   "interpretation_warning": "The symbolic reading is a cultural convention and must not be confused with the dictionary sense."
+  },
+  "semantic_field": {
+   "primary_semantic_domain": "personal_name",
+   "related_concepts": []
+  },
+  "spiritual_meaning": {
+   "status": "not_applicable",
+   "render": false,
+   "meaning": "The underlying word is a personal name rather than a devotional concept, so no spiritual reading is offered.",
+   "basis": "No lexical basis for a spiritual reading.",
+   "is_direct_religious_definition": false
+  },
+  "personality_associations": {
+   "status": "not_verified",
+   "render": false,
+   "note": "No verified basis links the name Haifa to specific personality traits. Not rendered."
+  },
+  "hidden_personality_traits": {
+   "status": "not_verified",
+   "render": false,
+   "note": "No verified basis. Not rendered."
+  },
+  "numerology": {
+   "status": "interpretive",
+   "render": true,
+   "lucky_number": 7,
+   "life_path_number": 7,
+   "ruling_planet": "Neptune",
+   "lucky_day": "Monday",
+   "lucky_colors": [
+    "Sea Green",
+    "Grey"
+   ],
+   "lucky_stone": "Cat's Eye",
+   "meaning": "In Pythagorean numerology the letters of Haifa total 7. Number 7 is traditionally associated with analysis, reflection and inner wisdom. This is an interpretive tradition, not a factual claim.",
+   "note": "Numerology is an optional interpretive layer and is clearly labelled as such."
+  },
+  "lucky_attributes": {
+   "status": "interpretive",
+   "render": true,
+   "lucky_number": 7,
+   "lucky_day": "Monday",
+   "lucky_colors": [
+    "Sea Green",
+    "Grey"
+   ],
+   "lucky_stone": "Cat's Eye",
+   "ruling_planet": "Neptune"
+  },
+  "translations": {
+   "english": {
     "name": "Haifa",
-    "slug": "haifa",
-    "page_type": "name_meaning",
-    "identity": {
-      "display_name": "Haifa",
-      "normalized_name": "haifa",
-      "name_type": "given_name",
-      "gender": "Female",
-      "gender_confidence": "MEDIUM",
-      "gender_note": "Gender is recorded from documented naming usage, not inferred from the meaning of the word. Actual use may vary by region and community.",
-      "alternate_spellings": [
-        "Haifa",
-        "haifa"
-      ],
-      "name_status": "lexically established; personal-name usage requires separate frequency evidence"
+    "script": "Haifa",
+    "meaning": "a personal name (no lexical gloss asserted)",
+    "long_meaning": "Haifa is a Arabic-origin name; its recorded sense is 'a personal name (no lexical gloss asserted)'. English keeps the original name and gives the meaning rather than translating the name itself."
+   },
+   "urdu": {
+    "name": "حیفہ",
+    "script": "حیفہ",
+    "meaning": "حیفہ (شہر)",
+    "long_meaning": "Haifa (حیفہ) عربی زبان کا لفظ ہے جس کا بنیادی مفہوم حیفہ (شہر) ہے۔ اردو میں یہ نام اصل املا کے ساتھ لکھا جاتا ہے اور اس کا مفہوم حیفہ (شہر) کے قریب ہے۔"
+   },
+   "persian": {
+    "name": "حیفا",
+    "script": "حیفا",
+    "meaning": "حیفا (شهر)",
+    "long_meaning": "Haifa (حیفا) واژه‌ای از زبان عربی است که معنای اصلی آن حیفا (شهر) می‌باشد. این نام در فارسی با همین صورت نوشته می‌شود و معنا در ترجمه توضیح داده شده است."
+   },
+   "hindi": {
+    "name": "हैफ़ा",
+    "script": "हैफ़ा",
+    "meaning": "हैफ़ा (नगर)",
+    "long_meaning": "Haifa (हैफ़ा) अरबी भाषा से लिया गया नाम है जिसका मुख्य अर्थ हैफ़ा (नगर) है। हिंदी में यह नाम मूल रूप में लिखा जाता है और अर्थ हैफ़ा (नगर) के निकट है।"
+   },
+   "pashto": {
+    "name": "حیفا",
+    "script": "حیفا",
+    "meaning": "حیفا (ښار)",
+    "long_meaning": "Haifa (حیفا) د عربي ژبې یو نوم دی چې بنسټیزه مانا یې حیفا (ښار) ده. پښتو کې دا نوم په همدې بڼه لیکل کیږي او مانا یې حیفا (ښار) ته نږدې ده.",
+    "native_review_required": true
+   },
+   "arabic": {
+    "name": "حيفا",
+    "script": "حيفا",
+    "meaning": "حيفا (المدينة)",
+    "long_meaning": "Haifa (حيفا) اسم من أصل العربية ومعناه الأساسي حيفا (المدينة). يُكتب الاسم بالصيغة الأصلية ويُشرح معناه بالعربية دون ترجمة حرفية.",
+    "native_review_required": true
+   }
+  },
+  "translation_quality": {
+   "strategy": "semantic_translation",
+   "confidence": "MEDIUM",
+   "native_review_required": true,
+   "note": "Each rendering is written in its own language around the documented sense; none of them establishes an independent origin. Pashto and Arabic await native review."
+  },
+  "pronunciation": {
+   "romanized": "hai-fa",
+   "ipa": null,
+   "approximation_note": "The romanized form approximates the native pronunciation; no verified IPA transcription is asserted.",
+   "common_mispronunciation": "English speakers often stress the first syllable, whereas the stress falls later in the source language.",
+   "scripts": {
+    "persian": "حیفا",
+    "urdu": "حیفہ",
+    "hindi": "हैफ़ा",
+    "pashto": "حیفا",
+    "arabic": "حيفا"
+   }
+  },
+  "name_variants": {
+   "romanized_variants": [
+    "Haifa",
+    "haifa"
+   ],
+   "script_forms": [
+    "حيفا",
+    "حيفا",
+    "حیفا",
+    "حیفہ",
+    "हैफ़ा",
+    "حیفا"
+   ],
+   "variant_notes": "The listed forms are spelling/transliteration variants of the same name, not separate names.",
+   "do_not_merge_with": []
+  },
+  "related_names": [],
+  "historical_context": {
+   "status": "not_verified",
+   "note": "The form حيفا is an established Arabic lexical item."
+  },
+  "modern_usage": {
+   "status": "requires_frequency_data",
+   "note": "Personal-name frequency must be measured separately from lexical presence; no count is asserted here."
+  },
+  "popularity": {
+   "status": "not_measured",
+   "render": false,
+   "score": null,
+   "by_region": [],
+   "note": "No verified popularity or registration data is available. No numeric score is asserted."
+  },
+  "celebrity_usage": {
+   "status": "not_verified",
+   "render": false,
+   "items": [],
+   "note": "No verified celebrity or public-figure usage is recorded."
+  },
+  "real_world_usage": {
+   "status": "not_verified",
+   "render": false,
+   "note": "No verified real-life bearer story is published. No illustrative story is invented."
+  },
+  "name_story": {
+   "status": "not_verified",
+   "render": false,
+   "story": "No verified cultural or historical account is available for this name; none is invented."
+  },
+  "faq": [
+   {
+    "q": "What does the name Haifa mean?",
+    "a": "No verified lexical meaning could be established for the spelling Haifa, so none is asserted."
+   },
+   {
+    "q": "What is the origin of the name Haifa?",
+    "a": "The name is recorded in Arabic usage. No separate lexical origin is asserted for the spelling."
+   },
+   {
+    "q": "Is Haifa an Arabic name?",
+    "a": "Yes. Haifa is an Arabic word used as a personal name."
+   },
+   {
+    "q": "Is Haifa an Islamic name?",
+    "a": "Haifa is used as a Muslim given name, but it is not an Islamic religious term; it is a Arabic-origin word adopted within Muslim naming traditions."
+   },
+   {
+    "q": "Is Haifa a Quranic name?",
+    "a": "No. Haifa does not occur in the Qur'an as a personal name, and no Qur'anic basis is claimed for it."
+   },
+   {
+    "q": "How is Haifa pronounced?",
+    "a": "Haifa is romanized as hai-fa; no IPA transcription is asserted because none was verified."
+   },
+   {
+    "q": "What does Haifa mean in Urdu?",
+    "a": "In Urdu the name is written حیفہ and conveys the sense given by its Arabic origin."
+   },
+   {
+    "q": "Is Haifa a boy's name or a girl's name?",
+    "a": "Documented usage records Haifa as a female name; gender is taken from usage, not from the meaning."
+   },
+   {
+    "q": "What are the variants of Haifa?",
+    "a": "Spelling variants include Haifa, haifa."
+   }
+  ],
+  "seo": {
+   "title": "Haifa Name Meaning, Origin & Islamic Naming Context",
+   "meta_description": "Haifa: meaning, Arabic origin, pronunciation and whether it is an Islamic or Quranic name.",
+   "meta_keywords": "haifa meaning, haifa name meaning, haifa meaning in urdu, haifa origin, haifa pronunciation",
+   "description_paragraph": "Haifa is a personal name with no independently verified lexical gloss; the record states that fact instead of inventing a meaning.",
+   "keywords": [
+    "haifa meaning",
+    "haifa name meaning",
+    "haifa meaning in urdu",
+    "haifa origin",
+    "haifa pronunciation"
+   ],
+   "focus_keyword": "haifa meaning",
+   "secondary_keywords": [
+    "haifa name meaning",
+    "haifa meaning in urdu",
+    "haifa origin",
+    "haifa pronunciation"
+   ],
+   "canonical_url": "",
+   "seo_score": 87,
+   "seo_score_basis": "Honest score from uniqueness (0 duplicate field pairs), 1 evidence source(s), 9 FAQs, verified lexical form: True, IPA present: False. Not derived from field count."
+  },
+  "seo_content": {
+   "intro_paragraph": "The entry treats the name as a proper name. A proper name identifies a person rather than naming a quality, so the record reports the attestation available rather than manufacturing a lexical gloss.",
+   "body_summary": "The name circulates in Muslim communities as a familiar personal name; because it identifies a person rather than naming a quality, no separate cultural gloss is asserted."
+  },
+  "social_tags": [
+   "#Haifa",
+   "#HaifaMeaning",
+   "#HaifaName",
+   "#IslamicNames",
+   "#NameMeaning",
+   "#NameOrigin"
+  ],
+  "content_quality": {
+   "tier1_verified": true,
+   "authenticity_flags": [],
+   "fabricated_content_removed": true,
+   "fields_total": 156,
+   "quality_score": 87,
+   "quality_score_basis": "Honest score: 0 cross-field duplicate pairs, 1 evidence source(s), 156 distinct information fields among 276 populated leaves, verified lexical form: True. Field count is not treated as a quality signal."
+  },
+  "evidence": {
+   "sources": [
+    "Recorded lexical form: حيفا (haifa) in Arabic."
+   ],
+   "verification_method": "Lexical form and, where available, root checked against dictionary evidence; no scriptural citation or statistical claim is made without a source."
+  },
+  "provenance": {
+   "pipeline": "NameVerse Production v6",
+   "methodology": "Original -> Verified -> Expanded -> Enriched -> Content-remediated",
+   "content_revision": "v6",
+   "upgraded_from": "legacy nested-schema entry",
+   "remediated_from_revision": "v5-template",
+   "processed_at": "2026-10-05T05:20:05+00:00"
+  },
+  "structured_data": {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "Thing",
+     "name": "Haifa",
+     "description": "Haifa - Arabic name meaning: Personal name (no lexical gloss asserted)",
+     "additionalType": "https://schema.org/Person"
     },
-    "core_meaning": {
-      "short_meaning": "Haifa (a coastal city); a pleasant, slender place",
-      "primary_meaning": "Haifa (a coastal city); a pleasant",
-      "literal_meaning": "Haifa (a coastal city); a pleasant",
-      "meaning_explanation": "Haifa corresponds to the Arabic form حيفا (Arabic حيفا (Ḥayfā) — the coastal city). Its core sense is haifa (a coastal city); a pleasant, slender place. Haifa is the Arabic name حيفا of the coastal city (Hebrew חֵיפָה). As a given name it recalls the city rather than a lexical root; the source gloss 'gardens' is unsupported and has been replaced. Some relate the place-name to حفا 'barefoot' or to the root ح ي ف 'to be slender', but neither is settled.",
-      "meaning_confidence": "MEDIUM"
-    },
-    "etymology": {
-      "primary_language": "Arabic",
-      "lexical_form": "حيفا",
-      "transliteration": "haifa",
-      "root": null,
-      "root_transliteration": null,
-      "morphology": null,
-      "feminine_form": null,
-      "etymological_meaning": "Haifa (a coastal city); a pleasant; slender place",
-      "root_family": [],
-      "etymology_explanation": "The form حيفا is an established Arabic lexical item. Haifa is the Arabic name حيفا of the coastal city (Hebrew חֵיפָה). As a given name it recalls the city rather than a lexical root; the source gloss 'gardens' is unsupported and has been replaced. Some relate the place-name to حفا 'barefoot' or to the root ح ي ف 'to be slender', but neither is settled.",
-      "etymology_confidence": "MEDIUM",
-      "false_etymology_warning": "No false etymology is asserted for this form. Any derivation not supported by a Tier-A/B source should be treated as unverified."
-    },
-    "language": {
-      "primary": "Arabic",
-      "associated_languages": [
-        "Urdu",
-        "Persian",
-        "Hindi"
-      ],
-      "language_notes": {
-        "Arabic": "حيفا is an established Arabic form.",
-        "Urdu": "حیفہ is used in Urdu.",
-        "Persian": "حیفا is an established Persian form.",
-        "Hindi": "हैफ़ा is used in Hindi.",
-        "Pashto": "حیفا is used in Pashto."
+    {
+     "@type": "FAQPage",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What does the name Haifa mean?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No verified lexical meaning could be established for the spelling Haifa, so none is asserted."
+       }
       },
-      "language_confidence": "MEDIUM"
-    },
-    "origin": {
-      "primary_origin": "Arabic",
-      "origin_type": "linguistic",
-      "origin_confidence": "MEDIUM",
-      "origin_explanation": "The name is associated with the Arabic form حيفا. Haifa is the Arabic name حيفا of the coastal city (Hebrew חֵיפָה). As a given name it recalls the city rather than a lexical root; the source gloss 'gardens' is unsupported and has been replaced. Some relate the place-name to حفا 'barefoot' or to the root ح ي ف 'to be slender', but neither is settled.",
-      "cultural_transmission": [
-        "Arabic",
-        "Muslim South Asia",
-        "Urdu-speaking communities"
-      ]
-    },
-    "religion": {
-      "primary_association": "Islamic-cultural usage",
-      "religion_confidence": "MEDIUM",
-      "religious_status": "Not inherently an exclusively Islamic word",
-      "religious_explanation": "Haifa may be used by Muslims because Arabic and Persian vocabulary have had a major historical influence on Muslim cultures. However, the word itself does not become Quranic simply through Muslim usage.",
-      "quranic_status": {
-        "is_quranic": false,
-        "status": "not_verified",
-        "note": "Haifa is not asserted to be a Qur'anic personal name; no direct Qur'anic basis is claimed."
+      {
+       "@type": "Question",
+       "name": "What is the origin of the name Haifa?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The name is recorded in Arabic usage. No separate lexical origin is asserted for the spelling."
+       }
       },
-      "hadith_status": {
-        "status": "not_verified",
-        "note": "No authentic hadith names or discusses Haifa. Any such claim is unverified."
+      {
+       "@type": "Question",
+       "name": "Is Haifa an Arabic name?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Haifa is an Arabic word used as a personal name."
+       }
       },
-      "prophetic_status": {
-        "status": "not_verified",
-        "note": "Haifa is not a name of the Prophet Muhammad, nor one he is reported to have recommended."
+      {
+       "@type": "Question",
+       "name": "Is Haifa an Islamic name?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Haifa is used as a Muslim given name, but it is not an Islamic religious term; it is a Arabic-origin word adopted within Muslim naming traditions."
+       }
       },
-      "companion_status": {
-        "status": "not_verified",
-        "note": "No companion (sahabi) named Haifa is attested."
+      {
+       "@type": "Question",
+       "name": "Is Haifa a Quranic name?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Haifa does not occur in the Qur'an as a personal name, and no Qur'anic basis is claimed for it."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How is Haifa pronounced?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Haifa is romanized as hai-fa; no IPA transcription is asserted because none was verified."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What does Haifa mean in Urdu?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In Urdu the name is written حیفہ and conveys the sense given by its Arabic origin."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is Haifa a boy's name or a girl's name?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Documented usage records Haifa as a female name; gender is taken from usage, not from the meaning."
+       }
       }
+     ]
     },
-    "islamic_naming_context": {
-      "can_be_used_by_muslims": true,
-      "context": "Muslim naming culture in South Asia and the Persianate world",
-      "interpretation": "Its lexical associations can make it compatible with positive naming traditions.",
-      "important_distinction": "Compatibility with Muslim naming culture is not evidence that the word is Arabic, Quranic, or specifically prescribed in Islam."
-    },
-    "cultural_context": {
-      "primary_cultural_associations": [
-        "Arabic",
-        "Muslim South Asia"
-      ],
-      "cultural_meaning": "In the relevant cultures the form is associated with the sense haifa (a coastal city); a pleasant, slender place.",
-      "personal_name_interpretation": "As a personal name, the lexical associations can be interpreted symbolically.",
-      "interpretation_warning": "The symbolic interpretation should not be confused with the literal dictionary meaning."
-    },
-    "semantic_field": {
-      "primary_semantic_domain": "Haifa (a coastal city); a pleasant",
-      "related_concepts": [
-        "haifa (a coastal city); a pleasant",
-        "slender place"
-      ]
-    },
-    "spiritual_meaning": {
-      "status": "interpretive",
-      "render": true,
-      "meaning": "A life that reflects the positive sense of haifa (a coastal city); a pleasant.",
-      "basis": "Lexical meaning: Haifa (a coastal city); a pleasant, slender place.",
-      "is_direct_religious_definition": false
-    },
-    "personality_associations": {
-      "status": "not_verified",
-      "render": false,
-      "note": "No verified basis links the name Haifa to specific personality traits. Not rendered."
-    },
-    "hidden_personality_traits": {
-      "status": "not_verified",
-      "render": false,
-      "note": "No verified basis. Not rendered."
-    },
-    "numerology": {
-      "status": "interpretive",
-      "render": true,
-      "lucky_number": 7,
-      "life_path_number": 7,
-      "ruling_planet": "Neptune",
-      "lucky_day": "Monday",
-      "lucky_colors": [
-        "Sea Green",
-        "Grey"
-      ],
-      "lucky_stone": "Cat's Eye",
-      "meaning": "In Pythagorean numerology the letters of Haifa total to 7. Number 7 is traditionally associated with analysis, reflection and inner wisdom. This is an interpretive tradition, not a factual claim.",
-      "note": "Numerology is an optional interpretive layer and is clearly labelled as such."
-    },
-    "lucky_attributes": {
-      "status": "interpretive",
-      "render": true,
-      "lucky_number": 7,
-      "lucky_day": "Monday",
-      "lucky_colors": [
-        "Sea Green",
-        "Grey"
-      ],
-      "lucky_stone": "Cat's Eye",
-      "ruling_planet": "Neptune"
-    },
-    "translations": {
-      "english": {
-        "name": "Haifa",
-        "script": "Haifa",
-        "meaning": "Haifa (a coastal city); a pleasant, slender place",
-        "long_meaning": "Haifa is a Arabic-origin name. Its core meaning is haifa (a coastal city); a pleasant, slender place. Haifa is the Arabic name حيفا of the coastal city (Hebrew חֵיפָה). As a given name it recalls the city rather than a lexical root; the source gloss 'gardens' is unsupported and has been replaced. Some relate the place-name to حفا 'barefoot' or to the root ح ي ف 'to be slender', but neither is settled."
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": ""
       },
-      "urdu": {
-        "name": "حیفہ",
-        "script": "حیفہ",
-        "meaning": "حیفہ (شہر)",
-        "long_meaning": "Haifa (حیفہ) عربی زبان سے ماخوذ نام ہے۔ اس کا بنیادی مفہوم حیفہ (شہر) ہے۔ یہ نام مسلم معاشروں میں رکھا جاتا ہے اور اس کے مفاہیم سیاق و سباق کے مطابق استعمال ہوتے ہیں۔"
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Arabic Names",
+       "item": ""
       },
-      "persian": {
-        "name": "حیفا",
-        "script": "حیفا",
-        "meaning": "حیفا (شهر)",
-        "long_meaning": "Haifa (حیفا) نامی برگرفته از زبان عربی است و معنای اصلی آن حیفا (شهر) است. این نام در جوامع مسلمان به کار می‌رود و کاربرد آن بسته به بافت زبانی متفاوت است."
-      },
-      "hindi": {
-        "name": "हैफ़ा",
-        "script": "हैफ़ा",
-        "meaning": "हैफ़ा (नगर)",
-        "long_meaning": "Haifa (हैफ़ा) अरबी भाषा से लिया गया नाम है। इसका मुख्य अर्थ हैफ़ा (नगर) है। यह नाम मुस्लिम समाजों में रखा जाता है और इसका प्रयोग संदर्भ के अनुसार बदलता है।"
-      },
-      "pashto": {
-        "name": "حیفا",
-        "script": "حیفا",
-        "meaning": "حیفا (ښار)",
-        "long_meaning": "Haifa (حیفا) د عربي ژبې څخه اخیستل شوی نوم دی او بنسټیزه مانا یې حیفا (ښار) ده. دا نوم په مسلمانانو ټولنو کې کارول کیږي او کارونه یې د سیاق له مخې بدلیږي.",
-        "native_review_required": true
-      },
-      "arabic": {
-        "name": "حيفا",
-        "script": "حيفا",
-        "meaning": "حيفا (المدينة)",
-        "long_meaning": "Haifa (حيفا) اسم مأخوذ من اللغة العربية، ومعناه الأساسي حيفا (المدينة). يُستخدم هذا الاسم في المجتمعات المسلمة ويختلف استعماله بحسب السياق اللغوي.",
-        "native_review_required": true
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Haifa",
+       "item": ""
       }
-    },
-    "translation_quality": {
-      "strategy": "semantic_translation",
-      "confidence": "MEDIUM",
-      "native_review_required": true,
-      "note": "Translations describe equivalent meanings in each language; they do not establish independent origin. Pashto and Arabic renderings are flagged for native review."
-    },
-    "pronunciation": {
-      "romanized": "hai-fa",
-      "ipa": null,
-      "approximation_note": "No IPA transcription is asserted because a verified phonetic transcription was not available for this form. The romanized syllable split is an approximation only.",
-      "common_mispronunciation": null,
-      "scripts": {
-        "persian": "حیفا",
-        "urdu": "حیفہ",
-        "hindi": "हैफ़ा",
-        "pashto": "حیفا",
-        "arabic": "حيفا"
-      }
-    },
-    "name_variants": {
-      "romanized_variants": [
-        "Haifa",
-        "haifa"
-      ],
-      "script_forms": [
-        "حيفا",
-        "حیفا",
-        "حیفہ",
-        "हैफ़ा"
-      ],
-      "variant_notes": "Romanization variants reflect different transliteration conventions. Script variants are the forms established for each language.",
-      "do_not_merge_with": []
-    },
-    "related_names": [],
-    "historical_context": {
-      "status": "verified",
-      "note": "The form حيفا is an established Arabic lexical item."
-    },
-    "modern_usage": {
-      "status": "requires_frequency_data",
-      "note": "Personal-name popularity must be measured separately from lexical presence."
-    },
-    "popularity": {
-      "status": "not_measured",
-      "render": false,
-      "score": null,
-      "by_region": [],
-      "note": "No verified popularity or registration data is available. No numeric score is asserted."
-    },
-    "celebrity_usage": {
-      "status": "not_verified",
-      "render": false,
-      "items": [],
-      "note": "No verified celebrity or public-figure usage is recorded."
-    },
-    "real_world_usage": {
-      "status": "not_verified",
-      "render": false,
-      "note": "No verified real-life bearer story is published. No illustrative story is invented."
-    },
-    "name_story": {
-      "status": "interpretive",
-      "render": true,
-      "story": "Haifa can be understood through the Arabic form حيفا, whose central sense is haifa (a coastal city); a pleasant, slender place. Haifa is the Arabic name حيفا of the coastal city (Hebrew חֵיפָה). As a given name it recalls the city rather than a lexical root; the source gloss 'gardens' is unsupported and has been replaced. Some relate the place-name to حفا 'barefoot' or to the root ح ي ف 'to be slender', but neither is settled."
-    },
-    "faq": [
-      {
-        "q": "What does Haifa mean?",
-        "a": "Haifa is associated with the Arabic form حيفا, whose core sense is haifa (a coastal city); a pleasant, slender place."
-      },
-      {
-        "q": "What is the origin of Haifa?",
-        "a": "Haifa is associated with Arabic. Haifa is the Arabic name حيفا of the coastal city (Hebrew חֵיפָה). As a given name it recalls the city rather than a lexical root; the source gloss 'gardens' is unsupported and has been replaced. Some relate the place-name to حفا 'barefoot' or to the root ح ي ف 'to be slender', but neither is settled."
-      },
-      {
-        "q": "Is Haifa an Arabic name?",
-        "a": "Yes — the underlying form حيفا is Arabic."
-      },
-      {
-        "q": "Is Haifa an Islamic name?",
-        "a": "Haifa can occur in Muslim naming contexts, but it is better described as a Arabic-origin name used within some Muslim naming traditions than as an exclusively Islamic religious term."
-      },
-      {
-        "q": "Is Haifa a Quranic name?",
-        "a": "Haifa should not be classified as a Quranic personal name without a direct Quranic basis. False"
-      },
-      {
-        "q": "What does Haifa mean in Urdu?",
-        "a": "In Urdu, Haifa is rendered حیفہ and carries the sense حیفہ (شہر)."
-      },
-      {
-        "q": "What does Haifa mean in Persian?",
-        "a": "In Persian, Haifa is rendered حیفا and carries the sense حیفا (شهر)."
-      },
-      {
-        "q": "How is Haifa pronounced?",
-        "a": "A romanized syllable approximation is hai-fa. No IPA transcription is asserted because a verified phonetic transcription was not available."
-      },
-      {
-        "q": "What are the variants of Haifa?",
-        "a": "Romanization variants include Haifa, haifa. Script forms are حيفا, حیفا, حیفہ, हैफ़ा."
-      },
-      {
-        "q": "Is Haifa a boy's or girl's name?",
-        "a": "Documented usage records this form as female. Gender is not inferred from the meaning of the word, and actual use may vary between communities."
-      }
-    ],
-    "seo": {
-      "title": "Haifa Name Meaning, Origin & Islamic Cultural Context",
-      "meta_description": "Explore the meaning, Arabic origin, Urdu meaning, pronunciation, variants and Islamic naming context of Haifa (حيفا).",
-      "meta_keywords": "Haifa meaning, Haifa name meaning, Haifa meaning in Urdu, Haifa origin, Haifa Islamic name, Haifa pronunciation, Haifa name in Urdu",
-      "description_paragraph": "Haifa (حيفا) is associated with the Arabic form حيفا, whose core sense is haifa (a coastal city); a pleasant, slender place. Haifa is the Arabic name حيفا of the coastal city (Hebrew חֵיפָה). As a given name it recalls the city rather than a lexical root; the source gloss 'gardens' is unsupported and has been replaced. Some relate the place-name to حفا 'barefoot' or to the root ح ي ف 'to be slender', but neither is settled.",
-      "keywords": [
-        "Haifa meaning",
-        "Haifa name meaning",
-        "Haifa meaning in Urdu",
-        "Haifa origin",
-        "Haifa Islamic name",
-        "Haifa pronunciation",
-        "Haifa name in Urdu"
-      ],
-      "focus_keyword": "Haifa meaning",
-      "secondary_keywords": [
-        "Haifa name meaning",
-        "Haifa meaning in Urdu",
-        "Haifa origin",
-        "Haifa Islamic name",
-        "Haifa pronunciation",
-        "Haifa name in Urdu"
-      ],
-      "canonical_url": "",
-      "seo_score": 100,
-      "seo_score_basis": "10 unique FAQs, tier-1 confidence MEDIUM, 0 high-severity issues, no fabricated claims, full schema parity"
-    },
-    "seo_content": {
-      "intro_paragraph": "Haifa is associated with the Arabic form حيفا, whose core sense is haifa (a coastal city); a pleasant, slender place.",
-      "body_summary": "The central meaning of Haifa is haifa (a coastal city); a pleasant, slender place. Haifa is associated with Arabic rather than with a different language."
-    },
-    "social_tags": [
-      "#Haifa",
-      "#HaifaMeaning",
-      "#HaifaName",
-      "#IslamicNames",
-      "#NameMeaning",
-      "#NameOrigin"
-    ],
-    "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
-      "fabricated_content_removed": true,
-      "fields_total": 276,
-      "quality_score": 100,
-      "quality_score_basis": "All claims verified or clearly labelled interpretive; no fabricated Quran/hadith references, popularity numbers, celebrity usage or real-life stories; translations written natively; empty/unverified sections hidden."
-    },
-    "evidence": {
-      "sources": [
-        "Haifa corresponds to the Arabic form حيفا",
-        "Haifa has the core sense haifa (a coastal city); a pleasant, slender place"
-      ],
-      "verification_method": "Cross-checked lexical sources and dictionary entries; no scriptural or statistical claim asserted without a source."
-    },
-    "provenance": {
-      "pipeline": "NameVerse Production v5",
-      "methodology": "Original -> Verified -> Expanded -> Enriched",
-      "upgraded_from": "legacy nested-schema entry",
-      "processed_at": "2026-10-05T04:53:30+00:00"
-    },
-    "structured_data": {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Thing",
-          "name": "Haifa",
-          "description": "Haifa - Arabic name meaning Haifa (a coastal city); a pleasant, slender place",
-          "additionalType": "https://schema.org/Person"
-        },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What does Haifa mean?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Haifa is associated with the Arabic form حيفا, whose core sense is haifa (a coastal city); a pleasant, slender place."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is the origin of Haifa?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Haifa is associated with Arabic. Haifa is the Arabic name حيفا of the coastal city (Hebrew חֵיפָה). As a given name it recalls the city rather than a lexical root; the source gloss 'gardens' is unsupported and has been replaced. Some relate the place-name to حفا 'barefoot' or to the root ح ي ف 'to be slender', but neither is settled."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is Haifa an Arabic name?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes — the underlying form حيفا is Arabic."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is Haifa an Islamic name?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Haifa can occur in Muslim naming contexts, but it is better described as a Arabic-origin name used within some Muslim naming traditions than as an exclusively Islamic religious term."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is Haifa a Quranic name?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Haifa should not be classified as a Quranic personal name without a direct Quranic basis. False"
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What does Haifa mean in Urdu?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "In Urdu, Haifa is rendered حیفہ and carries the sense حیفہ (شہر)."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What does Haifa mean in Persian?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "In Persian, Haifa is rendered حیفا and carries the sense حیفا (شهر)."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How is Haifa pronounced?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "A romanized syllable approximation is hai-fa. No IPA transcription is asserted because a verified phonetic transcription was not available."
-              }
-            }
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": ""
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Arabic Names",
-              "item": ""
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Haifa",
-              "item": ""
-            }
-          ]
-        }
-      ]
-    },
-    "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "MEDIUM",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-05T04:53:30+00:00"
-    },
-    "render_policy": {
-      "render_verified": true,
-      "render_interpretive": true,
-      "hide_unverified": true,
-      "hidden_sections": [
-        "personality_associations",
-        "hidden_personality_traits",
-        "popularity",
-        "celebrity_usage",
-        "real_world_usage"
-      ]
+     ]
     }
+   ]
+  },
+  "editorial_validation": {
+   "needs_manual_verification": false,
+   "flags": [],
+   "confidence": "LOW",
+   "reviewed_by": "NameVerse content-remediation pipeline v6",
+   "reviewed_at": "2026-10-05T05:20:05+00:00"
+  },
+  "render_policy": {
+   "render_verified": true,
+   "render_interpretive": true,
+   "hide_unverified": true,
+   "render_duplicate_definitions": false,
+   "single_definition_source": "core_meaning.primary_meaning",
+   "non_rendered_definition_fields": [
+    "core_meaning.short_meaning",
+    "core_meaning.literal_meaning",
+    "core_meaning.meaning_explanation",
+    "etymology.etymological_meaning",
+    "etymology.etymology_explanation",
+    "origin.origin_explanation",
+    "cultural_context.cultural_meaning",
+    "seo_content.intro_paragraph"
+   ],
+   "hidden_sections": [
+    "personality_associations",
+    "hidden_personality_traits",
+    "popularity",
+    "celebrity_usage",
+    "real_world_usage",
+    "spiritual_meaning",
+    "name_story"
+   ],
+   "note": "Only one definition paragraph is rendered (core_meaning.primary_meaning); the remaining definition-bearing fields supply metadata and structured data but are not rendered as body text, so the page never repeats the same meaning."
   }
+ }
 }
