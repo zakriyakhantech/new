@@ -39,6 +39,12 @@ jobs:
           git config user.name "NameVerse v8 Agent"
           git config user.email "agent@nameverse.local"
 
+      - name: Restore clean pre-corruption baseline
+        run: |
+          git checkout e188bb3f9242c8e0425084e6285b7e953af776d8 -- upgrading/names_upgraded/islamic/
+          echo "Restored baseline; sample:"
+          python3 -c "import json;d=json.load(open('upgrading/names_upgraded/islamic/aabid.json'));print(d['data']['core_meaning']['short_meaning'])"
+
       - name: Verify composer parses
         run: python3 -c "import ast;ast.parse(open('upgrading/scripts/super2_v8.py').read());print('AST OK')"
 
