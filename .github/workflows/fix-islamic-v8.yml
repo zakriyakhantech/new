@@ -1,0 +1,50 @@
+name: fix-islamic-v8
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: "Names per commit/push batch"
+        required: false
+        default: "100"
+      max_batches:
+        description: "Max batches this run (0 = all remaining)"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fix-islamic-v8
+  cancel-in-progress: false
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Configure git
+        run: |
+          git config user.name "NameVerse v8 Agent"
+          git config user.email "agent@nameverse.local"
+
+      - name: Verify composer parses
+        run: python3 -c "import ast;ast.parse(open('upgrading/scripts/super2_v8.py').read());print('AST OK')"
+
+      - name: Fix islamic name content (v8 root-cause fix)
+        env:
+          BATCH_SIZE: ${{ github.event.inputs.batch_size }}
+          MAX_BATCHES: ${{ github.event.inputs.max_batches }}
+          TARGET_BRANCH: main
+        run: python3 upgrading/scripts/super2_v8.py
