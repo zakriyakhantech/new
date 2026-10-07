@@ -1,0 +1,48 @@
+name: Add 10 missing famous Islamic names
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: add-islamic-names10
+  cancel-in-progress: false
+
+jobs:
+  add-names:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Download 10 name records
+        env:
+          TK: "c2l0ZTo3Njk5NDJjNS01YmY1LTQzYjgtYWVjMC1lMjc2ZWRjZWY2OGEvZG9jdW1lbnRzL2lzbGFtaWNfbmV3X25hbWVzOjE3OTEzNjA1Mzc.NWNmNDE2ZGM2ZWRiNzRkZjljZWQ0YzExZjYxYzVkMDE"
+        run: |
+          set -euo pipefail
+          DEST="upgrading/names_upgraded/islamic"
+          mkdir -p "$DEST"
+          for n in zain zayan taha usama sara zoya sumayyah sidra tooba hoorain; do
+            curl -fsSL -o "$DEST/$n.json" "https://static.teamily.ai/sites/769942c5-5bf5-43b8-aec0-e276edcef68a/documents/islamic_new_names/$n.json?tk=$TK"
+            echo "downloaded $n ($(stat -c%s "$DEST/$n.json") bytes)"
+          done
+
+      - name: Validate schema parity
+        run: python3 upgrading/scripts/validate_names10.py
+
+      - name: Commit and push to main
+        run: |
+          set -euo pipefail
+          git config user.name "NameVerse Agent"
+          git config user.email "agent@teamily.ai"
+          git add upgrading/names_upgraded/islamic/
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"; exit 0
+          fi
+          git commit -m "Add 10 missing famous Islamic names: Zain, Zayan, Taha, Usama, Sara, Zoya, Sumayyah, Sidra, Tooba, Hoorain"
+          git push origin HEAD:main
+          echo "PUSHED $(git rev-parse HEAD)"
