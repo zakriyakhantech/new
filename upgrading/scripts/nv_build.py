@@ -82,7 +82,10 @@ def build(name, src):
     c = CUR[name]
     ar, ur, fa, hi, ps, gkey, origin, gender, root, quranic, conf, note = c
     g = GLOSSES.get(gkey) if gkey else None
-    verified = g is not None
+    # A non-empty gloss placeholder is not verification. In particular, `uncertain_form`
+    # is a status label, not a dictionary meaning; low-confidence/unknown-origin records
+    # must not render as verified entries.
+    verified = bool(g is not None and conf in ("high", "medium") and origin not in ("Unknown", "") and gkey != "uncertain_form")
     disp = name.capitalize()
     slug = name
     short = g["en"] if verified else "Not objectively established"
@@ -96,12 +99,14 @@ def build(name, src):
                     "translation_status": "unverified",
                     "note": "No verified %s translation was established for this form. A meaning is deliberately not asserted." % lang}
         m = g[lang]
-        o = origin_native[lang].get(origin, origin_native[lang]["Unknown"])
-        lm = LONG_T[lang].format(n=disp, f=form, o=o, m=m)
-        return {"name": form, "meaning": m, "long_meaning": lm, "translation_status": "verified"}
+        return {"name": form, "meaning": m, "long_meaning": None,
+                "translation_status": "draft_needs_native_review",
+                "review_note": "Curated rendering only; not independently cited or reviewed by a native speaker."}
 
     translations = {
-        "english": ({"name": disp, "meaning": g["en"], "long_meaning": "%s is a %s-origin name. Its core meaning is %s. %s" % (disp, origin, g["en"].lower(), note)} if verified
+        "english": ({"name": disp, "meaning": g["en"], "long_meaning": None,
+                     "translation_status": "draft_needs_native_review",
+                     "review_note": "Lexical gloss is source-supported where a named citation is attached; translations into other languages still require native-speaker review."} if verified
                     else {"name": disp, "meaning": None, "long_meaning": None, "translation_status": "unverified",
                           "note": "No verified meaning was established for this form, so no gloss is asserted."}),
         "urdu": tr("ur", ur), "persian": tr("fa", fa), "hindi": tr("hi", hi),
@@ -227,9 +232,11 @@ def build(name, src):
         },
         "translations": translations,
         "translation_quality": {
-          "strategy": "semantic_translation",
-          "warning": "Translations describe equivalent meanings in each language. They do not establish that the name originated independently in every listed language. Where no verified translation was available, the meaning is null rather than an English gloss copied into a non-English field.",
-          "confidence": ("high" if conf == "high" else ("medium" if conf == "medium" else "low")) if verified else "unverified",
+          "strategy": "curated_gloss_draft",
+          "warning": "Non-English renderings are editorial drafts, not native-speaker-verified translations. They do not establish origin in every listed language.",
+          "confidence": "requires_native_review" if verified else "unverified",
+          "native_review_required": True,
+          "named_translation_source_present": False,
         },
         "pronunciation": {
           "romanized": syllabify(name), "ipa": None,

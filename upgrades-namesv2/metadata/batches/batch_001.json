@@ -1,0 +1,41 @@
+{
+  "batch_id": "v2-001",
+  "batch_number": 1,
+  "date": "2026-10-08",
+  "source_directory": "upgrading/names_upgraded/islamic",
+  "destination_directory": "upgrades-namesv2/islamic",
+  "batch_size": 1,
+  "source_cursor_start": 0,
+  "source_cursor_end_exclusive": 1,
+  "source_entries_reviewed": 1,
+  "json_records_created": 1,
+  "aliases_merged": 0,
+  "source_holds": 0,
+  "entries": [
+    {
+      "source_slug": "aaban",
+      "display_name": "Aaban",
+      "outcome": "CREATED",
+      "canonical_slug": "aaban",
+      "output_file": "aaban.json",
+      "meaning": "Aban; eighth month of the Persian solar calendar",
+      "reason": "Named source attached for the lexical claim; other translations and name-use details remain under review."
+    }
+  ],
+  "named_source_references_by_record": {
+    "aaban": [
+      {
+        "title": "آبان — Dehkhoda Dictionary",
+        "publisher": "Vajehyab / Dehkhoda Dictionary",
+        "url": "https://vajehyab.com/dehkhoda/%D8%A2%D8%A8%D8%A7%D9%86",
+        "source_type": "lexical_dictionary",
+        "supports": [
+          "آبان as the eighth month of the Persian solar year"
+        ],
+        "accessed_on": "2026-10-08"
+      }
+    ]
+  },
+  "structural_validation_note": "Run nv_validate.py separately; that validator checks structure only, not factual authenticity.",
+  "translation_status_note": "Non-English translations are drafts requiring native-speaker review; no record is marked ready for publication."
+}
