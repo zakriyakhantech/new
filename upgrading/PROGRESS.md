@@ -10,15 +10,15 @@
 | Verified forms | 6336 |
 | Unverified forms (no gloss asserted) | 157 |
 | Next batch starts after | safwa |
-| Updated | 2026-10-03T04:31:54Z |
+| Updated | 2026-10-08T06:25:39Z |
 
 ## Confidence summary
 
 | Confidence | Count |
 |---|---|
-| high | 3424 |
+| high | 3434 |
 | low | 729 |
-| medium | 1183 |
+| medium | 2173 |
 | unverified | 157 |
 
 ## Origin summary
