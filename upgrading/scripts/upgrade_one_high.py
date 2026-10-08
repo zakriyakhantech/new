@@ -248,6 +248,8 @@ import high_specs
 
 _FATHA = chr(0x064E)
 _KASRA = chr(0x0650)
+_SUKUN = chr(0x0652)
+_DAMMA = chr(0x064F)
 _HARAKAT_RE = re.compile("[\u064B-\u0652\u0670]")
 
 
@@ -281,8 +283,10 @@ def _patch_spec(rec, slug):
     # vocalized lexical form, built from own bytes + vowel map
     vow = spec["vow"]
     assert len(vow) == len(lex), "vowel map length drift %s" % slug
-    voc = "".join(c + (_FATHA if v == "F" else _KASRA if v == "K" else "")
-                  for c, v in zip(lex, vow))
+    _VMAP = {"F": _FATHA, "K": _KASRA, "S": _SUKUN, "D": _DAMMA}
+    for v in vow:
+        assert v is None or v in _VMAP, "bad vowel code %r %s" % (v, slug)
+    voc = "".join(c + (_VMAP[v] if v else "") for c, v in zip(lex, vow))
     assert _strip(voc) == lex
     voc_tr = spec["voc_tr"]
 
@@ -370,8 +374,23 @@ def _patch_spec(rec, slug):
     else:
         raise AssertionError("unknown kind %s" % kind)
 
+    # template override (batch 2+): custom prose with safe placeholders
+    if "body_t" in spec:
+        base = lex[:-1] if lex.endswith("ة") else (lex[:-2] if lex.endswith("ات") else "")
+        fmt = dict(spec)
+        fmt.update({"name": name, "lex": lex, "root": root, "root_tr": root_tr,
+                    "root_compact": root_compact, "voc": voc, "voc_tr": voc_tr,
+                    "verb": verb or "", "verb_tr": verb_tr or "",
+                    "masc": masc or "", "fem": fem or "", "base": base,
+                    "short": short, "core": core, "tail": tail_note})
+        morph = spec["morph_t"].format(**fmt)
+        body = spec["body_t"].format(**fmt)
+        etym = spec["etym_t"].format(**fmt)
+        apposition = spec["apposition"].format(**fmt)
+
     # tripwire: every Arabic token in composed strings must trace to own bytes
     allowed = {"ـات", root_compact, "ات", "ة"}
+    allowed |= set(spec.get("allow", []))
     if fem:
         allowed.add(fem)
     for txt in (morph, head + " " + body, etym):
@@ -431,8 +450,8 @@ def _patch_spec(rec, slug):
     for op in spec["surgeries"]:
         if op[0] == "suf":
             _, lang, old, suffix = op
-            if lang == "arabic" and suffix == "ة":
-                assert tr["arabic"]["name"][-1] == "ة", "ta-marbuta drift %s" % slug
+            if suffix in ("ة", "ه"):
+                assert tr[lang]["name"][-1] == suffix, "suffix drift %s %s" % (slug, lang)
             new = old + suffix
         elif op[0] == "set":
             _, lang, old, new = op
