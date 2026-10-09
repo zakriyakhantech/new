@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""One-by-one HIGH-quality upgrade runner (NameVerse Production v8.1).
+"""One-by-one HIGH-quality upgrade runner (NameVerse Production v8.2).
 
 Usage:
     python3 upgrade_one_high.py <slug>
@@ -12,7 +12,7 @@ Each slug gets exactly one commit + push (done by the operator after review):
 
     git add upgrading/names_upgraded/islamic/<slug>.json upgrading/PROGRESS.json \\
             upgrading/PROGRESS.md upgrading/HIGH_UPGRADE_TRACKER.md
-    git commit -m "feat(high-quality): upgrade <Name> (<slug>) to HIGH (v8.1)"
+    git commit -m "feat(high-quality): upgrade <Name> (<slug>) to HIGH (v8.2)"
     git push origin arena/f19adccf-new
 
 HIGH bar (mirrors the verified HIGH reference, e.g. aabid):
@@ -23,7 +23,7 @@ HIGH bar (mirrors the verified HIGH reference, e.g. aabid):
   * every non-English translation in native script, gender-agreeing where applicable
   * FAQ root answer + structured_data FAQPage kept consistent
   * quality_score/seo_score 95 with "root present" basis
-  * provenance records the v8.1 one-by-one curation
+  * provenance records the v8.2 one-by-one curation
 """
 import copy
 import datetime
@@ -400,8 +400,8 @@ def _patch_spec(rec, slug):
                   or s in allowed)
             assert ok, "untraced Arabic token %r in %s" % (tok, slug)
 
-    d["content_revision"] = "v8.1"
-    notes.append("content_revision v8 -> v8.1")
+    d["content_revision"] = "v8.2"
+    notes.append("content_revision v8 -> v8.2")
     d["identity"]["gender_confidence"] = "HIGH"
     d["core_meaning"]["meaning_confidence"] = "HIGH"
     d["core_meaning"]["meaning_explanation"] = head + " " + body
@@ -514,7 +514,7 @@ def _patch_spec(rec, slug):
     ]
     notes.append("evidence: %s cited" % apposition.split(" of ")[0])
     d["provenance"] = {
-        "pipeline": "NameVerse Production v8.1 (one-by-one HIGH curation)",
+        "pipeline": "NameVerse Production v8.2 (one-by-one HIGH curation)",
         "methodology": "Single-name deep curation -> root verification -> rebuild distinct fields -> validate",
         "upgraded_from": "v8",
         "processed_at": NOW,
@@ -526,7 +526,7 @@ def _patch_spec(rec, slug):
         "reviewed_by": "NameVerse one-by-one HIGH curation",
         "reviewed_at": NOW,
     }
-    notes.append("provenance/editorial stamped v8.1 HIGH")
+    notes.append("provenance/editorial stamped v8.2 HIGH")
     return notes
 
 
@@ -633,7 +633,7 @@ def refresh_progress(slug, name):
 
 def update_tracker(slug, name, notes):
     header = ("# NameVerse One-by-One HIGH Upgrade Tracker\n\n"
-              "Each row = one name upgraded to HIGH (v8.1) in its own commit + push.\n\n"
+              "Each row = one name upgraded to HIGH (v8.2) in its own commit + push.\n\n"
               "| # | Name | Slug | Date (UTC) | Commit | Changes |\n"
               "|---|---|---|---|---|---|\n")
     if not os.path.exists(TRACKER_MD):
