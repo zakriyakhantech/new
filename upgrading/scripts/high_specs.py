@@ -588,4 +588,214 @@ SPECS = {
             ("set", "pashto", "عبادت کوونکي", "عبادت کوونکې"),
         ],
     },
+
+    # ------------------------------------------------------------------
+    # Batch #4 (tracker rows #31-#40) - content_revision v8.2
+    # ------------------------------------------------------------------
+    'abir': {'kind': 'noun',
+             'gloss': 'Fragrance',
+             'root': 'ع ب ر',
+             'root_tr': 'ʿ-b-r',
+             'vow': ['F', 'K', None, None],
+             'voc_tr': 'ʿabīr',
+             'verb_mid': None,
+             'verb_tr': None,
+             'variant': None,
+             'usage': None,
+             'morph_t': 'Verbal-noun pattern (faʿīl) from the root {root}.',
+             'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the established word for "
+                       'fragrance, from the root {root} ({root_tr}).{tail}',
+             'etym_t': 'The form {lex} is an established Arabic lexical item — the word for '
+                       "'fragrance' — and {name} is the word itself used as a personal name "
+                       'rather than a derived or diminutive form.',
+             'apposition': "established word for 'fragrance'",
+             'fa_from': 'arabic',
+             'fa_meaning': 'خوشبو، عطر، رایحه',
+             'surgeries': []},
+    'adal': {'kind': 'noun',
+             'gloss': 'Justice, equity',
+             'root': 'ع د ل',
+             'root_tr': 'ʿ-d-l',
+             'vow': ['F', 'S', None],
+             'voc_tr': 'ʿadl',
+             'verb_mid': None,
+             'verb_tr': None,
+             'variant': None,
+             'usage': None,
+             'morph_t': "Verbal noun (maṣdar) of عَدَلَ (ʿadala, 'to be just, to act justly'), "
+                        'from the root {root}.',
+             'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the verbal noun of عَدَلَ "
+                       "(ʿadala, 'to be just, to act justly') from the root {root} "
+                       '({root_tr}).{tail}',
+             'etym_t': 'The form {lex} is an established Arabic lexical item — the verbal noun of '
+                       'the root {root} — and {name} is the word itself used as a personal name '
+                       'rather than a derived or diminutive form.',
+             'apposition': 'verbal noun of عَدَلَ',
+             'fa_from': 'arabic',
+             'fa_meaning': 'عدل، انصاف، داد',
+             'surgeries': []},
+    'adala': {'kind': 'noun',
+              'gloss': 'Justice, fairness',
+              'root': 'ع د ل',
+              'root_tr': 'ʿ-d-l',
+              'vow': ['F', 'F', None, 'F', None],
+              'voc_tr': 'ʿadālah',
+              'verb_mid': None,
+              'verb_tr': None,
+              'variant': None,
+              'usage': None,
+              'morph_t': 'Feminine abstract noun (faʿālah pattern) built on عَدْل (ʿadl, '
+                         "'justice') and the root {root}.",
+              'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the abstract noun of "
+                        'justice built from عَدْل (ʿadl) on the root {root} ({root_tr}).{tail}',
+              'etym_t': 'The form {lex} is an established Arabic lexical item — the abstract noun '
+                        'of the root {root} — and {name} is the word itself used as a personal '
+                        'name rather than a derived or diminutive form.',
+              'apposition': 'abstract noun of عَدْل',
+              'fa_from': 'arabic',
+              'fa_meaning': 'عدالت، انصاف',
+              'surgeries': []},
+    'adalat': {'kind': 'noun',
+               'gloss': 'Justice',
+               'root': 'ع د ل',
+               'root_tr': 'ʿ-d-l',
+               'vow': ['F', 'F', None, 'F', None],
+               'voc_tr': 'ʿadālah',
+               'verb_mid': None,
+               'verb_tr': None,
+               'variant': 'Adalat is a variant romanization of Adala.',
+               'usage': None,
+               'morph_t': 'Feminine abstract noun (faʿālah pattern) built on عَدْل (ʿadl, '
+                          "'justice') and the root {root}.",
+               'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the abstract noun of "
+                         'justice built from عَدْل (ʿadl) on the root {root} ({root_tr}).{tail}',
+               'etym_t': 'The form {lex} is an established Arabic lexical item — the abstract '
+                         'noun of the root {root} — and {name} is the word itself used as a '
+                         'personal name rather than a derived or diminutive form.',
+               'apposition': 'abstract noun of عَدْل',
+               'fa_from': 'arabic',
+               'fa_meaning': 'عدالت، انصاف',
+               'surgeries': []},
+    'adil': {'kind': 'masc_participle',
+             'gloss': 'Just, fair, honest',
+             'root': 'ع د ل',
+             'root_tr': 'ʿ-d-l',
+             'vow': ['F', None, 'K', None],
+             'voc_tr': 'ʿādil',
+             'verb_mid': 'a',
+             'verb_tr': 'ʿadala',
+             'verb_gloss_short': "'to be just, to act justly'",
+             'variant': None,
+             'usage': None,
+             'fa_from': 'arabic',
+             'fa_meaning': 'عادل، منصف، درستکار',
+             'surgeries': []},
+    'adl': {'kind': 'noun',
+            'gloss': 'Justice, fairness',
+            'root': 'ع د ل',
+            'root_tr': 'ʿ-d-l',
+            'vow': ['F', 'S', None],
+            'voc_tr': 'ʿadl',
+            'verb_mid': None,
+            'verb_tr': None,
+            'variant': 'Adl is a variant romanization of Adal.',
+            'usage': None,
+            'morph_t': "Verbal noun (maṣdar) of عَدَلَ (ʿadala, 'to be just, to act justly'), "
+                       'from the root {root}.',
+            'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the verbal noun of عَدَلَ "
+                      "(ʿadala, 'to be just, to act justly') from the root {root} "
+                      '({root_tr}).{tail}',
+            'etym_t': 'The form {lex} is an established Arabic lexical item — the verbal noun of '
+                      'the root {root} — and {name} is the word itself used as a personal name '
+                      'rather than a derived or diminutive form.',
+            'apposition': 'verbal noun of عَدَلَ',
+            'fa_from': 'arabic',
+            'fa_meaning': 'عدل، انصاف، داد',
+            'surgeries': []},
+    'adla': {'kind': 'noun',
+             'gloss': 'Justice, fairness',
+             'root': 'ع د ل',
+             'root_tr': 'ʿ-d-l',
+             'vow': ['F', 'S', 'F', None],
+             'voc_tr': 'ʿadlah',
+             'verb_mid': None,
+             'verb_tr': None,
+             'variant': None,
+             'usage': None,
+             'morph_t': "Feminine noun (faʿlah pattern) built on عَدْل (ʿadl, 'justice') and the "
+                        'root {root}.',
+             'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', a feminine noun of justice "
+                       'built from عَدْل (ʿadl) on the root {root} ({root_tr}).{tail}',
+             'etym_t': 'The form {lex} is an established Arabic lexical item — a feminine noun of '
+                       'the root {root} — and {name} is the word itself used as a personal name '
+                       'rather than a derived or diminutive form.',
+             'apposition': 'feminine noun of عَدْل',
+             'fa_from': 'arabic',
+             'fa_meaning': 'عدالت، انصاف',
+             'surgeries': []},
+    'adlah': {'kind': 'noun',
+              'gloss': 'Justice, fairness',
+              'root': 'ع د ل',
+              'root_tr': 'ʿ-d-l',
+              'vow': ['F', 'S', 'F', None],
+              'voc_tr': 'ʿadlah',
+              'verb_mid': None,
+              'verb_tr': None,
+              'variant': 'Adlah is a variant romanization of Adla.',
+              'usage': None,
+              'morph_t': "Feminine noun (faʿlah pattern) built on عَدْل (ʿadl, 'justice') and the "
+                         'root {root}.',
+              'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', a feminine noun of justice "
+                        'built from عَدْل (ʿadl) on the root {root} ({root_tr}).{tail}',
+              'etym_t': 'The form {lex} is an established Arabic lexical item — a feminine noun '
+                        'of the root {root} — and {name} is the word itself used as a personal '
+                        'name rather than a derived or diminutive form.',
+              'apposition': 'feminine noun of عَدْل',
+              'fa_from': 'arabic',
+              'fa_meaning': 'عدالت، انصاف',
+              'surgeries': []},
+    'adnan': {'kind': 'noun',
+              'gloss': 'Settler, one who dwells',
+              'root': 'ع د ن',
+              'root_tr': 'ʿ-d-n',
+              'vow': ['F', 'S', 'F', None, None],
+              'voc_tr': 'ʿadnān',
+              'verb_mid': None,
+              'verb_tr': None,
+              'variant': None,
+              'usage': None,
+              'morph_t': "Extended adjective (faʿlān pattern) from عَدَنَ (ʿadana, 'to settle, to "
+                         "dwell'), built on the root {root}.",
+              'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the faʿlān-pattern "
+                        "adjective from عَدَنَ (ʿadana, 'to settle, to dwell') on the root {root} "
+                        '({root_tr}).{tail}',
+              'etym_t': 'The form {lex} is an established Arabic lexical item — the '
+                        'faʿlān-pattern adjective of the root {root} — and {name} is the word '
+                        'itself used as a personal name rather than a derived or diminutive form.',
+              'apposition': 'faʿlān-pattern adjective of عَدَنَ',
+              'fa_from': 'arabic',
+              'fa_meaning': 'ساکن، مقیم، مستوطن',
+              'surgeries': []},
+    'afaaf': {'kind': 'noun',
+              'gloss': 'Chastity, modesty, virtue',
+              'root': 'ع ف ف',
+              'root_tr': 'ʿ-f-f',
+              'vow': ['K', 'F', None, None],
+              'voc_tr': 'ʿifāf',
+              'verb_mid': None,
+              'verb_tr': None,
+              'variant': None,
+              'usage': None,
+              'morph_t': "Verbal noun (maṣdar) of عَفّ (ʿaffa, 'to abstain, to be chaste'), from "
+                         'the geminate root {root}.',
+              'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the verbal noun of عَفّ "
+                        "(ʿaffa, 'to abstain, to be chaste') from the geminate root {root} "
+                        '({root_tr}).{tail}',
+              'etym_t': 'The form {lex} is an established Arabic lexical item — the verbal noun '
+                        'of the root {root} — and {name} is the word itself used as a personal '
+                        'name rather than a derived or diminutive form.',
+              'apposition': 'verbal noun of عَفّ',
+              'fa_from': 'arabic',
+              'fa_meaning': 'عفت، پاکدامنی، پرهیزگاری',
+              'surgeries': []}
 }
