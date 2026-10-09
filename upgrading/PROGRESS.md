@@ -10,7 +10,7 @@
 | Verified forms | 6336 |
 | Unverified forms (no gloss asserted) | 157 |
 | Next batch starts after | safwa |
-| Updated | 2026-10-09T04:29:41Z |
+| Updated | 2026-10-09T04:33:06Z |
 
 ## Confidence summary
 
