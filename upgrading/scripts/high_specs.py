@@ -1216,5 +1216,219 @@ SPECS = {
              'apposition': "established word for 'hope'",
              'fa_from': 'arabic',
              'fa_meaning': 'امید، آرزو',
-             'surgeries': []}
+             'surgeries': []},
+
+    # ------------------------------------------------------------------
+    # Batch #7 (tracker rows #61-#70) - content_revision v8.2
+    # ------------------------------------------------------------------
+    'aman': {'kind': 'noun',
+             'gloss': 'Peace, safety, trust',
+             'root': 'أ م ن',
+             'root_tr': 'ʾ-m-n',
+             'vow': ['F', 'F', None, None],
+             'voc_tr': 'ʾamān',
+             'verb_mid': None,
+             'verb_tr': None,
+             'variant': None,
+             'usage': None,
+             'morph_t': 'Verbal noun (maṣdar) of safety and trust built on the root {root}.',
+             'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the verbal noun of safety "
+                       'and trust built on the root {root} ({root_tr}).{tail}',
+             'etym_t': 'The form {lex} is an established Arabic lexical item — the verbal noun of '
+                       'the root {root} — and {name} is the word itself used as a personal name '
+                       'rather than a derived or diminutive form.',
+             'apposition': 'verbal noun of safety',
+             'fa_from': 'arabic',
+             'fa_meaning': 'امن، امان، اطمینان',
+             'surgeries': []},
+    'amana': {'kind': 'noun',
+              'gloss': 'Trust, faithfulness',
+              'root': 'أ م ن',
+              'root_tr': 'ʾ-m-n',
+              'vow': ['F', 'F', None, 'F', None],
+              'voc_tr': 'ʾamānah',
+              'verb_mid': None,
+              'verb_tr': None,
+              'variant': 'Amana is a variant romanization of Amanah.',
+              'usage': None,
+              'morph_t': 'Feminine verbal noun (maṣdar) of trust built on the root {root}.',
+              'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the feminine verbal noun of "
+                        'trust built on the root {root} ({root_tr}).{tail}',
+              'etym_t': 'The form {lex} is an established Arabic lexical item — the verbal noun '
+                        'of the root {root} — and {name} is the word itself used as a personal '
+                        'name rather than a derived or diminutive form.',
+              'apposition': 'verbal noun of trust',
+              'fa_from': 'arabic',
+              'fa_meaning': 'امانت، ایمان، اعتماد',
+              'surgeries': []},
+    'amanah': {'kind': 'noun',
+               'gloss': 'Faith, trust',
+               'root': 'أ م ن',
+               'root_tr': 'ʾ-m-n',
+               'vow': ['F', 'F', None, 'F', None],
+               'voc_tr': 'ʾamānah',
+               'verb_mid': None,
+               'verb_tr': None,
+               'variant': None,
+               'usage': None,
+               'morph_t': 'Feminine verbal noun (maṣdar) of trust built on the root {root}.',
+               'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the feminine verbal noun "
+                         'of trust built on the root {root} ({root_tr}).{tail}',
+               'etym_t': 'The form {lex} is an established Arabic lexical item — the verbal noun '
+                         'of the root {root} — and {name} is the word itself used as a personal '
+                         'name rather than a derived or diminutive form.',
+               'apposition': 'verbal noun of trust',
+               'fa_from': 'arabic',
+               'fa_meaning': 'امانت، ایمان، اعتماد',
+               'surgeries': []},
+    'ameer': {'kind': 'noun',
+              'gloss': 'Prince, commander',
+              'root': 'أ م ر',
+              'root_tr': 'ʾ-m-r',
+              'vow': ['F', 'K', None, None],
+              'voc_tr': 'ʾamīr',
+              'verb_mid': None,
+              'verb_tr': None,
+              'variant': None,
+              'usage': None,
+              'morph_t': "Faʿīl-pattern noun with active sense, from أَمَرَ (ʾamara, 'to "
+                         "command'), built on the root {root}.",
+              'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the faʿīl form with active "
+                        "sense from أَمَرَ (ʾamara, 'to command') built on the root {root} "
+                        '({root_tr}).{tail}',
+              'etym_t': 'The form {lex} is an established Arabic lexical item — the faʿīl-pattern '
+                        'adjective of the root {root} — and {name} is the word itself used as a '
+                        'personal name rather than a derived or diminutive form.',
+              'apposition': 'faʿīl form of command',
+              'fa_from': 'arabic',
+              'fa_meaning': 'امیر، فرمانده، سردار',
+              'surgeries': []},
+    'ameera': {'kind': 'noun',
+               'gloss': 'Princess, ruler',
+               'root': 'أ م ر',
+               'root_tr': 'ʾ-m-r',
+               'vow': ['F', 'K', None, 'F', None],
+               'voc_tr': 'ʾamīrah',
+               'verb_mid': None,
+               'verb_tr': None,
+               'variant': None,
+               'usage': None,
+               'morph_t': 'Feminine of {base} (ʾamīr), the faʿīl form with active sense, built on '
+                          'the root {root}.',
+               'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the feminine of {base} "
+                         "(ʾamīr, 'prince, commander') built on the root {root} "
+                         '({root_tr}).{tail}',
+               'etym_t': 'The form {lex} is an established Arabic lexical item — the feminine of '
+                         '{base} — and {name} is the word itself used as a personal name rather '
+                         'than a derived or diminutive form.',
+               'apposition': 'feminine of {base}',
+               'fa_from': 'arabic',
+               'fa_meaning': 'امیره، شاهدخت، فرمانده',
+               'surgeries': []},
+    'ameerah': {'kind': 'noun',
+                'gloss': 'Princess, ruler',
+                'root': 'أ م ر',
+                'root_tr': 'ʾ-m-r',
+                'vow': ['F', 'K', None, 'F', None],
+                'voc_tr': 'ʾamīrah',
+                'verb_mid': None,
+                'verb_tr': None,
+                'variant': 'Ameerah is a variant romanization of Ameera.',
+                'usage': None,
+                'morph_t': 'Feminine of {base} (ʾamīr), the faʿīl form with active sense, built '
+                           'on the root {root}.',
+                'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the feminine of {base} "
+                          "(ʾamīr, 'prince, commander') built on the root {root} "
+                          '({root_tr}).{tail}',
+                'etym_t': 'The form {lex} is an established Arabic lexical item — the feminine of '
+                          '{base} — and {name} is the word itself used as a personal name rather '
+                          'than a derived or diminutive form.',
+                'apposition': 'feminine of {base}',
+                'fa_from': 'arabic',
+                'fa_meaning': 'امیره، شاهدخت، فرمانده',
+                'surgeries': []},
+    'ameen': {'kind': 'noun',
+              'gloss': 'Trustworthy, honest',
+              'root': 'أ م ن',
+              'root_tr': 'ʾ-m-n',
+              'vow': ['F', 'K', None, None],
+              'voc_tr': 'ʾamīn',
+              'verb_mid': None,
+              'verb_tr': None,
+              'variant': None,
+              'usage': None,
+              'morph_t': 'Faʿīl-pattern adjective built on the root {root}.',
+              'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the faʿīl-pattern adjective "
+                        'of trustworthiness built on the root {root} ({root_tr}).{tail}',
+              'etym_t': 'The form {lex} is an established Arabic lexical item — the faʿīl-pattern '
+                        'adjective of the root {root} — and {name} is the word itself used as a '
+                        'personal name rather than a derived or diminutive form.',
+              'apposition': 'faʿīl-pattern adjective',
+              'fa_from': 'arabic',
+              'fa_meaning': 'امین، درستکار، مورد اعتماد',
+              'surgeries': []},
+    'amin': {'kind': 'noun',
+             'gloss': 'Trustworthy, honest',
+             'root': 'أ م ن',
+             'root_tr': 'ʾ-m-n',
+             'vow': ['F', 'K', None, None],
+             'voc_tr': 'ʾamīn',
+             'verb_mid': None,
+             'verb_tr': None,
+             'variant': 'Amin is a variant romanization of Ameen.',
+             'usage': None,
+             'morph_t': 'Faʿīl-pattern adjective built on the root {root}.',
+             'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the faʿīl-pattern adjective "
+                       'of trustworthiness built on the root {root} ({root_tr}).{tail}',
+             'etym_t': 'The form {lex} is an established Arabic lexical item — the faʿīl-pattern '
+                       'adjective of the root {root} — and {name} is the word itself used as a '
+                       'personal name rather than a derived or diminutive form.',
+             'apposition': 'faʿīl-pattern adjective',
+             'fa_from': 'arabic',
+             'fa_meaning': 'امین، درستکار، مورد اعتماد',
+             'surgeries': []},
+    'ameena': {'kind': 'noun',
+               'gloss': 'Trustworthy, dependable (feminine)',
+               'root': 'أ م ن',
+               'root_tr': 'ʾ-m-n',
+               'vow': ['F', 'K', None, 'F', None],
+               'voc_tr': 'ʾamīnah',
+               'verb_mid': None,
+               'verb_tr': None,
+               'variant': None,
+               'usage': None,
+               'morph_t': 'Feminine of the faʿīl-pattern adjective {base} (ʾamīn), built on the '
+                          'root {root}.',
+               'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the feminine of the "
+                         'faʿīl-pattern adjective {base} (ʾamīn) built on the root {root} '
+                         '({root_tr}).{tail}',
+               'etym_t': 'The form {lex} is an established Arabic lexical item — the feminine of '
+                         '{base} — and {name} is the word itself used as a personal name rather '
+                         'than a derived or diminutive form.',
+               'apposition': 'feminine of {base}',
+               'fa_from': 'arabic',
+               'fa_meaning': 'امین، درستکار، قابل اعتماد',
+               'surgeries': []},
+    'ameenah': {'kind': 'noun',
+                'gloss': 'Trustworthy, dependable (feminine)',
+                'root': 'أ م ن',
+                'root_tr': 'ʾ-m-n',
+                'vow': ['F', 'K', None, 'F', None],
+                'voc_tr': 'ʾamīnah',
+                'verb_mid': None,
+                'verb_tr': None,
+                'variant': 'Ameenah is a variant romanization of Ameena.',
+                'usage': None,
+                'morph_t': 'Feminine of the faʿīl-pattern adjective {base} (ʾamīn), built on the '
+                           'root {root}.',
+                'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the feminine of the "
+                          'faʿīl-pattern adjective {base} (ʾamīn) built on the root {root} '
+                          '({root_tr}).{tail}',
+                'etym_t': 'The form {lex} is an established Arabic lexical item — the feminine of '
+                          '{base} — and {name} is the word itself used as a personal name rather '
+                          'than a derived or diminutive form.',
+                'apposition': 'feminine of {base}',
+                'fa_from': 'arabic',
+                'fa_meaning': 'امین، درستکار، قابل اعتماد',
+                'surgeries': []}
 }
