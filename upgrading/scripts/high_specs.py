@@ -797,5 +797,218 @@ SPECS = {
               'apposition': 'verbal noun of عَفّ',
               'fa_from': 'arabic',
               'fa_meaning': 'عفت، پاکدامنی، پرهیزگاری',
+              'surgeries': []},
+
+    # ------------------------------------------------------------------
+    # Batch #5 (tracker rows #41-#50) - content_revision v8.2
+    # ------------------------------------------------------------------
+    'afdal': {'kind': 'noun',
+              'gloss': 'Better, best',
+              'root': 'ف ض ل',
+              'root_tr': 'f-ḍ-l',
+              'vow': ['F', 'S', 'F', None],
+              'voc_tr': 'afḍal',
+              'verb_mid': None,
+              'verb_tr': None,
+              'variant': 'Afdal is a variant romanization of Afzal.',
+              'usage': None,
+              'morph_t': 'Elative adjective (afʿal pattern) built on the root {root}.',
+              'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the elative ('better, "
+                        "best') form built on the root {root} ({root_tr}).{tail}",
+              'etym_t': 'The form {lex} is an established Arabic lexical item — the elative of '
+                        'the root {root} — and {name} is the word itself used as a personal name '
+                        'rather than a derived or diminutive form.',
+              'apposition': 'elative form',
+              'fa_from': 'arabic',
+              'fa_meaning': 'برتری، فضیلت، کمال',
+              'surgeries': []},
+    'afzal': {'kind': 'noun',
+              'gloss': 'Better, best, superior',
+              'root': 'ف ض ل',
+              'root_tr': 'f-ḍ-l',
+              'vow': ['F', 'S', 'F', None],
+              'voc_tr': 'afḍal',
+              'verb_mid': None,
+              'verb_tr': None,
+              'variant': None,
+              'usage': None,
+              'morph_t': 'Elative adjective (afʿal pattern) built on the root {root}.',
+              'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the elative ('better, "
+                        "best') form built on the root {root} ({root_tr}).{tail}",
+              'etym_t': 'The form {lex} is an established Arabic lexical item — the elative of '
+                        'the root {root} — and {name} is the word itself used as a personal name '
+                        'rather than a derived or diminutive form.',
+              'apposition': 'elative form',
+              'fa_from': 'arabic',
+              'fa_meaning': 'برتر، فاضل، برگزیده',
+              'surgeries': []},
+    'afeef': {'kind': 'noun',
+              'gloss': 'Chaste, virtuous, modest',
+              'root': 'ع ف ف',
+              'root_tr': 'ʿ-f-f',
+              'vow': ['F', 'K', None, None],
+              'voc_tr': 'ʿafīf',
+              'verb_mid': None,
+              'verb_tr': None,
+              'variant': 'Afeef is a variant romanization of Afif.',
+              'usage': None,
+              'morph_t': 'Faʿīl-pattern stative adjective built on the root {root}.',
+              'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the faʿīl-pattern adjective "
+                        'of chastity built on the root {root} ({root_tr}).{tail}',
+              'etym_t': 'The form {lex} is an established Arabic lexical item — the faʿīl-pattern '
+                        'adjective of the root {root} — and {name} is the word itself used as a '
+                        'personal name rather than a derived or diminutive form.',
+              'apposition': 'faʿīl-pattern adjective',
+              'fa_from': 'arabic',
+              'fa_meaning': 'پاکدامن، عفیف، پارسا',
+              'surgeries': []},
+    'afif': {'kind': 'noun',
+             'gloss': 'Chaste, virtuous',
+             'root': 'ع ف ف',
+             'root_tr': 'ʿ-f-f',
+             'vow': ['F', 'K', None, None],
+             'voc_tr': 'ʿafīf',
+             'verb_mid': None,
+             'verb_tr': None,
+             'variant': None,
+             'usage': None,
+             'morph_t': 'Faʿīl-pattern stative adjective built on the root {root}.',
+             'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the faʿīl-pattern adjective "
+                       'of chastity built on the root {root} ({root_tr}).{tail}',
+             'etym_t': 'The form {lex} is an established Arabic lexical item — the faʿīl-pattern '
+                       'adjective of the root {root} — and {name} is the word itself used as a '
+                       'personal name rather than a derived or diminutive form.',
+             'apposition': 'faʿīl-pattern adjective',
+             'fa_from': 'arabic',
+             'fa_meaning': 'پاکدامن، عفیف، پارسا',
+             'surgeries': []},
+    'afeefa': {'kind': 'noun',
+               'gloss': 'Pure and chaste',
+               'root': 'ع ف ف',
+               'root_tr': 'ʿ-f-f',
+               'vow': ['F', 'K', None, 'F', None],
+               'voc_tr': 'ʿafīfah',
+               'verb_mid': None,
+               'verb_tr': None,
+               'variant': 'Afeefa is a variant romanization of Afifa.',
+               'usage': None,
+               'morph_t': 'Feminine of the faʿīl-pattern adjective {base} (ʿafīf), built on the '
+                          'root {root}.',
+               'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the feminine of the "
+                         'faʿīl-pattern adjective {base} (ʿafīf) built on the root {root} '
+                         '({root_tr}).{tail}',
+               'etym_t': 'The form {lex} is an established Arabic lexical item — the feminine of '
+                         '{base} — and {name} is the word itself used as a personal name rather '
+                         'than a derived or diminutive form.',
+               'apposition': 'feminine of {base}',
+               'fa_from': 'arabic',
+               'fa_meaning': 'پاکدامن، پارسا، عفیف',
+               'surgeries': []},
+    'afifa': {'kind': 'noun',
+              'gloss': 'Pure and chaste',
+              'root': 'ع ف ف',
+              'root_tr': 'ʿ-f-f',
+              'vow': ['F', 'K', None, 'F', None],
+              'voc_tr': 'ʿafīfah',
+              'verb_mid': None,
+              'verb_tr': None,
+              'variant': None,
+              'usage': None,
+              'morph_t': 'Feminine of the faʿīl-pattern adjective {base} (ʿafīf), built on the '
+                         'root {root}.',
+              'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the feminine of the "
+                        'faʿīl-pattern adjective {base} (ʿafīf) built on the root {root} '
+                        '({root_tr}).{tail}',
+              'etym_t': 'The form {lex} is an established Arabic lexical item — the feminine of '
+                        '{base} — and {name} is the word itself used as a personal name rather '
+                        'than a derived or diminutive form.',
+              'apposition': 'feminine of {base}',
+              'fa_from': 'arabic',
+              'fa_meaning': 'پاکدامن، پارسا، عفیف',
+              'surgeries': []},
+    'afifah': {'kind': 'noun',
+               'gloss': 'Pure and chaste',
+               'root': 'ع ف ف',
+               'root_tr': 'ʿ-f-f',
+               'vow': ['F', 'K', None, 'F', None],
+               'voc_tr': 'ʿafīfah',
+               'verb_mid': None,
+               'verb_tr': None,
+               'variant': 'Afifah is a variant romanization of Afifa.',
+               'usage': None,
+               'morph_t': 'Feminine of the faʿīl-pattern adjective {base} (ʿafīf), built on the '
+                          'root {root}.',
+               'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the feminine of the "
+                         'faʿīl-pattern adjective {base} (ʿafīf) built on the root {root} '
+                         '({root_tr}).{tail}',
+               'etym_t': 'The form {lex} is an established Arabic lexical item — the feminine of '
+                         '{base} — and {name} is the word itself used as a personal name rather '
+                         'than a derived or diminutive form.',
+               'apposition': 'feminine of {base}',
+               'fa_from': 'arabic',
+               'fa_meaning': 'پاکدامن، پارسا، عفیف',
+               'surgeries': []},
+    'ahd': {'kind': 'noun',
+            'gloss': 'Covenant, pledge',
+            'root': 'ع ه د',
+            'root_tr': 'ʿ-h-d',
+            'vow': ['F', 'S', None],
+            'voc_tr': 'ʿahd',
+            'verb_mid': None,
+            'verb_tr': None,
+            'variant': None,
+            'usage': None,
+            'morph_t': "Established noun from عَهِدَ (ʿahida, 'to know, to entrust'), built on "
+                       'the root {root}.',
+            'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the established word for a "
+                      'covenant, built on the root {root} ({root_tr}).{tail}',
+            'etym_t': 'The form {lex} is an established Arabic lexical item — the word for '
+                      "'covenant, pledge' — and {name} is the word itself used as a personal name "
+                      'rather than a derived or diminutive form.',
+            'apposition': "established word for 'covenant'",
+            'fa_from': 'arabic',
+            'fa_meaning': 'عهد، پیمان، میثاق',
+            'surgeries': []},
+    'ahmad': {'kind': 'noun',
+              'gloss': 'Most praiseworthy',
+              'root': 'ح م د',
+              'root_tr': 'ḥ-m-d',
+              'vow': ['F', 'S', 'F', None],
+              'voc_tr': 'ʾaḥmad',
+              'verb_mid': None,
+              'verb_tr': None,
+              'variant': None,
+              'usage': None,
+              'morph_t': "Elative adjective (afʿal pattern) of حَمِدَ (ḥamida, 'to praise'), "
+                         'built on the root {root}.',
+              'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the elative of praise built "
+                        'on the root {root} ({root_tr}).{tail}',
+              'etym_t': 'The form {lex} is an established Arabic lexical item — the elative of '
+                        'the root {root} — and {name} is the word itself used as a personal name '
+                        'rather than a derived or diminutive form.',
+              'apposition': 'elative form',
+              'fa_from': 'arabic',
+              'fa_meaning': 'بسیار ستوده، احمد، محمود',
+              'surgeries': []},
+    'ahmar': {'kind': 'noun',
+              'gloss': 'Red',
+              'root': 'ح م ر',
+              'root_tr': 'ḥ-m-r',
+              'vow': ['F', 'S', 'F', None],
+              'voc_tr': 'ʾaḥmar',
+              'verb_mid': None,
+              'verb_tr': None,
+              'variant': None,
+              'usage': 'The colour term is attested as an epithet and, less often, as a personal '
+                       'name.',
+              'morph_t': 'Colour adjective (afʿal pattern) built on the root {root}.',
+              'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the afʿal-pattern colour "
+                        'adjective for red, built on the root {root} ({root_tr}).{tail}',
+              'etym_t': 'The form {lex} is an established Arabic lexical item — the colour '
+                        'adjective of the root {root} — and {name} is the colour term used as a '
+                        'personal name rather than a derived or diminutive form.',
+              'apposition': 'colour adjective',
+              'fa_from': 'arabic',
+              'fa_meaning': 'سرخ، قرمز',
               'surgeries': []}
 }
