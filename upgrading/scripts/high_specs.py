@@ -1010,5 +1010,211 @@ SPECS = {
               'apposition': 'colour adjective',
               'fa_from': 'arabic',
               'fa_meaning': 'سرخ، قرمز',
-              'surgeries': []}
+              'surgeries': []},
+
+    # ------------------------------------------------------------------
+    # Batch #6 (tracker rows #51-#60) - content_revision v8.2
+    # ------------------------------------------------------------------
+    'ahsan': {'kind': 'noun',
+              'gloss': 'Best, most beautiful',
+              'root': 'ح س ن',
+              'root_tr': 'ḥ-s-n',
+              'vow': ['F', 'S', 'F', None],
+              'voc_tr': 'ʾaḥsan',
+              'verb_mid': None,
+              'verb_tr': None,
+              'variant': None,
+              'usage': None,
+              'morph_t': 'Elative adjective (afʿal pattern) built on the root {root}.',
+              'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the elative ('better, more "
+                        "beautiful') form built on the root {root} ({root_tr}).{tail}",
+              'etym_t': 'The form {lex} is an established Arabic lexical item — the elative of '
+                        'the root {root} — and {name} is the word itself used as a personal name '
+                        'rather than a derived or diminutive form.',
+              'apposition': 'elative form',
+              'fa_from': 'arabic',
+              'fa_meaning': 'بهترین، نیکوترین، زیباترین',
+              'surgeries': []},
+    'akbar': {'kind': 'noun',
+              'gloss': 'Greatest',
+              'root': 'ك ب ر',
+              'root_tr': 'k-b-r',
+              'vow': ['F', 'S', 'F', None],
+              'voc_tr': 'ʾakbar',
+              'verb_mid': None,
+              'verb_tr': None,
+              'variant': None,
+              'usage': None,
+              'morph_t': 'Elative adjective (afʿal pattern) built on the root {root}.',
+              'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the elative ('greater, "
+                        "greatest') form built on the root {root} ({root_tr}).{tail}",
+              'etym_t': 'The form {lex} is an established Arabic lexical item — the elative of '
+                        'the root {root} — and {name} is the word itself used as a personal name '
+                        'rather than a derived or diminutive form.',
+              'apposition': 'elative form',
+              'fa_from': 'arabic',
+              'fa_meaning': 'بزرگترین، برترین',
+              'surgeries': []},
+    'akif': {'kind': 'masc_participle',
+             'gloss': 'Devoted, one who secludes himself in worship',
+             'root': 'ع ك ف',
+             'root_tr': 'ʿ-k-f',
+             'vow': ['F', None, 'K', None],
+             'voc_tr': 'ʿākif',
+             'verb_mid': 'a',
+             'verb_tr': 'ʿakafa',
+             'verb_gloss_short': "'to devote oneself, to remain in worship'",
+             'variant': None,
+             'usage': None,
+             'fa_from': 'arabic',
+             'fa_meaning': 'مخلص، مشغول به عبادت',
+             'surgeries': []},
+    'akmal': {'kind': 'noun',
+              'gloss': 'Most perfect, most complete',
+              'root': 'ك م ل',
+              'root_tr': 'k-m-l',
+              'vow': ['F', 'S', 'F', None],
+              'voc_tr': 'ʾakmal',
+              'verb_mid': None,
+              'verb_tr': None,
+              'variant': None,
+              'usage': None,
+              'morph_t': 'Elative adjective (afʿal pattern) built on the root {root}.',
+              'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the elative ('more "
+                        "complete, most perfect') form built on the root {root} "
+                        '({root_tr}).{tail}',
+              'etym_t': 'The form {lex} is an established Arabic lexical item — the elative of '
+                        'the root {root} — and {name} is the word itself used as a personal name '
+                        'rather than a derived or diminutive form.',
+              'apposition': 'elative form',
+              'fa_from': 'arabic',
+              'fa_meaning': 'کامل، تمامتر، بی عیب',
+              'surgeries': []},
+    'aleem': {'kind': 'noun',
+              'gloss': 'Knowledgeable, all-knowing',
+              'root': 'ع ل م',
+              'root_tr': 'ʿ-l-m',
+              'vow': ['F', 'K', None, None],
+              'voc_tr': 'ʿalīm',
+              'verb_mid': None,
+              'verb_tr': None,
+              'variant': 'Aleem is a variant romanization of Alim.',
+              'usage': None,
+              'morph_t': 'Faʿīl-pattern intensive adjective built on the root {root}.',
+              'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the faʿīl-pattern adjective "
+                        'of knowledge built on the root {root} ({root_tr}).{tail}',
+              'etym_t': 'The form {lex} is an established Arabic lexical item — the faʿīl-pattern '
+                        'adjective of the root {root} — and {name} is the word itself used as a '
+                        'personal name rather than a derived or diminutive form.',
+              'apposition': 'faʿīl-pattern adjective',
+              'fa_from': 'arabic',
+              'fa_meaning': 'دانا، عالم، آگاه',
+              'surgeries': []},
+    'alim': {'kind': 'noun',
+             'gloss': 'Learned, all-knowing',
+             'root': 'ع ل م',
+             'root_tr': 'ʿ-l-m',
+             'vow': ['F', 'K', None, None],
+             'voc_tr': 'ʿalīm',
+             'verb_mid': None,
+             'verb_tr': None,
+             'variant': None,
+             'usage': None,
+             'morph_t': 'Faʿīl-pattern intensive adjective built on the root {root}.',
+             'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the faʿīl-pattern adjective "
+                       'of knowledge built on the root {root} ({root_tr}).{tail}',
+             'etym_t': 'The form {lex} is an established Arabic lexical item — the faʿīl-pattern '
+                       'adjective of the root {root} — and {name} is the word itself used as a '
+                       'personal name rather than a derived or diminutive form.',
+             'apposition': 'faʿīl-pattern adjective',
+             'fa_from': 'arabic',
+             'fa_meaning': 'دانا، عالم، آگاه',
+             'surgeries': []},
+    'aleema': {'kind': 'noun',
+               'gloss': 'Learned, knowledgeable',
+               'root': 'ع ل م',
+               'root_tr': 'ʿ-l-m',
+               'vow': ['F', 'K', None, 'F', None],
+               'voc_tr': 'ʿalīmah',
+               'verb_mid': None,
+               'verb_tr': None,
+               'variant': 'Aleema is a variant romanization of Alima.',
+               'usage': None,
+               'morph_t': 'Feminine of the faʿīl-pattern adjective {base} (ʿalīm), built on the '
+                          'root {root}.',
+               'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the feminine of the "
+                         'faʿīl-pattern adjective {base} (ʿalīm) built on the root {root} '
+                         '({root_tr}).{tail}',
+               'etym_t': 'The form {lex} is an established Arabic lexical item — the feminine of '
+                         '{base} — and {name} is the word itself used as a personal name rather '
+                         'than a derived or diminutive form.',
+               'apposition': 'feminine of {base}',
+               'fa_from': 'arabic',
+               'fa_meaning': 'دانا، عالمه، فاضله',
+               'surgeries': []},
+    'alima': {'kind': 'noun',
+              'gloss': 'Learned woman, scholar',
+              'root': 'ع ل م',
+              'root_tr': 'ʿ-l-m',
+              'vow': ['F', 'K', None, 'F', None],
+              'voc_tr': 'ʿalīmah',
+              'verb_mid': None,
+              'verb_tr': None,
+              'variant': None,
+              'usage': None,
+              'morph_t': 'Feminine of the faʿīl-pattern adjective {base} (ʿalīm), built on the '
+                         'root {root}.',
+              'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the feminine of the "
+                        'faʿīl-pattern adjective {base} (ʿalīm) built on the root {root} '
+                        '({root_tr}).{tail}',
+              'etym_t': 'The form {lex} is an established Arabic lexical item — the feminine of '
+                        '{base} — and {name} is the word itself used as a personal name rather '
+                        'than a derived or diminutive form.',
+              'apposition': 'feminine of {base}',
+              'fa_from': 'arabic',
+              'fa_meaning': 'دانا، عالمه، فاضله',
+              'surgeries': []},
+    'alimah': {'kind': 'noun',
+               'gloss': 'Learned woman, scholar',
+               'root': 'ع ل م',
+               'root_tr': 'ʿ-l-m',
+               'vow': ['F', 'K', None, 'F', None],
+               'voc_tr': 'ʿalīmah',
+               'verb_mid': None,
+               'verb_tr': None,
+               'variant': 'Alimah is a variant romanization of Alima.',
+               'usage': None,
+               'morph_t': 'Feminine of the faʿīl-pattern adjective {base} (ʿalīm), built on the '
+                          'root {root}.',
+               'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the feminine of the "
+                         'faʿīl-pattern adjective {base} (ʿalīm) built on the root {root} '
+                         '({root_tr}).{tail}',
+               'etym_t': 'The form {lex} is an established Arabic lexical item — the feminine of '
+                         '{base} — and {name} is the word itself used as a personal name rather '
+                         'than a derived or diminutive form.',
+               'apposition': 'feminine of {base}',
+               'fa_from': 'arabic',
+               'fa_meaning': 'دانا، عالمه، فاضله',
+               'surgeries': []},
+    'amal': {'kind': 'noun',
+             'gloss': 'Hope',
+             'root': 'أ م ل',
+             'root_tr': 'ʾ-m-l',
+             'vow': ['F', 'F', None],
+             'voc_tr': 'ʾamal',
+             'verb_mid': None,
+             'verb_tr': None,
+             'variant': None,
+             'usage': None,
+             'morph_t': "Established noun from أَمَلَ (ʾamala, 'to hope'), built on the root "
+                        '{root}.',
+             'body_t': "{name} is Arabic {voc} ({voc_tr}) '{short}', the established word for "
+                       'hope, built on the root {root} ({root_tr}).{tail}',
+             'etym_t': 'The form {lex} is an established Arabic lexical item — the word for '
+                       "'hope' — and {name} is the word itself used as a personal name rather "
+                       'than a derived or diminutive form.',
+             'apposition': "established word for 'hope'",
+             'fa_from': 'arabic',
+             'fa_meaning': 'امید، آرزو',
+             'surgeries': []}
 }
