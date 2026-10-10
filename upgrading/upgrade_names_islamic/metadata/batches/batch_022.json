@@ -1,0 +1,42 @@
+{
+  "batch_number": 22,
+  "culture": "islamic",
+  "range": {
+    "first": "fareeha",
+    "last": "fateem",
+    "count": 100
+  },
+  "status": "complete",
+  "builder": "upgrading/scripts/build22.py",
+  "curation_table": "upgrading/scripts/curated22.py",
+  "output_directory": "upgrading/upgrade_names_islamic",
+  "validation": {
+    "tool": "upgrading/scripts/nv_validate.py",
+    "batch_files": 100,
+    "total_directory_files": 2200,
+    "total_failures": 0,
+    "scope_note": "Structural/script-shape validation only; it does not independently authenticate lexical claims."
+  },
+  "confidence_summary": {
+    "high": 52,
+    "low": 21,
+    "medium": 27
+  },
+  "origin_summary": {
+    "Arabic": 46,
+    "Persian": 47,
+    "Unknown": 7
+  },
+  "non_english_translation_status": {
+    "draft_needs_native_review": 120,
+    "not_curated": 232,
+    "unverified": 148
+  },
+  "content_review": {
+    "corrected_english_glosses": 52,
+    "downgraded_to_no_asserted_meaning": 2,
+    "non_english_translations_require_native_review": true,
+    "named_lexical_source_citations_required_before_publication": true
+  },
+  "updated_at": "2026-10-10T04:37:19Z"
+}
