@@ -372,3 +372,14 @@ CUR.update({
     'fehmi': ('فهمي', 'فہمی', None, 'फ़ेहमी', 'فهمي', 'batch23_fehmi', 'Arabic', 'Male', 'ف ه م', 'not established', 'high', "Fahmī, nisba from fahm ('understanding'). The source record's gloss 'Of Understanding, Intellectual' is a reasonable rendering."),
     'ferdous': ('فردوس', 'فردوس', 'فردوس', 'फ़िरदौस', 'فردوس', 'batch23_ferdous', 'Persian', 'Male', 'Old Iranian *paridaiza', "الفردوس occurs in the Qur'an (e.g. 18:107)", 'high', "Ferdous, from Old Iranian *paridaiza ('walled garden'), the source of Arabic firdaws ('paradise'). The source record's gloss 'Heavenly beauty' is an approximation."),
 })
+
+# Batch 23 script-form corrections: these rows carried the source record's
+# script form, which belongs to a different word (or was not a valid form).
+CUR.update({
+    'fatheen': ('فطين', 'فطین', None, 'फ़तीन', 'فطين', 'batch23_fatheen', 'Arabic', 'Male', 'ف ت ح', 'not established', 'medium', "Variant romanization of فطين (Faṭīn, 'intelligent, discerning'), from f-ṭ-n. The source record's gloss 'Opening, Victory' is unsupported."),
+    'fatna': ('فاطنة', 'فاطنہ', None, 'फ़ातना', 'فاطنه', 'batch23_fatna', 'Arabic', 'Female', 'ف ت ن', 'not established', 'medium', "Maghrebi rendering of فاطمة (فاطنة), from the root f-ṭ-m. The source record's gloss 'Delight, Joy' is unsupported."),
+    'fawzat': ('فوزات', 'فوزات', None, 'फ़ौज़ात', 'فوزات', 'batch23_fawzat', 'Arabic', 'Male', 'ف و ز', 'not established', 'medium', "Fawzāt, plural of fawza, from the root f-w-z ('to win, triumph'). The source record's gloss 'Victory' is an approximation."),
+    'fayza': ('فائزة', 'فائزہ', None, 'फ़ाइज़ा', 'فائزه', 'batch23_fayza', 'Arabic', 'Female', 'ف ي ض', 'not established', 'high', "Fāʾiza, feminine of فائز, from the root f-w-z. The source record's gloss 'Abundance, Overflow' conflates the name with fayḍ."),
+    'fayzah': ('فائزة', 'فائزہ', None, 'फ़ाइज़ा', 'فائزه', 'batch23_fayzah', 'Arabic', 'Female', 'ف ي ض', 'not established', 'high', "Variant romanization of فائزة (Fāʾiza), feminine of فائز, from f-w-z. The source record's gloss 'Abundance' is an approximation."),
+    'fayzal': ('فيصل', 'فیصل', None, 'फ़ैसल', 'فیصل', 'batch23_fayzal', 'Arabic', 'Male', 'ف ي ض', 'not established', 'medium', "Variant romanization of فيصل (Fayṣal), from the root f-ṣ-l. The source record's gloss 'Abundance' is unsupported."),
+})

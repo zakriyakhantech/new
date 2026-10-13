@@ -400,3 +400,49 @@ CUR = {
             "Arabic root غ د ر (gh-d-r)", False, "high",
             "Ghadir (غدير) is the same Arabic word as Ghadeer — 'small stream, brook, pool' — and a feminine given name. The source gloss 'place of radiance' is unsupported (it appears to be a confusion with نور/ضياء) and has been replaced."),
 }
+
+# ---------------------------------------------------------------------------
+# Batch 24 review corrections (applied when the batch reached its build step)
+#
+# Each entry below replaces a gloss key that did not match the reviewed note for
+# the name: source glosses belonging to a different root are dropped, the form's
+# verified sense is asserted through an English-only key (``batch24_<slug>``),
+# and forms with no established lexical meaning carry none (``uncertain_form``).
+# A source hold is not a claim that a name does not exist.
+# ---------------------------------------------------------------------------
+GLOSSES.update({
+    "batch24_ferhat": {"en": 'Merited, obtained (Persian Farhād)'},
+    "batch24_fiza": {"en": 'Open expanse; spaciousness'},
+    "batch24_foroud": {"en": "Auspiciousness; (also) a Shahnameh hero's name"},
+    "batch24_forough": {"en": 'Radiance, glow, light'},
+    "batch24_fusun": {"en": 'Charm, enchantment, spell (Turkish form of Persian Afsūn)'},
+    "batch24_fuzail": {"en": 'Diminutive of faḍl; excellent, virtuous'},
+    "batch24_galawezh": {"en": 'Bright star (Kurdish name; identified variously as Sirius or Canopus)'},
+    "batch24_galila": {"en": 'Great, exalted, majestic (variant of Jalīla)'},
+    "batch24_gamze": {"en": 'Dimple (Turkish)'},
+    "batch24_gawdat": {"en": 'Excellence, generosity (Egyptian spelling of Jawdat)'},
+    "batch24_ghadi": {"en": 'One who goes in the morning (active participle of gh-d-w)'},
+})
+
+CUR.update({
+    'ferhat': ('فرهاد', 'فرہاد', 'فرهاد', 'फ़रहाद', 'فرهاد', 'batch24_ferhat', 'Persian', 'Male', 'Persian فرهاد < Middle Persian Frahād', False, 'medium', "The source record labelled Ferhat 'Arabic' and glossed it 'renowned, magnificent' from an alleged Arabic word Farh; that derivation is not supported. Ferhat/Ferhad/Farhad is the Persian name فرهاد (Farhād), from Middle Persian Frahād and Old Iranian fra-hāta- 'merited, obtained', borne by Arsacid kings from c. 170 BC. It is widely used in Persian, Turkish (Ferhat) and South Asian Muslim naming."),
+    'firnas': ('فِرناس', 'فرناس', 'فرناس', 'फ़िरनास', 'فرناس', 'uncertain_form', 'Arabic', 'Male', 'Arabic فرناس (Firnās) — a personal name, not a common noun', False, 'low', "Firnas (فِرناس) is an Arabic personal name, best known from the Andalusi polymath ʿAbbās ibn Firnās (c. 809–887 CE), a pioneer of early gliding. The word itself has no established dictionary meaning; the 'paradise flyer' gloss in the source is a modern association with Ibn Firnas's flight experiments, not a lexical meaning, so no gloss is asserted."),
+    'fiza': ('فِضا', 'فضا', 'فضا', 'फ़िज़ा', 'فضا', 'batch24_fiza', 'Arabic', 'Female', 'Arabic root ف ض و (f-ḍ-w) / ف ي ض (f-y-ḍ)', False, 'medium', "Fiza is a popular South Asian female name. Its usual form فِضا relates to Arabic فضى 'open expanse, spaciousness' (hence 'openness, freedom'), though it is also popularly associated with the Persianate word for breeze/atmosphere. The source gloss 'blooming, radiant' is unsupported; the source also gave فيضة as the Arabic form, which belongs to Feyza, not Fiza."),
+    'foroud': ('فروود', 'فروود', 'فرود', 'फ़रूद', 'فرود', 'batch24_foroud', 'Persian', 'Male', 'Persian فرود (Forūd)', False, 'medium', "Foroud (فرود, Forūd) is a Persian male name. The source gloss 'fortune, prosperity' points to the Persian word فَرْوَد associated with auspiciousness, while the primary literary currency of فرود is as a hero's name in the Shahnameh (Forud, son of Siyavash). The source's 'Arabic form' فروود mixed a non-Arabic character and was corrected."),
+    'forough': ('فرحة', 'فرحت', 'فرحت', 'फ़रोख़', 'فرحت', 'batch24_forough', 'Persian', 'Female', "Persian فروغ (forūgh) 'radiance, light'", False, 'medium', "The source record conflated two different words. The name Forough is Persian فروغ (forūgh) 'radiance, glow, light'; the source's Arabic form فرحة ('a joy') belongs to a different word, and the source gloss 'free, liberated' matches neither. The Persian 'radiance' reading is the established one."),
+    'fusun': (None, 'افسون', 'افسون', None, 'افسون', 'batch24_fusun', 'Persian', 'Female', "Persian افسون (afsūn) 'charm, enchantment, magic'", False, 'medium', "Fusun is the Turkish form of the Persian feminine name افسون (Afsūn) 'charm, enchantment, spell'. The source gave فسون (the same word with the initial alef dropped) and the gloss 'moon, star', which is unsupported — that sense belongs to different names (e.g. Mah, Sitara). The identification as Afsun is probable."),
+    'fuzail': ('فُضَيل', 'فضیل', 'فضیل', 'फ़ुज़ैल', 'فضیل', 'batch24_fuzail', 'Arabic', 'Male', 'Arabic root ف ض ل (f-ḍ-l); فُضَيل (Fuḍayl)', False, 'high', "Fuzail (فُضَيل, Fuḍayl) is the diminutive of فَضْل (faḍl) 'excellence, virtue', from the root f-ḍ-l. It was borne by the early ascetic Fuḍayl ibn ʿIyāḍ. The source gloss 'pious, God-fearing' reflects the religious reputation of that bearer rather than the lexical sense, which is 'little excellence, of virtue'."),
+    'gaddafi': (None, 'قذافی', 'قذافی', 'गद्दाफ़ी', 'قذافي', 'uncertain_form', 'Arabic', 'Male', 'Arabic قذافي (Qaḏḏāfī) — a surname/nisba, not a lexical given name', False, 'low', 'Gaddafi corresponds to Arabic قذافي (Qaḏḏāfī), the surname of the Libyan leader Muammar Gaddafi. It is a nisba/surname rather than a lexical given name, so no lexical meaning is asserted.'),
+    'galawezh': (None, 'گەلاوێژ', 'گەلاوێژ', None, 'ګلاویژ', 'batch24_galawezh', 'Kurdish', 'Female', None, False, 'medium', 'Galawezh (Gelavêj / Galawej) is a Kurdish feminine name, recorded in Kurdish name references as the Kurdish name of a bright star — the constellation Sirius / Canopus (variously reported). The source gave أحمد (Ahmad) as the Arabic form and labelled it Arabic; the name is Kurdish, not Arabic. The exact astronomical identification varies between sources and is reported with that caveat.'),
+    'galila': (None, 'جلیلة', 'جلیله', None, None, 'batch24_galila', 'Arabic', 'Female', 'Arabic root ج ل ل (j-l-l); جليلة (Jalīla)', False, 'medium', "Galila is a variant spelling of Arabic جليلة (Jalīla) 'great, exalted, majestic' (feminine of جليل Jalīl), from the root j-l-l. The source supplied only the Latin string 'Galila' for the script form and glossed it 'joy, gladness, and grace' — that gloss belongs to a different root (f-r-ḥ) and was replaced with the 'majestic' sense."),
+    'gamze': ('غَمْزة', 'غمزہ', 'غمزه', 'ग़मज़ा', 'غمزه', 'batch24_gamze', 'Turkish', 'Female', "Turkish gamze 'dimple'; from Arabic غَمْز (ghamz)", False, 'high', "Gamze is a Turkish feminine given name meaning 'dimple' (and, by extension, 'smile'). It derives historically from the Arabic noun غَمْز/غَمْزة (ghamz/ghamza) 'a wink, a sidelong glance', but as a personal name it is Turkish. The source gloss 'rose' belongs to a different name (Gül) and has been replaced."),
+    'gawdat': (None, 'جودت', 'جودت', None, 'جودت', 'batch24_gawdat', 'Arabic', 'Male', 'Arabic root ج و د (j-w-d); جودت (Jawdat)', False, 'medium', "Gawdat is an Egyptian spelling of Arabic جودت (Jawdat), a verbal-noun form from the root j-w-d 'to be excellent, generous', meaning 'excellence, goodness, generosity'. The source gave a mixed-script string (غودات) and glossed it 'protector' (a different root, ḥ-f-ẓ), both of which were corrected. The identification is probable rather than certain."),
+    'ghadi': ('غادي', 'غادی', 'غادی', 'ग़ादी', 'غادي', 'batch24_ghadi', 'Arabic', 'Unisex', 'Arabic root غ د و (gh-d-w); غادي (Ghādī)', False, 'medium', "Ghadi corresponds to Arabic غادي (Ghādī) 'one who goes in the morning; going, going early', the active participle of the root gh-d-w. The source gloss 'swift' is a loose extension. It is used for both sexes in Arabic-speaking countries."),
+})
+
+# Batch 24 script-form corrections: these rows carried the source record's
+# script form, which belongs to a different word (or was not a valid form).
+CUR.update({
+    'foroud': (None, 'فرود', 'فرود', 'फ़रूद', 'فرود', 'batch24_foroud', 'Persian', 'Male', 'Persian فرود (Forūd)', False, 'medium', "Foroud (فرود, Forūd) is a Persian male name. The source gloss 'fortune, prosperity' points to the Persian word فَرْوَد associated with auspiciousness, while the primary literary currency of فرود is as a hero's name in the Shahnameh (Forud, son of Siyavash). The source's 'Arabic form' فروود mixed a non-Arabic character and was corrected."),
+    'forough': (None, 'فروغ', 'فروغ', 'फ़रोग़', 'فروغ', 'batch24_forough', 'Persian', 'Female', "Persian فروغ (forūgh) 'radiance, light'", False, 'medium', "The source record conflated two different words. The name Forough is Persian فروغ (forūgh) 'radiance, glow, light'; the source's Arabic form فرحة ('a joy') belongs to a different word, and the source gloss 'free, liberated' matches neither. The Persian 'radiance' reading is the established one."),
+})
