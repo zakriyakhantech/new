@@ -1,0 +1,1210 @@
+{
+  "manifest_version": 1,
+  "batch_id": "demand-informed-islamic-2026-10-b2",
+  "created_at": "2026-10-13T00:00:00+00:00",
+  "dataset": "upgrading/names_upgraded/islamic",
+  "template": "upgrading/names_upgraded/islamic/aabid.json",
+  "selection_policy": [
+    "Every record must be absent from the main super-2.0 dataset under its canonical spelling, documented Romanized variants, or exact source-script form.",
+    "Batch b2 is authenticity-first: candidates were chosen for well-attested lexical or scriptural bases and documented naming usage; demand signals were collected secondarily and are kept scope-specific. Three initial candidates (Samad, Hunayn, Mubashir) were rejected when the collision audit found their script forms already present in the dataset under other spellings (Samat, Haneen/Hanin, Mubasher).",
+    "Meanings are checked against lexical, scriptural, or language references; name-site claims are not treated as dictionaries.",
+    "Quranic verse references are cited by chapter:verse and checked against the Quran text; a word's occurrence in a verse does not establish a personal-name claim.",
+    "Popularity evidence is stored with its source, place, year, metric, and limitation; unlike measures are never combined into a global score, and every record keeps popularity.score null. Site-internal directory ranks are labelled as such and are not population data.",
+    "Optional numerology, lucky attributes, personality claims, and invented stories are suppressed. Non-English glosses are editorial drafts requiring native review."
+  ],
+  "names": [
+    {
+      "name": "Ilyasa",
+      "slug": "ilyasa",
+      "gender": "Male",
+      "gender_confidence": "HIGH",
+      "aliases": [
+        "Alyasa",
+        "Alyasaa",
+        "Ilyasaa"
+      ],
+      "language": "Arabic",
+      "script_form": "الْيَسَع",
+      "transliteration": "al-yasaʿ",
+      "root": "",
+      "root_transliteration": "",
+      "morphology": "Qur'anic Arabic proper name of a prophet; the underlying name is the Hebrew Ĕlîšāʿ (Elisha), so no Arabic triliteral root is asserted.",
+      "short_meaning": "Al-Yasa (Elisha); a prophet named in the Qur'an.",
+      "primary_meaning": "Ilyasa (al-yasaʿ) is the Qur'anic Arabic form of the prophet name Elisha, named in the Qur'an among the prophets of the Israelite line; the record asserts the scriptural reference, not any additional biography.",
+      "literal_meaning": "The form الْيَسَع occurs in Qur'an 6:86 and 38:48 as the name of a prophet; the verses do not gloss its etymology.",
+      "meaning_explanation": "The name is attested directly in the Qur'an (6:86 and 38:48) as the prophet known in Biblical tradition as Elisha; the deeper etymology belongs to Hebrew (Ĕlîšāʿ) and is not derived from Arabic roots.",
+      "meaning_confidence": "HIGH",
+      "semantic_domain": "Prophet name, scriptural proper name",
+      "related_concepts": [
+        "prophet",
+        "Elisha",
+        "scripture"
+      ],
+      "quranic": {
+        "is_quranic": true,
+        "status": "directly_attested_proper_name",
+        "note": "The prophet's name الْيَسَع occurs in Qur'an 6:86 and 38:48; the verses name the person directly."
+      },
+      "religion_association": "Abrahamic scriptural naming; common Muslim practice of naming after prophets",
+      "religious_status": "Name of a prophet in the Qur'an; this descriptive record is not a religious ruling.",
+      "religious_explanation": "Naming children after prophets is a widespread Muslim practice, but this record asserts no ruling about naming; the scriptural reference is a textual fact, separate from any recommendation.",
+      "cultural_associations": [
+        "Arabic",
+        "Muslim naming communities"
+      ],
+      "cultural_note": "Recorded as a masculine given name in Arabic and Muslim naming sources; this does not establish a single worldwide frequency.",
+      "cultural_interpretation": "Families may value the prophetic association, but that is a naming preference rather than a prediction about the bearer.",
+      "cultural_transmission": [
+        "Arabic-speaking communities",
+        "Muslim naming communities in South Asia"
+      ],
+      "usage_note": "Name directories list the name as rare in U.S. data; usage is documented in Muslim communities in South Asia and the Arab world.",
+      "translations": {
+        "urdu": {
+          "name": "الیسع",
+          "script": "الیسع",
+          "meaning": "الیسع؛ ایک نبی کا نام جس کا ذکر قرآن میں ہے"
+        },
+        "persian": {
+          "name": "الیسع",
+          "script": "الیسع",
+          "meaning": "الیسع؛ نامِ پیامبری که در قرآن ذکر شده است"
+        },
+        "hindi": {
+          "name": "इलयासा",
+          "script": "इलयासा",
+          "meaning": "इलयासा; क़ुरान में वर्णित एक पैग़ंबर का नाम"
+        },
+        "pashto": {
+          "name": "الیسع",
+          "script": "الیسع",
+          "meaning": "الیسع؛ د قرآن په ذکر کې د یو پیغمبر نوم"
+        },
+        "arabic": {
+          "name": "الْيَسَع",
+          "script": "الْيَسَع",
+          "meaning": "الْيَسَع؛ نبيٌّ مذكور في القرآن"
+        }
+      },
+      "pronunciation": {
+        "guide": "il-YA-sa (approximate)",
+        "note": "Romanized pronunciation guide only; no IPA is asserted.",
+        "common_mispronunciation": null
+      },
+      "popularity": {
+        "note": "The only collected metric is a name-directory ranking; it measures a website's internal ordering, not births. U.S. SSA public data reportedly has no record of the spelling Ilyasa (fewer than five occurrences).",
+        "measurements": [
+          {
+            "region": "HamariWeb name directory (site-internal ranking)",
+            "measure": "HamariWeb popularity rank",
+            "year": 2025,
+            "category": "boys",
+            "rank": 15977,
+            "births": null,
+            "relative_interest_percent": null,
+            "observation_period": "undated directory snapshot as displayed on the source page",
+            "source_title": "Alyasaa Name Meaning - Alyasaa Origin, Popularity & History",
+            "source_url": "https://hamariweb.com/names/muslim/urdu/boy/alyasaa-meaning_43645/",
+            "limitation": "Site-internal directory ranking over an unclear population; not birth-registration or survey data."
+          }
+        ]
+      },
+      "historical_status": "scriptural_prophet_reference",
+      "historical_note": "Al-Yasa (Elisha) is named in Qur'an 6:86 and 38:48 as a prophet in the Israelite line; no further biography is asserted by this record.",
+      "evidence": [
+        {
+          "title": "ItsAboutIslam, Alyasaa",
+          "url": "https://itsaboutislam.com/muslim-names/alyasaa/",
+          "supports": "Names the child after Prophet Elisha (Al-Yasa) and cites Qur'an 6:86 and 38:48.",
+          "limitation": "Baby-name reference; the verse references are cross-checked against the Quran text itself."
+        },
+        {
+          "title": "IQNA, Elisha; A Prophet with Miracles Similar to Those of Jesus",
+          "url": "https://iqna.ir/en/news/3482815/elisha-a-prophet-with-miracles-similar-to-those-of-jesus",
+          "supports": "Al-Yasa as a prophet and successor to Ilyas; the name occurs in Surahs Al-An'am and Sad.",
+          "limitation": "Religious-news service article; not a lexical dictionary."
+        },
+        {
+          "title": "HamariWeb, Alyasaa",
+          "url": "https://hamariweb.com/names/muslim/urdu/boy/alyasaa-meaning_43645/",
+          "supports": "Gloss 'Elisha - a Prophet' and a documented directory entry with a site-internal rank of 15,977.",
+          "limitation": "Directory entry with a site-internal, population-unclear ranking."
+        }
+      ],
+      "selection_note": "Chosen for a directly attested Qur'anic prophet name that is absent from the dataset under every documented spelling."
+    },
+    {
+      "name": "Suhayb",
+      "slug": "suhayb",
+      "gender": "Male",
+      "gender_confidence": "HIGH",
+      "aliases": [
+        "Suhaib",
+        "Sohaib"
+      ],
+      "language": "Arabic",
+      "script_form": "صُهَيْب",
+      "transliteration": "ṣuhayb",
+      "root": "ص ح ب",
+      "root_transliteration": "ṣ-ḥ-b",
+      "morphology": "Diminutive-pattern Arabic form (fuʿayl) related to the ṣ-ḥ-b lexical family; glossed in name references as 'one who has reddish-brown hair'.",
+      "short_meaning": "One who has reddish-brown hair; name of the early companion Suhayb ibn Sinan (ar-Rumi).",
+      "primary_meaning": "Suhayb (ṣuhayb) is an Arabic masculine name whose documented gloss is 'one who has reddish(-brown) hair'; it is also the name of the well-documented early Muslim Suhayb ibn Sinan, known as ar-Rumi.",
+      "literal_meaning": "The diminutive form صُهَيْب is glossed by name references as describing reddish-brown hair; the underlying lexical family ṣ-ḥ-b has broader senses not asserted here.",
+      "meaning_explanation": "Name references and baby-name directories agree on the 'reddish-brown hair' gloss; the record keeps the broader senses of the ṣ-ḥ-b root out of the name gloss and asserts no nickname-style etymology beyond the documented gloss.",
+      "meaning_confidence": "HIGH",
+      "semantic_domain": "Appearance, reddish-brown hair",
+      "related_concepts": [
+        "reddish",
+        "brown",
+        "companion name"
+      ],
+      "quranic": {
+        "is_quranic": false,
+        "status": "not_claimed",
+        "note": "The form صُهَيْب is not a Qur'anic word or personal name; no Qur'anic claim is made."
+      },
+      "religion_association": "Arabic and Muslim-cultural naming usage; companion-era name",
+      "religious_status": "A lexical name borne by an early companion; not a prescribed religious formula.",
+      "religious_explanation": "The companion association is a historical fact about a documented bearer; it is not a religious ruling about naming and no special virtue of the name is asserted.",
+      "cultural_associations": [
+        "Arabic",
+        "Muslim naming communities"
+      ],
+      "cultural_note": "Recorded as a masculine given name in Arabic and Muslim naming sources; this does not establish a single worldwide frequency.",
+      "cultural_interpretation": "Families may value the companion association and the color sense, but that is a naming preference rather than a prediction about the bearer.",
+      "cultural_transmission": [
+        "Arabic-speaking communities",
+        "Muslim naming communities in South Asia"
+      ],
+      "usage_note": "U.S. SSA-derived ranks exist for both the Suhayb and Suhaib spellings; the name is used in Muslim communities worldwide.",
+      "translations": {
+        "urdu": {
+          "name": "صہیب",
+          "script": "صہیب",
+          "meaning": "صہیب؛ سرخی مائل بھورے بالوں والا؛ معروف صحابی کا نام"
+        },
+        "persian": {
+          "name": "صهیب",
+          "script": "صهیب",
+          "meaning": "صهیب؛ دارای موی مایل به قهوه‌ای سرخ"
+        },
+        "hindi": {
+          "name": "सुहैब",
+          "script": "सुहैब",
+          "meaning": "सुहैब; लाल-भूरे बालों वाला"
+        },
+        "pashto": {
+          "name": "صهیب",
+          "script": "صهیب",
+          "meaning": "صهیب؛ د سور-تور وښو لرونکی"
+        },
+        "arabic": {
+          "name": "صُهَيْب",
+          "script": "صُهَيْب",
+          "meaning": "صُهَيْب؛ صاحب الشعر المُصَهَّب بين الحُمرة والسُّمرة"
+        }
+      },
+      "pronunciation": {
+        "guide": "soo-HAYB (approximate)",
+        "note": "Romanized pronunciation guide only; no IPA is asserted.",
+        "common_mispronunciation": null
+      },
+      "popularity": {
+        "note": "Both metrics are U.S. SSA-derived figures displayed by Nameberry; they measure U.S. births in specific years, not worldwide prevalence.",
+        "measurements": [
+          {
+            "region": "United States",
+            "measure": "SSA newborn-name rank and births, as displayed by Nameberry",
+            "year": 2023,
+            "category": "boys",
+            "rank": 4200,
+            "births": 26,
+            "relative_interest_percent": null,
+            "observation_period": "2023 SSA birth-year data",
+            "source_title": "Suhayb - Baby Name Meaning, Origin, and Popularity for a Boy",
+            "source_url": "https://nameberry.com/b/boy-baby-name-suhayb",
+            "limitation": "U.S. births only; not population-wide or global demand."
+          },
+          {
+            "region": "United States",
+            "measure": "SSA newborn-name rank and births, as displayed by Nameberry (Suhaib spelling)",
+            "year": 2019,
+            "category": "boys",
+            "rank": 3248,
+            "births": 36,
+            "relative_interest_percent": null,
+            "observation_period": "2019 SSA birth-year data",
+            "source_title": "Suhaib - Baby Name Meaning, Origin, and Popularity for a Boy",
+            "source_url": "https://nameberry.com/b/boy-baby-name-suhaib",
+            "limitation": "U.S. births only; covers the Suhaib spelling, a documented variant of the same name."
+          }
+        ]
+      },
+      "historical_status": "documented_early_muslim_bearer",
+      "historical_note": "Suhayb ibn Sinan, known as ar-Rumi, is a documented early companion of the Prophet; this record cites the biographical fact without narrating unverified stories.",
+      "evidence": [
+        {
+          "title": "QuranicNames, Suhaib",
+          "url": "https://quranicnames.com/suhaib/",
+          "supports": "Original spelling صُهَيْب; gloss 'one who has reddish-brown hair'; non-Quranic classification; documented alternate spellings Suhayb and Sohaib.",
+          "limitation": "Baby-name reference; the gloss is the conventional name-directory gloss, cross-checked against the diminutive lexical pattern."
+        },
+        {
+          "title": "Nameberry, Suhayb",
+          "url": "https://nameberry.com/b/boy-baby-name-suhayb",
+          "supports": "U.S. SSA-derived rank 4,200 with 26 births in 2023.",
+          "limitation": "Secondary display of U.S. birth data; it is not a global popularity measure."
+        },
+        {
+          "title": "Wikipedia, Suhayb ibn Sinan",
+          "url": "https://en.wikipedia.org/wiki/Suhayb_ibn_Sinan",
+          "supports": "Documented biographical bearer: Suhayb ibn Sinan (ar-Rumi), an early companion of Muhammad.",
+          "limitation": "Encyclopedia summary; not a primary sirah source."
+        }
+      ],
+      "selection_note": "Chosen for a clearly attested companion-era name with two U.S. usage metrics, absent from the dataset under all documented spellings."
+    },
+    {
+      "name": "Wajid",
+      "slug": "wajid",
+      "gender": "Male",
+      "gender_confidence": "HIGH",
+      "aliases": [
+        "Waajid"
+      ],
+      "language": "Arabic",
+      "script_form": "وَاجِد",
+      "transliteration": "wājid",
+      "root": "و ج د",
+      "root_transliteration": "w-j-d",
+      "morphology": "Active participle (fāʿil) of the Arabic verb wajada ('to find, to perceive'), established lexical form used as a masculine given name in Arabic and Urdu contexts.",
+      "short_meaning": "One who finds or perceives; finder.",
+      "primary_meaning": "Wajid (wājid) is an Arabic active-participle name meaning 'one who finds or obtains; one who perceives'; the related verbal noun wajd ('intense feeling, ecstasy') belongs to the same root but is a separate sense that this record keeps distinct.",
+      "literal_meaning": "The form وَاجِد is the standard Arabic participle of wajada; the verb family is common Arabic vocabulary and its Qur'anic occurrences are lexical, not the name.",
+      "meaning_explanation": "Name references record the gloss 'finder'; the record keeps the Sufi-technical sense of wajd ('ecstatic feeling') out of the name gloss to avoid conflating separate senses of the root.",
+      "meaning_confidence": "HIGH",
+      "semantic_domain": "Finding, perceiving",
+      "related_concepts": [
+        "finder",
+        "perceiver"
+      ],
+      "quranic": {
+        "is_quranic": false,
+        "status": "not_claimed",
+        "note": "The verb family wajada ('to find') is common Qur'anic vocabulary, but the name form وَاجِد itself is not used in the Qur'an as a person's name."
+      },
+      "religion_association": "Arabic and Muslim-cultural naming usage",
+      "religious_status": "A lexical name; not a prescribed religious formula.",
+      "religious_explanation": "The name's Arabic vocabulary origin makes it compatible with Muslim naming traditions, but linguistic origin and a positive meaning are not a religious recommendation or ruling.",
+      "cultural_associations": [
+        "Arabic",
+        "Muslim naming communities",
+        "Urdu-speaking communities"
+      ],
+      "cultural_note": "Recorded as a masculine given name especially in South Asian Muslim communities; this does not establish a single worldwide frequency.",
+      "cultural_interpretation": "Families may value the sense of resourcefulness, but that is a naming preference rather than a prediction about the bearer.",
+      "cultural_transmission": [
+        "Arabic-speaking communities",
+        "Muslim naming communities in South Asia"
+      ],
+      "usage_note": "U.S. data shows the name as rare; a site-internal directory ranking is the only collected metric.",
+      "translations": {
+        "urdu": {
+          "name": "واجد",
+          "script": "واجد",
+          "meaning": "واجد؛ پا لینے والا، وجدان کرنے والا"
+        },
+        "persian": {
+          "name": "واجد",
+          "script": "واجد",
+          "meaning": "واجد؛ یابنده"
+        },
+        "hindi": {
+          "name": "वाजिद",
+          "script": "वाजिद",
+          "meaning": "वाजिद; पाने वाला, अनुभव करने वाला"
+        },
+        "pashto": {
+          "name": "واجد",
+          "script": "واجد",
+          "meaning": "واجد؛ موندونکی"
+        },
+        "arabic": {
+          "name": "وَاجِد",
+          "script": "وَاجِد",
+          "meaning": "وَاجِد؛ المُوجِد، الذي يَجِد"
+        }
+      },
+      "pronunciation": {
+        "guide": "WA-jid (approximate)",
+        "note": "Romanized pronunciation guide only; no IPA is asserted.",
+        "common_mispronunciation": null
+      },
+      "popularity": {
+        "note": "The only collected metric is a name-directory ranking; it measures a website's internal ordering, not births. BabyNames.com reports the name as not ranked in U.S. births.",
+        "measurements": [
+          {
+            "region": "HamariWeb name directory (site-internal ranking)",
+            "measure": "HamariWeb popularity rank",
+            "year": 2025,
+            "category": "boys",
+            "rank": 1686,
+            "births": null,
+            "relative_interest_percent": null,
+            "observation_period": "undated directory snapshot as displayed on the source page",
+            "source_title": "Wajid Name Meaning - Wajid Origin, Popularity & History",
+            "source_url": "https://hamariweb.com/names/muslim/arabic/boy/wajid-meaning_3213/",
+            "limitation": "Site-internal directory ranking over an unclear population; not birth-registration or survey data."
+          }
+        ]
+      },
+      "historical_status": "lexical_context",
+      "historical_note": "The name is a standard Arabic participle; no specific historical bearer is asserted by this record.",
+      "evidence": [
+        {
+          "title": "ItsAboutIslam, Wajid",
+          "url": "https://itsaboutislam.com/muslim-names/wajid/",
+          "supports": "Gloss 'finder'; Arabic root w-j-d; Arabic and Urdu origin description; boy name.",
+          "limitation": "Baby-name reference; the root analysis is checked against standard Arabic participle morphology."
+        },
+        {
+          "title": "HamariWeb, Wajid",
+          "url": "https://hamariweb.com/names/muslim/arabic/boy/wajid-meaning_3213/",
+          "supports": "Gloss 'One Who Finds'; boy name; site-internal rank 1,686.",
+          "limitation": "Directory entry with a site-internal, population-unclear ranking."
+        }
+      ],
+      "selection_note": "Chosen for a well-attested participial Arabic name common in South Asian Muslim communities, absent from the dataset under every documented spelling."
+    },
+    {
+      "name": "Taybah",
+      "slug": "taybah",
+      "gender": "Female",
+      "gender_confidence": "HIGH",
+      "aliases": [
+        "Tayba",
+        "Taibah",
+        "Tayibah"
+      ],
+      "language": "Arabic",
+      "script_form": "طَيِّبَة",
+      "transliteration": "ṭayyiba",
+      "root": "ط ي ب",
+      "root_transliteration": "ṭ-y-b",
+      "morphology": "Feminine form of the Arabic adjective ṭayyib ('good, pure'), established lexical form used as a feminine given name.",
+      "short_meaning": "Good, pure, wholesome.",
+      "primary_meaning": "Taybah (ṭayyiba) is an Arabic feminine name from the adjective ṭayyib, meaning 'good, pure, wholesome'; the ṭayyib word family is common Qur'anic vocabulary, and the name Taiba/Taybah is also recorded as the name the Prophet gave to the city of Yathrib (Medina).",
+      "literal_meaning": "The feminine adjective form is standard Arabic morphology; the ṭayyibāt word family occurs in the Qur'an (e.g., 2:57) as vocabulary, not as a person's name.",
+      "meaning_explanation": "Name references record the 'good, pure' gloss; the Medina-epithet tradition is reported as a separate historical/cultural claim attributed to the cited reference and is not folded into the lexical meaning.",
+      "meaning_confidence": "HIGH",
+      "semantic_domain": "Goodness, purity",
+      "related_concepts": [
+        "pure",
+        "good",
+        "wholesome",
+        "Medina epithet"
+      ],
+      "quranic": {
+        "is_quranic": false,
+        "status": "not_claimed",
+        "note": "The ṭayyib word family occurs frequently in the Qur'an as vocabulary (e.g., ṭayyibāt in 2:57), but the form طَيِّبَة is not used in the Qur'an as a person's name."
+      },
+      "religion_association": "Arabic and Muslim-cultural naming usage",
+      "religious_status": "A lexical name with a positive sense; not a prescribed religious formula.",
+      "religious_explanation": "The positive lexical sense and the Medina association make the name popular in Muslim naming culture, but neither is a religious ruling or recommendation.",
+      "cultural_associations": [
+        "Arabic",
+        "Muslim naming communities"
+      ],
+      "cultural_note": "Recorded as a feminine given name in Arabic and Muslim naming sources; the city-name association adds a cultural layer reported from the cited reference.",
+      "cultural_interpretation": "Families may value the purity sense and the Medina association, but that is a naming preference rather than a prediction about the bearer.",
+      "cultural_transmission": [
+        "Arabic-speaking communities",
+        "Muslim naming communities in South Asia"
+      ],
+      "usage_note": "The name is modest in U.S. data; the only collected numeric metric is a site-internal directory ranking.",
+      "translations": {
+        "urdu": {
+          "name": "طیبہ",
+          "script": "طیبہ",
+          "meaning": "طیبہ؛ پاکیزہ، نیک"
+        },
+        "persian": {
+          "name": "طیبه",
+          "script": "طیبه",
+          "meaning": "طیبه؛ پاکیزه، نیک"
+        },
+        "hindi": {
+          "name": "तैयबा",
+          "script": "तैयबा",
+          "meaning": "तैयबा; पवित्र, अच्छी"
+        },
+        "pashto": {
+          "name": "طیبه",
+          "script": "طیبه",
+          "meaning": "طیبه؛ پاکه، ښه"
+        },
+        "arabic": {
+          "name": "طَيِّبَة",
+          "script": "طَيِّبَة",
+          "meaning": "طَيِّبَة؛ الطيِّبة النقية"
+        }
+      },
+      "pronunciation": {
+        "guide": "TAY-ba (approximate)",
+        "note": "Romanized pronunciation guide only; no IPA is asserted.",
+        "common_mispronunciation": null
+      },
+      "popularity": {
+        "note": "The only collected metric is a name-directory ranking; it measures a website's internal ordering, not births.",
+        "measurements": [
+          {
+            "region": "HamariWeb name directory (site-internal ranking)",
+            "measure": "HamariWeb popularity rank",
+            "year": 2025,
+            "category": "girls",
+            "rank": 81880,
+            "births": null,
+            "relative_interest_percent": null,
+            "observation_period": "undated directory snapshot as displayed on the source page",
+            "source_title": "Taybah Name Meaning - Taybah Origin, Popularity & History",
+            "source_url": "https://hamariweb.com/names/muslim/arabic/girl/taybah-meaning_85383/",
+            "limitation": "Site-internal directory ranking over an unclear population; not birth-registration or survey data."
+          }
+        ]
+      },
+      "historical_status": "lexical_and_city_name_tradition",
+      "historical_note": "The cited reference reports the tradition that the Prophet renamed Yathrib as Taiba; the city is commonly called Taybah in Islamic tradition. This record cites the tradition without extending it.",
+      "evidence": [
+        {
+          "title": "QuranicNames, Taiba",
+          "url": "https://quranicnames.com/taiba-3/",
+          "supports": "'Wholesome, good, pure'; reports the tradition that Taiba is the name the Prophet gave to Yathrib (Medina).",
+          "limitation": "Baby-name reference; the Medina-epithet tradition is a historical claim attributed to this source, kept separate from the lexical gloss."
+        },
+        {
+          "title": "HamariWeb, Taybah",
+          "url": "https://hamariweb.com/names/muslim/arabic/girl/taybah-meaning_85383/",
+          "supports": "'Good and Pure'; girl name; site-internal rank 81,880.",
+          "limitation": "Directory entry with a site-internal, population-unclear ranking."
+        }
+      ],
+      "selection_note": "Chosen for a clean Arabic adjective name with a documented Medina-name tradition, absent from the dataset under every documented spelling."
+    },
+    {
+      "name": "Yaqut",
+      "slug": "yaqut",
+      "gender": "Unisex",
+      "gender_confidence": "MEDIUM",
+      "aliases": [
+        "Yaqoot",
+        "Yaqout",
+        "Yakut"
+      ],
+      "language": "Arabic",
+      "script_form": "يَاقُوت",
+      "transliteration": "yāqūt",
+      "root": "",
+      "root_transliteration": "",
+      "morphology": "Established Arabic lexical form for a precious stone (ruby); a loanword into Arabic, so no Arabic triliteral root is asserted. Documented bearers include both men (e.g., the geographer Yaqut al-Hamawi) and women.",
+      "short_meaning": "Ruby; a precious stone.",
+      "primary_meaning": "Yaqut (yāqūt) is the Arabic name of the ruby and other precious stones, used as a given name for both men and women in Muslim history; the word occurs in Qur'an 55:58, which supports the scriptural word occurrence but not a personal-name claim.",
+      "literal_meaning": "The form يَاقُوت occurs in Qur'an 55:58 ('ka-annahunna al-yāqūtu wa-l-marjān') describing the women of Paradise; the verse uses the word for the stone, not a person.",
+      "meaning_explanation": "The gem-name gloss is the standard lexical gloss recorded by name references; the record keeps the scriptural occurrence separate from name use and notes both documented male and female bearers instead of a single-gender claim.",
+      "meaning_confidence": "HIGH",
+      "semantic_domain": "Precious stones, ruby",
+      "related_concepts": [
+        "ruby",
+        "gemstone",
+        "coral"
+      ],
+      "quranic": {
+        "is_quranic": true,
+        "status": "lexical_form_directly_attested",
+        "note": "The word يَاقُوت occurs in Qur'an 55:58; the verse does not name a person Yaqut."
+      },
+      "religion_association": "Arabic and Muslim-cultural naming usage",
+      "religious_status": "A lexical gem-name; not a prescribed religious formula.",
+      "religious_explanation": "The word's Qur'anic occurrence is a lexical usage describing a stone, not a named person or a religious ruling about naming.",
+      "cultural_associations": [
+        "Arabic",
+        "Muslim naming communities"
+      ],
+      "cultural_note": "Recorded as a given name for girls in modern references and historically for men as well (e.g., Yaqut al-Hamawi); no population-level gender split is asserted.",
+      "cultural_interpretation": "Families may value the precious-stone sense, but that is a naming preference rather than a prediction about the bearer.",
+      "cultural_transmission": [
+        "Arabic-speaking communities",
+        "Muslim naming communities in South Asia"
+      ],
+      "usage_note": "Site-computed global ranks exist for the Yaqout spelling; the name is most used in Arab-world countries per the same source.",
+      "translations": {
+        "urdu": {
+          "name": "یاقوت",
+          "script": "یاقوت",
+          "meaning": "یاقوت؛ ایک قیمتی پتھر (روبی)"
+        },
+        "persian": {
+          "name": "یاقوت",
+          "script": "یاقوت",
+          "meaning": "یاقوت؛ گوهر قیمتی ( یاقوت سرخ )"
+        },
+        "hindi": {
+          "name": "याक़ूत",
+          "script": "याक़ूत",
+          "meaning": "याक़ूत; एक क़ीमती रत्न (रुबी)"
+        },
+        "pashto": {
+          "name": "یاقوت",
+          "script": "یاقوت",
+          "meaning": "یاقوت؛ یو قیمتي ډبره"
+        },
+        "arabic": {
+          "name": "يَاقُوت",
+          "script": "يَاقُوت",
+          "meaning": "يَاقُوت؛ حجرٌ كريمٌ ثمين"
+        }
+      },
+      "pronunciation": {
+        "guide": "YA-koot (approximate)",
+        "note": "Romanized pronunciation guide only; no IPA is asserted.",
+        "common_mispronunciation": null
+      },
+      "popularity": {
+        "note": "Both metrics are site-computed or site-internal rankings, not birth registrations; they are kept separate and uncombined.",
+        "measurements": [
+          {
+            "region": "Global (site-computed rank)",
+            "measure": "Ask-Oracle aggregated global name rank",
+            "year": 2024,
+            "category": null,
+            "rank": 483000,
+            "births": null,
+            "relative_interest_percent": null,
+            "observation_period": "as displayed on the 2024-dated source page",
+            "source_title": "Yaqout - Islamic Boy Name Meaning and Pronunciation",
+            "source_url": "https://www.ask-oracle.com/baby-name/yaqout/",
+            "limitation": "Site-aggregated ranking of unclear methodology and coverage; not birth-registration data."
+          },
+          {
+            "region": "HamariWeb name directory (site-internal ranking)",
+            "measure": "HamariWeb popularity rank (Yaqoot spelling)",
+            "year": 2025,
+            "category": "girls",
+            "rank": 9169,
+            "births": null,
+            "relative_interest_percent": null,
+            "observation_period": "undated directory snapshot as displayed on the source page",
+            "source_title": "Yaqoot Name Meaning - Yaqoot Origin, Popularity & History",
+            "source_url": "https://hamariweb.com/names/muslim/arabic/girl/yaqoot-meaning_5621/",
+            "limitation": "Site-internal directory ranking over an unclear population; not birth-registration or survey data."
+          }
+        ]
+      },
+      "historical_status": "lexical_scriptural_context_and_documented_bearers",
+      "historical_note": "The word yāqūt occurs in Qur'an 55:58; the geographer Yaqut al-Hamawi (1179–1229 CE) is a documented male bearer, while modern directories list the name for girls.",
+      "evidence": [
+        {
+          "title": "QuranicNames, Yaqoot",
+          "url": "https://quranicnames.com/yaqoot/",
+          "supports": "Original spelling يَاقُوْت; gloss 'ruby'; main entry classifies it as a non-Quranic name (variant pages differ).",
+          "limitation": "Baby-name reference; the gem gloss is cross-checked against standard Arabic lexical understanding and the Qur'anic word occurrence is cited separately."
+        },
+        {
+          "title": "Quran.com, Surah Ar-Rahman, verse 58",
+          "url": "https://quran.com/en/ar-rahman/58",
+          "supports": "كَأَنَّهُنَّ الْيَاقُوتُ وَالْمَرْجَانُ — yāqūt occurs in Qur'an 55:58.",
+          "limitation": "The primary text supports the word occurrence, not personal-name use."
+        },
+        {
+          "title": "Ask-Oracle, Yaqout",
+          "url": "https://www.ask-oracle.com/baby-name/yaqout/",
+          "supports": "Site-computed global rank 483,000 and country-level interest with Jordan most popular.",
+          "limitation": "Site-aggregated ranking of unclear methodology; also describes the name as masculine, showing the sources disagree on gender."
+        }
+      ],
+      "selection_note": "Chosen for a Qur'anic gem-word with documented bearers of both genders, absent from the dataset under every documented spelling; the sources' gender disagreement is kept visible."
+    },
+    {
+      "name": "Sanabil",
+      "slug": "sanabil",
+      "gender": "Female",
+      "gender_confidence": "MEDIUM",
+      "aliases": [
+        "Sanaabil",
+        "Sanabel"
+      ],
+      "language": "Arabic",
+      "script_form": "سَنَابِل",
+      "transliteration": "sanābil",
+      "root": "س ن ب ل",
+      "root_transliteration": "s-n-b-l",
+      "morphology": "Plural of sunbul (سُنْبُل), 'ear/spike of grain'; established lexical form used as a feminine given name.",
+      "short_meaning": "Ears of grain; spikes of a grain plant.",
+      "primary_meaning": "Sanabil (sanābil) is the plural of sunbul ('ear of grain'), the word family used in the Qur'anic parable of charity in 2:261 ('seven ears, a hundred grains each'); the name borrows that imagery of abundance.",
+      "literal_meaning": "The plural occurs in Qur'an 2:261 ('sabʿa sinābala') within a parable; the verse uses the common noun, not a person's name.",
+      "meaning_explanation": "The plural-of-sunbul analysis is recorded by the cited references and matches the Qur'anic wording; the record keeps the claim at the lexical level and makes no abundance promise for the bearer.",
+      "meaning_confidence": "HIGH",
+      "semantic_domain": "Grain, abundance imagery",
+      "related_concepts": [
+        "grain",
+        "harvest",
+        "charity parable"
+      ],
+      "quranic": {
+        "is_quranic": true,
+        "status": "lexical_form_directly_attested",
+        "note": "The plural sinābal occurs in Qur'an 2:261 in the parable of those who spend in God's way; the verse does not name a person Sanabil."
+      },
+      "religion_association": "Arabic and Muslim-cultural naming usage",
+      "religious_status": "A lexical name from Qur'anic vocabulary; not a prescribed religious formula.",
+      "religious_explanation": "The word appears in a Qur'anic parable about charity, which supports its positive standing in Muslim naming culture; this record asserts no ruling and no special virtue attached to the name itself.",
+      "cultural_associations": [
+        "Arabic",
+        "Muslim naming communities"
+      ],
+      "cultural_note": "Recorded as a feminine given name in Arabic and Muslim naming sources; this does not establish a single worldwide frequency.",
+      "cultural_interpretation": "Families may value the growth and abundance imagery, but that is a naming preference rather than a promise to the bearer.",
+      "cultural_transmission": [
+        "Arabic-speaking communities",
+        "Muslim naming communities in South Asia"
+      ],
+      "usage_note": "The name is rare in U.S. data; the only collected numeric metric is a site-internal directory ranking.",
+      "translations": {
+        "urdu": {
+          "name": "سنابل",
+          "script": "سنابل",
+          "meaning": "سنابل؛ اناج کی بالیاں"
+        },
+        "persian": {
+          "name": "سنابل",
+          "script": "سنابل",
+          "meaning": "سنابل؛ خوشه‌های گندم"
+        },
+        "hindi": {
+          "name": "सनाबिल",
+          "script": "सनाबिल",
+          "meaning": "सनाबिल; अनाज की बालियाँ"
+        },
+        "pashto": {
+          "name": "سنابل",
+          "script": "سنابل",
+          "meaning": "سنابل؛ د غنمو خوشې"
+        },
+        "arabic": {
+          "name": "سَنَابِل",
+          "script": "سَنَابِل",
+          "meaning": "سَنَابِل؛ سنابل الحبوب"
+        }
+      },
+      "pronunciation": {
+        "guide": "sa-NA-bil (approximate)",
+        "note": "Romanized pronunciation guide only; no IPA is asserted.",
+        "common_mispronunciation": null
+      },
+      "popularity": {
+        "note": "The only collected metric is a name-directory ranking; it measures a website's internal ordering, not births.",
+        "measurements": [
+          {
+            "region": "HamariWeb name directory (site-internal ranking)",
+            "measure": "HamariWeb popularity rank",
+            "year": 2025,
+            "category": "girls",
+            "rank": 47238,
+            "births": null,
+            "relative_interest_percent": null,
+            "observation_period": "undated directory snapshot as displayed on the source page",
+            "source_title": "Sanabil Name Meaning - Sanabil Origin, Popularity & History",
+            "source_url": "https://hamariweb.com/names/muslim/arabic/girl/sanabil-meaning_82815/",
+            "limitation": "Site-internal directory ranking over an unclear population; not birth-registration or survey data."
+          }
+        ]
+      },
+      "historical_status": "scriptural_lexical_context",
+      "historical_note": "The plural occurs in the Qur'anic parable of spending (2:261); no specific historical bearer is asserted by this record.",
+      "evidence": [
+        {
+          "title": "BabyNamesEasy, Sanabil",
+          "url": "https://babynameseasy.com/quranic-girl-name/sanabil",
+          "supports": "'Plural of sunbul (ear of grain)'; cites Qur'an 2:261.",
+          "limitation": "Baby-name reference; the plural analysis is cross-checked against the Qur'anic wording sinābal in 2:261."
+        },
+        {
+          "title": "Quran.com, Surah Al-Baqarah, verse 261",
+          "url": "https://quran.com/en/al-baqarah/261",
+          "supports": "سَبْعَ سِنَابِلَ — the plural occurs in the parable of those who spend their wealth in God's way.",
+          "limitation": "The primary text supports the word occurrence, not personal-name use."
+        },
+        {
+          "title": "HamariWeb, Sanabil",
+          "url": "https://hamariweb.com/names/muslim/arabic/girl/sanabil-meaning_82815/",
+          "supports": "Girl-name directory entry glossing it as a variant of Sunbul; site-internal rank 47,238.",
+          "limitation": "Directory entry with a site-internal, population-unclear ranking."
+        }
+      ],
+      "selection_note": "Chosen for a Qur'anic vocabulary name with a clean plural analysis, absent from the dataset under every documented spelling."
+    },
+    {
+      "name": "Warda",
+      "slug": "warda",
+      "gender": "Female",
+      "gender_confidence": "HIGH",
+      "aliases": [
+        "Wardah",
+        "Wardaa",
+        "Werdeh"
+      ],
+      "language": "Arabic",
+      "script_form": "وَرْدَة",
+      "transliteration": "warda",
+      "root": "و ر د",
+      "root_transliteration": "w-r-d",
+      "morphology": "Feminine noun from the w-r-d lexical family ('flowers, rosy'); established lexical form used as a feminine given name. The same root family has other classical senses that this record does not assert as the name's meaning.",
+      "short_meaning": "Rose; flower; rosy.",
+      "primary_meaning": "Warda (warda) is an Arabic feminine name meaning 'rose; flower; rosy'; the form warda(tan) occurs in Qur'an 55:37 describing the sky turning rose-red, which supports a scriptural word occurrence but not a personal-name claim.",
+      "literal_meaning": "The form وَرْدَةً occurs in Qur'an 55:37 ('fa-kānat wardatan ka-d-dihān') as a color description; the verse does not name a person Warda.",
+      "meaning_explanation": "Name references record the flower/rose gloss; the record notes that the w-r-d root family also has other classical senses (some references relate it to a lion epithet), and asserts only the flower sense that the name sources document.",
+      "meaning_confidence": "HIGH",
+      "semantic_domain": "Flowers, rose, rosy color",
+      "related_concepts": [
+        "rose",
+        "flower",
+        "rosy"
+      ],
+      "quranic": {
+        "is_quranic": true,
+        "status": "lexical_form_directly_attested",
+        "note": "The form وَرْدَةً occurs in Qur'an 55:37 describing the sky's rose-red hue; the verse does not name a person Warda."
+      },
+      "religion_association": "Arabic and Muslim-cultural naming usage",
+      "religious_status": "A lexical flower-name; not a prescribed religious formula.",
+      "religious_explanation": "The word's Qur'anic occurrence is a color description, not a named person or a religious ruling about naming.",
+      "cultural_associations": [
+        "Arabic",
+        "Muslim naming communities"
+      ],
+      "cultural_note": "Recorded as a feminine given name across Arabic-speaking countries; the Algerian singer Warda Al-Jazairia is a well-known modern bearer reported by general references.",
+      "cultural_interpretation": "Families may value the floral sense, but that is a naming preference rather than a prediction about the bearer.",
+      "cultural_transmission": [
+        "Arabic-speaking communities",
+        "Muslim naming communities in North Africa and the Middle East"
+      ],
+      "usage_note": "The Bump reports a U.S. girls' rank for 2025; the name is otherwise used across Arabic-speaking countries.",
+      "translations": {
+        "urdu": {
+          "name": "وردہ",
+          "script": "وردہ",
+          "meaning": "وردہ؛ گلاب کا پھول"
+        },
+        "persian": {
+          "name": "ورده",
+          "script": "ورده",
+          "meaning": "ورده؛ گل رز"
+        },
+        "hindi": {
+          "name": "वर्दा",
+          "script": "वर्दा",
+          "meaning": "वर्दा; गुलाब का फूल"
+        },
+        "pashto": {
+          "name": "ورده",
+          "script": "ورده",
+          "meaning": "ورده؛ د گلاب ګل"
+        },
+        "arabic": {
+          "name": "وَرْدَة",
+          "script": "وَرْدَة",
+          "meaning": "وَرْدَة؛ الزهرة الوردية"
+        }
+      },
+      "pronunciation": {
+        "guide": "WAR-da (approximate)",
+        "note": "Romanized pronunciation guide only; no IPA is asserted.",
+        "common_mispronunciation": null
+      },
+      "popularity": {
+        "note": "The collected metric is a U.S. figure displayed by The Bump; it measures U.S. births in that year, not worldwide prevalence.",
+        "measurements": [
+          {
+            "region": "United States",
+            "measure": "The Bump US girls' birth rank",
+            "year": 2025,
+            "category": "girls",
+            "rank": 8827,
+            "births": null,
+            "relative_interest_percent": null,
+            "observation_period": "2025 US birth-year data as displayed by The Bump",
+            "source_title": "Warda - Baby Name Meaning, Origin and Popularity",
+            "source_url": "https://www.thebump.com/b/warda-baby-name",
+            "limitation": "U.S. births only; The Bump also lists an unrelated English 'guardian' etymology for this spelling, which this record does not adopt."
+          }
+        ]
+      },
+      "historical_status": "scriptural_lexical_context",
+      "historical_note": "The form wardatan occurs in Qur'an 55:37 as a color description; no specific historical bearer is asserted by this record.",
+      "evidence": [
+        {
+          "title": "QuranicNames, Wardah",
+          "url": "https://quranicnames.com/wardah/",
+          "supports": "Arabic spelling وَرْدَة; glosses flower/rosy/fresh; W-R-D root; classifies the word as directly mentioned via Qur'an 55:37.",
+          "limitation": "Baby-name reference; the same root has other classical senses (a comment thread on the related Ward entry claims a lion sense), so only the flower sense documented by name references is asserted."
+        },
+        {
+          "title": "The Bump, Warda",
+          "url": "https://www.thebump.com/b/warda-baby-name",
+          "supports": "Arabic 'rose'; U.S. girls rank #8,827 in 2025 births.",
+          "limitation": "Secondary display of U.S. birth data; the page's Old French 'guardian' etymology for this spelling is not adopted."
+        },
+        {
+          "title": "HamariWeb, Warda",
+          "url": "https://hamariweb.com/names/muslim/pashto/girl/warda-meaning_4000/",
+          "supports": "'Rose'; girl name; site-internal rank 1,754.",
+          "limitation": "Directory entry; the directory labels the origin 'Pashto' while lexical references place وَرْدَة in Arabic — this record follows the lexical sources and notes the disagreement."
+        }
+      ],
+      "selection_note": "Chosen for a clean, universally understood Arabic flower name with a Qur'anic word occurrence, absent from the dataset under every documented spelling."
+    },
+    {
+      "name": "Wasil",
+      "slug": "wasil",
+      "gender": "Male",
+      "gender_confidence": "HIGH",
+      "aliases": [
+        "Waseel",
+        "Wassil"
+      ],
+      "language": "Arabic",
+      "script_form": "وَاصِل",
+      "transliteration": "wāṣil",
+      "root": "و ص ل",
+      "root_transliteration": "w-ṣ-l",
+      "morphology": "Active participle (fāʿil) of the Arabic verb waṣala ('to reach, arrive, join'), established lexical form used as a masculine given name.",
+      "short_meaning": "One who reaches or arrives; a close, connected friend.",
+      "primary_meaning": "Wasil (wāṣil) is an Arabic name from the verb waṣala, glossed in name references as a close or inseparable friend and, lexically, 'one who reaches or arrives'; the related noun wasīla ('means of nearness') occurs in Qur'an 5:35, which the record reports as root vocabulary rather than a name occurrence.",
+      "literal_meaning": "The form وَاصِل is the standard Arabic participle of waṣala; the noun wasīla occurs in Qur'an 5:35 ('wa-btaghū ilayhi l-wasīlata'), and the name form itself is not used in the Qur'an as a person's name.",
+      "meaning_explanation": "Name references record the 'inseparable friend' gloss; the record keeps the Qur'anic wasīla occurrence at the root-vocabulary level and asserts no sufi-technical or theological reading of the name.",
+      "meaning_confidence": "HIGH",
+      "semantic_domain": "Connection, arrival, friendship",
+      "related_concepts": [
+        "connection",
+        "arrival",
+        "friendship",
+        "wasila"
+      ],
+      "quranic": {
+        "is_quranic": false,
+        "status": "not_claimed",
+        "note": "The related noun wasīla occurs in Qur'an 5:35, but the name form وَاصِل itself is not used in the Qur'an as a person's name."
+      },
+      "religion_association": "Arabic and Muslim-cultural naming usage",
+      "religious_status": "A lexical name; not a prescribed religious formula.",
+      "religious_explanation": "The root's Qur'anic occurrence (wasīla, 5:35) is vocabulary about seeking nearness to God; the name's use is a cultural naming practice, and this record asserts no ruling or special virtue.",
+      "cultural_associations": [
+        "Arabic",
+        "Muslim naming communities"
+      ],
+      "cultural_note": "Recorded as a masculine given name in Arabic and Muslim naming sources; this does not establish a single worldwide frequency.",
+      "cultural_interpretation": "Families may value the sense of connection and loyalty, but that is a naming preference rather than a prediction about the bearer.",
+      "cultural_transmission": [
+        "Arabic-speaking communities",
+        "Muslim naming communities in South Asia"
+      ],
+      "usage_note": "The name is rare in U.S. data; a site-internal directory ranking is the only collected metric.",
+      "translations": {
+        "urdu": {
+          "name": "واصل",
+          "script": "واصل",
+          "meaning": "واصل؛ پہنچنے والا، گہرا دوست"
+        },
+        "persian": {
+          "name": "واصل",
+          "script": "واصل",
+          "meaning": "واصل؛ رسنده، دوست پیوسته"
+        },
+        "hindi": {
+          "name": "वासिल",
+          "script": "वासिल",
+          "meaning": "वासिल; पहुँचने वाला, घनिष्ठ मित्र"
+        },
+        "pashto": {
+          "name": "واصل",
+          "script": "واصل",
+          "meaning": "واصل؛ رسیدونکی، نږدې ملګری"
+        },
+        "arabic": {
+          "name": "وَاصِل",
+          "script": "وَاصِل",
+          "meaning": "وَاصِل؛ البالغ، الصديق الوثيق"
+        }
+      },
+      "pronunciation": {
+        "guide": "WA-sil (approximate)",
+        "note": "Romanized pronunciation guide only; no IPA is asserted.",
+        "common_mispronunciation": null
+      },
+      "popularity": {
+        "note": "The only collected metric is a name-directory ranking; it measures a website's internal ordering, not births.",
+        "measurements": [
+          {
+            "region": "HamariWeb name directory (site-internal ranking)",
+            "measure": "HamariWeb popularity rank",
+            "year": 2025,
+            "category": "boys",
+            "rank": 5558,
+            "births": null,
+            "relative_interest_percent": null,
+            "observation_period": "undated directory snapshot as displayed on the source page",
+            "source_title": "Wasil Name Meaning - Wasil Origin, Popularity & History",
+            "source_url": "https://hamariweb.com/names/muslim/arabic/boy/wasil-meaning_3233/",
+            "limitation": "Site-internal directory ranking over an unclear population; not birth-registration or survey data."
+          }
+        ]
+      },
+      "historical_status": "lexical_context",
+      "historical_note": "The name is a standard Arabic participle; no specific historical bearer is asserted by this record.",
+      "evidence": [
+        {
+          "title": "HamariWeb, Wasil",
+          "url": "https://hamariweb.com/names/muslim/arabic/boy/wasil-meaning_3233/",
+          "supports": "Gloss 'Inseparable Friend' with the Urdu gloss ملنے والا; boy name; site-internal rank 5,558.",
+          "limitation": "Directory entry with a site-internal, population-unclear ranking."
+        },
+        {
+          "title": "Quran.com, Surah Al-Ma'idah, verse 35",
+          "url": "https://quran.com/en/al-ma-idah/35",
+          "supports": "وَابْتَغُوا إِلَيْهِ الْوَسِيلَةَ — the noun wasīla from the same root occurs in Qur'an 5:35.",
+          "limitation": "The primary text supports the root-vocabulary occurrence, not personal-name use."
+        }
+      ],
+      "selection_note": "Chosen for a clean participial Arabic name with a Qur'anic root word, absent from the dataset under every documented spelling."
+    },
+    {
+      "name": "Ubaydullah",
+      "slug": "ubaydullah",
+      "gender": "Male",
+      "gender_confidence": "HIGH",
+      "aliases": [
+        "Ubaidullah",
+        "Obaidullah"
+      ],
+      "language": "Arabic",
+      "script_form": "عُبَيْدُ الله",
+      "transliteration": "ʿubayd Allāh",
+      "root": "ع ب د",
+      "root_transliteration": "ʿ-b-d",
+      "morphology": "Diminutive ʿubayd ('little servant') plus Allah, built on the well-attested Arabic servant-of-God naming pattern that produced names such as Abdullah.",
+      "short_meaning": "Little servant of Allah.",
+      "primary_meaning": "Ubaydullah (ʿubayd Allāh) is an Arabic male name meaning 'little servant of Allah', the diminutive counterpart within the servant-of-God naming pattern that includes Abdullah; the directories disagree on whether the pattern's origin label is Arabic or Urdu, and the lexical analysis here follows Arabic morphology.",
+      "literal_meaning": "The compound joins the diminutive of ʿabd ('servant') with Allah; no Qur'anic verse uses the compound, and the record asserts none.",
+      "meaning_explanation": "The gloss follows the documented directory entries ('Slave of Allah', 'Little Servant'); the record notes that the pattern is a naming convention rather than a Qur'anic word and that no specific historical bearer is asserted.",
+      "meaning_confidence": "HIGH",
+      "semantic_domain": "Servitude to God, devotion",
+      "related_concepts": [
+        "servant of God",
+        "Abdullah",
+        "devotion"
+      ],
+      "quranic": {
+        "is_quranic": false,
+        "status": "not_claimed",
+        "note": "The ʿabd/ʿubayd-Allah compound is a naming pattern, not a Qur'anic word; no direct verse occurrence is asserted."
+      },
+      "religion_association": "Arabic and Muslim-cultural naming usage",
+      "religious_status": "A devotional servant-of-God name; not a prescribed religious formula.",
+      "religious_explanation": "Servant-of-God names are well established in Muslim tradition; this record asserts no ruling about the name and no special virtue attached to it.",
+      "cultural_associations": [
+        "Arabic",
+        "Muslim naming communities",
+        "Urdu-speaking communities"
+      ],
+      "cultural_note": "Recorded as a masculine given name especially in South Asian and Arab Muslim communities; this does not establish a single worldwide frequency.",
+      "cultural_interpretation": "Families may value the devotional sense, but that is a naming preference rather than a prediction about the bearer.",
+      "cultural_transmission": [
+        "Arabic-speaking communities",
+        "Muslim naming communities in South Asia"
+      ],
+      "usage_note": "A site-internal directory ranking is the only collected metric; the Obaidullah spelling has its own, lower directory rank.",
+      "translations": {
+        "urdu": {
+          "name": "عبید اللہ",
+          "script": "عبید اللہ",
+          "meaning": "عبید اللہ؛ اللہ کا چھوٹا بندہ"
+        },
+        "persian": {
+          "name": "عبیدالله",
+          "script": "عبیدالله",
+          "meaning": "عبیدالله؛ بنده کوچک خداوند"
+        },
+        "hindi": {
+          "name": "उबैदुल्लाह",
+          "script": "उबैदुल्लाह",
+          "meaning": "उबैदुल्लाह; अल्लाह का छोटा सेवक"
+        },
+        "pashto": {
+          "name": "عبیدالله",
+          "script": "عبیدالله",
+          "meaning": "عبیدالله؛ د الله کوچنی بنده"
+        },
+        "arabic": {
+          "name": "عُبَيْدُ الله",
+          "script": "عُبَيْدُ الله",
+          "meaning": "عُبَيْدُ الله؛ العَبْد الصَّغير لله تعالى"
+        }
+      },
+      "pronunciation": {
+        "guide": "oo-BAY-doo-lah (approximate)",
+        "note": "Romanized pronunciation guide only; no IPA is asserted.",
+        "common_mispronunciation": null
+      },
+      "popularity": {
+        "note": "The only collected metric is a name-directory ranking; it measures a website's internal ordering, not births.",
+        "measurements": [
+          {
+            "region": "HamariWeb name directory (site-internal ranking)",
+            "measure": "HamariWeb popularity rank",
+            "year": 2025,
+            "category": "boys",
+            "rank": 3108,
+            "births": null,
+            "relative_interest_percent": null,
+            "observation_period": "undated directory snapshot as displayed on the source page",
+            "source_title": "Ubaidullah Name Meaning - Ubaidullah Origin, Popularity & History",
+            "source_url": "https://hamariweb.com/names/muslim/urdu/boy/ubaidullah-meaning_7445/",
+            "limitation": "Site-internal directory ranking over an unclear population; not birth-registration or survey data. The directory labels the origin 'Urdu' while the compound is Arabic morphology; this record follows the lexical analysis and notes the disagreement."
+          }
+        ]
+      },
+      "historical_status": "lexical_context",
+      "historical_note": "The compound follows the Abdullah naming pattern; no specific historical bearer is asserted by this record.",
+      "evidence": [
+        {
+          "title": "HamariWeb, Ubaidullah",
+          "url": "https://hamariweb.com/names/muslim/urdu/boy/ubaidullah-meaning_7445/",
+          "supports": "Gloss 'Slave of Allah' with Urdu wording اللہ کا چھوٹا بندہ; boy name; site-internal rank 3,108.",
+          "limitation": "Directory entry with a site-internal, population-unclear ranking; origin label disagrees with the Arabic morphological analysis."
+        },
+        {
+          "title": "HamariWeb, Obaidullah",
+          "url": "https://hamariweb.com/names/muslim/arabic/boy/obaidullah-meaning_80039/",
+          "supports": "Gloss 'Little Servant; Lovely Servant of' for the Obaidullah spelling; boy name; site-internal rank 56,096.",
+          "limitation": "Directory entry; documents the diminutive reading of the compound."
+        }
+      ],
+      "selection_note": "Chosen for a well-attested servant-of-God compound name common in Muslim communities, absent from the dataset under every documented spelling."
+    },
+    {
+      "name": "Wissam",
+      "slug": "wissam",
+      "gender": "Unisex",
+      "gender_confidence": "MEDIUM",
+      "aliases": [
+        "Wisam",
+        "Wesam"
+      ],
+      "language": "Arabic",
+      "script_form": "وِسام",
+      "transliteration": "wisām",
+      "root": "و س م",
+      "root_transliteration": "w-s-m",
+      "morphology": "Established Arabic noun (wisām, 'medal, badge, mark of honor') from the w-s-m root ('to mark, stamp'); used as a given name for both men and women in Arabic-speaking communities.",
+      "short_meaning": "Medal, badge, decoration; a mark of honor.",
+      "primary_meaning": "Wissam (wisām) is an Arabic name from the noun wisām, 'medal or badge of honor', itself from the w-s-m root of marking; U.S. data classifies the spelling Wissam for boys while the name is also documented for women, so no single-gender claim is made.",
+      "literal_meaning": "The noun وسام is standard Arabic for a medal or decoration; the record asserts no Qur'anic occurrence for the word.",
+      "meaning_explanation": "The gloss follows the standard Arabic lexical sense of the noun; the record notes the gender disagreement across sources instead of picking one silently.",
+      "meaning_confidence": "HIGH",
+      "semantic_domain": "Honor, decoration, marking",
+      "related_concepts": [
+        "medal",
+        "badge",
+        "honor",
+        "mark"
+      ],
+      "quranic": {
+        "is_quranic": false,
+        "status": "not_claimed",
+        "note": "No Qur'anic occurrence is asserted for the word وسام or its root's name form."
+      },
+      "religion_association": "Arabic and Muslim-cultural naming usage",
+      "religious_status": "A lexical name; not a prescribed religious formula.",
+      "religious_explanation": "A positive Arabic lexical name is compatible with Muslim naming traditions, but linguistic origin and a positive meaning are not a religious recommendation or ruling.",
+      "cultural_associations": [
+        "Arabic",
+        "Muslim naming communities"
+      ],
+      "cultural_note": "Recorded as a given name for boys in U.S. data and for both men and women in Arabic-speaking communities; no population-level gender split is asserted.",
+      "cultural_interpretation": "Families may value the honor sense, but that is a naming preference rather than a prediction about the bearer.",
+      "cultural_transmission": [
+        "Arabic-speaking communities",
+        "Muslim naming communities worldwide"
+      ],
+      "usage_note": "U.S. SSA-derived data exists in scattered years (2017 and 2022); usage is otherwise broader in Arabic-speaking countries.",
+      "translations": {
+        "urdu": {
+          "name": "وسام",
+          "script": "وسام",
+          "meaning": "وسام؛ تمغہ، اعزاز کا نشان"
+        },
+        "persian": {
+          "name": "وسام",
+          "script": "وسام",
+          "meaning": "وسام؛ نشانِ افتخار"
+        },
+        "hindi": {
+          "name": "विसाम",
+          "script": "विसाम",
+          "meaning": "विसाम; पदक, सम्मान का चिह्न"
+        },
+        "pashto": {
+          "name": "وسام",
+          "script": "وسام",
+          "meaning": "وسام؛ نښان، ویاړ"
+        },
+        "arabic": {
+          "name": "وِسام",
+          "script": "وِسام",
+          "meaning": "وِسام؛ وسامُ الشرف والامتياز"
+        }
+      },
+      "pronunciation": {
+        "guide": "WI-sam (approximate)",
+        "note": "Romanized pronunciation guide only; no IPA is asserted.",
+        "common_mispronunciation": null
+      },
+      "popularity": {
+        "note": "The collected metric is a U.S. SSA-derived figure displayed by Nameberry; it measures U.S. births in that year, not worldwide prevalence.",
+        "measurements": [
+          {
+            "region": "United States",
+            "measure": "SSA newborn-name rank and births, as displayed by Nameberry",
+            "year": 2022,
+            "category": "boys",
+            "rank": 4693,
+            "births": 22,
+            "relative_interest_percent": null,
+            "observation_period": "2022 SSA birth-year data",
+            "source_title": "Wissam - Baby Name Meaning, Origin, and Popularity for a Boy",
+            "source_url": "https://nameberry.com/b/boy-baby-name-wissam",
+            "limitation": "U.S. births only; the source classifies the name for boys while other references record female use as well."
+          }
+        ]
+      },
+      "historical_status": "lexical_context",
+      "historical_note": "The name is a standard Arabic noun; no specific historical bearer is asserted by this record.",
+      "evidence": [
+        {
+          "title": "Nameberry, Wissam",
+          "url": "https://nameberry.com/b/boy-baby-name-wissam",
+          "supports": "U.S. SSA-derived rank 4,693 with 22 births in 2022 (4,737 / 21 in 2017).",
+          "limitation": "Secondary display of U.S. birth data; it is not a global popularity measure."
+        },
+        {
+          "title": "Almaany English-Arabic Dictionary, وسام",
+          "url": "https://www.almaany.com/en/dict/ar-en/%D9%88%D8%B3%D8%A7%D9%85/",
+          "supports": "The Arabic noun وسام as a medal, order, or decoration.",
+          "limitation": "Dictionary entry for the common noun; the personal-name use is documented separately by name directories."
+        }
+      ],
+      "selection_note": "Chosen for a clean Arabic honor-vocabulary name with U.S. usage data, absent from the dataset under every documented spelling."
+    }
+  ]
+}
