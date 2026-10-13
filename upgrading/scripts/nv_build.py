@@ -98,15 +98,19 @@ def build(name, src):
             return {"name": form, "meaning": None, "long_meaning": None,
                     "translation_status": "unverified",
                     "note": "No verified %s translation was established for this form. A meaning is deliberately not asserted." % lang}
-        m = g[lang]
+        m = g.get(lang)
+        if not m:
+            return {"name": form, "meaning": None, "long_meaning": None,
+                    "translation_status": "not_curated",
+                    "note": "No separate %s gloss was curated. The English meaning is not copied into this translation field." % lang}
         return {"name": form, "meaning": m, "long_meaning": None,
                 "translation_status": "draft_needs_native_review",
-                "review_note": "Curated rendering only; not independently cited or reviewed by a native speaker."}
+                "review_note": "Curated rendering only; it still requires native-speaker review."}
 
     translations = {
         "english": ({"name": disp, "meaning": g["en"], "long_meaning": None,
                      "translation_status": "draft_needs_native_review",
-                     "review_note": "Lexical gloss is source-supported where a named citation is attached; translations into other languages still require native-speaker review."} if verified
+                     "review_note": "The lexical gloss comes from the batch's curated note; attach a named lexical source before publication. Non-English translations still require native-speaker review."} if verified
                     else {"name": disp, "meaning": None, "long_meaning": None, "translation_status": "unverified",
                           "note": "No verified meaning was established for this form, so no gloss is asserted."}),
         "urdu": tr("ur", ur), "persian": tr("fa", fa), "hindi": tr("hi", hi),
@@ -302,7 +306,7 @@ def build(name, src):
           "linguistic_authenticity": ("high" if conf == "high" else ("medium" if conf == "medium" else "low")) if verified else "unverified",
           "etymological_authenticity": ("high" if conf == "high" else ("medium" if conf == "medium" else "low")) if verified else "unverified",
           "meaning_authenticity": ("high" if conf == "high" else ("medium" if conf == "medium" else "low")) if verified else "unverified",
-          "translation_quality": ("high" if conf == "high" else ("medium" if conf == "medium" else "low")) if verified else "unverified",
+          "translation_quality": "requires_native_review" if verified else "unverified",
           "religious_claim_safety": "high", "historical_claim_safety": "high", "cultural_accuracy": "medium",
           "originality": "high", "ai_hallucination_risk": "low",
           "unsupported_claims_removed": ["invented popularity scores", "invented lucky attributes", "invented personality claims",
@@ -316,8 +320,9 @@ def build(name, src):
           "claims_requiring_external_dataset": ["Personal-name popularity", "Country rankings", "Modern naming frequency", "Celebrity usage", "Social-media trends"],
         },
         "provenance": {
-          "verified_or_verifiable_fields": (["core meaning", "origin", "script form", "semantic field", "language association", "translation"] if verified else ["negative finding: form not verified"]),
+          "verified_or_verifiable_fields": (["core meaning", "origin", "script form", "semantic field", "language association"] if verified else ["negative finding: form not verified"]),
           "interpretive_fields": ["spiritual meaning", "personality associations", "name story"],
+          "draft_fields_requiring_review": ["non-English translation glosses", "named lexical source citations"],
           "dataset_required_fields": ["popularity", "regional rankings", "modern frequency", "celebrity usage"],
           "generated_content_policy": "Generated explanatory prose must not introduce new historical, linguistic, religious, demographic, or popularity claims that are not supported by evidence.",
         },
@@ -342,7 +347,7 @@ def build(name, src):
         },
         "editorial_validation": {
           "name_identity_checked": True, "origin_checked": True, "meaning_checked": True, "language_checked": True,
-          "religious_claims_checked": True, "translation_checked": True, "historical_claims_checked": True,
+          "religious_claims_checked": True, "translation_checked": False, "historical_claims_checked": True,
           "popularity_verified": False, "celebrity_verified": False, "real_person_story_verified": False,
           "numerology_verified": False, "lucky_attributes_verified": False,
           "ready_for_publication": ("after source verification of dataset-dependent fields" if verified
@@ -354,6 +359,8 @@ def build(name, src):
 
     # FAQ — name-specific, consistent with the fields above
     d = rec["data"]
+    ur_gloss = g.get("ur") if verified else None
+    fa_gloss = g.get("fa") if verified else None
     if verified:
         faq = [
           {"question": "What does %s mean?" % disp, "answer": "%s is associated with the %s form %s, whose core sense is %s." % (disp, origin, ar or ur or fa or hi or ps, g["en"].lower())},
@@ -361,8 +368,8 @@ def build(name, src):
           {"question": "Is %s an Arabic name?" % disp, "answer": ("Yes — the underlying form %s is Arabic." % ar) if origin == "Arabic" else ("No — the underlying form is %s, not Arabic." % origin)},
           {"question": "Is %s an Islamic name?" % disp, "answer": "%s can occur in Muslim naming contexts, but it is better described as a %s-origin name used within some Muslim naming traditions than as an exclusively Islamic religious term." % (disp, origin)},
           {"question": "Is %s a Quranic name?" % disp, "answer": "%s should not be classified as a Quranic personal name without a direct Quranic basis. %s" % (disp, quranic)},
-          {"question": "What does %s mean in Urdu?" % disp, "answer": "In Urdu, %s is rendered %s and carries the sense %s." % (disp, ur or "—", g["ur"])},
-          {"question": "What does %s mean in Persian?" % disp, "answer": ("In Persian, %s is rendered %s and carries the sense %s." % (disp, fa, g["fa"])) if fa else "No verified Persian form was established for %s." % disp},
+          {"question": "What does %s mean in Urdu?" % disp, "answer": ("In Urdu, %s is rendered %s and carries the sense %s." % (disp, ur, ur_gloss)) if ur and ur_gloss else "No separately curated Urdu gloss is available for %s; the English meaning is not presented as an Urdu translation." % disp},
+          {"question": "What does %s mean in Persian?" % disp, "answer": ("In Persian, %s is rendered %s and carries the sense %s." % (disp, fa, fa_gloss)) if fa and fa_gloss else "No separately curated Persian gloss is available for %s; the English meaning is not presented as a Persian translation." % disp},
           {"question": "How is %s pronounced?" % disp, "answer": "A romanized syllable approximation is %s. No IPA transcription is asserted because a verified phonetic transcription was not available." % syllabify(name)},
           {"question": "What are the variants of %s?" % disp, "answer": "Romanization variants include %s. Script forms are %s." % (", ".join(sorted(set([disp, name, name.replace("aa", "a")]))), ", ".join(sorted(set([x for x in (ar, ur, fa, hi, ps) if x]))))},
           {"question": "Is %s a boy's or girl's name?" % disp, "answer": "Documented usage records this form as %s. Gender is not inferred from the meaning of the word, and actual use may vary between communities." % gender.lower()},

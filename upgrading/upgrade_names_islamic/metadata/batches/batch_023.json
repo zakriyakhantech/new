@@ -1,0 +1,53 @@
+{
+  "batch_number": 23,
+  "culture": "islamic",
+  "range": {
+    "first": "fateema",
+    "last": "ferdous",
+    "count": 100
+  },
+  "status": "complete",
+  "builder": "upgrading/scripts/build23.py",
+  "curation_table": "upgrading/scripts/curated23.py",
+  "output_directory": "upgrading/upgrade_names_islamic",
+  "validation": {
+    "tool": "upgrading/scripts/nv_validate.py",
+    "batch_files": 100,
+    "total_directory_files": 2300,
+    "total_failures": 0,
+    "scope_note": "Structural/script-shape validation only; it does not independently authenticate lexical claims."
+  },
+  "confidence_summary": {
+    "high": 78,
+    "medium": 12,
+    "low": 10
+  },
+  "origin_summary": {
+    "Arabic": 88,
+    "Unknown": 7,
+    "Persian": 4,
+    "Turkish": 1
+  },
+  "non_english_translation_status": {
+    "not_curated": 317,
+    "unverified": 134,
+    "draft_needs_native_review": 49
+  },
+  "content_review": {
+    "corrected_english_glosses": 78,
+    "rows_with_no_asserted_meaning": 10,
+    "origin_reclassifications": 2,
+    "confidence_adjustments": 3,
+    "notes": [
+      "The Fāṭima family (فاطمة, root f-ṭ-m 'to wean, abstain') had source glosses such as 'The Opener, Supporter' and 'Abundance, Wealth'; these are replaced by the source-supported lexical sense.",
+      "The f-w-z family (fawz/fawaz/fawzi/fawzia and variants) is glossed from fawz ('victory, triumph') instead of the source glosses 'Tranquil, Peaceful, Calm' and 'Intelligent, Wise, Bright'.",
+      "The f-y-ḍ family (fayyad/fayyadh/fayyaz/fayaaz/fayaz/fayad) is glossed 'Abundantly generous; overflowing' instead of 'Servant, Helper, Supporter' and similar.",
+      "The faḍl family (fazal/fazl/fazeel/fazeela/fazil/fazila/fazilat/fazli/fazloon) is glossed from faḍl ('grace, bounty, excellence').",
+      "Truncated compounds (fathul, fazlur) and forms that could not be matched to a lexical source (faudel, fay, fayona, faza, fazan, fazar, fazia, feray) carry no asserted meaning."
+    ],
+    "non_english_translations_require_native_review": true,
+    "named_lexical_source_citations_required_before_publication": true,
+    "script_form_corrections": 6
+  },
+  "updated_at": "2026-10-13T02:45:44Z"
+}
