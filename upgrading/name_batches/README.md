@@ -40,3 +40,30 @@ python3 upgrading/scripts/add_demand_names.py --check          # verify all ten 
 ```
 
 The builder has no third-party dependencies and makes no network calls. Source URLs, claim-level support, and limitations are committed in the manifest; generated record evidence is flattened into the existing `evidence.sources` format.
+
+## Batch b2 — October 2026 (`demand_2026-10-b2.json`)
+
+A second, authenticity-first ten-record batch built with the same builder, template, and safeguards. The collision audit rejected three initial candidates (Samad, Hunayn, Mubashir) because their Arabic script forms are already present in the dataset under other spellings (Samat/صمد, Haneen & Hanin/حنين, Mubasher/مبشر); they were replaced and the rejections are recorded in the manifest's `selection_policy`.
+
+Build and verify:
+
+```bash
+python3 upgrading/scripts/add_demand_names.py --manifest upgrading/name_batches/demand_2026-10-b2.json            # dry-run collision audit
+python3 upgrading/scripts/add_demand_names.py --manifest upgrading/name_batches/demand_2026-10-b2.json --write    # add after checks pass
+python3 upgrading/scripts/add_demand_names.py --manifest upgrading/name_batches/demand_2026-10-b2.json --check    # verify persisted records
+```
+
+| Name | Core lexical/scriptural gloss | Documented usage signal (kept in its own scope) |
+| --- | --- | --- |
+| Ilyasa | The Qur'anic prophet name الْيَسَع (Elisha), named in Qur'an 6:86 and 38:48. | HamariWeb site-internal directory rank #15,977 (2025); U.S. SSA has no record of the spelling. |
+| Suhayb | صُهَيْب, "one who has reddish-brown hair"; bearer name of the companion Suhayb ibn Sinan (ar-Rumi). | United States, 2023: SSA-derived rank #4,200 and 26 births (Nameberry); Suhaib spelling #3,248 / 36 births in 2019. |
+| Wajid | وَاجِد, active participle of wajada — one who finds or perceives. | HamariWeb site-internal directory rank #1,686 (2025). |
+| Wasil | وَاصِل, one who reaches/arrives; close friend; root noun wasīla occurs in Qur'an 5:35. | HamariWeb site-internal directory rank #5,558 (2025). |
+| Ubaydullah | عُبَيْدُ الله, "little servant of Allah", diminutive of the Abdullah pattern. | HamariWeb site-internal directory rank #3,108 (2025). |
+| Taybah | طَيِّبَة, good/pure/wholesome; reported as the name the Prophet gave to Yathrib (Medina). | HamariWeb site-internal directory rank #81,880 (2025). |
+| Yaqut | يَاقُوت, ruby; the word occurs in Qur'an 55:58. | Ask-Oracle site-computed global rank #483,000 (2024); HamariWeb internal rank #9,169 for the Yaqoot spelling. |
+| Sanabil | سَنَابِل, ears of grain; plural of sunbul, occurring in Qur'an 2:261. | HamariWeb site-internal directory rank #47,238 (2025). |
+| Warda | وَرْدَة, rose/flower; the form وَرْدَةً occurs in Qur'an 55:37 as a color description. | United States, 2025: The Bump girls' rank #8,827. |
+| Wissam | وِسام, medal/badge, mark of honor (w-s-m root). | United States, 2022: SSA-derived rank #4,693 and 22 births (Nameberry). |
+
+Unlike batch 1, several b2 metrics are name-directory site-internal ranks; each such record's `limitation` field states that explicitly so they are never read as population data. Quranic claims are word-occurrence claims (or, for Ilyasa, a direct prophet-name attestation) and never personal-name claims; numerology, lucky attributes, personality content, and invented stories remain suppressed, and non-English glosses remain drafts pending native-speaker review.
