@@ -323,8 +323,9 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
+      "tier1_verified": false,
       "authenticity_flags": [
+        "core_lexical_meaning_supported_by_dictionary_and_scholarly_source",
         "given_name_gender_and_frequency_not_independently_verified",
         "pashto_and_arabic_translations_require_native_review"
       ],
@@ -425,6 +426,14 @@
                 "@type": "Answer",
                 "text": "A rough romanized guide is “aa-ban”; pronunciation may vary by language and family."
               }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Aaban a boy's or girl's name?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The current dataset provisionally labels Aaban as male, but the sources cited here describe the Persian calendar term rather than personal-name gender frequency. Independent naming-usage evidence is needed to confirm this classification."
+              }
             }
           ]
         },
@@ -464,7 +473,7 @@
       "reviewed_at": "2026-10-14"
     },
     "render_policy": {
-      "render_verified": false,
+      "render_verified": true,
       "render_interpretive": false,
       "hide_unverified": true,
       "single_definition_source": "core_meaning.primary_meaning",
