@@ -292,6 +292,8 @@ def concise_metric(measurement: dict[str, Any]) -> str:
 
 
 def quranic_faq_answer(candidate: dict[str, Any]) -> str:
+    if "quranic_faq_answer" in candidate:
+        return candidate["quranic_faq_answer"]
     q = candidate["quranic"]
     if q["is_quranic"]:
         return f"The lexical/scriptural form is directly attested, but not as a named person: {q['note']}"
@@ -466,7 +468,7 @@ def build_record(candidate: dict[str, Any], template: dict[str, Any], created_at
         "root_family": [],
         "etymology_explanation": candidate["meaning_explanation"],
         "etymology_confidence": etymology_confidence,
-        "false_etymology_warning": FALSE_ETYMOLOGY_WARNINGS.get(
+        "false_etymology_warning": candidate.get("false_etymology_warning") or FALSE_ETYMOLOGY_WARNINGS.get(
             slug,
             "No derivation beyond the documented lexical analysis is asserted; unsupported name-site etymologies are not adopted.",
         ),
@@ -509,7 +511,7 @@ def build_record(candidate: dict[str, Any], template: dict[str, Any], created_at
     }
     data["religion"] = {
         "primary_association": candidate["religion_association"],
-        "religion_confidence": "MEDIUM",
+        "religion_confidence": candidate.get("religion_confidence", "MEDIUM"),
         "religious_status": candidate["religious_status"],
         "religious_explanation": candidate["religious_explanation"],
         "quranic_status": {
@@ -517,18 +519,18 @@ def build_record(candidate: dict[str, Any], template: dict[str, Any], created_at
             "status": quranic["status"],
             "note": quranic["note"],
         },
-        "hadith_status": {
+        "hadith_status": candidate.get("hadith_status", {
             "status": "not_verified",
             "note": "No specific authentic hadith report establishing this name or a special virtue is cited; none is invented.",
-        },
-        "prophetic_status": {
+        }),
+        "prophetic_status": candidate.get("prophetic_status", {
             "status": "not_verified",
             "note": "No verified source establishing this as a prophet's personal name is cited.",
-        },
-        "companion_status": {
+        }),
+        "companion_status": candidate.get("companion_status", {
             "status": "not_verified",
             "note": "No companion attribution is asserted without a verified source.",
-        },
+        }),
     }
     data["islamic_naming_context"] = {
         "can_be_used_by_muslims": True,
@@ -666,7 +668,7 @@ def build_record(candidate: dict[str, Any], template: dict[str, Any], created_at
     data["social_tags"] = [f"#{name}", f"#{name}Meaning", "#NameMeaning", tag_origin]
     if primary_language == "Arabic":
         data["social_tags"].append("#IslamicNames")
-    flags = list(AUTHENTICITY_FLAGS.get(slug, []))
+    flags = list(candidate.get("authenticity_flags") or AUTHENTICITY_FLAGS.get(slug, []))
     flags.append("localized_translations_require_native_review")
     flags.append("popularity_metrics_are_source_and_region_scoped")
     data["content_quality"] = {

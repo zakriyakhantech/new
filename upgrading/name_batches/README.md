@@ -67,3 +67,31 @@ python3 upgrading/scripts/add_demand_names.py --manifest upgrading/name_batches/
 | Wissam | وِسام, medal/badge, mark of honor (w-s-m root). | United States, 2022: SSA-derived rank #4,693 and 22 births (Nameberry). |
 
 Unlike batch 1, several b2 metrics are name-directory site-internal ranks; each such record's `limitation` field states that explicitly so they are never read as population data. Quranic claims are word-occurrence claims (or, for Ilyasa, a direct prophet-name attestation) and never personal-name claims; numerology, lucky attributes, personality content, and invented stories remain suppressed, and non-English glosses remain drafts pending native-speaker review.
+
+## Batch b3 — October 2026 (`demand_2026-10-b3.json`)
+
+A dedicated high-authenticity batch focused exclusively on verified Companions of the Prophet (Sahaba), early Islamic legal figures, and directly attested Qur'anic scriptural terms. Every candidate was checked against classical biographical compendia (*Al-Isabah fi Tamyiz al-Sahabah*, *Al-Isti'ab*, *Siyar A'lam al-Nubala*), primary hadith corpora (Sahih al-Bukhari, Sahih Muslim, Sunan Abi Dawud), and classical Arabic lexicons (*Lisan al-Arab*, *Lane's Lexicon*).
+
+The collision audit scanned all 6,522 existing records across both Latin and Arabic normalized namespaces. Candidates with existing collisions (e.g., Ikrimah colliding with Ekrima) were audited and excluded, yielding a 100% collision-free batch:
+
+Build and verify:
+
+```bash
+python3 upgrading/scripts/add_demand_names.py --manifest upgrading/name_batches/demand_2026-10-b3.json            # dry-run collision audit
+python3 upgrading/scripts/add_demand_names.py --manifest upgrading/name_batches/demand_2026-10-b3.json --write    # add after checks pass
+python3 upgrading/scripts/add_demand_names.py --manifest upgrading/name_batches/demand_2026-10-b3.json --check    # verify persisted records
+```
+
+| Name | Script | Status / Historical Referent | Primary Sourced Basis |
+| --- | --- | --- | --- |
+| Usayd | أُسَيْد | Celebrated Ansari leader (Usayd ibn Hudayr) | Sahih al-Bukhari 5018 (angels descending during his Quran recitation); Al-Isabah #356 |
+| Tufayl | طُفَيْل | Chieftain of Daws (al-Tufayl ibn Amr, Dhu al-Nur) | Sahih al-Bukhari 2935; Al-Isti'ab #1290 |
+| Khuzaymah | خُزَيْمَة | Ansari veteran (Khuzaymah ibn Thabit, Dhu al-Shahadatayn) | Sunan Abi Dawud 3560; Tabaqat Ibn Sa'd Vol. 4 |
+| Shurayh | شُرَيْح | Legendary judge of Kufa (Shurayh al-Qadi) | Sahih al-Bukhari Kitab al-Ahkam; Siyar A'lam al-Nubala Vol. 4 |
+| Khabbab | خَبَّاب | Early steadfast convert & martyr (Khabbab ibn al-Aratt) | Sahih al-Bukhari 3612 & 3852; Al-Isabah #2223 |
+| Utbah | عُتْبَة | 7th convert to Islam & founder of Basra (Utbah ibn Ghazwan) | Sahih Muslim 2967 (ascetic sermon); Al-Isabah #5440 |
+| Ubadah | عُبَادَة | Chieftain at Aqaba & Quran teacher (Ubadah ibn al-Samit) | Sahih al-Bukhari 18; Al-Isabah #4485 |
+| Julaybib | جُلَيْبِيب | Beloved Ansari martyr praised by the Prophet ﷺ | Sahih Muslim 2472 ("He is from me, and I am from him"); Al-Isabah #1083 |
+| Wathilah | وَاثِلَة | Ascetic companion of Ahl al-Suffah (Wathilah ibn al-Asqa') | Sahih Muslim 2276; Al-Isabah #9060 |
+| Sundus | سُنْدُس | Fine green silk garments of Paradise | Directly attested in Qur'an 18:31, 44:53, 76:21; Tafsir Ibn Kathir |
+
