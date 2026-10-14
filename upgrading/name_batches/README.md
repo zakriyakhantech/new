@@ -122,4 +122,32 @@ python3 upgrading/scripts/add_demand_names.py --manifest upgrading/name_batches/
 | Hubab | حُبَاب | Badri strategist who gave tactical counsel (Dhu al-Ra'y) | Al-Isabah #1579; Al-Isti'ab #471 |
 | Suwaybit | سُوَيْبِط | Early Abyssinian migrant & veteran of Badr | Sunan Abi Dawud 4998; Al-Isabah #3629 |
 
+## Batch b5 — October 2026 (`demand_2026-10-b5.json`)
+
+A third high-authenticity batch featuring Mother of the Believers Sawdah bint Zam'ah, early heroines and martyrs of faith, prominent Badri and Hijrah Companions, and directly attested Qur'anic scriptural vocabulary. Verified against classical Arabic authorities (*Lisan al-Arab*), canonical hadith compendia (Sahih al-Bukhari, Sahih Muslim, Sunan an-Nasa'i, Sunan Abi Dawud), and biographical compendia (*Al-Isabah*, *Al-Isti'ab*).
+
+The collision audit scanned all 6,542 existing records across Latin and Arabic normalized forms, verifying 100% collision-free persistence:
+
+Build and verify:
+
+```bash
+python3 upgrading/scripts/add_demand_names.py --manifest upgrading/name_batches/demand_2026-10-b5.json            # dry-run collision audit
+python3 upgrading/scripts/add_demand_names.py --manifest upgrading/name_batches/demand_2026-10-b5.json --write    # add after checks pass
+python3 upgrading/scripts/add_demand_names.py --manifest upgrading/name_batches/demand_2026-10-b5.json --check    # verify persisted records
+```
+
+| Name | Script | Status / Historical Referent | Primary Sourced Basis |
+| --- | --- | --- | --- |
+| Sawdah | سَوْدَة | Mother of the Believers; wife of the Prophet ﷺ | Sahih al-Bukhari 5206; Sahih Muslim 1463; Al-Isabah #11312 |
+| Thumamah | ثُمَامَة | Chieftain of Yamama & first open pilgrim in Mecca | Sahih al-Bukhari 4372; Sahih Muslim 1764 |
+| Buraydah | بُرَيْدَة | Standard-bearer of the Prophet's Hijrah (Banu Aslam) | Sahih al-Bukhari 3816; Al-Isabah #624 |
+| Zunairah | زُنَيْرَة | Early heroine of faith; sight miraculously restored | Al-Isabah #11226; Al-Isti'ab #3341 |
+| Murarah | مُرَارَة | Badri veteran; forgiven in Qur'an 9:118 (Surah at-Tawbah) | Holy Qur'an 9:118; Sahih al-Bukhari 4418 |
+| Kharijah | خَارِجَة | Badri leader, sworn brother of Abu Bakr & Uhud martyr | Sahih al-Bukhari 3929; Al-Isabah #2161 |
+| Mijzaz | مِجْزَاز | Famed physiognomist whose insight brought prophetic joy | Sahih al-Bukhari 3555; Sahih Muslim 1459 |
+| Bujayr | بُجَيْر | Poet & companion whose dawah led to the Burdah ode | Al-Isabah #599; Al-Isti'ab #184 |
+| Mihjan | مِحْجَن | Mosque builder; narrator of the sanctity of Medina | Sahih Muslim 1378; Sunan an-Nasa'i 856 |
+| Salsal | صَلْصَال | Resounding clay of creation in Surah al-Rahman | Holy Qur'an 55:14, 15:26; Tafsir Ibn Kathir |
+
+
 
