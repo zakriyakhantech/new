@@ -95,3 +95,31 @@ python3 upgrading/scripts/add_demand_names.py --manifest upgrading/name_batches/
 | Wathilah | وَاثِلَة | Ascetic companion of Ahl al-Suffah (Wathilah ibn al-Asqa') | Sahih Muslim 2276; Al-Isabah #9060 |
 | Sundus | سُنْدُس | Fine green silk garments of Paradise | Directly attested in Qur'an 18:31, 44:53, 76:21; Tafsir Ibn Kathir |
 
+## Batch b4 — October 2026 (`demand_2026-10-b4.json`)
+
+A second high-authenticity batch featuring prominent early Sahaba, revered female Companions (Sahabiyyat), early hadith scholars, and Qur'anic scriptural terms. Verified against classical Arabic dictionaries (*Lisan al-Arab*), canonical hadith compendia (Sahih al-Bukhari, Sahih Muslim, Jami' at-Tirmidhi), and biographical reference works (*Al-Isabah*, *Al-Isti'ab*, *Siyar A'lam al-Nubala*).
+
+The collision audit audited all 6,532 records across Latin, Arabic, and non-Latin script forms. A cross-script collision on Rumaytha's Hindi form was detected and resolved (रुमैसा collided with existing entries for Romaisa/Rumaisa; corrected to strict interdental transliteration रुमैथा), achieving 100% collision-free persistence:
+
+Build and verify:
+
+```bash
+python3 upgrading/scripts/add_demand_names.py --manifest upgrading/name_batches/demand_2026-10-b4.json            # dry-run collision audit
+python3 upgrading/scripts/add_demand_names.py --manifest upgrading/name_batches/demand_2026-10-b4.json --write    # add after checks pass
+python3 upgrading/scripts/add_demand_names.py --manifest upgrading/name_batches/demand_2026-10-b4.json --check    # verify persisted records
+```
+
+| Name | Script | Status / Historical Referent | Primary Sourced Basis |
+| --- | --- | --- | --- |
+| Qatadah | قَتَادَة | Badri Ansari hero whose eye was healed at Uhud | Dalā'il al-Nubuwwah by al-Bayhaqi; Al-Isabah #7076 |
+| Tamadur | تُمَاضِر | Female poetess al-Khansa; mother of martyrs at Qadisiyyah | Al-Isabah #11005; Al-Isti'ab #3287 |
+| Rumaytha | رُمَيْثَة | Ansari Sahabiyyah who narrated the Seal of Prophethood | Jami' at-Tirmidhi 3644; Al-Isabah #11200 |
+| Muadhah | مُعَاذَة | Senior female hadith scholar & student of Aisha | Sahih al-Bukhari 321; Siyar A'lam al-Nubala Vol. 4 |
+| Namariq | نَمَارِق | Cushions arrayed for the righteous in Paradise | Directly attested in Qur'an 88:15; Tafsir Ibn Kathir |
+| Jandab | جُنْدَب | Personal name of Abu Dharr al-Ghifari (most truthful) | Jami' at-Tirmidhi 3801; Al-Isabah #1162 |
+| Muayqib | مُعَيْقِيب | Keeper of the Prophet's signet ring & Caliphate treasurer | Sahih al-Bukhari 5866; Al-Isabah #8327 |
+| Salit | سَلِيط | Badri pioneer & diplomatic ambassador to Yamama | Al-Isabah #3244; Al-Isti'ab #1015 |
+| Hubab | حُبَاب | Badri strategist who gave tactical counsel (Dhu al-Ra'y) | Al-Isabah #1579; Al-Isti'ab #471 |
+| Suwaybit | سُوَيْبِط | Early Abyssinian migrant & veteran of Badr | Sunan Abi Dawud 4998; Al-Isabah #3629 |
+
+

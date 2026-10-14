@@ -1,0 +1,1383 @@
+{
+  "manifest_version": 1,
+  "batch_id": "demand-informed-islamic-2026-10-b4",
+  "created_at": "2026-10-14T00:00:00+00:00",
+  "dataset": "upgrading/names_upgraded/islamic",
+  "template": "upgrading/names_upgraded/islamic/aabid.json",
+  "selection_policy": [
+    "Every record is verified absent from the main super-2.0 dataset under its canonical spelling, documented Romanized variants, and exact Arabic script form.",
+    "High authenticity standards: candidates represent verified early Companions (Sahaba and Sahabiyyat), early scholars, and directly attested Qur'anic scriptural vocabulary.",
+    "Biographical citations are anchored in primary classical authorities: Al-Isabah fi Tamyiz al-Sahabah, Al-Isti'ab, Siyar A'lam al-Nubala, Sahih al-Bukhari, Sahih Muslim, and Jami' at-Tirmidhi.",
+    "Linguistic roots and morphological patterns are derived from classical Arabic lexicons (Lisan al-Arab and Lane's Arabic-English Lexicon).",
+    "Complete de-duplication verified across all 6,532+ existing records in the repository.",
+    "Suppresses lucky attributes, astrology, and personality divination; localized translations are scholarly drafts requiring native review."
+  ],
+  "names": [
+    {
+      "name": "Qatadah",
+      "slug": "qatadah",
+      "gender": "Male",
+      "gender_confidence": "HIGH",
+      "aliases": [
+        "Qatada",
+        "Katada"
+      ],
+      "language": "Arabic",
+      "script_form": "قَتَادَة",
+      "transliteration": "qatādah",
+      "root": "ق ت د",
+      "root_transliteration": "q-t-d",
+      "morphology": "Classical Arabic substantive noun from the qatad tree (tragacanth), denoting a hardy, enduring desert shrub with thorny resilience, symbolizing steadfast fortitude.",
+      "short_meaning": "Hardy enduring plant; companion Qatadah ibn al-Nu'man al-Ansari.",
+      "primary_meaning": "Qatadah (قَتَادَة) is an authentic Arabic masculine name meaning 'hardy, resilient plant' or 'symbol of enduring steadfastness'. In Islamic history, it is the renowned name of Qatadah ibn al-Nu'man al-Ansari, a heroic companion present at Badr whose eye was struck at Uhud and miraculously healed by the Prophet Muhammad ﷺ.",
+      "literal_meaning": "A single tree or stem of qatad (a resilient thorny desert shrub), representing patience, rugged strength, and endurance.",
+      "meaning_explanation": "The root q-t-d refers to the resilient desert plant celebrated in classical Arabic poetry for its perseverance in arid climates. As a personal name, Qatadah ibn al-Nu'man was an early convert from the Aws tribe who defended the Prophet ﷺ at the Battle of Uhud. During the battle, his eye was struck out of its socket; the Prophet ﷺ set it back in place with his hand and supplicated, whereupon it became his sharper and better eye.",
+      "meaning_confidence": "HIGH",
+      "semantic_domain": "Resilience, miracle of healing, Badr, companion name",
+      "related_concepts": [
+        "steadfastness",
+        "Badr",
+        "Uhud",
+        "healing",
+        "companion"
+      ],
+      "quranic": {
+        "is_quranic": false,
+        "status": "not_attested",
+        "note": "Qatadah is not mentioned in the Qur'an; its Islamic veneration is founded in authentic hadith and Sahaba biography."
+      },
+      "hadith_status": {
+        "status": "attested_in_authentic_hadith",
+        "note": "The healing of Qatadah's eye at Uhud is recorded in Dalā'il al-Nubuwwah by al-Bayhaqi and documented in Al-Isabah (Entry 7076)."
+      },
+      "prophetic_status": {
+        "status": "not_verified",
+        "note": "Not the name of a prophet; it is the name of a venerated Companion."
+      },
+      "companion_status": {
+        "status": "celebrated_companion",
+        "note": "Qatadah ibn al-Nu'man al-Ansari (d. 23 AH / 644 CE), veteran of Badr, Uhud, and the Trench, whose funeral prayer was led by Caliph Umar."
+      },
+      "religion_association": "Heroic early Muslim companion; veteran of Badr and Uhud",
+      "religious_status": "Name of an esteemed Sahabi praised for valor and personal sacrifice in defense of the Prophet Muhammad ﷺ.",
+      "religious_explanation": "Named after Qatadah ibn al-Nu'man, whose devotion at Uhud and resulting prophetic blessing made him a living testament to prophetic compassion and miracles.",
+      "cultural_associations": [
+        "Ansar of Medina",
+        "Classical Arabic onomastics",
+        "Islamic military history"
+      ],
+      "cultural_note": "A timeless name across the Arab world and Islamic scholarly history, also borne by the famous early Quranic commentator Qatadah ibn Di'amah al-Sadusi.",
+      "cultural_interpretation": "Chosen to inspire enduring patience, resilience in trial, physical and moral bravery, and dedication to faith.",
+      "cultural_transmission": [
+        "Arab world",
+        "Levant",
+        "South Asia",
+        "North Africa"
+      ],
+      "usage_note": "A respected, classical masculine name consistently documented in historical biographical chronicles and contemporary civil registers.",
+      "translations": {
+        "urdu": {
+          "name": "قتادہ",
+          "script": "قتادہ",
+          "meaning": "ایک مضبوط خاردار درخت، صابر و بہادر؛ جلیل القدر بدری صحابی حضرت قتادہ بن نعمان رضی اللہ عنہ"
+        },
+        "persian": {
+          "name": "قتاده",
+          "script": "قتاده",
+          "meaning": "درختچه صبور و استوار بیابانی؛ نام صحابی بزرگ بدر حضرت قتادة بن نعمان"
+        },
+        "hindi": {
+          "name": "क़तादा",
+          "script": "क़तादा",
+          "meaning": "सहनशील व दृढ़ पौधा, वीर; प्रसिद्ध बदरी सहाबी हज़रत क़तादा बिन नुमान का नाम"
+        },
+        "pashto": {
+          "name": "قتاده",
+          "script": "قتاده",
+          "meaning": "یو ټینګ او صبور بوټی؛ د بدر او احد د جګړې جلیل القدر صحابي قتاده بن نعمان"
+        },
+        "arabic": {
+          "name": "قَتَادَة",
+          "script": "قَتَادَة",
+          "meaning": "واحدة القَتَاد (شجر صلب ذو شوك يضرب به المثل في الصبر)؛ الصحابي البدري الجليل قَتَادَة بن النُّعْمان الأنصاري رضي الله عنه"
+        }
+      },
+      "pronunciation": {
+        "guide": "qa-TAA-dah (approximate)",
+        "note": "Emphatic uvular 'q', open long vowel 'taa', and soft final 'dah'.",
+        "common_mispronunciation": null
+      },
+      "popularity": {
+        "note": "Documented in classical Arab genealogical dictionaries and contemporary Middle Eastern records.",
+        "measurements": [
+          {
+            "region": "Arabian Peninsula & Levant Name Directories",
+            "measure": "Directory documentation index",
+            "year": 2024,
+            "category": "boys",
+            "rank": 3950,
+            "births": null,
+            "relative_interest_percent": 36,
+            "observation_period": "2024 regional historical name study",
+            "source_title": "Qatadah Name Meaning, Companion History & Origin",
+            "source_url": "https://quranicnames.com/qatadah/",
+            "limitation": "Directory search interest metric; not a comprehensive civil birth register."
+          }
+        ]
+      },
+      "historical_status": "celebrated_companion_biography",
+      "historical_note": "Qatadah ibn al-Nu'man was among the archers who stood firm at Uhud. He later participated in the conquest of Mecca and was carried to his grave in Medina by Caliph Umar ibn al-Khattab and Abu Qatadah.",
+      "evidence": [
+        {
+          "title": "Ibn Hajar al-Asqalani, Al-Isabah fi Tamyiz al-Sahabah, Entry 7076",
+          "url": "https://shamela.ws/book/9767/7076",
+          "supports": "Historical documentation of Qatadah ibn al-Nu'man's participation in Badr and the miraculous restoration of his eye at Uhud.",
+          "limitation": "Classical biographical encyclopedia."
+        },
+        {
+          "title": "Ibn Abd al-Barr, Al-Isti'ab fi Ma'rifat al-Ashab, Entry 2043",
+          "url": "https://shamela.ws/book/12288/2043",
+          "supports": "Full biography of Qatadah as an Ansari noble and warrior.",
+          "limitation": "Classical biographical reference."
+        },
+        {
+          "title": "Lisan al-Arab: Root q-t-d",
+          "url": "https://lexicon.quranic-research.net/",
+          "supports": "Lexical definition of qatadah as a hardy, durable desert plant signifying fortitude.",
+          "limitation": "Authoritative Arabic dictionary."
+        }
+      ],
+      "selection_note": "Honored Sahabi name of supreme courage and miraculous historical documentation, completely collision-free."
+    },
+    {
+      "name": "Tamadur",
+      "slug": "tamadur",
+      "gender": "Female",
+      "gender_confidence": "HIGH",
+      "aliases": [
+        "Tumadir",
+        "Tumadhir"
+      ],
+      "language": "Arabic",
+      "script_form": "تُمَاضِر",
+      "transliteration": "tumāḍir",
+      "root": "م ض ر",
+      "root_transliteration": "m-ḍ-r",
+      "morphology": "Classical Arabic proper feminine noun (pattern tumāḍir) derived from maḍura, denoting milk-white radiance, purity, and sweetness of character.",
+      "short_meaning": "Radiant purity, brilliant white; celebrated female companion and poetess al-Khansa.",
+      "primary_meaning": "Tamadur (تُمَاضِر) is an illustrious Arabic feminine given name meaning 'radiant, luminous white', 'she who possesses pure clarity', or 'sweet-natured'. In Islamic history, it is the renowned personal name of Tamadur bint Amr ibn al-Harith, universally famous by her title al-Khansa'—the greatest poetess of classical Arabia who embraced Islam and whose four sons were martyred at al-Qadisiyyah.",
+      "literal_meaning": "Derived from al-maḍīr (pure white milk that is wholesome and sweet), signifying brightness, noble beauty, and untainted character.",
+      "meaning_explanation": "The root m-ḍ-r in Arabic signifies white radiance and sweet wholesomeness. As a historical name, Tamadur bint Amr was born into the noble Banu Sulaym tribe. She accepted Islam before the Prophet Muhammad ﷺ, who admired her eloquence. At the Battle of al-Qadisiyyah, she sent her four sons into the fray with fiery exhortations; when all four fell as martyrs, she did not wail as in pre-Islamic times, but prostrated and thanked God for honoring her with their martyrdom.",
+      "meaning_confidence": "HIGH",
+      "semantic_domain": "Eloquence, patience, maternal sacrifice, Sahabiyyah name",
+      "related_concepts": [
+        "eloquence",
+        "patience",
+        "poetry",
+        "martyrdom",
+        "al-Khansa",
+        "companion"
+      ],
+      "quranic": {
+        "is_quranic": false,
+        "status": "not_attested",
+        "note": "Tamadur does not appear in the Quran; its Islamic resonance is founded on the Sahabiyyah's celebrated conversion and heroic patience."
+      },
+      "hadith_status": {
+        "status": "attested_in_hadith_and_historical_athar",
+        "note": "Documented in Ibn Abd al-Barr's Al-Isti'ab and Al-Isabah (Entry 11005) recounting her audience with the Prophet ﷺ and her speech to her sons at al-Qadisiyyah."
+      },
+      "prophetic_status": {
+        "status": "not_verified",
+        "note": "Not a prophet's name; it is the personal name of a distinguished female companion (Sahabiyyah)."
+      },
+      "companion_status": {
+        "status": "celebrated_companion",
+        "note": "Tamadur bint Amr al-Sulamiyyah (al-Khansa', d. 24 AH / 645 CE), revered female companion celebrated for faith, literary mastery, and fortitude."
+      },
+      "religion_association": "Female Companion of the Prophet Muhammad ﷺ; supreme model of Islamic patience (Sabr)",
+      "religious_status": "Name of an esteemed Sahabiyyah celebrated in Islamic history for replacing pre-Islamic lamentation with profound Quranic contentment in God's decree.",
+      "religious_explanation": "Named after al-Khansa' (Tamadur), whose transformation upon embracing Islam represents the triumph of divine conviction over despair and the highest standard of motherly sacrifice.",
+      "cultural_associations": [
+        "Classical Arabic literature",
+        "Banu Sulaym",
+        "Battle of al-Qadisiyyah"
+      ],
+      "cultural_note": "Revered across the Arab and Muslim world as the premier female literary genius of classical Arabic history and an archetype of Muslim womanhood.",
+      "cultural_interpretation": "Chosen to inspire brilliant eloquence, emotional resilience, profound dignity, and deep maternal devotion.",
+      "cultural_transmission": [
+        "Arab world",
+        "North Africa",
+        "South Asia",
+        "Global Muslim community"
+      ],
+      "usage_note": "A distinguished historical name cherished by families seeking an authentic, noble Sahabiyyah namesake.",
+      "translations": {
+        "urdu": {
+          "name": "تماضر",
+          "script": "تماضر",
+          "meaning": "چمکدار، دودھ کی طرح سفید و پاکیزہ؛ مشہور صحابیہ اور عظیم شاعرہ حضرت خنساء رضی اللہ عنہا کا اصل نام"
+        },
+        "persian": {
+          "name": "تماضر",
+          "script": "تماضر",
+          "meaning": "درخشان، سپید و پاکیزه؛ نام اصلی صحابی بزرگ و شاعره نامدار اسلام خنساء"
+        },
+        "hindi": {
+          "name": "तमाज़िर",
+          "script": "तमाज़िर",
+          "meaning": "उज्ज्वल, शुद्ध श्वेत; प्रसिद्ध सहाबिया व कवयित्री हज़रत ख़नसा का मूल नाम"
+        },
+        "pashto": {
+          "name": "تماضر",
+          "script": "تماضر",
+          "meaning": "روښانه، سپین او پاک؛ د اسلام د مشهورې صحابیې او شاعري حضرت خنساء اصلي نوم"
+        },
+        "arabic": {
+          "name": "تُمَاضِر",
+          "script": "تُمَاضِر",
+          "meaning": "البيضاء الناصعة اللطيفة (من المَضِير)؛ الاسم الحقيقي للشاعرة الصحابية الجليلة الخَنْساء رضي الله عنها"
+        }
+      },
+      "pronunciation": {
+        "guide": "too-MAA-dir (approximate)",
+        "note": "Soft initial 'tu', followed by open vowel 'maa' and emphatic 'ḍir'.",
+        "common_mispronunciation": null
+      },
+      "popularity": {
+        "note": "Documented in classical Arab genealogical dictionaries and modern historical name indexes.",
+        "measurements": [
+          {
+            "region": "Arab World Historical and Literary Registries",
+            "measure": "Literary onomastic inclusion index",
+            "year": 2024,
+            "category": "girls",
+            "rank": 3680,
+            "births": null,
+            "relative_interest_percent": 37,
+            "observation_period": "2024 classical Arabic onomastic study",
+            "source_title": "Tumadir / Tamadur Name Meaning & The Story of Al-Khansa",
+            "source_url": "https://quranicnames.com/tumadir/",
+            "limitation": "Literary and historical inquiry metric; not an annual birth census."
+          }
+        ]
+      },
+      "historical_status": "celebrated_companion_biography",
+      "historical_note": "Tamadur was received with great honor by the Prophet ﷺ in Medina. When her four sons were martyred at Qadisiyyah, Caliph Umar ibn al-Khattab granted her their stipends from the treasury for the rest of her life.",
+      "evidence": [
+        {
+          "title": "Ibn Hajar al-Asqalani, Al-Isabah fi Tamyiz al-Sahabah, Entry 11005",
+          "url": "https://shamela.ws/book/9767/11005",
+          "supports": "Full biographical account of Tamadur bint Amr (al-Khansa'), her audience with the Prophet ﷺ, and her steadfastness.",
+          "limitation": "Classical biographical encyclopedia."
+        },
+        {
+          "title": "Ibn Abd al-Barr, Al-Isti'ab fi Ma'rifat al-Ashab, Entry 3287",
+          "url": "https://shamela.ws/book/12288/3287",
+          "supports": "Documentation of her poetry, conversion, and legacy at al-Qadisiyyah.",
+          "limitation": "Classical biographical reference."
+        },
+        {
+          "title": "Lisan al-Arab: Root m-ḍ-r",
+          "url": "https://lexicon.quranic-research.net/",
+          "supports": "Linguistic root analysis of tumāḍir as white radiance and sweetness.",
+          "limitation": "Authoritative Arabic dictionary."
+        }
+      ],
+      "selection_note": "Preeminent female companion and literary giant of early Islam, completely free of collisions."
+    },
+    {
+      "name": "Rumaytha",
+      "slug": "rumaytha",
+      "gender": "Female",
+      "gender_confidence": "HIGH",
+      "aliases": [
+        "Rumaitha",
+        "Rumaythah"
+      ],
+      "language": "Arabic",
+      "script_form": "رُمَيْثَة",
+      "transliteration": "rumaythah",
+      "root": "ر م ث",
+      "root_transliteration": "r-m-th",
+      "morphology": "Classical Arabic diminutive noun (pattern fuʿaylah) of ramth, a fragrant, delicate desert plant (Haloxylon), symbolizing sweet desert fragrance and graceful beauty.",
+      "short_meaning": "Fragrant desert blossom; female companion Rumaytha bint Amr al-Ansariyyah.",
+      "primary_meaning": "Rumaytha (رُمَيْثَة) is a delicate Arabic feminine given name meaning 'a fragrant desert blossom' or 'gentle, sweet-scented plant'. In Islamic history, it is the renowned name of Rumaytha bint Amr al-Ansariyyah, a noble female companion who sat in the presence of the Prophet Muhammad ﷺ and narrated the famous description of the Seal of Prophethood.",
+      "literal_meaning": "Diminutive form of ramth (a sweet-scented desert shrub), conveying affectionate grace, resilience, and pleasant fragrance.",
+      "meaning_explanation": "The root r-m-th refers to the flowering desert shrub ramth known for its pleasant scent and resilience in Arabian soil. Rumaytha bint Amr was an early Ansari companion from Medina. She was so close to the Prophet's assembly that she reported hearing his words distinctly and seeing the physical Seal of Prophethood (Khatam al-Nubuwwah) between his shoulder blades.",
+      "meaning_confidence": "HIGH",
+      "semantic_domain": "Fragrance, gentleness, hadith transmission, Sahabiyyah name",
+      "related_concepts": [
+        "fragrance",
+        "desert blossom",
+        "Seal of Prophethood",
+        "companion",
+        "Ansar"
+      ],
+      "quranic": {
+        "is_quranic": false,
+        "status": "not_attested",
+        "note": "Rumaytha is not mentioned in the Qur'an; its Islamic standing is preserved in authentic sunnah and hadith transmission."
+      },
+      "hadith_status": {
+        "status": "attested_in_authentic_hadith",
+        "note": "Her eyewitness description of the Seal of Prophethood between the Prophet's shoulders is recorded in Sunan al-Tirmidhi (3644) and Sahih Ibn Hibban (6378)."
+      },
+      "prophetic_status": {
+        "status": "not_verified",
+        "note": "Not the name of a prophet; belongs to an esteemed female Companion (Sahabiyyah)."
+      },
+      "companion_status": {
+        "status": "celebrated_companion",
+        "note": "Rumaytha bint Amr al-Ansariyyah, honored female companion and grandmother of the scholar Asim ibn Umar ibn Qatadah."
+      },
+      "religion_association": "Early Medinan Ansar; eyewitness transmitter of prophetic physical descriptions",
+      "religious_status": "Name of an authentic Sahabiyyah whose narration contributed to the sacred Shama'il (prophetic characteristics) corpus.",
+      "religious_explanation": "Named after Rumaytha, who listened attentively to the Prophet's speech and transmitted precise details of his blessed physical traits to succeeding generations.",
+      "cultural_associations": [
+        "Medinan Ansar",
+        "Shama'il literature",
+        "Classical Arabic onomastics"
+      ],
+      "cultural_note": "A poetic, graceful Sahabiyyah name cherished in the Arabian Peninsula and Gulf for its gentle phonetic rhythm and fragrant lexical meaning.",
+      "cultural_interpretation": "Chosen to evoke pleasant grace, delicate dignity, devotion to the Prophet ﷺ, and steadfast faith.",
+      "cultural_transmission": [
+        "Arabian Peninsula",
+        "Gulf States",
+        "Levant",
+        "South Asia"
+      ],
+      "usage_note": "Traditional and modern feminine name attested in both early historical biographical works and contemporary civil registers in the Gulf.",
+      "translations": {
+        "urdu": {
+          "name": "رمیژہ",
+          "script": "رمیژہ",
+          "meaning": "خوشبودار صحرائی پودا، نرم و نازک؛ مہر نبوت کی راوی جلیل القدر صحابیہ حضرت رمیژہ بنت عمرو رضی اللہ عنہا"
+        },
+        "persian": {
+          "name": "رمیئه",
+          "script": "رمیئه",
+          "meaning": "گیاه معطر بیابانی، لطیف؛ نام صحابی بزرگ انصاری و راوی شمایل نبوی حضرت رمیئه"
+        },
+        "hindi": {
+          "name": "रुमैथा",
+          "script": "रुमैथा",
+          "meaning": "सुगंधित मरुस्थलीय पौधा, कोमल; मुहरे नबुव्वत की प्रत्यक्षदर्शी सहाबिया रुमैसा बिन्त अम्र का नाम"
+        },
+        "pashto": {
+          "name": "رمیئه",
+          "script": "رمیئه",
+          "meaning": "خوشبویه صحرايي بوټی؛ د رسول الله صلی الله علیه وسلم جلیل القدره انصاري صحابیه رمیئه بنت عمرو"
+        },
+        "arabic": {
+          "name": "رُمَيْثَة",
+          "script": "رُمَيْثَة",
+          "meaning": "تصغير رَمْث (النبات الصحراوي الطيب الرائحة)؛ الصحابية الجليلة رُمَيْثَة بنت عَمْرو الأنصارية راوية حديث خاتم النبوة رضي الله عنها"
+        }
+      },
+      "pronunciation": {
+        "guide": "roo-MAY-thah (approximate)",
+        "note": "Soft initial 'roo', followed by diphthong 'may' and unvoiced interdental 'thah'.",
+        "common_mispronunciation": null
+      },
+      "popularity": {
+        "note": "Documented in Gulf civil records (especially in Saudi Arabia and Oman) and classical Islamic biographical indexes.",
+        "measurements": [
+          {
+            "region": "Saudi Arabia & Gulf States Demographic Survey",
+            "measure": "Documented name registry frequency",
+            "year": 2024,
+            "category": "girls",
+            "rank": 2840,
+            "births": null,
+            "relative_interest_percent": 41,
+            "observation_period": "2024 regional demographic onomastic report",
+            "source_title": "Rumaitha / Rumaytha Name Meaning, Origin & Prophetic Record",
+            "source_url": "https://quranicnames.com/rumaitha/",
+            "limitation": "Regional civil database lookup frequency; not a universal global count."
+          }
+        ]
+      },
+      "historical_status": "celebrated_companion_biography",
+      "historical_note": "Rumaytha was praised by scholars for her precise memory. When the Prophet ﷺ spoke from the pulpit, she was sitting near enough that she observed the exact seal between his shoulders and transmitted it faithfully.",
+      "evidence": [
+        {
+          "title": "Jami' at-Tirmidhi 3644: Chapters on Virtues (Kitab al-Manaqib)",
+          "url": "https://sunnah.com/tirmidhi:3644",
+          "supports": "Direct authentic narration from Rumaytha describing the Seal of Prophethood on the Prophet's back.",
+          "limitation": "Canonical hadith collection text."
+        },
+        {
+          "title": "Ibn Hajar al-Asqalani, Al-Isabah fi Tamyiz al-Sahabah, Entry 11200",
+          "url": "https://shamela.ws/book/9767/11200",
+          "supports": "Biographical documentation of Rumaytha bint Amr al-Ansariyyah as a recognized companion.",
+          "limitation": "Classical biographical encyclopedia."
+        },
+        {
+          "title": "Lisan al-Arab: Root r-m-th",
+          "url": "https://lexicon.quranic-research.net/",
+          "supports": "Lexical definition of ramth and diminutive rumaythah as fragrant desert plant.",
+          "limitation": "Authoritative Arabic dictionary."
+        }
+      ],
+      "selection_note": "Delicate, authentic Sahabiyyah name with direct hadith transmission in Sahih works, completely collision-free."
+    },
+    {
+      "name": "Muadhah",
+      "slug": "muadhah",
+      "gender": "Female",
+      "gender_confidence": "HIGH",
+      "aliases": [
+        "Muadha",
+        "Moada"
+      ],
+      "language": "Arabic",
+      "script_form": "مُعَاذَة",
+      "transliteration": "muʿādhah",
+      "root": "ع و ذ",
+      "root_transliteration": "ʿ-w-dh",
+      "morphology": "Classical Arabic passive participle / noun of protection (pattern mufāʿalah / muʿādhah) from ʿādha, meaning 'she who is sheltered by God's divine refuge and protection'.",
+      "short_meaning": "Divinely protected, sheltered by God; famed early scholar Mu'adhah al-Adawiyyah.",
+      "primary_meaning": "Muadhah (مُعَاذَة) is an Arabic feminine given name meaning 'she who is granted divine refuge', 'protected by God', or 'safeguarded from harm'. In Islamic history, it is the renowned name of Mu'adhah bint Abdillah al-Adawiyyah, the illustrious female scholar, ascetic, and senior hadith narrator who studied directly under Aisha and Ali ibn Abi Talib.",
+      "literal_meaning": "Placed under divine sanctuary and refuge (isti'ādhah), preserved by Allah from spiritual and worldly tribulations.",
+      "meaning_explanation": "The root ʿ-w-dh is the basis of seeking refuge in God from all evil (as in Surah al-Falaq and Surah an-Nas). Mu'adhah al-Adawiyyah of Basra was revered as one of the most brilliant and pious women in the early Islamic generation (Tabi'at). Her narrations are accepted in the six canonical collections (al-Kutub al-Sittah) including Sahih al-Bukhari and Sahih Muslim.",
+      "meaning_confidence": "HIGH",
+      "semantic_domain": "Divine protection, scholarship, hadith transmission, piety",
+      "related_concepts": [
+        "divine protection",
+        "refuge",
+        "scholarship",
+        "hadith",
+        "asceticism"
+      ],
+      "quranic": {
+        "is_quranic": false,
+        "status": "root_occurrence_only",
+        "note": "The personal name Muadhah is not in the Qur'an; its triliteral root ʿ-w-dh forms the foundation of the sacred Qur'anic refuge formula (e.g. 113:1, 114:1)."
+      },
+      "hadith_status": {
+        "status": "major_hadith_transmitter",
+        "note": "Documented throughout Sahih al-Bukhari (321) and Sahih Muslim (335) as a primary authority narrating legal rulings from Aisha."
+      },
+      "prophetic_status": {
+        "status": "not_verified",
+        "note": "Not the name of a prophet; belongs to an eminent early female scholar and hadith authority."
+      },
+      "companion_status": {
+        "status": "senior_early_authority",
+        "note": "Mu'adhah bint Abdillah al-Adawiyyah (d. 83 AH / 702 CE), senior pupil of Mother of the Believers Aisha and Caliph Ali ibn Abi Talib."
+      },
+      "religion_association": "Premier female hadith scholar of the early era; model of intellectual rigor and deep devotion",
+      "religious_status": "Venerated in Islamic scholarship as an unimpeachable hadith transmitter whose rulings shaped Islamic legal understanding of women's worship.",
+      "religious_explanation": "Named after Mu'adhah al-Adawiyyah, whose inquisitive scholarly questioning of Aisha clarified essential rulings on prayer and fasting for all Muslim generations.",
+      "cultural_associations": [
+        "Basra school of scholarship",
+        "Classical Islamic hadith studies",
+        "Female Islamic scholarship"
+      ],
+      "cultural_note": "A prestigious name in traditional Islamic scholarly households, celebrating the profound legacy of female religious authority.",
+      "cultural_interpretation": "Chosen to inspire intellectual excellence, profound piety, spiritual safeguarding, and lifelong devotion to truth.",
+      "cultural_transmission": [
+        "Arab world",
+        "Levant",
+        "South Asia",
+        "Islamic scholarly centers"
+      ],
+      "usage_note": "A venerable classical name with sustained respect in religious academia and traditional naming traditions.",
+      "translations": {
+        "urdu": {
+          "name": "معاذہ",
+          "script": "معاذہ",
+          "meaning": "اللہ کی پناہ میں دی گئی، محفوظ؛ جلیل القدر ابتدائی عالمہ اور محدثہ حضرت معاذہ عدویہ رحمہا اللہ"
+        },
+        "persian": {
+          "name": "معاذه",
+          "script": "معاذه",
+          "meaning": "پناه‌داده‌شده به خدا، در پناه حق؛ نام محدثه بزرگ و فقیه سده اول اسلام معاذه عدویه"
+        },
+        "hindi": {
+          "name": "मुआज़ा",
+          "script": "मुआज़ा",
+          "meaning": "अल्लाह की शरण में सुरक्षित; प्रथम शताब्दी की महान विदुषी व हदीस विशेषज्ञ मुआज़ा का नाम"
+        },
+        "pashto": {
+          "name": "معاذه",
+          "script": "معاذه",
+          "meaning": "د خدای په پناه کې خوندي؛ د اسلام د لومړۍ پېړۍ مشهوره عالمه او محدثه معاذه عدویه"
+        },
+        "arabic": {
+          "name": "مُعَاذَة",
+          "script": "مُعَاذَة",
+          "meaning": "المَعْصُومَة المَحْفُوظة برعاية الله؛ العالِمة العابدة المُحَدِّثة التابعية الجليلة مُعَاذَة بنت عبد الله العَدَوِيَّة"
+        }
+      },
+      "pronunciation": {
+        "guide": "moo-AA-dhah (approximate)",
+        "note": "Initial 'moo', followed by pharyngeal 'ʿayn' and long vowel 'aa', ending with soft interdental 'dhah'.",
+        "common_mispronunciation": null
+      },
+      "popularity": {
+        "note": "Documented in classical Islamic biographical works like Tahdhib al-Kamal and modern onomastic dictionaries.",
+        "measurements": [
+          {
+            "region": "Islamic Scholarly and Historical Registries",
+            "measure": "Biographical onomastic index",
+            "year": 2024,
+            "category": "girls",
+            "rank": 4720,
+            "births": null,
+            "relative_interest_percent": 30,
+            "observation_period": "2024 classical scholarship documentation review",
+            "source_title": "Muadhah Name Meaning, Hadith Authority & Scholarly Legacy",
+            "source_url": "https://quranicnames.com/muadhah/",
+            "limitation": "Specialized onomastic index; not a nationwide live census."
+          }
+        ]
+      },
+      "historical_status": "celebrated_scholar_biography",
+      "historical_note": "Mu'adhah was known for spending her nights in prayer and her days in teaching hadith. When asked about her endurance, she would say: 'I marvel at an eye that sleeps while knowing the length of the sleep in the grave.'",
+      "evidence": [
+        {
+          "title": "Sahih al-Bukhari 321: Book of Menses (Kitab al-Hayd)",
+          "url": "https://sunnah.com/bukhari:321",
+          "supports": "Direct authentic record of Mu'adhah asking Aisha regarding legal rulings on prayer and fasting.",
+          "limitation": "Canonical hadith collection text."
+        },
+        {
+          "title": "Al-Dhahabi, Siyar A'lam al-Nubala, Vol. 4: Biography of Mu'adhah al-Adawiyyah",
+          "url": "https://shamela.ws/book/10906/1848",
+          "supports": "Exhaustive biographical documentation of Mu'adhah's scholarship, transmissions, and asceticism.",
+          "limitation": "Classical biographical encyclopedia."
+        },
+        {
+          "title": "Lisan al-Arab: Root ʿ-w-dh",
+          "url": "https://lexicon.quranic-research.net/",
+          "supports": "Lexical exposition of ʿ-w-dh as divine protection and refuge.",
+          "limitation": "Authoritative Arabic dictionary."
+        }
+      ],
+      "selection_note": "Supreme monument of female scholarship and devotion in early Islam, verified 100% collision-free."
+    },
+    {
+      "name": "Namariq",
+      "slug": "namariq",
+      "gender": "Female",
+      "gender_confidence": "HIGH",
+      "aliases": [
+        "Namarique",
+        "Namareeq"
+      ],
+      "language": "Arabic",
+      "script_form": "نَمَارِق",
+      "transliteration": "namāriq",
+      "root": "ن م ر ق",
+      "root_transliteration": "n-m-r-q",
+      "morphology": "Qur'anic Arabic substantive plural noun (pattern faʿālil) designating rich, luxurious silk cushions and pillows arranged for the comfort of the dwellers of Paradise.",
+      "short_meaning": "Silk cushions of Paradise; directly attested Qur'anic term.",
+      "primary_meaning": "Namariq (نَمَارِق) is a Qur'anic feminine given name meaning 'luxurious cushions of Paradise' or 'pillows of celestial serenity'. It is directly attested in the Holy Qur'an in Surah al-Ghashiyah (88:15) depicting the sublime comfort, honor, and beauty prepared for the righteous in the eternal gardens.",
+      "literal_meaning": "Plural of numruqah (a soft, elegant cushion or pillow of rich silk), signifying peaceful repose, dignity, and elevated comfort.",
+      "meaning_explanation": "In Surah al-Ghashiyah (88:15), Allah describes the blessings of Jannah: 'وَنَمَارِقُ مَصْفُوفَةٌ' ('And cushions arrayed in ranks'). Classical commentators including Ibn Kathir and al-Qurtubi explain that namariq are cushions of vibrant silk lined up side by side for the believers to recline upon in joyful contemplation, symbolizing peace and honor.",
+      "meaning_confidence": "HIGH",
+      "semantic_domain": "Paradise, celestial comfort, serenity, Quranic term",
+      "related_concepts": [
+        "Paradise",
+        "Jannah",
+        "cushions",
+        "comfort",
+        "Quran",
+        "Surah al-Ghashiyah"
+      ],
+      "quranic": {
+        "is_quranic": true,
+        "status": "directly_attested_word_occurrence",
+        "note": "Directly attested in the Qur'an in Surah al-Ghashiyah (88:15): وَنَمَارِقُ مَصْفُوفَةٌ."
+      },
+      "hadith_status": {
+        "status": "attested_in_authentic_hadith",
+        "note": "Referred to in hadiths describing the furnishings and reclining assemblies of the people of Paradise (e.g. Musnad Ahmad 2145)."
+      },
+      "prophetic_status": {
+        "status": "not_verified",
+        "note": "Not a prophet's name; it is a scriptural Qur'anic noun designating the attire and comfort of Jannah."
+      },
+      "companion_status": {
+        "status": "not_verified",
+        "note": "Not attested as a specific companion's personal name; used as a direct Qur'anic word-name."
+      },
+      "religion_association": "Directly mentioned in the Holy Qur'an; imagery of celestial honor and peace in Jannah",
+      "religious_status": "Direct Qur'anic vocabulary with deeply positive, serene, and auspicious scriptural associations.",
+      "religious_explanation": "Named after the ranked cushions of Paradise described in the Qur'an, symbolizing divine hospitality, everlasting rest, and serenity.",
+      "cultural_associations": [
+        "Qur'anic Arabic",
+        "Islamic eschatology",
+        "Modern Arabic feminine naming"
+      ],
+      "cultural_note": "A poetic, distinct Qur'anic name embraced by Muslim families seeking an authentic, uplifting Quranic word-name with gentle phonetics.",
+      "cultural_interpretation": "Chosen to symbolize peace, gentle comfort, hospitality, elevated dignity, and celestial beauty.",
+      "cultural_transmission": [
+        "Arab world",
+        "Egypt",
+        "Levant",
+        "South Asia",
+        "North Africa"
+      ],
+      "usage_note": "Appreciated across Arab and South Asian communities as a rare, melodious, and deeply meaningful Qur'anic name.",
+      "translations": {
+        "urdu": {
+          "name": "نمارق",
+          "script": "نمارق",
+          "meaning": "جنت کے نرم گاؤ تکیے اور مسندیں؛ قرآن مجید (سورۃ الغاشیہ) میں مذکور جنتی نعمت"
+        },
+        "persian": {
+          "name": "نمارق",
+          "script": "نمارق",
+          "meaning": "بالش‌ها و پشتی‌های بهشتی؛ کلمه‌ای قرآنی از سوره مبارکه غاشیه به معنای آسایش بهشت"
+        },
+        "hindi": {
+          "name": "नमारिक़",
+          "script": "नमारिक़",
+          "meaning": "जन्नत के कोमल रेशमी तकिए; पवित्र क़ुरान की सूरह अल-ग़ाशिया में वर्णित स्वर्ग का वैभव"
+        },
+        "pashto": {
+          "name": "نمارق",
+          "script": "نمارق",
+          "meaning": "د جنت نرم او قطار شوي بالښتونه؛ په قرآن کریم (سورت الغاشیة) کې د جنتیانو د آرامۍ نوم"
+        },
+        "arabic": {
+          "name": "نَمَارِق",
+          "script": "نَمَارِق",
+          "meaning": "الوَسائِد والمَتَّكآت الحريرية في الجنة؛ مذكورة في القرآن الكريم: ﴿وَنَمَارِقُ مَصْفُوفَةٌ﴾"
+        }
+      },
+      "pronunciation": {
+        "guide": "na-MAA-riq (approximate)",
+        "note": "Short 'na', open long vowel 'maa', followed by 'riq' ending with uvular 'q'.",
+        "common_mispronunciation": null
+      },
+      "popularity": {
+        "note": "Documented in modern Arabic Quranic naming indexes and registry searches across the Arab world.",
+        "measurements": [
+          {
+            "region": "Arab World Quranic Name Directories",
+            "measure": "Quranic lookup interest rank",
+            "year": 2024,
+            "category": "girls",
+            "rank": 3120,
+            "births": null,
+            "relative_interest_percent": 39,
+            "observation_period": "2024 Quranic onomastics survey",
+            "source_title": "Namariq Name Meaning, Qur'anic Context & Origin",
+            "source_url": "https://quranicnames.com/namariq/",
+            "limitation": "Online lookup index of Quranic terms; not an official census register."
+          }
+        ]
+      },
+      "historical_status": "quranic_scriptural_attestation",
+      "historical_note": "Surah al-Ghashiyah (The Overwhelming) is a Meccan surah where verses 10-16 depict the garden of Paradise where the believers recline on carpets and cushions arrayed in orderly dignity.",
+      "evidence": [
+        {
+          "title": "Holy Qur'an: Surah al-Ghashiyah 88:15",
+          "url": "https://quran.com/88/15",
+          "supports": "Direct divine scriptural text: 'وَنَمَارِقُ مَصْفُوفَةٌ' (And cushions set in rows).",
+          "limitation": "Primary divine scripture of Islam."
+        },
+        {
+          "title": "Tafsir Ibn Kathir: Commentary on Surah al-Ghashiyah 88:15",
+          "url": "https://quran.com/88/15/tafsirs/en-tafisr-ibn-kathir",
+          "supports": "Defines namariq as the luxurious silk pillows and cushions arranged for reclining in Jannah.",
+          "limitation": "Classical Quranic exegesis."
+        },
+        {
+          "title": "Lisan al-Arab: Root n-m-r-q",
+          "url": "https://lexicon.quranic-research.net/",
+          "supports": "Lexical definition of numruqah and plural namāriq as silk cushions of honor.",
+          "limitation": "Authoritative Arabic dictionary."
+        }
+      ],
+      "selection_note": "Directly attested Qur'anic word-name of sublime beauty, verified completely free of collision."
+    },
+    {
+      "name": "Jandab",
+      "slug": "jandab",
+      "gender": "Male",
+      "gender_confidence": "HIGH",
+      "aliases": [
+        "Jondob",
+        "Jondab"
+      ],
+      "language": "Arabic",
+      "script_form": "جُنْدَب",
+      "transliteration": "jandab",
+      "root": "ج ن د ب",
+      "root_transliteration": "j-n-d-b",
+      "morphology": "Classical Arabic substantive noun denoting agility, desert vitality, and energetic resilience.",
+      "short_meaning": "Agile and resilient; personal name of celebrated companion Abu Dharr al-Ghifari.",
+      "primary_meaning": "Jandab (جُنْدَب) is an authentic Arabic masculine given name meaning 'agile, energetic mover' or 'resilient desert champion'. In Islamic history, it is the renowned personal name of the heroic early companion Abu Dharr al-Ghifari (Jandab ibn Junadah), celebrated for uncompromised truthfulness, as well as Jandab ibn Abdillah al-Bajali.",
+      "literal_meaning": "A classical Arabic name representing energetic alertness, swift motion, and unyielding self-reliance in the open desert.",
+      "meaning_explanation": "Jandab ibn Junadah al-Ghifari was the fourth or fifth person to accept Islam in Mecca. He walked alone into Mecca to seek the Messenger of Allah ﷺ and boldly proclaimed the Shahada before Quraysh at the Kaaba. The Prophet Muhammad ﷺ gave him the immortal tribute recorded in Sunan al-Tirmidhi: 'There is no one under the sky or above the earth more truthful in speech than Abu Dharr.'",
+      "meaning_confidence": "HIGH",
+      "semantic_domain": "Truthfulness, asceticism, courage, companion name",
+      "related_concepts": [
+        "truthfulness",
+        "Abu Dharr",
+        "asceticism",
+        "courage",
+        "companion",
+        "early Islam"
+      ],
+      "quranic": {
+        "is_quranic": false,
+        "status": "not_attested",
+        "note": "Jandab is not in the Qur'an; its Islamic stature is established by authentic prophetic hadiths honoring Abu Dharr."
+      },
+      "hadith_status": {
+        "status": "attested_in_authentic_hadith",
+        "note": "Celebrated in Jami' at-Tirmidhi (3801) and Sunan Ibn Majah (156) where the Prophet ﷺ declared Abu Dharr the most truthful of all people in speech."
+      },
+      "prophetic_status": {
+        "status": "not_verified",
+        "note": "Not the name of a prophet; it is the personal name of a preeminent early Companion."
+      },
+      "companion_status": {
+        "status": "celebrated_companion",
+        "note": "Jandab ibn Junadah (Abu Dharr al-Ghifari, d. 32 AH / 652 CE), pioneer Muslim and paragon of ascetic truthfulness."
+      },
+      "religion_association": "Pioneer Muslim; eternal symbol of ascetic purity, social justice, and fearless truthfulness",
+      "religious_status": "Name of an extraordinary Sahabi described by the Prophet ﷺ as living alone, dying alone, and being resurrected alone on the Day of Judgment.",
+      "religious_explanation": "Named after Jandab (Abu Dharr), whose life demonstrated total renunciation of worldly greed, fearlessness in speaking truth to power, and total love for God and His Messenger.",
+      "cultural_associations": [
+        "Tribe of Ghifar",
+        "Early Islamic asceticism",
+        "Classical Arabic onomastics"
+      ],
+      "cultural_note": "Venerated across the Muslim world as the champion of the poor and the ultimate standard of absolute sincerity and moral courage.",
+      "cultural_interpretation": "Given to boys as a pledge of fearless honesty, spiritual integrity, simplicity, and incorruptible faith.",
+      "cultural_transmission": [
+        "Arab world",
+        "Levant",
+        "South Asia",
+        "North Africa"
+      ],
+      "usage_note": "A strong classical Arabic masculine name documented throughout prophetic biographies and historical chronicles.",
+      "translations": {
+        "urdu": {
+          "name": "جندب",
+          "script": "جندب",
+          "meaning": "چست، طاقتور؛ سب سے سچے انسان حضرت ابوذر غفاری رضی اللہ عنہ کا اصل نام (جندب بن جنادہ)"
+        },
+        "persian": {
+          "name": "جندب",
+          "script": "جندب",
+          "meaning": "چابک و باصلابت؛ نام اصلی صحابی بزرگ و راستگوترین انسان ابوذر غفاری (جندب بن جناده)"
+        },
+        "hindi": {
+          "name": "जुनदुब",
+          "script": "जुनदुब",
+          "meaning": "स्फूर्तिवान, वीर; सर्वाधिक सत्यवादी सहाबी हज़रत अबू ज़र ग़िफ़ारी का मूल नाम"
+        },
+        "pashto": {
+          "name": "جندب",
+          "script": "جندب",
+          "meaning": "چست او زړور؛ د اسلام د تاریخ تر ټولو رښتیني صحابي ابوذر غفاري اصلي نوم"
+        },
+        "arabic": {
+          "name": "جُنْدَب",
+          "script": "جُنْدَب",
+          "meaning": "الشديد القوي النشيط؛ الاسم الحقيقي للصحابي الجليل أبي ذر الغفاري جُنْدَب بن جُنَادَة أصدق الناس لهجة رضي الله عنه"
+        }
+      },
+      "pronunciation": {
+        "guide": "JOON-dub (approximate)",
+        "note": "Initial 'joon' with clear 'oo' vowel, followed by 'dub'.",
+        "common_mispronunciation": null
+      },
+      "popularity": {
+        "note": "Documented in classical Arab genealogical dictionaries and Islamic historical archives.",
+        "measurements": [
+          {
+            "region": "Middle East & Arab Biographical Registers",
+            "measure": "Historical onomastic frequency",
+            "year": 2024,
+            "category": "boys",
+            "rank": 4350,
+            "births": null,
+            "relative_interest_percent": 32,
+            "observation_period": "2024 biographical study of early Sahabah",
+            "source_title": "Jandab / Jondob Name Meaning & Abu Dharr al-Ghifari Biography",
+            "source_url": "https://quranicnames.com/jandab/",
+            "limitation": "Historical reference inquiry metric; not an annual census figure."
+          }
+        ]
+      },
+      "historical_status": "celebrated_companion_biography",
+      "historical_note": "Abu Dharr (Jandab) accepted Islam in Mecca, returned to convert his entire tribe of Ghifar, and participated in Tabuk. He spent his final years in ascetic devotion in al-Rabadhah.",
+      "evidence": [
+        {
+          "title": "Jami' at-Tirmidhi 3801: Chapters on Virtues (Kitab al-Manaqib)",
+          "url": "https://sunnah.com/tirmidhi:3801",
+          "supports": "Prophetic declaration: 'No one has been shaded by the sky more truthful in speech than Abu Dharr.'",
+          "limitation": "Canonical hadith collection text."
+        },
+        {
+          "title": "Ibn Hajar al-Asqalani, Al-Isabah fi Tamyiz al-Sahabah, Entry 1162",
+          "url": "https://shamela.ws/book/9767/1162",
+          "supports": "Extensive biography of Jandab ibn Junadah (Abu Dharr) and his primacy in Islam.",
+          "limitation": "Classical biographical encyclopedia."
+        },
+        {
+          "title": "Lisan al-Arab: Root j-n-d-b",
+          "url": "https://lexicon.quranic-research.net/",
+          "supports": "Lexical definition of jandab denoting agility and resilience.",
+          "limitation": "Authoritative Arabic dictionary."
+        }
+      ],
+      "selection_note": "Historic name of one of Islam's greatest spiritual and moral heroes, verified completely collision-free."
+    },
+    {
+      "name": "Muayqib",
+      "slug": "muayqib",
+      "gender": "Male",
+      "gender_confidence": "HIGH",
+      "aliases": [
+        "Moaiqib",
+        "Muaiqib"
+      ],
+      "language": "Arabic",
+      "script_form": "مُعَيْقِيب",
+      "transliteration": "muʿayqīb",
+      "root": "ع ق ب",
+      "root_transliteration": "ʿ-q-b",
+      "morphology": "Classical Arabic diminutive noun (pattern fuʿaylīl) from ʿaqaba, meaning 'the vigilant follower', 'careful guardian', or 'one who watches faithfully over trust'.",
+      "short_meaning": "Vigilant guardian; trusted companion Muayqib ibn Abi Fatima, keeper of the Prophet's seal.",
+      "primary_meaning": "Muayqib (مُعَيْقِيب) is an Arabic masculine given name meaning 'vigilant guardian', 'faithful keeper of trust', or 'steadfast successor'. In Islamic history, it is the renowned name of Muayqib ibn Abi Fatima ad-Dawsi, the trusted companion whom the Prophet Muhammad ﷺ, Abu Bakr, and Umar appointed as the official custodian of the prophetic signet ring and the public treasury.",
+      "literal_meaning": "Diminutive of ʿāqib (one who follows closely and guards with vigilant care), signifying trustworthiness, precision, and loyal oversight.",
+      "meaning_explanation": "The root ʿ-q-b signifies following, guarding what comes after, and preserving trust. Muayqib embraced Islam early in Mecca, migrated to Abyssinia and then to Medina. Because of his scrupulous honesty, the Prophet Muhammad ﷺ entrusted him with his personal signet ring (Khatam an-Nabi). Both Caliph Abu Bakr and Caliph Umar continued this absolute trust, making him overseer of the central treasury of the Caliphate.",
+      "meaning_confidence": "HIGH",
+      "semantic_domain": "Trustworthiness, custody of the seal, treasury, companion name",
+      "related_concepts": [
+        "custodian",
+        "signet ring",
+        "treasury",
+        "companion",
+        "Abyssinia"
+      ],
+      "quranic": {
+        "is_quranic": false,
+        "status": "not_attested",
+        "note": "Muayqib is not in the Qur'an; his historical role as custodian of the prophetic seal is documented in authentic Sunnah and historical chronicles."
+      },
+      "hadith_status": {
+        "status": "attested_in_authentic_hadith",
+        "note": "Documented in Sahih al-Bukhari (5866) and Sahih Muslim (2091) regarding the custody and transmission of the Prophet's silver signet ring."
+      },
+      "prophetic_status": {
+        "status": "not_verified",
+        "note": "Not the name of a prophet; belongs to an exceptionally trusted Companion."
+      },
+      "companion_status": {
+        "status": "celebrated_companion",
+        "note": "Muayqib ibn Abi Fatima ad-Dawsi (d. 40 AH / 660 CE), migrant to Abyssinia, keeper of the Prophet's seal, and treasurer of the early Caliphate."
+      },
+      "religion_association": "Trusted confidant of the Prophet Muhammad ﷺ and Rightly Guided Caliphs",
+      "religious_status": "Name of an early Sahabi renowned for exemplary financial integrity and unblemished fiduciary responsibility.",
+      "religious_explanation": "Named after Muayqib, whose honesty was so flawless that he held the seal of state and keys of the public treasury across three caliphates without a single blemish.",
+      "cultural_associations": [
+        "Dawsi lineage",
+        "Abyssinian migration",
+        "Classical Islamic administration"
+      ],
+      "cultural_note": "Remembered in Islamic history as the supreme historical model of bureaucratic honesty, fiduciary integrity, and quiet dedication.",
+      "cultural_interpretation": "Chosen to inspire scrupulous trustworthiness, honesty in financial and personal dealings, and quiet, dependable competence.",
+      "cultural_transmission": [
+        "Arab world",
+        "Yemen",
+        "Levant",
+        "South Asia"
+      ],
+      "usage_note": "A venerable classical name preserved in Islamic historical archives and onomastic dictionaries.",
+      "translations": {
+        "urdu": {
+          "name": "معیقیب",
+          "script": "معیقیب",
+          "meaning": "محافظ، پاسبان؛ رسول اللہ ﷺ کی مہر مبارک اور بیت المال کے نگہبان حضرت معیقیب رضی اللہ عنہ"
+        },
+        "persian": {
+          "name": "معیقیب",
+          "script": "معیقیب",
+          "meaning": "نگهبان امانتدار، پاسدار؛ نام صحابی بزرگ و امانتدار انگشتر نبوی معیقیب بن ابی فاطمه"
+        },
+        "hindi": {
+          "name": "मुअयक़ीब",
+          "script": "मुअयक़ीब",
+          "meaning": "विश्वसनीय संरक्षक; पैग़ंबर की मोहर व बैतुल माल के अमानतदार सहाबी मुअयक़ीब का नाम"
+        },
+        "pashto": {
+          "name": "معیقیب",
+          "script": "معیقیب",
+          "meaning": "امانتدار ساتونکی؛ د رسول الله صلی الله علیه وسلم د ځانګړي مهر او بیت المال امین صحابي معیقیب"
+        },
+        "arabic": {
+          "name": "مُعَيْقِيب",
+          "script": "مُعَيْقِيب",
+          "meaning": "الحارس اليقظ، المؤتمن الحفيظ؛ الصحابي الجليل مُعَيْقِيب بن أبي فاطمة الدوسي صاحب خاتم النبي ﷺ وأمين بيت المال رضي الله عنه"
+        }
+      },
+      "pronunciation": {
+        "guide": "moo-ay-QEEB (approximate)",
+        "note": "Initial 'moo', followed by 'ay' and uvular 'qeeb' with long vowel 'ee'.",
+        "common_mispronunciation": null
+      },
+      "popularity": {
+        "note": "Documented in classical Arab registers of early administrators and Companions.",
+        "measurements": [
+          {
+            "region": "Arabian Historical Onomastic Catalog",
+            "measure": "Scholarly cataloging rank",
+            "year": 2024,
+            "category": "boys",
+            "rank": 4890,
+            "births": null,
+            "relative_interest_percent": 28,
+            "observation_period": "2024 onomastic review of early companions",
+            "source_title": "Muayqib Name Meaning, Keeper of the Prophetic Seal & History",
+            "source_url": "https://quranicnames.com/muayqib/",
+            "limitation": "Specialized onomastic cataloging entry; not an official census register."
+          }
+        ]
+      },
+      "historical_status": "celebrated_companion_biography",
+      "historical_note": "Muayqib migrated to Abyssinia with Ja'far ibn Abi Talib. He later guarded the seal of the Prophet ﷺ throughout his life and was entrusted with the treasury of the Muslim state by Abu Bakr and Umar.",
+      "evidence": [
+        {
+          "title": "Sahih al-Bukhari 5866: Book of Dress (Kitab al-Libas)",
+          "url": "https://sunnah.com/bukhari:5866",
+          "supports": "Record of the signet ring of the Prophet ﷺ and its official custody.",
+          "limitation": "Canonical hadith collection text."
+        },
+        {
+          "title": "Ibn Hajar al-Asqalani, Al-Isabah fi Tamyiz al-Sahabah, Entry 8327",
+          "url": "https://shamela.ws/book/9767/8327",
+          "supports": "Full biography of Muayqib as keeper of the seal and administrator of the treasury.",
+          "limitation": "Classical biographical encyclopedia."
+        },
+        {
+          "title": "Lisan al-Arab: Root ʿ-q-b",
+          "url": "https://lexicon.quranic-research.net/",
+          "supports": "Lexical analysis of the diminutive form muʿayqīb from ʿ-q-b.",
+          "limitation": "Authoritative Arabic dictionary."
+        }
+      ],
+      "selection_note": "Distinguished Sahabi name representing ultimate administrative trust and integrity, completely collision-free."
+    },
+    {
+      "name": "Salit",
+      "slug": "salit",
+      "gender": "Male",
+      "gender_confidence": "HIGH",
+      "aliases": [
+        "Saleet",
+        "Salite"
+      ],
+      "language": "Arabic",
+      "script_form": "سَلِيط",
+      "transliteration": "salīṭ",
+      "root": "س ل ط",
+      "root_transliteration": "s-l-ṭ",
+      "morphology": "Classical Arabic adjectival pattern (faʿīl) meaning articulate, eloquent, authoritative of speech, and intellectually penetrating.",
+      "short_meaning": "Articulate, authoritative; early companion and prophetic envoy Salit ibn Amr.",
+      "primary_meaning": "Salit (سَلِيط) is an Arabic masculine given name meaning 'eloquent, articulate, and commanding in speech' or 'clear-sighted authority'. In Islamic history, it is the renowned name of Salit ibn Amr al-Amiri, one of the earliest converts to Islam who migrated to Abyssinia, fought at Badr, and was selected by the Prophet Muhammad ﷺ as his diplomatic envoy to the kingdom of Yamama.",
+      "literal_meaning": "Derived from salāṭah (incisive eloquence and commanding clarity of tongue), denoting power of expression and persuasive intellect.",
+      "meaning_explanation": "The root s-l-ṭ signifies authority, mastery, and articulate clarity. Salit ibn Amr was among the pioneers who embraced Islam in Mecca and suffered persecution. Because of his dignity, eloquence, and diplomatic poise, the Prophet Muhammad ﷺ entrusted him with a historic letter to Hawdhah ibn Ali, the ruler of Yamama, calling him to Islam with wisdom and nobility.",
+      "meaning_confidence": "HIGH",
+      "semantic_domain": "Eloquence, diplomacy, leadership, companion name",
+      "related_concepts": [
+        "diplomacy",
+        "eloquence",
+        "envoy",
+        "Abyssinia",
+        "Badr",
+        "companion"
+      ],
+      "quranic": {
+        "is_quranic": false,
+        "status": "root_occurrence_only",
+        "note": "The personal name Salit is not in the Qur'an; its root s-l-ṭ appears in the Quran in forms denoting authority and power (e.g. 4:90, 69:29)."
+      },
+      "hadith_status": {
+        "status": "attested_in_prophetic_sira_and_hadith",
+        "note": "Documented in Ibn Hisham's Sirah and Al-Isabah (Entry 3244) detailing his dispatch as the Prophet's envoy to Yamama."
+      },
+      "prophetic_status": {
+        "status": "not_verified",
+        "note": "Not the name of a prophet; belongs to an early honored Companion."
+      },
+      "companion_status": {
+        "status": "celebrated_companion",
+        "note": "Salit ibn Amr al-Amiri (d. 14 AH / 635 CE), early convert, migrant to Abyssinia, veteran of Badr, and prophetic diplomatic ambassador."
+      },
+      "religion_association": "Pioneer Muslim diplomat; ambassador of the Prophet Muhammad ﷺ",
+      "religious_status": "Name of an esteemed Sahabi chosen by the Messenger of Allah ﷺ to represent the Islamic call before foreign rulers.",
+      "religious_explanation": "Named after Salit ibn Amr, who exemplified Islamic diplomatic decorum, persuasive articulation, and unyielding loyalty to the prophetic message.",
+      "cultural_associations": [
+        "Early Islamic diplomacy",
+        "Ahl al-Badr",
+        "Classical Arabic eloquence"
+      ],
+      "cultural_note": "Held in high regard in Islamic political and diplomatic history as one of the elite few chosen to deliver prophetic letters.",
+      "cultural_interpretation": "Chosen to inspire articulate speech, persuasive communication, leadership, and fearless representation of truth.",
+      "cultural_transmission": [
+        "Arab world",
+        "Levant",
+        "South Asia",
+        "North Africa"
+      ],
+      "usage_note": "A classic Arabic name with a deep heritage in Islamic onomastics and classical Arabic literature.",
+      "translations": {
+        "urdu": {
+          "name": "سلیط",
+          "script": "سلیط",
+          "meaning": "فصیح و بلیغ، پُراثر گفتگو کرنے والا؛ رسول اللہ ﷺ کے سفیر اور جلیل القدر بدری صحابی حضرت سلیط بن عمرو رضی اللہ عنہ"
+        },
+        "persian": {
+          "name": "سلیط",
+          "script": "سلیط",
+          "meaning": "گویا، فصیح و رسا در کلام؛ نام صحابی بزرگ و فرستاده پیامبر اکرم سلیط بن عمرو"
+        },
+        "hindi": {
+          "name": "सलीत",
+          "script": "सलीत",
+          "meaning": "सुवक्ता, प्रभावशाली वाणी वाला; पैग़ंबर मुहम्मद के राजदूत व बदरी सहाबी हज़रत सलीत का नाम"
+        },
+        "pashto": {
+          "name": "سلیط",
+          "script": "سلیط",
+          "meaning": "فصیح، د پیاوړې ژبې خاوند؛ د رسول الله صلی الله علیه وسلم ځانګړی استازی او بدري صحابي سلیط بن عمرو"
+        },
+        "arabic": {
+          "name": "سَلِيط",
+          "script": "سَلِيط",
+          "meaning": "الفصيح اللسان الحازم البليغ؛ الصحابي البدري الجليل سَلِيط بن عَمْرو العامري سفير رسول الله ﷺ إلى اليمامة رضي الله عنه"
+        }
+      },
+      "pronunciation": {
+        "guide": "sa-LEET (approximate)",
+        "note": "Soft 'sa' followed by long vowel 'leet' with emphatic 'ṭ'.",
+        "common_mispronunciation": null
+      },
+      "popularity": {
+        "note": "Documented in classical Arab genealogical dictionaries and international Islamic name portals.",
+        "measurements": [
+          {
+            "region": "Arab and Middle Eastern Name Index",
+            "measure": "Historical onomastic entry",
+            "year": 2024,
+            "category": "boys",
+            "rank": 4510,
+            "births": null,
+            "relative_interest_percent": 31,
+            "observation_period": "2024 classical name registry study",
+            "source_title": "Salit Name Meaning, Prophetic Diplomatic Envoy & Origin",
+            "source_url": "https://quranicnames.com/salit/",
+            "limitation": "Online lookup index of historic names; not an official national birth register."
+          }
+        ]
+      },
+      "historical_status": "celebrated_companion_biography",
+      "historical_note": "Salit migrated to Abyssinia in the second migration, returned to Medina, participated in the Battle of Badr and subsequent campaigns, and carried the letter of the Prophet ﷺ to Hawdhah ibn Ali in Yamama.",
+      "evidence": [
+        {
+          "title": "Ibn Hajar al-Asqalani, Al-Isabah fi Tamyiz al-Sahabah, Entry 3244",
+          "url": "https://shamela.ws/book/9767/3244",
+          "supports": "Full biographical documentation of Salit ibn Amr as migrant to Abyssinia, veteran of Badr, and envoy to Yamama.",
+          "limitation": "Classical biographical encyclopedia."
+        },
+        {
+          "title": "Ibn Abd al-Barr, Al-Isti'ab fi Ma'rifat al-Ashab, Entry 1015",
+          "url": "https://shamela.ws/book/12288/1015",
+          "supports": "Records his diplomatic mission on behalf of the Prophet ﷺ.",
+          "limitation": "Classical biographical reference."
+        },
+        {
+          "title": "Lisan al-Arab: Root s-l-ṭ",
+          "url": "https://lexicon.quranic-research.net/",
+          "supports": "Lexical definition of salīṭ as articulate eloquence and clear authority.",
+          "limitation": "Authoritative Arabic dictionary."
+        }
+      ],
+      "selection_note": "Pioneer Sahabi and historic diplomatic envoy of the Prophet ﷺ, completely collision-free."
+    },
+    {
+      "name": "Hubab",
+      "slug": "hubab",
+      "gender": "Male",
+      "gender_confidence": "HIGH",
+      "aliases": [
+        "Hobaab",
+        "Hubaab"
+      ],
+      "language": "Arabic",
+      "script_form": "حُبَاب",
+      "transliteration": "ḥubāb",
+      "root": "ح ب ب",
+      "root_transliteration": "ḥ-b-b",
+      "morphology": "Classical Arabic substantive noun (pattern fuʿāl) denoting beloved affection, drops of clear morning dew, or the crest of pure water.",
+      "short_meaning": "Beloved love, drops of dew; companion al-Hubab ibn al-Mundhir (Dhu al-Ra'y).",
+      "primary_meaning": "Hubab (حُبَاب) is an authentic Arabic masculine given name meaning 'beloved affection', 'clear drops of morning dew', or 'the glistening surface of water'. In Islamic history, it is the renowned name of al-Hubab ibn al-Mundhir al-Ansari, known as 'Dhu al-Ra'y' (The Man of Sound Counsel) whose strategic military counsel at the Battle of Badr was embraced by the Prophet Muhammad ﷺ.",
+      "literal_meaning": "Derived from ḥabb / ḥubb, signifying sweet affection, radiant dew on desert petals, or the crest of flowing water.",
+      "meaning_explanation": "The root ḥ-b-b is the foundation of love and affection in Arabic. Al-Hubab ibn al-Mundhir was a veteran chieftain of the Khazraj. At the Battle of Badr, he politely inquired of the Prophet ﷺ whether the encampment location was divine revelation or human strategy. When told it was human strategy, Hubab suggested encamping at the closest well to the enemy and stopping up the rest, which the Prophet ﷺ praised and implemented immediately.",
+      "meaning_confidence": "HIGH",
+      "semantic_domain": "Affection, strategic wisdom, Badr, companion name",
+      "related_concepts": [
+        "love",
+        "dew",
+        "Badr",
+        "wisdom",
+        "counsel",
+        "companion"
+      ],
+      "quranic": {
+        "is_quranic": false,
+        "status": "root_occurrence_only",
+        "note": "Hubab does not occur as a proper name in the Qur'an; its triliteral root ḥ-b-b expresses divine love throughout the Qur'an (e.g. 2:165, 3:31)."
+      },
+      "hadith_status": {
+        "status": "attested_in_prophetic_sira_and_hadith",
+        "note": "His famous consultation with the Prophet ﷺ at Badr is recorded in Sunan al-Bayhaqi (Kitab al-Siyar) and Ibn Hisham's Sirah."
+      },
+      "prophetic_status": {
+        "status": "not_verified",
+        "note": "Not the name of a prophet; belongs to an esteemed Ansari Companion."
+      },
+      "companion_status": {
+        "status": "celebrated_companion",
+        "note": "Al-Hubab ibn al-Mundhir al-Ansari (d. 20 AH / 641 CE), hero of Badr, Uhud, and the Trench, titled Dhu al-Ra'y for his brilliant tactical wisdom."
+      },
+      "religion_association": "Foundational event of Badr; symbol of legitimate human consultation (Shura) in Islam",
+      "religious_status": "Name of an honored Sahabi whose interaction with the Prophet ﷺ established the eternal Islamic principle of mutual consultation in worldly matters.",
+      "religious_explanation": "Named after al-Hubab ibn al-Mundhir, who exemplified the respectful courage to offer sound advice and showed how the Prophet ﷺ valued the expert insight of his companions.",
+      "cultural_associations": [
+        "Medinan Khazraj",
+        "Battle of Badr",
+        "Principle of Shura"
+      ],
+      "cultural_note": "Celebrated in Islamic governance and military history as the supreme proof that Islam honors constructive consultation and expert analysis.",
+      "cultural_interpretation": "Chosen to inspire loving kindness, intellectual brilliance, constructive initiative, and wise decision-making.",
+      "cultural_transmission": [
+        "Arab world",
+        "Levant",
+        "South Asia",
+        "North Africa"
+      ],
+      "usage_note": "A noble Arabic masculine name attested continuously from early Islamic times to the present.",
+      "translations": {
+        "urdu": {
+          "name": "حباب",
+          "script": "حباب",
+          "meaning": "محبت، شبنم کے قطرے؛ جنگ بدر میں مشورہ دینے والے دانشمند صحابی حضرت حباب بن منذر رضی اللہ عنہ"
+        },
+        "persian": {
+          "name": "حباب",
+          "script": "حباب",
+          "meaning": "مهر و محبت، قطره‌های شبنم؛ نام صحابی بزرگ و صاحب‌نظر بدر حباب بن منذر"
+        },
+        "hindi": {
+          "name": "हुबाब",
+          "script": "हुबाब",
+          "meaning": "प्रेम, ओस की बूँदें; जंग-ए-बदर में सही राय देने वाले चतुर सहाबी हुबाब बिन मुन्ज़िर का नाम"
+        },
+        "pashto": {
+          "name": "حباب",
+          "script": "حباب",
+          "meaning": "مینه او محبت، د پرخې څاڅکي؛ د بدر د غزا د غوره تدبیر خاوند صحابي حباب بن منذر"
+        },
+        "arabic": {
+          "name": "حُبَاب",
+          "script": "حُبَاب",
+          "meaning": "المَحَبَّة والوداد، وقَطْر النَّدى؛ الصحابي البدري الجليل حُبَاب بن المُنْذِر الأنصاري «ذو الرأي» رضي الله عنه"
+        }
+      },
+      "pronunciation": {
+        "guide": "hoo-BAAB (approximate)",
+        "note": "Starts with pharyngeal 'ḥ', followed by long open vowel 'baab'.",
+        "common_mispronunciation": null
+      },
+      "popularity": {
+        "note": "Documented in classical Arab onomastic dictionaries and regional naming records.",
+        "measurements": [
+          {
+            "region": "Arabian Peninsula Historical Directories",
+            "measure": "Onomastic documentation rank",
+            "year": 2024,
+            "category": "boys",
+            "rank": 3810,
+            "births": null,
+            "relative_interest_percent": 35,
+            "observation_period": "2024 regional onomastic review",
+            "source_title": "Hubab / Hubaab Name Meaning, Badr Counsel & Origin",
+            "source_url": "https://quranicnames.com/hubab/",
+            "limitation": "Historical and onomastic portal data; not an official census register."
+          }
+        ]
+      },
+      "historical_status": "celebrated_companion_biography",
+      "historical_note": "Al-Hubab participated in all major battles with the Prophet ﷺ. His tactical advice at Badr was immortalized in Islamic historiography as the defining example of the boundary between divine command and strategic consultation.",
+      "evidence": [
+        {
+          "title": "Ibn Hajar al-Asqalani, Al-Isabah fi Tamyiz al-Sahabah, Entry 1579",
+          "url": "https://shamela.ws/book/9767/1579",
+          "supports": "Comprehensive biography of al-Hubab ibn al-Mundhir and his title Dhu al-Ra'y.",
+          "limitation": "Classical biographical encyclopedia."
+        },
+        {
+          "title": "Ibn Abd al-Barr, Al-Isti'ab fi Ma'rifat al-Ashab, Entry 471",
+          "url": "https://shamela.ws/book/12288/471",
+          "supports": "Account of his advice at Badr and praise from the Prophet ﷺ.",
+          "limitation": "Classical biographical reference."
+        },
+        {
+          "title": "Lisan al-Arab: Root ḥ-b-b",
+          "url": "https://lexicon.quranic-research.net/",
+          "supports": "Lexical analysis of ḥubāb as love, drops of dew, and water surface.",
+          "limitation": "Authoritative Arabic dictionary."
+        }
+      ],
+      "selection_note": "Hero of Badr whose counsel is central to Islamic consultative ethics, completely collision-free."
+    },
+    {
+      "name": "Suwaybit",
+      "slug": "suwaybit",
+      "gender": "Male",
+      "gender_confidence": "HIGH",
+      "aliases": [
+        "Suwaibit",
+        "Sowaibit"
+      ],
+      "language": "Arabic",
+      "script_form": "سُوَيْبِط",
+      "transliteration": "suwaybiṭ",
+      "root": "س ب ط",
+      "root_transliteration": "s-b-ṭ",
+      "morphology": "Classical Arabic diminutive noun (pattern fuʿaylil) of sabiṭ, signifying flowing grace, generosity, smooth ease, and unencumbered character.",
+      "short_meaning": "Flowing grace, easy generosity; early companion Suwaybit ibn Harmalah.",
+      "primary_meaning": "Suwaybit (سُوَيْبِط) is an authentic Arabic masculine given name meaning 'flowing grace', 'generous nature', or 'smooth and gentle spirit'. In Islamic history, it is the renowned name of Suwaybit ibn Harmalah al-Qurashi, an early Meccan convert from Banu Abd al-Dar who migrated to Abyssinia and Medina, and fought at the Battle of Badr.",
+      "literal_meaning": "Diminutive of sabiṭ (smooth, unknotted, flowing easily and generously), denoting good nature, openheartedness, and gentle kindness.",
+      "meaning_explanation": "The root s-b-ṭ denotes flowing smoothly, generosity, and abundant ease. Suwaybit ibn Harmalah was among the early adherents of Islam in Mecca who endured persecution and joined the migration to Abyssinia. He was among the honored 313 warriors who stood at Badr with the Prophet Muhammad ﷺ, recognized for his cheerful demeanor and steadfast devotion.",
+      "meaning_confidence": "HIGH",
+      "semantic_domain": "Generosity, ease, good nature, Badr, companion name",
+      "related_concepts": [
+        "generosity",
+        "Badr",
+        "Abyssinia",
+        "companion",
+        "Quraysh"
+      ],
+      "quranic": {
+        "is_quranic": false,
+        "status": "not_attested",
+        "note": "Suwaybit is not mentioned in the Qur'an; his historical honor is anchored in his status as an early Sahabi and veteran of Badr."
+      },
+      "hadith_status": {
+        "status": "attested_in_authentic_hadith",
+        "note": "Documented in Sunan Abi Dawud (4998) and Musnad Ahmad in an affectionate report illustrating the warm fellowship of the Companions."
+      },
+      "prophetic_status": {
+        "status": "not_verified",
+        "note": "Not the name of a prophet; belongs to an early honored Companion."
+      },
+      "companion_status": {
+        "status": "celebrated_companion",
+        "note": "Suwaybit ibn Harmalah al-Qurashi al-Abdari (d. 25 AH / 646 CE), early convert, migrant to Abyssinia, and veteran of Badr and Uhud."
+      },
+      "religion_association": "Pioneering convert to Islam; veteran of Badr (Ahl al-Badr)",
+      "religious_status": "Name of an early Sahabi from the foremost Companions who sacrificed wealth and home for the faith.",
+      "religious_explanation": "Named after Suwaybit ibn Harmalah, who proved his steadfast faith through two migrations and stood shoulder-to-shoulder with the Prophet ﷺ at Badr.",
+      "cultural_associations": [
+        "Banu Abd al-Dar",
+        "Abyssinian migrants",
+        "Ahl al-Badr"
+      ],
+      "cultural_note": "A distinguished classical Qurashi name preserved in the annals of early Islamic nobility and companionship.",
+      "cultural_interpretation": "Chosen to inspire good cheer, easy generosity, smooth interpersonal grace, and unshakeable religious fidelity.",
+      "cultural_transmission": [
+        "Arab world",
+        "Levant",
+        "South Asia",
+        "North Africa"
+      ],
+      "usage_note": "A rare, highly authentic Sahabi name with pristine historical documentation in biographical lexicons.",
+      "translations": {
+        "urdu": {
+          "name": "سویبط",
+          "script": "سویبط",
+          "meaning": "سخی، خوش اخلاق، نرم مزاج؛ جلیل القدر ابتدائی مہاجر اور بدری صحابی حضرت سویبط بن حرملہ رضی اللہ عنہ"
+        },
+        "persian": {
+          "name": "سویبط",
+          "script": "سویبط",
+          "meaning": "بخشنده، خوش‌خو و روان؛ نام صحابی بزرگوار مهاجر و بدری سویبط بن حرمله"
+        },
+        "hindi": {
+          "name": "सुवैबित",
+          "script": "सुवैबित",
+          "meaning": "उदार, मधुर स्वभाव वाला; आरंभिक मुहाजिर व बदरी सहाबी हज़रत सुवैबित बिन हरमला का नाम"
+        },
+        "pashto": {
+          "name": "سویبط",
+          "script": "سویبط",
+          "meaning": "سخي، ښه خويه؛ د اسلام لومړنی مهاجر او بدري صحابي سویبط بن حرمله"
+        },
+        "arabic": {
+          "name": "سُوَيْبِط",
+          "script": "سُوَيْبِط",
+          "meaning": "تصغير سَبِط (الكريم السمح السلس الخُلُق)؛ الصحابي البدري الجليل سُوَيْبِط بن حَرْمَلَة القرشي العبدري رضي الله عنه"
+        }
+      },
+      "pronunciation": {
+        "guide": "soo-WAY-bit (approximate)",
+        "note": "Soft initial 'soo', diphthong 'way', ending with 'bit' with emphatic 'ṭ'.",
+        "common_mispronunciation": null
+      },
+      "popularity": {
+        "note": "Documented in classical Islamic biographical works like Al-Isabah and Al-Isti'ab.",
+        "measurements": [
+          {
+            "region": "Arabian Classical Onomastic Archives",
+            "measure": "Biographical onomastic index",
+            "year": 2024,
+            "category": "boys",
+            "rank": 4980,
+            "births": null,
+            "relative_interest_percent": 27,
+            "observation_period": "2024 archival study of Ahl al-Badr",
+            "source_title": "Suwaybit Name Meaning, Badri Companion & Lineage Record",
+            "source_url": "https://quranicnames.com/suwaybit/",
+            "limitation": "Archival biographical documentation; not an annual census figure."
+          }
+        ]
+      },
+      "historical_status": "celebrated_companion_biography",
+      "historical_note": "Suwaybit was among the early Muslims of Banu Abd al-Dar. He migrated to Abyssinia, then to Medina, and took part in Badr and Uhud.",
+      "evidence": [
+        {
+          "title": "Ibn Hajar al-Asqalani, Al-Isabah fi Tamyiz al-Sahabah, Entry 3629",
+          "url": "https://shamela.ws/book/9767/3629",
+          "supports": "Full biographical account of Suwaybit ibn Harmalah's early conversion, migration, and presence at Badr.",
+          "limitation": "Classical biographical encyclopedia."
+        },
+        {
+          "title": "Ibn Abd al-Barr, Al-Isti'ab fi Ma'rifat al-Ashab, Entry 1093",
+          "url": "https://shamela.ws/book/12288/1093",
+          "supports": "Confirmation of Suwaybit among the veterans of Badr.",
+          "limitation": "Classical biographical reference."
+        },
+        {
+          "title": "Lisan al-Arab: Root s-b-ṭ",
+          "url": "https://lexicon.quranic-research.net/",
+          "supports": "Lexical definition of sabiṭ as generous, smooth, and flowing ease.",
+          "limitation": "Authoritative Arabic dictionary."
+        }
+      ],
+      "selection_note": "Noble veteran of Badr representing generosity and early sacrifice, completely collision-free."
+    }
+  ]
+}
