@@ -2,7 +2,7 @@
 
 - Working branch: `quality-gates/all-name-records`
 - Dataset: `upgrading/names_upgraded/islamic/`
-- Total individually reviewed/edited so far: **36 records** (partial; not the full dataset).
+- Total individually reviewed/edited so far: **39 records** (partial; not the full dataset).
 - Scope: FAQ answer accuracy and uniqueness, FAQPage JSON-LD parity, canonical and breadcrumb URLs, and cautious correction of meaning/form mismatches.
 - Safety rule: do not invent meanings, origins, Qur'anic claims, popularity, or translations. Keep uncertain claims explicitly unverified.
 
@@ -46,12 +46,17 @@
 35. `aana.json` — removed “Unknown” as if it were a real language/origin and replaced unsupported glosses with explicit unverified status.
 36. `aanal.json` — removed “Unknown” as if it were a real language/origin and replaced unsupported glosses with explicit unverified status.
 
+37. `aanan.json` — resolved the direct contradiction between the main meaning (“reins/halter”) and translations (“companion”); aligned language fields and FAQs to the cautious lexical gloss.
+38. `aaneseh.json` — removed unsupported “Unknown” language/origin claims and made the unresolved meaning, script, translations, and FAQs explicit.
+39. `aani.json` — removed unsupported “Unknown” language/origin claims and made the unresolved meaning, script, translations, and FAQs explicit.
+
 ## Validation
 
 - Records `aafaq`, `aafia`, `aafiya`, `aafreen`, `aaftab`, `aahil`, `aahoo`, `aaida`, `aaima`, `aaina`, `aaira`, `aaisha`, `aaiz`, `aakif`, and `aakifah`, `aakil`, `aala`, and `aalaa` were re-fetched after saving and validated: JSON parsing succeeded, FAQPage parity passed, duplicate-question count was zero, and canonical/BreadcrumbList were present and route-consistent.
 - These 18 records have 9 FAQ entries each. No filler questions were added just to reach 10.
 - The first 9 quality-repair records were also validated after edits for JSON validity, FAQPage parity, no duplicate normalized questions, and canonical/BreadcrumbList consistency. `aaban` and `aadhil` had separate checks/corrections before this log was created.
 - Latest batch (`aamir`, `aamra`, `aamrah`, `aana`, `aanal`) was re-fetched after saving: JSON parse succeeded for all 5; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and a route-consistent breadcrumb.
+- Latest batch (`aanan`, `aaneseh`, `aani`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Structural validation does not prove that every semantic claim is independently sourced. Translation fields marked for native review are not represented as native-verified.
 
 ## Still outstanding
