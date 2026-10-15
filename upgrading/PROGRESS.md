@@ -152,3 +152,10 @@ Working branch: `quality-gates/all-name-records` (do not merge to `main` without
 | Continuation 008 | `aaniya.json`, `aaniyah.json` | 2 | 2 | Removed unsupported origin/religion certainty for records with no verified lexical form; downgraded unsubstantiated quality scores; preserved canonical URLs. |
 
 **Cumulative in this editorial pass:** 71 reviewed; 70 changed; 1 reviewed without change. This is still a partial pass against the 6,592-file initial inventory. Next candidate: `aaolin.json` (verify in branch tree before editing).
+
+
+| Batch | Files | Reviewed | Changed | Notes |
+|---|---|---:|---:|---|
+| Continuation 009 | `aaolin.json` | 1 | 1 | Removed unsupported origin/religion certainty, corrected self-reported verification and SEO scores, flagged missing lexical and usage evidence, preserved canonical URL. |
+
+**Cumulative in this editorial pass:** 72 reviewed; 71 changed; 1 reviewed without change. Initial inventory was 6,592 likely Islamic record files; this work is not complete. Next candidate after `aaolin.json`: `aaqib.json` (verify path and inspect before editing).
