@@ -15,8 +15,7 @@
       "gender_note": "Gender is recorded from documented naming usage, not inferred from the word's meaning.",
       "alternate_spellings": [
         "Aaina",
-        "aaina",
-        "aina"
+        "Aina"
       ],
       "name_status": "attested"
     },
@@ -179,8 +178,8 @@
       "pashto": {
         "name": "آینه",
         "script": "آینه",
-        "meaning": "هينداره، آينه",
-        "long_meaning": "آئینه د فارسي/اردو کلمه ده چې مانا یې هنداره ده. دا لغوي تشریح ده، د نوم د شهرت ادعا نه ده.",
+        "meaning": "آئینه، هنداره",
+        "long_meaning": "آئینه د فارسي/اردو په کارونه کې د هندارې معنا لري. د دې کلمې لغوي مانا د نوم د مذهبي حیثیت یا سیمه‌ییز شهرت ثبوت نه دی.",
         "native_review_required": true
       },
       "arabic": {
@@ -459,11 +458,13 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
+      "needs_manual_verification": true,
+      "flags": [
+        "Pashto translation reviewed for consistency; native-speaker review still required"
+      ],
       "confidence": "HIGH",
       "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "reviewed_at": "2026-10-15"
     },
     "render_policy": {
       "render_verified": true,
