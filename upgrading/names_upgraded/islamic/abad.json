@@ -11,8 +11,8 @@
       "normalized_name": "abad",
       "name_type": "given_name",
       "gender": "Male",
-      "gender_confidence": "HIGH",
-      "gender_note": "Gender is recorded from documented naming usage, not inferred from the word's meaning.",
+      "gender_confidence": "LOW",
+      "gender_note": "Gender usage is recorded as masculine, but the original-script form and linguistic identity are unresolved.",
       "alternate_spellings": [
         "Abad",
         "abad"
@@ -20,47 +20,44 @@
       "name_status": "attested"
     },
     "core_meaning": {
-      "short_meaning": "Servant, worshipper",
-      "primary_meaning": "Abad is an Arabic-origin name meaning “Servant, worshipper”.",
+      "short_meaning": "Meaning depends on intended form; Arabic identification uncertain",
+      "primary_meaning": "The Latin spelling Abad does not reliably identify Arabic عبد (ʿabd, “servant”); it may instead represent Persian/Urdu آباد (ābād, “inhabited, flourishing”). The intended form is unresolved.",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "Abad corresponds to the Arabic form عبد (ع ب د). Its core sense is servant, worshipper (of god). ʿAbd ('servant, worshipper'). The source record's gloss 'Servant of Allah' is incomplete: عبد alone means 'servant', and the divine name is supplied in compounds such as عبد الله.",
-      "meaning_confidence": "HIGH"
+      "meaning_explanation": "The source record maps Abad to عبد, normally transliterated ʿabd/abd, while the Latin spelling Abad more closely resembles Persian/Urdu آباد (ābād), meaning inhabited, settled, or flourishing. These are distinct forms and meanings. No definitive origin or meaning is asserted until the intended original-script spelling is confirmed.",
+      "meaning_confidence": "LOW"
     },
     "etymology": {
-      "primary_language": "Arabic",
-      "lexical_form": "عبد",
-      "transliteration": "abad",
+      "primary_language": "Unverified",
+      "lexical_form": "عبد / آباد (unresolved)",
+      "transliteration": "Abad",
       "root": "",
       "root_transliteration": "",
-      "morphology": "Simple lexical item used as a name.",
+      "morphology": "Ambiguous Latin spelling; two distinct original-script forms must not be conflated.",
       "feminine_form": null,
-      "etymological_meaning": "The Arabic word عبد",
+      "etymological_meaning": "Unresolved",
       "root_family": [],
-      "etymology_explanation": "The form عبد is an established Arabic lexical item used unchanged as a given name.",
-      "etymology_confidence": "HIGH",
+      "etymology_explanation": "عبد means servant and is normally transliterated ʿabd; آباد is a Persian/Urdu form meaning inhabited or flourishing. The record does not establish which form Abad is intended to represent.",
+      "etymology_confidence": "LOW",
       "false_etymology_warning": "No derivation beyond the documented Arabic form is asserted. Any etymology that attributes this spelling to a different root or language without a source should be treated as unverified."
     },
     "language": {
-      "primary": "Arabic",
+      "primary": "Unverified",
       "associated_languages": [
-        "Arabic"
+        "Arabic (if عبد intended)",
+        "Persian/Urdu (if آباد intended)"
       ],
       "language_notes": {
-        "primary": "Arabic is the language of the recorded form عبد.",
+        "primary": "The Latin spelling Abad is ambiguous between distinct Arabic and Persian/Urdu forms.",
         "usage": "Other scripts are transliterations of the name into those writing systems; they are not independent origins."
       },
-      "language_confidence": "HIGH"
+      "language_confidence": "LOW"
     },
     "origin": {
-      "primary_origin": "Arabic",
+      "primary_origin": "Unverified",
       "origin_type": "linguistic",
-      "origin_confidence": "HIGH",
-      "origin_explanation": "The name originates in Arabic and circulates in Muslim naming through established multilingual use.",
-      "cultural_transmission": [
-        "Arabic",
-        "Muslim South Asia",
-        "Urdu-speaking communities"
-      ]
+      "origin_confidence": "LOW",
+      "origin_explanation": "The original-script form must be confirmed before assigning an origin.",
+      "cultural_transmission": []
     },
     "religion": {
       "primary_association": "Islamic-cultural usage",
@@ -154,47 +151,48 @@
       "english": {
         "name": "Abad",
         "script": "Abad",
-        "meaning": "Servant, worshipper",
-        "long_meaning": "Abad is an Arabic-origin given name; in Arabic the word means “Servant, worshipper”."
+        "meaning": "Unresolved: original-script form needs confirmation",
+        "long_meaning": "Abad may refer to Arabic عبد (“servant”) or Persian/Urdu آباد (“inhabited, flourishing”). These forms are not interchangeable; the intended form needs confirmation."
       },
       "urdu": {
-        "name": "عبد",
-        "script": "عبد",
-        "meaning": "بندہ، خادم، عابد",
-        "long_meaning": "Abad (عبد) عربی زبان سے ماخوذ نام ہے۔ اس کا بنیادی مفہوم بندہ، خادم، عابد ہے۔ یہ نام مسلم معاشروں میں رکھا جاتا ہے اور اس کے مفاہیم سیاق و سباق کے مطابق استعمال ہوتے ہیں۔"
+        "name": "Abad",
+        "script": "عبد / آباد (غیر محسوم)",
+        "meaning": "اصل املا کی تصدیق درکار",
+        "long_meaning": "Abad کی رومن املا سے یہ طے نہیں ہوتا کہ مراد عربی عبد (بندہ) ہے یا فارسی/اردو آباد (آباد، خوشحال)۔ یہ الگ الفاظ ہیں؛ اصل املا کی تصدیق ضروری ہے۔"
       },
       "persian": {
         "name": "Abad",
-        "script": "Abad",
-        "meaning": "Servant, worshipper (of God)",
-        "long_meaning": "Servant, worshipper (of God)"
+        "script": "عبد / آباد (نامشخص)",
+        "meaning": "نیازمند تأیید صورت اصلی",
+        "long_meaning": "املای لاتین Abad مشخص نمی‌کند که منظور عربی عبد به معنای بنده است یا فارسی/اردو آباد به معنای آباد و پررونق؛ این دو صورت متفاوت‌اند.",
+        "native_review_required": true
       },
       "hindi": {
-        "name": "अब्द",
-        "script": "अब्द",
-        "meaning": "दास, सेवक, उपासक",
-        "long_meaning": "Abad (अब्द) अरबी भाषा से लिया गया नाम है। इसका मुख्य अर्थ दास, सेवक, उपासक है। यह नाम मुस्लिम समाजों में रखा जाता है और इसका प्रयोग संदर्भ के अनुसार बदलता है।"
+        "name": "Abad",
+        "script": "عبد / آباد (अनिश्चित)",
+        "meaning": "मूल वर्तनी की पुष्टि आवश्यक",
+        "long_meaning": "Abad से यह निश्चित नहीं होता कि अभिप्रेत अरबी عبد (“सेवक”) है या फ़ारसी/उर्दू آباد (“आबाद, समृद्ध”); दोनों अलग शब्द हैं।"
       },
       "pashto": {
         "name": "عبد",
         "script": "عبد",
-        "meaning": "بنده، خدمتګار",
-        "long_meaning": "Abad (عبد) د عربي ژبې څخه اخیستل شوی نوم دی او بنسټیزه مانا یې بنده، خدمتګار ده. دا نوم په مسلمانانو ټولنو کې کارول کیږي او کارونه یې د سیاق له مخې بدلیږي.",
+        "meaning": "د اصلي املا تایید ته اړتیا ده",
+        "long_meaning": "Abad ښايي عربي عبد (بنده) یا فارسي/اردو آباد (آباد، سمسور) وي؛ دا جلا بڼې دي او اصلي املا باید تایید شي.",
         "native_review_required": true
       },
       "arabic": {
-        "name": "عبد",
-        "script": "عبد",
-        "meaning": "عبد، خادم، عابد",
-        "long_meaning": "Abad (عبد) اسم مأخوذ من اللغة العربية، ومعناه الأساسي عبد، خادم، عابد. يُستخدم هذا الاسم في المجتمعات المسلمة ويختلف استعماله بحسب السياق اللغوي.",
+        "name": "Abad",
+        "script": "عبد (possible Arabic form) / آباد (Persian-Urdu form)",
+        "meaning": "المعنى غير محسوم لاختلاف الرسمين",
+        "long_meaning": "عبد تعني الخادم/العبد، أما آباد فهي صيغة فارسية/أردية تعني المعمور أو المزدهر؛ ولا تحسم التهجئة اللاتينية Abad أيهما مقصود.",
         "native_review_required": true
       }
     },
     "translation_quality": {
       "strategy": "semantic_translation",
-      "confidence": "HIGH",
+      "confidence": "LOW",
       "native_review_required": true,
-      "note": "Each language is rendered in its own idiom; Pashto and Arabic are flagged for native review."
+      "note": "The mismatch between Latin Abad and Arabic عبد is disclosed; origin and meaning remain unresolved until original-script form is confirmed."
     },
     "pronunciation": {
       "romanized": "a-bad",
@@ -251,39 +249,39 @@
     "faq": [
       {
         "q": "What does Abad mean?",
-        "a": "Abad is an Arabic-origin name meaning “Servant, worshipper”."
+        "a": "The meaning of Abad is unresolved because the Latin spelling may represent Arabic عبد (“servant”) or Persian/Urdu آباد (“inhabited, flourishing”)."
       },
       {
         "q": "What is the origin of Abad?",
-        "a": "Abad originates in Arabic and circulates in Muslim naming communities."
+        "a": "The origin is not established until the intended original-script form is confirmed."
       },
       {
         "q": "Is Abad an Arabic name?",
-        "a": "Yes, the recorded form عبد is Arabic."
+        "a": "Abad cannot be definitively called Arabic from the Latin spelling alone; آباد is a Persian/Urdu form and عبد is Arabic."
       },
       {
         "q": "What is the root of Abad?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "No root analysis is asserted until the intended form is confirmed."
       },
       {
         "q": "Is Abad an Islamic name?",
-        "a": "Abad is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "This record does not establish a religious meaning for Abad; a possible reading as عبد would not by itself form a complete compound name."
       },
       {
         "q": "Is Abad a Quranic name?",
-        "a": "Abad is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish Abad as a Qur'anic personal name."
       },
       {
         "q": "What does Abad mean in Urdu?",
-        "a": "In Urdu it is written عبد and carries the sense “بندہ، خادم، عابد”."
+        "a": "In Urdu, عبد means servant while آباد means inhabited/flourishing; the original spelling must be confirmed before assigning a meaning."
       },
       {
         "q": "How is Abad pronounced?",
-        "a": "A romanized syllable approximation is “a-bad”."
+        "a": "The supplied “a-bad” is an approximate romanization and does not resolve the intended original-script form."
       },
       {
         "q": "Is Abad a boy's or girl's name?",
-        "a": "Documented usage records Abad as a boy's name; actual use can vary by community."
+        "a": "The record classifies Abad as masculine, but the underlying form and name usage remain uncertain."
       }
     ],
     "seo": {
@@ -362,7 +360,7 @@
               "name": "What does Abad mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abad is an Arabic-origin name meaning “Servant, worshipper”."
+                "text": "The meaning of Abad is unresolved because the Latin spelling may represent Arabic عبد (“servant”) or Persian/Urdu آباد (“inhabited, flourishing”)."
               }
             },
             {
@@ -370,7 +368,7 @@
               "name": "What is the origin of Abad?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abad originates in Arabic and circulates in Muslim naming communities."
+                "text": "The origin is not established until the intended original-script form is confirmed."
               }
             },
             {
@@ -378,7 +376,7 @@
               "name": "Is Abad an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عبد is Arabic."
+                "text": "Abad cannot be definitively called Arabic from the Latin spelling alone; آباد is a Persian/Urdu form and عبد is Arabic."
               }
             },
             {
@@ -386,7 +384,7 @@
               "name": "What is the root of Abad?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "No root analysis is asserted until the intended form is confirmed."
               }
             },
             {
@@ -394,7 +392,7 @@
               "name": "Is Abad an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abad is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "This record does not establish a religious meaning for Abad; a possible reading as عبد would not by itself form a complete compound name."
               }
             },
             {
@@ -402,7 +400,7 @@
               "name": "Is Abad a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abad is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish Abad as a Qur'anic personal name."
               }
             },
             {
@@ -410,7 +408,7 @@
               "name": "What does Abad mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عبد and carries the sense “بندہ، خادم، عابد”."
+                "text": "In Urdu, عبد means servant while آباد means inhabited/flourishing; the original spelling must be confirmed before assigning a meaning."
               }
             },
             {
@@ -418,7 +416,7 @@
               "name": "How is Abad pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “a-bad”."
+                "text": "The supplied “a-bad” is an approximate romanization and does not resolve the intended original-script form."
               }
             },
             {
@@ -426,7 +424,7 @@
               "name": "Is Abad a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abad as a boy's name; actual use can vary by community."
+                "text": "The record classifies Abad as masculine, but the underlying form and name usage remain uncertain."
               }
             }
           ]
