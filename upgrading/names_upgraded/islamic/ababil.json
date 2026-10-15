@@ -11,8 +11,8 @@
       "normalized_name": "ababil",
       "name_type": "given_name",
       "gender": "Unisex",
-      "gender_confidence": "HIGH",
-      "gender_note": "Gender is recorded from documented naming usage, not inferred from the word's meaning.",
+      "gender_confidence": "LOW",
+      "gender_note": "The word's Qur'anic lexical occurrence is clear, but gender patterns for its use as a given name are not independently established.",
       "alternate_spellings": [
         "Ababil",
         "ababil"
@@ -23,7 +23,7 @@
       "short_meaning": "Flocks in bands",
       "primary_meaning": "Ababil is an Arabic-origin name meaning “Flocks in bands”.",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "Ababil corresponds to the Arabic form أبابيل (أ ب ل). Its core sense is flocks, swarms (in bands). Abābīl occurs only in Sūrat al-Fīl and means 'flocks in bands'; it is plural with no singular. The source record's gloss 'Rain from the sky' is unsupported.",
+      "meaning_explanation": "Arabic أبابيل (abābīl) occurs in Qur'an 105:3 in the phrase describing birds arriving in flocks. It conveys groups/flocks in successive or clustered bands. This is Qur'anic vocabulary, but the word's appearance in the Qur'an does not establish Ababil as a named person in the text.",
       "meaning_confidence": "HIGH"
     },
     "etymology": {
@@ -32,11 +32,11 @@
       "transliteration": "ababil",
       "root": "",
       "root_transliteration": "",
-      "morphology": "Simple lexical item used as a name.",
+      "morphology": "Qur'anic lexical form used for groups/flocks; its singular formation is not asserted in this record.",
       "feminine_form": null,
       "etymological_meaning": "The Arabic word أبابيل",
       "root_family": [],
-      "etymology_explanation": "The form أبابيل is an established Arabic lexical item used unchanged as a given name.",
+      "etymology_explanation": "أبابيل occurs in Qur'an 105:3 with birds described as arriving in flocks. The word is Qur'anic vocabulary; personal-name usage is a separate matter.",
       "etymology_confidence": "HIGH",
       "false_etymology_warning": "No derivation beyond the documented Arabic form is asserted. Any etymology that attributes this spelling to a different root or language without a source should be treated as unverified."
     },
@@ -63,14 +63,14 @@
       ]
     },
     "religion": {
-      "primary_association": "Islamic-cultural usage",
-      "religion_confidence": "MEDIUM",
+      "primary_association": "Qur'anic vocabulary from Sūrat al-Fīl (105:3)",
+      "religion_confidence": "HIGH",
       "religious_status": "Culturally used; not inherently a doctrinal term",
-      "religious_explanation": "Ababil is used by Muslims as a personal name, but the word itself is lexical in origin; its Islamic association is cultural rather than scriptural.",
+      "religious_explanation": "أبابيل appears in Qur'an 105:3 as flocks/groups of birds. That is a lexical occurrence, not a claim that Ababil is the name of a person in the Qur'an.",
       "quranic_status": {
-        "is_quranic": false,
-        "status": "not_verified",
-        "note": "Ababil is not independently established as a Qur'anic personal name, so no Qur'anic basis is claimed."
+        "is_quranic": true,
+        "status": "quranic_word_not_personal_name",
+        "note": "The word أبابيل appears in Qur'an 105:3; this does not establish it as a named person or a prescribed personal name."
       },
       "hadith_status": {
         "status": "not_verified",
@@ -155,46 +155,47 @@
         "name": "Ababil",
         "script": "Ababil",
         "meaning": "Flocks in bands",
-        "long_meaning": "Ababil is an Arabic-origin given name; in Arabic the word means “Flocks in bands”."
+        "long_meaning": "Ababil represents Arabic أبابيل, a Qur'anic word for flocks/groups arriving in bands (Qur'an 105:3). Its occurrence as vocabulary is distinct from being a personal name in the text."
       },
       "urdu": {
         "name": "ابابیل",
         "script": "ابابیل",
         "meaning": "جھنڈ، غول",
-        "long_meaning": "Ababil (ابابیل) عربی زبان سے ماخوذ نام ہے۔ اس کا بنیادی مفہوم جھنڈ، غول ہے۔ یہ نام مسلم معاشروں میں رکھا جاتا ہے اور اس کے مفاہیم سیاق و سباق کے مطابق استعمال ہوتے ہیں۔"
+        "long_meaning": "ابابیل عربی لفظ أبابيل کی رومن املا ہے، جو سورۃ الفیل 105:3 میں پرندوں کے جھنڈوں کے لیے آیا ہے۔ قرآنی لفظ ہونا اور کسی شخص کا قرآنی نام ہونا دو الگ باتیں ہیں۔"
       },
       "persian": {
-        "name": "Ababil",
-        "script": "Ababil",
-        "meaning": "Flocks, swarms (in bands)",
-        "long_meaning": "Flocks, swarms (in bands)"
+        "name": "أبابيل",
+        "script": "أبابيل",
+        "meaning": "دسته‌ها، گروه‌های پرندگان",
+        "long_meaning": "أبابيل در قرآن ۱۰۵:۳ برای گروه‌ها یا دسته‌های پرندگان به کار رفته است؛ این کاربرد واژگانی به‌تنهایی نام شخصی بودن را ثابت نمی‌کند.",
+        "native_review_required": true
       },
       "hindi": {
         "name": "अबाबील",
         "script": "अबाबील",
         "meaning": "झुंड, समूह",
-        "long_meaning": "Ababil (अबाबील) अरबी भाषा से लिया गया नाम है। इसका मुख्य अर्थ झुंड, समूह है। यह नाम मुस्लिम समाजों में रखा जाता है और इसका प्रयोग संदर्भ के अनुसार बदलता है।"
+        "long_meaning": "Ababil अरबी अَبابील का रूप है, जो क़ुरआन 105:3 में पक्षियों के झुंडों के लिए आता है। शब्द का क़ुरआन में आना और किसी व्यक्ति का क़ुरआनी नाम होना अलग बातें हैं।"
       },
       "pashto": {
         "name": "ابابيل",
         "script": "ابابيل",
         "meaning": "ډلې، غونډې",
-        "long_meaning": "Ababil (ابابيل) د عربي ژبې څخه اخیستل شوی نوم دی او بنسټیزه مانا یې ډلې، غونډې ده. دا نوم په مسلمانانو ټولنو کې کارول کیږي او کارونه یې د سیاق له مخې بدلیږي.",
+        "long_meaning": "أبابيل د قرآن ۱۰۵:۳ په آیت کې د مرغانو د ډلو لپاره راغلی؛ د قرآني لغت شتون په خپله دا نه ثابتوي چې دا د یو شخص نوم دی.",
         "native_review_required": true
       },
       "arabic": {
         "name": "أبابيل",
         "script": "أبابيل",
-        "meaning": "أبابيل، جماعات",
-        "long_meaning": "Ababil (أبابيل) اسم مأخوذ من اللغة العربية، ومعناه الأساسي أبابيل، جماعات. يُستخدم هذا الاسم في المجتمعات المسلمة ويختلف استعماله بحسب السياق اللغوي.",
+        "meaning": "جماعات أو أسراب متتابعة",
+        "long_meaning": "وردت أبابيل في القرآن 105:3 لوصف جماعات من الطير؛ ورود الكلمة في القرآن لا يعني أنها اسم شخص مذكور فيه.",
         "native_review_required": true
       }
     },
     "translation_quality": {
       "strategy": "semantic_translation",
-      "confidence": "HIGH",
+      "confidence": "MEDIUM",
       "native_review_required": true,
-      "note": "Each language is rendered in its own idiom; Pashto and Arabic are flagged for native review."
+      "note": "The Qur'anic occurrence is distinguished from personal-name attestation; the word's name usage and target-language renderings need review."
     },
     "pronunciation": {
       "romanized": "a-ba-bil",
@@ -253,39 +254,39 @@
     "faq": [
       {
         "q": "What does Ababil mean?",
-        "a": "Ababil is an Arabic-origin name meaning “Flocks in bands”."
+        "a": "Ababil represents Arabic أبابيل, meaning flocks or groups arriving in bands."
       },
       {
         "q": "What is the origin of Ababil?",
-        "a": "Ababil originates in Arabic and circulates in Muslim naming communities."
+        "a": "The recorded form أبابيل is Arabic and appears in Qur'anic vocabulary."
       },
       {
         "q": "Is Ababil an Arabic name?",
-        "a": "Yes, the recorded form أبابيل is Arabic."
+        "a": "Yes. The underlying Arabic word is أبابيل (abābīl)."
       },
       {
         "q": "What is the root of Ababil?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "No root or singular formation is asserted beyond the lexical form in this record."
       },
       {
         "q": "Is Ababil an Islamic name?",
-        "a": "Ababil is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "Ababil is a Qur'anic word, but its use as a personal name is a separate cultural naming choice."
       },
       {
         "q": "Is Ababil a Quranic name?",
-        "a": "Ababil is not independently established as a Qur'anic personal name."
+        "a": "The word أبابيل appears in Qur'an 105:3 in a description of birds in flocks. That does not make it the name of a person in the Qur'an."
       },
       {
         "q": "What does Ababil mean in Urdu?",
-        "a": "In Urdu it is written ابابیل and carries the sense “جھنڈ، غول”."
+        "a": "In Urdu it is written ابابیل; the word appears in Qur'an 105:3 for flocks/groups of birds."
       },
       {
         "q": "How is Ababil pronounced?",
-        "a": "A romanized syllable approximation is “a-ba-bil”."
+        "a": "The supplied “a-ba-bil” is an approximate romanization of أبابيل (abābīl)."
       },
       {
         "q": "Is Ababil a boy's or girl's name?",
-        "a": "Documented usage records Ababil as a unisex name; actual use can vary by community."
+        "a": "The record's unisex label is not supported by independent name-frequency data; personal-name gender usage remains uncertain."
       }
     ],
     "seo": {
@@ -364,7 +365,7 @@
               "name": "What does Ababil mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ababil is an Arabic-origin name meaning “Flocks in bands”."
+                "text": "Ababil represents Arabic أبابيل, meaning flocks or groups arriving in bands."
               }
             },
             {
@@ -372,7 +373,7 @@
               "name": "What is the origin of Ababil?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ababil originates in Arabic and circulates in Muslim naming communities."
+                "text": "The recorded form أبابيل is Arabic and appears in Qur'anic vocabulary."
               }
             },
             {
@@ -380,7 +381,7 @@
               "name": "Is Ababil an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form أبابيل is Arabic."
+                "text": "Yes. The underlying Arabic word is أبابيل (abābīl)."
               }
             },
             {
@@ -388,7 +389,7 @@
               "name": "What is the root of Ababil?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "No root or singular formation is asserted beyond the lexical form in this record."
               }
             },
             {
@@ -396,7 +397,7 @@
               "name": "Is Ababil an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ababil is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "Ababil is a Qur'anic word, but its use as a personal name is a separate cultural naming choice."
               }
             },
             {
@@ -404,7 +405,7 @@
               "name": "Is Ababil a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ababil is not independently established as a Qur'anic personal name."
+                "text": "The word أبابيل appears in Qur'an 105:3 in a description of birds in flocks. That does not make it the name of a person in the Qur'an."
               }
             },
             {
@@ -412,7 +413,7 @@
               "name": "What does Ababil mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written ابابیل and carries the sense “جھنڈ، غول”."
+                "text": "In Urdu it is written ابابیل; the word appears in Qur'an 105:3 for flocks/groups of birds."
               }
             },
             {
@@ -420,7 +421,7 @@
               "name": "How is Ababil pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “a-ba-bil”."
+                "text": "The supplied “a-ba-bil” is an approximate romanization of أبابيل (abābīl)."
               }
             },
             {
@@ -428,7 +429,7 @@
               "name": "Is Ababil a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Ababil as a unisex name; actual use can vary by community."
+                "text": "The record's unisex label is not supported by independent name-frequency data; personal-name gender usage remains uncertain."
               }
             }
           ]
