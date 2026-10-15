@@ -11,8 +11,8 @@
       "normalized_name": "abdal",
       "name_type": "given_name",
       "gender": "Male",
-      "gender_confidence": "MEDIUM",
-      "gender_note": "Gender is recorded from documented naming usage, not inferred from the word's meaning.",
+      "gender_confidence": "LOW",
+      "gender_note": "The intended Arabic form and personal-name use are unresolved.",
       "alternate_spellings": [
         "Abdal",
         "abdal"
@@ -20,24 +20,24 @@
       "name_status": "attested"
     },
     "core_meaning": {
-      "short_meaning": "Servant, worshipper (of God)",
-      "primary_meaning": "Abdal is an Arabic-origin name meaning “Servant, worshipper (of God)”.",
+      "short_meaning": "Ambiguous form: incomplete عبد ال… compound or أبدال plural",
+      "primary_meaning": "Abdal is ambiguous: the recorded form عبدال looks like the beginning of a compound عبد ال… (“servant of the…”), while أبدال is a different Arabic word meaning substitutes/replacements. The intended form must be confirmed.",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "Abdal corresponds to the Arabic form عبدال (ع ب د). Its core sense is servant, worshipper (of god). Shortened form of a theophoric compound such as عبد الله. The source record's gloss 'Servant of Allah' is plausible but the full compound is not established for this exact form.",
-      "meaning_confidence": "MEDIUM"
+      "meaning_explanation": "The source spelling عبدال is not a complete standalone form of “servant of Allah”; that compound is عبد الله. It also must not be confused with أبدال (abdāl), the plural of بدل. Because the Latin spelling Abdal could be associated with either form, this record does not assert a definitive meaning or personal-name origin.",
+      "meaning_confidence": "LOW"
     },
     "etymology": {
       "primary_language": "Arabic",
-      "lexical_form": "عبدال",
-      "transliteration": "abdal",
+      "lexical_form": "عبدال / أبدال (unresolved)",
+      "transliteration": "Abdal",
       "root": "",
       "root_transliteration": "",
-      "morphology": "Simple lexical item used as a name.",
+      "morphology": "Ambiguous: possibly an incomplete compound fragment or the distinct plural أبدال.",
       "feminine_form": null,
-      "etymological_meaning": "The Arabic word عبدال",
+      "etymological_meaning": "Unresolved",
       "root_family": [],
-      "etymology_explanation": "The form عبدال is an established Arabic lexical item used unchanged as a given name.",
-      "etymology_confidence": "MEDIUM",
+      "etymology_explanation": "عبدال is not the complete form عبد الله, while أبدال is a separate plural word. The intended original-script form must be confirmed.",
+      "etymology_confidence": "LOW",
       "false_etymology_warning": "No derivation beyond the documented Arabic form is asserted. Any etymology that attributes this spelling to a different root or language without a source should be treated as unverified."
     },
     "language": {
@@ -154,47 +154,48 @@
       "english": {
         "name": "Abdal",
         "script": "Abdal",
-        "meaning": "Servant, worshipper (of God)",
-        "long_meaning": "Abdal is an Arabic-origin given name; in Arabic the word means “Servant, worshipper (of God)”."
+        "meaning": "Ambiguous; original-script form needs confirmation",
+        "long_meaning": "Abdal may represent the fragment عبدال from a compound name, or the distinct word أبدال (“substitutes/replacements”). The intended form must be confirmed before assigning a meaning."
       },
       "urdu": {
         "name": "عبدال",
         "script": "عبدال",
-        "meaning": "بندہ، خادم، عابد",
-        "long_meaning": "Abdal (عبدال) عربی زبان سے ماخوذ نام ہے۔ اس کا بنیادی مفہوم بندہ، خادم، عابد ہے۔ یہ نام مسلم معاشروں میں رکھا جاتا ہے اور اس کے مفاہیم سیاق و سباق کے مطابق استعمال ہوتے ہیں۔"
+        "meaning": "اصل عربی صورت کی تصدیق درکار",
+        "long_meaning": "Abdal کی رومن املا سے یہ طے نہیں ہوتا کہ مراد مرکب نام کا نامکمل حصہ عبدال ہے یا الگ لفظ أبدال (متبادل/بدل)۔ اصل صورت کی تصدیق ضروری ہے۔"
       },
       "persian": {
         "name": "Abdal",
-        "script": "Abdal",
-        "meaning": "Servant, worshipper (of God)",
-        "long_meaning": "Servant, worshipper (of God)"
+        "script": "عبدال / أبدال (نامشخص)",
+        "meaning": "نیازمند تأیید صورت اصلی",
+        "long_meaning": "املای لاتین Abdal مشخص نمی‌کند که منظور بخش ناقص یک نام مرکب (عبدال) است یا واژهٔ جداگانهٔ أبدال به معنای جایگزین‌ها؛ صورت اصلی باید تأیید شود.",
+        "native_review_required": true
       },
       "hindi": {
         "name": "अब्दाल",
         "script": "अब्दाल",
-        "meaning": "दास, सेवक, उपासक",
-        "long_meaning": "Abdal (अब्दाल) अरबी भाषा से लिया गया नाम है। इसका मुख्य अर्थ दास, सेवक, उपासक है। यह नाम मुस्लिम समाजों में रखा जाता है और इसका प्रयोग संदर्भ के अनुसार बदलता है।"
+        "meaning": "मूल अरबी रूप की पुष्टि आवश्यक",
+        "long_meaning": "Abdal से यह निश्चित नहीं होता कि अभिप्रेत रूप किसी संयुक्त नाम का अधूरा भाग عبدال है या अलग शब्द أبدال (“प्रतिस्थापक”); मूल वर्तनी की पुष्टि आवश्यक है।"
       },
       "pashto": {
         "name": "عبدال",
         "script": "عبدال",
-        "meaning": "بنده، خدمتګار",
-        "long_meaning": "Abdal (عبدال) د عربي ژبې څخه اخیستل شوی نوم دی او بنسټیزه مانا یې بنده، خدمتګار ده. دا نوم په مسلمانانو ټولنو کې کارول کیږي او کارونه یې د سیاق له مخې بدلیږي.",
+        "meaning": "د اصلي عربي بڼې تایید ته اړتیا ده",
+        "long_meaning": "Abdal ښايي د مرکب نوم نیمګړې برخه عبدال وي یا جلا عربي کلمه أبدال؛ د اصلي بڼې تایید اړین دی.",
         "native_review_required": true
       },
       "arabic": {
         "name": "عبدال",
         "script": "عبدال",
-        "meaning": "عبد، خادم، عابد",
-        "long_meaning": "Abdal (عبدال) اسم مأخوذ من اللغة العربية، ومعناه الأساسي عبد، خادم، عابد. يُستخدم هذا الاسم في المجتمعات المسلمة ويختلف استعماله بحسب السياق اللغوي.",
+        "meaning": "صورتان مختلفتان؛ المقصود غير محسوم",
+        "long_meaning": "عبدال جزء غير مكتمل من تركيب محتمل، أما أبدال فهي كلمة أخرى بمعنى البدائل؛ لا يحسم الرسم اللاتيني Abdal المقصود.",
         "native_review_required": true
       }
     },
     "translation_quality": {
       "strategy": "semantic_translation",
-      "confidence": "MEDIUM",
+      "confidence": "LOW",
       "native_review_required": true,
-      "note": "Each language is rendered in its own idiom; Pashto and Arabic are flagged for native review."
+      "note": "The ambiguous Latin form and two distinct Arabic spellings are disclosed; no unsupported “servant of Allah” gloss is asserted."
     },
     "pronunciation": {
       "romanized": "ab-dal",
@@ -251,39 +252,39 @@
     "faq": [
       {
         "q": "What does Abdal mean?",
-        "a": "Abdal is an Arabic-origin name meaning “Servant, worshipper (of God)”."
+        "a": "Abdal is ambiguous: it may represent a compound fragment عبدال or the distinct plural أبدال (“substitutes/replacements”)."
       },
       {
         "q": "What is the origin of Abdal?",
-        "a": "Abdal originates in Arabic and circulates in Muslim naming communities."
+        "a": "The linguistic origin cannot be finalized until the intended original-script form is confirmed."
       },
       {
         "q": "Is Abdal an Arabic name?",
-        "a": "Yes, the recorded form عبدال is Arabic."
+        "a": "Abdal may be associated with Arabic forms, but the source form and meaning remain ambiguous."
       },
       {
         "q": "What is the root of Abdal?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "No root analysis is asserted until the intended form is established."
       },
       {
         "q": "Is Abdal an Islamic name?",
-        "a": "Abdal is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "This record does not establish a complete devotional meaning; عبد الله is the full form for “servant of Allah.”"
       },
       {
         "q": "Is Abdal a Quranic name?",
-        "a": "Abdal is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish Abdal as a Qur'anic personal name."
       },
       {
         "q": "What does Abdal mean in Urdu?",
-        "a": "In Urdu it is written عبدال and carries the sense “بندہ، خادم، عابد”."
+        "a": "The Urdu meaning cannot be finalized until the source form is confirmed; عبدال and أبدال are different forms."
       },
       {
         "q": "How is Abdal pronounced?",
-        "a": "A romanized syllable approximation is “ab-dal”."
+        "a": "The supplied “ab-dal” is an approximate romanization and does not identify which Arabic form is intended."
       },
       {
         "q": "Is Abdal a boy's or girl's name?",
-        "a": "Documented usage records Abdal as a boy's name; actual use can vary by community."
+        "a": "Gender usage is not established because the original form and personal-name identity remain unresolved."
       }
     ],
     "seo": {
@@ -362,7 +363,7 @@
               "name": "What does Abdal mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdal is an Arabic-origin name meaning “Servant, worshipper (of God)”."
+                "text": "Abdal is ambiguous: it may represent a compound fragment عبدال or the distinct plural أبدال (“substitutes/replacements”)."
               }
             },
             {
@@ -370,7 +371,7 @@
               "name": "What is the origin of Abdal?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdal originates in Arabic and circulates in Muslim naming communities."
+                "text": "The linguistic origin cannot be finalized until the intended original-script form is confirmed."
               }
             },
             {
@@ -378,7 +379,7 @@
               "name": "Is Abdal an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عبدال is Arabic."
+                "text": "Abdal may be associated with Arabic forms, but the source form and meaning remain ambiguous."
               }
             },
             {
@@ -386,7 +387,7 @@
               "name": "What is the root of Abdal?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "No root analysis is asserted until the intended form is established."
               }
             },
             {
@@ -394,7 +395,7 @@
               "name": "Is Abdal an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdal is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "This record does not establish a complete devotional meaning; عبد الله is the full form for “servant of Allah.”"
               }
             },
             {
@@ -402,7 +403,7 @@
               "name": "Is Abdal a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdal is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish Abdal as a Qur'anic personal name."
               }
             },
             {
@@ -410,7 +411,7 @@
               "name": "What does Abdal mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عبدال and carries the sense “بندہ، خادم، عابد”."
+                "text": "The Urdu meaning cannot be finalized until the source form is confirmed; عبدال and أبدال are different forms."
               }
             },
             {
@@ -418,7 +419,7 @@
               "name": "How is Abdal pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “ab-dal”."
+                "text": "The supplied “ab-dal” is an approximate romanization and does not identify which Arabic form is intended."
               }
             },
             {
@@ -426,7 +427,7 @@
               "name": "Is Abdal a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abdal as a boy's name; actual use can vary by community."
+                "text": "Gender usage is not established because the original form and personal-name identity remain unresolved."
               }
             }
           ]
