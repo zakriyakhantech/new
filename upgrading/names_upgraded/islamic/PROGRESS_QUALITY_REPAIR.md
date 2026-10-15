@@ -2,7 +2,7 @@
 
 - Working branch: `quality-gates/all-name-records`
 - Dataset: `upgrading/names_upgraded/islamic/`
-- Total individually reviewed/edited so far: **78 records** (partial; not the full dataset).
+- Total individually reviewed/edited so far: **81 records** (partial; not the full dataset).
 - Scope: FAQ answer accuracy and uniqueness, FAQPage JSON-LD parity, canonical and breadcrumb URLs, and cautious correction of meaning/form mismatches.
 - Safety rule: do not invent meanings, origins, Qur'anic claims, popularity, or translations. Keep uncertain claims explicitly unverified.
 
@@ -102,6 +102,10 @@
 77. `aas.json` — removed unsupported “Unknown” language/origin claims and made unresolved meaning, script, translations, and FAQs explicit.
 78. `aasaal.json` — removed the incorrect copied gloss “Ahmad” and unsupported “Unknown” origin claims; made meaning and translations explicitly unverified.
 
+79. `aasal.json` — corrected Hindi and Pashto translation errors for Arabic عسل (“honey”); flagged name-use and target-language renderings for review.
+80. `aaseman.json` — recorded the plausible Persian آسمان (“sky/heavens”) match as provisional rather than falsely treating “Unknown” as a language or asserting personal-name frequency.
+81. `aasfa.json` — downgraded the identification with Arabic عاصفة to provisional because Aasfa is not a direct transliteration; aligned translations and FAQs accordingly.
+
 ## Validation
 
 - Records `aafaq`, `aafia`, `aafiya`, `aafreen`, `aaftab`, `aahil`, `aahoo`, `aaida`, `aaima`, `aaina`, `aaira`, `aaisha`, `aaiz`, `aakif`, and `aakifah`, `aakil`, `aala`, and `aalaa` were re-fetched after saving and validated: JSON parsing succeeded, FAQPage parity passed, duplicate-question count was zero, and canonical/BreadcrumbList were present and route-consistent.
@@ -122,6 +126,7 @@
 - Latest batch (`aarizun`, `aaron`, `aarya`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb. Aaron's remaining occurrence of the phrase “mountain of strength” appears only in cautionary text explaining that the gloss is disputed, not as a positive meaning claim.
 - Latest batch (`aaryan`, `aarzam`, `aarzoo`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Latest batch (`aarzu`, `aas`, `aasaal`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
+- Latest batch (`aasal`, `aaseman`, `aasfa`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Structural validation does not prove that every semantic claim is independently sourced. Translation fields marked for native review are not represented as native-verified.
 
 ## Still outstanding
