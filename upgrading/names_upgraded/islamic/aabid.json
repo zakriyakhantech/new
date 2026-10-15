@@ -37,7 +37,7 @@
       "feminine_form": "عابدة (ʿābida)",
       "etymological_meaning": "From the root ع ب د (ʿ-b-d)",
       "root_family": [],
-      "etymology_explanation": "Arabic عَابِد (ʿābid) is the active participle of عَبَدَ, from the root ع ب د (ʿ-b-d), and means a worshipper or devotee. “Servant of God” is a contextual paraphrase, not the literal morphology of the word.",
+      "etymology_explanation": "The form عابد (ʿābid) is the active participle of عَبَدَ and is associated with the triliteral root ع ب د (ʿ-b-d). The root field records the consonantal root; the lexical gloss belongs in the meaning fields.",
       "etymology_confidence": "HIGH",
       "false_etymology_warning": "Do not infer a Qur'anic status, religious prescription, popularity, personality trait, or separate etymology from Muslim usage or Latin spelling alone."
     },
@@ -339,9 +339,9 @@
         "arabic_pashto_native_review_pending"
       ],
       "fabricated_content_removed": true,
-      "fields_total": 153,
+      "fields_total": 192,
       "quality_score": 80,
-      "quality_score_basis": "Provisional editorial estimate: 80/100 after fixing JSON metadata consistency, localized meaning placeholders, canonical/breadcrumb values, FAQ schema synchronization, and repeated page copy. Source URLs have not been independently rechecked in this pass and Arabic/Pashto native-speaker review remains outstanding; this is not a certification of factual accuracy.",
+      "quality_score_basis": "Provisional editorial estimate. fields_total counts object fields recursively, treating each array as one field and not counting array elements. Lane's Lexicon meaning entry was checked; modern name frequency and Arabic/Pashto native review remain incomplete. Rendered HTML still requires deployment checks.",
       "tier1_verified_scope": "Core meaning and every associated claim have not been independently re-verified in this pass; source links, translation review, and usage evidence have separate status."
     },
     "evidence": {
@@ -349,7 +349,7 @@
         "https://www.laneslexicon.com/word/%D8%B9%D8%A7%D8%A8%D8%AF",
         "https://www.arabdict.com/ar/%D8%B9%D8%B1%D8%A8%D9%8A-%D8%B9%D8%B1%D8%A8%D9%8A/%D8%A7%D9%84%D8%B9%D8%A7%D8%A8%D8%AF"
       ],
-      "verification_method": "Claim-level mapping is editorial metadata. URLs were taken from the record and were not independently rechecked in this pass; do not treat this field as proof of native-speaker review, frequency, or complete field verification.",
+      "verification_method": "The Lane's Lexicon entry for عَابِدٌ was checked directly and defines it as a worshipper or devotee; see the linked entry. Other listed sources, translations, frequency claims, and modern personal-name usage have not all been independently verified. Arabic/Pashto native-speaker review remains outstanding.",
       "claim_evidence": [
         {
           "claim": "Arabic lexical meaning and root ع ب د",
@@ -357,7 +357,7 @@
           "status": "listed_source_not_independently_rechecked"
         }
       ],
-      "claim_evidence_status": "SOURCE_URLS_LISTED_NOT_INDEPENDENTLY_RECHECKED_IN_THIS_PASS"
+      "claim_evidence_status": "LANE_LEXICON_ENTRY_CHECKED; OTHER_SOURCE_URLS_AND_NONLEXICAL_CLAIMS_NOT_FULLY_VERIFIED"
     },
     "provenance": {
       "pipeline": "NameVerse editorial revision",
@@ -371,7 +371,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Aabid",
-          "description": "Aabid — an Arabic-origin given name meaning Worshipper, one who serves God",
+          "description": "Aabid (عابد) — Arabic active participle meaning “worshipper” or “one who worships.”",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
