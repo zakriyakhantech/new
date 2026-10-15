@@ -15,8 +15,7 @@
       "gender_note": "Gender is recorded from documented naming usage, not inferred from the word's meaning.",
       "alternate_spellings": [
         "Aalam",
-        "aalam",
-        "alam"
+        "Alam"
       ],
       "name_status": "attested"
     },
@@ -179,8 +178,8 @@
       "pashto": {
         "name": "عالم",
         "script": "عالم",
-        "meaning": "جهان، نړۍ، عالم",
-        "long_meaning": "Aalam (عالم) د عربي ژبې څخه اخیستل شوی نوم دی او بنسټیزه مانا یې جهان، نړۍ، عالم ده. دا نوم په مسلمانانو ټولنو کې کارول کیږي او کارونه یې د سیاق له مخې بدلیږي.",
+        "meaning": "عالم، نړۍ یا جهان",
+        "long_meaning": "عالم (ʿālam) په عربي کې د نړۍ یا جهان معنا لري. د نوم دا لغوي معنا د نوم د شهرت یا د شخص د ځانګړنو په اړه ادعا نه ده.",
         "native_review_required": true
       },
       "arabic": {
@@ -458,11 +457,13 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
+      "needs_manual_verification": true,
+      "flags": [
+        "Pashto translation revised for consistency; native-speaker review still required"
+      ],
       "confidence": "HIGH",
       "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "reviewed_at": "2026-10-15"
     },
     "render_policy": {
       "render_verified": true,
