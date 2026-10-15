@@ -2,7 +2,7 @@
 
 - Working branch: `quality-gates/all-name-records`
 - Dataset: `upgrading/names_upgraded/islamic/`
-- Total individually reviewed/edited so far: **174 records** (partial; not the full dataset).
+- Total individually reviewed/edited so far: **177 records** (partial; not the full dataset).
 - Scope: FAQ answer accuracy and uniqueness, FAQPage JSON-LD parity, canonical and breadcrumb URLs, and cautious correction of meaning/form mismatches.
 - Safety rule: do not invent meanings, origins, Qur'anic claims, popularity, or translations. Keep uncertain claims explicitly unverified.
 
@@ -225,6 +225,10 @@
 173. `abdulaziz.json` — clarified compound عبد + العزيز and populated the two component roots.
 174. `abdulbari.json` — clarified compound عبد + البارئ and populated the two component roots.
 
+175. `abdulbaseer.json` — clarified compound عبد + البصير and populated the two component roots.
+176. `abdulfattah.json` — clarified compound عبد + الفتاح and populated the two component roots.
+177. `abdulghaffar.json` — clarified compound عبد + الغفار and populated the two component roots.
+
 ## Validation
 
 - Records `aafaq`, `aafia`, `aafiya`, `aafreen`, `aaftab`, `aahil`, `aahoo`, `aaida`, `aaima`, `aaina`, `aaira`, `aaisha`, `aaiz`, `aakif`, and `aakifah`, `aakil`, `aala`, and `aalaa` were re-fetched after saving and validated: JSON parsing succeeded, FAQPage parity passed, duplicate-question count was zero, and canonical/BreadcrumbList were present and route-consistent.
@@ -272,6 +276,7 @@
 - Latest batch (`abderrahim`, `abderrahman`, `abdeslam`, `abdi`, `abdiel`, `abdil`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Latest batch (`abdiqani`, `abdirahman`, `abdo`, `abdah`, `abdel`, `abdoulaye`, `abduh`, `abdul`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Latest batch (`abdulazeez`, `abdulaziz`, `abdulbari`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
+- Latest batch (`abdulbaseer`, `abdulfattah`, `abdulghaffar`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Structural validation does not prove that every semantic claim is independently sourced. Translation fields marked for native review are not represented as native-verified.
 
 ## Still outstanding
