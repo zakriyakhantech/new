@@ -2,7 +2,7 @@
 
 - Working branch: `quality-gates/all-name-records`
 - Dataset: `upgrading/names_upgraded/islamic/`
-- Total individually reviewed/edited so far: **28 records** (partial; not the full dataset).
+- Total individually reviewed/edited so far: **31 records** (partial; not the full dataset).
 - Scope: FAQ answer accuracy and uniqueness, FAQPage JSON-LD parity, canonical and breadcrumb URLs, and cautious correction of meaning/form mismatches.
 - Safety rule: do not invent meanings, origins, Qur'anic claims, popularity, or translations. Keep uncertain claims explicitly unverified.
 
@@ -36,11 +36,14 @@
 26. `aaiz.json` — improved 9 FAQ answers; clarified Arabic عائذ as “one who seeks refuge/protection.”
 27. `aakif.json` — improved 9 FAQ answers; clarified Arabic عاكف and avoided unsupported popularity/scriptural claims.
 28. `aakifah.json` — improved 9 FAQ answers; clarified feminine Arabic عاكفة and its lexical sense.
+29. `aakil.json` — improved 9 FAQ answers; refined Arabic عاقل gloss and corrected the Arabic translation’s gender/meaning.
+30. `aala.json` — improved 9 FAQ answers; downgraded confidence because Arabic عالية does not clearly match the exact Latin spelling Aala.
+31. `aalaa.json` — improved 9 FAQ answers; clarified علاء as a lexical term related to elevation/eminence and kept gender/popularity claims provisional.
 
 ## Validation
 
-- Records `aafaq`, `aafia`, `aafiya`, `aafreen`, `aaftab`, `aahil`, `aahoo`, `aaida`, `aaima`, `aaina`, `aaira`, `aaisha`, `aaiz`, `aakif`, and `aakifah` were re-fetched after saving and validated: JSON parsing succeeded, FAQPage parity passed, duplicate-question count was zero, and canonical/BreadcrumbList were present and route-consistent.
-- These 15 records have 9 FAQ entries each. No filler questions were added just to reach 10.
+- Records `aafaq`, `aafia`, `aafiya`, `aafreen`, `aaftab`, `aahil`, `aahoo`, `aaida`, `aaima`, `aaina`, `aaira`, `aaisha`, `aaiz`, `aakif`, and `aakifah`, `aakil`, `aala`, and `aalaa` were re-fetched after saving and validated: JSON parsing succeeded, FAQPage parity passed, duplicate-question count was zero, and canonical/BreadcrumbList were present and route-consistent.
+- These 18 records have 9 FAQ entries each. No filler questions were added just to reach 10.
 - The first 9 quality-repair records were also validated after edits for JSON validity, FAQPage parity, no duplicate normalized questions, and canonical/BreadcrumbList consistency. `aaban` and `aadhil` had separate checks/corrections before this log was created.
 - Structural validation does not prove that every semantic claim is independently sourced. Translation fields marked for native review are not represented as native-verified.
 
