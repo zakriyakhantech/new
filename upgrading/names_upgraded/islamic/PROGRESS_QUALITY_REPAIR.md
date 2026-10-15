@@ -2,7 +2,7 @@
 
 - Working branch: `quality-gates/all-name-records`
 - Dataset: `upgrading/names_upgraded/islamic/`
-- Total individually reviewed/edited so far: **157 records** (partial; not the full dataset).
+- Total individually reviewed/edited so far: **163 records** (partial; not the full dataset).
 - Scope: FAQ answer accuracy and uniqueness, FAQPage JSON-LD parity, canonical and breadcrumb URLs, and cautious correction of meaning/form mismatches.
 - Safety rule: do not invent meanings, origins, Qur'anic claims, popularity, or translations. Keep uncertain claims explicitly unverified.
 
@@ -205,6 +205,13 @@
 156. `abdelsalam.json` — clarified compound morphology عبد + السلام and aligned translations to “servant of al-Salām.”
 157. `abdelwahab.json` — clarified compound morphology عبد + الوهاب and aligned translations to “servant of al-Wahhāb.”
 
+158. `abderrahim.json` — clarified compound عبد + الرحيم and corrected morphology from a “simple lexical item” to a compound.
+159. `abderrahman.json` — clarified compound عبد + الرحمن and corrected morphology from a “simple lexical item” to a compound.
+160. `abdeslam.json` — clarified compound عبد + السلام and corrected morphology from a “simple lexical item” to a compound.
+161. `abdi.json` — clarified literal possessive meaning “my servant,” removed the unsupported addition “of God,” and documented Somali/East African use.
+162. `abdiel.json` — corrected origin to Hebrew and restored the traditional “servant of God” interpretation without misclassifying it as Arabic.
+163. `abdil.json` — removed placeholder “Unknown” fields and unverified Arabic identification; marked source form, meaning, and gender as unresolved.
+
 ## Validation
 
 - Records `aafaq`, `aafia`, `aafiya`, `aafreen`, `aaftab`, `aahil`, `aahoo`, `aaida`, `aaima`, `aaina`, `aaira`, `aaisha`, `aaiz`, `aakif`, and `aakifah`, `aakil`, `aala`, and `aalaa` were re-fetched after saving and validated: JSON parsing succeeded, FAQPage parity passed, duplicate-question count was zero, and canonical/BreadcrumbList were present and route-consistent.
@@ -249,6 +256,7 @@
 - Latest batch (`abbasi`, `abbass`, `abbood`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Latest batch (`abd`, `abda`, `abdaal`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Latest compound-name batch was re-fetched after saving and validated: all 10 records (`abdal`, `abdalla`, `abdelaziz`, `abdelhadi`, `abdelkader`, `abdelkarim`, `abdelmajid`, `abdelnasser`, `abdelsalam`, `abdelwahab`) parse as JSON, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
+- Latest batch (`abderrahim`, `abderrahman`, `abdeslam`, `abdi`, `abdiel`, `abdil`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Structural validation does not prove that every semantic claim is independently sourced. Translation fields marked for native review are not represented as native-verified.
 
 ## Still outstanding
