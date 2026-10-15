@@ -15,6 +15,7 @@
 | Batch | Range | Files reviewed | Files changed | Status |
 |---|---|---:|---:|---|
 | 001 | `aaban.json` – `aadila.json` | 10 | 9 | Committed; structural spot-check passed; source/native review still outstanding where flagged |
+| 002 | `aaf.json` – `aaiz.json` | 15 | 15 | Committed sequentially; spelling/canonical/slug checks passed; source/native review still outstanding where flagged |
 
 ### Batch 001 notes
 
@@ -28,3 +29,18 @@
 ## Next file
 
 Continue after `aadila.json` with `aaf.json`, then proceed lexicographically. Do not skip records; log unchanged or unresolved records explicitly.
+
+
+### Batch 002 notes
+
+- Reviewed and updated: `aaf.json`, `aafak.json`, `aafaq.json`, `aafia.json`, `aafiya.json`, `aafreen.json`, `aaftab.json`, `aahil.json`, `aahoo.json`, `aaida.json`, `aaima.json`, `aaina.json`, `aaira.json`, `aaisha.json`, `aaiz.json`.
+- Removed case-only alternate-spelling entries; retained the non-case spelling variants.
+- Revised Pashto meanings to better align with the record's stated meaning or to explicitly preserve uncertainty where the exact spelling is not verified. These edits still require fluent Pashto review.
+- Each updated record was re-fetched and parsed as JSON. The edited records' slugs and canonical URLs were preserved, and normalized alternate-spelling arrays had no case-only duplicates.
+- FAQ arrays and FAQPage structured data were not edited in this batch; their parity was spot-checked for the 15 records before editing, but a full post-edit dataset-wide FAQ audit remains pending.
+
+**Total through batch 002:** 25 files reviewed; 24 changed; 1 reviewed with no change. This is only the beginning of the repository-wide pass, not dataset completion.
+
+## Next file
+
+Continue after `aaiz.json` with `aakif.json`, then proceed lexicographically. Do not skip records; log unchanged or unresolved records explicitly.
