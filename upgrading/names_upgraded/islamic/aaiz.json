@@ -15,8 +15,7 @@
       "gender_note": "Gender is recorded from documented naming usage, not inferred from the word's meaning.",
       "alternate_spellings": [
         "Aaiz",
-        "aaiz",
-        "aiz"
+        "Aiz"
       ],
       "name_status": "attested"
     },
@@ -179,8 +178,8 @@
       "pashto": {
         "name": "عائذ",
         "script": "عائذ",
-        "meaning": "پناه غوښتونکی",
-        "long_meaning": "پناه غوښتونکی. This is a concise lexical gloss only; popularity and scriptural status are not inferred from it.",
+        "meaning": "پناه غوښتونکی، د پناه په لټه کې",
+        "long_meaning": "دا مانا یوازې هغه وخت د تایید شوې لغوي مانا په توګه وښایئ چې د عربي بڼې او سرچینې اړیکه تایید شوې وي؛ له دې څخه د نوم د شهرت یا قرآني حیثیت ادعا نه کېږي.",
         "native_review_required": true
       },
       "arabic": {
@@ -458,11 +457,13 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
+      "needs_manual_verification": true,
+      "flags": [
+        "Pashto translation reviewed for consistency; native-speaker review still required"
+      ],
       "confidence": "HIGH",
       "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "reviewed_at": "2026-10-15"
     },
     "render_policy": {
       "render_verified": true,
