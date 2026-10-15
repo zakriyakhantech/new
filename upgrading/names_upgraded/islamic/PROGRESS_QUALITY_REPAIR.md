@@ -2,13 +2,13 @@
 
 - Working branch: `quality-gates/all-name-records`
 - Dataset: `upgrading/names_upgraded/islamic/`
-- Total individually reviewed/edited so far: **22 records** (this is a partial batch, not the full dataset).
+- Total individually reviewed/edited so far: **25 records** (partial; not the full dataset).
 - Scope: FAQ answer accuracy and uniqueness, FAQPage JSON-LD parity, canonical and breadcrumb URLs, and cautious correction of meaning/form mismatches.
 - Safety rule: do not invent meanings, origins, Qur'anic claims, popularity, or translations. Keep uncertain claims explicitly unverified.
 
 ## Completed records
 
-1. `aaban.json` — corrected FAQ answer to match the record's unknown gender classification; synchronized visible FAQ and FAQPage structured data.
+1. `aaban.json` — corrected gender FAQ to match the record's unknown gender classification; synchronized visible FAQ and FAQPage structured data.
 2. `aabid.json` — improved 5 FAQ answers.
 3. `aabida.json` — improved 5 FAQ answers.
 4. `aabir.json` — improved 6 FAQ answers.
@@ -30,17 +30,19 @@
 20. `aahoo.json` — improved 9 FAQ answers; clarified Persian origin and lexical meaning of آهو.
 21. `aaida.json` — improved 9 FAQ answers; clarified the feminine Arabic form عائدة and its lexical meaning.
 22. `aaima.json` — improved 9 FAQ answers and downgraded confidence because the Latin spelling Aaima does not conclusively establish the intended Arabic form عائمة.
+23. `aaina.json` — improved 9 FAQ answers; clarified Persian/Urdu “mirror” meaning and avoided incorrectly labelling the word Arabic.
+24. `aaira.json` — improved 9 FAQ answers and removed contradictory unsupported glosses; meaning, origin, root, and translations remain unverified.
+25. `aaisha.json` — improved 9 FAQ answers; removed unsupported “female helper” gloss and distinguished the Arabic lexical meaning from the historical bearer.
 
 ## Validation
 
-- The first 9 quality-repair records were validated after edits for valid JSON, FAQPage parity, no duplicate normalized questions, and canonical/BreadcrumbList consistency.
-- Records `aafaq`, `aafia`, `aafiya`, `aafreen`, `aaftab`, `aahil`, `aahoo`, `aaida`, and `aaima` were also re-fetched after saving and validated: FAQPage parity passed, duplicate-question count was zero, and canonical/BreadcrumbList were present and route-consistent.
-- Each of those 9 records has 9 FAQ entries. No filler questions were added just to reach 10.
-- `aaban` and `aadhil` had separate checks/corrections before this progress log was created; `aaban` FAQ parity and `aadhil` spelling correction were verified.
+- Records `aafaq`, `aafia`, `aafiya`, `aafreen`, `aaftab`, `aahil`, `aahoo`, `aaida`, `aaima`, `aaina`, `aaira`, and `aaisha` were re-fetched after saving and validated: JSON parsing succeeded, FAQPage parity passed, duplicate-question count was zero, and canonical/BreadcrumbList were present and route-consistent.
+- These 12 records have 9 FAQ entries each. No filler questions were added just to reach 10.
+- The first 9 quality-repair records were also validated after edits for JSON validity, FAQPage parity, no duplicate normalized questions, and canonical/BreadcrumbList consistency. `aaban` and `aadhil` had separate checks/corrections before this log was created.
+- Structural validation does not prove that every semantic claim is independently sourced. Translation fields marked for native review are not represented as native-verified.
 
 ## Still outstanding
 
 - Remaining Islamic files have not yet been processed.
-- The current validation is structural and editorial; it is **not** a complete independent source audit of every meaning, etymology, or translation.
-- Arabic/Pashto translation fields explicitly marked for native review are not represented as native-verified.
+- Meanings, etymologies, and translations have not been comprehensively checked against independent primary/lexical sources.
 - Continue in small batches, re-fetch after each write, validate, and update this log.
