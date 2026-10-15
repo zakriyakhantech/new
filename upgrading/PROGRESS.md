@@ -145,3 +145,10 @@ Working branch: `quality-gates/all-name-records` (do not merge to `main` without
 | Continuation 007 | `aanil.json`, `aanisa.json`, `aanisah.json` | 3 | 3 | Removed case-only alternate-spelling duplicates; downgraded unsupported certainty/quality scores; distinguished plausible Arabic lexical analysis from independently sourced verification; preserved canonical URLs. |
 
 **Cumulative in this editorial pass:** 69 reviewed; 68 changed; 1 reviewed without change. This remains a small partial pass against the 6,592-file initial inventory, not full completion. Next candidate: `aaniya.json` (verify in branch tree before editing).
+
+
+| Batch | Files | Reviewed | Changed | Notes |
+|---|---|---:|---:|---|
+| Continuation 008 | `aaniya.json`, `aaniyah.json` | 2 | 2 | Removed unsupported origin/religion certainty for records with no verified lexical form; downgraded unsubstantiated quality scores; preserved canonical URLs. |
+
+**Cumulative in this editorial pass:** 71 reviewed; 70 changed; 1 reviewed without change. This is still a partial pass against the 6,592-file initial inventory. Next candidate: `aaolin.json` (verify in branch tree before editing).
