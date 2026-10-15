@@ -2,7 +2,7 @@
 
 - Working branch: `quality-gates/all-name-records`
 - Dataset: `upgrading/names_upgraded/islamic/`
-- Total individually reviewed/edited so far: **129 records** (partial; not the full dataset).
+- Total individually reviewed/edited so far: **132 records** (partial; not the full dataset).
 - Scope: FAQ answer accuracy and uniqueness, FAQPage JSON-LD parity, canonical and breadcrumb URLs, and cautious correction of meaning/form mismatches.
 - Safety rule: do not invent meanings, origins, Qur'anic claims, popularity, or translations. Keep uncertain claims explicitly unverified.
 
@@ -170,6 +170,10 @@
 128. `ababil.json` — corrected Qur'anic status: أبابيل appears in Qur'an 105:3 as vocabulary for flocks, but is not thereby a named person in the text.
 129. `abad.json` — corrected the mismatch between Latin Abad and Arabic عبد; marked the record ambiguous between عبد and Persian/Urdu آباد pending original-script confirmation.
 
+130. `abai.json` — corrected the source script to Kazakh Cyrillic Абай and removed “Kazakh male given name” as a literal meaning; religious usage is not assumed.
+131. `abaid.json` — clarified عبيد as traditionally analyzed as a diminutive of عبد and distinguished it from the compound عبد الله.
+132. `aban.json` — distinguished the personal-name form أبان from إبان (“during/at the time of”) and removed the automatic transfer of that gloss.
+
 ## Validation
 
 - Records `aafaq`, `aafia`, `aafiya`, `aafreen`, `aaftab`, `aahil`, `aahoo`, `aaida`, `aaima`, `aaina`, `aaira`, `aaisha`, `aaiz`, `aakif`, and `aakifah`, `aakil`, `aala`, and `aalaa` were re-fetched after saving and validated: JSON parsing succeeded, FAQPage parity passed, duplicate-question count was zero, and canonical/BreadcrumbList were present and route-consistent.
@@ -207,6 +211,7 @@
 - Latest batch (`aayat`, `aayesha`, `aazad`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Latest batch (`aazam`, `aazim`, `abaan`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Latest batch (`abaas`, `ababil`, `abad`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
+- Latest batch (`abai`, `abaid`, `aban`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Structural validation does not prove that every semantic claim is independently sourced. Translation fields marked for native review are not represented as native-verified.
 
 ## Still outstanding
