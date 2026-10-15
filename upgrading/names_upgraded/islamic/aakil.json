@@ -15,8 +15,7 @@
       "gender_note": "Gender is recorded from documented naming usage, not inferred from the word's meaning.",
       "alternate_spellings": [
         "Aakil",
-        "aakil",
-        "akil"
+        "Akil"
       ],
       "name_status": "attested"
     },
@@ -179,8 +178,8 @@
       "pashto": {
         "name": "عاقل",
         "script": "عاقل",
-        "meaning": "عقلمن، پوه",
-        "long_meaning": "Aakil (عاقل) د عربي ژبې څخه اخیستل شوی نوم دی او بنسټیزه مانا یې عقلمن، پوه ده. دا نوم په مسلمانانو ټولنو کې کارول کیږي او کارونه یې د سیاق له مخې بدلیږي.",
+        "meaning": "عاقل، پوه او د سم فکر خاوند",
+        "long_meaning": "عاقل (ʿāqil) د عربي کلمې بڼه ده چې د عقل، پوهې او د فکر کولو وړتیا مفهوم لري. دا لغوي مانا د شخص د شخصیت تضمین نه دی.",
         "native_review_required": true
       },
       "arabic": {
@@ -458,11 +457,13 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
+      "needs_manual_verification": true,
+      "flags": [
+        "Pashto translation revised for consistency; native-speaker review still required"
+      ],
       "confidence": "HIGH",
       "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "reviewed_at": "2026-10-15"
     },
     "render_policy": {
       "render_verified": true,
