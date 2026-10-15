@@ -2,7 +2,7 @@
 
 - Working branch: `quality-gates/all-name-records`
 - Dataset: `upgrading/names_upgraded/islamic/`
-- Total individually reviewed/edited so far: **123 records** (partial; not the full dataset).
+- Total individually reviewed/edited so far: **126 records** (partial; not the full dataset).
 - Scope: FAQ answer accuracy and uniqueness, FAQPage JSON-LD parity, canonical and breadcrumb URLs, and cautious correction of meaning/form mismatches.
 - Safety rule: do not invent meanings, origins, Qur'anic claims, popularity, or translations. Keep uncertain claims explicitly unverified.
 
@@ -162,6 +162,10 @@
 122. `aayesha.json` — documented Aayesha/Ayesha/Aisha romanization variants and clarified the distinction between lexical meaning and historical Islamic figure.
 123. `aazad.json` — corrected the Arabic translation field so Persian آزاد is not mislabeled as Arabic; aligned Arabic semantic equivalents and FAQs.
 
+124. `aazam.json` — clarified the Arabic elative/superlative form أعظم as “greatest/most mighty,” not merely “great”; populated root and morphology fields.
+125. `aazim.json` — populated the Arabic root ع ظ م and improved the Arabic/Persian translation wording for عظيم.
+126. `abaan.json` — distinguished the name form أبان from إبان (“during/at the time of”) and removed the unsupported automatic transfer of that gloss.
+
 ## Validation
 
 - Records `aafaq`, `aafia`, `aafiya`, `aafreen`, `aaftab`, `aahil`, `aahoo`, `aaida`, `aaima`, `aaina`, `aaira`, `aaisha`, `aaiz`, `aakif`, and `aakifah`, `aakil`, `aala`, and `aalaa` were re-fetched after saving and validated: JSON parsing succeeded, FAQPage parity passed, duplicate-question count was zero, and canonical/BreadcrumbList were present and route-consistent.
@@ -197,6 +201,7 @@
 - Latest batch (`aatira`, `aatirah`, `aatiya`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Latest batch (`aauf`, `aaus`, `aayan`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Latest batch (`aayat`, `aayesha`, `aazad`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
+- Latest batch (`aazam`, `aazim`, `abaan`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Structural validation does not prove that every semantic claim is independently sourced. Translation fields marked for native review are not represented as native-verified.
 
 ## Still outstanding
