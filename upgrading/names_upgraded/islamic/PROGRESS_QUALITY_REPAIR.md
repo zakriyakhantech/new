@@ -2,7 +2,7 @@
 
 - Working branch: `quality-gates/all-name-records`
 - Dataset: `upgrading/names_upgraded/islamic/`
-- Total individually reviewed/edited so far: **31 records** (partial; not the full dataset).
+- Total individually reviewed/edited so far: **36 records** (partial; not the full dataset).
 - Scope: FAQ answer accuracy and uniqueness, FAQPage JSON-LD parity, canonical and breadcrumb URLs, and cautious correction of meaning/form mismatches.
 - Safety rule: do not invent meanings, origins, Qur'anic claims, popularity, or translations. Keep uncertain claims explicitly unverified.
 
@@ -40,11 +40,18 @@
 30. `aala.json` — improved 9 FAQ answers; downgraded confidence because Arabic عالية does not clearly match the exact Latin spelling Aala.
 31. `aalaa.json` — improved 9 FAQ answers; clarified علاء as a lexical term related to elevation/eminence and kept gender/popularity claims provisional.
 
+32. `aamir.json` — clarified the Arabic root and distinguished عامر from أمير; improved all 9 FAQ answers and marked the Persian-script gloss for review.
+33. `aamra.json` — removed the unsupported “princess” gloss wrongly carried over from أميرة; marked meaning, language, origin, and script as unverified and aligned translations/FAQs.
+34. `aamrah.json` — refined the Arabic عامرة gloss and transliteration context; improved 9 FAQs.
+35. `aana.json` — removed “Unknown” as if it were a real language/origin and replaced unsupported glosses with explicit unverified status.
+36. `aanal.json` — removed “Unknown” as if it were a real language/origin and replaced unsupported glosses with explicit unverified status.
+
 ## Validation
 
 - Records `aafaq`, `aafia`, `aafiya`, `aafreen`, `aaftab`, `aahil`, `aahoo`, `aaida`, `aaima`, `aaina`, `aaira`, `aaisha`, `aaiz`, `aakif`, and `aakifah`, `aakil`, `aala`, and `aalaa` were re-fetched after saving and validated: JSON parsing succeeded, FAQPage parity passed, duplicate-question count was zero, and canonical/BreadcrumbList were present and route-consistent.
 - These 18 records have 9 FAQ entries each. No filler questions were added just to reach 10.
 - The first 9 quality-repair records were also validated after edits for JSON validity, FAQPage parity, no duplicate normalized questions, and canonical/BreadcrumbList consistency. `aaban` and `aadhil` had separate checks/corrections before this log was created.
+- Latest batch (`aamir`, `aamra`, `aamrah`, `aana`, `aanal`) was re-fetched after saving: JSON parse succeeded for all 5; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and a route-consistent breadcrumb.
 - Structural validation does not prove that every semantic claim is independently sourced. Translation fields marked for native review are not represented as native-verified.
 
 ## Still outstanding
