@@ -1,0 +1,83 @@
+name: Repair Islamic FAQ and canonical consistency
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - quality-gates/all-name-records
+    paths:
+      - '.github/workflows/repair-islamic-structure.yml'
+      - 'scripts/fix_name_structural_consistency.py'
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out working branch
+        uses: actions/checkout@v4
+        with:
+          ref: quality-gates/all-name-records
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Repair FAQ and canonical structure
+        run: |
+          python scripts/fix_name_structural_consistency.py \
+            --root upgrading/names_upgraded/islamic \
+            --site https://nameverse.site \
+            --apply \
+            --report name-structural-repair-report.json
+      - name: Validate all JSON files and FAQ parity
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path("upgrading/names_upgraded/islamic")
+          files = [p for p in root.rglob("*.json") if not p.name.startswith("PROGRESS_")]
+          errors = []
+          for p in files:
+              try:
+                  obj = json.loads(p.read_text(encoding="utf-8"))
+              except Exception as e:
+                  errors.append(f"{p}: invalid JSON: {e}")
+                  continue
+              data = obj.get("data", {})
+              faq = data.get("faq")
+              sd = data.get("structured_data", {})
+              graph = sd.get("@graph", []) if isinstance(sd, dict) else []
+              node = next((n for n in graph if isinstance(n, dict) and n.get("@type") == "FAQPage"), None)
+              expected = []
+              if isinstance(faq, list):
+                  for item in faq:
+                      if not isinstance(item, dict):
+                          continue
+                      q = str(item.get("q", item.get("question", "")) or "").strip()
+                      a = str(item.get("a", item.get("answer", "")) or "").strip()
+                      if q and a:
+                          expected.append({"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}})
+              if isinstance(faq, list) and (node is None or node.get("mainEntity") != expected):
+                  errors.append(f"{p}: FAQPage parity failure")
+              slug = str(data.get("slug") or p.stem).strip().strip("/")
+              expected_url = f"https://nameverse.site/names/islamic/{slug}"
+              if data.get("seo", {}).get("canonical_url") != expected_url:
+                  errors.append(f"{p}: canonical mismatch")
+          print(f"Validated {len(files)} JSON files; errors={len(errors)}")
+          if errors:
+              print("\n".join(errors[:100]))
+              raise SystemExit(1)
+          PY
+      - name: Commit repaired records and report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add upgrading/names_upgraded/islamic name-structural-repair-report.json
+          if git diff --cached --quiet; then
+            echo "No structural changes required."
+          else
+            git commit -m "Repair Islamic FAQ and canonical consistency"
+            git push origin quality-gates/all-name-records
+          fi
