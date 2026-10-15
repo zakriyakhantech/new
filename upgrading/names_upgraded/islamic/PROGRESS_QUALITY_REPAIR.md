@@ -2,7 +2,7 @@
 
 - Working branch: `quality-gates/all-name-records`
 - Dataset: `upgrading/names_upgraded/islamic/`
-- Total individually reviewed/edited so far: **66 records** (partial; not the full dataset).
+- Total individually reviewed/edited so far: **69 records** (partial; not the full dataset).
 - Scope: FAQ answer accuracy and uniqueness, FAQPage JSON-LD parity, canonical and breadcrumb URLs, and cautious correction of meaning/form mismatches.
 - Safety rule: do not invent meanings, origins, Qur'anic claims, popularity, or translations. Keep uncertain claims explicitly unverified.
 
@@ -86,6 +86,10 @@
 65. `aarifa.json` — clarified feminine Arabic عارفة, corrected feminine Urdu wording, populated root fields, and improved all 9 FAQs.
 66. `aarifah.json` — clarified the variant romanization of عارفة, corrected feminine Urdu wording, populated root fields, and improved all 9 FAQs.
 
+67. `aarifin.json` — corrected singular-versus-plural meaning and translation mismatches for عارفين; downgraded unsupported given-name gender confidence.
+68. `aariz.json` — documented multiple contextual senses of عارض instead of presenting “cloud” as the only meaning; improved root fields and FAQs.
+69. `aarizah.json` — removed an unverified Arabic-script identification and replaced unsupported “Unknown” origin/meaning claims with explicit uncertainty.
+
 ## Validation
 
 - Records `aafaq`, `aafia`, `aafiya`, `aafreen`, `aaftab`, `aahil`, `aahoo`, `aaida`, `aaima`, `aaina`, `aaira`, `aaisha`, `aaiz`, `aakif`, and `aakifah`, `aakil`, `aala`, and `aalaa` were re-fetched after saving and validated: JSON parsing succeeded, FAQPage parity passed, duplicate-question count was zero, and canonical/BreadcrumbList were present and route-consistent.
@@ -102,6 +106,7 @@
 - Latest batch (`aarefa`, `aarfa`, `aarib`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Latest batch (`aaribah`, `aaribat`, `aaribun`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Latest batch (`aarif`, `aarifa`, `aarifah`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
+- Latest batch (`aarifin`, `aariz`, `aarizah`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Structural validation does not prove that every semantic claim is independently sourced. Translation fields marked for native review are not represented as native-verified.
 
 ## Still outstanding
