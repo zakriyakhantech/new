@@ -125,3 +125,16 @@
 | new-18 | babu .. mwanaisha | 50 | complete |
 | new-19 | zulekha .. kyaw | 50 | complete |
 | new-20 | myint .. oumou | 50 | complete |
+
+
+## NameVerse editorial quality continuation — 2026-10-15
+
+Working branch: `quality-gates/all-name-records` (do not merge to `main` without review).
+
+| Batch | Files | Reviewed | Changed | Notes |
+|---|---|---:|---:|---|
+| Continuation 006 | `aanan.json`, `aaneseh.json`, `aani.json`, `aania.json` | 4 | 4 | Removed unsupported religious/origin certainty where evidence was absent; corrected Arabic long-meaning language in Aanan; lowered self-reported quality scores where lexical/personal-name sources are missing; removed case-only duplicate alternate spellings; preserved canonical URLs. |
+
+**Cumulative in this editorial pass:** 66 reviewed; 65 changed; 1 reviewed without change. This is not completion of the 6,592-file inventory. Work continues in lexical order; next candidate is `aanil.json` (verify path in branch tree before editing).
+
+**Important limitation:** these edits are editorial consistency and uncertainty corrections, not independent scholarly verification. Records with no citable source remain flagged for source review; do not describe them as fully verified or publication-perfect. FAQ/structured-data parity and duplicate-name checks across the entire dataset remain separate audit tasks.
