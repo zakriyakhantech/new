@@ -15,8 +15,7 @@
       "gender_note": "Gender is recorded from documented naming usage, not inferred from the word's meaning.",
       "alternate_spellings": [
         "Aakif",
-        "aakif",
-        "akif"
+        "Akif"
       ],
       "name_status": "attested"
     },
@@ -179,8 +178,8 @@
       "pashto": {
         "name": "عاکف",
         "script": "عاکف",
-        "meaning": "عبادت کوونکی",
-        "long_meaning": "عبادت کوونکی. This is a concise lexical gloss only; popularity and scriptural status are not inferred from it.",
+        "meaning": "عبادت کوونکی، د عبادت لپاره ځان ځانګړی کوونکی",
+        "long_meaning": "عاکف (ʿākif) په عربي کې د پاتې کېدو یا ځان وقف کولو مفهوم لري؛ په دیني سیاق کې د عبادت لپاره ځان ځانګړی کوونکي ته هم ویل کېږي. دا لغوي تشریح ده، نه د شهرت یا شرعي فضیلت ادعا.",
         "native_review_required": true
       },
       "arabic": {
@@ -459,11 +458,13 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
+      "needs_manual_verification": true,
+      "flags": [
+        "Pashto translation revised for consistency; native-speaker review still required"
+      ],
       "confidence": "HIGH",
       "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "reviewed_at": "2026-10-15"
     },
     "render_policy": {
       "render_verified": true,
