@@ -17,6 +17,7 @@
 | 001 | `aaban.json` – `aadila.json` | 10 | 9 | Committed; structural spot-check passed; source/native review still outstanding where flagged |
 | 002 | `aaf.json` – `aaiz.json` | 15 | 15 | Committed sequentially; spelling/canonical/slug checks passed; source/native review still outstanding where flagged |
 | 003 | `aakif.json` – `aaliyah.json` | 15 | 15 | Committed sequentially; spelling/canonical/slug checks passed; source/native review still outstanding where flagged |
+| 004 | `aamaal.json` – `aamira.json` | 12 | 12 | Committed sequentially; spelling/canonical/slug checks passed; source/native review still outstanding where flagged |
 
 ### Batch 001 notes
 
@@ -60,3 +61,17 @@ Continue after `aaiz.json` with `aakif.json`, then proceed lexicographically. Do
 ## Next file
 
 Continue after `aaliyah.json` with `aalmas.json`, then proceed lexicographically. Do not skip records; log unchanged or unresolved records explicitly.
+
+
+### Batch 004 notes
+
+- Reviewed and updated: `aamaal.json`, `aamal.json`, `aameen.json`, `aamer.json`, `aamil.json`, `aamilah.json`, `aamin.json`, `aamina.json`, `aaminaat.json`, `aaminah.json`, `aamir.json`, `aamira.json`.
+- Removed case-only alternate-spelling entries, revised Pashto glosses for meaning consistency, distinguished `Āmina` (safety/security) from `amīn` (trustworthy), and marked `Aaminaat` as needing stronger lexical/name-usage evidence.
+- Each edited record was re-fetched and parsed as JSON; slug and canonical URL were preserved; normalized alternate-spelling arrays had no case-only duplicates.
+- Source claim verification and fluent Pashto review remain incomplete.
+
+**Total through batch 004:** 52 files reviewed; 51 changed; 1 reviewed with no change.
+
+## Next file
+
+Continue after `aamira.json` with `aamra.json`, then proceed lexicographically. Do not skip records; log unchanged or unresolved records explicitly.
