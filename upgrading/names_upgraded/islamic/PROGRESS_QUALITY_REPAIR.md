@@ -2,7 +2,7 @@
 
 - Working branch: `quality-gates/all-name-records`
 - Dataset: `upgrading/names_upgraded/islamic/`
-- Total individually reviewed/edited so far: **114 records** (partial; not the full dataset).
+- Total individually reviewed/edited so far: **117 records** (partial; not the full dataset).
 - Scope: FAQ answer accuracy and uniqueness, FAQPage JSON-LD parity, canonical and breadcrumb URLs, and cautious correction of meaning/form mismatches.
 - Safety rule: do not invent meanings, origins, Qur'anic claims, popularity, or translations. Keep uncertain claims explicitly unverified.
 
@@ -150,6 +150,10 @@
 113. `aatiqah.json` — corrected the unsupported “ancestress/forebear” gloss; aligned it with Aatiqa/عتيقة and distinguished it from عاتكة.
 114. `aatir.json` — refined the Arabic translation to match masculine عاطر and its fragrance-related lexical sense.
 
+115. `aatira.json` — clarified the feminine Arabic form عاطرة and aligned variant notes with Aatirah; refined Arabic translation wording.
+116. `aatirah.json` — aligned variant notes with Aatira and corrected Arabic gloss wording for عاطرة.
+117. `aatiya.json` — surfaced the ambiguity between عاطية and عطية instead of presenting a conflicting passive gloss as settled; lowered confidence pending spelling confirmation.
+
 ## Validation
 
 - Records `aafaq`, `aafia`, `aafiya`, `aafreen`, `aaftab`, `aahil`, `aahoo`, `aaida`, `aaima`, `aaina`, `aaira`, `aaisha`, `aaiz`, `aakif`, and `aakifah`, `aakil`, `aala`, and `aalaa` were re-fetched after saving and validated: JSON parsing succeeded, FAQPage parity passed, duplicate-question count was zero, and canonical/BreadcrumbList were present and route-consistent.
@@ -182,6 +186,7 @@
 - Latest batch (`aatifah`, `aatik`, `aatika`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Latest batch (`aatikaat`, `aatikah`, `aatiq`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Latest batch (`aatiqa`, `aatiqah`, `aatir`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
+- Latest batch (`aatira`, `aatirah`, `aatiya`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Structural validation does not prove that every semantic claim is independently sourced. Translation fields marked for native review are not represented as native-verified.
 
 ## Still outstanding
