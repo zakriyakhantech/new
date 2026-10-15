@@ -2,7 +2,7 @@
 
 - Working branch: `quality-gates/all-name-records`
 - Dataset: `upgrading/names_upgraded/islamic/`
-- Total individually reviewed/edited so far: **147 records** (partial; not the full dataset).
+- Total individually reviewed/edited so far: **157 records** (partial; not the full dataset).
 - Scope: FAQ answer accuracy and uniqueness, FAQPage JSON-LD parity, canonical and breadcrumb URLs, and cautious correction of meaning/form mismatches.
 - Safety rule: do not invent meanings, origins, Qur'anic claims, popularity, or translations. Keep uncertain claims explicitly unverified.
 
@@ -194,6 +194,17 @@
 146. `abda.json` — clarified feminine عبدة and removed the unsupported literal “servant of Allah” addition.
 147. `abdaal.json` — distinguished the literal plural أبدال (“substitutes/replacements”) from its specialized use in some Sufi traditions.
 
+148. `abdal.json` — disambiguated the incomplete compound fragment عبدال from the separate plural word أبدال; removed unsupported “servant of God” certainty.
+149. `abdalla.json` — clarified Abdalla as a Swahili/East African form of عبد الله and distinguished Qur'anic phrase occurrence from personal-name attestation.
+150. `abdelaziz.json` — clarified compound morphology عبد + العزيز and aligned translations to “servant of al-ʿAzīz.”
+151. `abdelhadi.json` — clarified compound morphology عبد + الهادي and aligned translations to “servant of al-Hādī.”
+152. `abdelkader.json` — clarified compound morphology عبد + القادر and aligned translations to “servant of al-Qādir.”
+153. `abdelkarim.json` — clarified compound morphology عبد + الكريم and aligned translations to “servant of al-Karīm.”
+154. `abdelmajid.json` — clarified compound morphology عبد + المجيد and aligned translations to “servant of al-Majīd.”
+155. `abdelnasser.json` — clarified compound morphology عبد + الناصر and aligned translations to the contextual sense “servant of al-Nāṣir.”
+156. `abdelsalam.json` — clarified compound morphology عبد + السلام and aligned translations to “servant of al-Salām.”
+157. `abdelwahab.json` — clarified compound morphology عبد + الوهاب and aligned translations to “servant of al-Wahhāb.”
+
 ## Validation
 
 - Records `aafaq`, `aafia`, `aafiya`, `aafreen`, `aaftab`, `aahil`, `aahoo`, `aaida`, `aaima`, `aaina`, `aaira`, `aaisha`, `aaiz`, `aakif`, and `aakifah`, `aakil`, `aala`, and `aalaa` were re-fetched after saving and validated: JSON parsing succeeded, FAQPage parity passed, duplicate-question count was zero, and canonical/BreadcrumbList were present and route-consistent.
@@ -237,6 +248,7 @@
 - Latest batch (`abbad`, `abbadah`, `abbas`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Latest batch (`abbasi`, `abbass`, `abbood`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Latest batch (`abd`, `abda`, `abdaal`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
+- Latest compound-name batch was re-fetched after saving and validated: all 10 records (`abdal`, `abdalla`, `abdelaziz`, `abdelhadi`, `abdelkader`, `abdelkarim`, `abdelmajid`, `abdelnasser`, `abdelsalam`, `abdelwahab`) parse as JSON, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Structural validation does not prove that every semantic claim is independently sourced. Translation fields marked for native review are not represented as native-verified.
 
 ## Still outstanding
