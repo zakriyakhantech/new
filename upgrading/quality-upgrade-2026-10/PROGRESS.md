@@ -16,6 +16,7 @@
 |---|---|---:|---:|---|
 | 001 | `aaban.json` – `aadila.json` | 10 | 9 | Committed; structural spot-check passed; source/native review still outstanding where flagged |
 | 002 | `aaf.json` – `aaiz.json` | 15 | 15 | Committed sequentially; spelling/canonical/slug checks passed; source/native review still outstanding where flagged |
+| 003 | `aakif.json` – `aaliyah.json` | 15 | 15 | Committed sequentially; spelling/canonical/slug checks passed; source/native review still outstanding where flagged |
 
 ### Batch 001 notes
 
@@ -44,3 +45,18 @@ Continue after `aadila.json` with `aaf.json`, then proceed lexicographically. Do
 ## Next file
 
 Continue after `aaiz.json` with `aakif.json`, then proceed lexicographically. Do not skip records; log unchanged or unresolved records explicitly.
+
+
+### Batch 003 notes
+
+- Reviewed and updated: `aakif.json`, `aakifah.json`, `aakil.json`, `aala.json`, `aalaa.json`, `aalam.json`, `aalee.json`, `aali.json`, `aalia.json`, `aaliah.json`, `aalif.json`, `aalim.json`, `aalima.json`, `aaliya.json`, `aaliyah.json`.
+- Removed case-only duplicates from alternate-spelling arrays and normalized remaining transliteration variants.
+- Revised Pashto meaning/explanation fields to align better with the stated lexical meaning and to preserve uncertainty for ambiguous spellings. Fluent Pashto review remains required.
+- Each updated record was re-fetched and parsed as JSON; slug and canonical URL were preserved; normalized alternate-spelling arrays had no case-only duplicates.
+- Source claims, transliteration relationships, translations, and deployed HTML are not fully verified by these structural checks.
+
+**Total through batch 003:** 40 files reviewed; 39 changed; 1 reviewed with no change.
+
+## Next file
+
+Continue after `aaliyah.json` with `aalmas.json`, then proceed lexicographically. Do not skip records; log unchanged or unresolved records explicitly.
