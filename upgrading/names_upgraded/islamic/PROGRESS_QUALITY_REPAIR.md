@@ -2,7 +2,7 @@
 
 - Working branch: `quality-gates/all-name-records`
 - Dataset: `upgrading/names_upgraded/islamic/`
-- Total individually reviewed/edited so far: **135 records** (partial; not the full dataset).
+- Total individually reviewed/edited so far: **138 records** (partial; not the full dataset).
 - Scope: FAQ answer accuracy and uniqueness, FAQPage JSON-LD parity, canonical and breadcrumb URLs, and cautious correction of meaning/form mismatches.
 - Safety rule: do not invent meanings, origins, Qur'anic claims, popularity, or translations. Keep uncertain claims explicitly unverified.
 
@@ -178,6 +178,10 @@
 134. `abar.json` — removed the unsupported folk gloss “father of the multitude” and replaced unsupported “Unknown” origin/meaning claims with explicit uncertainty.
 135. `abasi.json` — corrected عباسي from “servant of Abbas” to a relational nisba meaning associated with ʿAbbās/Abbasid history.
 
+136. `abasin.json` — removed an unverified Arabic-script form and made the unresolved origin/meaning explicit.
+137. `abba.json` — corrected the source language to Hausa and clarified that Abba means father in Hausa; removed the unsupported Arabic-origin implication.
+138. `abbaas.json` — corrected malformed Arabic form to عباس, documented romanization variants, and removed the unsupported folk derivation “father of a lion.”
+
 ## Validation
 
 - Records `aafaq`, `aafia`, `aafiya`, `aafreen`, `aaftab`, `aahil`, `aahoo`, `aaida`, `aaima`, `aaina`, `aaira`, `aaisha`, `aaiz`, `aakif`, and `aakifah`, `aakil`, `aala`, and `aalaa` were re-fetched after saving and validated: JSON parsing succeeded, FAQPage parity passed, duplicate-question count was zero, and canonical/BreadcrumbList were present and route-consistent.
@@ -217,6 +221,7 @@
 - Latest batch (`abaas`, `ababil`, `abad`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Latest batch (`abai`, `abaid`, `aban`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Latest batch (`abanah`, `abar`, `abasi`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
+- Latest batch (`abasin`, `abba`, `abbaas`) was re-fetched after saving and validated: JSON parse succeeded; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, canonical URL match, and route-consistent breadcrumb.
 - Structural validation does not prove that every semantic claim is independently sourced. Translation fields marked for native review are not represented as native-verified.
 
 ## Still outstanding
