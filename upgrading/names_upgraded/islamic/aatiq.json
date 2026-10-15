@@ -12,7 +12,7 @@
       "name_type": "given_name",
       "gender": "Male",
       "gender_confidence": "LOW",
-      "gender_note": "Gender is recorded from documented naming usage, not inferred from the word's meaning.",
+      "gender_note": "Gender usage is recorded as masculine, but the mapping from Aatiq to Arabic عتيق remains provisional.",
       "alternate_spellings": [
         "Aatiq",
         "aatiq",
@@ -21,23 +21,23 @@
       "name_status": "attested"
     },
     "core_meaning": {
-      "short_meaning": "Ancient, noble, freed",
-      "primary_meaning": "Aatiq is an Arabic-origin name meaning “Ancient, noble, freed”.",
+      "short_meaning": "Ancient, noble, freed (provisional form identification)",
+      "primary_meaning": "Aatiq may correspond to Arabic عتيق (ʿatīq), associated with ancient/old, noble, or freed; the original record's form عاتق does not match this proposed reading.",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "Aatiq corresponds to the Arabic form عاتق (ع ت ق). Its core sense is ancestor, forebear, elder. The source record gave عاطق, which is not a standard form; the intended form is likely عتيق ('ancient, noble, freed'). The identification is uncertain and the gloss is provisional.",
+      "meaning_explanation": "The supplied meaning set (“ancient, noble, freed”) aligns more closely with Arabic عتيق (ʿatīq), not عاتق. Because the Latin spelling Aatiq does not conclusively establish the intended Arabic form, this identification is provisional and should not be presented as fully verified.",
       "meaning_confidence": "LOW"
     },
     "etymology": {
       "primary_language": "Arabic",
-      "lexical_form": "عاتق",
-      "transliteration": "aatiq",
-      "root": "",
-      "root_transliteration": "",
-      "morphology": "Simple lexical item used as a name.",
+      "lexical_form": "عتيق",
+      "transliteration": "ʿatīq",
+      "root": "ع ت ق",
+      "root_transliteration": "ʿ-t-q",
+      "morphology": "Lexical adjective/name form; exact name mapping remains provisional.",
       "feminine_form": null,
-      "etymological_meaning": "The Arabic word عاتق",
+      "etymological_meaning": "Ancient, old, noble, or freed (context-dependent)",
       "root_family": [],
-      "etymology_explanation": "The form عاتق is an established Arabic lexical item used unchanged as a given name.",
+      "etymology_explanation": "Arabic عتيق (ʿatīq) can mean old/ancient, noble, or freed depending on context. The record previously used the different form عاتق, so the connection to Aatiq requires confirmation.",
       "etymology_confidence": "LOW",
       "false_etymology_warning": "No derivation beyond the documented Arabic form is asserted. Any etymology that attributes this spelling to a different root or language without a source should be treated as unverified."
     },
@@ -155,39 +155,40 @@
       "english": {
         "name": "Aatiq",
         "script": "Aatiq",
-        "meaning": "Ancient, noble, freed",
-        "long_meaning": "Aatiq is an Arabic-origin given name; in Arabic the word means “Ancient, noble, freed”."
+        "meaning": "Ancient, noble, or freed (provisional)",
+        "long_meaning": "Aatiq may represent Arabic عتيق (ʿatīq), which has contextual senses including ancient/old, noble, or freed. The form mapping needs confirmation."
       },
       "urdu": {
-        "name": "عاتق",
-        "script": "عاتق",
-        "meaning": "بزرگ، جد، آبا و اجداد",
-        "long_meaning": "Aatiq (عاتق) عربی زبان سے ماخوذ نام ہے۔ اس کا بنیادی مفہوم بزرگ، جد، آبا و اجداد ہے۔ یہ نام مسلم معاشروں میں رکھا جاتا ہے اور اس کے مفاہیم سیاق و سباق کے مطابق استعمال ہوتے ہیں۔"
+        "name": "عتيق",
+        "script": "عتيق",
+        "meaning": "قدیم، پرانا؛ بعض سیاق میں آزاد",
+        "long_meaning": "عتيق عربی صورت ہے جس کے معنی سیاق کے مطابق قدیم، پرانا، شریف یا آزاد ہو سکتے ہیں۔ Aatiq کی اس صورت سے مطابقت کی توثیق درکار ہے۔"
       },
       "persian": {
-        "name": "Aatiq",
-        "script": "Aatiq",
-        "meaning": "Ancestor, forebear, elder",
-        "long_meaning": "Ancestor, forebear, elder"
+        "name": "عتيق",
+        "script": "عتيق",
+        "meaning": "کهن، قدیمی، آزاد (بسته به بافت)",
+        "long_meaning": "عتيق در عربی می‌تواند به معنای کهن، قدیمی، شریف یا آزاد باشد؛ پیوند آن با املای لاتین Aatiq نیازمند تأیید است.",
+        "native_review_required": true
       },
       "hindi": {
-        "name": "आतिक़",
-        "script": "आतिक़",
-        "meaning": "पूर्वज, बुज़ुर्ग, पुरखा",
-        "long_meaning": "Aatiq (आतिक़) अरबी भाषा से लिया गया नाम है। इसका मुख्य अर्थ पूर्वज, बुज़ुर्ग, पुरखा है। यह नाम मुस्लिम समाजों में रखा जाता है और इसका प्रयोग संदर्भ के अनुसार बदलता है।"
+        "name": "अतीक़",
+        "script": "अतीक़",
+        "meaning": "प्राचीन, पुराना; संदर्भानुसार मुक्त",
+        "long_meaning": "Aatiq संभवतः अरबी عتيق (ʿatīq) से संबंधित है, जिसके अर्थ प्राचीन, पुराना, श्रेष्ठ या मुक्त हो सकते हैं; वर्तनी की पुष्टि आवश्यक है।"
       },
       "pashto": {
         "name": "عاتق",
         "script": "عاتق",
-        "meaning": "نیکه، جد، مشر",
-        "long_meaning": "Aatiq (عاتق) د عربي ژبې څخه اخیستل شوی نوم دی او بنسټیزه مانا یې نیکه، جد، مشر ده. دا نوم په مسلمانانو ټولنو کې کارول کیږي او کارونه یې د سیاق له مخې بدلیږي.",
+        "meaning": "لرغونی، زوړ؛ د سیاق له مخې آزاد",
+        "long_meaning": "عتيق د سیاق له مخې لرغونی، زوړ یا آزاد معنا ورکولی شي؛ د Aatiq له لاتیني املا سره یې تړاو باید تایید شي.",
         "native_review_required": true
       },
       "arabic": {
-        "name": "عاتق",
-        "script": "عاتق",
-        "meaning": "جد، سلف، عتيق",
-        "long_meaning": "Aatiq (عاتق) اسم مأخوذ من اللغة العربية، ومعناه الأساسي جد، سلف، عتيق. يُستخدم هذا الاسم في المجتمعات المسلمة ويختلف استعماله بحسب السياق اللغوي.",
+        "name": "عتيق",
+        "script": "عتيق",
+        "meaning": "قديم، عريق، معتَق (بحسب السياق)",
+        "long_meaning": "عتيق قد يدل على القديم أو العريق أو المعتَق، بحسب السياق؛ ومطابقة التهجئة اللاتينية Aatiq لهذه الصيغة تحتاج إلى تأكيد.",
         "native_review_required": true
       }
     },
@@ -195,7 +196,7 @@
       "strategy": "semantic_translation",
       "confidence": "LOW",
       "native_review_required": true,
-      "note": "Each language is rendered in its own idiom; Pashto and Arabic are flagged for native review."
+      "note": "The proposed lexical form عتيق aligns with the supplied glosses but is not confirmed by the Latin spelling alone."
     },
     "pronunciation": {
       "romanized": "aa-tiq",
@@ -252,39 +253,39 @@
     "faq": [
       {
         "q": "What does Aatiq mean?",
-        "a": "Aatiq is an Arabic-origin name meaning “Ancient, noble, freed”."
+        "a": "Aatiq may represent Arabic عتيق (ʿatīq), with contextual senses such as ancient/old, noble, or freed; this identification is provisional."
       },
       {
         "q": "What is the origin of Aatiq?",
-        "a": "Aatiq originates in Arabic and circulates in Muslim naming communities."
+        "a": "The proposed source form is عتيق, but the original record listed عاتق, so the exact form needs verification."
       },
       {
         "q": "Is Aatiq an Arabic name?",
-        "a": "Yes, the recorded form عاتق is Arabic."
+        "a": "Aatiq may be Arabic if the intended form is عتيق; confirm the Arabic spelling before treating the origin as definitive."
       },
       {
         "q": "What is the root of Aatiq?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "The proposed form عتيق is associated with the root ع ت ق (ʿ-t-q); the record's form identification remains provisional."
       },
       {
         "q": "Is Aatiq an Islamic name?",
-        "a": "Aatiq is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "This record does not establish a specifically religious meaning for Aatiq; Arabic origin alone does not make a name doctrinal."
       },
       {
         "q": "Is Aatiq a Quranic name?",
-        "a": "Aatiq is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish Aatiq as a Qur'anic personal name."
       },
       {
         "q": "What does Aatiq mean in Urdu?",
-        "a": "In Urdu it is written عاتق and carries the sense “بزرگ، جد، آبا و اجداد”."
+        "a": "If the intended form is عتيق, possible Urdu glosses include قدیم، پرانا and, in some contexts, آزاد; confirm the intended form first."
       },
       {
         "q": "How is Aatiq pronounced?",
-        "a": "A romanized syllable approximation is “aa-tiq”."
+        "a": "The supplied “aa-tiq” is an approximate romanization, not a verified IPA transcription."
       },
       {
         "q": "Is Aatiq a boy's or girl's name?",
-        "a": "Documented usage records Aatiq as a boy's name; actual use can vary by community."
+        "a": "The record classifies Aatiq as masculine, but the exact form and personal-name usage need verification."
       }
     ],
     "seo": {
@@ -363,7 +364,7 @@
               "name": "What does Aatiq mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Aatiq is an Arabic-origin name meaning “Ancient, noble, freed”."
+                "text": "Aatiq may represent Arabic عتيق (ʿatīq), with contextual senses such as ancient/old, noble, or freed; this identification is provisional."
               }
             },
             {
@@ -371,7 +372,7 @@
               "name": "What is the origin of Aatiq?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Aatiq originates in Arabic and circulates in Muslim naming communities."
+                "text": "The proposed source form is عتيق, but the original record listed عاتق, so the exact form needs verification."
               }
             },
             {
@@ -379,7 +380,7 @@
               "name": "Is Aatiq an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عاتق is Arabic."
+                "text": "Aatiq may be Arabic if the intended form is عتيق; confirm the Arabic spelling before treating the origin as definitive."
               }
             },
             {
@@ -387,7 +388,7 @@
               "name": "What is the root of Aatiq?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "The proposed form عتيق is associated with the root ع ت ق (ʿ-t-q); the record's form identification remains provisional."
               }
             },
             {
@@ -395,7 +396,7 @@
               "name": "Is Aatiq an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Aatiq is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "This record does not establish a specifically religious meaning for Aatiq; Arabic origin alone does not make a name doctrinal."
               }
             },
             {
@@ -403,7 +404,7 @@
               "name": "Is Aatiq a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Aatiq is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish Aatiq as a Qur'anic personal name."
               }
             },
             {
@@ -411,7 +412,7 @@
               "name": "What does Aatiq mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عاتق and carries the sense “بزرگ، جد، آبا و اجداد”."
+                "text": "If the intended form is عتيق, possible Urdu glosses include قدیم، پرانا and, in some contexts, آزاد; confirm the intended form first."
               }
             },
             {
@@ -419,7 +420,7 @@
               "name": "How is Aatiq pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “aa-tiq”."
+                "text": "The supplied “aa-tiq” is an approximate romanization, not a verified IPA transcription."
               }
             },
             {
@@ -427,7 +428,7 @@
               "name": "Is Aatiq a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Aatiq as a boy's name; actual use can vary by community."
+                "text": "The record classifies Aatiq as masculine, but the exact form and personal-name usage need verification."
               }
             }
           ]
