@@ -326,12 +326,12 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
+      "tier1_verified": false,
       "authenticity_flags": [],
       "fabricated_content_removed": true,
       "fields_total": 155,
-      "quality_score": 95,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root present; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 82,
+      "quality_score_basis": "Provisional editorial score; structural consistency corrected, but source and linguistic verification remain separate requirements."
     },
     "evidence": {
       "sources": [
@@ -423,6 +423,14 @@
                 "@type": "Answer",
                 "text": "A romanized syllable approximation is “aa-di-lah”."
               }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Aadilah a boy's or girl's name?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Documented usage records Aadilah as a girl's name; actual use can vary by community."
+              }
             }
           ]
         },
@@ -433,28 +441,28 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": ""
+              "item": "https://nameverse.site/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Islamic Names",
-              "item": ""
+              "item": "https://nameverse.site/names/islamic"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Aadilah",
-              "item": ""
+              "item": "https://nameverse.site/names/islamic/aadilah"
             }
           ]
         }
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
+      "needs_manual_verification": true,
       "flags": [],
-      "confidence": "HIGH",
+      "confidence": "MEDIUM",
       "reviewed_by": "NameVerse verification pipeline",
       "reviewed_at": "2026-10-06T04:27:34+00:00"
     },
