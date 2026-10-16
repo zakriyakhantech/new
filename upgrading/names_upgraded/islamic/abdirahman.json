@@ -23,7 +23,7 @@
       "short_meaning": "Servant of the Most Merciful",
       "primary_meaning": "Abdirahman is an Arabic-origin name meaning “Servant of the Most Merciful”.",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "Abdirahman corresponds to the Arabic form عَبْدُ الرَّحْمَن (Arabic عبد (ʿAbd) + الرحمن (al-Raḥmān)). Its core sense is abdirahman; servant of the most merciful. Abdirahman is Arabic عَبْدُ الرَّحْمَن (ʿAbd al-Raḥmān), meaning 'servant of the Most Merciful'.",
+      "meaning_explanation": "The Arabic compound عَبْدُ الرَّحْمَن means servant of al-Raḥmān (“the Most Merciful”). The Latin forms Abderrahman and Abdirahman may reflect different regional transliterations, but cultural transmission should not be collapsed into Arabic origin without evidence.",
       "meaning_confidence": "HIGH"
     },
     "etymology": {
@@ -41,9 +41,10 @@
       "false_etymology_warning": "No derivation beyond the documented Arabic form is asserted. Any etymology that attributes this spelling to a different root or language without a source should be treated as unverified."
     },
     "language": {
-      "primary": "Arabic",
+      "primary": "Somali-influenced form of Arabic",
       "associated_languages": [
-        "Arabic"
+        "Arabic",
+        "Somali"
       ],
       "language_notes": {
         "primary": "Arabic is the language of the recorded form عَبْدُ الرَّحْمَن.",
@@ -52,9 +53,9 @@
       "language_confidence": "HIGH"
     },
     "origin": {
-      "primary_origin": "Arabic",
+      "primary_origin": "Somali/regionally adapted form of Arabic عبد الرحمن",
       "origin_type": "linguistic",
-      "origin_confidence": "HIGH",
+      "origin_confidence": "MEDIUM",
       "origin_explanation": "The name originates in Arabic and circulates in Muslim naming through established multilingual use.",
       "cultural_transmission": [
         "Arabic",
@@ -253,39 +254,39 @@
     "faq": [
       {
         "q": "What does Abdirahman mean?",
-        "a": "Abdirahman is an Arabic-origin name meaning “Servant of the Most Merciful”."
+        "a": "The compound عَبْدُ الرَّحْمَن means servant of al-Raḥmān (“the Most Merciful”)."
       },
       {
         "q": "What is the origin of Abdirahman?",
-        "a": "Abdirahman originates in Arabic and circulates in Muslim naming communities."
+        "a": "The Arabic compound is clear; regional transmission of this Latin spelling needs a direct source."
       },
       {
         "q": "Is Abdirahman an Arabic name?",
-        "a": "Yes, the recorded form عَبْدُ الرَّحْمَن is Arabic."
+        "a": "The form is a compound beginning with عبد and الرحمن."
       },
       {
         "q": "What is the root of Abdirahman?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "The compound contains عبد (“servant”) and الرحمن (“the Most Merciful”)."
       },
       {
         "q": "Is Abdirahman an Islamic name?",
-        "a": "Abdirahman is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "The compound has religious wording; this record is not a separate naming recommendation."
       },
       {
         "q": "Is Abdirahman a Quranic name?",
-        "a": "Abdirahman is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish the Latin spelling as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Abdirahman mean in Urdu?",
-        "a": "In Urdu it is written عبدالرحمٰن and carries the sense “عبدالرحمٰن، رحمان کا بندہ”."
+        "a": "The Urdu rendering is plausible but needs fluent review."
       },
       {
         "q": "How is Abdirahman pronounced?",
-        "a": "A romanized syllable approximation is “ab-di-rah-man”."
+        "a": "Pronunciation varies by region and transliteration."
       },
       {
         "q": "Is Abdirahman a boy's or girl's name?",
-        "a": "Documented usage records Abdirahman as a boy's name; actual use can vary by community."
+        "a": "The record classifies it as male; regional usage data has not been supplied."
       }
     ],
     "seo": {
@@ -325,24 +326,38 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "regional_transmission_needs_source",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 152,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 78,
+      "quality_score_basis": "Provisional editorial score only; linguistic form, cultural transmission, name use, and native translations require separate source review."
     },
     "evidence": {
-      "sources": [
-        "The recorded Arabic form عَبْدُ الرَّحْمَن carries the sense “Servant of the Most Merciful”."
+      "sources": [],
+      "verification_method": "Direct lexical/reference source listed only where checked. Name transmission, exact transliteration, historical-bearer claims, and native translations require separate evidence.",
+      "claim_evidence": [
+        {
+          "claim": "The compound form is recorded as عبد الرحمن; cultural transmission of this Latin spelling remains to be sourced.",
+          "source": null,
+          "status": "no_direct_source_checked; claims_not_verified"
+        },
+        {
+          "claim": "Personal-name usage, transmission, and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "CLAIMS_PROVISIONAL; DIRECT_SOURCES_NEEDED"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Reviewed exact compound/linguistic form, separated source language from regional transmission, and left unsupported historical/name-use claims provisional.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -350,7 +365,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abdirahman",
-          "description": "Abdirahman — an Arabic-origin given name meaning Servant of the Most Merciful",
+          "description": "Abdirahman — Abdirahman is an Arabic-origin name meaning “Servant of the Most Merciful”.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -364,7 +379,7 @@
               "name": "What does Abdirahman mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdirahman is an Arabic-origin name meaning “Servant of the Most Merciful”."
+                "text": "The compound عَبْدُ الرَّحْمَن means servant of al-Raḥmān (“the Most Merciful”)."
               }
             },
             {
@@ -372,7 +387,7 @@
               "name": "What is the origin of Abdirahman?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdirahman originates in Arabic and circulates in Muslim naming communities."
+                "text": "The Arabic compound is clear; regional transmission of this Latin spelling needs a direct source."
               }
             },
             {
@@ -380,7 +395,7 @@
               "name": "Is Abdirahman an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عَبْدُ الرَّحْمَن is Arabic."
+                "text": "The form is a compound beginning with عبد and الرحمن."
               }
             },
             {
@@ -388,7 +403,7 @@
               "name": "What is the root of Abdirahman?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "The compound contains عبد (“servant”) and الرحمن (“the Most Merciful”)."
               }
             },
             {
@@ -396,7 +411,7 @@
               "name": "Is Abdirahman an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdirahman is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "The compound has religious wording; this record is not a separate naming recommendation."
               }
             },
             {
@@ -404,7 +419,7 @@
               "name": "Is Abdirahman a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdirahman is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish the Latin spelling as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -412,7 +427,7 @@
               "name": "What does Abdirahman mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عبدالرحمٰن and carries the sense “عبدالرحمٰن، رحمان کا بندہ”."
+                "text": "The Urdu rendering is plausible but needs fluent review."
               }
             },
             {
@@ -420,7 +435,7 @@
               "name": "How is Abdirahman pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “ab-di-rah-man”."
+                "text": "Pronunciation varies by region and transliteration."
               }
             },
             {
@@ -428,7 +443,7 @@
               "name": "Is Abdirahman a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abdirahman as a boy's name; actual use can vary by community."
+                "text": "The record classifies it as male; regional usage data has not been supplied."
               }
             }
           ]
@@ -459,11 +474,14 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "regional_transmission_needs_source",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; direct name-use/translation sources pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,
