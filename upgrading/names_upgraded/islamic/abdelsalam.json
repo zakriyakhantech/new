@@ -252,39 +252,39 @@
     "faq": [
       {
         "q": "What does Abdelsalam mean?",
-        "a": "Abdelsalam is an Arabic-origin name meaning “Servant of Peace”."
+        "a": "The compound is recorded as عَبْدُ السَّلَام; its meaning is provisional until each component is checked against a direct lexical source."
       },
       {
         "q": "What is the origin of Abdelsalam?",
-        "a": "Abdelsalam originates in Arabic and circulates in Muslim naming communities."
+        "a": "The recorded compound is Arabic; regional transmission and modern name usage require separate evidence."
       },
       {
         "q": "Is Abdelsalam an Arabic name?",
-        "a": "Yes, the recorded form عَبْدُ السَّلَام is Arabic."
+        "a": "The form is a compound beginning with عبد (“servant”) plus a divine epithet; component sources should be checked individually."
       },
       {
         "q": "What is the root of Abdelsalam?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "The lexical meaning of each component should be sourced independently; the compound structure alone does not certify every translation."
       },
       {
         "q": "Is Abdelsalam an Islamic name?",
-        "a": "Abdelsalam is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "The compound has religious wording, but this record is not a separate naming recommendation."
       },
       {
         "q": "Is Abdelsalam a Quranic name?",
-        "a": "Abdelsalam is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish the Latin spelling as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Abdelsalam mean in Urdu?",
-        "a": "In Urdu it is written عبدالسلام and carries the sense “عبدالسلام، سلام کا بندہ”."
+        "a": "The Urdu rendering is provisional and needs fluent review."
       },
       {
         "q": "How is Abdelsalam pronounced?",
-        "a": "A romanized syllable approximation is “ab-del-sa-lam”."
+        "a": "Pronunciation is approximate; regional transliteration conventions vary."
       },
       {
         "q": "Is Abdelsalam a boy's or girl's name?",
-        "a": "Documented usage records Abdelsalam as a boy's name; actual use can vary by community."
+        "a": "The record classifies this as male, but regional name-frequency data has not been supplied."
       }
     ],
     "seo": {
@@ -324,24 +324,41 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "compound_component_sources_incomplete",
+        "personal_name_frequency_not_verified",
+        "native_translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 151,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 82,
+      "quality_score_basis": "Provisional editorial score only; compound meaning requires component-level source checks, and name-use/translation quality remain unverified."
     },
     "evidence": {
       "sources": [
-        "The recorded Arabic form عَبْدُ السَّلَام carries the sense “Servant of Peace”."
+        "https://www.laneslexicon.com/word/%D8%B3%D9%84%D8%A7%D9%85/n20546"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Direct lexical sources are listed only where checked. Other compound meanings remain provisional until each divine-epithet component is sourced; native translation quality and name usage require separate review.",
+      "claim_evidence": [
+        {
+          "claim": "Checked lexical source for a component of abdelsalam; complete compound meaning and personal-name use remain separately reviewable.",
+          "source": "https://www.laneslexicon.com/word/%D8%B3%D9%84%D8%A7%D9%85/n20546",
+          "status": "component_lexical_source_checked"
+        },
+        {
+          "claim": "Personal-name usage, cultural transmission, and all translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
+      ],
+      "claim_evidence_status": "COMPONENT_SOURCE_CHECKED; NAME_USAGE_AND_TRANSLATIONS_PENDING"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Reviewed compound structure and checked listed component sources where available; retained provisional status for unsourced components and translations.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -349,7 +366,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abdelsalam",
-          "description": "Abdelsalam — an Arabic-origin given name meaning Servant of Peace",
+          "description": "Abdelsalam — Abdelsalam is an Arabic-origin name meaning “Servant of Peace”.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -363,7 +380,7 @@
               "name": "What does Abdelsalam mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdelsalam is an Arabic-origin name meaning “Servant of Peace”."
+                "text": "The compound is recorded as عَبْدُ السَّلَام; its meaning is provisional until each component is checked against a direct lexical source."
               }
             },
             {
@@ -371,7 +388,7 @@
               "name": "What is the origin of Abdelsalam?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdelsalam originates in Arabic and circulates in Muslim naming communities."
+                "text": "The recorded compound is Arabic; regional transmission and modern name usage require separate evidence."
               }
             },
             {
@@ -379,7 +396,7 @@
               "name": "Is Abdelsalam an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عَبْدُ السَّلَام is Arabic."
+                "text": "The form is a compound beginning with عبد (“servant”) plus a divine epithet; component sources should be checked individually."
               }
             },
             {
@@ -387,7 +404,7 @@
               "name": "What is the root of Abdelsalam?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "The lexical meaning of each component should be sourced independently; the compound structure alone does not certify every translation."
               }
             },
             {
@@ -395,7 +412,7 @@
               "name": "Is Abdelsalam an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdelsalam is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "The compound has religious wording, but this record is not a separate naming recommendation."
               }
             },
             {
@@ -403,7 +420,7 @@
               "name": "Is Abdelsalam a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdelsalam is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish the Latin spelling as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -411,7 +428,7 @@
               "name": "What does Abdelsalam mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عبدالسلام and carries the sense “عبدالسلام، سلام کا بندہ”."
+                "text": "The Urdu rendering is provisional and needs fluent review."
               }
             },
             {
@@ -419,7 +436,7 @@
               "name": "How is Abdelsalam pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “ab-del-sa-lam”."
+                "text": "Pronunciation is approximate; regional transliteration conventions vary."
               }
             },
             {
@@ -427,7 +444,7 @@
               "name": "Is Abdelsalam a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abdelsalam as a boy's name; actual use can vary by community."
+                "text": "The record classifies this as male, but regional name-frequency data has not been supplied."
               }
             }
           ]
@@ -458,11 +475,15 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "compound_component_sources_incomplete",
+        "personal_name_frequency_not_verified",
+        "native_translation_review_required"
+      ],
+      "confidence": "MEDIUM",
+      "reviewed_by": "NameVerse evidence-led review; compound component and translation checks pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,
