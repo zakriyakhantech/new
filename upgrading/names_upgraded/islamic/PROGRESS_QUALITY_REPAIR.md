@@ -480,3 +480,23 @@
 
 - All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
 - Exact name-use, historical identity, and locale translations remain provisional where direct sources are missing.
+
+
+## Batch reviewed on 2026-10-16 — records 262–271
+
+262. `abulyusr.json` — clarified that a search page does not verify the exact historical identity or etymology of this kunya/name form.
+263. `abuqatadah.json` — flagged the same historical-source limitation; a search result is not a direct biography.
+264. `abyad.json` — retained the lexical “white” gloss and separated it from unverified modern personal-name usage and gender distribution.
+265. `abyan.json` — clarified that visitor search rank is not population-wide name frequency; preserved its 11-FAQ structure and source parity.
+266. `abza.json` — removed the unsupported “father of greatness” folk gloss and left the exact form unresolved.
+267. `ada.json` — resolved the core contradiction provisionally: عائدة (“returning”) is distinct from عادة (“habit/custom”) and from unrelated “noble/exalted” translations.
+268. `adaa.json` — corrected locale translations to أداء (“performance/fulfilment”), removing “frequent/recurring.”
+269. `adaan.json` — corrected the noun/agent mismatch: أذان is the call to prayer, while مؤذّن is the caller.
+270. `adaeze.json` — corrected the Igbo meaning from “daughter” to “daughter of a king” and removed the implication that Arabic-script text is native Igbo orthography.
+271. `adal.json` — retained the justice/equity lexical gloss and separated it from unverified name-use/frequency claims.
+
+### Batch 262–271 validation and limits
+
+- All ten records were re-fetched from the working branch; JSON parsing succeeded, FAQPage parity was checked, no duplicate normalized questions were found, and canonical URLs were populated.
+- FAQ counts are not assumed uniform: `abyan.json` retains 11 FAQs; the others retain their existing FAQ counts.
+- Historical identity, exact name use, and native translations remain provisional where direct sources are missing.
