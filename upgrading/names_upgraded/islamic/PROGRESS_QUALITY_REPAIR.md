@@ -461,3 +461,22 @@
 
 - All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
 - Historical, Hebrew etymological, and Persian dictionary claims remain provisional until direct specialist sources are added; no record is declared fully verified.
+
+
+## Batch reviewed on 2026-10-16 — records 252–261
+
+252. `abshir.json` — corrected the imperative form أبشر so it is not treated simply as the noun “good tidings”; personal-name usage remains provisional.
+253. `absi.json` — removed the unsupported “sweet one/delicate” gloss and left the exact form unverified.
+254. `abtahi.json` — corrected the unsupported “giver of good” gloss to a provisional nisba from أبطح.
+255. `abtal.json` — corrected the major mismatch: أبطال is plural of بطل (“hero”), not “mothers of the believers”; removed unsupported female-gender assertion.
+256. `abu.json` — clarified that أبو is a construct/kunya element and standalone name use is unverified.
+257. `abubakar.json` — distinguished the literal kunya structure أبو بكر from a complete historical/name etymology.
+258. `abudi.json` — removed “father of a great one,” which is not supported by عبودي.
+259. `abudujanah.json` — clarified that the search page is not a direct historical biography and marked identity/context for sourcing.
+260. `abul.json` — corrected the Indonesian/regional form so Arabic-script أَبُول is no longer represented as native Indonesian orthography.
+261. `abulaas.json` — clarified that the search page is not a direct historical biography and marked identity/context for sourcing.
+
+### Batch 252–261 validation and limits
+
+- All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
+- Exact name-use, historical identity, and locale translations remain provisional where direct sources are missing.
