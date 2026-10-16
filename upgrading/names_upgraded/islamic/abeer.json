@@ -252,39 +252,39 @@
     "faq": [
       {
         "q": "What does Abeer mean?",
-        "a": "Abeer is an Arabic-origin name meaning “Fragrance, scent, perfume”."
+        "a": "Arabic عبير has a fragrance/perfume-related sense."
       },
       {
         "q": "What is the origin of Abeer?",
-        "a": "Abeer originates in Arabic and circulates in Muslim naming communities."
+        "a": "The recorded form is Arabic عبير."
       },
       {
         "q": "Is Abeer an Arabic name?",
-        "a": "Yes, the recorded form عبير is Arabic."
+        "a": "The lexical form is Arabic; modern name use requires separate evidence."
       },
       {
         "q": "What is the root of Abeer?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "The record's root analysis should be checked by a specialist; the lexical meaning is supported."
       },
       {
         "q": "Is Abeer an Islamic name?",
-        "a": "Abeer is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "Arabic origin does not establish a naming recommendation."
       },
       {
         "q": "Is Abeer a Quranic name?",
-        "a": "Abeer is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish Abeer as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Abeer mean in Urdu?",
-        "a": "In Urdu it is written عبیر and carries the sense “خوشبو، عطر”."
+        "a": "A cautious Urdu gloss is “خوشبو، عطر”; native review is pending."
       },
       {
         "q": "How is Abeer pronounced?",
-        "a": "A romanized syllable approximation is “a-beer”."
+        "a": "“A-beer” is approximate; Arabic vowel length varies."
       },
       {
         "q": "Is Abeer a boy's or girl's name?",
-        "a": "Documented usage records Abeer as a girl's name; actual use can vary by community."
+        "a": "Modern regional frequency data has not been supplied."
       }
     ],
     "seo": {
@@ -324,24 +324,40 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "personal_name_frequency_not_verified",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 149,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 78,
+      "quality_score_basis": "Provisional editorial score only; exact lexical form, personal-name usage, and fluent translations require separate verification."
     },
     "evidence": {
       "sources": [
-        "The recorded Arabic form عبير carries the sense “Fragrance, scent, perfume”."
+        "https://www.laneslexicon.com/word/%D8%B9%D8%A8%D9%8A%D8%B1"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Sources are listed only where checked. Cultural/name usage, exact morphology, and translation quality require separate evidence.",
+      "claim_evidence": [
+        {
+          "claim": "Lane's Lexicon supports عبير with a fragrance/perfume sense; personal-name frequency and translations remain separate.",
+          "source": "https://www.laneslexicon.com/word/%D8%B9%D8%A8%D9%8A%D8%B1",
+          "status": "lexical_source_checked"
+        },
+        {
+          "claim": "Personal-name usage and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
+      ],
+      "claim_evidence_status": "LEXICAL_SOURCE_CHECKED; NAME_USAGE_AND_TRANSLATIONS_PENDING"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Corrected gendered translation mismatches, ambiguous vocalization, and non-Arabic native-script conflation; separated lexical evidence from personal-name usage.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -349,7 +365,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abeer",
-          "description": "Abeer — an Arabic-origin given name meaning Fragrance, scent, perfume",
+          "description": "Abeer — Abeer is an Arabic-origin name meaning “Fragrance, scent, perfume”.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -363,7 +379,7 @@
               "name": "What does Abeer mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abeer is an Arabic-origin name meaning “Fragrance, scent, perfume”."
+                "text": "Arabic عبير has a fragrance/perfume-related sense."
               }
             },
             {
@@ -371,7 +387,7 @@
               "name": "What is the origin of Abeer?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abeer originates in Arabic and circulates in Muslim naming communities."
+                "text": "The recorded form is Arabic عبير."
               }
             },
             {
@@ -379,7 +395,7 @@
               "name": "Is Abeer an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عبير is Arabic."
+                "text": "The lexical form is Arabic; modern name use requires separate evidence."
               }
             },
             {
@@ -387,7 +403,7 @@
               "name": "What is the root of Abeer?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "The record's root analysis should be checked by a specialist; the lexical meaning is supported."
               }
             },
             {
@@ -395,7 +411,7 @@
               "name": "Is Abeer an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abeer is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "Arabic origin does not establish a naming recommendation."
               }
             },
             {
@@ -403,7 +419,7 @@
               "name": "Is Abeer a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abeer is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish Abeer as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -411,7 +427,7 @@
               "name": "What does Abeer mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عبیر and carries the sense “خوشبو، عطر”."
+                "text": "A cautious Urdu gloss is “خوشبو، عطر”; native review is pending."
               }
             },
             {
@@ -419,7 +435,7 @@
               "name": "How is Abeer pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “a-beer”."
+                "text": "“A-beer” is approximate; Arabic vowel length varies."
               }
             },
             {
@@ -427,7 +443,7 @@
               "name": "Is Abeer a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abeer as a girl's name; actual use can vary by community."
+                "text": "Modern regional frequency data has not been supplied."
               }
             }
           ]
@@ -458,11 +474,14 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "personal_name_frequency_not_verified",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; direct name-use and translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,
