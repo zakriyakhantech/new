@@ -348,32 +348,46 @@
       "#IslamicNames"
     ],
     "content_quality": {
-      "tier1_verified": true,
+      "tier1_verified": false,
       "authenticity_flags": [
         "comparative_not_superlative",
         "gender_distribution_not_quantified",
         "localized_translations_require_native_review",
-        "popularity_metrics_are_source_and_region_scoped"
+        "popularity_metrics_are_source_and_region_scoped",
+        "visitor_search_rank_not_population_frequency",
+        "personal_name_usage_scope_limited",
+        "translation_review_required"
       ],
       "fabricated_content_removed": true,
       "fields_total": 321,
-      "quality_score": null,
-      "quality_score_basis": "No composite quality score is asserted; source support, limitations, scriptural status, and review flags are explicit."
+      "quality_score": 78,
+      "quality_score_basis": "Provisional editorial score only; source scope, personal-name usage, and native translations require separate review."
     },
     "evidence": {
       "sources": [
-        "The Arabic Lexicon, root بين — أبين as clearer/more eloquent and the wider clarity/eloquence family. Source: https://arabiclexicon.hawramani.com/%D8%A8%D9%8A%D9%86/ Limitation: The form is comparative; its exact interpretation depends on context.",
-        "The Arabic Lexicon, root بين (Lane and classical entries) — Explicitly glosses أَبْيَن من فلان as more eloquent/more clear in speech and records comparative use. Source: https://arabiclexicon.hawramani.com/%D8%A8%D9%8A%D9%86/ Limitation: The same spelling also has a proper-place-name use; this record uses the comparative adjective sense.",
-        "QuranicNames, Abyan — Arabic spelling, name use for boys and girls, and comparative glosses. Source: https://quranicnames.com/abyan/ Limitation: Its 'indirect Qur'anic' label is not treated as a direct personal-name occurrence.",
-        "QuranicNames 2026 visitor-search rankings — Abyan's unisex visitor-search rank and relative interest percentage. Source: https://quranicnames.com/most-popular-names/ Limitation: The source measures searches by its own visitors, not births or population-wide demand."
+        "https://arabiclexicon.hawramani.com/%D8%A8%D9%8A%D9%86/",
+        "https://quranicnames.com/abyan/"
       ],
-      "verification_method": "The lexical/scriptural or language claim is separated from name-site glosses; name usage and popularity are checked separately. Every frequency figure retains its source, region, year, category, metric, and limitation. Candidate spellings, Romanized variants, source-script forms, and localized script renderings are checked against the existing dataset. Non-English glosses are drafts requiring native-speaker review."
+      "verification_method": "Direct sources are listed where available. Search pages do not establish exact historical identity; dictionary meanings and personal-name usage are separate claims.",
+      "claim_evidence": [
+        {
+          "claim": "Arabic Lexicon supports the comparative form أَبْيَن; QuranicNames supports the spelling/name-use claim, but visitor search rank is not population-wide name frequency.",
+          "source": "https://arabiclexicon.hawramani.com/%D8%A8%D9%8A%D9%86/",
+          "status": "source_checked_with_scope_limit"
+        },
+        {
+          "claim": "Personal-name use, regional frequency, and all translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
+      ],
+      "claim_evidence_status": "SOURCE_CHECKED_WITH_SCOPE_LIMIT; NAME_USE_REVIEW_OPEN"
     },
     "provenance": {
-      "pipeline": "NameVerse super-2.0 demand-informed batch builder",
-      "methodology": "Curated evidence manifest -> template-matched record build -> alias/script collision audit -> schema and integrity validation",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Corrected construct/kunya distinctions, nisba and comparative forms, translation mismatches, and native-script representation; kept source scope explicit.",
       "upgraded_from": "New record generated from the current super-2.0 architecture; not converted from a legacy record.",
-      "processed_at": "2026-10-13T00:00:00+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -381,7 +395,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abyan",
-          "description": "Abyan — an Arabic-origin given name: Clearer, more evident, or more eloquent.",
+          "description": "Abyan — Abyan is the Arabic comparative form أَبْيَن, meaning clearer or more evident; classical usage also supports the sense more eloquent in speech.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -511,11 +525,14 @@
         "comparative_not_superlative",
         "gender_distribution_not_quantified",
         "localized_translations_require_native_review",
-        "popularity_metrics_are_source_and_region_scoped"
+        "popularity_metrics_are_source_and_region_scoped",
+        "visitor_search_rank_not_population_frequency",
+        "personal_name_usage_scope_limited",
+        "translation_review_required"
       ],
-      "confidence": "HIGH",
-      "reviewed_by": "Automated source-aware build and validation; not a human or native-speaker review",
-      "reviewed_at": "2026-10-13T00:00:00+00:00"
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; source scope/name-use/translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,
