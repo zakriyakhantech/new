@@ -155,3 +155,23 @@
 - Each record now carries source URLs and explicit evidence scope. The sources support the cited lexical claims only; they do not establish popularity, modern gender distribution, Qur'anic personal-name status, or fluent/native quality of all translations.
 - `aashik.json` and `aashiq.json` are flagged as a likely transliteration-variant pair for manual canonical/duplicate review. `aashif.json` is not equated with `aasif.json` because the recorded Arabic forms differ and the exact spelling remains unresolved.
 - All ten files were re-fetched from the working branch. JSON parsing succeeded for all 10; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL. Native-speaker review and name-use/frequency verification remain open.
+
+
+## Batch reviewed on 2026-10-16 — records 92–101
+
+92. `aasimat.json` — clarified that عاصمات is a feminine plural form, not a singular feminine form; the gloss is treated lexically and personal-name use/gender distribution are unverified.
+93. `aasir.json` — corrected the Arabic عاصر gloss to the dictionary-supported verbal sense “to be contemporary with”; removed mismatched companion/associate translations.
+94. `aasira.json` — removed the unsupported definite-phrase identification الأسيرة as if it established the name Aasira; exact form, meaning, and origin remain unverified.
+95. `aasiya.json` — removed the unsupported “living water/flowing spring” meaning and added variant-review flags.
+96. `aasiyah.json` — removed the same unsupported meaning and flagged the transliteration-variant group for manual canonical review.
+97. `aasiyyah.json` — removed the same unsupported meaning and flagged the transliteration-variant group for manual canonical review.
+98. `aasma.json` — corrected a lexical conflation: أسماء is the plural of اسم (“name”), not سماء (“sky/heaven”).
+99. `aasmaa.json` — corrected the same اسم/سماء conflation and retained the distinction between lexical meaning and historical bearer.
+100. `aasman.json` — added a Persian dictionary source for آسمان (“sky/heaven”); personal-name frequency/gender and translations remain separately unverified.
+101. `aateqa.json` — downgraded the exact “free/liberated” gloss to provisional because the cited lexical source covers related forms/root but does not fully establish the specific name form.
+
+### Batch 92–101 validation and limits
+
+- All ten records were re-fetched from the working branch. JSON parsing succeeded for all 10; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
+- All ten records have source URLs and explicit evidence scope. The sources support the cited lexical claims only, not name popularity, modern gender distribution, religious status, or fluent/native review of every translation.
+- Aasiya/Aasiyah/Aasiyyah are flagged as candidate romanization variants of the same recorded form آسية; Aasma/Asmaa are flagged for review as spellings of the same Arabic form أسماء. No records were merged or deleted.
