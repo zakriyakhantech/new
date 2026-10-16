@@ -21,9 +21,9 @@
     },
     "core_meaning": {
       "short_meaning": "Little servant, devoted servant",
-      "primary_meaning": "Abeed is an Arabic-origin name meaning “Little servant, devoted servant”.",
+      "primary_meaning": "Abeed corresponds to Arabic عبيد, commonly romanized Ubayd/ʿUbayd; the “little servant” interpretation is a possible diminutive analysis, not the only established meaning.",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "Abeed corresponds to the Arabic form عبيد (ع ب د). Its core sense is little servant, devoted servant. Diminutive of عبد. The source record's gloss 'Servant' is imprecise.",
+      "meaning_explanation": "The Arabic form عبيد is related to عبد. The exact diminutive analysis and Latin spelling Abeed require review; it should not be treated as a separate lexical form without evidence.",
       "meaning_confidence": "MEDIUM"
     },
     "etymology": {
@@ -207,15 +207,22 @@
     },
     "name_variants": {
       "romanized_variants": [
-        "Abeed"
+        "Abeed",
+        "abaid",
+        "ubayd",
+        "ubaid"
       ],
       "script_forms": [
         "عبيد",
         "عبید",
         "अबीद"
       ],
-      "variant_notes": "Spelling variants reflect different transliteration conventions, not different names.",
-      "do_not_merge_with": []
+      "variant_notes": "Abeed/Abaid/Ubaid/Ubayd are candidate romanization variants for the recorded Arabic form عبيد; verify routes and canonical policy manually.",
+      "do_not_merge_with": [
+        "abaid",
+        "ubayd",
+        "ubaid"
+      ]
     },
     "related_names": [],
     "historical_context": {
@@ -252,39 +259,39 @@
     "faq": [
       {
         "q": "What does Abeed mean?",
-        "a": "Abeed is an Arabic-origin name meaning “Little servant, devoted servant”."
+        "a": "The form عبيد is related to عبد and is commonly romanized Ubayd/ʿUbayd; the exclusive diminutive gloss needs direct evidence."
       },
       {
         "q": "What is the origin of Abeed?",
-        "a": "Abeed originates in Arabic and circulates in Muslim naming communities."
+        "a": "The recorded form is Arabic عبيد; the Latin spelling is a candidate variant."
       },
       {
         "q": "Is Abeed an Arabic name?",
-        "a": "Yes, the recorded form عبيد is Arabic."
+        "a": "The Arabic form is attested, but the exact Latin transliteration needs review."
       },
       {
         "q": "What is the root of Abeed?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "The form is related to root ع ب د."
       },
       {
         "q": "Is Abeed an Islamic name?",
-        "a": "Abeed is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "Arabic origin does not establish a naming recommendation."
       },
       {
         "q": "Is Abeed a Quranic name?",
-        "a": "Abeed is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish Abeed as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Abeed mean in Urdu?",
-        "a": "In Urdu it is written عبید and carries the sense “چھوٹا بندہ، مخلص بندہ”."
+        "a": "A cautious Urdu form is “عبید (Ubayd)”; native review remains pending."
       },
       {
         "q": "How is Abeed pronounced?",
-        "a": "A romanized syllable approximation is “a-beed”."
+        "a": "“U-baid” is approximate; transliteration varies."
       },
       {
         "q": "Is Abeed a boy's or girl's name?",
-        "a": "Documented usage records Abeed as a boy's name; actual use can vary by community."
+        "a": "Modern name-frequency data has not been supplied."
       }
     ],
     "seo": {
@@ -324,24 +331,41 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "romanization_variant_review_required",
+        "exclusive_diminutive_gloss_needs_source",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 148,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 78,
+      "quality_score_basis": "Provisional editorial score only; exact lexical form, personal-name usage, and fluent translations require separate verification."
     },
     "evidence": {
       "sources": [
-        "The recorded Arabic form عبيد carries the sense “Little servant, devoted servant”."
+        "https://www.laneslexicon.com/word/%D8%B9%D8%A8%D8%AF/n27791"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Sources are listed only where checked. Cultural/name usage, exact morphology, and translation quality require separate evidence.",
+      "claim_evidence": [
+        {
+          "claim": "Lane's Lexicon supports the عبد/servant lexical field; the exact diminutive interpretation and Latin spelling remain provisional.",
+          "source": "https://www.laneslexicon.com/word/%D8%B9%D8%A8%D8%AF/n27791",
+          "status": "lexical_source_checked"
+        },
+        {
+          "claim": "Personal-name usage and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
+      ],
+      "claim_evidence_status": "LEXICAL_SOURCE_CHECKED; NAME_USAGE_AND_TRANSLATIONS_PENDING"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Corrected gendered translation mismatches, ambiguous vocalization, and non-Arabic native-script conflation; separated lexical evidence from personal-name usage.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -349,7 +373,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abeed",
-          "description": "Abeed — an Arabic-origin given name meaning Little servant, devoted servant",
+          "description": "Abeed — Abeed corresponds to Arabic عبيد, commonly romanized Ubayd/ʿUbayd; the “little servant” interpretation is a possible diminutive analysis, not the only established meaning.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -363,7 +387,7 @@
               "name": "What does Abeed mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abeed is an Arabic-origin name meaning “Little servant, devoted servant”."
+                "text": "The form عبيد is related to عبد and is commonly romanized Ubayd/ʿUbayd; the exclusive diminutive gloss needs direct evidence."
               }
             },
             {
@@ -371,7 +395,7 @@
               "name": "What is the origin of Abeed?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abeed originates in Arabic and circulates in Muslim naming communities."
+                "text": "The recorded form is Arabic عبيد; the Latin spelling is a candidate variant."
               }
             },
             {
@@ -379,7 +403,7 @@
               "name": "Is Abeed an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عبيد is Arabic."
+                "text": "The Arabic form is attested, but the exact Latin transliteration needs review."
               }
             },
             {
@@ -387,7 +411,7 @@
               "name": "What is the root of Abeed?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "The form is related to root ع ب د."
               }
             },
             {
@@ -395,7 +419,7 @@
               "name": "Is Abeed an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abeed is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "Arabic origin does not establish a naming recommendation."
               }
             },
             {
@@ -403,7 +427,7 @@
               "name": "Is Abeed a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abeed is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish Abeed as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -411,7 +435,7 @@
               "name": "What does Abeed mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عبید and carries the sense “چھوٹا بندہ، مخلص بندہ”."
+                "text": "A cautious Urdu form is “عبید (Ubayd)”; native review remains pending."
               }
             },
             {
@@ -419,7 +443,7 @@
               "name": "How is Abeed pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “a-beed”."
+                "text": "“U-baid” is approximate; transliteration varies."
               }
             },
             {
@@ -427,7 +451,7 @@
               "name": "Is Abeed a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abeed as a boy's name; actual use can vary by community."
+                "text": "Modern name-frequency data has not been supplied."
               }
             }
           ]
@@ -458,11 +482,15 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "MEDIUM",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "romanization_variant_review_required",
+        "exclusive_diminutive_gloss_needs_source",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; direct name-use and translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,
