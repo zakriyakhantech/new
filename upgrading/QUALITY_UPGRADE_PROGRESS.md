@@ -11,14 +11,21 @@ Last updated: 2026-10-16
 - Record each completed file and any unresolved verification needs here.
 
 ## Progress
-- Individually edited and committed: 16 records
+- Individually edited and committed: 17 unique records
 - Fully source-verified / tier-1 certified: 0 records
 - Remaining records: total inventory must be reconciled against the live repository before stating a final count.
-- Last completed: `upgrading/names_upgraded/islamic/aafia.json` (16 unique records completed)
+- Last completed: `upgrading/names_upgraded/islamic/aafiya.json` (17 unique records completed)
 - Latest record commit: `245d345dc0387a57ae43761d6d43100850eb86bb
-- Next action: inspect `upgrading/names_upgraded/islamic/aafiya.json` next, then continue alphabetically one record per commit.
+- Next action: inspect `upgrading/names_upgraded/islamic/aahad.json` next, then continue alphabetically one record per commit.
 
 ## Record log
+
+### 17. Aafiya — Arabic lexical meaning checked; exact spelling usage pending
+- Checked Lane’s Lexicon and Wiktionary for عافية; the lexical field includes health, soundness, safety, and well-being.
+- Removed repetitive core-meaning wording and added claim-level source mapping.
+- Corrected stale SEO description and synchronized DefinedTerm/FAQ structured data.
+- Provisional editorial score: 86/100; tier-1 remains false.
+- Outstanding: exact-spelling frequency, regional gender data, Arabic/Pashto native-speaker review, and deployed HTML validation.
 
 ### 16. Aafia — Arabic lexical meaning checked; exact spelling usage pending
 - Checked Lane’s Lexicon entries for عافية and عافاه, plus a second lexical reference; evidence supports health, soundness, safety, and well-being.
