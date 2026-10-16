@@ -11,14 +11,22 @@ Last updated: 2026-10-16
 - Record each completed file and any unresolved verification needs here.
 
 ## Progress
-- Individually edited and committed: 23 unique records
+- Individually edited and committed: 24 unique records
 - Fully source-verified / tier-1 certified: 0 records
 - Remaining records: total inventory must be reconciled against the live repository before stating a final count.
-- Last completed: `upgrading/names_upgraded/islamic/aaima.json` (23 unique records completed)
+- Last completed: `upgrading/names_upgraded/islamic/aaina.json` (24 unique records completed)
 - Latest record commit: `245d345dc0387a57ae43761d6d43100850eb86bb
-- Next action: inspect `upgrading/names_upgraded/islamic/aaina.json` next, then continue alphabetically one record per commit.
+- Next action: inspect `upgrading/names_upgraded/islamic/aaira.json` next, then continue alphabetically one record per commit.
 
 ## Record log
+
+### 24. Aaina — Persian/Urdu meaning checked; unsupported certification removed
+- Checked Persian آینه and Urdu آئینہ lexical entries; both support “mirror/looking-glass.”
+- Kept the Persian and Urdu spellings distinct and corrected the earlier unsupported Arabic association.
+- Added claim-level evidence and revoked tier-1 status because name-frequency, regional gender, and native-review checks remain open.
+- Corrected SEO metadata and synchronized DefinedTerm/FAQ structured data.
+- Provisional editorial score: 87/100; tier-1 remains false.
+- Outstanding: exact spelling frequency, regional gender distribution, Persian/Urdu native-speaker review, and deployed HTML validation.
 
 ### 23. Aaima — exact name-to-script mapping remains unverified
 - Checked references for the proposed Arabic lexical form and root related to floating/swimming, but did not assume this proves the personal name Aaima has that meaning.
