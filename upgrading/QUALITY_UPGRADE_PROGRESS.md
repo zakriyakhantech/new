@@ -20,6 +20,14 @@ Last updated: 2026-10-16
 
 ## Record log
 
+### 4. Aabid — meaning/morphology reviewed; source citation pending
+- Clarified عابد as the Arabic active participle of عَبَدَ, meaning “worshipper/one who worships”.
+- Separated literal meaning from the contextual paraphrase “servant of God”.
+- Kept gender confidence moderate and noted that registration data is absent.
+- Improved translations, synchronized main FAQ and structured-data answer, and removed unsupported numerical scores.
+- Outstanding: add a named Arabic lexicon citation and complete native-language review for Pashto and Arabic.
+
+
 ### 2. Aafak — edited, source verification still pending
 - Clarified آفاق as the plural of أُفُق (ufuq, “horizon”); separated direct, contextual, and figurative senses.
 - Flagged Aafak as a possible Latin transliteration variant of Aafaq; distinct personal-name usage is unverified.
