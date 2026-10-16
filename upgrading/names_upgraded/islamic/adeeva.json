@@ -21,31 +21,28 @@
     },
     "core_meaning": {
       "short_meaning": "Not objectively established",
-      "primary_meaning": "Adeeva is an Unknown-origin name meaning “Not objectively established”.",
+      "primary_meaning": "No verified lexical identification has been established for the exact spelling Adeeva; the previous gloss is not supported, and the record must not be conflated with unrelated Arabic forms.",
       "literal_meaning": "The name is the Unknown word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "No verified lexical identification was established for Adeeva. The source record gave عائشة ('Āʾisha), which is a different name. The form adeeva could not be independently verified and no gloss is asserted. No meaning is asserted, because asserting one would require inventing evidence.",
+      "meaning_explanation": "The record states that no verified lexical identification exists, while the source field repeats a folk gloss. For Adeeva, عائشة is a different name; for Adeena, the exact form is unsupported. Exact language, form, and meaning remain unresolved.",
       "meaning_confidence": "LOW"
     },
     "etymology": {
-      "primary_language": "Unknown",
+      "primary_language": "Unverified",
       "lexical_form": "",
       "transliteration": "adeeva",
       "root": "",
       "root_transliteration": "",
-      "morphology": "Simple lexical item used as a name.",
+      "morphology": "Unresolved exact form.",
       "feminine_form": null,
-      "etymological_meaning": "The Unknown word Adeeva",
+      "etymological_meaning": "Unverified",
       "root_family": [],
       "etymology_explanation": "The form  is an established Unknown lexical item used unchanged as a given name.",
       "etymology_confidence": "LOW",
       "false_etymology_warning": "No derivation beyond the documented Unknown form is asserted. Any etymology that attributes this spelling to a different root or language without a source should be treated as unverified."
     },
     "language": {
-      "primary": "Unknown",
-      "associated_languages": [
-        "Unknown",
-        "Muslim South Asia"
-      ],
+      "primary": "Unverified",
+      "associated_languages": [],
       "language_notes": {
         "primary": "Unknown is the language of the recorded form Adeeva.",
         "usage": "Other scripts are transliterations of the name into those writing systems; they are not independent origins."
@@ -53,7 +50,7 @@
       "language_confidence": "LOW"
     },
     "origin": {
-      "primary_origin": "Unknown",
+      "primary_origin": "Unverified",
       "origin_type": "linguistic",
       "origin_confidence": "LOW",
       "origin_explanation": "The name originates in Unknown and circulates in Muslim naming through established multilingual use.",
@@ -155,39 +152,39 @@
       "english": {
         "name": "Adeeva",
         "script": "Adeeva",
-        "meaning": "Not objectively established",
-        "long_meaning": "Adeeva is an Unknown-origin given name; in Unknown the word means “Not objectively established”."
+        "meaning": "Meaning and origin unverified",
+        "long_meaning": "No reliable lexical source supports the previous gloss for this exact spelling."
       },
       "urdu": {
         "name": "Adeeva",
         "script": "Adeeva",
-        "meaning": "Not objectively established",
-        "long_meaning": "Not objectively established"
+        "meaning": "Meaning and origin unverified",
+        "long_meaning": "No reliable lexical source supports the previous gloss for this exact spelling."
       },
       "persian": {
         "name": "Adeeva",
         "script": "Adeeva",
-        "meaning": "Not objectively established",
-        "long_meaning": "Not objectively established"
+        "meaning": "Meaning and origin unverified",
+        "long_meaning": "No reliable lexical source supports the previous gloss for this exact spelling."
       },
       "hindi": {
         "name": "Adeeva",
         "script": "Adeeva",
-        "meaning": "Not objectively established",
-        "long_meaning": "Not objectively established"
+        "meaning": "Meaning and origin unverified",
+        "long_meaning": "No reliable lexical source supports the previous gloss for this exact spelling."
       },
       "pashto": {
         "name": "Adeeva",
         "script": "Adeeva",
-        "meaning": "Not objectively established",
-        "long_meaning": "Not objectively established",
+        "meaning": "Meaning and origin unverified",
+        "long_meaning": "No reliable lexical source supports the previous gloss for this exact spelling.",
         "native_review_required": true
       },
       "arabic": {
         "name": "Adeeva",
         "script": "Adeeva",
-        "meaning": "Not objectively established",
-        "long_meaning": "Not objectively established",
+        "meaning": "Meaning and origin unverified",
+        "long_meaning": "No reliable lexical source supports the previous gloss for this exact spelling.",
         "native_review_required": true
       }
     },
@@ -321,24 +318,40 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "unsupported_gloss_removed",
+        "exact_form_unverified",
+        "unrelated_arabic_form_not_equated",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 135,
-      "quality_score": 90,
+      "quality_score": 78,
       "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
     },
     "evidence": {
-      "sources": [
-        "The recorded Unknown form  carries the sense “Not objectively established”."
+      "sources": [],
+      "verification_method": "Direct lexical/cultural sources were not checked in this pass; meaning and name-use claims remain provisional until sourced.",
+      "claim_evidence": [
+        {
+          "claim": "Exact lexical/cultural claim",
+          "source": null,
+          "status": "direct_source_needed; claim_provisional"
+        },
+        {
+          "claim": "Personal-name usage and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "DIRECT_SOURCE_NEEDED; CLAIMS_PROVISIONAL"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Corrected unsupported compound meanings, native-form mismatches, Arabic form distinctions, and corrupted translations; unresolved claims are explicitly flagged.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -346,7 +359,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Adeeva",
-          "description": "Adeeva — an Unknown-origin given name meaning Not objectively established",
+          "description": "Adeeva — No verified lexical identification has been established for the exact spelling Adeeva; the previous gloss is not supported, and the record must not be conflated with unrelated Arabic forms.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -456,10 +469,15 @@
     },
     "editorial_validation": {
       "needs_manual_verification": true,
-      "flags": [],
+      "flags": [
+        "unsupported_gloss_removed",
+        "exact_form_unverified",
+        "unrelated_arabic_form_not_equated",
+        "translation_review_required"
+      ],
       "confidence": "LOW",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "reviewed_by": "NameVerse evidence-led review; direct source and translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,
