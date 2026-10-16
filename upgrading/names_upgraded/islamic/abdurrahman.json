@@ -207,7 +207,10 @@
     },
     "name_variants": {
       "romanized_variants": [
-        "Abdurrahman"
+        "Abdurrahman",
+        "abdulrahman",
+        "abderrahman",
+        "abdirahman"
       ],
       "script_forms": [
         "عبدالرحمن",
@@ -215,8 +218,12 @@
         "عَبْدُ الرَّحْمَن",
         "अब्दुर्रहमान"
       ],
-      "variant_notes": "Spelling variants reflect different transliteration conventions, not different names.",
-      "do_not_merge_with": []
+      "variant_notes": "Abdurrahman/Abdulrahman/Abderrahman/Abdirahman are candidate regional romanizations of the same Arabic compound عبد الرحمن; review regional usage and canonical routes manually.",
+      "do_not_merge_with": [
+        "abdulrahman",
+        "abderrahman",
+        "abdirahman"
+      ]
     },
     "related_names": [],
     "historical_context": {
@@ -339,10 +346,10 @@
       "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Reviewed incomplete prefixes and compound-name components; corrected the شكور/كريم conflation; retained manual source and translation checks.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -350,7 +357,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abdurrahman",
-          "description": "Abdurrahman — an Arabic-origin given name meaning Servant of the Most Merciful",
+          "description": "Abdurrahman — Abdurrahman is an Arabic-origin name meaning “Servant of the Most Merciful”.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
