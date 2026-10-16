@@ -11,14 +11,22 @@ Last updated: 2026-10-16
 - Record each completed file and any unresolved verification needs here.
 
 ## Progress
-- Individually edited and committed: 14 records
+- Individually edited and committed: 15 records
 - Fully source-verified / tier-1 certified: 0 records
 - Remaining records: total inventory must be reconciled against the live repository before stating a final count.
-- Last completed: `upgrading/names_upgraded/islamic/aaf.json`
+- Last completed: `upgrading/names_upgraded/islamic/aafak.json`
 - Latest record commit: `245d345dc0387a57ae43761d6d43100850eb86bb
-- Next action: inspect `upgrading/names_upgraded/islamic/aafak.json` next, then continue alphabetically one record per commit.
+- Next action: inspect `upgrading/names_upgraded/islamic/aafaq.json` next, then continue alphabetically one record per commit.
 
 ## Record log
+
+### 15. Aafak — Arabic lexical meaning checked; personal-name spelling unresolved
+- Checked Lane’s Lexicon and a modern Arabic dictionary: أُفُق means horizon/region/tract, and its plural is آفاق.
+- Added named source URLs and claim-level evidence; clarified that lexical attestation does not prove Aafak is a distinct personal name from Aafaq.
+- Removed an unsupported claim that Aafak is a boy’s name; gender remains unknown without independent usage data.
+- Corrected SEO description and synchronized FAQ/DefinedTerm structured data.
+- Provisional editorial score: 84/100; tier-1 remains false.
+- Outstanding: exact-spelling usage, regional naming frequency/gender, Arabic/Pashto native-speaker review, and deployed HTML validation.
 
 ### 14. Aaf — spelling/script mismatch corrected; identity remains unverified
 - Confirmed the stored Arabic form عائشة corresponds to Aisha/Aaisha and is not evidence for the separate Latin spelling Aaf.
