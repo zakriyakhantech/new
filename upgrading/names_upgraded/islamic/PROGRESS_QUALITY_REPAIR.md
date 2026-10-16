@@ -500,3 +500,22 @@
 - All ten records were re-fetched from the working branch; JSON parsing succeeded, FAQPage parity was checked, no duplicate normalized questions were found, and canonical URLs were populated.
 - FAQ counts are not assumed uniform: `abyan.json` retains 11 FAQs; the others retain their existing FAQ counts.
 - Historical identity, exact name use, and native translations remain provisional where direct sources are missing.
+
+
+## Batch reviewed on 2026-10-16 — records 272–281
+
+272. `adala.json` — retained عدالة (“justice/fairness”) as a plausible lexical gloss, but flagged direct dictionary sourcing and name-use evidence as outstanding.
+273. `adalat.json` — retained عدالة (“justice”) while marking the direct lexical source and personal-name usage for review.
+274. `adam.json` — removed the corrupted placeholder and unsupported “noble/exalted” gloss; treated آدم as a proper name with disputed etymology.
+275. `adama.json` — corrected the West African record so Arabic-script آدَمَا is not represented as native Fulani/Hausa orthography.
+276. `adan.json` — separated three conflicting forms (عدن, عدنان, أذان/مؤذن) and left the exact intended spelling/meaning unresolved.
+277. `adar.json` — removed the unsupported “spring/new beginnings” gloss for أدار and marked the exact form unverified.
+278. `adara.json` — removed the unsupported “joyful one” gloss for أدارة and marked the exact form unverified.
+279. `adawi.json` — removed the unsupported “exalted/noble” gloss for عدوي; retained a provisional nisba/relational interpretation.
+280. `adawiyah.json` — removed the unsupported “gardener/cultivator” gloss for عدوية; retained a provisional feminine nisba interpretation.
+281. `addar.json` — removed the unsupported “gentle/kind/beloved” gloss for أضار and left the exact form unverified.
+
+### Batch 272–281 validation and limits
+
+- All ten records were re-fetched from the working branch; JSON parsing succeeded, FAQPage parity was checked, no duplicate normalized questions were found, and canonical URLs were populated.
+- Exact etymology, personal-name use, and native translations remain provisional where direct sources are missing.
