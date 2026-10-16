@@ -21,7 +21,7 @@
     },
     "core_meaning": {
       "short_meaning": "Intelligent, knowledgeable",
-      "primary_meaning": "Adeeba is an Arabic-origin name meaning “Intelligent, knowledgeable”.",
+      "primary_meaning": "Adeeba corresponds to Arabic أديبة, the feminine form of أديب (“cultured/literary, well-mannered”); the previously recorded عديبة is a different form.",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
       "meaning_explanation": "Adeeba corresponds to the Arabic form أديبة (أ د ب). Its core sense is intelligent, knowledgeable. Feminine of أديب (adīb). The source record's form عديبة is a different form.",
       "meaning_confidence": "HIGH"
@@ -30,9 +30,9 @@
       "primary_language": "Arabic",
       "lexical_form": "أديبة",
       "transliteration": "adeeba",
-      "root": "",
+      "root": "أ د ب",
       "root_transliteration": "",
-      "morphology": "Simple lexical item used as a name.",
+      "morphology": "Feminine form of أديب.",
       "feminine_form": null,
       "etymological_meaning": "The Arabic word أديبة",
       "root_family": [],
@@ -154,39 +154,39 @@
       "english": {
         "name": "Adeeba",
         "script": "Adeeba",
-        "meaning": "Intelligent, knowledgeable",
-        "long_meaning": "Adeeba is an Arabic-origin given name; in Arabic the word means “Intelligent, knowledgeable”."
+        "meaning": "Cultured/literary, well-mannered (feminine form)",
+        "long_meaning": "The feminine form is أديبة; exact lexical source and native translations need review."
       },
       "urdu": {
         "name": "ادیبہ",
         "script": "ادیبہ",
-        "meaning": "ذہین، عالمہ",
-        "long_meaning": "Adeeba (ادیبہ) عربی زبان سے ماخوذ نام ہے۔ اس کا بنیادی مفہوم ذہین، عالمہ ہے۔ یہ نام مسلم معاشروں میں رکھا جاتا ہے اور اس کے مفاہیم سیاق و سباق کے مطابق استعمال ہوتے ہیں۔"
+        "meaning": "ادیبہ، مہذب، باادب",
+        "long_meaning": "The feminine form is أديبة; exact lexical source and native translations need review."
       },
       "persian": {
         "name": "Adeeba",
         "script": "Adeeba",
-        "meaning": "Intelligent, knowledgeable",
-        "long_meaning": "Intelligent, knowledgeable"
+        "meaning": "ادیبه، فرهیخته، باادب",
+        "long_meaning": "The feminine form is أديبة; exact lexical source and native translations need review."
       },
       "hindi": {
         "name": "अदीबा",
         "script": "अदीबा",
-        "meaning": "बुद्धिमान, विदुषी",
-        "long_meaning": "Adeeba (अदीबा) अरबी भाषा से लिया गया नाम है। इसका मुख्य अर्थ बुद्धिमान, विदुषी है। यह नाम मुस्लिम समाजों में रखा जाता है और इसका प्रयोग संदर्भ के अनुसार बदलता है।"
+        "meaning": "सुसंस्कृत, साहित्यिक, शिष्ट",
+        "long_meaning": "The feminine form is أديبة; exact lexical source and native translations need review."
       },
       "pashto": {
         "name": "اديبه",
         "script": "اديبه",
-        "meaning": "ځیرک، پوهه",
-        "long_meaning": "Adeeba (اديبه) د عربي ژبې څخه اخیستل شوی نوم دی او بنسټیزه مانا یې ځیرک، پوهه ده. دا نوم په مسلمانانو ټولنو کې کارول کیږي او کارونه یې د سیاق له مخې بدلیږي.",
+        "meaning": "ادبمنه، پوهه، فرهنګپاله",
+        "long_meaning": "The feminine form is أديبة; exact lexical source and native translations need review.",
         "native_review_required": true
       },
       "arabic": {
         "name": "أديبة",
         "script": "أديبة",
-        "meaning": "أديبة، عالمة",
-        "long_meaning": "Adeeba (أديبة) اسم مأخوذ من اللغة العربية، ومعناه الأساسي أديبة، عالمة. يُستخدم هذا الاسم في المجتمعات المسلمة ويختلف استعماله بحسب السياق اللغوي.",
+        "meaning": "أديبة، مثقفة، مهذبة",
+        "long_meaning": "The feminine form is أديبة; exact lexical source and native translations need review.",
         "native_review_required": true
       }
     },
@@ -325,24 +325,39 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "wrong_arabic_form_corrected",
+        "feminine_form_gloss_clarified",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 150,
-      "quality_score": 90,
+      "quality_score": 78,
       "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
     },
     "evidence": {
-      "sources": [
-        "The recorded Arabic form أديبة carries the sense “Intelligent, knowledgeable”."
+      "sources": [],
+      "verification_method": "Direct lexical/cultural sources were not checked in this pass; meaning and name-use claims remain provisional until sourced.",
+      "claim_evidence": [
+        {
+          "claim": "Exact lexical/cultural claim",
+          "source": null,
+          "status": "direct_source_needed; claim_provisional"
+        },
+        {
+          "claim": "Personal-name usage and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "DIRECT_SOURCE_NEEDED; CLAIMS_PROVISIONAL"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Corrected unsupported compound meanings, native-form mismatches, Arabic form distinctions, and corrupted translations; unresolved claims are explicitly flagged.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -350,7 +365,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Adeeba",
-          "description": "Adeeba — an Arabic-origin given name meaning Intelligent, knowledgeable",
+          "description": "Adeeba — Adeeba corresponds to Arabic أديبة, the feminine form of أديب (“cultured/literary, well-mannered”); the previously recorded عديبة is a different form.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -459,11 +474,15 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "wrong_arabic_form_corrected",
+        "feminine_form_gloss_clarified",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; direct source and translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,
