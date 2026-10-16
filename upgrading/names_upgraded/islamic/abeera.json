@@ -253,39 +253,39 @@
     "faq": [
       {
         "q": "What does Abeera mean?",
-        "a": "Abeera is an Arabic-origin name meaning “Fragrance”."
+        "a": "عبيرة is treated as a feminine form related to عبير (“fragrance”); the exact derivation should be checked."
       },
       {
         "q": "What is the origin of Abeera?",
-        "a": "Abeera originates in Arabic and circulates in Muslim naming communities."
+        "a": "The recorded form is Arabic-script عبيرة; modern name usage needs separate evidence."
       },
       {
         "q": "Is Abeera an Arabic name?",
-        "a": "Yes, the recorded form عبيرة is Arabic."
+        "a": "The lexical form is Arabic; personal-name frequency is not established by the dictionary alone."
       },
       {
         "q": "What is the root of Abeera?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "The exact root analysis should be confirmed by an Arabic lexicographer."
       },
       {
         "q": "Is Abeera an Islamic name?",
-        "a": "Abeera is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "Arabic origin does not establish a naming recommendation."
       },
       {
         "q": "Is Abeera a Quranic name?",
-        "a": "Abeera is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish Abeera as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Abeera mean in Urdu?",
-        "a": "In Urdu it is written عبیرہ and carries the sense “خوشبودار، مشک جیسی”."
+        "a": "A cautious Urdu gloss is “خوشبودار”; native review remains pending."
       },
       {
         "q": "How is Abeera pronounced?",
-        "a": "A romanized syllable approximation is “a-bee-ra”."
+        "a": "“A-bee-ra” is approximate; transliteration varies."
       },
       {
         "q": "Is Abeera a boy's or girl's name?",
-        "a": "Documented usage records Abeera as a girl's name; actual use can vary by community."
+        "a": "Modern regional frequency data has not been supplied."
       }
     ],
     "seo": {
@@ -325,24 +325,41 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "exact_feminine_form_source_needed",
+        "personal_name_frequency_not_verified",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 150,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 78,
+      "quality_score_basis": "Provisional editorial score only; exact lexical form, personal-name usage, and fluent translations require separate verification."
     },
     "evidence": {
       "sources": [
-        "The recorded Arabic form عبيرة carries the sense “Fragrance”."
+        "https://www.laneslexicon.com/word/%D8%B9%D8%A8%D9%8A%D8%B1"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Sources are listed only where checked. Cultural/name usage, exact morphology, and translation quality require separate evidence.",
+      "claim_evidence": [
+        {
+          "claim": "The record treats عبيرة as a feminine form related to عبير (“fragrance”); direct source for the exact form and modern name usage remain needed.",
+          "source": "https://www.laneslexicon.com/word/%D8%B9%D8%A8%D9%8A%D8%B1",
+          "status": "lexical_source_checked"
+        },
+        {
+          "claim": "Personal-name usage and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
+      ],
+      "claim_evidence_status": "LEXICAL_SOURCE_CHECKED; NAME_USAGE_AND_TRANSLATIONS_PENDING"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Corrected gendered translation mismatches, ambiguous vocalization, and non-Arabic native-script conflation; separated lexical evidence from personal-name usage.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -350,7 +367,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abeera",
-          "description": "Abeera — an Arabic-origin given name meaning Fragrance",
+          "description": "Abeera — Abeera is an Arabic-origin name meaning “Fragrance”.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -364,7 +381,7 @@
               "name": "What does Abeera mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abeera is an Arabic-origin name meaning “Fragrance”."
+                "text": "عبيرة is treated as a feminine form related to عبير (“fragrance”); the exact derivation should be checked."
               }
             },
             {
@@ -372,7 +389,7 @@
               "name": "What is the origin of Abeera?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abeera originates in Arabic and circulates in Muslim naming communities."
+                "text": "The recorded form is Arabic-script عبيرة; modern name usage needs separate evidence."
               }
             },
             {
@@ -380,7 +397,7 @@
               "name": "Is Abeera an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عبيرة is Arabic."
+                "text": "The lexical form is Arabic; personal-name frequency is not established by the dictionary alone."
               }
             },
             {
@@ -388,7 +405,7 @@
               "name": "What is the root of Abeera?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "The exact root analysis should be confirmed by an Arabic lexicographer."
               }
             },
             {
@@ -396,7 +413,7 @@
               "name": "Is Abeera an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abeera is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "Arabic origin does not establish a naming recommendation."
               }
             },
             {
@@ -404,7 +421,7 @@
               "name": "Is Abeera a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abeera is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish Abeera as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -412,7 +429,7 @@
               "name": "What does Abeera mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عبیرہ and carries the sense “خوشبودار، مشک جیسی”."
+                "text": "A cautious Urdu gloss is “خوشبودار”; native review remains pending."
               }
             },
             {
@@ -420,7 +437,7 @@
               "name": "How is Abeera pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “a-bee-ra”."
+                "text": "“A-bee-ra” is approximate; transliteration varies."
               }
             },
             {
@@ -428,7 +445,7 @@
               "name": "Is Abeera a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abeera as a girl's name; actual use can vary by community."
+                "text": "Modern regional frequency data has not been supplied."
               }
             }
           ]
@@ -459,11 +476,15 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "MEDIUM",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "exact_feminine_form_source_needed",
+        "personal_name_frequency_not_verified",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; direct name-use and translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,
