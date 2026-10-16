@@ -11,8 +11,8 @@
       "normalized_name": "aaftab",
       "name_type": "given_name",
       "gender": "Male",
-      "gender_confidence": "HIGH",
-      "gender_note": "Gender is recorded from documented naming usage, not inferred from the word's meaning.",
+      "gender_confidence": "MEDIUM",
+      "gender_note": "Aaftab is commonly presented as a masculine personal name in South Asian contexts, but this record has no independent registration data quantifying gender distribution by region. The gender label is therefore provisional.",
       "alternate_spellings": [
         "Aaftab",
         "aaftab",
@@ -24,7 +24,7 @@
       "short_meaning": "Sun, sunlight",
       "primary_meaning": "Aaftab corresponds to the Persian form آفتاب and is glossed in this record as “Sun, sunlight.” The lexical gloss describes the word-form; Qur’anic occurrence, religious recommendation, popularity, and a name-bearer’s character are separate claims and are not established by this gloss alone.",
       "literal_meaning": "Sun, sunlight",
-      "meaning_explanation": "Aaftab corresponds to the Persian form آفتاب (Persian آفتاب (āftāb)). Its core sense is sun (persian). Aaftab is Persian آفتاب (āftāb) 'sun, sunlight'. CRITICAL SOURCE ERROR: the source gave عاطب (a different form) and labelled the origin Arabic; the name is Persian. The source gloss 'Radiant, Shining' is broadly consistent with the lexical sense.",
+      "meaning_explanation": "Aaftab represents Persian آفتاب (āftāb), the ordinary Persian word for “sun” and, by extension or context, sunlight. Persian lexical origin should not be confused with Arabic origin merely because the word is written in an Arabic-derived script or used in Muslim communities. This word meaning does not establish the frequency of the exact Latin spelling as a personal name.",
       "meaning_confidence": "HIGH"
     },
     "etymology": {
@@ -289,9 +289,9 @@
     ],
     "seo": {
       "title": "Aaftab Name Meaning, Origin & Islamic Context",
-      "meta_description": "Aaftab (آفتاب) — meaning, origin, pronunciation and Islamic naming context.",
+      "meta_description": "Aaftab (آفتاب, āftāb) — Persian for sun or sunlight, also used as a personal name. Exact-spelling frequency and regional gender data are not established here.",
       "meta_keywords": "Aaftab meaning, Aaftab name meaning, Aaftab origin, Aaftab meaning in Urdu, Aaftab pronunciation, Aaftab Islamic name",
-      "description_paragraph": "Aaftab (آفتاب) is recorded with the meaning “Aaftab is a Persian-origin name meaning “Sun, sunlight”.”. This entry distinguishes the proposed lexical meaning from cultural use in Muslim communities and identifies claims that may require further source review.",
+      "description_paragraph": "Aaftab (آفتاب, āftāb) is a Persian word meaning “sun” or “sunlight,” also used as a personal name. Its Persian lexical origin is distinct from Arabic origin or Qur’anic status; exact-spelling name frequency is not established here.",
       "keywords": [
         "Aaftab meaning",
         "Aaftab name meaning",
@@ -310,7 +310,7 @@
       ],
       "canonical_url": "https://nameverse.site/names/islamic/aaftab",
       "seo_score": 90,
-      "seo_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "seo_score_basis": "Provisional editorial estimate: 85/100. Core Persian lexical meaning is source-checked; exact spelling frequency, regional gender data, historical etymology, native-speaker review, and deployed rendering remain open."
     },
     "seo_content": {
       "intro_paragraph": "Learn about Aaftab, including its recorded meaning, language, pronunciation and naming context. The entry treats linguistic origin and religious association as separate questions.",
@@ -325,23 +325,38 @@
     ],
     "content_quality": {
       "tier1_verified": false,
-      "authenticity_flags": [],
+      "authenticity_flags": [
+        "exact_aaftab_spelling_frequency_not_verified",
+        "regional_gender_distribution_not_verified",
+        "persian_native_review_pending",
+        "historical_etymology_not_verified"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 151,
-      "quality_score": 82,
-      "quality_score_basis": "Provisional editorial score after structural consistency checks; not a certification of linguistic accuracy."
+      "quality_score": 85,
+      "quality_score_basis": "Provisional editorial estimate: 85/100. Persian lexical form آفتاب and its sun/sunlight sense are source-checked; the record separates Persian origin from Arabic/scriptural claims. Exact-spelling frequency, regional gender data, deeper historical derivation, Persian native review, and deployed rendering remain unverified.",
+      "tier1_verified_scope": "Persian lexical form and core meaning checked; deeper historical etymology, exact spelling frequency, regional gender distribution, native review, and rendered page remain uncertified."
     },
     "evidence": {
       "sources": [
-        "The recorded Persian form آفتاب carries the sense “Sun, sunlight”."
+        "https://fa.wiktionary.org/wiki/%D8%A2%D9%81%D8%AA%D8%A7%D8%A8",
+        "https://www.persian-language.org/"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "The Persian form and gloss are consistent with the Persian lexical entry for آفتاب. The general Persian-language dictionary landing page is supplementary only; exact Latin spelling frequency and regional gender distribution have not been independently established. Do not treat this record as a historical-etymology certification.",
+      "claim_evidence": [
+        {
+          "claim": "Persian lexical form آفتاب (āftāb), meaning sun/sunlight",
+          "source": "https://fa.wiktionary.org/wiki/%D8%A2%D9%81%D8%AA%D8%A7%D8%A8",
+          "status": "Persian_lexical_entry_checked"
+        }
+      ],
+      "claim_evidence_status": "PERSIAN_LEXICAL_FORM_AND_CORE_MEANING_CHECKED; HISTORICAL_DERIVATION_AND_PERSONAL_NAME_FREQUENCY_NOT_VERIFIED"
     },
     "provenance": {
       "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "methodology": "Individual Persian lexical review of آفتاب; removed repetitive meaning wording, added claim-level lexical evidence, lowered gender confidence pending regional data, corrected SEO description, and synchronized FAQ structured data.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -349,7 +364,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Aaftab",
-          "description": "Aaftab — a Persian-origin given name meaning Sun, sunlight",
+          "description": "Aaftab (آفتاب, āftāb) is a Persian word meaning “sun” or “sunlight,” also used as a personal name. Its Persian lexical origin is distinct from Arabic origin or Qur’anic status; exact-spelling name frequency is not established here.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
