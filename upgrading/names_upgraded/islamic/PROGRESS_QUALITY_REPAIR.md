@@ -194,3 +194,23 @@
 
 - All ten records were re-fetched from the working branch. JSON parsing succeeded for all 10; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
 - All records are marked not fully verified; the named lexical sources do not establish personal-name usage, popularity, religious status, or native-speaker quality of every translation.
+
+
+## Batch reviewed on 2026-10-16 — records 112–121
+
+112. `aatiqa.json` — corrected unsupported “ancestress/forebear” gloss for عتيقة; retained documented senses related to ancient, noble/excellent, or emancipated, and flagged personal-name meaning for review.
+113. `aatiqah.json` — corrected the same gloss and flagged Aatiqa/Aatiqah as candidate transliteration variants.
+114. `aatir.json` — retained a cautious fragrance-related gloss supported by Arabic lexical sources; reduced certainty around personal-name interpretation.
+115. `aatira.json` — added lexical source support for the feminine fragrance-related form and flagged Aatira/Aatirah as likely transliteration variants.
+116. `aatirah.json` — added the same source-backed lexical nuance and variant-review flag.
+117. `aatiya.json` — removed unsupported passive “given/granted” gloss; related sources support giving/gift forms but not the exact prior meaning for عاطية.
+118. `aauf.json` — removed unsupported “praise/thanks” meaning; recorded عؤف is non-standard in the checked source and possible عوف is not treated as confirmed.
+119. `aaus.json` — removed unsupported “gift/favour” gloss; kept the historical proper-name form separate from unresolved etymology.
+120. `aayan.json` — corrected the lexical gloss to “clear/evident/manifest; seen in person,” based on عيان dictionary senses.
+121. `aayat.json` — corrected singular/plural mismatch: آيات is plural of آية (“sign/token/verse”); removed unverified popularity assertion from factual claims.
+
+### Batch 112–121 validation and limits
+
+- All ten records were re-fetched from the working branch. JSON parsing succeeded for all 10; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
+- All ten remain not fully verified; personal-name usage, frequency, religious status, and fluent/native review of every translation are separate checks.
+- `aaus.json` intentionally has no direct lexical source for the asserted personal-name etymology; its meaning remains unverified rather than being assigned a speculative source.
