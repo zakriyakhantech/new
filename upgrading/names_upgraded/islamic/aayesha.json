@@ -22,17 +22,17 @@
     },
     "core_meaning": {
       "short_meaning": "Living, alive",
-      "primary_meaning": "Aayesha is an Arabic-origin name meaning “Living, alive”.",
+      "primary_meaning": "Aayesha corresponds to Arabic عائشة (ʿĀʾishah), the feminine form related to عائش (“living/alive”).",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "Aayesha corresponds to the Arabic form عائشة (ع ي ش). Its core sense is living, alive, prosperous. Feminine of ʿāʾish ('living, alive'). The source record's spelling أَايِشَة is malformed; the standard form is عائشة.",
+      "meaning_explanation": "Lane's Lexicon records عائش with the sense “living.” The form عائشة is the feminine name form. Popularity and locale translations remain separately unverified.",
       "meaning_confidence": "HIGH"
     },
     "etymology": {
       "primary_language": "Arabic",
       "lexical_form": "عائشة",
       "transliteration": "aayesha",
-      "root": "",
-      "root_transliteration": "",
+      "root": "ع ي ش",
+      "root_transliteration": "ʿ-y-sh",
       "morphology": "Simple lexical item used as a name.",
       "feminine_form": null,
       "etymological_meaning": "The Arabic word عائشة",
@@ -254,39 +254,39 @@
     "faq": [
       {
         "q": "What does Aayesha mean?",
-        "a": "Aayesha is an Arabic-origin name meaning “Living, alive”."
+        "a": "The Arabic form عائشة is related to عائش (“living/alive”)."
       },
       {
         "q": "What is the origin of Aayesha?",
-        "a": "Aayesha originates in Arabic and circulates in Muslim naming communities."
+        "a": "The recorded form is Arabic; modern name use needs separate evidence."
       },
       {
         "q": "Is Aayesha an Arabic name?",
-        "a": "Yes, the recorded form عائشة is Arabic."
+        "a": "The standard Arabic form recorded here is عائشة."
       },
       {
         "q": "What is the root of Aayesha?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "The form is related to root ع ي ش."
       },
       {
         "q": "Is Aayesha an Islamic name?",
-        "a": "Aayesha is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "Arabic origin alone does not establish a religious prescription."
       },
       {
         "q": "Is Aayesha a Quranic name?",
-        "a": "Aayesha is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish Aayesha as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Aayesha mean in Urdu?",
-        "a": "In Urdu it is written عائشہ and carries the sense “زندہ، جیتی جاگتی”."
+        "a": "A cautious Urdu gloss is “زندہ، جیتی جاگتی”; native review remains pending."
       },
       {
         "q": "How is Aayesha pronounced?",
-        "a": "A romanized syllable approximation is “aayes-ha”."
+        "a": "“Aa-ye-sha” is an approximate romanized guide."
       },
       {
         "q": "Is Aayesha a boy's or girl's name?",
-        "a": "Documented usage records Aayesha as a girl's name; actual use can vary by community."
+        "a": "The recorded form is grammatically feminine; regional frequency data has not been supplied."
       }
     ],
     "seo": {
@@ -326,24 +326,40 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "personal_name_frequency_not_verified",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 152,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 80,
+      "quality_score_basis": "Provisional editorial score only; name-use, frequency, religious status, and native translation quality remain separate verification tasks."
     },
     "evidence": {
       "sources": [
-        "The recorded Arabic form عائشة carries the sense “Living, alive”."
+        "https://www.laneslexicon.com/word/%D8%B9%D8%A7%D8%A6%D8%B4"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Checked only the listed sources. Uncited or unsupported claims remain provisional; name-use, frequency, religious status, and translation quality require separate evidence.",
+      "claim_evidence": [
+        {
+          "claim": "Lane's Lexicon records عائش with the meaning “living”; عائشة is the feminine form.",
+          "source": "https://www.laneslexicon.com/word/%D8%B9%D8%A7%D8%A6%D8%B4",
+          "status": "source_checked"
+        },
+        {
+          "claim": "Personal-name usage, frequency, and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
+      ],
+      "claim_evidence_status": "SOURCE_CHECKED; NAME_USAGE_AND_TRANSLATIONS_PENDING"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Checked listed lexical/reference sources; corrected form mismatches and conflicting translations; separated lexical meaning from name-use claims.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -351,7 +367,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Aayesha",
-          "description": "Aayesha — an Arabic-origin given name meaning Living, alive",
+          "description": "Aayesha — Aayesha corresponds to Arabic عائشة (ʿĀʾishah), the feminine form related to عائش (“living/alive”).",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -365,7 +381,7 @@
               "name": "What does Aayesha mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Aayesha is an Arabic-origin name meaning “Living, alive”."
+                "text": "The Arabic form عائشة is related to عائش (“living/alive”)."
               }
             },
             {
@@ -373,7 +389,7 @@
               "name": "What is the origin of Aayesha?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Aayesha originates in Arabic and circulates in Muslim naming communities."
+                "text": "The recorded form is Arabic; modern name use needs separate evidence."
               }
             },
             {
@@ -381,7 +397,7 @@
               "name": "Is Aayesha an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عائشة is Arabic."
+                "text": "The standard Arabic form recorded here is عائشة."
               }
             },
             {
@@ -389,7 +405,7 @@
               "name": "What is the root of Aayesha?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "The form is related to root ع ي ش."
               }
             },
             {
@@ -397,7 +413,7 @@
               "name": "Is Aayesha an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Aayesha is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "Arabic origin alone does not establish a religious prescription."
               }
             },
             {
@@ -405,7 +421,7 @@
               "name": "Is Aayesha a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Aayesha is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish Aayesha as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -413,7 +429,7 @@
               "name": "What does Aayesha mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عائشہ and carries the sense “زندہ، جیتی جاگتی”."
+                "text": "A cautious Urdu gloss is “زندہ، جیتی جاگتی”; native review remains pending."
               }
             },
             {
@@ -421,7 +437,7 @@
               "name": "How is Aayesha pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “aayes-ha”."
+                "text": "“Aa-ye-sha” is an approximate romanized guide."
               }
             },
             {
@@ -429,7 +445,7 @@
               "name": "Is Aayesha a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Aayesha as a girl's name; actual use can vary by community."
+                "text": "The recorded form is grammatically feminine; regional frequency data has not been supplied."
               }
             }
           ]
@@ -460,11 +476,14 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "personal_name_frequency_not_verified",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; name-use/translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,
