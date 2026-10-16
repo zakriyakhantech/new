@@ -11,8 +11,8 @@
       "normalized_name": "aaida",
       "name_type": "given_name",
       "gender": "Female",
-      "gender_confidence": "HIGH",
-      "gender_note": "Gender is recorded from documented naming usage, not inferred from the word's meaning.",
+      "gender_confidence": "MEDIUM",
+      "gender_note": "The Arabic form عائدة is grammatically feminine. This supports grammatical gender, but the record has no independent registration data quantifying how often the exact Latin spelling Aaida is used as a feminine personal name.",
       "alternate_spellings": [
         "Aaida",
         "aaida",
@@ -24,7 +24,7 @@
       "short_meaning": "Returning, one who returns",
       "primary_meaning": "Aaida corresponds to the Arabic form عائدة and is glossed in this record as “Returning, one who returns.” The record associates the form with root ع و د (ʿ-w-d). The lexical gloss describes the word-form; Qur’anic occurrence, religious recommendation, popularity, and a name-bearer’s character are separate claims and are not established by this gloss alone.",
       "literal_meaning": "Returning, one who returns",
-      "meaning_explanation": "Aaida corresponds to the Arabic form عائدة (Arabic root ع و د (ʿ-w-d); عَائِدَة (ʿĀʾida)). Its core sense is returning (feminine). Aaida is Arabic عَائِدَة (ʿĀʾida) 'returning, one who returns' (feminine), from the root ع و د (ʿ-w-d). The source gloss 'Guide, helper' is unsupported and has been replaced with the lexical sense.",
+      "meaning_explanation": "Arabic عَائِدَة (ʿāʾida) is the feminine active participle associated with عَادَ (ʿāda), “to return,” and the root ع و د. Its direct lexical sense is “returning” or “one who returns.” The word’s morphology supports feminine grammatical form; it does not establish exact Latin-spelling frequency or Qur’anic status.",
       "meaning_confidence": "HIGH"
     },
     "etymology": {
@@ -33,7 +33,7 @@
       "transliteration": "aaida",
       "root": "ع و د",
       "root_transliteration": "ʿ-w-d",
-      "morphology": "Built on the root ع و د.",
+      "morphology": "Feminine active participle (اسم فاعل مؤنث) associated with the Arabic verb عادَ (ʿāda, “to return”) and root ع و د (ʿ-w-d).",
       "feminine_form": null,
       "etymological_meaning": "From the root ع و د (ʿ-w-d)",
       "root_family": [],
@@ -291,9 +291,9 @@
     ],
     "seo": {
       "title": "Aaida Name Meaning, Origin & Islamic Context",
-      "meta_description": "Aaida (عائدة) — meaning, origin, pronunciation and Islamic naming context.",
+      "meta_description": "Aaida (عائدة) — Arabic feminine form meaning “returning” or “one who returns.” Exact-spelling popularity and regional naming patterns are not established here.",
       "meta_keywords": "Aaida meaning, Aaida name meaning, Aaida origin, Aaida meaning in Urdu, Aaida pronunciation, Aaida Islamic name",
-      "description_paragraph": "Aaida (عائدة) is recorded with the meaning “Aaida is an Arabic-origin name meaning “Returning, one who returns”.”. This entry distinguishes the proposed lexical meaning from cultural use in Muslim communities and identifies claims that may require further source review.",
+      "description_paragraph": "Aaida represents Arabic عائدة (ʿāʾida), a feminine form associated with “returning” or “one who returns.” The Arabic lexical form is source-checked; frequency of the exact Latin spelling and regional naming patterns are not established here.",
       "keywords": [
         "Aaida meaning",
         "Aaida name meaning",
@@ -312,7 +312,7 @@
       ],
       "canonical_url": "https://nameverse.site/names/islamic/aaida",
       "seo_score": 95,
-      "seo_score_basis": "9 distinct FAQs; gloss verified; root present; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "seo_score_basis": "Provisional editorial estimate: 86/100. Core Arabic lexical form and morphology are source-checked; exact spelling frequency, regional usage, native translation review, and deployed rendering remain open."
     },
     "seo_content": {
       "intro_paragraph": "Learn about Aaida, including its recorded meaning, language, pronunciation and naming context. The entry treats linguistic origin and religious association as separate questions.",
@@ -327,23 +327,42 @@
     ],
     "content_quality": {
       "tier1_verified": false,
-      "authenticity_flags": [],
+      "authenticity_flags": [
+        "exact_aaida_spelling_frequency_not_verified",
+        "regional_gender_distribution_not_verified",
+        "arabic_and_pashto_native_review_pending"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 155,
-      "quality_score": 82,
-      "quality_score_basis": "Provisional editorial score; structural consistency corrected, not linguistic certification."
+      "quality_score": 86,
+      "quality_score_basis": "Provisional editorial estimate: 86/100. Arabic form, feminine morphology, and return-related sense were checked against lexical references. Exact Latin spelling frequency, regional gender distribution, native-language translation review, and deployed rendering remain unverified.",
+      "tier1_verified_scope": "Arabic lexical form and morphology checked; exact Latin spelling frequency, regional usage, native review, and rendered page remain uncertified."
     },
     "evidence": {
       "sources": [
-        "The recorded Arabic form عائدة carries the sense “Returning, one who returns”."
+        "https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D8%A6%D8%AF%D8%A9",
+        "https://www.laneslexicon.com/root/%D8%B9%D9%88%D8%AF"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Checked the Arabic lexical entry for عائدة and Lane’s Lexicon root entry for ع و د. These support the form’s relation to returning. They do not establish exact Latin spelling frequency, regional naming statistics, or Qur’anic personal-name status.",
+      "claim_evidence": [
+        {
+          "claim": "Arabic عائدة is a feminine form related to returning",
+          "source": "https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D8%A6%D8%AF%D8%A9",
+          "status": "lexical_entry_checked"
+        },
+        {
+          "claim": "Root ع و د has the semantic field related to returning",
+          "source": "https://www.laneslexicon.com/root/%D8%B9%D9%88%D8%AF",
+          "status": "dictionary_root_entry_checked"
+        }
+      ],
+      "claim_evidence_status": "ARABIC_LEXICAL_FORM_AND_ROOT_SENSE_CHECKED; EXACT_LATIN_SPELLING_FREQUENCY_NOT_VERIFIED"
     },
     "provenance": {
       "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "methodology": "Individual Arabic lexical and morphology review for عائدة against a lexical entry and Lane’s Lexicon root entry for ع و د; replaced placeholder evidence, clarified feminine active-participle morphology, corrected stale SEO copy, lowered gender confidence for the exact Latin spelling, and synchronized FAQ structured data.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -351,7 +370,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Aaida",
-          "description": "Aaida — an Arabic-origin given name meaning Returning, one who returns",
+          "description": "Aaida represents Arabic عائدة (ʿāʾida), a feminine form associated with “returning” or “one who returns.” The Arabic lexical form is source-checked; frequency of the exact Latin spelling and regional naming patterns are not established here.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
