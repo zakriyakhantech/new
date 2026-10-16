@@ -21,14 +21,14 @@
     },
     "core_meaning": {
       "short_meaning": "Intelligent",
-      "primary_meaning": "Adeem is an Unknown-origin name meaning “Intelligent”.",
+      "primary_meaning": "The Arabic word أديم has lexical senses including tanned hide/leather and the surface of the earth; the previous “intelligent” gloss is unsupported, and personal-name use is unverified.",
       "literal_meaning": "The name is the Unknown word itself, used unchanged as a given name rather than a derived or diminutive form.",
       "meaning_explanation": "No verified lexical identification was established for Adeem. The source record gave أديم with the gloss 'Intelligent', which is unsupported. أديم is an Arabic word for 'tanned hide; surface of the earth' and its use as a personal name is not verified. No gloss is asserted. No meaning is asserted, because asserting one would require inventing evidence.",
       "meaning_confidence": "LOW"
     },
     "etymology": {
-      "primary_language": "Unknown",
-      "lexical_form": "",
+      "primary_language": "Arabic (lexical word; personal-name use unverified)",
+      "lexical_form": "أديم",
       "transliteration": "adeem",
       "root": "",
       "root_transliteration": "",
@@ -155,39 +155,39 @@
       "english": {
         "name": "Adeem",
         "script": "Adeem",
-        "meaning": "Intelligent",
-        "long_meaning": "Adeem is an Unknown-origin given name; in Unknown the word means “Intelligent”."
+        "meaning": "Tanned hide/leather; surface of the earth (lexical word, not verified as a name)",
+        "long_meaning": "The existing explanation identifies أديم as hide/leather or surface of the earth; “intelligent” is removed. Direct dictionary source still needed."
       },
       "urdu": {
         "name": "Adeem",
         "script": "Adeem",
-        "meaning": "Not objectively established",
-        "long_meaning": "Not objectively established"
+        "meaning": "چمڑا؛ زمین کی سطح (لغوی معنی؛ بطور نام استعمال غیرمصدقہ)",
+        "long_meaning": "The existing explanation identifies أديم as hide/leather or surface of the earth; “intelligent” is removed. Direct dictionary source still needed."
       },
       "persian": {
         "name": "Adeem",
         "script": "Adeem",
-        "meaning": "Not objectively established",
-        "long_meaning": "Not objectively established"
+        "meaning": "پوست دباغی‌شده؛ سطح زمین (معنای واژگانی؛ کاربرد نام نامشخص)",
+        "long_meaning": "The existing explanation identifies أديم as hide/leather or surface of the earth; “intelligent” is removed. Direct dictionary source still needed."
       },
       "hindi": {
         "name": "Adeem",
         "script": "Adeem",
-        "meaning": "Not objectively established",
-        "long_meaning": "Not objectively established"
+        "meaning": "चमड़ा; पृथ्वी की सतह (शब्दकोशीय अर्थ; नाम-प्रयोग अप्रमाणित)",
+        "long_meaning": "The existing explanation identifies أديم as hide/leather or surface of the earth; “intelligent” is removed. Direct dictionary source still needed."
       },
       "pashto": {
         "name": "Adeem",
         "script": "Adeem",
-        "meaning": "Not objectively established",
-        "long_meaning": "Not objectively established",
+        "meaning": "پوستکی/چرم؛ د ځمکې سطحه (لغوي مانا؛ د نوم کارول نه دي تایید شوي)",
+        "long_meaning": "The existing explanation identifies أديم as hide/leather or surface of the earth; “intelligent” is removed. Direct dictionary source still needed.",
         "native_review_required": true
       },
       "arabic": {
         "name": "Adeem",
         "script": "Adeem",
-        "meaning": "Not objectively established",
-        "long_meaning": "Not objectively established",
+        "meaning": "أديم: الجلد المدبوغ أو ظاهر الأرض",
+        "long_meaning": "The existing explanation identifies أديم as hide/leather or surface of the earth; “intelligent” is removed. Direct dictionary source still needed.",
         "native_review_required": true
       }
     },
@@ -321,24 +321,39 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "intelligent_gloss_corrected_to_lexical_senses",
+        "personal_name_usage_unverified",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 136,
-      "quality_score": 90,
+      "quality_score": 78,
       "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
     },
     "evidence": {
-      "sources": [
-        "The recorded Unknown form  carries the sense “Intelligent”."
+      "sources": [],
+      "verification_method": "Direct lexical/cultural sources were not checked in this pass; meaning and name-use claims remain provisional until sourced.",
+      "claim_evidence": [
+        {
+          "claim": "Exact lexical/cultural claim",
+          "source": null,
+          "status": "direct_source_needed; claim_provisional"
+        },
+        {
+          "claim": "Personal-name usage and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "DIRECT_SOURCE_NEEDED; CLAIMS_PROVISIONAL"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Corrected unsupported compound meanings, native-form mismatches, Arabic form distinctions, and corrupted translations; unresolved claims are explicitly flagged.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -346,7 +361,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Adeem",
-          "description": "Adeem — an Unknown-origin given name meaning Intelligent",
+          "description": "Adeem — The Arabic word أديم has lexical senses including tanned hide/leather and the surface of the earth; the previous “intelligent” gloss is unsupported, and personal-name use is unverified.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -456,10 +471,14 @@
     },
     "editorial_validation": {
       "needs_manual_verification": true,
-      "flags": [],
+      "flags": [
+        "intelligent_gloss_corrected_to_lexical_senses",
+        "personal_name_usage_unverified",
+        "translation_review_required"
+      ],
       "confidence": "LOW",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "reviewed_by": "NameVerse evidence-led review; direct source and translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,
