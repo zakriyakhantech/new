@@ -11,14 +11,21 @@ Last updated: 2026-10-16
 - Record each completed file and any unresolved verification needs here.
 
 ## Progress
-- Individually edited and committed: 24 unique records
+- Individually edited and committed: 25 unique records
 - Fully source-verified / tier-1 certified: 0 records
 - Remaining records: total inventory must be reconciled against the live repository before stating a final count.
-- Last completed: `upgrading/names_upgraded/islamic/aaina.json` (24 unique records completed)
+- Last completed: `upgrading/names_upgraded/islamic/aaira.json` (25 unique records completed)
 - Latest record commit: `245d345dc0387a57ae43761d6d43100850eb86bb
-- Next action: inspect `upgrading/names_upgraded/islamic/aaira.json` next, then continue alphabetically one record per commit.
+- Next action: inspect `upgrading/names_upgraded/islamic/aaisha.json` next, then continue one record per commit.
 
 ## Record log
+
+### 25. Aaira — unsourced meaning removed; name identity unresolved
+- Removed the unsupported “Respectful, Noble, Admirable” gloss; the supposed source was placeholder text, not a traceable reference.
+- Revoked the false tier-1 verification flag and marked exact spelling, script, origin, pronunciation, gender, and usage unverified.
+- Removed unsupported cultural-transmission claims and synchronized FAQ/DefinedTerm structured data.
+- Provisional editorial score: 62/100; tier-1 remains false.
+- Outstanding: reliable source identifying the intended name and its meaning, script, origin, pronunciation, and regional usage.
 
 ### 24. Aaina — Persian/Urdu meaning checked; unsupported certification removed
 - Checked Persian آینه and Urdu آئینہ lexical entries; both support “mirror/looking-glass.”
