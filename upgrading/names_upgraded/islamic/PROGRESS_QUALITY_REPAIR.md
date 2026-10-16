@@ -271,3 +271,22 @@
 
 - All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
 - No record in this batch is marked fully verified; exact name usage, regional gender frequency, religious claims, and fluent/native translation review remain open where noted.
+
+
+## Batch reviewed on 2026-10-16 — records 152–161
+
+152. `abdelaziz.json` — attached a direct lexicon source for عزيز and kept compound/name-use claims provisional.
+153. `abdelhadi.json` — flagged component-level source and native translation review as incomplete.
+154. `abdelkader.json` — improved “Servant of the Capable” to the clearer contextual “Servant of the All-Powerful”; direct component source still needed.
+155. `abdelkarim.json` — flagged component-level source and native translation review as incomplete.
+156. `abdelmajid.json` — attached a direct lexicon source for مجيد and kept name-use/translation checks separate.
+157. `abdelnasser.json` — flagged component-level source and native translation review as incomplete.
+158. `abdelrahman.json` — flagged component-level source and native translation review as incomplete.
+159. `abdelsalam.json` — attached a direct lexical source for سلام and retained separate review for the divine-name/compound interpretation.
+160. `abdelwahab.json` — flagged component-level source and native translation review as incomplete.
+161. `abderrahim.json` — flagged component-level source and native translation review as incomplete.
+
+### Batch 152–161 validation and limits
+
+- All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
+- These compound meanings are plausible but are not declared fully verified. Direct sources for every epithet/component and fluent native review of all translations remain outstanding.
