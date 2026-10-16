@@ -519,3 +519,22 @@
 
 - All ten records were re-fetched from the working branch; JSON parsing succeeded, FAQPage parity was checked, no duplicate normalized questions were found, and canonical URLs were populated.
 - Exact etymology, personal-name use, and native translations remain provisional where direct sources are missing.
+
+
+## Batch reviewed on 2026-10-16 — records 282–291
+
+282. `addul.json` — corrected the major error: عدول is related to عدل and does not mean “servant of God.”
+283. `adebayo.json` — clarified Yoruba origin and corrected “crown has conquered” translations to the recorded “crown has met/brought joy” interpretation; Arabic script is only a transcription.
+284. `adeeb.json` — aligned the recorded form/root to أديب / أ د ب and distinguished it from أدب.
+285. `adeeba.json` — corrected the Arabic form to أديبة (feminine of أديب), rather than the different form عديبة.
+286. `adeel.json` — distinguished عديل (equal/peer/equivalent) from عادل (just/equitable).
+287. `adeela.json` — flagged masculine translation forms in the feminine record and clarified the عديلة/عديل distinction.
+288. `adeelah.json` — corrected the same feminine-form translation issue and flagged Adeela/Adeelah as candidate romanizations.
+289. `adeem.json` — corrected the unsupported “intelligent” gloss to the recorded lexical senses of أديم (tanned hide/leather; surface of the earth), while keeping name use unverified.
+290. `adeena.json` — removed the unsupported “adorned/precious one” gloss and left the exact form unresolved.
+291. `adeeva.json` — kept the exact spelling unresolved and explicitly avoided conflating it with عائشة (Aisha), a different name.
+
+### Batch 282–291 validation and limits
+
+- All ten records were re-fetched from the working branch; JSON parsing succeeded, FAQPage parity was checked, no duplicate normalized questions were found, and canonical URLs were populated.
+- Direct lexical/cultural sources and native translation review remain outstanding where flagged; no record is declared fully verified.
