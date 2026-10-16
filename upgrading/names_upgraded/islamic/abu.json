@@ -23,7 +23,7 @@
       "short_meaning": "Father of (construct form)",
       "primary_meaning": "Abu is an Arabic-origin name meaning “Father of (construct form)”.",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "Abu corresponds to the Arabic form أبو (أ ب و). Its core sense is father of (construct form). Abū ('father of'), the construct form of أب used in kunyas such as أبو بكر. Its use as a standalone given name is reported but not verified.",
+      "meaning_explanation": "The construct form أبو means “father of” and normally introduces a following element in a kunya or compound. The existing record itself says standalone given-name usage is not verified, so it should not be treated as a complete personal-name meaning.",
       "meaning_confidence": "HIGH"
     },
     "etymology": {
@@ -252,39 +252,39 @@
     "faq": [
       {
         "q": "What does Abu mean?",
-        "a": "Abu is an Arabic-origin name meaning “Father of (construct form)”."
+        "a": "أبو is the construct form “father of”; standalone personal-name usage is not verified."
       },
       {
         "q": "What is the origin of Abu?",
-        "a": "Abu originates in Arabic and circulates in Muslim naming communities."
+        "a": "The recorded form is Arabic أبو."
       },
       {
         "q": "Is Abu an Arabic name?",
-        "a": "Yes, the recorded form أبو is Arabic."
+        "a": "The form usually requires a following element in a kunya/compound."
       },
       {
         "q": "What is the root of Abu?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "The form is related to the Arabic root أ ب و."
       },
       {
         "q": "Is Abu an Islamic name?",
-        "a": "Abu is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "The word does not by itself establish a religious naming recommendation."
       },
       {
         "q": "Is Abu a Quranic name?",
-        "a": "Abu is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish Abu as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Abu mean in Urdu?",
-        "a": "In Urdu it is written ابو and carries the sense “باپ (اضافت)”."
+        "a": "A cautious Urdu rendering is “باپ (اضافت).”"
       },
       {
         "q": "How is Abu pronounced?",
-        "a": "A romanized syllable approximation is “a-bu”."
+        "a": "“A-bu” is approximate; regional transliteration varies."
       },
       {
         "q": "Is Abu a boy's or girl's name?",
-        "a": "Documented usage records Abu as a boy's name; actual use can vary by community."
+        "a": "Standalone personal-name use and gender distribution are unverified."
       }
     ],
     "seo": {
@@ -324,24 +324,38 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "construct_form_standalone_usage_unverified",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 148,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 76,
+      "quality_score_basis": "Provisional editorial score only; exact lexical form, historical usage, and translations need direct sources."
     },
     "evidence": {
-      "sources": [
-        "The recorded Arabic form أبو carries the sense “Father of (construct form)”."
+      "sources": [],
+      "verification_method": "Direct lexical/biographical sources are listed only where checked. Search pages do not verify the exact historical identity or full etymology; name usage and translations require separate review.",
+      "claim_evidence": [
+        {
+          "claim": "The form أبو is a construct/kunya element; standalone given-name usage is unverified.",
+          "source": null,
+          "status": "no_direct_source_checked; claim_provisional"
+        },
+        {
+          "claim": "Personal-name usage and locale translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "DIRECT_SOURCE_NEEDED; CLAIMS_UNVERIFIED"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Corrected imperative/nisba/plural/kunya meanings, removed unsupported glosses, and separated historical context from lexical etymology.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -349,7 +363,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abu",
-          "description": "Abu — an Arabic-origin given name meaning Father of (construct form)",
+          "description": "Abu — Abu is an Arabic-origin name meaning “Father of (construct form)”.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -363,7 +377,7 @@
               "name": "What does Abu mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abu is an Arabic-origin name meaning “Father of (construct form)”."
+                "text": "أبو is the construct form “father of”; standalone personal-name usage is not verified."
               }
             },
             {
@@ -371,7 +385,7 @@
               "name": "What is the origin of Abu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abu originates in Arabic and circulates in Muslim naming communities."
+                "text": "The recorded form is Arabic أبو."
               }
             },
             {
@@ -379,7 +393,7 @@
               "name": "Is Abu an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form أبو is Arabic."
+                "text": "The form usually requires a following element in a kunya/compound."
               }
             },
             {
@@ -387,7 +401,7 @@
               "name": "What is the root of Abu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "The form is related to the Arabic root أ ب و."
               }
             },
             {
@@ -395,7 +409,7 @@
               "name": "Is Abu an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abu is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "The word does not by itself establish a religious naming recommendation."
               }
             },
             {
@@ -403,7 +417,7 @@
               "name": "Is Abu a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abu is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish Abu as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -411,7 +425,7 @@
               "name": "What does Abu mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written ابو and carries the sense “باپ (اضافت)”."
+                "text": "A cautious Urdu rendering is “باپ (اضافت).”"
               }
             },
             {
@@ -419,7 +433,7 @@
               "name": "How is Abu pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “a-bu”."
+                "text": "“A-bu” is approximate; regional transliteration varies."
               }
             },
             {
@@ -427,7 +441,7 @@
               "name": "Is Abu a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abu as a boy's name; actual use can vary by community."
+                "text": "Standalone personal-name use and gender distribution are unverified."
               }
             }
           ]
@@ -458,11 +472,14 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "construct_form_standalone_usage_unverified",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; direct lexical/historical sources pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,
