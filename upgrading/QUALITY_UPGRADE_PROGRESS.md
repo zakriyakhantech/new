@@ -11,14 +11,22 @@ Last updated: 2026-10-16
 - Record each completed file and any unresolved verification needs here.
 
 ## Progress
-- Individually edited and committed: 18 unique records
+- Individually edited and committed: 19 unique records
 - Fully source-verified / tier-1 certified: 0 records
 - Remaining records: total inventory must be reconciled against the live repository before stating a final count.
-- Last completed: `upgrading/names_upgraded/islamic/aafreen.json` (18 unique records completed)
+- Last completed: `upgrading/names_upgraded/islamic/aaftab.json` (19 unique records completed)
 - Latest record commit: `245d345dc0387a57ae43761d6d43100850eb86bb
-- Next action: inspect `upgrading/names_upgraded/islamic/aaftab.json` next, then continue alphabetically one record per commit.
+- Next action: inspect `upgrading/names_upgraded/islamic/aahil.json` next, then continue alphabetically one record per commit.
 
 ## Record log
+
+### 19. Aaftab — Persian lexical meaning checked; name usage pending
+- Checked the Persian lexical form آفتاب (āftāb), meaning sun/sunlight; separated Persian origin from Arabic-script and religious claims.
+- Added claim-level evidence and removed repetitive core-meaning wording.
+- Lowered gender confidence because independent regional distribution data is absent.
+- Corrected SEO description and synchronized DefinedTerm/FAQ structured data.
+- Provisional editorial score: 85/100; tier-1 remains false.
+- Outstanding: exact spelling frequency, regional gender distribution, deeper historical etymology, Persian native-speaker review, and deployed HTML validation.
 
 ### 18. Aafreen — Persian lexical meaning checked; naming usage pending
 - Checked Persian Wiktionary and PersianDict for آفرین; references support praise/applause, “bravo,” and “well done.”
