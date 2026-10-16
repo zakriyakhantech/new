@@ -11,14 +11,21 @@ Last updated: 2026-10-16
 - Record each completed file and any unresolved verification needs here.
 
 ## Progress
-- Individually edited and committed: 21 unique records
+- Individually edited and committed: 22 unique records
 - Fully source-verified / tier-1 certified: 0 records
 - Remaining records: total inventory must be reconciled against the live repository before stating a final count.
-- Last completed: `upgrading/names_upgraded/islamic/aahoo.json` (21 unique records completed)
+- Last completed: `upgrading/names_upgraded/islamic/aaida.json` (22 unique records completed)
 - Latest record commit: `245d345dc0387a57ae43761d6d43100850eb86bb
-- Next action: inspect `upgrading/names_upgraded/islamic/aaida.json` next, then continue alphabetically one record per commit.
+- Next action: inspect `upgrading/names_upgraded/islamic/aaima.json` next, then continue alphabetically one record per commit.
 
 ## Record log
+
+### 22. Aaida — Arabic feminine morphology checked; exact spelling usage pending
+- Checked the lexical form عائدة and Lane’s Lexicon root entry for ع و د; evidence supports the sense related to returning.
+- Clarified feminine active-participle morphology and separated lexical gender from regional name statistics.
+- Replaced placeholder evidence, corrected stale SEO description, and synchronized FAQ structured data.
+- Provisional editorial score: 86/100; tier-1 remains false.
+- Outstanding: exact Latin spelling frequency, regional gender distribution, Arabic/Pashto native-speaker review, and deployed HTML validation.
 
 ### 21. Aahoo — Persian lexical meaning checked; name usage pending
 - Checked Persian Wiktionary for آهو (āhū), meaning “gazelle.”
