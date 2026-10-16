@@ -324,18 +324,34 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "personal_name_frequency_not_verified",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 148,
-      "quality_score": 95,
+      "quality_score": 82,
       "quality_score_basis": "9 distinct FAQs; gloss verified; root present; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
     },
     "evidence": {
       "sources": [
-        "The recorded Arabic form عبير (established word for 'fragrance', root ع ب ر) carries the sense “Fragrance”."
+        "https://www.laneslexicon.com/word/%D8%B9%D8%A8%D9%8A%D8%B1"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Lane's Lexicon was checked for the lexical fragrance sense of عبير; modern personal-name frequency and all locale translations need separate review.",
+      "claim_evidence": [
+        {
+          "claim": "عبير means fragrance/perfume",
+          "source": "https://www.laneslexicon.com/word/%D8%B9%D8%A8%D9%8A%D8%B1",
+          "status": "lexical_source_checked"
+        },
+        {
+          "claim": "Personal-name frequency and all translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
+      ],
+      "claim_evidence_status": "LEXICAL_SOURCE_CHECKED; NAME_USAGE_AND_TRANSLATIONS_PENDING"
     },
     "provenance": {
       "pipeline": "NameVerse evidence-led batch review",
@@ -458,11 +474,14 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse one-by-one HIGH curation",
-      "reviewed_at": "2026-10-09T04:29:41Z"
+      "needs_manual_verification": true,
+      "flags": [
+        "personal_name_frequency_not_verified",
+        "translation_review_required"
+      ],
+      "confidence": "MEDIUM",
+      "reviewed_by": "NameVerse evidence-led review; name-use and native translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,
