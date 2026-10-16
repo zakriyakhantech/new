@@ -14,9 +14,9 @@ Last updated: 2026-10-16
 - Individually edited and committed: 15 records
 - Fully source-verified / tier-1 certified: 0 records
 - Remaining records: total inventory must be reconciled against the live repository before stating a final count.
-- Last completed: `upgrading/names_upgraded/islamic/aafak.json`
+- Last reviewed: `upgrading/names_upgraded/islamic/aafaq.json` (second-pass source verification; 15 unique records completed)
 - Latest record commit: `245d345dc0387a57ae43761d6d43100850eb86bb
-- Next action: inspect `upgrading/names_upgraded/islamic/aafaq.json` next, then continue alphabetically one record per commit.
+- Next action: inspect `upgrading/names_upgraded/islamic/aafia.json` next, then continue alphabetically one record per commit.
 
 ## Record log
 
@@ -119,11 +119,11 @@ Last updated: 2026-10-16
 - Outstanding: named Arabic dictionary source, variant usage evidence, gender evidence, and native-language review.
 
 
-### 1. Aafaq — edited, source verification still pending
-- Clarified that آفاق is the plural of أُفُق (ufuq, “horizon”).
-- Separated direct meaning (“horizons”) from contextual “regions/extents” and figurative “outlooks”.
-- Improved English, Urdu, Persian, Hindi, Pashto, and Arabic translations; Pashto and Arabic remain flagged for native review.
-- Removed rendered lucky/numerology and unsupported spiritual interpretations from the record.
-- Replaced unsupported numerical quality/SEO scores with null; retained explicit evidence gaps.
-- Synchronized the primary meaning FAQ and its structured-data answer.
+### 1. Aafaq — dictionary meaning checked; modern name usage pending
+- Clarified that آفاق is the plural of أُفُق (ufuq, “horizon”); separated direct, contextual, and figurative senses.
+- Second-pass checked Lane’s Lexicon and a modern Arabic dictionary; added source URLs and claim-level evidence.
+- Corrected unsupported male-gender confidence to unknown because regional registration/survey data is absent.
+- Updated SEO description and synchronized FAQ structured data; Arabic/Pashto native review remains pending.
+- Provisional editorial score: 87/100; tier-1 remains false.
+- Outstanding: modern name frequency, gender distribution, native-language review, and deployed HTML/canonical validation.
 - Outstanding: add a named reputable Arabic dictionary citation; independently verify personal-name usage/gender; obtain native review for Pashto and Arabic.
