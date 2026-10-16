@@ -290,3 +290,22 @@
 
 - All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
 - These compound meanings are plausible but are not declared fully verified. Direct sources for every epithet/component and fluent native review of all translations remain outstanding.
+
+
+## Batch reviewed on 2026-10-16 — records 162–171
+
+162. `abderrahman.json` — retained the Arabic compound meaning but flagged regional transliteration/transmission and translations for review.
+163. `abdeslam.json` — attached lexical support for سلام and flagged regional compound interpretation for review.
+164. `abdi.json` — clarified the literal “my servant” analysis and separated it from regional Horn of Africa name-use claims.
+165. `abdiel.json` — corrected the record to Hebrew biblical origin, removed the Arabic placeholder mapping, and marked the Hebrew gloss provisional pending direct sourcing.
+166. `abdil.json` — removed placeholder meaning claims and left the exact form, origin, and translations unverified.
+167. `abdiqani.json` — flagged the recorded compound عبدقاني as a form mismatch and removed the unsupported “servant of the Forgiving” claim.
+168. `abdirahman.json` — distinguished the Arabic compound from Somali/regional transmission and flagged variant review with Abderrahman.
+169. `abdo.json` — retained a cautious relationship to عبد but marked exact regional form and standalone name use as provisional.
+170. `abdoulaye.json` — clarified West African transmission of Arabic عبد الله rather than treating the regional spelling as simply Arabic-origin.
+171. `abduh.json` — clarified that عبده literally means “his servant,” with contextual referent; historical-bearer claim requires direct sourcing.
+
+### Batch 162–171 validation and limits
+
+- All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
+- Regional transmission, historical identity, exact compound spelling, and native translation quality remain open where noted; no record is declared fully verified.
