@@ -339,9 +339,23 @@
     },
     "evidence": {
       "sources": [
-        "The recorded Arabic form عاطي carries the sense “Given, granted, bestowed”."
+        "https://www.laneslexicon.com/word/%D9%85%D8%B9%D8%B7/n29648",
+        "https://www.laneslexicon.com/word/%D8%B9%D8%B7%D8%A7%D9%93%D8%A1"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Checked named lexical sources for the recorded or related Arabic form. Modern personal-name usage and translation fluency require separate review.",
+      "claim_evidence": [
+        {
+          "claim": "Lane's Lexicon supports related forms مُعطٍ (“giving”) and عطاء (“giving/gift”), but not the exact passive gloss previously assigned to عاطي.",
+          "source": "https://www.laneslexicon.com/word/%D9%85%D8%B9%D8%B7/n29648",
+          "status": "lexical_source_checked"
+        },
+        {
+          "claim": "Personal-name usage and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
+      ],
+      "claim_evidence_status": "LEXICAL_SOURCE_CHECKED; NAME_USAGE_AND_TRANSLATIONS_PENDING"
     },
     "provenance": {
       "pipeline": "NameVerse evidence-led batch review",
