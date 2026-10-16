@@ -347,3 +347,22 @@
 
 - All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
 - Compound names remain provisional until all components are sourced and native translations are reviewed; no record is declared fully verified.
+
+
+## Batch reviewed on 2026-10-16 — records 192–201
+
+192. `abdulmalik.json` — marked the compound meaning provisional pending direct component-level source checks.
+193. `abdulmateen.json` — improved “Servant of the Firm” to the clearer “Servant of the Strong/Steadfast”; direct component source remains needed.
+194. `abdulmueed.json` — marked compound meaning provisional pending direct component-level source checks.
+195. `abdulmunim.json` — marked compound meaning provisional pending direct component-level source checks.
+196. `abdulqadeer.json` — flagged Abdulqadeer/Abdulqadir as candidate romanization variants of عبد القادر.
+197. `abdulqadir.json` — flagged the same variant pair; the compound gloss remains provisional pending component sourcing.
+198. `abdulraheem.json` — flagged Abdulraheem/Abdulrahim as candidate romanization variants of عبد الرحيم.
+199. `abdulrahim.json` — flagged the same variant pair; the compound gloss remains provisional pending component sourcing.
+200. `abdulrahman.json` — expanded candidate variant review to include Abdulrahman/Abderrahman/Abdirahman for عبد الرحمن.
+201. `abdulrauf.json` — marked compound meaning provisional pending direct component-level source checks.
+
+### Batch 192–201 validation and limits
+
+- All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
+- Candidate variants are flagged for manual canonical review only; no routes were merged or deleted. Compound source and native translation review remain open.
