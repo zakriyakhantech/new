@@ -11,14 +11,21 @@ Last updated: 2026-10-16
 - Record each completed file and any unresolved verification needs here.
 
 ## Progress
-- Individually edited and committed: 2 records
+- Individually edited and committed: 5 records
 - Fully source-verified / tier-1 certified: 0 records
 - Remaining records: total inventory must be reconciled against the live repository before stating a final count.
-- Last completed: `upgrading/names_upgraded/islamic/aafak.json`
-- Latest record commit: `d711e8fe6e59982219f98e2efe4e91c4a62bdbe4`
+- Last completed: `upgrading/names_upgraded/islamic/aabir.json`
+- Latest record commit: `b2ef6828fb3d2ac3e2fb201ba55c7484de5625af`
 - Next action: inspect the next unreviewed Islamic JSON record alphabetically and review it individually.
 
 ## Record log
+
+### 5. Aabir — lexical references checked; native review pending
+- Cross-checked Arabic meaning/root against Lane’s Lexicon, Wiktionary, and Rekhta dictionary entries.
+- Clarified the active-participle/pass-by/wayfarer meaning; excluded unsupported “the last” gloss.
+- Updated English, Urdu, Persian, Hindi, Pashto, and Arabic explanations; Pashto and Arabic still require native review.
+- Synchronized FAQ and structured data and updated provisional editorial scores.
+- Outstanding: regional name-frequency evidence, native-language review, and deployed canonical/breadcrumb validation.
 
 ### 4. Aabid — meaning/morphology reviewed; source citation pending
 - Clarified عابد as the Arabic active participle of عَبَدَ, meaning “worshipper/one who worships”.
