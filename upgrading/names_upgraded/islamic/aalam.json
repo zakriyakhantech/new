@@ -22,9 +22,9 @@
     },
     "core_meaning": {
       "short_meaning": "World",
-      "primary_meaning": "Aalam is an Arabic-origin name meaning “World”.",
+      "primary_meaning": "The Arabic word عَالَم (ʿālam) means “world” or “the created realm.” Its use as a personal name, and any claims about how common it is or which genders use it, require separate naming-usage evidence.",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "Aalam corresponds to the Arabic form عالم (Arabic root ع ل م (ʿ-l-m); عَالَم (ʿĀlam)). Its core sense is world, universe (persian). Aalam is Arabic عَالَم (ʿĀlam) 'world', from the root ع ل م (ʿ-l-m). The source gloss 'World' is consistent. Recorded as a common noun also used as a given name.",
+      "meaning_explanation": "The Arabic form عَالَم (ʿālam) denotes the world or created realm; the Cairo Arabic Language Academy's Al-Wasīṭ dictionary defines it as all creation and as a class of created things. Lane's Arabic-English Lexicon also records world/creation senses for العَالَم. These lexical sources support the word's Arabic dictionary meaning, but do not by themselves establish frequency, gender distribution, or attestation as a modern given name.",
       "meaning_confidence": "HIGH"
     },
     "etymology": {
@@ -108,10 +108,10 @@
       ]
     },
     "spiritual_meaning": {
-      "status": "interpretive",
-      "render": true,
-      "meaning": "Families may read the sense “World” as a hopeful quality for the child.",
-      "basis": "Lexical meaning: World.",
+      "status": "not_verified",
+      "render": false,
+      "meaning": "No separate spiritual meaning is established by the cited lexical evidence.",
+      "basis": null,
       "is_direct_religious_definition": false
     },
     "personality_associations": {
@@ -126,7 +126,7 @@
     },
     "numerology": {
       "status": "interpretive",
-      "render": true,
+      "render": false,
       "lucky_number": 1,
       "life_path_number": 1,
       "ruling_planet": "Sun",
@@ -137,11 +137,11 @@
       ],
       "lucky_stone": "Ruby",
       "meaning": "In Pythagorean numerology the letters of Aalam total 1, associated with leadership, independence and initiative. This is an interpretive tradition, not a factual claim.",
-      "note": "Numerology is an optional interpretive layer."
+      "note": "Numerology and lucky-attribute claims are interpretive beliefs, not evidence-based properties of a name; keep hidden from factual name content."
     },
     "lucky_attributes": {
       "status": "interpretive",
-      "render": true,
+      "render": false,
       "lucky_number": 1,
       "lucky_day": "Sunday",
       "lucky_colors": [
@@ -149,7 +149,8 @@
         "Orange"
       ],
       "lucky_stone": "Ruby",
-      "ruling_planet": "Sun"
+      "ruling_planet": "Sun",
+      "note": "Interpretive lucky attributes are not verified facts and must remain hidden from factual name content."
     },
     "translations": {
       "english": {
@@ -324,18 +325,23 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "given_name_attestation_not_independently_sourced",
+        "gender_distribution_not_independently_sourced",
+        "native_translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 152,
       "quality_score": 95,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root present; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score_basis": "Lexical meaning is supported by the listed dictionary sources. Personal-name attestation, gender distribution, and native-language translation quality are not independently verified; this record is not Tier 1 verified."
     },
     "evidence": {
       "sources": [
-        "The recorded Arabic form عالم carries the sense “World”."
+        "Arabic Language Academy in Cairo, Al-Wasīṭ dictionary entry for العَالَم: https://www.arabicacademy.gov.eg/ar/%D9%85%D8%AD%D8%B1%D9%83-%D8%A7%D9%84%D8%A8%D8%AD%D8%AB/%D9%85%D8%B9%D8%AC%D9%85/dic-19/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85 — supports the Arabic lexical sense “all creation/world” and related collective senses.",
+        "Edward William Lane, Arabic-English Lexicon, root ع ل م: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2002.02.0032%3Aroot%3DElm — records lexical senses of العَالَم including world/creation."
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Claim-level lexical check against an academic Arabic-language academy dictionary and Lane's Arabic-English Lexicon. These sources support the lexical meaning only; they do not verify modern given-name frequency, gender distribution, name-bearer history, or Qur'anic personal-name status."
     },
     "provenance": {
       "pipeline": "NameVerse Production v8",
@@ -458,15 +464,19 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
+      "needs_manual_verification": true,
+      "flags": [
+        "verify_personal_name_attestation",
+        "verify_gender_usage",
+        "native_review_required_for_arabic_and_pashto_translations"
+      ],
+      "confidence": "MEDIUM",
       "reviewed_by": "NameVerse verification pipeline",
       "reviewed_at": "2026-10-06T04:27:34+00:00"
     },
     "render_policy": {
       "render_verified": true,
-      "render_interpretive": true,
+      "render_interpretive": false,
       "hide_unverified": true,
       "single_definition_source": "core_meaning.primary_meaning",
       "non_rendered_definition_fields": [
@@ -482,7 +492,9 @@
         "celebrity_usage",
         "real_world_usage",
         "spiritual_meaning",
-        "name_story"
+        "name_story",
+        "numerology",
+        "lucky_attributes"
       ]
     }
   }
