@@ -1,0 +1,45 @@
+name: Upgrade Islamic core meanings
+
+on:
+  push:
+    branches:
+      - quality/core-meaning-upgrade
+    paths:
+      - "scripts/upgrade_core_meanings.py"
+      - ".github/workflows/upgrade-core-meanings.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out upgrade branch
+        uses: actions/checkout@v4
+        with:
+          ref: quality/core-meaning-upgrade
+      - name: Upgrade core meaning quality
+        run: python scripts/upgrade_core_meanings.py
+      - name: Validate every Islamic name JSON
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path("upgrading/names_upgraded/islamic")
+          files = [p for p in root.glob("*.json") if not p.name.startswith("PROGRESS_")]
+          for path in files:
+              json.loads(path.read_text(encoding="utf-8"))
+          print(f"Validated {len(files)} JSON files.")
+          PY
+      - name: Commit upgraded records
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add upgrading/names_upgraded/islamic/*.json upgrading/CORE_MEANING_UPGRADE_REPORT.json
+          git commit -m "[core-meaning-bulk] Improve Islamic core meaning quality"
+          git push origin quality/core-meaning-upgrade
