@@ -11,14 +11,22 @@ Last updated: 2026-10-16
 - Record each completed file and any unresolved verification needs here.
 
 ## Progress
-- Individually edited and committed: 8 records
+- Individually edited and committed: 9 records
 - Fully source-verified / tier-1 certified: 0 records
 - Remaining records: total inventory must be reconciled against the live repository before stating a final count.
-- Last completed: `upgrading/names_upgraded/islamic/aad.json`
-- Latest record commit: `d284854149e9d2701e0407133333fe5f04fb2bc5`
-- Next action: inspect the next unreviewed Islamic JSON record alphabetically and review it individually.
+- Last completed: `upgrading/names_upgraded/islamic/aadam.json`
+- Latest record commit: `ff5bdcb61febaaa89cd751c47ee49875669eabc5`
+- Next action: inspect `upgrading/names_upgraded/islamic/aadhil.json` next, then continue alphabetically one record per commit.
 
 ## Record log
+
+### 9. Aadam — Qur’anic reference verified; older etymology and usage still open
+- Independently checked Qur’an 2:31 and the Qur’anic Arabic Corpus; the form is directly attested as the proper name Adam.
+- Corrected contradictory metadata that described the Islamic association as merely cultural while also marking the name Qur’anic.
+- Clarified that scriptural attestation does not settle older etymology, religious prescription, or modern regional popularity.
+- Synchronized three FAQ answers and the FAQPage structured data; JSON parses successfully.
+- Provisional editorial score: 84/100; tier-1 remains false.
+- Outstanding: older etymology evidence, modern regional frequency, Arabic/Pashto native-speaker review, and deployed HTML/canonical validation.
 
 ### 8. Aad — scriptural referent checked; modern name usage pending
 - Checked Qur’an 11:50, which names the people of ʿĀd in the account of Hud.
