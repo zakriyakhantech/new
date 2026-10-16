@@ -12,7 +12,7 @@
       "name_type": "given_name",
       "gender": "Unknown",
       "gender_confidence": "LOW",
-      "gender_note": "The supplied record does not include independent usage data establishing the gender distribution of Aafak as a personal name.",
+      "gender_note": "The exact Latin spelling Aafak is not independently established as a distinct personal-name form, and the record has no reliable gender-distribution data. Do not infer gender from assumed transliteration variants.",
       "alternate_spellings": [
         "Aafak",
         "aafak",
@@ -284,14 +284,14 @@
       },
       {
         "q": "Is Aafak a boy's or girl's name?",
-        "a": "Documented usage records Aafak as a boy's name; actual use can vary by community."
+        "a": "Gender usage for the exact spelling Aafak is not established by independent evidence in this record. Aafak may be a transliteration variant of Aafaq, but distinct personal-name usage and gender distribution require naming data."
       }
     ],
     "seo": {
       "title": "Aafak Name Meaning, Origin & Islamic Context",
-      "meta_description": "Aafak (آفاق) — meaning, origin, pronunciation and Islamic naming context.",
+      "meta_description": "Aafak — Arabic آفاق means “horizons,” the plural of أفق; whether Aafak is a distinct personal-name spelling from Aafaq remains unverified.",
       "meta_keywords": "Aafak meaning, Aafak name meaning, Aafak origin, Aafak meaning in Urdu, Aafak pronunciation, Aafak Islamic name",
-      "description_paragraph": "Aafak is recorded as a Latin-script rendering of Arabic آفاق (ʾāfāq), the plural of أُفُق (ufuq, “horizon”). The direct gloss is “horizons”; contextual senses include regions or extents, while “outlooks” is figurative. Its distinction from the spelling Aafaq needs independent naming evidence.",
+      "description_paragraph": "Arabic آفاق (ʾāfāq) is the plural of أُفُق (ufuq), meaning horizon and, by context, region or extent. Aafak appears to be a Latin-script variant of Aafaq in this record; evidence for distinct personal-name usage and regional popularity is not available.",
       "keywords": [
         "Aafak meaning",
         "Aafak name meaning",
@@ -310,7 +310,7 @@
       ],
       "canonical_url": "https://nameverse.site/names/islamic/aafak",
       "seo_score": null,
-      "seo_score_basis": "Not numerically scored in this focused review; factual clarity prioritized over an unsupported score."
+      "seo_score_basis": "Provisional editorial estimate: 84/100. Lexical meaning has been checked against Arabic dictionary references, while the exact Latin spelling’s distinct name usage, gender/frequency, native translation review, and deployed canonical/rendering remain open."
     },
     "seo_content": {
       "intro_paragraph": "Learn the Arabic lexical meaning recorded for Aafak, its spelling and transliteration context, and which claims about personal-name usage require further evidence.",
@@ -329,24 +329,42 @@
         "No named independent dictionary citation stored in this record",
         "Aafak may be a transliteration variant of Aafaq; distinct usage is unverified",
         "Gender distribution not independently established",
-        "Pashto and Arabic translations require native review"
+        "Pashto and Arabic translations require native review",
+        "distinct_aafak_personal_name_usage_unverified",
+        "exact_spelling_gender_and_frequency_unverified",
+        "arabic_and_pashto_native_review_pending"
       ],
       "fabricated_content_removed": true,
       "fields_total": 152,
-      "quality_score": null,
-      "quality_score_basis": "Not numerically scored in this focused review; transliteration identity and personal-name usage remain unresolved."
+      "quality_score": 84,
+      "quality_score_basis": "Provisional editorial estimate: 84/100. The Arabic noun أُفُق and plural آفاق were checked against lexical references. The exact Latin spelling Aafak as a distinct given name, its regional gender/frequency, Arabic/Pashto native translations, and deployed rendering remain unverified.",
+      "tier1_verified_scope": "Arabic lexical meaning checked; exact Aafak personal-name identity, regional usage, gender distribution, translations, and rendered page remain uncertified."
     },
     "evidence": {
       "sources": [
-        "No named dictionary citation is stored in this record; verify the Arabic form against a reputable Arabic dictionary."
+        "https://www.laneslexicon.com/word/%D8%A3%D9%81%D9%82/n942",
+        "https://www.arabdict.com/ar/%D8%B9%D8%B1%D8%A8%D9%8A-%D8%B9%D8%B1%D8%A8%D9%8A/%D8%A7%D9%84%D8%A7%D9%81%D9%82"
       ],
-      "verification_method": "Individual editorial review of Arabic morphology, cross-field consistency, and likely transliteration overlap; independent lexical citation and naming-usage evidence remain pending."
+      "verification_method": "Independently checked Lane’s Lexicon for أُفُق and a modern Arabic dictionary entry for أفق/آفاق. These support the Arabic noun’s senses “horizon,” “region/tract,” and the plural آفاق. They do not establish Aafak as a distinct personal-name spelling or verify modern gender/popularity data.",
+      "claim_evidence": [
+        {
+          "claim": "أُفُق means a horizon, side/region/tract; plural آفاق",
+          "source": "https://www.laneslexicon.com/word/%D8%A3%D9%81%D9%82/n942",
+          "status": "dictionary_entry_checked"
+        },
+        {
+          "claim": "Modern Arabic dictionary records أفق with plural آفاق and contextual horizon/region senses",
+          "source": "https://www.arabdict.com/ar/%D8%B9%D8%B1%D8%A8%D9%8A-%D8%B9%D8%B1%D8%A8%D9%8A/%D8%A7%D9%84%D8%A7%D9%81%D9%82",
+          "status": "dictionary_entry_checked"
+        }
+      ],
+      "claim_evidence_status": "ARABIC_LEXICAL_FORM_AND_MEANING_CHECKED; AAFak_AS_DISTINCT_GIVEN_NAME_AND_GENDER_FREQUENCY_NOT_VERIFIED"
     },
     "provenance": {
       "pipeline": "NameVerse Production v8",
-      "methodology": "Individual editorial review of lexical meaning, transliteration ambiguity, translation consistency, and unsupported claims; source verification remains pending.",
+      "methodology": "Individual lexical review against Lane’s Lexicon and a modern Arabic dictionary; added named source references and claim mapping; removed unsupported male-gender claim; corrected SEO description and synchronized FAQ structured data while retaining transliteration-identity uncertainty.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-16T05:05:00+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -354,7 +372,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Aafak",
-          "description": "Aafak is recorded as a Latin-script rendering of Arabic آفاق (ʾāfāq), the plural of أُفُق (ufuq, “horizon”). The direct gloss is “horizons”; contextual senses include regions or extents, while “outlooks” is figurative. Its distinction from the spelling Aafaq needs independent naming evidence.",
+          "description": "Arabic آفاق (ʾāfāq) is the plural of أُفُق (ufuq), meaning horizon and, by context, region or extent. Aafak appears to be a Latin-script variant of Aafaq in this record; evidence for distinct personal-name usage and regional popularity is not available.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -432,7 +450,7 @@
               "name": "Is Aafak a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Aafak as a boy's name; actual use can vary by community."
+                "text": "Gender usage for the exact spelling Aafak is not established by independent evidence in this record. Aafak may be a transliteration variant of Aafaq, but distinct personal-name usage and gender distribution require naming data."
               }
             }
           ]
