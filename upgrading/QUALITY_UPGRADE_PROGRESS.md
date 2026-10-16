@@ -11,14 +11,22 @@ Last updated: 2026-10-16
 - Record each completed file and any unresolved verification needs here.
 
 ## Progress
-- Individually edited and committed: 13 records
+- Individually edited and committed: 14 records
 - Fully source-verified / tier-1 certified: 0 records
 - Remaining records: total inventory must be reconciled against the live repository before stating a final count.
-- Last completed: `upgrading/names_upgraded/islamic/aadilah.json`
+- Last completed: `upgrading/names_upgraded/islamic/aaf.json`
 - Latest record commit: `245d345dc0387a57ae43761d6d43100850eb86bb
-- Next action: inspect `upgrading/names_upgraded/islamic/aaf.json` next, then continue alphabetically one record per commit.
+- Next action: inspect `upgrading/names_upgraded/islamic/aafak.json` next, then continue alphabetically one record per commit.
 
 ## Record log
+
+### 14. Aaf — spelling/script mismatch corrected; identity remains unverified
+- Confirmed the stored Arabic form عائشة corresponds to Aisha/Aaisha and is not evidence for the separate Latin spelling Aaf.
+- Removed the unsupported Arabic script from SEO metadata and removed an unrelated form from etymology.
+- Rewrote stale SEO copy that incorrectly called Aaf an Arabic-origin name meaning “Aisha”; cleared unsupported cultural-transmission claims.
+- Synchronized FAQ and DefinedTerm structured data; JSON parses successfully.
+- Provisional editorial score: 68/100; tier-1 remains false.
+- Outstanding: reliable evidence identifying the intended name, language origin, script, pronunciation, and regional usage.
 
 ### 13. Aadilah — feminine form clarified; exact spelling usage pending
 - Checked Lane’s Lexicon entries for عادل and root ع د ل; dictionary evidence supports the justice/equity semantic field.
