@@ -291,9 +291,9 @@
     ],
     "seo": {
       "title": "Aahil Name Meaning, Origin & Islamic Context",
-      "meta_description": "Aahil (أهل) — meaning, origin, pronunciation and Islamic naming context.",
+      "meta_description": "Aahil — the exact spelling’s meaning and origin are unverified. Arabic أهل means family or people, but its connection to Aahil as a personal name is not established.",
       "meta_keywords": "Aahil meaning, Aahil name meaning, Aahil origin, Aahil meaning in Urdu, Aahil pronunciation, Aahil Islamic name",
-      "description_paragraph": "Aahil (أهل) is recorded with the meaning “Aahil is an Arabic-origin name meaning “Family, people, kin”.”. This entry distinguishes the proposed lexical meaning from cultural use in Muslim communities and identifies claims that may require further source review.",
+      "description_paragraph": "The Arabic word أهل (ahl) can mean family, people, or folk, but the available evidence does not establish that the personal-name spelling Aahil derives from this word. The name’s exact origin and intended pronunciation remain unverified.",
       "keywords": [
         "Aahil meaning",
         "Aahil name meaning",
@@ -312,7 +312,7 @@
       ],
       "canonical_url": "https://nameverse.site/names/islamic/aahil",
       "seo_score": 95,
-      "seo_score_basis": "9 distinct FAQs; gloss verified; root present; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "seo_score_basis": "Provisional editorial estimate: 72/100. Metadata now distinguishes the verified related Arabic word from the unverified personal-name etymology; exact name identity, regional usage, and pronunciation remain open."
     },
     "seo_content": {
       "intro_paragraph": "Learn about Aahil, including its recorded meaning, language, pronunciation and naming context. The entry treats linguistic origin and religious association as separate questions.",
@@ -327,23 +327,42 @@
     ],
     "content_quality": {
       "tier1_verified": false,
-      "authenticity_flags": [],
+      "authenticity_flags": [
+        "exact_aahil_name_etymology_unverified",
+        "exact_spelling_pronunciation_unverified",
+        "regional_gender_distribution_not_verified",
+        "native_review_pending"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 155,
-      "quality_score": 82,
-      "quality_score_basis": "Provisional editorial score after structural consistency checks; not a certification of linguistic accuracy."
+      "quality_score": 72,
+      "quality_score_basis": "Provisional editorial estimate: 72/100. The related Arabic word أهل is dictionary-attested, and the record correctly avoids treating that as proof of Aahil’s exact name etymology. Name identity, origin, pronunciation, gender distribution, and deployed rendering remain unverified.",
+      "tier1_verified_scope": "Related Arabic lexeme checked; no certification of the exact Aahil name form, origin, pronunciation, gender distribution, or rendered page."
     },
     "evidence": {
       "sources": [
-        "The recorded Arabic form أهل carries the sense “Family, people, kin”."
+        "https://www.laneslexicon.com/word/%D8%A3%D9%87%D9%84"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Checked a Lane’s Lexicon entry for the Arabic word أهل. The dictionary evidence concerns the lexical word (family/people/folk), not the Latin-script personal name Aahil. No source in this record establishes that Aahil is a standard transliteration or derives from أهل.",
+      "claim_evidence": [
+        {
+          "claim": "Arabic أهل has lexical senses related to family, people, or folk",
+          "source": "https://www.laneslexicon.com/word/%D8%A3%D9%87%D9%84",
+          "status": "dictionary_entry_checked"
+        },
+        {
+          "claim": "Exact personal-name spelling Aahil derives from أهل",
+          "source": null,
+          "status": "not_established"
+        }
+      ],
+      "claim_evidence_status": "RELATED_ARABIC_WORD_CHECKED; EXACT_AAHIL_NAME_IDENTITY_AND_ETYMOLOGY_NOT_ESTABLISHED"
     },
     "provenance": {
       "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "methodology": "Individual uncertainty audit: added a named Lane’s Lexicon source for أهل, explicitly marked the link to Aahil as unestablished, corrected stale SEO copy that asserted Arabic origin and meaning, synchronized FAQ structured data, and preserved pronunciation/gender caveats.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -351,7 +370,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Aahil",
-          "description": "Aahil — an Arabic-origin given name meaning Family, people, kin",
+          "description": "The Arabic word أهل (ahl) can mean family, people, or folk, but the available evidence does not establish that the personal-name spelling Aahil derives from this word. The name’s exact origin and intended pronunciation remain unverified.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
