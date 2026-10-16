@@ -252,3 +252,22 @@
 
 - All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
 - No record in this batch is marked fully verified; unverified spellings, name usage, historical identity, and translation fluency remain open where noted.
+
+
+## Batch reviewed on 2026-10-16 — records 142–151
+
+142. `abbasi.json` — corrected the nisba meaning to “of/relating to ʿAbbās,” not “servant of Abbas,” and flagged Abasi/Abbasi spelling variants.
+143. `abbass.json` — corrected the “lion-only” gloss to include the lexicon's intensive frowning/stern sense and flagged Abbas romanization variants.
+144. `abbood.json` — retained a worship/service-related lexical field but downgraded exact morphology and personal-name claims pending direct evidence.
+145. `abd.json` — clarified that عبد means servant/worshipper, while standalone given-name usage requires separate evidence.
+146. `abda.json` — corrected feminine-form translations to feminine equivalents and marked modern name usage as unverified.
+147. `abdaal.json` — clarified that أبدال is plural and separated the lexical “substitutes/replacements” sense from specialized Sufi/religious usage.
+148. `abdah.json` — corrected feminine-form translations and retained manual review for personal-name usage.
+149. `abdal.json` — flagged عبدال as a potentially incomplete compound/prefix form; removed the unsupported full “servant of God” gloss.
+150. `abdalla.json` — clarified that Abdalla is recorded as a Swahili form of Arabic عبد الله, rather than collapsing transmission language into Arabic origin.
+151. `abdel.json` — clarified عبد as servant/worshipper and separated the lexical word from standalone given-name use and compound names.
+
+### Batch 142–151 validation and limits
+
+- All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
+- No record in this batch is marked fully verified; exact name usage, regional gender frequency, religious claims, and fluent/native translation review remain open where noted.
