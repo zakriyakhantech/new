@@ -11,8 +11,8 @@
       "normalized_name": "aadhil",
       "name_type": "given_name",
       "gender": "Male",
-      "gender_confidence": "HIGH",
-      "gender_note": "Gender is recorded from documented naming usage, not inferred from the word's meaning.",
+      "gender_confidence": "MEDIUM",
+      "gender_note": "The Arabic form عادل is grammatically masculine and commonly used as a masculine personal name; independent regional registration data for this exact Latin spelling was not supplied.",
       "alternate_spellings": [
         "Aadhil",
         "aadhil",
@@ -33,11 +33,11 @@
       "transliteration": "aadhil",
       "root": "ع د ل",
       "root_transliteration": "ʿ-d-l",
-      "morphology": "Built on the root ع د ل.",
+      "morphology": "Active participle (اسم فاعل) from the Arabic root ع د ل, conveying one who acts justly or equitably.",
       "feminine_form": "عادلة (ʿādila)",
       "etymological_meaning": "From the root ع د ل (ʿ-d-l)",
       "root_family": [],
-      "etymology_explanation": "The Arabic lexical form is عَادِل (ʿādil), an active-participle form associated with the root ع د ل (ʿ-d-l) and the meanings justice and fairness. “Aadhil” is a romanized spelling variant; it does not have a separate Arabic lexical form from Aadil in this record.",
+      "etymology_explanation": "Arabic عَادِل (ʿādil) is the active participle associated with عَدَلَ and the root ع د ل, whose lexical field includes acting justly or equitably and justice/fairness. “Aadhil” is a Latin-script spelling convention for the same Arabic form عادل; the extra h does not indicate a distinct Arabic root.",
       "etymology_confidence": "HIGH",
       "false_etymology_warning": "Do not infer a Qur'anic status, religious prescription, popularity, personality trait, or separate etymology from Muslim usage or Latin spelling alone."
     },
@@ -56,7 +56,7 @@
       "primary_origin": "Arabic",
       "origin_type": "linguistic",
       "origin_confidence": "HIGH",
-      "origin_explanation": "The name originates in Arabic and circulates in Muslim naming through established multilingual use.",
+      "origin_explanation": "The recorded lexical form عادل (ʿādil) is Arabic. Aadhil is a Latin-script spelling variant used to represent that form; this linguistic origin does not independently establish regional naming frequency.",
       "cultural_transmission": [
         "Arabic",
         "Muslim South Asia",
@@ -67,7 +67,7 @@
       "primary_association": "Islamic-cultural usage",
       "religion_confidence": "MEDIUM",
       "religious_status": "Culturally used; not inherently a doctrinal term",
-      "religious_explanation": "Aadhil is used by Muslims as a personal name, but the word itself is lexical in origin; its Islamic association is cultural rather than scriptural.",
+      "religious_explanation": "The name has a positive Arabic lexical meaning and is used in Muslim naming contexts. This alone does not establish a specific Qur’anic personal-name reference or religious prescription.",
       "quranic_status": {
         "is_quranic": false,
         "status": "not_verified",
@@ -288,11 +288,11 @@
       },
       {
         "q": "Is Aadhil a boy's or girl's name?",
-        "a": "This record classifies Aadhil as male based on the current dataset; independent frequency data has not been supplied, so regional use may vary."
+        "a": "The Arabic form عادل is grammatically masculine and commonly used as a masculine personal name. This record does not contain independent regional registration data for the exact Latin spelling Aadhil."
       },
       {
         "q": "What should be verified about Aadhil before relying on its meaning?",
-        "a": "The Arabic form and lexical meaning should be kept distinct from claims about Qur’anic status or popularity. Regional frequency needs naming data; Arabic and Pashto translations remain marked for native-speaker review."
+        "a": "The Arabic lexical form عادل and its justice/fairness sense are supported by a dictionary reference. Frequency of the exact Latin spelling Aadhil, regional naming patterns, and Arabic/Pashto translation quality still need separate evidence or qualified native-speaker review."
       }
     ],
     "seo": {
@@ -338,34 +338,41 @@
         "personal_name_frequency_not_verified",
         "pashto_and_arabic_translations_require_native_review",
         "modern_name_frequency_not_independently_verified",
-        "source_claims_not_independently_rechecked",
-        "arabic_pashto_native_review_pending"
+        "arabic_pashto_native_review_pending",
+        "exact_aadhil_spelling_frequency_not_verified",
+        "arabic_and_pashto_native_review_pending"
       ],
       "fabricated_content_removed": true,
       "fields_total": 153,
-      "quality_score": 78,
-      "quality_score_basis": "Provisional editorial estimate: 78/100 after fixing JSON metadata consistency, localized meaning placeholders, canonical/breadcrumb values, FAQ schema synchronization, and repeated page copy. Source URLs have not been independently rechecked in this pass and Arabic/Pashto native-speaker review remains outstanding; this is not a certification of factual accuracy.",
-      "tier1_verified_scope": "Core meaning and every associated claim have not been independently re-verified in this pass; source links, translation review, and usage evidence have separate status."
+      "quality_score": 85,
+      "quality_score_basis": "Provisional editorial estimate: 85/100. The Arabic form عادل and justice/equity sense were checked against Lane’s Lexicon. Frequency of the exact Latin spelling Aadhil, regional gender data, Arabic/Pashto native-speaker review, and deployed rendered output remain unverified; this is not a full accuracy certification.",
+      "tier1_verified_scope": "Core Arabic lexical form and justice/equity sense checked; exact Latin-spelling usage, regional frequency, translations, and rendered page remain uncertified."
     },
     "evidence": {
       "sources": [
+        "https://www.laneslexicon.com/word/%D8%B9%D8%A7%D8%AF%D9%84",
         "https://www.laneslexicon.com/root/%D8%B9%D8%AF%D9%84"
       ],
-      "verification_method": "Claim-level mapping is editorial metadata. URLs were taken from the record and were not independently rechecked in this pass; do not treat this field as proof of native-speaker review, frequency, or complete field verification.",
+      "verification_method": "Independently checked Lane’s Lexicon entries for عادل and the root عدل. The lexical evidence supports the Arabic form and justice/fairness sense; it does not verify popularity of the Aadhil spelling, regional gender distribution, or translation quality.",
       "claim_evidence": [
         {
-          "claim": "Arabic root ع د ل",
+          "claim": "Arabic lexical form عادل (ʿādil) and its relation to justice/equity",
+          "source": "https://www.laneslexicon.com/word/%D8%B9%D8%A7%D8%AF%D9%84",
+          "status": "dictionary_entry_checked"
+        },
+        {
+          "claim": "Root ع د ل includes the sense of acting justly or equitably",
           "source": "https://www.laneslexicon.com/root/%D8%B9%D8%AF%D9%84",
-          "status": "listed_source_not_independently_rechecked"
+          "status": "dictionary_root_entry_checked"
         }
       ],
-      "claim_evidence_status": "SOURCE_URLS_LISTED_NOT_INDEPENDENTLY_RECHECKED_IN_THIS_PASS"
+      "claim_evidence_status": "ARABIC_LEXICAL_MEANING_CHECKED; EXACT_LATIN_SPELLING_FREQUENCY_AND_TRANSLATIONS_NOT_VERIFIED"
     },
     "provenance": {
       "pipeline": "NameVerse editorial revision",
-      "methodology": "Correct semantic duplication and unsupported claims; retain uncertainty; attach traceable sources where available; require native review for translations.",
+      "methodology": "Individual lexical review against Lane’s Lexicon entries for عادل and عدل; clarified morphology and spelling-variant limitations; downgraded unsupported exact-spelling gender confidence; synchronized FAQ structured data and retained translation/frequency caveats.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-14T00:00:00+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -373,7 +380,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Aadhil",
-          "description": "Aadhil — an Arabic-origin given name meaning Just, fair, upright",
+          "description": "Aadhil is a Latin-script spelling variant representing Arabic عادل (ʿādil), associated with the meaning “just,” “fair,” or “equitable”; usage frequency of this exact spelling is not measured here.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -451,7 +458,7 @@
               "name": "Is Aadhil a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "This record classifies Aadhil as male based on the current dataset; independent frequency data has not been supplied, so regional use may vary."
+                "text": "The Arabic form عادل is grammatically masculine and commonly used as a masculine personal name. This record does not contain independent regional registration data for the exact Latin spelling Aadhil."
               }
             },
             {
@@ -459,7 +466,7 @@
               "name": "What should be verified about Aadhil before relying on its meaning?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "The Arabic form and lexical meaning should be kept distinct from claims about Qur’anic status or popularity. Regional frequency needs naming data; Arabic and Pashto translations remain marked for native-speaker review."
+                "text": "The Arabic lexical form عادل and its justice/fairness sense are supported by a dictionary reference. Frequency of the exact Latin spelling Aadhil, regional naming patterns, and Arabic/Pashto translation quality still need separate evidence or qualified native-speaker review."
               }
             }
           ]
