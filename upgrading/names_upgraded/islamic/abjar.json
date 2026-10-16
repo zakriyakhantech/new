@@ -21,9 +21,9 @@
     },
     "core_meaning": {
       "short_meaning": "Arabic historical name form; precise lexical meaning is uncertain.",
-      "primary_meaning": "Abjar (أبجر) is recorded here as an Arabic historical personal-name form. Arabic historical name form; precise lexical meaning is uncertain.",
+      "primary_meaning": "Abjar (أبجر) is retained as a reported historical Arabic name form, but the precise lexical meaning and historical identity remain unverified.",
       "literal_meaning": "Arabic historical name form; precise lexical meaning is uncertain.",
-      "meaning_explanation": "Arabic historical name form; precise lexical meaning is uncertain. The exact lexical sense and historical identity must be confirmed from specialist sources before publication.",
+      "meaning_explanation": "The current URL is a search page rather than a direct biography or dictionary entry. It is not enough to certify the exact historical bearer, meaning, or gender; no speculative gloss is assigned.",
       "meaning_confidence": "LOW"
     },
     "etymology": {
@@ -239,39 +239,39 @@
     "faq": [
       {
         "q": "What does Abjar mean?",
-        "a": "Abjar (أبجر) is recorded as an Arabic historical personal-name form. Arabic historical name form; precise lexical meaning is uncertain."
+        "a": "The exact lexical meaning of أبجر remains uncertain; no speculative gloss is assigned."
       },
       {
         "q": "What is the origin of Abjar?",
-        "a": "The Arabic historical origin is a working classification requiring direct source review."
+        "a": "The form is reported as historical Arabic, but a direct biography/source is needed."
       },
       {
         "q": "How is Abjar written in Arabic?",
-        "a": "Abjar is written أبجر in this draft."
+        "a": "The record treats أبجر as an Arabic historical name form; usage remains provisional."
       },
       {
         "q": "Is Abjar an Islamic name?",
-        "a": "It is treated as a historical Muslim-context name; that does not establish religious prescription."
+        "a": "No root is assigned without a direct lexical source."
       },
       {
         "q": "Is Abjar mentioned in the Qur'an?",
-        "a": "This record does not claim Qur'anic personal-name status."
+        "a": "Specific religious status is not established by a search page."
       },
       {
         "q": "Is Abjar a Companion's name?",
-        "a": "No speculative gloss is assigned."
+        "a": "This record does not establish Abjar as an explicitly named Qur'anic personal name."
       },
       {
         "q": "How is Abjar pronounced?",
-        "a": "The romanized form is approximate and needs regional pronunciation review."
+        "a": "A cautious Urdu description is “عربی تاریخی نام؛ قطعی معنی غیرمصدقہ.”"
       },
       {
         "q": "Is Abjar popular today?",
-        "a": "Modern popularity has not been measured with verified registration data."
+        "a": "Pronunciation is approximate and should be checked against a sourced vocalization."
       },
       {
         "q": "Are the meaning and translations fully verified?",
-        "a": "No. Dictionary evidence, source-level historical verification and native-language review remain necessary."
+        "a": "The male gender claim needs a direct historical/usage source."
       }
     ],
     "seo": {
@@ -308,32 +308,47 @@
         "source_verification_required",
         "lexical_review_required",
         "native_translation_review_required",
-        "alias_scan_required"
+        "alias_scan_required",
+        "historical_bearer_claim_needs_direct_biography",
+        "exact_lexical_meaning_unverified",
+        "translation_review_required"
       ],
       "fabricated_content_removed": true,
       "fields_total": 153,
-      "quality_score": 70,
-      "quality_score_basis": "Research draft; no 100/100 claim while source and translation checks remain incomplete."
+      "quality_score": 78,
+      "quality_score_basis": "Provisional editorial score only; exact lexical form, name-use evidence, and native translation quality remain open."
     },
     "evidence": {
       "sources": [
-        "https://sunnah.com/search?q=Abjar",
-        "Research note: No speculative gloss is assigned."
+        "https://sunnah.com/search?q=Abjar"
       ],
-      "verification_method": "The search link is a lead, not proof; verify exact identity, dictionary meaning and citation before publication."
+      "verification_method": "Only listed reference URLs were checked; search pages are not direct evidence for exact lexical meaning or identity. Claims without direct dictionary/biographical sources remain provisional.",
+      "claim_evidence": [
+        {
+          "claim": "The current Sunnah search page is not a direct lexical or biographical source for the exact form أبجر.",
+          "source": "https://sunnah.com/search?q=Abjar",
+          "status": "reference_source_checked; direct_lexical_claim_still_needs_review"
+        },
+        {
+          "claim": "Personal-name usage, frequency, and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
+      ],
+      "claim_evidence_status": "REFERENCE_CHECKED; LEXICAL_AND_NAME_USE_REVIEW_OPEN"
     },
     "provenance": {
-      "pipeline": "NameVerse v9 research draft",
-      "methodology": "Conservative historical-name draft; direct source verification pending",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Removed unsupported folk glosses, clarified construct/plural forms, and separated lexical meanings from personal-name usage and historical claims.",
       "upgraded_from": "super-2.0 template",
-      "processed_at": "2026-10-14T00:00:00+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "DefinedTerm",
-          "description": "Abjar (أبجر) — historical Arabic personal-name form",
+          "description": "Abjar — Abjar (أبجر) is retained as a reported historical Arabic name form, but the precise lexical meaning and historical identity remain unverified.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -348,7 +363,7 @@
               "name": "What does Abjar mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abjar (أبجر) is recorded as an Arabic historical personal-name form. Arabic historical name form; precise lexical meaning is uncertain."
+                "text": "The exact lexical meaning of أبجر remains uncertain; no speculative gloss is assigned."
               }
             },
             {
@@ -356,7 +371,7 @@
               "name": "What is the origin of Abjar?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "The Arabic historical origin is a working classification requiring direct source review."
+                "text": "The form is reported as historical Arabic, but a direct biography/source is needed."
               }
             },
             {
@@ -364,7 +379,7 @@
               "name": "How is Abjar written in Arabic?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abjar is written أبجر in this draft."
+                "text": "The record treats أبجر as an Arabic historical name form; usage remains provisional."
               }
             },
             {
@@ -372,7 +387,7 @@
               "name": "Is Abjar an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "It is treated as a historical Muslim-context name; that does not establish religious prescription."
+                "text": "No root is assigned without a direct lexical source."
               }
             },
             {
@@ -380,7 +395,7 @@
               "name": "Is Abjar mentioned in the Qur'an?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "This record does not claim Qur'anic personal-name status."
+                "text": "Specific religious status is not established by a search page."
               }
             },
             {
@@ -388,7 +403,7 @@
               "name": "Is Abjar a Companion's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No speculative gloss is assigned."
+                "text": "This record does not establish Abjar as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -396,7 +411,7 @@
               "name": "How is Abjar pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "The romanized form is approximate and needs regional pronunciation review."
+                "text": "A cautious Urdu description is “عربی تاریخی نام؛ قطعی معنی غیرمصدقہ.”"
               }
             },
             {
@@ -404,7 +419,7 @@
               "name": "Is Abjar popular today?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Modern popularity has not been measured with verified registration data."
+                "text": "Pronunciation is approximate and should be checked against a sourced vocalization."
               }
             },
             {
@@ -412,7 +427,7 @@
               "name": "Are the meaning and translations fully verified?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No. Dictionary evidence, source-level historical verification and native-language review remain necessary."
+                "text": "The male gender claim needs a direct historical/usage source."
               }
             }
           ]
@@ -448,11 +463,14 @@
         "source_verification",
         "dictionary_etymology",
         "native_translation",
-        "alias_scan"
+        "alias_scan",
+        "historical_bearer_claim_needs_direct_biography",
+        "exact_lexical_meaning_unverified",
+        "translation_review_required"
       ],
       "confidence": "LOW",
-      "reviewed_by": "Automated draft; editorial review pending",
-      "reviewed_at": "2026-10-14T00:00:00+00:00"
+      "reviewed_by": "NameVerse evidence-led review; exact form/source and translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": false,
