@@ -404,3 +404,22 @@
 
 - All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
 - Exact lexical form, personal-name usage, and native translations remain unverified where flagged; no record is declared fully verified.
+
+
+## Batch reviewed on 2026-10-16 — records 222–231
+
+222. `abid.json` — attached a direct lexical source for عابد (“worshipper/devotee”) and kept name frequency separate.
+223. `abida.json` — corrected the English field that repeated “Abida” as its own meaning and fixed masculine translations in a feminine-form record.
+224. `abidah.json` — removed the explicit “of God” component from the lexical gloss for عابدة; corrected Arabic translation.
+225. `abidat.json` — clarified that عابدات is feminine plural and removed the unsupported given-name frequency assertion.
+226. `abideen.json` — corrected “follower” translations to the worshipper/devotee lexical field and flagged personal-name use of the inflected plural.
+227. `abidin.json` — corrected the same follower/worshipper mismatch and retained manual form review.
+228. `abidur.json` — removed the placeholder meaning and left the non-standard exact form عابدور unresolved.
+229. `abir.json` — attached a direct lexical source for عبير (“fragrance”) and kept name-frequency claims separate.
+230. `abira.json` — retained the fragrance-related feminine-form gloss, while keeping exact morphology and name use provisional.
+231. `abis.json` — removed the unsupported “father/fatherly” folk gloss and left the exact form أبيس unverified.
+
+### Batch 222–231 validation and limits
+
+- All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
+- Personal-name use, gender distribution, and native translation quality remain open where flagged; no record is declared fully verified.
