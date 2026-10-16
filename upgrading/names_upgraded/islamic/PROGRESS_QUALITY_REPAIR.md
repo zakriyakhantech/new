@@ -423,3 +423,22 @@
 
 - All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
 - Personal-name use, gender distribution, and native translation quality remain open where flagged; no record is declared fully verified.
+
+
+## Batch reviewed on 2026-10-16 — records 232–241
+
+232. `abisha.json` — removed the unsupported meaning for non-standard form ابيشة and left exact origin/form unverified.
+233. `abjar.json` — clarified that a search page is not direct evidence for the historical identity or exact lexical meaning of أبجر.
+234. `abkar.json` — removed the folk gloss “father of the poor” and left أبكر unresolved.
+235. `abla.json` — kept the عبلة gloss provisional and flagged historical literary association for direct sourcing.
+236. `ablah.json` — removed the unsupported “servant of Allah” gloss and flagged Abla/Ablah as candidate romanization variants.
+237. `abood.json` — distinguished عبود from عابد and corrected translations that had replaced the recorded form with a different Arabic word.
+238. `abou.json` — clarified that أبو is a construct/kunya element (“father of”), not a complete name meaning by itself.
+239. `abqari.json` — retained the genius/brilliance lexical gloss provisionally and flagged the ʿAbqar valley etymology and name-use claims for sourcing.
+240. `abra.json` — removed the unsupported “father of a great multitude” folk gloss and left the exact form unresolved.
+241. `abraar.json` — clarified the plural form أبرار and separated righteousness/piety from the interpretive “fearer of Allah” extension.
+
+### Batch 232–241 validation and limits
+
+- All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
+- Exact forms, historical claims, and name-use frequency remain open where flagged; no record is declared fully verified.
