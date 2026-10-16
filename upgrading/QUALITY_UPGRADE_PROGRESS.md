@@ -11,14 +11,22 @@ Last updated: 2026-10-16
 - Record each completed file and any unresolved verification needs here.
 
 ## Progress
-- Individually edited and committed: 20 unique records
+- Individually edited and committed: 21 unique records
 - Fully source-verified / tier-1 certified: 0 records
 - Remaining records: total inventory must be reconciled against the live repository before stating a final count.
-- Last completed: `upgrading/names_upgraded/islamic/aahil.json` (20 unique records completed)
+- Last completed: `upgrading/names_upgraded/islamic/aahoo.json` (21 unique records completed)
 - Latest record commit: `245d345dc0387a57ae43761d6d43100850eb86bb
-- Next action: inspect `upgrading/names_upgraded/islamic/aahoo.json` next, then continue alphabetically one record per commit.
+- Next action: inspect `upgrading/names_upgraded/islamic/aaida.json` next, then continue alphabetically one record per commit.
 
 ## Record log
+
+### 21. Aahoo — Persian lexical meaning checked; name usage pending
+- Checked Persian Wiktionary for آهو (āhū), meaning “gazelle.”
+- Clarified that Persian origin is not the same as Arabic origin merely because the script overlaps.
+- Added claim-level evidence and lowered gender confidence pending regional data.
+- Corrected repetitive SEO copy and synchronized DefinedTerm/FAQ structured data.
+- Provisional editorial score: 85/100; tier-1 remains false.
+- Outstanding: exact spelling frequency, regional gender distribution, Persian native-speaker review, and deployed HTML validation.
 
 ### 20. Aahil — related Arabic word checked; name etymology remains unverified
 - Checked Lane’s Lexicon for أهل (“family/people/folk”), while explicitly distinguishing that word from the Latin spelling Aahil.
