@@ -324,24 +324,42 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "personal_name_frequency_not_verified",
+        "native_translation_review_required",
+        "scriptural_status_not_established_by_lexical_evidence"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 149,
-      "quality_score": 95,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root present; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 80,
+      "quality_score_basis": "Provisional editorial/consistency score only. Lexical source checks do not establish personal-name frequency, scriptural status, or native-speaker verification of every translation; not a factual certification."
     },
     "evidence": {
       "sources": [
-        "The recorded Arabic form عاصف (active participle of عَصَفَ, root ع ص ف) carries the sense “Stormy, tempestuous”."
+        "https://www.rekhta.org/urdudictionary?keyword=aasif",
+        "https://www.laneslexicon.com/word/%D8%B9%D8%A7%D8%B5%D9%81"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Sources were checked for the cited lexical form only. They do not prove personal-name frequency, regional gender distribution, Qur'anic status, or native-speaker quality of all translations.",
+      "claim_evidence": [
+        {
+          "claim": "The recorded Arabic lexical form عاصف and its stated core sense are supported by the listed Arabic/Urdu dictionary source; modern personal-name frequency and all translations are not thereby verified.",
+          "source": "https://www.rekhta.org/urdudictionary?keyword=aasif",
+          "status": "source_checked_for_lexical_claim_only"
+        },
+        {
+          "claim": "Personal-name usage, frequency, and all translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
+      ],
+      "claim_evidence_status": "LEXICAL_CLAIM_SOURCE_CHECKED; NAME_USAGE_AND_TRANSLATIONS_NOT_FULLY_VERIFIED"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8.1 (one-by-one HIGH curation)",
-      "methodology": "Single-name deep curation -> root verification -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Checked cited lexical claims against named dictionary sources; separated lexical meaning from personal-name usage, religious association, frequency, and translations; retained uncertainty where evidence is incomplete.",
       "upgraded_from": "v8",
-      "processed_at": "2026-10-08T06:30:22Z"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -458,11 +476,15 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse one-by-one HIGH curation",
-      "reviewed_at": "2026-10-08T06:30:22Z"
+      "needs_manual_verification": true,
+      "flags": [
+        "personal_name_frequency_not_verified",
+        "native_translation_review_required",
+        "scriptural_status_not_established_by_lexical_evidence"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review (lexical source check; personal-name and native translation review pending)",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,

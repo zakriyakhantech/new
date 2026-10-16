@@ -324,24 +324,42 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "personal_name_frequency_not_verified",
+        "gender_distribution_not_verified",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 150,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 80,
+      "quality_score_basis": "Provisional editorial score only; lexical sources do not prove personal-name usage, popularity, scriptural status, or fluent translation review."
     },
     "evidence": {
       "sources": [
-        "The recorded Persian form آسمان carries the sense “Sky, heaven”."
+        "https://vajehyab.com/dehkhoda/%D8%A2%D8%B3%D9%85%D8%A7%D9%86",
+        "https://www.laneslexicon.com/word/%D8%B3%D9%85%D8%A7%D9%93%D8%A1"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Checked the named lexical source(s) for the specified form or related dictionary entry. This does not establish modern personal-name frequency, regional gender distribution, religious status, or native-speaker translation quality.",
+      "claim_evidence": [
+        {
+          "claim": "Dehkhoda Dictionary records Persian آسمان with the sense sky/heaven; personal-name usage and gender frequency remain unverified.",
+          "source": "https://vajehyab.com/dehkhoda/%D8%A2%D8%B3%D9%85%D8%A7%D9%86",
+          "status": "lexical_source_checked; name_usage_not_established"
+        },
+        {
+          "claim": "Personal-name usage, frequency, and all translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
+      ],
+      "claim_evidence_status": "LEXICAL_SOURCE_CHECKED; PERSONAL_NAME_USAGE_AND_TRANSLATIONS_PENDING"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Checked lexical forms against named dictionary sources; separated word meanings from name-use claims; corrected unsupported or contradictory glosses; kept uncertainty explicit.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -349,7 +367,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Aasman",
-          "description": "Aasman — a Persian-origin given name meaning Sky, heaven",
+          "description": "Aasman — Aasman is a Persian-origin name meaning “Sky, heaven”.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -458,11 +476,15 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "personal_name_frequency_not_verified",
+        "gender_distribution_not_verified",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review (lexical source check; name-use/native translation review pending)",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,

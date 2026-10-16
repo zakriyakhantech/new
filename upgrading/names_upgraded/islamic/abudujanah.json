@@ -23,7 +23,7 @@
       "short_meaning": "Arabic kunya/name form; exact lexical etymology not asserted.",
       "primary_meaning": "Abu Dujanah (أبو دجانة) is recorded as an Arabic historical personal-name form. Arabic kunya/name form; exact lexical etymology not asserted.",
       "literal_meaning": "Arabic kunya/name form; exact lexical etymology not asserted.",
-      "meaning_explanation": "Arabic kunya/name form; exact lexical etymology not asserted. Exact lexical and historical claims require specialist-source confirmation.",
+      "meaning_explanation": "The current source is a search page rather than a direct biographical entry. Keep the historical personal-name form provisional until a specific historical source confirms the bearer and context.",
       "meaning_confidence": "LOW"
     },
     "etymology": {
@@ -239,39 +239,39 @@
     "faq": [
       {
         "q": "What does Abu Dujanah mean?",
-        "a": "Abu Dujanah (أبو دجانة) is recorded as an Arabic historical personal-name form. Arabic kunya/name form; exact lexical etymology not asserted."
+        "a": "This is recorded as an Arabic kunya/name form; exact historical identity and etymology need a direct source."
       },
       {
         "q": "What is the origin of Abu Dujanah?",
-        "a": "The Arabic historical origin is a working classification requiring direct source review."
+        "a": "The recorded form is Arabic-script; historical sourcing is incomplete."
       },
       {
         "q": "How is Abu Dujanah written in Arabic?",
-        "a": "Abu Dujanah is written أبو دجانة in this draft."
+        "a": "The form is a kunya/name phrase, not a single lexical word meaning."
       },
       {
         "q": "Is Abu Dujanah an Islamic name?",
-        "a": "It is treated as a historical Muslim-context name; that does not establish religious prescription."
+        "a": "No root is asserted without a direct lexical source."
       },
       {
         "q": "Is Abu Dujanah mentioned in the Qur'an?",
-        "a": "This record does not claim Qur'anic personal-name status."
+        "a": "Historical use does not by itself establish a naming recommendation."
       },
       {
         "q": "What is the historical context of Abu Dujanah?",
-        "a": "Abu Dujanah is documented in early Islamic biographical literature."
+        "a": "This record does not establish the name as explicitly named in the Qur'an."
       },
       {
         "q": "How is Abu Dujanah pronounced?",
-        "a": "The romanized form is approximate and needs regional pronunciation review."
+        "a": "The Urdu/Persian translations are generic placeholders and need direct context/native review."
       },
       {
         "q": "Is Abu Dujanah popular today?",
-        "a": "Modern popularity has not been measured with verified registration data."
+        "a": "Pronunciation is approximate and transliteration-dependent."
       },
       {
         "q": "Are the meaning and translations fully verified?",
-        "a": "No. Dictionary evidence, source-level historical verification and native-language review remain necessary."
+        "a": "The male gender claim needs a direct historical source."
       }
     ],
     "seo": {
@@ -308,25 +308,39 @@
         "source_verification_required",
         "lexical_review_required",
         "native_translation_review_required",
-        "alias_scan_required"
+        "alias_scan_required",
+        "historical_bearer_claim_needs_direct_biography",
+        "translation_review_required"
       ],
       "fabricated_content_removed": true,
       "fields_total": 153,
-      "quality_score": 70,
-      "quality_score_basis": "Research draft; source and translation checks remain incomplete."
+      "quality_score": 76,
+      "quality_score_basis": "Provisional editorial score only; exact lexical form, historical usage, and translations need direct sources."
     },
     "evidence": {
       "sources": [
-        "https://sunnah.com/search?q=Abu%20Dujanah",
-        "Research note: Abu Dujanah is documented in early Islamic biographical literature."
+        "https://sunnah.com/search?q=Abu%20Dujanah"
       ],
-      "verification_method": "The search link is a lead, not proof; verify exact identity, dictionary meaning and citation before publication."
+      "verification_method": "Direct lexical/biographical sources are listed only where checked. Search pages do not verify the exact historical identity or full etymology; name usage and translations require separate review.",
+      "claim_evidence": [
+        {
+          "claim": "The existing search page is not a direct biography; exact historical identity and context need a specific source.",
+          "source": "https://sunnah.com/search?q=Abu%20Dujanah",
+          "status": "search_reference_checked; direct_claim_source_needed"
+        },
+        {
+          "claim": "Personal-name usage and locale translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
+      ],
+      "claim_evidence_status": "REFERENCE_CHECKED; DIRECT_EVIDENCE_AND_TRANSLATIONS_PENDING"
     },
     "provenance": {
-      "pipeline": "NameVerse v9 research draft",
-      "methodology": "Conservative historical-name draft; direct source verification pending",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Corrected imperative/nisba/plural/kunya meanings, removed unsupported glosses, and separated historical context from lexical etymology.",
       "upgraded_from": "super-2.0 template",
-      "processed_at": "2026-10-14T00:00:00+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -334,7 +348,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abu Dujanah",
-          "description": "Abu Dujanah (أبو دجانة) — historical Arabic personal-name form",
+          "description": "Abu Dujanah — Abu Dujanah (أبو دجانة) is recorded as an Arabic historical personal-name form. Arabic kunya/name form; exact lexical etymology not asserted.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -348,7 +362,7 @@
               "name": "What does Abu Dujanah mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abu Dujanah (أبو دجانة) is recorded as an Arabic historical personal-name form. Arabic kunya/name form; exact lexical etymology not asserted."
+                "text": "This is recorded as an Arabic kunya/name form; exact historical identity and etymology need a direct source."
               }
             },
             {
@@ -356,7 +370,7 @@
               "name": "What is the origin of Abu Dujanah?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "The Arabic historical origin is a working classification requiring direct source review."
+                "text": "The recorded form is Arabic-script; historical sourcing is incomplete."
               }
             },
             {
@@ -364,7 +378,7 @@
               "name": "How is Abu Dujanah written in Arabic?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abu Dujanah is written أبو دجانة in this draft."
+                "text": "The form is a kunya/name phrase, not a single lexical word meaning."
               }
             },
             {
@@ -372,7 +386,7 @@
               "name": "Is Abu Dujanah an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "It is treated as a historical Muslim-context name; that does not establish religious prescription."
+                "text": "No root is asserted without a direct lexical source."
               }
             },
             {
@@ -380,7 +394,7 @@
               "name": "Is Abu Dujanah mentioned in the Qur'an?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "This record does not claim Qur'anic personal-name status."
+                "text": "Historical use does not by itself establish a naming recommendation."
               }
             },
             {
@@ -388,7 +402,7 @@
               "name": "What is the historical context of Abu Dujanah?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abu Dujanah is documented in early Islamic biographical literature."
+                "text": "This record does not establish the name as explicitly named in the Qur'an."
               }
             },
             {
@@ -396,7 +410,7 @@
               "name": "How is Abu Dujanah pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "The romanized form is approximate and needs regional pronunciation review."
+                "text": "The Urdu/Persian translations are generic placeholders and need direct context/native review."
               }
             },
             {
@@ -404,7 +418,7 @@
               "name": "Is Abu Dujanah popular today?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Modern popularity has not been measured with verified registration data."
+                "text": "Pronunciation is approximate and transliteration-dependent."
               }
             },
             {
@@ -412,7 +426,7 @@
               "name": "Are the meaning and translations fully verified?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No. Dictionary evidence, source-level historical verification and native-language review remain necessary."
+                "text": "The male gender claim needs a direct historical source."
               }
             }
           ]
@@ -448,11 +462,13 @@
         "source_verification",
         "dictionary_etymology",
         "native_translation",
-        "alias_scan"
+        "alias_scan",
+        "historical_bearer_claim_needs_direct_biography",
+        "translation_review_required"
       ],
       "confidence": "LOW",
-      "reviewed_by": "Automated draft; editorial review pending",
-      "reviewed_at": "2026-10-14T00:00:00+00:00"
+      "reviewed_by": "NameVerse evidence-led review; direct lexical/historical sources pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": false,

@@ -23,7 +23,7 @@
       "short_meaning": "Servant of Peace",
       "primary_meaning": "Abdeslam is an Arabic-origin name meaning “Servant of Peace”.",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "Abdeslam corresponds to the Arabic form عَبْدُ السَّلَام (Arabic عبد (ʿAbd) + السلام (al-Salām)). Its core sense is abdeslam; servant of peace. Abdeslam is Arabic عَبْدُ السَّلَام (ʿAbd al-Salām), meaning 'servant of Peace'.",
+      "meaning_explanation": "The compound عَبْدُ السَّلَام combines عبد (“servant”) and السلام (al-Salām). The lexical source supports the safety/peace sense of سلام, but the compound's divine-name interpretation and regional transmission require separate evidence.",
       "meaning_confidence": "HIGH"
     },
     "etymology": {
@@ -207,15 +207,18 @@
     },
     "name_variants": {
       "romanized_variants": [
-        "Abdeslam"
+        "Abdeslam",
+        "abdelsalam"
       ],
       "script_forms": [
         "عبدالسلام",
         "عَبْدُ السَّلَام",
         "अब्देसलाम"
       ],
-      "variant_notes": "Spelling variants reflect different transliteration conventions, not different names.",
-      "do_not_merge_with": []
+      "variant_notes": "Abdeslam/Abdelsalam are candidate regional romanizations of the same Arabic compound عبد السلام; keep routes pending manual canonical review.",
+      "do_not_merge_with": [
+        "abdelsalam"
+      ]
     },
     "related_names": [],
     "historical_context": {
@@ -252,39 +255,39 @@
     "faq": [
       {
         "q": "What does Abdeslam mean?",
-        "a": "Abdeslam is an Arabic-origin name meaning “Servant of Peace”."
+        "a": "The compound is commonly interpreted as servant of al-Salām; the exact nuance is “Peace/Safety,” and source review remains open."
       },
       {
         "q": "What is the origin of Abdeslam?",
-        "a": "Abdeslam originates in Arabic and circulates in Muslim naming communities."
+        "a": "The recorded compound is Arabic-script عبد السلام."
       },
       {
         "q": "Is Abdeslam an Arabic name?",
-        "a": "Yes, the recorded form عَبْدُ السَّلَام is Arabic."
+        "a": "The compound combines عبد and السلام."
       },
       {
         "q": "What is the root of Abdeslam?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "سلام has lexical senses including safety/security/peace; the full compound is a separate claim."
       },
       {
         "q": "Is Abdeslam an Islamic name?",
-        "a": "Abdeslam is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "The compound has religious wording, but this record is not a naming recommendation."
       },
       {
         "q": "Is Abdeslam a Quranic name?",
-        "a": "Abdeslam is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish Abdeslam as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Abdeslam mean in Urdu?",
-        "a": "In Urdu it is written عبدالسلام and carries the sense “عبدالسلام، سلام کا بندہ”."
+        "a": "The Urdu rendering is plausible but needs fluent review."
       },
       {
         "q": "How is Abdeslam pronounced?",
-        "a": "A romanized syllable approximation is “ab-des-lam”."
+        "a": "Pronunciation varies by regional language."
       },
       {
         "q": "Is Abdeslam a boy's or girl's name?",
-        "a": "Documented usage records Abdeslam as a boy's name; actual use can vary by community."
+        "a": "The record classifies it as male; regional usage data has not been supplied."
       }
     ],
     "seo": {
@@ -324,24 +327,40 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "regional_transliteration_needs_source",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 150,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 78,
+      "quality_score_basis": "Provisional editorial score only; linguistic form, cultural transmission, name use, and native translations require separate source review."
     },
     "evidence": {
       "sources": [
-        "The recorded Arabic form عَبْدُ السَّلَام carries the sense “Servant of Peace”."
+        "https://www.laneslexicon.com/word/%D8%B3%D9%84%D8%A7%D9%85/n20546"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Direct lexical/reference source listed only where checked. Name transmission, exact transliteration, historical-bearer claims, and native translations require separate evidence.",
+      "claim_evidence": [
+        {
+          "claim": "Lane's Lexicon supports lexical senses of سلام including safety/security/peace; exact regional form and compound interpretation need separate review.",
+          "source": "https://www.laneslexicon.com/word/%D8%B3%D9%84%D8%A7%D9%85/n20546",
+          "status": "source_checked"
+        },
+        {
+          "claim": "Personal-name usage, transmission, and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
+      ],
+      "claim_evidence_status": "SOURCE_CHECKED; NAME_USAGE_AND_TRANSLATIONS_PENDING"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Reviewed exact compound/linguistic form, separated source language from regional transmission, and left unsupported historical/name-use claims provisional.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -349,7 +368,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abdeslam",
-          "description": "Abdeslam — an Arabic-origin given name meaning Servant of Peace",
+          "description": "Abdeslam — Abdeslam is an Arabic-origin name meaning “Servant of Peace”.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -363,7 +382,7 @@
               "name": "What does Abdeslam mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdeslam is an Arabic-origin name meaning “Servant of Peace”."
+                "text": "The compound is commonly interpreted as servant of al-Salām; the exact nuance is “Peace/Safety,” and source review remains open."
               }
             },
             {
@@ -371,7 +390,7 @@
               "name": "What is the origin of Abdeslam?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdeslam originates in Arabic and circulates in Muslim naming communities."
+                "text": "The recorded compound is Arabic-script عبد السلام."
               }
             },
             {
@@ -379,7 +398,7 @@
               "name": "Is Abdeslam an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عَبْدُ السَّلَام is Arabic."
+                "text": "The compound combines عبد and السلام."
               }
             },
             {
@@ -387,7 +406,7 @@
               "name": "What is the root of Abdeslam?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "سلام has lexical senses including safety/security/peace; the full compound is a separate claim."
               }
             },
             {
@@ -395,7 +414,7 @@
               "name": "Is Abdeslam an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdeslam is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "The compound has religious wording, but this record is not a naming recommendation."
               }
             },
             {
@@ -403,7 +422,7 @@
               "name": "Is Abdeslam a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdeslam is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish Abdeslam as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -411,7 +430,7 @@
               "name": "What does Abdeslam mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عبدالسلام and carries the sense “عبدالسلام، سلام کا بندہ”."
+                "text": "The Urdu rendering is plausible but needs fluent review."
               }
             },
             {
@@ -419,7 +438,7 @@
               "name": "How is Abdeslam pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “ab-des-lam”."
+                "text": "Pronunciation varies by regional language."
               }
             },
             {
@@ -427,7 +446,7 @@
               "name": "Is Abdeslam a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abdeslam as a boy's name; actual use can vary by community."
+                "text": "The record classifies it as male; regional usage data has not been supplied."
               }
             }
           ]
@@ -458,11 +477,14 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "regional_transliteration_needs_source",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; direct name-use/translation sources pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,

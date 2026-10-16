@@ -253,39 +253,39 @@
     "faq": [
       {
         "q": "What does Abdulwahab mean?",
-        "a": "Abdulwahab is an Arabic-origin name meaning “Servant of the Bestower”."
+        "a": "The recorded compound is Arabic عبد plus a divine epithet; the exact English gloss remains provisional until each component is sourced."
       },
       {
         "q": "What is the origin of Abdulwahab?",
-        "a": "Abdulwahab originates in Arabic and circulates in Muslim naming communities."
+        "a": "The recorded form is Arabic-script; regional transmission and modern name use require separate evidence."
       },
       {
         "q": "Is Abdulwahab an Arabic name?",
-        "a": "Yes, the recorded form عَبْدُ الْوَهَّاب is Arabic."
+        "a": "The compound begins with عبد (“servant”) plus the epithet recorded in the Arabic form."
       },
       {
         "q": "What is the root of Abdulwahab?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "Each component needs a direct lexical source; the compound structure alone does not certify all translations."
       },
       {
         "q": "Is Abdulwahab an Islamic name?",
-        "a": "Abdulwahab is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "The compound has religious wording, but this record is not a separate naming recommendation."
       },
       {
         "q": "Is Abdulwahab a Quranic name?",
-        "a": "Abdulwahab is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish the Latin spelling as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Abdulwahab mean in Urdu?",
-        "a": "In Urdu it is written عبدالوہاب and carries the sense “عبدالوہاب، وہاب کا بندہ”."
+        "a": "Locale translations are provisional and need fluent review."
       },
       {
         "q": "How is Abdulwahab pronounced?",
-        "a": "A romanized syllable approximation is “ab-dul-wa-hab”."
+        "a": "Pronunciation is approximate and transliteration-dependent."
       },
       {
         "q": "Is Abdulwahab a boy's or girl's name?",
-        "a": "Documented usage records Abdulwahab as a boy's name; actual use can vary by community."
+        "a": "The record classifies it as male; regional frequency data has not been supplied."
       }
     ],
     "seo": {
@@ -325,24 +325,39 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "compound_component_sources_incomplete",
+        "translation_review_required",
+        "personal_name_frequency_not_verified"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 151,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 78,
+      "quality_score_basis": "Provisional editorial score only; incomplete forms or unsourced compound components require further verification."
     },
     "evidence": {
-      "sources": [
-        "The recorded Arabic form عَبْدُ الْوَهَّاب carries the sense “Servant of the Bestower”."
+      "sources": [],
+      "verification_method": "Direct source is listed only where checked. Unsourced compound components and all regional translations require separate verification.",
+      "claim_evidence": [
+        {
+          "claim": "No direct source was checked for all components of this compound in this pass; meaning remains provisional.",
+          "source": null,
+          "status": "no_direct_source_checked; claim_provisional"
+        },
+        {
+          "claim": "Personal-name usage and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "DIRECT_COMPONENT_SOURCE_NEEDED"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Reviewed incomplete prefixes and compound-name components; corrected the شكور/كريم conflation; retained manual source and translation checks.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -350,7 +365,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abdulwahab",
-          "description": "Abdulwahab — an Arabic-origin given name meaning Servant of the Bestower",
+          "description": "Abdulwahab — Abdulwahab is an Arabic-origin name meaning “Servant of the Bestower”.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -364,7 +379,7 @@
               "name": "What does Abdulwahab mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdulwahab is an Arabic-origin name meaning “Servant of the Bestower”."
+                "text": "The recorded compound is Arabic عبد plus a divine epithet; the exact English gloss remains provisional until each component is sourced."
               }
             },
             {
@@ -372,7 +387,7 @@
               "name": "What is the origin of Abdulwahab?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdulwahab originates in Arabic and circulates in Muslim naming communities."
+                "text": "The recorded form is Arabic-script; regional transmission and modern name use require separate evidence."
               }
             },
             {
@@ -380,7 +395,7 @@
               "name": "Is Abdulwahab an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عَبْدُ الْوَهَّاب is Arabic."
+                "text": "The compound begins with عبد (“servant”) plus the epithet recorded in the Arabic form."
               }
             },
             {
@@ -388,7 +403,7 @@
               "name": "What is the root of Abdulwahab?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "Each component needs a direct lexical source; the compound structure alone does not certify all translations."
               }
             },
             {
@@ -396,7 +411,7 @@
               "name": "Is Abdulwahab an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdulwahab is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "The compound has religious wording, but this record is not a separate naming recommendation."
               }
             },
             {
@@ -404,7 +419,7 @@
               "name": "Is Abdulwahab a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdulwahab is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish the Latin spelling as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -412,7 +427,7 @@
               "name": "What does Abdulwahab mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عبدالوہاب and carries the sense “عبدالوہاب، وہاب کا بندہ”."
+                "text": "Locale translations are provisional and need fluent review."
               }
             },
             {
@@ -420,7 +435,7 @@
               "name": "How is Abdulwahab pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “ab-dul-wa-hab”."
+                "text": "Pronunciation is approximate and transliteration-dependent."
               }
             },
             {
@@ -428,7 +443,7 @@
               "name": "Is Abdulwahab a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abdulwahab as a boy's name; actual use can vary by community."
+                "text": "The record classifies it as male; regional frequency data has not been supplied."
               }
             }
           ]
@@ -459,11 +474,15 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "compound_component_sources_incomplete",
+        "translation_review_required",
+        "personal_name_frequency_not_verified"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; source/name-use/translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,

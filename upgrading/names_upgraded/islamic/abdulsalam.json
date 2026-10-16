@@ -23,7 +23,7 @@
       "short_meaning": "Servant of Peace",
       "primary_meaning": "Abdulsalam is an Arabic-origin name meaning “Servant of Peace”.",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "Abdulsalam corresponds to the Arabic form عَبْدُ السَّلَام (Arabic عبد (ʿAbd) + السلام (al-Salām)). Its core sense is abdulsalam; servant of peace. Abdulsalam is Arabic عَبْدُ السَّلَام (ʿAbd al-Salām), meaning 'servant of Peace'.",
+      "meaning_explanation": "The compound عَبْدُ السَّلَام combines عبد (“servant”) and السلام (al-Salām). Lane's Lexicon supports safety/security/peace senses for سلام, but the divine-name nuance and regional name usage need separate evidence.",
       "meaning_confidence": "HIGH"
     },
     "etymology": {
@@ -207,15 +207,20 @@
     },
     "name_variants": {
       "romanized_variants": [
-        "Abdulsalam"
+        "Abdulsalam",
+        "abdelsalam",
+        "abdeslam"
       ],
       "script_forms": [
         "عبدالسلام",
         "عَبْدُ السَّلَام",
         "अब्दुस्सलाम"
       ],
-      "variant_notes": "Spelling variants reflect different transliteration conventions, not different names.",
-      "do_not_merge_with": []
+      "variant_notes": "Abdulsalam/Abdelsalam/Abdeslam are candidate regional romanizations of the same Arabic compound عبد السلام; keep routes pending manual canonical review.",
+      "do_not_merge_with": [
+        "abdelsalam",
+        "abdeslam"
+      ]
     },
     "related_names": [],
     "historical_context": {
@@ -252,39 +257,39 @@
     "faq": [
       {
         "q": "What does Abdulsalam mean?",
-        "a": "Abdulsalam is an Arabic-origin name meaning “Servant of Peace”."
+        "a": "The compound is commonly interpreted as servant of al-Salām; the precise nuance includes peace/safety and needs contextual review."
       },
       {
         "q": "What is the origin of Abdulsalam?",
-        "a": "Abdulsalam originates in Arabic and circulates in Muslim naming communities."
+        "a": "The recorded compound is Arabic-script عبد السلام."
       },
       {
         "q": "Is Abdulsalam an Arabic name?",
-        "a": "Yes, the recorded form عَبْدُ السَّلَام is Arabic."
+        "a": "The compound combines عبد and السلام."
       },
       {
         "q": "What is the root of Abdulsalam?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "سلام has lexical senses including safety/security/peace."
       },
       {
         "q": "Is Abdulsalam an Islamic name?",
-        "a": "Abdulsalam is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "Religious wording does not itself constitute a naming recommendation."
       },
       {
         "q": "Is Abdulsalam a Quranic name?",
-        "a": "Abdulsalam is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish Abdulsalam as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Abdulsalam mean in Urdu?",
-        "a": "In Urdu it is written عبدالسلام and carries the sense “عبدالسلام، سلام کا بندہ”."
+        "a": "The Urdu translation is plausible but needs fluent review."
       },
       {
         "q": "How is Abdulsalam pronounced?",
-        "a": "A romanized syllable approximation is “ab-dul-sa-lam”."
+        "a": "Pronunciation varies by region."
       },
       {
         "q": "Is Abdulsalam a boy's or girl's name?",
-        "a": "Documented usage records Abdulsalam as a boy's name; actual use can vary by community."
+        "a": "The record classifies it as male; regional frequency data has not been supplied."
       }
     ],
     "seo": {
@@ -324,24 +329,41 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "compound_divine_epithet_needs_source",
+        "regional_usage_unverified",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 151,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 78,
+      "quality_score_basis": "Provisional editorial score only; incomplete forms or unsourced compound components require further verification."
     },
     "evidence": {
       "sources": [
-        "The recorded Arabic form عَبْدُ السَّلَام carries the sense “Servant of Peace”."
+        "https://www.laneslexicon.com/word/%D8%B3%D9%84%D8%A7%D9%85/n20546"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Direct source is listed only where checked. Unsourced compound components and all regional translations require separate verification.",
+      "claim_evidence": [
+        {
+          "claim": "Lane's Lexicon supports سلام with lexical senses including safety, security, and peace; compound interpretation and name use remain separate.",
+          "source": "https://www.laneslexicon.com/word/%D8%B3%D9%84%D8%A7%D9%85/n20546",
+          "status": "lexical_source_checked"
+        },
+        {
+          "claim": "Personal-name usage and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
+      ],
+      "claim_evidence_status": "PARTIAL_SOURCE_CHECKED; REVIEW_OPEN"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Reviewed incomplete prefixes and compound-name components; corrected the شكور/كريم conflation; retained manual source and translation checks.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -349,7 +371,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abdulsalam",
-          "description": "Abdulsalam — an Arabic-origin given name meaning Servant of Peace",
+          "description": "Abdulsalam — Abdulsalam is an Arabic-origin name meaning “Servant of Peace”.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -363,7 +385,7 @@
               "name": "What does Abdulsalam mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdulsalam is an Arabic-origin name meaning “Servant of Peace”."
+                "text": "The compound is commonly interpreted as servant of al-Salām; the precise nuance includes peace/safety and needs contextual review."
               }
             },
             {
@@ -371,7 +393,7 @@
               "name": "What is the origin of Abdulsalam?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdulsalam originates in Arabic and circulates in Muslim naming communities."
+                "text": "The recorded compound is Arabic-script عبد السلام."
               }
             },
             {
@@ -379,7 +401,7 @@
               "name": "Is Abdulsalam an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عَبْدُ السَّلَام is Arabic."
+                "text": "The compound combines عبد and السلام."
               }
             },
             {
@@ -387,7 +409,7 @@
               "name": "What is the root of Abdulsalam?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "سلام has lexical senses including safety/security/peace."
               }
             },
             {
@@ -395,7 +417,7 @@
               "name": "Is Abdulsalam an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdulsalam is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "Religious wording does not itself constitute a naming recommendation."
               }
             },
             {
@@ -403,7 +425,7 @@
               "name": "Is Abdulsalam a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdulsalam is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish Abdulsalam as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -411,7 +433,7 @@
               "name": "What does Abdulsalam mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عبدالسلام and carries the sense “عبدالسلام، سلام کا بندہ”."
+                "text": "The Urdu translation is plausible but needs fluent review."
               }
             },
             {
@@ -419,7 +441,7 @@
               "name": "How is Abdulsalam pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “ab-dul-sa-lam”."
+                "text": "Pronunciation varies by region."
               }
             },
             {
@@ -427,7 +449,7 @@
               "name": "Is Abdulsalam a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abdulsalam as a boy's name; actual use can vary by community."
+                "text": "The record classifies it as male; regional frequency data has not been supplied."
               }
             }
           ]
@@ -458,11 +480,15 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "compound_divine_epithet_needs_source",
+        "regional_usage_unverified",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; source/name-use/translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,

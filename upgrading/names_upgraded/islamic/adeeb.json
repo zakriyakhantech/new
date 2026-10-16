@@ -21,7 +21,7 @@
     },
     "core_meaning": {
       "short_meaning": "Well-mannered, cultured, learned",
-      "primary_meaning": "Adeeb is an Arabic-origin name meaning “Well-mannered, cultured, learned”.",
+      "primary_meaning": "Adeeb corresponds to Arabic أديب (adīb), meaning a cultured/literary person or someone refined and well-mannered; it is related to أدب (“refinement, literature, manners”).",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
       "meaning_explanation": "Adeeb corresponds to the Arabic form أديب (أ د ب). Its core sense is intelligent, knowledgeable, well-mannered. Adīb ('well-mannered, cultured, learned'), from أدب ('refinement, literature'). The source record's form ادب is the noun rather than the adjective.",
       "meaning_confidence": "HIGH"
@@ -30,9 +30,9 @@
       "primary_language": "Arabic",
       "lexical_form": "أديب",
       "transliteration": "adeeb",
-      "root": "",
-      "root_transliteration": "",
-      "morphology": "Simple lexical item used as a name.",
+      "root": "أ د ب",
+      "root_transliteration": "ʾ-d-b",
+      "morphology": "Adjective/noun describing a cultured or literary person; distinct from the noun أدب.",
       "feminine_form": null,
       "etymological_meaning": "The Arabic word أديب",
       "root_family": [],
@@ -325,24 +325,38 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "direct_arabic_dictionary_source_needed",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 151,
-      "quality_score": 90,
+      "quality_score": 78,
       "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
     },
     "evidence": {
-      "sources": [
-        "The recorded Arabic form أديب carries the sense “Well-mannered, cultured, learned”."
+      "sources": [],
+      "verification_method": "Direct lexical/cultural sources were not checked in this pass; meaning and name-use claims remain provisional until sourced.",
+      "claim_evidence": [
+        {
+          "claim": "Exact lexical/cultural claim",
+          "source": null,
+          "status": "direct_source_needed; claim_provisional"
+        },
+        {
+          "claim": "Personal-name usage and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "DIRECT_SOURCE_NEEDED; CLAIMS_PROVISIONAL"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Corrected unsupported compound meanings, native-form mismatches, Arabic form distinctions, and corrupted translations; unresolved claims are explicitly flagged.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -350,7 +364,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Adeeb",
-          "description": "Adeeb — an Arabic-origin given name meaning Well-mannered, cultured, learned",
+          "description": "Adeeb — Adeeb corresponds to Arabic أديب (adīb), meaning a cultured/literary person or someone refined and well-mannered; it is related to أدب (“refinement, literature, manners”).",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -459,11 +473,14 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "direct_arabic_dictionary_source_needed",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; direct source and translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,

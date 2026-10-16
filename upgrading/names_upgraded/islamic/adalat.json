@@ -252,39 +252,39 @@
     "faq": [
       {
         "q": "What does Adalat mean?",
-        "a": "Adalat is an Arabic-origin name meaning “Justice”."
+        "a": "The record maps عدالة to justice/fairness; a direct dictionary source and personal-name usage evidence are still needed."
       },
       {
         "q": "What is the origin of Adalat?",
-        "a": "Adalat originates in Arabic and circulates in Muslim naming communities."
+        "a": "The recorded form is Arabic عدالة; name-use claims need separate evidence."
       },
       {
         "q": "Is Adalat an Arabic name?",
-        "a": "Yes, the recorded form عدالة is Arabic."
+        "a": "The lexical form is Arabic; modern given-name frequency is unverified."
       },
       {
         "q": "What is the root of Adalat?",
-        "a": "It is built on the root ع د ل (ʿ-d-l)."
+        "a": "The record associates the form with root ع د ل; direct lexicon confirmation is pending."
       },
       {
         "q": "Is Adalat an Islamic name?",
-        "a": "Adalat is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "Arabic lexical meaning does not establish a naming recommendation."
       },
       {
         "q": "Is Adalat a Quranic name?",
-        "a": "Adalat is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish the name as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Adalat mean in Urdu?",
-        "a": "In Urdu it is written عدالت and carries the sense “عدل، انصاف”."
+        "a": "The Urdu/Persian/Hindi/Pashto translations are plausible but need fluent review."
       },
       {
         "q": "How is Adalat pronounced?",
-        "a": "A romanized syllable approximation is “a-da-lat”."
+        "a": "Pronunciation is approximate and transliteration-dependent."
       },
       {
         "q": "Is Adalat a boy's or girl's name?",
-        "a": "Documented usage records Adalat as a girl's name; actual use can vary by community."
+        "a": "Modern personal-name gender/frequency claims require independent evidence."
       }
     ],
     "seo": {
@@ -324,24 +324,39 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "direct_lexical_source_needed",
+        "personal_name_usage_unverified",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 148,
-      "quality_score": 95,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root present; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 72,
+      "quality_score_basis": "Provisional editorial score only; exact form, etymology, and translations require direct sources."
     },
     "evidence": {
-      "sources": [
-        "The recorded Arabic form عدالة (abstract noun of عَدْل, root ع د ل) carries the sense “Justice”."
+      "sources": [],
+      "verification_method": "No direct dictionary or specialist etymology source was checked for the exact form in this pass; claims remain provisional until sourced.",
+      "claim_evidence": [
+        {
+          "claim": "The form عدالة is recorded as the Arabic abstract noun for justice/fairness, but no direct lexical source was checked in this pass.",
+          "source": null,
+          "status": "direct_source_needed; claim_provisional"
+        },
+        {
+          "claim": "Personal-name usage, frequency, and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "DIRECT_SOURCE_NEEDED; CLAIMS_PROVISIONAL"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8.2 (one-by-one HIGH curation)",
-      "methodology": "Single-name deep curation -> root verification -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Removed corrupted placeholders and unsupported meanings, distinguished place/personal/ritual forms, and separated regional forms from native orthography.",
       "upgraded_from": "v8",
-      "processed_at": "2026-10-09T04:29:41Z"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -349,7 +364,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Adalat",
-          "description": "Adalat — an Arabic-origin given name meaning Justice",
+          "description": "Adalat — Adalat is an Arabic-origin name meaning “Justice”.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -363,7 +378,7 @@
               "name": "What does Adalat mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Adalat is an Arabic-origin name meaning “Justice”."
+                "text": "The record maps عدالة to justice/fairness; a direct dictionary source and personal-name usage evidence are still needed."
               }
             },
             {
@@ -371,7 +386,7 @@
               "name": "What is the origin of Adalat?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Adalat originates in Arabic and circulates in Muslim naming communities."
+                "text": "The recorded form is Arabic عدالة; name-use claims need separate evidence."
               }
             },
             {
@@ -379,7 +394,7 @@
               "name": "Is Adalat an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عدالة is Arabic."
+                "text": "The lexical form is Arabic; modern given-name frequency is unverified."
               }
             },
             {
@@ -387,7 +402,7 @@
               "name": "What is the root of Adalat?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "It is built on the root ع د ل (ʿ-d-l)."
+                "text": "The record associates the form with root ع د ل; direct lexicon confirmation is pending."
               }
             },
             {
@@ -395,7 +410,7 @@
               "name": "Is Adalat an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Adalat is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "Arabic lexical meaning does not establish a naming recommendation."
               }
             },
             {
@@ -403,7 +418,7 @@
               "name": "Is Adalat a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Adalat is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish the name as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -411,7 +426,7 @@
               "name": "What does Adalat mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عدالت and carries the sense “عدل، انصاف”."
+                "text": "The Urdu/Persian/Hindi/Pashto translations are plausible but need fluent review."
               }
             },
             {
@@ -419,7 +434,7 @@
               "name": "How is Adalat pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “a-da-lat”."
+                "text": "Pronunciation is approximate and transliteration-dependent."
               }
             },
             {
@@ -427,7 +442,7 @@
               "name": "Is Adalat a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Adalat as a girl's name; actual use can vary by community."
+                "text": "Modern personal-name gender/frequency claims require independent evidence."
               }
             }
           ]
@@ -458,11 +473,15 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse one-by-one HIGH curation",
-      "reviewed_at": "2026-10-09T04:29:41Z"
+      "needs_manual_verification": true,
+      "flags": [
+        "direct_lexical_source_needed",
+        "personal_name_usage_unverified",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; exact form and etymology source pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,

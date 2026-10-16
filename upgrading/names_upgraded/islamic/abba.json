@@ -253,39 +253,39 @@
     "faq": [
       {
         "q": "What does Abba mean?",
-        "a": "Abba is a Hausa-origin name meaning “Father (Hausa)”."
+        "a": "The record glosses Hausa Abba as “father,” but a direct Hausa dictionary source was not checked in this pass."
       },
       {
         "q": "What is the origin of Abba?",
-        "a": "Abba originates in Hausa and circulates in Muslim naming communities."
+        "a": "The record identifies Hausa as the source language; this remains provisional until sourced."
       },
       {
         "q": "Is Abba an Arabic name?",
-        "a": "No — the recorded form أَبَّا is Hausa, not Arabic."
+        "a": "This record is presented as Hausa rather than Arabic; exact linguistic sourcing is pending."
       },
       {
         "q": "What is the root of Abba?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "No Arabic root is assigned."
       },
       {
         "q": "Is Abba an Islamic name?",
-        "a": "Abba is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "Cultural or religious use requires separate evidence."
       },
       {
         "q": "Is Abba a Quranic name?",
-        "a": "Abba is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish Abba as a Qur'anic personal name."
       },
       {
         "q": "What does Abba mean in Urdu?",
-        "a": "In Urdu it is written ابا and carries the sense “ابا، والد”."
+        "a": "Urdu rendering is approximate and needs review."
       },
       {
         "q": "How is Abba pronounced?",
-        "a": "A romanized syllable approximation is “ab-ba”."
+        "a": "“Ab-ba” is approximate; Hausa pronunciation should be checked by a fluent speaker."
       },
       {
         "q": "Is Abba a boy's or girl's name?",
-        "a": "Documented usage records Abba as a boy's name; actual use can vary by community."
+        "a": "Modern usage and gender frequency need independent evidence."
       }
     ],
     "seo": {
@@ -325,24 +325,39 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "hausa_dictionary_source_needed",
+        "personal_name_frequency_not_verified",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 151,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 80,
+      "quality_score_basis": "Provisional editorial score only; source support for lexical claims does not certify name use, popularity, religious status, or native translation quality."
     },
     "evidence": {
-      "sources": [
-        "The recorded Hausa form أَبَّا carries the sense “Father (Hausa)”."
+      "sources": [],
+      "verification_method": "Checked only the listed lexical/reference sources. Claims without direct evidence remain provisional; modern name use and translation fluency require separate review.",
+      "claim_evidence": [
+        {
+          "claim": "The Hausa gloss “father” was not independently source-checked in this pass; retain provisionally, not as verified.",
+          "source": null,
+          "status": "no_direct_source_checked; claims_not_verified"
+        },
+        {
+          "claim": "Personal-name usage, frequency, and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "NO_DIRECT_SOURCE_CHECKED; CLAIMS_UNVERIFIED"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Checked direct lexical/reference sources where listed; corrected contradictory glosses and translation errors; separated lexical meaning from personal-name usage.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -350,7 +365,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abba",
-          "description": "Abba — a Hausa-origin given name meaning Father (Hausa)",
+          "description": "Abba — Abba is a Hausa-origin name meaning “Father (Hausa)”.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -364,7 +379,7 @@
               "name": "What does Abba mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abba is a Hausa-origin name meaning “Father (Hausa)”."
+                "text": "The record glosses Hausa Abba as “father,” but a direct Hausa dictionary source was not checked in this pass."
               }
             },
             {
@@ -372,7 +387,7 @@
               "name": "What is the origin of Abba?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abba originates in Hausa and circulates in Muslim naming communities."
+                "text": "The record identifies Hausa as the source language; this remains provisional until sourced."
               }
             },
             {
@@ -380,7 +395,7 @@
               "name": "Is Abba an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No — the recorded form أَبَّا is Hausa, not Arabic."
+                "text": "This record is presented as Hausa rather than Arabic; exact linguistic sourcing is pending."
               }
             },
             {
@@ -388,7 +403,7 @@
               "name": "What is the root of Abba?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "No Arabic root is assigned."
               }
             },
             {
@@ -396,7 +411,7 @@
               "name": "Is Abba an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abba is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "Cultural or religious use requires separate evidence."
               }
             },
             {
@@ -404,7 +419,7 @@
               "name": "Is Abba a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abba is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish Abba as a Qur'anic personal name."
               }
             },
             {
@@ -412,7 +427,7 @@
               "name": "What does Abba mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written ابا and carries the sense “ابا، والد”."
+                "text": "Urdu rendering is approximate and needs review."
               }
             },
             {
@@ -420,7 +435,7 @@
               "name": "How is Abba pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “ab-ba”."
+                "text": "“Ab-ba” is approximate; Hausa pronunciation should be checked by a fluent speaker."
               }
             },
             {
@@ -428,7 +443,7 @@
               "name": "Is Abba a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abba as a boy's name; actual use can vary by community."
+                "text": "Modern usage and gender frequency need independent evidence."
               }
             }
           ]
@@ -459,11 +474,15 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "hausa_dictionary_source_needed",
+        "personal_name_frequency_not_verified",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; manual name-use/translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,

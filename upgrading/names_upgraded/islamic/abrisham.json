@@ -21,9 +21,9 @@
     },
     "core_meaning": {
       "short_meaning": "Silk",
-      "primary_meaning": "Abrisham is a Persian-origin name meaning “Silk”.",
+      "primary_meaning": "Abrisham corresponds to Persian ابریشم, “silk”; the word is Persian, not Arabic, and its use as a personal name is not verified.",
       "literal_meaning": "The name is the Persian word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "No verified lexical identification was established for Abrisham. ابریشم is a Persian word meaning 'silk'. It is not an Arabic name, and its use as a personal name is not verified. The source record's gloss 'Father of wisdom' is unsupported. No meaning is asserted, because asserting one would require inventing evidence.",
+      "meaning_explanation": "The record correctly notes the Persian word ابریشم means silk and that personal-name use is not verified, but most translation fields still say “Not objectively established.” Those locale fields are aligned with the known lexical sense while keeping the name-use claim provisional.",
       "meaning_confidence": "LOW"
     },
     "etymology": {
@@ -154,39 +154,39 @@
       "english": {
         "name": "Abrisham",
         "script": "Abrisham",
-        "meaning": "Silk",
-        "long_meaning": "Abrisham is a Persian-origin given name; in Persian the word means “Silk”."
+        "meaning": "Silk (Persian lexical word; personal-name use unverified)",
+        "long_meaning": "The lexical word is Persian ابریشم (“silk”); whether Abrisham is used as a personal name remains unverified."
       },
       "urdu": {
         "name": "ابریشم",
         "script": "ابریشم",
-        "meaning": "Not objectively established",
-        "long_meaning": "Not objectively established"
+        "meaning": "ریشم",
+        "long_meaning": "The lexical word is Persian ابریشم (“silk”); whether Abrisham is used as a personal name remains unverified."
       },
       "persian": {
         "name": "ابریشم",
         "script": "ابریشم",
-        "meaning": "Not objectively established",
-        "long_meaning": "Not objectively established"
+        "meaning": "ابریشم، ریشم",
+        "long_meaning": "The lexical word is Persian ابریشم (“silk”); whether Abrisham is used as a personal name remains unverified."
       },
       "hindi": {
         "name": "अब्रिशम",
         "script": "अब्रिशम",
-        "meaning": "Not objectively established",
-        "long_meaning": "Not objectively established"
+        "meaning": "रेशम",
+        "long_meaning": "The lexical word is Persian ابریشم (“silk”); whether Abrisham is used as a personal name remains unverified."
       },
       "pashto": {
         "name": "ابریشم",
         "script": "ابریشم",
-        "meaning": "Not objectively established",
-        "long_meaning": "Not objectively established",
+        "meaning": "وریښم",
+        "long_meaning": "The lexical word is Persian ابریشم (“silk”); whether Abrisham is used as a personal name remains unverified.",
         "native_review_required": true
       },
       "arabic": {
         "name": "ابریشم",
         "script": "ابریشم",
-        "meaning": "Not objectively established",
-        "long_meaning": "Not objectively established",
+        "meaning": "حرير",
+        "long_meaning": "The lexical word is Persian ابریشم (“silk”); whether Abrisham is used as a personal name remains unverified.",
         "native_review_required": true
       }
     },
@@ -251,39 +251,39 @@
     "faq": [
       {
         "q": "What does Abrisham mean?",
-        "a": "Abrisham is a Persian-origin name meaning “Silk”."
+        "a": "Persian ابریشم means “silk”; personal-name usage is not verified."
       },
       {
         "q": "What is the origin of Abrisham?",
-        "a": "Abrisham originates in Persian and circulates in Muslim naming communities."
+        "a": "The word is Persian, not Arabic."
       },
       {
         "q": "Is Abrisham an Arabic name?",
-        "a": "No — the recorded form ابریشم is Persian, not Arabic."
+        "a": "No. Abrisham is recorded as Persian ابریشم."
       },
       {
         "q": "What is the root of Abrisham?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "No Arabic root is assigned; this is a Persian word."
       },
       {
         "q": "Is Abrisham an Islamic name?",
-        "a": "Abrisham is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "Specific religious status is not established by the lexical word."
       },
       {
         "q": "Is Abrisham a Quranic name?",
-        "a": "Abrisham is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish Abrisham as a Qur'anic personal name."
       },
       {
         "q": "What does Abrisham mean in Urdu?",
-        "a": "In Urdu it is written ابریشم and carries the sense “Not objectively established”."
+        "a": "A cautious Urdu translation is “ریشم.”"
       },
       {
         "q": "How is Abrisham pronounced?",
-        "a": "A romanized syllable approximation is “ab-ris-ham”."
+        "a": "Pronunciation is approximate and should be checked by a Persian speaker."
       },
       {
         "q": "Is Abrisham a boy's or girl's name?",
-        "a": "Documented usage records Abrisham as not gender-specific name; actual use can vary by community."
+        "a": "Personal-name gender distribution is unverified."
       }
     ],
     "seo": {
@@ -323,24 +323,39 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "translation_fields_aligned_with_persian_lexical_meaning",
+        "personal_name_usage_unverified",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 141,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 75,
+      "quality_score_basis": "Provisional editorial score only; historical/etymological claims and translations need direct sources."
     },
     "evidence": {
-      "sources": [
-        "The recorded Persian form ابریشم carries the sense “Silk”."
+      "sources": [],
+      "verification_method": "No direct source for the exact etymology/historical claim was checked in this pass; unsupported meanings are removed or retained only provisionally.",
+      "claim_evidence": [
+        {
+          "claim": "The record itself identifies Persian ابریشم as “silk”; a direct Persian dictionary source is still needed.",
+          "source": null,
+          "status": "direct_source_needed; claim_provisional"
+        },
+        {
+          "claim": "Historical bearer, name usage, and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "DIRECT_SOURCE_NEEDED; ETYMOLOGY_AND_TRANSLATIONS_PENDING"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Corrected historical-event/etymology conflation, Hebrew/Arabic form mismatches, folk glosses, and plural-word meanings; retained uncertainty where direct sources are missing.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -348,7 +363,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abrisham",
-          "description": "Abrisham — a Persian-origin given name meaning Silk",
+          "description": "Abrisham — Abrisham corresponds to Persian ابریشم, “silk”; the word is Persian, not Arabic, and its use as a personal name is not verified.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -362,7 +377,7 @@
               "name": "What does Abrisham mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abrisham is a Persian-origin name meaning “Silk”."
+                "text": "Persian ابریشم means “silk”; personal-name usage is not verified."
               }
             },
             {
@@ -370,7 +385,7 @@
               "name": "What is the origin of Abrisham?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abrisham originates in Persian and circulates in Muslim naming communities."
+                "text": "The word is Persian, not Arabic."
               }
             },
             {
@@ -378,7 +393,7 @@
               "name": "Is Abrisham an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No — the recorded form ابریشم is Persian, not Arabic."
+                "text": "No. Abrisham is recorded as Persian ابریشم."
               }
             },
             {
@@ -386,7 +401,7 @@
               "name": "What is the root of Abrisham?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "No Arabic root is assigned; this is a Persian word."
               }
             },
             {
@@ -394,7 +409,7 @@
               "name": "Is Abrisham an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abrisham is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "Specific religious status is not established by the lexical word."
               }
             },
             {
@@ -402,7 +417,7 @@
               "name": "Is Abrisham a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abrisham is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish Abrisham as a Qur'anic personal name."
               }
             },
             {
@@ -410,7 +425,7 @@
               "name": "What does Abrisham mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written ابریشم and carries the sense “Not objectively established”."
+                "text": "A cautious Urdu translation is “ریشم.”"
               }
             },
             {
@@ -418,7 +433,7 @@
               "name": "How is Abrisham pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “ab-ris-ham”."
+                "text": "Pronunciation is approximate and should be checked by a Persian speaker."
               }
             },
             {
@@ -426,7 +441,7 @@
               "name": "Is Abrisham a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abrisham as not gender-specific name; actual use can vary by community."
+                "text": "Personal-name gender distribution is unverified."
               }
             }
           ]
@@ -458,10 +473,14 @@
     },
     "editorial_validation": {
       "needs_manual_verification": true,
-      "flags": [],
+      "flags": [
+        "translation_fields_aligned_with_persian_lexical_meaning",
+        "personal_name_usage_unverified",
+        "translation_review_required"
+      ],
       "confidence": "LOW",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "reviewed_by": "NameVerse evidence-led review; direct etymology/historical sources pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,

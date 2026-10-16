@@ -23,7 +23,7 @@
       "short_meaning": "Arabic kunya/name form literally structured as 'father of ease'; distinguish kunya from a given name.",
       "primary_meaning": "Abul Yusr (أبو اليسر) is recorded as an Arabic historical personal-name form. Arabic kunya/name form literally structured as 'father of ease'; distinguish kunya from a given name.",
       "literal_meaning": "Arabic kunya/name form literally structured as 'father of ease'; distinguish kunya from a given name.",
-      "meaning_explanation": "Arabic kunya/name form literally structured as 'father of ease'; distinguish kunya from a given name. Exact lexical and historical claims require specialist-source confirmation.",
+      "meaning_explanation": "This is recorded as an Arabic kunya/historical name form. The existing Sunnah search URL is a search page, not a direct biography; the exact historical bearer and context need a source tied to a specific person.",
       "meaning_confidence": "LOW"
     },
     "etymology": {
@@ -239,39 +239,39 @@
     "faq": [
       {
         "q": "What does Abul Yusr mean?",
-        "a": "Abul Yusr (أبو اليسر) is recorded as an Arabic historical personal-name form. Arabic kunya/name form literally structured as 'father of ease'; distinguish kunya from a given name."
+        "a": "This is recorded as an Arabic kunya/historical name form; exact etymology and identity need a direct source."
       },
       {
         "q": "What is the origin of Abul Yusr?",
-        "a": "The Arabic historical origin is a working classification requiring direct source review."
+        "a": "The form is Arabic, but the current search page is not a direct biography."
       },
       {
         "q": "How is Abul Yusr written in Arabic?",
-        "a": "Abul Yusr is written أبو اليسر in this draft."
+        "a": "The form is a kunya/name phrase, not a single lexical word meaning."
       },
       {
         "q": "Is Abul Yusr an Islamic name?",
-        "a": "It is treated as a historical Muslim-context name; that does not establish religious prescription."
+        "a": "No root is asserted without direct lexical evidence."
       },
       {
         "q": "Is Abul Yusr mentioned in the Qur'an?",
-        "a": "This record does not claim Qur'anic personal-name status."
+        "a": "Historical use does not itself establish a naming recommendation."
       },
       {
         "q": "What is the historical context of Abul Yusr?",
-        "a": "Abu al-Yusr Ka'b ibn Amr is documented in early Islamic history."
+        "a": "This record does not establish the name as an explicitly named Qur'anic personal name."
       },
       {
         "q": "How is Abul Yusr pronounced?",
-        "a": "The romanized form is approximate and needs regional pronunciation review."
+        "a": "The generic locale translations need context and native review."
       },
       {
         "q": "Is Abul Yusr popular today?",
-        "a": "Modern popularity has not been measured with verified registration data."
+        "a": "Pronunciation is approximate and transliteration-dependent."
       },
       {
         "q": "Are the meaning and translations fully verified?",
-        "a": "No. Dictionary evidence, source-level historical verification and native-language review remain necessary."
+        "a": "The male gender claim needs a direct historical source."
       }
     ],
     "seo": {
@@ -308,25 +308,40 @@
         "source_verification_required",
         "lexical_review_required",
         "native_translation_review_required",
-        "alias_scan_required"
+        "alias_scan_required",
+        "historical_bearer_claim_needs_direct_biography",
+        "kunya_vs_given_name_distinction",
+        "translation_review_required"
       ],
       "fabricated_content_removed": true,
       "fields_total": 153,
-      "quality_score": 70,
-      "quality_score_basis": "Research draft; source and translation checks remain incomplete."
+      "quality_score": 78,
+      "quality_score_basis": "Provisional editorial score only; source scope, personal-name usage, and native translations require separate review."
     },
     "evidence": {
       "sources": [
-        "https://sunnah.com/search?q=Abul%20Yusr",
-        "Research note: Abu al-Yusr Ka'b ibn Amr is documented in early Islamic history."
+        "https://sunnah.com/search?q=Abul%20Yusr"
       ],
-      "verification_method": "The search link is a lead, not proof; verify exact identity, dictionary meaning and citation before publication."
+      "verification_method": "Direct sources are listed where available. Search pages do not establish exact historical identity; dictionary meanings and personal-name usage are separate claims.",
+      "claim_evidence": [
+        {
+          "claim": "The current search page does not independently establish the exact historical bearer or the name's etymology.",
+          "source": "https://sunnah.com/search?q=Abul%20Yusr",
+          "status": "source_checked_with_scope_limit"
+        },
+        {
+          "claim": "Personal-name use, regional frequency, and all translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
+      ],
+      "claim_evidence_status": "SOURCE_CHECKED_WITH_SCOPE_LIMIT; NAME_USE_REVIEW_OPEN"
     },
     "provenance": {
-      "pipeline": "NameVerse v9 research draft",
-      "methodology": "Conservative historical-name draft; direct source verification pending",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Corrected construct/kunya distinctions, nisba and comparative forms, translation mismatches, and native-script representation; kept source scope explicit.",
       "upgraded_from": "super-2.0 template",
-      "processed_at": "2026-10-14T00:00:00+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -334,7 +349,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abul Yusr",
-          "description": "Abul Yusr (أبو اليسر) — historical Arabic personal-name form",
+          "description": "Abul Yusr — Abul Yusr (أبو اليسر) is recorded as an Arabic historical personal-name form. Arabic kunya/name form literally structured as 'father of ease'; distinguish kunya from a given name.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -348,7 +363,7 @@
               "name": "What does Abul Yusr mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abul Yusr (أبو اليسر) is recorded as an Arabic historical personal-name form. Arabic kunya/name form literally structured as 'father of ease'; distinguish kunya from a given name."
+                "text": "This is recorded as an Arabic kunya/historical name form; exact etymology and identity need a direct source."
               }
             },
             {
@@ -356,7 +371,7 @@
               "name": "What is the origin of Abul Yusr?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "The Arabic historical origin is a working classification requiring direct source review."
+                "text": "The form is Arabic, but the current search page is not a direct biography."
               }
             },
             {
@@ -364,7 +379,7 @@
               "name": "How is Abul Yusr written in Arabic?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abul Yusr is written أبو اليسر in this draft."
+                "text": "The form is a kunya/name phrase, not a single lexical word meaning."
               }
             },
             {
@@ -372,7 +387,7 @@
               "name": "Is Abul Yusr an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "It is treated as a historical Muslim-context name; that does not establish religious prescription."
+                "text": "No root is asserted without direct lexical evidence."
               }
             },
             {
@@ -380,7 +395,7 @@
               "name": "Is Abul Yusr mentioned in the Qur'an?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "This record does not claim Qur'anic personal-name status."
+                "text": "Historical use does not itself establish a naming recommendation."
               }
             },
             {
@@ -388,7 +403,7 @@
               "name": "What is the historical context of Abul Yusr?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abu al-Yusr Ka'b ibn Amr is documented in early Islamic history."
+                "text": "This record does not establish the name as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -396,7 +411,7 @@
               "name": "How is Abul Yusr pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "The romanized form is approximate and needs regional pronunciation review."
+                "text": "The generic locale translations need context and native review."
               }
             },
             {
@@ -404,7 +419,7 @@
               "name": "Is Abul Yusr popular today?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Modern popularity has not been measured with verified registration data."
+                "text": "Pronunciation is approximate and transliteration-dependent."
               }
             },
             {
@@ -412,7 +427,7 @@
               "name": "Are the meaning and translations fully verified?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No. Dictionary evidence, source-level historical verification and native-language review remain necessary."
+                "text": "The male gender claim needs a direct historical source."
               }
             }
           ]
@@ -448,11 +463,14 @@
         "source_verification",
         "dictionary_etymology",
         "native_translation",
-        "alias_scan"
+        "alias_scan",
+        "historical_bearer_claim_needs_direct_biography",
+        "kunya_vs_given_name_distinction",
+        "translation_review_required"
       ],
       "confidence": "LOW",
-      "reviewed_by": "Automated draft; editorial review pending",
-      "reviewed_at": "2026-10-14T00:00:00+00:00"
+      "reviewed_by": "NameVerse evidence-led review; source scope/name-use/translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": false,

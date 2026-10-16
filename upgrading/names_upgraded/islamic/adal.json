@@ -251,39 +251,39 @@
     "faq": [
       {
         "q": "What does Adal mean?",
-        "a": "Adal is an Arabic-origin name meaning “Justice, equity”."
+        "a": "عدل means justice/equity as a lexical noun; personal-name usage is a separate claim."
       },
       {
         "q": "What is the origin of Adal?",
-        "a": "Adal originates in Arabic and circulates in Muslim naming communities."
+        "a": "The recorded form is Arabic عدل."
       },
       {
         "q": "Is Adal an Arabic name?",
-        "a": "Yes, the recorded form عدل is Arabic."
+        "a": "The lexical form is Arabic; modern name use is not established by the dictionary alone."
       },
       {
         "q": "What is the root of Adal?",
-        "a": "It is built on the root ع د ل (ʿ-d-l)."
+        "a": "The record associates the form with root ع د ل."
       },
       {
         "q": "Is Adal an Islamic name?",
-        "a": "Adal is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "Arabic origin does not establish a naming recommendation."
       },
       {
         "q": "Is Adal a Quranic name?",
-        "a": "Adal is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish Adal as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Adal mean in Urdu?",
-        "a": "In Urdu it is written عدل and carries the sense “عدل، انصاف”."
+        "a": "A cautious Urdu gloss is “عدل، انصاف.”"
       },
       {
         "q": "How is Adal pronounced?",
-        "a": "A romanized syllable approximation is “a-dal”."
+        "a": "Pronunciation is approximate and transliteration-dependent."
       },
       {
         "q": "Is Adal a boy's or girl's name?",
-        "a": "Documented usage records Adal as a unisex name; actual use can vary by community."
+        "a": "Modern personal-name gender distribution needs independent evidence."
       }
     ],
     "seo": {
@@ -323,24 +323,38 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "personal_name_frequency_not_verified",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 147,
-      "quality_score": 95,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root present; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 78,
+      "quality_score_basis": "Provisional editorial score only; source scope, personal-name usage, and native translations require separate review."
     },
     "evidence": {
-      "sources": [
-        "The recorded Arabic form عدل (verbal noun of عَدَلَ, root ع د ل) carries the sense “Justice, equity”."
+      "sources": [],
+      "verification_method": "Direct sources are listed where available. Search pages do not establish exact historical identity; dictionary meanings and personal-name usage are separate claims.",
+      "claim_evidence": [
+        {
+          "claim": "The recorded form عدل has a justice/equity lexical gloss; personal-name usage and locale translations need separate review.",
+          "source": null,
+          "status": "no_direct_source_checked; claim_provisional"
+        },
+        {
+          "claim": "Personal-name use, regional frequency, and all translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "DIRECT_LEXICAL_SOURCE_NEEDED; CLAIMS_PROVISIONAL"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8.2 (one-by-one HIGH curation)",
-      "methodology": "Single-name deep curation -> root verification -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Corrected construct/kunya distinctions, nisba and comparative forms, translation mismatches, and native-script representation; kept source scope explicit.",
       "upgraded_from": "v8",
-      "processed_at": "2026-10-09T04:29:41Z"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -348,7 +362,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Adal",
-          "description": "Adal — an Arabic-origin given name meaning Justice, equity",
+          "description": "Adal — Adal is an Arabic-origin name meaning “Justice, equity”.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -362,7 +376,7 @@
               "name": "What does Adal mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Adal is an Arabic-origin name meaning “Justice, equity”."
+                "text": "عدل means justice/equity as a lexical noun; personal-name usage is a separate claim."
               }
             },
             {
@@ -370,7 +384,7 @@
               "name": "What is the origin of Adal?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Adal originates in Arabic and circulates in Muslim naming communities."
+                "text": "The recorded form is Arabic عدل."
               }
             },
             {
@@ -378,7 +392,7 @@
               "name": "Is Adal an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عدل is Arabic."
+                "text": "The lexical form is Arabic; modern name use is not established by the dictionary alone."
               }
             },
             {
@@ -386,7 +400,7 @@
               "name": "What is the root of Adal?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "It is built on the root ع د ل (ʿ-d-l)."
+                "text": "The record associates the form with root ع د ل."
               }
             },
             {
@@ -394,7 +408,7 @@
               "name": "Is Adal an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Adal is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "Arabic origin does not establish a naming recommendation."
               }
             },
             {
@@ -402,7 +416,7 @@
               "name": "Is Adal a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Adal is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish Adal as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -410,7 +424,7 @@
               "name": "What does Adal mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عدل and carries the sense “عدل، انصاف”."
+                "text": "A cautious Urdu gloss is “عدل، انصاف.”"
               }
             },
             {
@@ -418,7 +432,7 @@
               "name": "How is Adal pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “a-dal”."
+                "text": "Pronunciation is approximate and transliteration-dependent."
               }
             },
             {
@@ -426,7 +440,7 @@
               "name": "Is Adal a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Adal as a unisex name; actual use can vary by community."
+                "text": "Modern personal-name gender distribution needs independent evidence."
               }
             }
           ]
@@ -457,11 +471,14 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse one-by-one HIGH curation",
-      "reviewed_at": "2026-10-09T04:29:41Z"
+      "needs_manual_verification": true,
+      "flags": [
+        "personal_name_frequency_not_verified",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; source scope/name-use/translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,

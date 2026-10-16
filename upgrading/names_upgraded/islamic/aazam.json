@@ -257,35 +257,35 @@
       },
       {
         "q": "What is the origin of Aazam?",
-        "a": "Aazam originates in Arabic and circulates in Muslim naming communities."
+        "a": "The record's source-language match is plausible but needs a direct dictionary source."
       },
       {
         "q": "Is Aazam an Arabic name?",
-        "a": "Yes, the recorded form أعظم is Arabic."
+        "a": "The recorded script form is presented as أعظم; name-use evidence is separate."
       },
       {
         "q": "What is the root of Aazam?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "A direct source for the exact lexical form is still needed."
       },
       {
         "q": "Is Aazam an Islamic name?",
-        "a": "Aazam is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "Origin alone does not establish specific religious status."
       },
       {
         "q": "Is Aazam a Quranic name?",
-        "a": "Aazam is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish the name as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Aazam mean in Urdu?",
-        "a": "In Urdu it is written اعظم and carries the sense “عظیم، بلند، بزرگ”."
+        "a": "The Urdu rendering needs fluent review."
       },
       {
         "q": "How is Aazam pronounced?",
-        "a": "A romanized syllable approximation is “aa-zam”."
+        "a": "Pronunciation is approximate and transliteration-dependent."
       },
       {
         "q": "Is Aazam a boy's or girl's name?",
-        "a": "Documented usage records Aazam as a boy's name; actual use can vary by community."
+        "a": "Modern regional gender/frequency data is not independently verified."
       }
     ],
     "seo": {
@@ -325,24 +325,39 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "direct_dictionary_source_needed",
+        "personal_name_frequency_not_verified",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 151,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 80,
+      "quality_score_basis": "Provisional editorial score only; name-use, frequency, religious status, and native translation quality remain separate verification tasks."
     },
     "evidence": {
-      "sources": [
-        "The recorded Arabic form أعظم carries the sense “Great”."
+      "sources": [],
+      "verification_method": "Checked only the listed sources. Uncited or unsupported claims remain provisional; name-use, frequency, religious status, and translation quality require separate evidence.",
+      "claim_evidence": [
+        {
+          "claim": "The existing lexical gloss was not directly source-checked in this pass; retain provisionally, not as verified.",
+          "source": null,
+          "status": "no_direct_source_checked; claims_not_verified"
+        },
+        {
+          "claim": "Personal-name usage, frequency, and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "NO_DIRECT_SOURCE_CHECKED; CLAIMS_UNVERIFIED"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Checked listed lexical/reference sources; corrected form mismatches and conflicting translations; separated lexical meaning from name-use claims.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -350,7 +365,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Aazam",
-          "description": "Aazam — an Arabic-origin given name meaning Great",
+          "description": "Aazam — Aazam is an Arabic-origin name meaning “Great”.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -372,7 +387,7 @@
               "name": "What is the origin of Aazam?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Aazam originates in Arabic and circulates in Muslim naming communities."
+                "text": "The record's source-language match is plausible but needs a direct dictionary source."
               }
             },
             {
@@ -380,7 +395,7 @@
               "name": "Is Aazam an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form أعظم is Arabic."
+                "text": "The recorded script form is presented as أعظم; name-use evidence is separate."
               }
             },
             {
@@ -388,7 +403,7 @@
               "name": "What is the root of Aazam?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "A direct source for the exact lexical form is still needed."
               }
             },
             {
@@ -396,7 +411,7 @@
               "name": "Is Aazam an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Aazam is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "Origin alone does not establish specific religious status."
               }
             },
             {
@@ -404,7 +419,7 @@
               "name": "Is Aazam a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Aazam is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish the name as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -412,7 +427,7 @@
               "name": "What does Aazam mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written اعظم and carries the sense “عظیم، بلند، بزرگ”."
+                "text": "The Urdu rendering needs fluent review."
               }
             },
             {
@@ -420,7 +435,7 @@
               "name": "How is Aazam pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “aa-zam”."
+                "text": "Pronunciation is approximate and transliteration-dependent."
               }
             },
             {
@@ -428,7 +443,7 @@
               "name": "Is Aazam a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Aazam as a boy's name; actual use can vary by community."
+                "text": "Modern regional gender/frequency data is not independently verified."
               }
             }
           ]
@@ -459,11 +474,15 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "direct_dictionary_source_needed",
+        "personal_name_frequency_not_verified",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; name-use/translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,

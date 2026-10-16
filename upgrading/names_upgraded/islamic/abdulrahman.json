@@ -207,7 +207,9 @@
     },
     "name_variants": {
       "romanized_variants": [
-        "Abdulrahman"
+        "Abdulrahman",
+        "abderrahman",
+        "abdirahman"
       ],
       "script_forms": [
         "عبدالرحمن",
@@ -215,8 +217,11 @@
         "عَبْدُ الرَّحْمَن",
         "अब्दुर्रहमान"
       ],
-      "variant_notes": "Spelling variants reflect different transliteration conventions, not different names.",
-      "do_not_merge_with": []
+      "variant_notes": "Abdulrahman/Abderrahman/Abdirahman are candidate regional romanizations of the same Arabic compound عبد الرحمن; review regional usage and canonical routes manually.",
+      "do_not_merge_with": [
+        "abderrahman",
+        "abdirahman"
+      ]
     },
     "related_names": [],
     "historical_context": {
@@ -253,39 +258,39 @@
     "faq": [
       {
         "q": "What does Abdulrahman mean?",
-        "a": "Abdulrahman is an Arabic-origin name meaning “Servant of the Most Merciful”."
+        "a": "The recorded compound is عَبْدُ الرَّحْمَن; its gloss remains provisional until each component is directly sourced."
       },
       {
         "q": "What is the origin of Abdulrahman?",
-        "a": "Abdulrahman originates in Arabic and circulates in Muslim naming communities."
+        "a": "The recorded compound is Arabic-script; regional transmission and modern name use require separate evidence."
       },
       {
         "q": "Is Abdulrahman an Arabic name?",
-        "a": "Yes, the recorded form عَبْدُ الرَّحْمَن is Arabic."
+        "a": "The compound combines عبد (“servant”) with a divine epithet; each component needs its own lexical source."
       },
       {
         "q": "What is the root of Abdulrahman?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "The compound's meaning depends on both elements; a direct component-level review remains open."
       },
       {
         "q": "Is Abdulrahman an Islamic name?",
-        "a": "Abdulrahman is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "The compound has religious wording, but this record is not a separate naming recommendation."
       },
       {
         "q": "Is Abdulrahman a Quranic name?",
-        "a": "Abdulrahman is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish the Latin spelling as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Abdulrahman mean in Urdu?",
-        "a": "In Urdu it is written عبدالرحمٰن and carries the sense “عبدالرحمٰن، رحمان کا بندہ”."
+        "a": "Locale translations are provisional and need fluent review."
       },
       {
         "q": "How is Abdulrahman pronounced?",
-        "a": "A romanized syllable approximation is “ab-dul-rah-man”."
+        "a": "Pronunciation is approximate and transliteration-dependent."
       },
       {
         "q": "Is Abdulrahman a boy's or girl's name?",
-        "a": "Documented usage records Abdulrahman as a boy's name; actual use can vary by community."
+        "a": "The record classifies this as male; regional name-frequency data has not been supplied."
       }
     ],
     "seo": {
@@ -325,24 +330,39 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "compound_component_sources_incomplete",
+        "personal_name_frequency_not_verified",
+        "native_translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 152,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 82,
+      "quality_score_basis": "Provisional editorial score only; compound component sources and native translation review remain incomplete."
     },
     "evidence": {
-      "sources": [
-        "The recorded Arabic form عَبْدُ الرَّحْمَن carries the sense “Servant of the Most Merciful”."
+      "sources": [],
+      "verification_method": "No direct component-level dictionary source was checked for this compound in this pass. Keep the existing gloss provisional until both عبد and the divine epithet are independently sourced; translation review is separate.",
+      "claim_evidence": [
+        {
+          "claim": "No direct component-level source was checked for this compound in this pass; meaning remains provisional.",
+          "source": null,
+          "status": "no_direct_component_source_checked; compound_gloss_provisional"
+        },
+        {
+          "claim": "Personal-name usage, frequency, and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "COMPOUND_COMPONENT_SOURCES_NEEDED; NAME_USAGE_AND_TRANSLATIONS_PENDING"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Reviewed compound structure and candidate romanization variants; corrected an unnatural rendering for al-Matīn; component sources and native translation review remain open.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -350,7 +370,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abdulrahman",
-          "description": "Abdulrahman — an Arabic-origin given name meaning Servant of the Most Merciful",
+          "description": "Abdulrahman — Abdulrahman is an Arabic-origin name meaning “Servant of the Most Merciful”.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -364,7 +384,7 @@
               "name": "What does Abdulrahman mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdulrahman is an Arabic-origin name meaning “Servant of the Most Merciful”."
+                "text": "The recorded compound is عَبْدُ الرَّحْمَن; its gloss remains provisional until each component is directly sourced."
               }
             },
             {
@@ -372,7 +392,7 @@
               "name": "What is the origin of Abdulrahman?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdulrahman originates in Arabic and circulates in Muslim naming communities."
+                "text": "The recorded compound is Arabic-script; regional transmission and modern name use require separate evidence."
               }
             },
             {
@@ -380,7 +400,7 @@
               "name": "Is Abdulrahman an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عَبْدُ الرَّحْمَن is Arabic."
+                "text": "The compound combines عبد (“servant”) with a divine epithet; each component needs its own lexical source."
               }
             },
             {
@@ -388,7 +408,7 @@
               "name": "What is the root of Abdulrahman?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "The compound's meaning depends on both elements; a direct component-level review remains open."
               }
             },
             {
@@ -396,7 +416,7 @@
               "name": "Is Abdulrahman an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdulrahman is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "The compound has religious wording, but this record is not a separate naming recommendation."
               }
             },
             {
@@ -404,7 +424,7 @@
               "name": "Is Abdulrahman a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdulrahman is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish the Latin spelling as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -412,7 +432,7 @@
               "name": "What does Abdulrahman mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عبدالرحمٰن and carries the sense “عبدالرحمٰن، رحمان کا بندہ”."
+                "text": "Locale translations are provisional and need fluent review."
               }
             },
             {
@@ -420,7 +440,7 @@
               "name": "How is Abdulrahman pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “ab-dul-rah-man”."
+                "text": "Pronunciation is approximate and transliteration-dependent."
               }
             },
             {
@@ -428,7 +448,7 @@
               "name": "Is Abdulrahman a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abdulrahman as a boy's name; actual use can vary by community."
+                "text": "The record classifies this as male; regional name-frequency data has not been supplied."
               }
             }
           ]
@@ -459,11 +479,15 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "compound_component_sources_incomplete",
+        "personal_name_frequency_not_verified",
+        "native_translation_review_required"
+      ],
+      "confidence": "MEDIUM",
+      "reviewed_by": "NameVerse evidence-led review; compound component sources and native translations pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,

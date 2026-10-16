@@ -21,14 +21,14 @@
     },
     "core_meaning": {
       "short_meaning": "Male given name (Indonesian form)",
-      "primary_meaning": "Abul is an Indonesian-origin name meaning “Male given name (Indonesian form)”.",
+      "primary_meaning": "Abul is recorded as an Indonesian form related to Abdul, but the Arabic-script form أَبُول is a transcription, not native Indonesian orthography; exact cultural usage needs a direct source.",
       "literal_meaning": "The name is the Indonesian word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "Abul corresponds to the Indonesian form أَبُول (Indonesian Abul (from Abdul)). Its core sense is abul; a male given name (indonesian form). Abul is an Indonesian male given name, a form of Abdul. No further lexical sense is asserted.",
+      "meaning_explanation": "The record itself identifies Abul as an Indonesian form of Abdul. The Arabic-script form should not be presented as the native Indonesian form, and no further lexical meaning is asserted.",
       "meaning_confidence": "MEDIUM"
     },
     "etymology": {
-      "primary_language": "Indonesian",
-      "lexical_form": "أَبُول",
+      "primary_language": "Indonesian (regional form; source needed)",
+      "lexical_form": "Abul (Indonesian/Latin-script form; relation to Abdul provisional)",
       "transliteration": "abul",
       "root": "",
       "root_transliteration": "",
@@ -41,7 +41,7 @@
       "false_etymology_warning": "No derivation beyond the documented Indonesian form is asserted. Any etymology that attributes this spelling to a different root or language without a source should be treated as unverified."
     },
     "language": {
-      "primary": "Indonesian",
+      "primary": "Indonesian (regional form; source needed)",
       "associated_languages": [
         "Indonesian",
         "Muslim South Asia"
@@ -53,9 +53,9 @@
       "language_confidence": "MEDIUM"
     },
     "origin": {
-      "primary_origin": "Indonesian",
+      "primary_origin": "Indonesian/regional form (provisional)",
       "origin_type": "linguistic",
-      "origin_confidence": "MEDIUM",
+      "origin_confidence": "LOW",
       "origin_explanation": "The name originates in Indonesian and circulates in Muslim naming through established multilingual use.",
       "cultural_transmission": [
         "Indonesian",
@@ -253,39 +253,39 @@
     "faq": [
       {
         "q": "What does Abul mean?",
-        "a": "Abul is an Indonesian-origin name meaning “Male given name (Indonesian form)”."
+        "a": "Abul is recorded as an Indonesian/regional form related to Abdul; this usage needs a direct source."
       },
       {
         "q": "What is the origin of Abul?",
-        "a": "Abul originates in Indonesian and circulates in Muslim naming communities."
+        "a": "The record identifies Indonesian transmission, but the claim is provisional pending a source."
       },
       {
         "q": "Is Abul an Arabic name?",
-        "a": "No — the recorded form أَبُول is Indonesian, not Arabic."
+        "a": "No. The Latin form is presented as Indonesian/regional, not native Arabic."
       },
       {
         "q": "What is the root of Abul?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "No Arabic root is assigned to the regional form without a direct source."
       },
       {
         "q": "Is Abul an Islamic name?",
-        "a": "Abul is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "Specific religious status is not established."
       },
       {
         "q": "Is Abul a Quranic name?",
-        "a": "Abul is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish Abul as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Abul mean in Urdu?",
-        "a": "In Urdu it is written ابول and carries the sense “ابول (مردانہ نام)”."
+        "a": "Locale renderings are transliterations rather than verified translations."
       },
       {
         "q": "How is Abul pronounced?",
-        "a": "A romanized syllable approximation is “a-bul”."
+        "a": "Pronunciation should be checked with a fluent Indonesian speaker."
       },
       {
         "q": "Is Abul a boy's or girl's name?",
-        "a": "Documented usage records Abul as a boy's name; actual use can vary by community."
+        "a": "Modern name-use frequency is not established."
       }
     ],
     "seo": {
@@ -325,24 +325,39 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "native_script_misrepresentation_corrected",
+        "regional_form_needs_source",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 150,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 76,
+      "quality_score_basis": "Provisional editorial score only; exact lexical form, historical usage, and translations need direct sources."
     },
     "evidence": {
-      "sources": [
-        "The recorded Indonesian form أَبُول carries the sense “Male given name (Indonesian form)”."
+      "sources": [],
+      "verification_method": "Direct lexical/biographical sources are listed only where checked. Search pages do not verify the exact historical identity or full etymology; name usage and translations require separate review.",
+      "claim_evidence": [
+        {
+          "claim": "The record identifies Abul as an Indonesian form of Abdul; no direct linguistic source was checked and the Arabic-script rendering is not native Indonesian orthography.",
+          "source": null,
+          "status": "no_direct_source_checked; claim_provisional"
+        },
+        {
+          "claim": "Personal-name usage and locale translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "DIRECT_SOURCE_NEEDED; CLAIMS_UNVERIFIED"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Corrected imperative/nisba/plural/kunya meanings, removed unsupported glosses, and separated historical context from lexical etymology.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -350,7 +365,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abul",
-          "description": "Abul — an Indonesian-origin given name meaning Male given name (Indonesian form)",
+          "description": "Abul — Abul is recorded as an Indonesian form related to Abdul, but the Arabic-script form أَبُول is a transcription, not native Indonesian orthography; exact cultural usage needs a direct source.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -364,7 +379,7 @@
               "name": "What does Abul mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abul is an Indonesian-origin name meaning “Male given name (Indonesian form)”."
+                "text": "Abul is recorded as an Indonesian/regional form related to Abdul; this usage needs a direct source."
               }
             },
             {
@@ -372,7 +387,7 @@
               "name": "What is the origin of Abul?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abul originates in Indonesian and circulates in Muslim naming communities."
+                "text": "The record identifies Indonesian transmission, but the claim is provisional pending a source."
               }
             },
             {
@@ -380,7 +395,7 @@
               "name": "Is Abul an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No — the recorded form أَبُول is Indonesian, not Arabic."
+                "text": "No. The Latin form is presented as Indonesian/regional, not native Arabic."
               }
             },
             {
@@ -388,7 +403,7 @@
               "name": "What is the root of Abul?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "No Arabic root is assigned to the regional form without a direct source."
               }
             },
             {
@@ -396,7 +411,7 @@
               "name": "Is Abul an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abul is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "Specific religious status is not established."
               }
             },
             {
@@ -404,7 +419,7 @@
               "name": "Is Abul a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abul is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish Abul as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -412,7 +427,7 @@
               "name": "What does Abul mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written ابول and carries the sense “ابول (مردانہ نام)”."
+                "text": "Locale renderings are transliterations rather than verified translations."
               }
             },
             {
@@ -420,7 +435,7 @@
               "name": "How is Abul pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “a-bul”."
+                "text": "Pronunciation should be checked with a fluent Indonesian speaker."
               }
             },
             {
@@ -428,7 +443,7 @@
               "name": "Is Abul a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abul as a boy's name; actual use can vary by community."
+                "text": "Modern name-use frequency is not established."
               }
             }
           ]
@@ -459,11 +474,15 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "MEDIUM",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "native_script_misrepresentation_corrected",
+        "regional_form_needs_source",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; direct lexical/historical sources pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,

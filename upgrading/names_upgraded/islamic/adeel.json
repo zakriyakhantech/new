@@ -21,7 +21,7 @@
     },
     "core_meaning": {
       "short_meaning": "Just, equitable",
-      "primary_meaning": "Adeel is an Arabic-origin name meaning “Just, equitable”.",
+      "primary_meaning": "Adeel corresponds to Arabic عديل (ʿadīl), associated with equality/equivalence or a peer; distinguish it from عادل (ʿādil), the more direct adjective meaning just/equitable.",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
       "meaning_explanation": "Adeel corresponds to the Arabic form عديل (ع د ل). Its core sense is just, fair, righteous. ʿAdīl ('just, equitable'), from the root ع د ل. Related to عادل (ʿĀdil). The source record left this name with no origin and no script form.",
       "meaning_confidence": "HIGH"
@@ -154,39 +154,39 @@
       "english": {
         "name": "Adeel",
         "script": "Adeel",
-        "meaning": "Just, equitable",
-        "long_meaning": "Adeel is an Arabic-origin given name; in Arabic the word means “Just, equitable”."
+        "meaning": "Equal/peer/equivalent; related to justice but distinct from عادل",
+        "long_meaning": "The form عديل is distinguished from عادل; direct lexicon and native translations need review."
       },
       "urdu": {
         "name": "عدیل",
         "script": "عدیل",
-        "meaning": "عادل، منصف",
-        "long_meaning": "Adeel (عدیل) عربی زبان سے ماخوذ نام ہے۔ اس کا بنیادی مفہوم عادل، منصف ہے۔ یہ نام مسلم معاشروں میں رکھا جاتا ہے اور اس کے مفاہیم سیاق و سباق کے مطابق استعمال ہوتے ہیں۔"
+        "meaning": "برابر، ہمسر، مساوی؛ عادل سے مختلف صورت",
+        "long_meaning": "The form عديل is distinguished from عادل; direct lexicon and native translations need review."
       },
       "persian": {
         "name": "Adeel",
         "script": "Adeel",
-        "meaning": "Just, fair, righteous",
-        "long_meaning": "Just, fair, righteous"
+        "meaning": "همتا، برابر، هم‌ارز؛ متمایز از عادل",
+        "long_meaning": "The form عديل is distinguished from عادل; direct lexicon and native translations need review."
       },
       "hindi": {
         "name": "अदील",
         "script": "अदील",
-        "meaning": "न्यायी, निष्पक्ष",
-        "long_meaning": "Adeel (अदील) अरबी भाषा से लिया गया नाम है। इसका मुख्य अर्थ न्यायी, निष्पक्ष है। यह नाम मुस्लिम समाजों में रखा जाता है और इसका प्रयोग संदर्भ के अनुसार बदलता है।"
+        "meaning": "समकक्ष, बराबर; आदिल से अलग रूप",
+        "long_meaning": "The form عديل is distinguished from عادل; direct lexicon and native translations need review."
       },
       "pashto": {
         "name": "عديل",
         "script": "عديل",
-        "meaning": "عادل، منصف",
-        "long_meaning": "Adeel (عديل) د عربي ژبې څخه اخیستل شوی نوم دی او بنسټیزه مانا یې عادل، منصف ده. دا نوم په مسلمانانو ټولنو کې کارول کیږي او کارونه یې د سیاق له مخې بدلیږي.",
+        "meaning": "برابر، سیال؛ له عادل څخه جلا بڼه",
+        "long_meaning": "The form عديل is distinguished from عادل; direct lexicon and native translations need review.",
         "native_review_required": true
       },
       "arabic": {
         "name": "عديل",
         "script": "عديل",
-        "meaning": "عديل، عادل",
-        "long_meaning": "Adeel (عديل) اسم مأخوذ من اللغة العربية، ومعناه الأساسي عديل، عادل. يُستخدم هذا الاسم في المجتمعات المسلمة ويختلف استعماله بحسب السياق اللغوي.",
+        "meaning": "عديل: نظير أو مكافئ؛ وهو غير عادل",
+        "long_meaning": "The form عديل is distinguished from عادل; direct lexicon and native translations need review.",
         "native_review_required": true
       }
     },
@@ -324,24 +324,39 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "adil_adeel_form_distinction_clarified",
+        "direct_dictionary_source_needed",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 149,
-      "quality_score": 90,
+      "quality_score": 78,
       "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
     },
     "evidence": {
-      "sources": [
-        "The recorded Arabic form عديل carries the sense “Just, equitable”."
+      "sources": [],
+      "verification_method": "Direct lexical/cultural sources were not checked in this pass; meaning and name-use claims remain provisional until sourced.",
+      "claim_evidence": [
+        {
+          "claim": "Exact lexical/cultural claim",
+          "source": null,
+          "status": "direct_source_needed; claim_provisional"
+        },
+        {
+          "claim": "Personal-name usage and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "DIRECT_SOURCE_NEEDED; CLAIMS_PROVISIONAL"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Corrected unsupported compound meanings, native-form mismatches, Arabic form distinctions, and corrupted translations; unresolved claims are explicitly flagged.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -349,7 +364,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Adeel",
-          "description": "Adeel — an Arabic-origin given name meaning Just, equitable",
+          "description": "Adeel — Adeel corresponds to Arabic عديل (ʿadīl), associated with equality/equivalence or a peer; distinguish it from عادل (ʿādil), the more direct adjective meaning just/equitable.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -458,11 +473,15 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "adil_adeel_form_distinction_clarified",
+        "direct_dictionary_source_needed",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; direct source and translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,

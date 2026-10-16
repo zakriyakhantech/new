@@ -21,9 +21,9 @@
     },
     "core_meaning": {
       "short_meaning": "Servant of God",
-      "primary_meaning": "Abdalla is an Arabic-origin name meaning “Servant of God”.",
+      "primary_meaning": "Abdalla is a Swahili form of Arabic عبد الله (ʿAbd Allāh), meaning “servant of God”; linguistic origin and form should distinguish Swahili usage from Arabic source compound.",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "Abdalla corresponds to the Arabic form عَبْدُ الله (Arabic عبد (ʿAbd) + الله (Allāh)). Its core sense is abdalla; servant of god (swahili form). Abdalla is the Swahili form of Arabic عَبْدُ الله (ʿAbd Allāh), meaning 'servant of God'.",
+      "meaning_explanation": "The record itself identifies Abdalla as the Swahili form of عبد الله. Therefore, the name's language of transmission should be recorded as Swahili/Arabic compound rather than simply calling it an Arabic-origin name. The exact source needs direct reference support.",
       "meaning_confidence": "HIGH"
     },
     "etymology": {
@@ -41,8 +41,9 @@
       "false_etymology_warning": "No derivation beyond the documented Arabic form is asserted. Any etymology that attributes this spelling to a different root or language without a source should be treated as unverified."
     },
     "language": {
-      "primary": "Arabic",
+      "primary": "Swahili",
       "associated_languages": [
+        "Swahili",
         "Arabic"
       ],
       "language_notes": {
@@ -52,9 +53,9 @@
       "language_confidence": "HIGH"
     },
     "origin": {
-      "primary_origin": "Arabic",
+      "primary_origin": "Swahili form of Arabic عبد الله",
       "origin_type": "linguistic",
-      "origin_confidence": "HIGH",
+      "origin_confidence": "MEDIUM",
       "origin_explanation": "The name originates in Arabic and circulates in Muslim naming through established multilingual use.",
       "cultural_transmission": [
         "Arabic",
@@ -253,39 +254,39 @@
     "faq": [
       {
         "q": "What does Abdalla mean?",
-        "a": "Abdalla is an Arabic-origin name meaning “Servant of God”."
+        "a": "Abdalla is a Swahili form of Arabic عبد الله, meaning “servant of God.”"
       },
       {
         "q": "What is the origin of Abdalla?",
-        "a": "Abdalla originates in Arabic and circulates in Muslim naming communities."
+        "a": "The record identifies it as a Swahili form of the Arabic compound عبد الله."
       },
       {
         "q": "Is Abdalla an Arabic name?",
-        "a": "Yes, the recorded form عَبْدُ الله is Arabic."
+        "a": "It is a Swahili form derived from an Arabic compound; transmission language and source language should be distinguished."
       },
       {
         "q": "What is the root of Abdalla?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "The compound contains عبد (“servant”) and الله (“God”)."
       },
       {
         "q": "Is Abdalla an Islamic name?",
-        "a": "Abdalla is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "The name has religious meaning, but this record does not make a separate naming recommendation."
       },
       {
         "q": "Is Abdalla a Quranic name?",
-        "a": "Abdalla is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish Abdalla as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Abdalla mean in Urdu?",
-        "a": "In Urdu it is written عبداللہ and carries the sense “عبداللہ، اللہ کا بندہ”."
+        "a": "The Urdu rendering is “عبداللہ، اللہ کا بندہ”; native review remains pending."
       },
       {
         "q": "How is Abdalla pronounced?",
-        "a": "A romanized syllable approximation is “ab-dal-la”."
+        "a": "Pronunciation varies across Swahili and Arabic usage."
       },
       {
         "q": "Is Abdalla a boy's or girl's name?",
-        "a": "Documented usage records Abdalla as a boy's name; actual use can vary by community."
+        "a": "The record classifies it as male; regional frequency data has not been supplied."
       }
     ],
     "seo": {
@@ -325,24 +326,39 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "swahili_transmission_origin_clarified",
+        "direct_linguistic_source_needed",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 152,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 80,
+      "quality_score_basis": "Provisional editorial score only; dictionary meaning does not certify personal-name usage, religious status, or translation quality."
     },
     "evidence": {
-      "sources": [
-        "The recorded Arabic form عَبْدُ الله carries the sense “Servant of God”."
+      "sources": [],
+      "verification_method": "Checked only listed lexical/reference sources. Name usage, gender distribution, cultural context, and native-speaker translation quality require separate evidence.",
+      "claim_evidence": [
+        {
+          "claim": "The record identifies Abdalla as the Swahili form of Arabic عبد الله, but no direct linguistic source was checked in this pass.",
+          "source": null,
+          "status": "no_direct_source_checked; claims_not_verified"
+        },
+        {
+          "claim": "Personal-name usage, frequency, and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "NO_DIRECT_SOURCE_CHECKED; CLAIMS_UNVERIFIED"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Checked listed lexical sources; corrected nisba, compound, gendered translation, and plural-form issues; kept unsupported name-use claims provisional.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -350,7 +366,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abdalla",
-          "description": "Abdalla — an Arabic-origin given name meaning Servant of God",
+          "description": "Abdalla — Abdalla is a Swahili form of Arabic عبد الله (ʿAbd Allāh), meaning “servant of God”; linguistic origin and form should distinguish Swahili usage from Arabic source compound.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -364,7 +380,7 @@
               "name": "What does Abdalla mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdalla is an Arabic-origin name meaning “Servant of God”."
+                "text": "Abdalla is a Swahili form of Arabic عبد الله, meaning “servant of God.”"
               }
             },
             {
@@ -372,7 +388,7 @@
               "name": "What is the origin of Abdalla?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdalla originates in Arabic and circulates in Muslim naming communities."
+                "text": "The record identifies it as a Swahili form of the Arabic compound عبد الله."
               }
             },
             {
@@ -380,7 +396,7 @@
               "name": "Is Abdalla an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عَبْدُ الله is Arabic."
+                "text": "It is a Swahili form derived from an Arabic compound; transmission language and source language should be distinguished."
               }
             },
             {
@@ -388,7 +404,7 @@
               "name": "What is the root of Abdalla?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "The compound contains عبد (“servant”) and الله (“God”)."
               }
             },
             {
@@ -396,7 +412,7 @@
               "name": "Is Abdalla an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdalla is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "The name has religious meaning, but this record does not make a separate naming recommendation."
               }
             },
             {
@@ -404,7 +420,7 @@
               "name": "Is Abdalla a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdalla is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish Abdalla as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -412,7 +428,7 @@
               "name": "What does Abdalla mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عبداللہ and carries the sense “عبداللہ، اللہ کا بندہ”."
+                "text": "The Urdu rendering is “عبداللہ، اللہ کا بندہ”; native review remains pending."
               }
             },
             {
@@ -420,7 +436,7 @@
               "name": "How is Abdalla pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “ab-dal-la”."
+                "text": "Pronunciation varies across Swahili and Arabic usage."
               }
             },
             {
@@ -428,7 +444,7 @@
               "name": "Is Abdalla a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abdalla as a boy's name; actual use can vary by community."
+                "text": "The record classifies it as male; regional frequency data has not been supplied."
               }
             }
           ]
@@ -459,11 +475,15 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "swahili_transmission_origin_clarified",
+        "direct_linguistic_source_needed",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; name-use/translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,

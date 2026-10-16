@@ -251,39 +251,39 @@
     "faq": [
       {
         "q": "What does Abed mean?",
-        "a": "Abed is an Arabic-origin name meaning “Worshipper”."
+        "a": "Arabic عابد means worshipper/devotee; this lexical meaning does not establish name frequency."
       },
       {
         "q": "What is the origin of Abed?",
-        "a": "Abed originates in Arabic and circulates in Muslim naming communities."
+        "a": "The recorded form is Arabic عابد."
       },
       {
         "q": "Is Abed an Arabic name?",
-        "a": "Yes, the recorded form عابد is Arabic."
+        "a": "The recorded lexical form is Arabic."
       },
       {
         "q": "What is the root of Abed?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "The form is related to root ع ب د."
       },
       {
         "q": "Is Abed an Islamic name?",
-        "a": "Abed is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "Arabic religious vocabulary does not itself establish a naming recommendation."
       },
       {
         "q": "Is Abed a Quranic name?",
-        "a": "Abed is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish Abed as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Abed mean in Urdu?",
-        "a": "In Urdu it is written عابد and carries the sense “عابد، پرستش کرنے والا”."
+        "a": "A cautious Urdu gloss is “عابد، پرستش کرنے والا”; native review remains pending."
       },
       {
         "q": "How is Abed pronounced?",
-        "a": "A romanized syllable approximation is “a-bed”."
+        "a": "“A-bed” is approximate; pronunciation varies."
       },
       {
         "q": "Is Abed a boy's or girl's name?",
-        "a": "Documented usage records Abed as a boy's name; actual use can vary by community."
+        "a": "Modern regional frequency data has not been supplied."
       }
     ],
     "seo": {
@@ -323,24 +323,40 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "personal_name_frequency_not_verified",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 148,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 78,
+      "quality_score_basis": "Provisional editorial score only; exact lexical form, personal-name usage, and fluent translations require separate verification."
     },
     "evidence": {
       "sources": [
-        "The recorded Arabic form عابد carries the sense “Worshipper”."
+        "https://www.laneslexicon.com/word/%D8%B9%D8%A7%D8%A8%D8%AF"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Sources are listed only where checked. Cultural/name usage, exact morphology, and translation quality require separate evidence.",
+      "claim_evidence": [
+        {
+          "claim": "Lane's Lexicon records عابد as worshipper/devotee; modern name frequency remains unverified.",
+          "source": "https://www.laneslexicon.com/word/%D8%B9%D8%A7%D8%A8%D8%AF",
+          "status": "lexical_source_checked"
+        },
+        {
+          "claim": "Personal-name usage and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
+      ],
+      "claim_evidence_status": "LEXICAL_SOURCE_CHECKED; NAME_USAGE_AND_TRANSLATIONS_PENDING"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Corrected gendered translation mismatches, ambiguous vocalization, and non-Arabic native-script conflation; separated lexical evidence from personal-name usage.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -348,7 +364,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abed",
-          "description": "Abed — an Arabic-origin given name meaning Worshipper",
+          "description": "Abed — Abed is an Arabic-origin name meaning “Worshipper”.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -362,7 +378,7 @@
               "name": "What does Abed mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abed is an Arabic-origin name meaning “Worshipper”."
+                "text": "Arabic عابد means worshipper/devotee; this lexical meaning does not establish name frequency."
               }
             },
             {
@@ -370,7 +386,7 @@
               "name": "What is the origin of Abed?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abed originates in Arabic and circulates in Muslim naming communities."
+                "text": "The recorded form is Arabic عابد."
               }
             },
             {
@@ -378,7 +394,7 @@
               "name": "Is Abed an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عابد is Arabic."
+                "text": "The recorded lexical form is Arabic."
               }
             },
             {
@@ -386,7 +402,7 @@
               "name": "What is the root of Abed?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "The form is related to root ع ب د."
               }
             },
             {
@@ -394,7 +410,7 @@
               "name": "Is Abed an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abed is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "Arabic religious vocabulary does not itself establish a naming recommendation."
               }
             },
             {
@@ -402,7 +418,7 @@
               "name": "Is Abed a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abed is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish Abed as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -410,7 +426,7 @@
               "name": "What does Abed mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عابد and carries the sense “عابد، پرستش کرنے والا”."
+                "text": "A cautious Urdu gloss is “عابد، پرستش کرنے والا”; native review remains pending."
               }
             },
             {
@@ -418,7 +434,7 @@
               "name": "How is Abed pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “a-bed”."
+                "text": "“A-bed” is approximate; pronunciation varies."
               }
             },
             {
@@ -426,7 +442,7 @@
               "name": "Is Abed a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abed as a boy's name; actual use can vary by community."
+                "text": "Modern regional frequency data has not been supplied."
               }
             }
           ]
@@ -457,11 +473,14 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "personal_name_frequency_not_verified",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; direct name-use and translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,

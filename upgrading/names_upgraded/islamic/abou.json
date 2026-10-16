@@ -21,9 +21,9 @@
     },
     "core_meaning": {
       "short_meaning": "Father of (construct form)",
-      "primary_meaning": "Abou is an Arabic-origin name meaning “Father of (construct form)”.",
+      "primary_meaning": "Abou corresponds to Arabic أبو (abū), the construct form “father of”; it normally appears in a kunya/compound and standalone given-name usage is not verified.",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "Abou corresponds to the Arabic form أبو (أ ب و). Its core sense is father of (construct form). Abū ('father of'), the construct form of أب used in kunyas. Its use as a standalone given name is reported but not verified.",
+      "meaning_explanation": "The construct form أبو introduces a following element (for example, a kunya); it is not a complete name meaning by itself. The exact regional Latin form and standalone usage need separate evidence.",
       "meaning_confidence": "MEDIUM"
     },
     "etymology": {
@@ -252,39 +252,39 @@
     "faq": [
       {
         "q": "What does Abou mean?",
-        "a": "Abou is an Arabic-origin name meaning “Father of (construct form)”."
+        "a": "أبو is the construct form “father of”; it usually requires a following element and standalone use is not verified."
       },
       {
         "q": "What is the origin of Abou?",
-        "a": "Abou originates in Arabic and circulates in Muslim naming communities."
+        "a": "The recorded form is Arabic أبو."
       },
       {
         "q": "Is Abou an Arabic name?",
-        "a": "Yes, the recorded form أبو is Arabic."
+        "a": "The form is a construct/kunya element, not a complete name meaning by itself."
       },
       {
         "q": "What is the root of Abou?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "The form is related to the Arabic root أ ب و."
       },
       {
         "q": "Is Abou an Islamic name?",
-        "a": "Abou is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "The word does not by itself establish a religious naming recommendation."
       },
       {
         "q": "Is Abou a Quranic name?",
-        "a": "Abou is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish Abou as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Abou mean in Urdu?",
-        "a": "In Urdu it is written ابو and carries the sense “باپ (اضافت)”."
+        "a": "A cautious Urdu rendering is “باپ (اضافت)”; native review is pending."
       },
       {
         "q": "How is Abou pronounced?",
-        "a": "A romanized syllable approximation is “a-bou”."
+        "a": "“A-bu” is approximate; regional transliteration varies."
       },
       {
         "q": "Is Abou a boy's or girl's name?",
-        "a": "Documented usage records Abou as a boy's name; actual use can vary by community."
+        "a": "Standalone personal-name usage and gender distribution are unverified."
       }
     ],
     "seo": {
@@ -324,24 +324,38 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "construct_form_standalone_usage_unverified",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 146,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 78,
+      "quality_score_basis": "Provisional editorial score only; exact lexical form, name-use evidence, and native translation quality remain open."
     },
     "evidence": {
-      "sources": [
-        "The recorded Arabic form أبو carries the sense “Father of (construct form)”."
+      "sources": [],
+      "verification_method": "Only listed reference URLs were checked; search pages are not direct evidence for exact lexical meaning or identity. Claims without direct dictionary/biographical sources remain provisional.",
+      "claim_evidence": [
+        {
+          "claim": "The form أبو has a construct/kunya sense “father of”; standalone given-name use is not verified.",
+          "source": null,
+          "status": "no_direct_source_checked; claim_unverified"
+        },
+        {
+          "claim": "Personal-name usage, frequency, and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "DIRECT_LEXICAL_SOURCE_NEEDED; CLAIMS_UNVERIFIED"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Removed unsupported folk glosses, clarified construct/plural forms, and separated lexical meanings from personal-name usage and historical claims.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -349,7 +363,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abou",
-          "description": "Abou — an Arabic-origin given name meaning Father of (construct form)",
+          "description": "Abou — Abou corresponds to Arabic أبو (abū), the construct form “father of”; it normally appears in a kunya/compound and standalone given-name usage is not verified.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -363,7 +377,7 @@
               "name": "What does Abou mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abou is an Arabic-origin name meaning “Father of (construct form)”."
+                "text": "أبو is the construct form “father of”; it usually requires a following element and standalone use is not verified."
               }
             },
             {
@@ -371,7 +385,7 @@
               "name": "What is the origin of Abou?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abou originates in Arabic and circulates in Muslim naming communities."
+                "text": "The recorded form is Arabic أبو."
               }
             },
             {
@@ -379,7 +393,7 @@
               "name": "Is Abou an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form أبو is Arabic."
+                "text": "The form is a construct/kunya element, not a complete name meaning by itself."
               }
             },
             {
@@ -387,7 +401,7 @@
               "name": "What is the root of Abou?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "The form is related to the Arabic root أ ب و."
               }
             },
             {
@@ -395,7 +409,7 @@
               "name": "Is Abou an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abou is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "The word does not by itself establish a religious naming recommendation."
               }
             },
             {
@@ -403,7 +417,7 @@
               "name": "Is Abou a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abou is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish Abou as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -411,7 +425,7 @@
               "name": "What does Abou mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written ابو and carries the sense “باپ (اضافت)”."
+                "text": "A cautious Urdu rendering is “باپ (اضافت)”; native review is pending."
               }
             },
             {
@@ -419,7 +433,7 @@
               "name": "How is Abou pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “a-bou”."
+                "text": "“A-bu” is approximate; regional transliteration varies."
               }
             },
             {
@@ -427,7 +441,7 @@
               "name": "Is Abou a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abou as a boy's name; actual use can vary by community."
+                "text": "Standalone personal-name usage and gender distribution are unverified."
               }
             }
           ]
@@ -458,11 +472,14 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "MEDIUM",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "construct_form_standalone_usage_unverified",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; exact form/source and translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,
