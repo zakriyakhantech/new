@@ -11,14 +11,22 @@ Last updated: 2026-10-16
 - Record each completed file and any unresolved verification needs here.
 
 ## Progress
-- Individually edited and committed: 22 unique records
+- Individually edited and committed: 23 unique records
 - Fully source-verified / tier-1 certified: 0 records
 - Remaining records: total inventory must be reconciled against the live repository before stating a final count.
-- Last completed: `upgrading/names_upgraded/islamic/aaida.json` (22 unique records completed)
+- Last completed: `upgrading/names_upgraded/islamic/aaima.json` (23 unique records completed)
 - Latest record commit: `245d345dc0387a57ae43761d6d43100850eb86bb
-- Next action: inspect `upgrading/names_upgraded/islamic/aaima.json` next, then continue alphabetically one record per commit.
+- Next action: inspect `upgrading/names_upgraded/islamic/aaina.json` next, then continue alphabetically one record per commit.
 
 ## Record log
+
+### 23. Aaima — exact name-to-script mapping remains unverified
+- Checked references for the proposed Arabic lexical form and root related to floating/swimming, but did not assume this proves the personal name Aaima has that meaning.
+- Corrected stale SEO metadata that stated the uncertain link as fact.
+- Added claim-level evidence, marked the name’s exact form and pronunciation unresolved, and lowered gender confidence.
+- Synchronized FAQ/DefinedTerm structured data.
+- Provisional editorial score: 70/100; tier-1 remains false.
+- Outstanding: reliable source for the intended Arabic spelling, name origin, pronunciation, regional usage, native review, and deployed HTML validation.
 
 ### 22. Aaida — Arabic feminine morphology checked; exact spelling usage pending
 - Checked the lexical form عائدة and Lane’s Lexicon root entry for ع و د; evidence supports the sense related to returning.
