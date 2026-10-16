@@ -21,9 +21,9 @@
     },
     "core_meaning": {
       "short_meaning": "Servant",
-      "primary_meaning": "Abdo is an Arabic-origin name meaning “Servant”.",
+      "primary_meaning": "Abdo is a regional/familiar form related to Arabic عبد (“servant/worshipper”); the exact name-use distribution and whether it is used standalone require separate evidence.",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "Abdo corresponds to the Arabic form عَبْدُو (Arabic root ع ب د (ʿ-b-d); عَبْد (ʿAbd)). Its core sense is abdo; servant (of god). Abdo is Arabic عَبْدُو (ʿAbdū), a familiar form of عَبْد (ʿAbd), meaning 'servant', used as a male given name.",
+      "meaning_explanation": "Lane's Lexicon supports عبد as servant/worshipper. The form عَبْدُو is treated here as a regional/familiar form related to عبد, not as proof of a single standardized personal-name derivation.",
       "meaning_confidence": "HIGH"
     },
     "etymology": {
@@ -252,39 +252,39 @@
     "faq": [
       {
         "q": "What does Abdo mean?",
-        "a": "Abdo is an Arabic-origin name meaning “Servant”."
+        "a": "Abdo is related to Arabic عبد (“servant/worshipper”); the exact name-specific interpretation is provisional."
       },
       {
         "q": "What is the origin of Abdo?",
-        "a": "Abdo originates in Arabic and circulates in Muslim naming communities."
+        "a": "The recorded form is related to Arabic عبد; regional transmission needs sourcing."
       },
       {
         "q": "Is Abdo an Arabic name?",
-        "a": "Yes, the recorded form عَبْدُو is Arabic."
+        "a": "The form is Arabic-related, but the standardized name form and regional use need evidence."
       },
       {
         "q": "What is the root of Abdo?",
-        "a": "It is built on the root ع ب د (ʿ-b-d)."
+        "a": "The lexical base is related to root ع ب د."
       },
       {
         "q": "Is Abdo an Islamic name?",
-        "a": "Abdo is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "Arabic origin does not establish a specific religious prescription."
       },
       {
         "q": "Is Abdo a Quranic name?",
-        "a": "Abdo is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish Abdo as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Abdo mean in Urdu?",
-        "a": "In Urdu it is written عبدو and carries the sense “عبدو، بندہ”."
+        "a": "The Urdu gloss is approximate and needs fluent review."
       },
       {
         "q": "How is Abdo pronounced?",
-        "a": "A romanized syllable approximation is “ab-do”."
+        "a": "“Ab-do” is approximate; regional pronunciation varies."
       },
       {
         "q": "Is Abdo a boy's or girl's name?",
-        "a": "Documented usage records Abdo as a boy's name; actual use can vary by community."
+        "a": "Modern regional name-frequency data has not been supplied."
       }
     ],
     "seo": {
@@ -324,24 +324,41 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "regional_form_needs_source",
+        "standalone_name_usage_unverified",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 152,
-      "quality_score": 95,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root present; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 78,
+      "quality_score_basis": "Provisional editorial score only; linguistic form, cultural transmission, name use, and native translations require separate source review."
     },
     "evidence": {
       "sources": [
-        "The recorded Arabic form عَبْدُو carries the sense “Servant”."
+        "https://www.laneslexicon.com/word/%D8%B9%D8%A8%D8%AF/n27791"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Direct lexical/reference source listed only where checked. Name transmission, exact transliteration, historical-bearer claims, and native translations require separate evidence.",
+      "claim_evidence": [
+        {
+          "claim": "Lane's Lexicon supports عبد as servant/worshipper; exact regional form عَبْدُو and usage need separate review.",
+          "source": "https://www.laneslexicon.com/word/%D8%B9%D8%A8%D8%AF/n27791",
+          "status": "source_checked"
+        },
+        {
+          "claim": "Personal-name usage, transmission, and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
+      ],
+      "claim_evidence_status": "SOURCE_CHECKED; NAME_USAGE_AND_TRANSLATIONS_PENDING"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Reviewed exact compound/linguistic form, separated source language from regional transmission, and left unsupported historical/name-use claims provisional.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -349,7 +366,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abdo",
-          "description": "Abdo — an Arabic-origin given name meaning Servant",
+          "description": "Abdo — Abdo is a regional/familiar form related to Arabic عبد (“servant/worshipper”); the exact name-use distribution and whether it is used standalone require separate evidence.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -363,7 +380,7 @@
               "name": "What does Abdo mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdo is an Arabic-origin name meaning “Servant”."
+                "text": "Abdo is related to Arabic عبد (“servant/worshipper”); the exact name-specific interpretation is provisional."
               }
             },
             {
@@ -371,7 +388,7 @@
               "name": "What is the origin of Abdo?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdo originates in Arabic and circulates in Muslim naming communities."
+                "text": "The recorded form is related to Arabic عبد; regional transmission needs sourcing."
               }
             },
             {
@@ -379,7 +396,7 @@
               "name": "Is Abdo an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عَبْدُو is Arabic."
+                "text": "The form is Arabic-related, but the standardized name form and regional use need evidence."
               }
             },
             {
@@ -387,7 +404,7 @@
               "name": "What is the root of Abdo?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "It is built on the root ع ب د (ʿ-b-d)."
+                "text": "The lexical base is related to root ع ب د."
               }
             },
             {
@@ -395,7 +412,7 @@
               "name": "Is Abdo an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdo is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "Arabic origin does not establish a specific religious prescription."
               }
             },
             {
@@ -403,7 +420,7 @@
               "name": "Is Abdo a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdo is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish Abdo as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -411,7 +428,7 @@
               "name": "What does Abdo mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عبدو and carries the sense “عبدو، بندہ”."
+                "text": "The Urdu gloss is approximate and needs fluent review."
               }
             },
             {
@@ -419,7 +436,7 @@
               "name": "How is Abdo pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “ab-do”."
+                "text": "“Ab-do” is approximate; regional pronunciation varies."
               }
             },
             {
@@ -427,7 +444,7 @@
               "name": "Is Abdo a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abdo as a boy's name; actual use can vary by community."
+                "text": "Modern regional name-frequency data has not been supplied."
               }
             }
           ]
@@ -458,11 +475,15 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "regional_form_needs_source",
+        "standalone_name_usage_unverified",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; direct name-use/translation sources pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,
