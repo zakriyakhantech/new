@@ -11,14 +11,21 @@ Last updated: 2026-10-16
 - Record each completed file and any unresolved verification needs here.
 
 ## Progress
-- Individually edited and committed: 6 records
+- Individually edited and committed: 7 records
 - Fully source-verified / tier-1 certified: 0 records
 - Remaining records: total inventory must be reconciled against the live repository before stating a final count.
-- Last completed: `upgrading/names_upgraded/islamic/aabida.json`
-- Latest record commit: `c2204ca6bfe8187f47adb7747df45270e0e3f4fa`
+- Last completed: `upgrading/names_upgraded/islamic/aabish.json`
+- Latest record commit: `fac7ffab21f4775d02851f619c95d1f478d38c29`
 - Next action: inspect the next unreviewed Islamic JSON record alphabetically and review it individually.
 
 ## Record log
+
+### 7. Aabish — researched; meaning deliberately remains unverified
+- Searched the exact spelling and the stored script form عابش.
+- Found conflicting secondary name-list claims (“father of the spring” versus a separate historical claim), but no reliable lexical source matching the exact form.
+- Kept meaning, origin, and gender unverified instead of choosing an unsupported claim.
+- Updated FAQ and structured data to explain the evidence gap.
+- Outstanding: primary/scholarly lexical source, script/transliteration confirmation, gender and usage evidence, and native-language review.
 
 ### 6. Aabida — lexical/morphology references checked; native review pending
 - Checked the feminine active-participle form عابدة against Arabic grammar and lexical references.
