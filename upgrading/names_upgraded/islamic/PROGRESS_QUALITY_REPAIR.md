@@ -175,3 +175,22 @@
 - All ten records were re-fetched from the working branch. JSON parsing succeeded for all 10; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
 - All ten records have source URLs and explicit evidence scope. The sources support the cited lexical claims only, not name popularity, modern gender distribution, religious status, or fluent/native review of every translation.
 - Aasiya/Aasiyah/Aasiyyah are flagged as candidate romanization variants of the same recorded form آسية; Aasma/Asmaa are flagged for review as spellings of the same Arabic form أسماء. No records were merged or deleted.
+
+
+## Batch reviewed on 2026-10-16 — records 102–111
+
+102. `aathira.json` — corrected a blanket “not a standard Arabic form” statement; Lane's Lexicon supports a plausible أثيرة (“favored/specially valued”) match, kept provisional pending exact name-form review.
+103. `aati.json` — removed the unsupported passive gloss “given/granted”; related standard forms support “giving/gift,” but the exact recorded form عاطي remains unverified.
+104. `aatif.json` — corrected “tranquil/calm/serene” to a kindness/affection/compassion-related sense from root ع ط ف.
+105. `aatifa.json` — corrected translations and explanations to the dictionary-supported عاطفة sense “affection/kindness/compassion.”
+106. `aatifah.json` — corrected the same meaning mismatch and marked the spelling as a likely romanization variant for manual review.
+107. `aatik.json` — corrected translation conflicts around عاتق; recorded shoulder-related lexical sense while keeping name-specific meaning provisional.
+108. `aatika.json` — removed unsupported “pure, unblemished, sincere”; replaced with a provisional noble/high-rank interpretation from root ع ت ك.
+109. `aatikaat.json` — clarified عاتكات is a plural form and removed unsupported singular purity gloss; personal-name use remains unverified.
+110. `aatikah.json` — corrected unsupported purity gloss for عاتكة and aligned translations/FAQs with a provisional lexical interpretation.
+111. `aatiq.json` — flagged a form mismatch: عاتق and عتيق are different Arabic forms; removed the transfer of “ancient/noble/freed” across spellings.
+
+### Batch 102–111 validation and limits
+
+- All ten records were re-fetched from the working branch. JSON parsing succeeded for all 10; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
+- All records are marked not fully verified; the named lexical sources do not establish personal-name usage, popularity, religious status, or native-speaker quality of every translation.
