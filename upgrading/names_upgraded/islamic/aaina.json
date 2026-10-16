@@ -11,8 +11,8 @@
       "normalized_name": "aaina",
       "name_type": "given_name",
       "gender": "Female",
-      "gender_confidence": "HIGH",
-      "gender_note": "Gender is recorded from documented naming usage, not inferred from the word's meaning.",
+      "gender_confidence": "MEDIUM",
+      "gender_note": "Aaina is labelled feminine in some South Asian naming contexts, but this record does not contain independent registration data quantifying gender distribution by region. The label is provisional.",
       "alternate_spellings": [
         "Aaina",
         "aaina",
@@ -24,13 +24,13 @@
       "short_meaning": "Mirror",
       "primary_meaning": "Aaina corresponds to the Persian form آئینہ and is glossed in this record as “Mirror.” The lexical gloss describes the word-form; Qur’anic occurrence, religious recommendation, popularity, and a name-bearer’s character are separate claims and are not established by this gloss alone.",
       "literal_meaning": "Mirror",
-      "meaning_explanation": "Aaina corresponds to the Persian form آئینہ (Persian آینه (āyina); Urdu آئینہ (āʾīna)). Its core sense is mirror, looking-glass. Aaina is Persian آینه (āyina) / Urdu آئینہ (āʾīna) 'mirror'. CRITICAL SOURCE ERROR: the source gave عاينة (a different form) and labelled the origin Arabic; the word is Persian/Urdu. The source gloss 'Mirror' is consistent.",
+      "meaning_explanation": "Aaina corresponds to Persian آینه (āyena/āyina) and Urdu آئینہ (āʾīna), meaning “mirror” or “looking-glass.” These are related Persian/Urdu lexical forms, not Arabic عاينة. Persian and Urdu spellings should be kept distinct in language-specific fields; the shared lexical meaning does not establish the exact spelling’s frequency as a personal name.",
       "meaning_confidence": "HIGH"
     },
     "etymology": {
       "primary_language": "Persian",
-      "lexical_form": "آئینہ",
-      "transliteration": "aaina",
+      "lexical_form": "Persian آینه; Urdu آئینہ",
+      "transliteration": "Persian āyena/āyina; Urdu āʾīna",
       "root": "",
       "root_transliteration": "",
       "morphology": "Simple lexical item used as a name.",
@@ -290,9 +290,9 @@
     ],
     "seo": {
       "title": "Aaina Name Meaning, Origin & Islamic Context",
-      "meta_description": "Aaina (آئینہ) — meaning, origin, pronunciation and Islamic naming context.",
+      "meta_description": "Aaina (Persian آینه; Urdu آئینہ) means “mirror” or “looking-glass.” Exact-spelling popularity and regional gender usage are not established here.",
       "meta_keywords": "Aaina meaning, Aaina name meaning, Aaina origin, Aaina meaning in Urdu, Aaina pronunciation, Aaina Islamic name",
-      "description_paragraph": "Aaina is a Persian-origin given name. This page covers its meaning, origin, pronunciation and naming context.",
+      "description_paragraph": "Aaina represents Persian آینه and Urdu آئینہ, meaning “mirror” or “looking-glass.” The lexical meaning is supported by Persian/Urdu references; exact-spelling name frequency and regional gender usage are not established here.",
       "keywords": [
         "Aaina meaning",
         "Aaina name meaning",
@@ -311,7 +311,7 @@
       ],
       "canonical_url": "https://nameverse.site/names/islamic/aaina",
       "seo_score": 90,
-      "seo_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "seo_score_basis": "Provisional editorial estimate: 87/100. Persian and Urdu lexical meanings are source-checked; exact spelling frequency, regional usage, native review, and deployed rendering remain open."
     },
     "seo_content": {
       "intro_paragraph": "This page explains the meaning and origin of the name Aaina, a Persian-origin name used in Muslim communities.",
@@ -325,24 +325,43 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "exact_aaina_spelling_frequency_not_verified",
+        "regional_gender_distribution_not_verified",
+        "persian_and_urdu_native_review_pending"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 152,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 87,
+      "quality_score_basis": "Provisional editorial estimate: 87/100. Persian and Urdu lexical entries support the mirror meaning, and the record distinguishes the two language-specific spellings. Exact personal-name frequency, regional gender distribution, native-language review, and deployed rendering remain unverified.",
+      "tier1_verified_scope": "Persian/Urdu lexical meaning checked; exact spelling frequency, regional name usage, native review, and rendered page remain uncertified."
     },
     "evidence": {
       "sources": [
-        "The recorded Persian form آئینہ carries the sense “Mirror”."
+        "https://en.wiktionary.org/wiki/%D8%A2%D8%A6%DB%8C%D9%86%DB%81",
+        "https://en.wiktionary.org/wiki/%D8%A2%DB%8C%D9%86%D9%87"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Checked lexical entries for Urdu آئینہ and Persian آینه. These support the mirror/looking-glass meaning and the distinction between the Persian and Urdu spellings. They do not establish exact Latin spelling frequency, regional gender distribution, or a specific religious/scriptural status.",
+      "claim_evidence": [
+        {
+          "claim": "Urdu آئینہ means mirror/looking-glass",
+          "source": "https://en.wiktionary.org/wiki/%D8%A2%D8%A6%DB%8C%D9%86%DB%81",
+          "status": "Urdu_lexical_entry_checked"
+        },
+        {
+          "claim": "Persian آینه means mirror/looking-glass",
+          "source": "https://en.wiktionary.org/wiki/%D8%A2%DB%8C%D9%86%D9%87",
+          "status": "Persian_lexical_entry_checked"
+        }
+      ],
+      "claim_evidence_status": "PERSIAN_AND_URDU_LEXICAL_MEANING_CHECKED; EXACT_LATIN_SPELLING_FREQUENCY_AND_REGIONAL_GENDER_NOT_VERIFIED"
     },
     "provenance": {
       "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "methodology": "Individual Persian/Urdu lexical review; distinguished Persian آینه from Urdu آئینہ, replaced placeholder evidence with language-specific lexical entries, revoked unsupported tier-1 certification, lowered gender confidence pending regional data, corrected SEO copy, and synchronized FAQ structured data.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -350,7 +369,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Aaina",
-          "description": "Aaina — a Persian-origin given name meaning Mirror",
+          "description": "Aaina represents Persian آینه and Urdu آئینہ, meaning “mirror” or “looking-glass.” The lexical meaning is supported by Persian/Urdu references; exact-spelling name frequency and regional gender usage are not established here.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
