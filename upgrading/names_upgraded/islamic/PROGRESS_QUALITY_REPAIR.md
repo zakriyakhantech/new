@@ -442,3 +442,22 @@
 
 - All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
 - Exact forms, historical claims, and name-use frequency remain open where flagged; no record is declared fully verified.
+
+
+## Batch reviewed on 2026-10-16 — records 242–251
+
+242. `abraha.json` — corrected the historical “Year of the Elephant” context so it is not presented as a verified lexical meaning; removed conflicting “father of Ishmael” translations.
+243. `abraham.json` — separated Hebrew/English Abraham from Arabic Ibrahim and removed the Hebrew etymology as a direct Arabic meaning.
+244. `abrahim.json` — clarified Abrahim as a candidate romanization variant of Ibrahim; Hebrew “father of many nations” is not a direct Arabic lexical gloss.
+245. `abram.json` — corrected the language/script from Arabic إبراهيم to Hebrew אַבְרָם and kept the traditional “exalted father” etymology source-dependent.
+246. `abrar.json` — corrected the righteousness/piety gloss and treated “fearer of Allah” as an interpretive extension.
+247. `abrash.json` — removed the unsupported “father of multitudes” folk gloss and left exact form/origin unresolved.
+248. `abrisham.json` — aligned locale translations with Persian ابریشم (“silk”) while keeping personal-name use unverified.
+249. `abru.json` — removed the Latin name repeated as its own meaning and left exact form/origin unresolved.
+250. `absalom.json` — corrected Hebrew אַבְשָׁלוֹם and the traditional “father of peace” interpretation; clarified that Arabic script was only a transcription.
+251. `absar.json` — corrected the major mismatch: أبصار is plural of بصر (“sight/vision”), not “servant of the Almighty.”
+
+### Batch 242–251 validation and limits
+
+- All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
+- Historical, Hebrew etymological, and Persian dictionary claims remain provisional until direct specialist sources are added; no record is declared fully verified.
