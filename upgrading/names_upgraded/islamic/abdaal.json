@@ -10,8 +10,8 @@
       "display_name": "Abdaal",
       "normalized_name": "abdaal",
       "name_type": "given_name",
-      "gender": "Male",
-      "gender_confidence": "HIGH",
+      "gender": "Unknown",
+      "gender_confidence": "LOW",
       "gender_note": "Gender is recorded from documented naming usage, not inferred from the word's meaning.",
       "alternate_spellings": [
         "Abdaal",
@@ -21,11 +21,11 @@
       "name_status": "attested"
     },
     "core_meaning": {
-      "short_meaning": "Substitutes, saints (plural)",
-      "primary_meaning": "Abdaal is an Arabic-origin name meaning “Substitutes, saints (plural)”.",
+      "short_meaning": "Substitutes/replacements; also a term in Sufi traditions",
+      "primary_meaning": "Abdaal corresponds to Arabic أبدال, a plural form with lexical senses related to substitutes/replacements; its use as a personal name and the religious title “saints” require separate evidence.",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "Abdaal corresponds to the Arabic form أَبْدَال (Arabic root ب د ل (b-d-l); أَبْدَال (Abdāl)). Its core sense is abdaal; substitutes, saints (plural). Abdaal is Arabic أَبْدَال (Abdāl), the plural of بَدَل, used as a male given name.",
-      "meaning_confidence": "HIGH"
+      "meaning_explanation": "The word is plural, so it should not be presented as a singular personal-name meaning without qualification. The specialized Sufi/religious use of al-abdāl should be distinguished from the basic lexical sense and sourced separately.",
+      "meaning_confidence": "MEDIUM"
     },
     "etymology": {
       "primary_language": "Arabic",
@@ -253,39 +253,39 @@
     "faq": [
       {
         "q": "What does Abdaal mean?",
-        "a": "Abdaal is an Arabic-origin name meaning “Substitutes, saints (plural)”."
+        "a": "أبدال is plural and has lexical senses related to substitutes/replacements; specialized religious usage requires separate sourcing."
       },
       {
         "q": "What is the origin of Abdaal?",
-        "a": "Abdaal originates in Arabic and circulates in Muslim naming communities."
+        "a": "The recorded form is Arabic أبدال."
       },
       {
         "q": "Is Abdaal an Arabic name?",
-        "a": "Yes, the recorded form أَبْدَال is Arabic."
+        "a": "The lexical form is Arabic; personal-name use is not established by the dictionary gloss alone."
       },
       {
         "q": "What is the root of Abdaal?",
-        "a": "It is built on the root ب د ل (b-d-l)."
+        "a": "The recorded root is ب د ل."
       },
       {
         "q": "Is Abdaal an Islamic name?",
-        "a": "Abdaal is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "The specialized religious title needs a dedicated source and should not be asserted from the plural alone."
       },
       {
         "q": "Is Abdaal a Quranic name?",
-        "a": "Abdaal is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish Abdaal as a Qur'anic personal name."
       },
       {
         "q": "What does Abdaal mean in Urdu?",
-        "a": "In Urdu it is written ابدال and carries the sense “ابدال، نیک لوگ”."
+        "a": "A verified Urdu personal-name gloss is not established; the word is plural."
       },
       {
         "q": "How is Abdaal pronounced?",
-        "a": "A romanized syllable approximation is “ab-daal”."
+        "a": "Pronunciation is approximate and transliteration-dependent."
       },
       {
         "q": "Is Abdaal a boy's or girl's name?",
-        "a": "Documented usage records Abdaal as a boy's name; actual use can vary by community."
+        "a": "A plural lexical form does not establish modern personal-name gender."
       }
     ],
     "seo": {
@@ -325,24 +325,39 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "plural_form_personal_name_usage_unverified",
+        "specialized_religious_claim_needs_source",
+        "gender_distribution_unverified"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 152,
-      "quality_score": 95,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root present; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 80,
+      "quality_score_basis": "Provisional editorial score only; dictionary meaning does not certify personal-name usage, religious status, or translation quality."
     },
     "evidence": {
-      "sources": [
-        "The recorded Arabic form أَبْدَال carries the sense “Substitutes, saints (plural)”."
+      "sources": [],
+      "verification_method": "Checked only listed lexical/reference sources. Name usage, gender distribution, cultural context, and native-speaker translation quality require separate evidence.",
+      "claim_evidence": [
+        {
+          "claim": "No direct lexical source for أبدال was checked in this pass; plural morphology and specialized religious usage need source-specific review.",
+          "source": null,
+          "status": "no_direct_source_checked; claims_not_verified"
+        },
+        {
+          "claim": "Personal-name usage, frequency, and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "NO_DIRECT_SOURCE_CHECKED; CLAIMS_UNVERIFIED"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Checked listed lexical sources; corrected nisba, compound, gendered translation, and plural-form issues; kept unsupported name-use claims provisional.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -350,7 +365,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abdaal",
-          "description": "Abdaal — an Arabic-origin given name meaning Substitutes, saints (plural)",
+          "description": "Abdaal — Abdaal corresponds to Arabic أبدال, a plural form with lexical senses related to substitutes/replacements; its use as a personal name and the religious title “saints” require separate evidence.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -364,7 +379,7 @@
               "name": "What does Abdaal mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdaal is an Arabic-origin name meaning “Substitutes, saints (plural)”."
+                "text": "أبدال is plural and has lexical senses related to substitutes/replacements; specialized religious usage requires separate sourcing."
               }
             },
             {
@@ -372,7 +387,7 @@
               "name": "What is the origin of Abdaal?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdaal originates in Arabic and circulates in Muslim naming communities."
+                "text": "The recorded form is Arabic أبدال."
               }
             },
             {
@@ -380,7 +395,7 @@
               "name": "Is Abdaal an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form أَبْدَال is Arabic."
+                "text": "The lexical form is Arabic; personal-name use is not established by the dictionary gloss alone."
               }
             },
             {
@@ -388,7 +403,7 @@
               "name": "What is the root of Abdaal?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "It is built on the root ب د ل (b-d-l)."
+                "text": "The recorded root is ب د ل."
               }
             },
             {
@@ -396,7 +411,7 @@
               "name": "Is Abdaal an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdaal is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "The specialized religious title needs a dedicated source and should not be asserted from the plural alone."
               }
             },
             {
@@ -404,7 +419,7 @@
               "name": "Is Abdaal a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdaal is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish Abdaal as a Qur'anic personal name."
               }
             },
             {
@@ -412,7 +427,7 @@
               "name": "What does Abdaal mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written ابدال and carries the sense “ابدال، نیک لوگ”."
+                "text": "A verified Urdu personal-name gloss is not established; the word is plural."
               }
             },
             {
@@ -420,7 +435,7 @@
               "name": "How is Abdaal pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “ab-daal”."
+                "text": "Pronunciation is approximate and transliteration-dependent."
               }
             },
             {
@@ -428,7 +443,7 @@
               "name": "Is Abdaal a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abdaal as a boy's name; actual use can vary by community."
+                "text": "A plural lexical form does not establish modern personal-name gender."
               }
             }
           ]
@@ -459,11 +474,15 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "plural_form_personal_name_usage_unverified",
+        "specialized_religious_claim_needs_source",
+        "gender_distribution_unverified"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; name-use/translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,
