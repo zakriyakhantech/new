@@ -11,14 +11,20 @@ Last updated: 2026-10-16
 - Record each completed file and any unresolved verification needs here.
 
 ## Progress
-- Individually edited and committed: 7 records
+- Individually edited and committed: 8 records
 - Fully source-verified / tier-1 certified: 0 records
 - Remaining records: total inventory must be reconciled against the live repository before stating a final count.
-- Last completed: `upgrading/names_upgraded/islamic/aabish.json`
-- Latest record commit: `fac7ffab21f4775d02851f619c95d1f478d38c29`
+- Last completed: `upgrading/names_upgraded/islamic/aad.json`
+- Latest record commit: `d284854149e9d2701e0407133333fe5f04fb2bc5`
 - Next action: inspect the next unreviewed Islamic JSON record alphabetically and review it individually.
 
 ## Record log
+
+### 8. Aad — scriptural referent checked; modern name usage pending
+- Checked Qur’an 11:50, which names the people of ʿĀd in the account of Hud.
+- Distinguished the ethnonym from claims about modern personal-name meaning and etymology.
+- Changed gender to unknown and synchronized FAQ/structured-data answers.
+- Outstanding: evidence of modern given-name usage, gender distribution, and native review of Arabic/Pashto translations.
 
 ### 7. Aabish — researched; meaning deliberately remains unverified
 - Searched the exact spelling and the stored script form عابش.
