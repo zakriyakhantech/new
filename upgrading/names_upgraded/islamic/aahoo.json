@@ -11,8 +11,8 @@
       "normalized_name": "aahoo",
       "name_type": "given_name",
       "gender": "Female",
-      "gender_confidence": "HIGH",
-      "gender_note": "Gender is recorded from documented naming usage, not inferred from the word's meaning.",
+      "gender_confidence": "MEDIUM",
+      "gender_note": "Aahoo is presented as a feminine name in some naming contexts, but this record has no independent registration data quantifying gender distribution by region. The gender label is provisional.",
       "alternate_spellings": [
         "Aahoo",
         "aahoo",
@@ -24,7 +24,7 @@
       "short_meaning": "Gazelle",
       "primary_meaning": "Aahoo corresponds to the Persian form آهو and is glossed in this record as “Gazelle.” The lexical gloss describes the word-form; Qur’anic occurrence, religious recommendation, popularity, and a name-bearer’s character are separate claims and are not established by this gloss alone.",
       "literal_meaning": "Gazelle",
-      "meaning_explanation": "Aahoo corresponds to the Persian form آهو (Persian آهو (āhū)). Its core sense is gazelle. Aahoo is Persian آهو (āhū) 'gazelle'. CRITICAL SOURCE ERROR: the source gave the Latin string 'Aahoo' instead of a script form and labelled the origin Arabic; the name is Persian. The source gloss 'Jasmine' is unsupported and has been replaced with the lexical sense.",
+      "meaning_explanation": "Aahoo represents Persian آهو (āhū), the Persian word for “gazelle.” The form is Persian; writing it in a script also used for Arabic does not make it an Arabic word. This lexical meaning does not establish the frequency of the exact Latin spelling as a personal name.",
       "meaning_confidence": "HIGH"
     },
     "etymology": {
@@ -290,9 +290,9 @@
     ],
     "seo": {
       "title": "Aahoo Name Meaning, Origin & Islamic Context",
-      "meta_description": "Aahoo (آهو) — meaning, origin, pronunciation and Islamic naming context.",
+      "meta_description": "Aahoo (آهو, āhū) is Persian for “gazelle,” also used as a name. Exact-spelling popularity and regional gender distribution are not established here.",
       "meta_keywords": "Aahoo meaning, Aahoo name meaning, Aahoo origin, Aahoo meaning in Urdu, Aahoo pronunciation, Aahoo Islamic name",
-      "description_paragraph": "Aahoo (آهو) is recorded with the meaning “Aahoo is a Persian-origin name meaning “Gazelle”.”. This entry distinguishes the proposed lexical meaning from cultural use in Muslim communities and identifies claims that may require further source review.",
+      "description_paragraph": "Aahoo (آهو, āhū) is a Persian word meaning “gazelle,” also used as a personal name. Persian lexical origin is distinct from Arabic origin or Qur’anic status; exact-spelling name frequency and regional gender data are not established here.",
       "keywords": [
         "Aahoo meaning",
         "Aahoo name meaning",
@@ -311,7 +311,7 @@
       ],
       "canonical_url": "https://nameverse.site/names/islamic/aahoo",
       "seo_score": 90,
-      "seo_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "seo_score_basis": "Provisional editorial estimate: 85/100. Core Persian lexical meaning is source-checked; exact spelling frequency, regional gender data, native-speaker review, and deployed rendering remain open."
     },
     "seo_content": {
       "intro_paragraph": "Learn about Aahoo, including its recorded meaning, language, pronunciation and naming context. The entry treats linguistic origin and religious association as separate questions.",
@@ -326,23 +326,37 @@
     ],
     "content_quality": {
       "tier1_verified": false,
-      "authenticity_flags": [],
+      "authenticity_flags": [
+        "exact_aahoo_spelling_frequency_not_verified",
+        "regional_gender_distribution_not_verified",
+        "persian_native_review_pending"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 152,
-      "quality_score": 82,
-      "quality_score_basis": "Provisional editorial score after structural consistency checks; not a certification of linguistic accuracy."
+      "quality_score": 85,
+      "quality_score_basis": "Provisional editorial estimate: 85/100. Persian آهو and its “gazelle” meaning are source-checked; the record separates Persian origin from Arabic and scriptural claims. Exact spelling frequency, regional gender data, Persian native-speaker review, and deployed rendering remain unverified.",
+      "tier1_verified_scope": "Persian lexical form and core meaning checked; exact spelling frequency, regional gender distribution, native review, and rendered page remain uncertified."
     },
     "evidence": {
       "sources": [
-        "The recorded Persian form آهو carries the sense “Gazelle”."
+        "https://fa.wiktionary.org/wiki/%D8%A2%D9%87%D9%88",
+        "https://en.wiktionary.org/wiki/%D8%A2%D9%87%D9%88"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Checked Persian Wiktionary for آهو and its lexical meaning “gazelle.” This supports the Persian word and gloss, but does not independently establish frequency of the exact Latin spelling Aahoo, regional gender distribution, or deeper historical etymology.",
+      "claim_evidence": [
+        {
+          "claim": "Persian آهو (āhū) means “gazelle”",
+          "source": "https://fa.wiktionary.org/wiki/%D8%A2%D9%87%D9%88",
+          "status": "Persian_lexical_entry_checked"
+        }
+      ],
+      "claim_evidence_status": "PERSIAN_LEXICAL_FORM_AND_CORE_MEANING_CHECKED; EXACT_LATIN_SPELLING_FREQUENCY_AND_REGIONAL_GENDER_NOT_VERIFIED"
     },
     "provenance": {
       "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "methodology": "Individual Persian lexical review for آهو; added claim-level dictionary evidence, removed repetitive core-meaning wording, lowered gender confidence pending regional data, corrected SEO description, and synchronized FAQ structured data.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -350,7 +364,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Aahoo",
-          "description": "Aahoo — a Persian-origin given name meaning Gazelle",
+          "description": "Aahoo (آهو, āhū) is a Persian word meaning “gazelle,” also used as a personal name. Persian lexical origin is distinct from Arabic origin or Qur’anic status; exact-spelling name frequency and regional gender data are not established here.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
