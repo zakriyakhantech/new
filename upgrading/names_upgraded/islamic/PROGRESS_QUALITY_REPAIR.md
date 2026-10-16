@@ -385,3 +385,22 @@
 
 - All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
 - Incomplete forms remain unresolved, and unsourced compound components are not marked fully verified.
+
+
+## Batch reviewed on 2026-10-16 — records 212–221
+
+212. `abed.json` — added a direct lexicon source for عابد (“worshipper/devotee”) and kept name frequency separate.
+213. `abeda.json` — corrected masculine translations in a feminine-form record to feminine equivalents.
+214. `abedin.json` — corrected the “follower” translation mismatch to the lexical worshipper/devotee field and flagged the plural form's personal-name use.
+215. `abeed.json` — clarified that عبيد is commonly romanized Ubayd/ʿUbayd; the exclusive diminutive gloss remains provisional.
+216. `abeel.json` — removed the unsupported “gentle, kind, devoted” gloss and marked the exact form/meaning unverified.
+217. `abeer.json` — added a direct lexical source for عبير (“fragrance/perfume”) and separated lexical meaning from name-frequency claims.
+218. `abeera.json` — retained the fragrance-related feminine-form interpretation but flagged direct form-specific sourcing and translation review.
+219. `abena.json` — corrected the Akan record so Arabic-script أَبِينَا is no longer presented as native Akan orthography; the Tuesday gloss remains provisional pending an Akan source.
+220. `abi.json` — removed the unsupported “fatherly/paternal” gloss; أبي is ambiguous without vowel marks and may mean “my father,” while أَبِيّ is a different form.
+221. `abia.json` — removed the Latin name being repeated as its own meaning and left origin/form/translations unverified.
+
+### Batch 212–221 validation and limits
+
+- All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
+- Exact lexical form, personal-name usage, and native translations remain unverified where flagged; no record is declared fully verified.
