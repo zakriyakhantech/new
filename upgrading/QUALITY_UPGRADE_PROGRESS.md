@@ -11,14 +11,22 @@ Last updated: 2026-10-16
 - Record each completed file and any unresolved verification needs here.
 
 ## Progress
-- Individually edited and committed: 12 records
+- Individually edited and committed: 13 records
 - Fully source-verified / tier-1 certified: 0 records
 - Remaining records: total inventory must be reconciled against the live repository before stating a final count.
-- Last completed: `upgrading/names_upgraded/islamic/aadila.json`
+- Last completed: `upgrading/names_upgraded/islamic/aadilah.json`
 - Latest record commit: `245d345dc0387a57ae43761d6d43100850eb86bb
-- Next action: inspect `upgrading/names_upgraded/islamic/aadilah.json` next, then continue alphabetically one record per commit.
+- Next action: inspect `upgrading/names_upgraded/islamic/aaf.json` next, then continue alphabetically one record per commit.
 
 ## Record log
+
+### 13. Aadilah — feminine form clarified; exact spelling usage pending
+- Checked Lane’s Lexicon entries for عادل and root ع د ل; dictionary evidence supports the justice/equity semantic field.
+- Removed repetitive wording and clarified عادلة as the feminine form corresponding to عادل.
+- Added traceable source URLs, explicit evidence limitations, and a missing FAQ; synchronized FAQ structured data.
+- Reduced gender confidence for the exact Latin spelling because regional registration data is absent.
+- Provisional editorial score: 84/100; tier-1 remains false.
+- Outstanding: direct lexical citation for the feminine form, exact-spelling frequency, regional naming data, Arabic/Pashto native-speaker review, and deployed HTML validation.
 
 ### 12. Aadila — feminine Arabic form reviewed; exact spelling usage pending
 - Checked Lane’s Lexicon entries for عادل and root ع د ل; the dictionary supports the justice/equity semantic field.
