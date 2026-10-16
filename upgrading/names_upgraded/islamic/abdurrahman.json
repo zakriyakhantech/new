@@ -332,18 +332,33 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "compound_component_sources_incomplete",
+        "regional_transliteration_review_required",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 151,
-      "quality_score": 90,
+      "quality_score": 82,
       "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
     },
     "evidence": {
-      "sources": [
-        "The recorded Arabic form عَبْدُ الرَّحْمَن carries the sense “Servant of the Most Merciful”."
+      "sources": [],
+      "verification_method": "No direct component-level source was checked for this compound in this pass; meaning remains provisional.",
+      "claim_evidence": [
+        {
+          "claim": "Arabic compound عبد الرحمن and its regional transliterations",
+          "source": null,
+          "status": "compound_lexical_source_needed"
+        },
+        {
+          "claim": "Personal-name usage, regional transmission, and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "COMPOUND_COMPONENT_SOURCES_NEEDED; NAME_USAGE_AND_TRANSLATIONS_PENDING"
     },
     "provenance": {
       "pipeline": "NameVerse evidence-led batch review",
@@ -466,11 +481,14 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "compound_component_sources_incomplete",
+        "regional_transliteration_review_required"
+      ],
+      "confidence": "MEDIUM",
+      "reviewed_by": "NameVerse evidence-led review; compound source and translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,
