@@ -10,9 +10,9 @@
       "display_name": "Aafaq",
       "normalized_name": "aafaq",
       "name_type": "given_name",
-      "gender": "Male",
-      "gender_confidence": "HIGH",
-      "gender_note": "Gender is recorded from documented naming usage, not inferred from the word's meaning.",
+      "gender": "Unknown",
+      "gender_confidence": "LOW",
+      "gender_note": "The lexical form آفاق is established, but this record has no independent registration or survey data for gender distribution among people named Aafaq. Gender is therefore left unknown rather than inferred from a general name-list label.",
       "alternate_spellings": [
         "Aafaq",
         "aafaq",
@@ -284,14 +284,14 @@
       },
       {
         "q": "Is Aafaq a boy's or girl's name?",
-        "a": "This record does not include independent naming-registration data establishing the gender distribution of Aafaq. Treat gender labels as provisional unless supported by reliable usage evidence."
+        "a": "This record does not include independent naming-registration or survey data establishing gender distribution for Aafaq. Gender is therefore left unverified rather than inferred from a name-list label."
       }
     ],
     "seo": {
       "title": "Aafaq Name Meaning, Origin & Islamic Context",
-      "meta_description": "Aafaq (آفاق) — meaning, origin, pronunciation and Islamic naming context.",
+      "meta_description": "Aafaq (آفاق) — Arabic plural of أُفُق (ufuq), meaning horizons; contextual senses include regions or extents. Name frequency and gender distribution are not measured here.",
       "meta_keywords": "Aafaq meaning, Aafaq name meaning, Aafaq origin, Aafaq meaning in Urdu, Aafaq pronunciation, Aafaq Islamic name",
-      "description_paragraph": "Aafaq (آفاق) is the Arabic plural of أُفُق (ufuq), meaning “horizon.” Depending on context, it can also refer to regions or extents, and figuratively to outlooks. Lexical meaning is distinct from evidence about personal-name usage or religious status.",
+      "description_paragraph": "Aafaq (آفاق) is the Arabic plural of أُفُق (ufuq), meaning horizon. Depending on context, it can refer to regions or extents and figuratively to outlooks. These lexical senses are dictionary-supported; personal-name frequency and gender distribution require separate evidence.",
       "keywords": [
         "Aafaq meaning",
         "Aafaq name meaning",
@@ -328,24 +328,42 @@
       "authenticity_flags": [
         "No independent dictionary citation stored in the record",
         "Pashto and Arabic translations require native review",
-        "Personal-name gender distribution not independently established"
+        "Personal-name gender distribution not independently established",
+        "personal_name_gender_distribution_not_verified",
+        "regional_name_frequency_not_verified",
+        "arabic_and_pashto_native_review_pending"
       ],
       "fabricated_content_removed": true,
       "fields_total": 153,
-      "quality_score": null,
-      "quality_score_basis": "Not numerically scored in this focused review; factual clarity prioritized over an unsupported score."
+      "quality_score": 87,
+      "quality_score_basis": "Provisional editorial estimate: 87/100. The Arabic lexical form آفاق, its plural relation to أُفُق, and core semantic field were checked against two dictionary references. Modern personal-name frequency/gender, native-language translation review, and deployed rendering remain unverified.",
+      "tier1_verified_scope": "Arabic lexical meaning checked; regional name usage, gender distribution, translations, and rendered page remain uncertified."
     },
     "evidence": {
       "sources": [
-        "No named dictionary citation is stored in this record; verify against a reputable Arabic dictionary before tier-1 verification."
+        "https://www.laneslexicon.com/word/%D8%A3%D9%81%D9%82/n942",
+        "https://www.arabdict.com/ar/%D8%B9%D8%B1%D8%A8%D9%8A-%D8%B9%D8%B1%D8%A8%D9%8A/%D8%A7%D9%84%D8%A7%D9%81%D9%82"
       ],
-      "verification_method": "Editorial review of internal consistency and Arabic morphology; external source verification and native-language review remain outstanding."
+      "verification_method": "Independently checked Lane’s Lexicon for أُفُق and a modern Arabic dictionary entry for أفق/آفاق. These support the Arabic noun’s senses “horizon,” “region/tract,” and the plural آفاق. They do not establish modern personal-name frequency or gender distribution for Aafaq.",
+      "claim_evidence": [
+        {
+          "claim": "أُفُق means a horizon, side/region/tract; plural آفاق",
+          "source": "https://www.laneslexicon.com/word/%D8%A3%D9%81%D9%82/n942",
+          "status": "dictionary_entry_checked"
+        },
+        {
+          "claim": "Modern Arabic dictionary records أفق with plural آفاق and contextual horizon/region senses",
+          "source": "https://www.arabdict.com/ar/%D8%B9%D8%B1%D8%A8%D9%8A-%D8%B9%D8%B1%D8%A8%D9%8A/%D8%A7%D9%84%D8%A7%D9%81%D9%82",
+          "status": "dictionary_entry_checked"
+        }
+      ],
+      "claim_evidence_status": "ARABIC_LEXICAL_FORM_AND_MEANING_CHECKED; PERSONAL_NAME_FREQUENCY_AND_GENDER_DISTRIBUTION_NOT_VERIFIED"
     },
     "provenance": {
       "pipeline": "NameVerse Production v8",
-      "methodology": "Individual editorial review of lexical meaning, context-dependent glosses, translation consistency, and unsupported claims; external source verification remains pending.",
+      "methodology": "Second-pass source verification: checked Lane’s Lexicon and a modern Arabic dictionary for أُفُق/آفاق; added source-level evidence, removed unsupported male-gender confidence, revised SEO description, and synchronized FAQ structured data. Exact name frequency and native translation review remain open.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-16T04:43:00+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -353,7 +371,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Aafaq",
-          "description": "Aafaq (آفاق) is the Arabic plural of أُفُق (ufuq), meaning “horizon”; figurative senses depend on context.",
+          "description": "Aafaq (آفاق) is the Arabic plural of أُفُق (ufuq), meaning horizon. Depending on context, it can refer to regions or extents and figuratively to outlooks. These lexical senses are dictionary-supported; personal-name frequency and gender distribution require separate evidence.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -431,7 +449,7 @@
               "name": "Is Aafaq a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "This record does not include independent naming-registration data establishing the gender distribution of Aafaq. Treat gender labels as provisional unless supported by reliable usage evidence."
+                "text": "This record does not include independent naming-registration or survey data establishing gender distribution for Aafaq. Gender is therefore left unverified rather than inferred from a name-list label."
               }
             }
           ]
