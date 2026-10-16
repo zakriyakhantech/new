@@ -309,3 +309,22 @@
 
 - All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
 - Regional transmission, historical identity, exact compound spelling, and native translation quality remain open where noted; no record is declared fully verified.
+
+
+## Batch reviewed on 2026-10-16 — records 172–181
+
+172. `abdul.json` — clarified عبد الـ is an incomplete compound prefix (“servant of the…”), not a fully resolved standalone meaning.
+173. `abdulazeez.json` — attached a direct lexicon source for العزيز and flagged Abdulazeez/Abdulaziz as candidate romanization variants.
+174. `abdulaziz.json` — attached the same component source and candidate variant flag.
+175. `abdulbari.json` — marked the compound gloss provisional until الباري has a direct component source and translations receive native review.
+176. `abdulbaseer.json` — marked the compound gloss provisional pending direct component-level source review.
+177. `abdulfattah.json` — marked the compound gloss provisional pending direct component-level source review.
+178. `abdulghaffar.json` — marked the compound gloss provisional pending direct component-level source review.
+179. `abdulghani.json` — marked the compound gloss provisional pending direct component-level source review.
+180. `abdulhadi.json` — marked the compound gloss provisional pending direct component-level source review.
+181. `abdulhakim.json` — marked the compound gloss provisional pending direct component-level source review.
+
+### Batch 172–181 validation and limits
+
+- All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
+- Compound glosses remain provisional unless all components are sourced; name-use, frequency, and fluent translation review remain outstanding.
