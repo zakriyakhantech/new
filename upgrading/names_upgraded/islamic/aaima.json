@@ -11,8 +11,8 @@
       "normalized_name": "aaima",
       "name_type": "given_name",
       "gender": "Female",
-      "gender_confidence": "HIGH",
-      "gender_note": "Gender is recorded from documented naming usage, not inferred from the word's meaning.",
+      "gender_confidence": "LOW",
+      "gender_note": "The grammatical gender of the proposed Arabic form عائمة does not establish the gender distribution of the personal-name spelling Aaima. Independent naming data for this exact spelling is absent.",
       "alternate_spellings": [
         "Aaima",
         "aaima",
@@ -24,7 +24,7 @@
       "short_meaning": "Exact name meaning unverified",
       "primary_meaning": "The record lists Arabic عائمة (ʿāʾima), a feminine word associated with floating or swimming, but the connection between that form and the exact Latin spelling Aaima is not established. The meaning of the personal-name spelling should remain unverified until its intended Arabic form is confirmed.",
       "literal_meaning": "The listed Arabic word عائمة is associated with floating or swimming; the exact name spelling Aaima is not verified.",
-      "meaning_explanation": "The Latin spelling Aaima is ambiguous and may be confused with other Arabic forms. A lexical meaning for عائمة cannot be assigned to Aaima without evidence that this is the intended spelling.",
+      "meaning_explanation": "The proposed Arabic form عائمة (ʿāʾima) is related to the lexical field of floating or swimming, but the exact Latin spelling Aaima is ambiguous. A dictionary gloss for عائمة cannot safely be assigned to the personal name unless a reliable source confirms that this is the intended Arabic form.",
       "meaning_confidence": "LOW"
     },
     "etymology": {
@@ -291,9 +291,9 @@
     ],
     "seo": {
       "title": "Aaima Name Meaning, Origin & Islamic Context",
-      "meta_description": "Aaima (عائمة) — meaning, origin, pronunciation and Islamic naming context.",
+      "meta_description": "Aaima — the exact name meaning, origin, and Arabic-script form are unverified; a proposed link to عائمة (floating/swimming) is not established.",
       "meta_keywords": "Aaima meaning, Aaima name meaning, Aaima origin, Aaima meaning in Urdu, Aaima pronunciation, Aaima Islamic name",
-      "description_paragraph": "Aaima (عائمة) is recorded with the meaning “Aaima is an Arabic-origin name meaning “Swimmer, one who swims”.”. This entry distinguishes the proposed lexical meaning from cultural use in Muslim communities and identifies claims that may require further source review.",
+      "description_paragraph": "The exact meaning and origin of Aaima are unverified. The record lists Arabic عائمة, associated with floating or swimming, but no reliable source establishes that this is the intended Arabic form behind the Latin spelling Aaima.",
       "keywords": [
         "Aaima meaning",
         "Aaima name meaning",
@@ -312,7 +312,7 @@
       ],
       "canonical_url": "https://nameverse.site/names/islamic/aaima",
       "seo_score": 95,
-      "seo_score_basis": "9 distinct FAQs; gloss verified; root present; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "seo_score_basis": "Provisional editorial estimate: 70/100. SEO copy now accurately reflects the unresolved name-to-script mapping; exact name identity, pronunciation, and regional usage remain open."
     },
     "seo_content": {
       "intro_paragraph": "Learn about Aaima, including its recorded meaning, language, pronunciation and naming context. The entry treats linguistic origin and religious association as separate questions.",
@@ -327,23 +327,49 @@
     ],
     "content_quality": {
       "tier1_verified": false,
-      "authenticity_flags": [],
+      "authenticity_flags": [
+        "exact_aaima_name_form_unverified",
+        "latin_to_arabic_script_mapping_unverified",
+        "pronunciation_unverified",
+        "regional_gender_distribution_not_verified",
+        "native_review_pending"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 155,
-      "quality_score": 82,
-      "quality_score_basis": "Provisional editorial score after structural consistency checks; not a certification of linguistic accuracy."
+      "quality_score": 70,
+      "quality_score_basis": "Provisional editorial estimate: 70/100. The related Arabic lexical field is checked, but the exact name-to-script mapping, origin, pronunciation, and regional gender usage remain unresolved. This is not an accuracy certification.",
+      "tier1_verified_scope": "Related Arabic lexical field checked; exact Aaima spelling-to-script mapping, origin, pronunciation, gender distribution, and rendered page remain uncertified."
     },
     "evidence": {
       "sources": [
-        "The recorded Arabic form عائمة carries the sense “Swimmer, one who swims”."
+        "https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D8%A6%D9%85",
+        "https://www.laneslexicon.com/root/%D8%B9%D9%88%D9%85"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Checked lexical material for the Arabic form عائم and root ع و م to assess the proposed related word. This evidence concerns the Arabic lexical form only; it does not establish that the personal-name spelling Aaima represents عائمة. The exact name identity, origin, and pronunciation remain unresolved.",
+      "claim_evidence": [
+        {
+          "claim": "Arabic عائم/related forms are associated with floating or swimming",
+          "source": "https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D8%A6%D9%85",
+          "status": "related_lexical_entry_checked"
+        },
+        {
+          "claim": "Root ع و م is relevant to the proposed Arabic lexical analysis",
+          "source": "https://www.laneslexicon.com/root/%D8%B9%D9%88%D9%85",
+          "status": "dictionary_root_entry_checked"
+        },
+        {
+          "claim": "Exact Latin name Aaima corresponds to عائمة",
+          "source": null,
+          "status": "not_established"
+        }
+      ],
+      "claim_evidence_status": "RELATED_ARABIC_LEXEME_CHECKED; EXACT_AAIMA_NAME_FORM_AND_ETYMOLOGY_NOT_ESTABLISHED"
     },
     "provenance": {
       "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "methodology": "Individual ambiguity audit: checked the related Arabic lexical field but did not equate it with the personal name without evidence; added claim-level evidence status, corrected contradictory SEO metadata, lowered gender confidence, and synchronized FAQ structured data.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -351,7 +377,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Aaima",
-          "description": "Aaima — an Arabic-origin given name meaning Swimmer, one who swims",
+          "description": "The exact meaning and origin of Aaima are unverified. The record lists Arabic عائمة, associated with floating or swimming, but no reliable source establishes that this is the intended Arabic form behind the Latin spelling Aaima.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
