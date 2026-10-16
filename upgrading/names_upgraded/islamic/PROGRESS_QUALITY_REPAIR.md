@@ -328,3 +328,22 @@
 
 - All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
 - Compound glosses remain provisional unless all components are sourced; name-use, frequency, and fluent translation review remain outstanding.
+
+
+## Batch reviewed on 2026-10-16 — records 182–191
+
+182. `abdulhalim.json` — flagged direct component source and native translation review as incomplete.
+183. `abdulhameed.json` — flagged direct component source and native translation review as incomplete; candidate spelling variant with Abdulhamid.
+184. `abdulhamid.json` — flagged direct component source and native translation review as incomplete; candidate spelling variant with Abdulhameed.
+185. `abduljabbar.json` — flagged direct component source and native translation review as incomplete.
+186. `abdulkadir.json` — improved “Servant of the Capable” to the clearer contextual “Servant of the All-Powerful.”
+187. `abdulkarim.json` — flagged direct component source and native translation review as incomplete.
+188. `abdulkhaliq.json` — flagged direct component source and native translation review as incomplete.
+189. `abdullah.json` — attached a direct source for the عبد component; compound, name-use, and translation checks remain separate.
+190. `abdullatif.json` — flagged direct component source and native translation review as incomplete.
+191. `abdulmajid.json` — attached a direct source for مجيد and flagged the Abdulmajid/Abdelmajid transliteration pair for manual review.
+
+### Batch 182–191 validation and limits
+
+- All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
+- Compound names remain provisional until all components are sourced and native translations are reviewed; no record is declared fully verified.
