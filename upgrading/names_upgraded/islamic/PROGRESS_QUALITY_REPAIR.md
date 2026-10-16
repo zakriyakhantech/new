@@ -134,3 +134,24 @@
 - Remaining Islamic files have not yet been processed.
 - Meanings, etymologies, and translations have not been comprehensively checked against independent primary/lexical sources.
 - Continue in small batches, re-fetch after each write, validate, and update this log.
+
+
+## Batch reviewed on 2026-10-16 — records 82–91
+
+82. `aashif.json` — removed fabricated “Unknown-origin” and placeholder meaning claims. The exact Latin spelling remains unresolved; dictionary evidence for the related form Aasif (عاصف) was not treated as proof that Aashif is the same form. Lowered verification status and marked manual review required.
+83. `aashik.json` — added dictionary source mapping for the Arabic lexical root عشق and flagged Aashik/Aashiq as a candidate transliteration-variant pair for human review; no record was merged or deleted.
+84. `aashiq.json` — added dictionary source mapping and the same explicit variant-review flag for the shared Arabic form عاشق; no record was merged or deleted.
+85. `aashir.json` — removed the unsupported “one who associates with” gloss as the primary meaning. The lexical form عاشر has a documented ordinal sense related to “tenth”; personal-name interpretation and gender usage remain unverified.
+86. `aasia.json` — removed the unsupported “living water/flowing spring” gloss. A dictionary entry for the related form الآسية gives a support/pillar sense, but the exact personal-name meaning of آسية remains unresolved; traditional religious-historical association is kept separate from etymology.
+87. `aasif.json` — attached a direct Urdu-dictionary and Arabic-lexicon source for عاصف; lexical meaning is separated from personal-name frequency and scriptural status.
+88. `aasifah.json` — attached Arabic lexical evidence for عاصفة and retained native-translation and modern name-frequency review flags.
+89. `aasim.json` — attached Arabic lexical evidence for عاصم (“defender/protector”); name-frequency and translation review remain separate.
+90. `aasima.json` — corrected the contradiction between “capital city” and the translations/explanation. Both the protection-related feminine form and the separate noun sense “capital city” are recorded, with the distinction made explicit.
+91. `aasimah.json` — attached Arabic lexical evidence for عاصمة/عاصم and retained the distinction between lexical meaning and claims about modern naming use.
+
+### Batch 82–91 validation and limits
+
+- All ten records were written on branch `quality-gates/all-name-records-next`; no records were deleted or automatically merged.
+- Each record now carries source URLs and explicit evidence scope. The sources support the cited lexical claims only; they do not establish popularity, modern gender distribution, Qur'anic personal-name status, or fluent/native quality of all translations.
+- `aashik.json` and `aashiq.json` are flagged as a likely transliteration-variant pair for manual canonical/duplicate review. `aashif.json` is not equated with `aasif.json` because the recorded Arabic forms differ and the exact spelling remains unresolved.
+- All ten files were re-fetched from the working branch. JSON parsing succeeded for all 10; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL. Native-speaker review and name-use/frequency verification remain open.
