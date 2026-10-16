@@ -36,3 +36,10 @@ This is a review queue, not an instruction to delete or merge records. Preserve 
 ## Related but not automatically mergeable: Aasima / Aasimat
 - `aasima.json` uses `عاصمة`; `aasimat.json` uses `عاصمات`, a plural form.
 - These are morphologically related but not identical forms; personal-name usage for Aasimat remains unverified. Do not auto-merge.
+
+
+## Additional candidate transliteration groups
+- `Aatiqa / Aatiqah`: same recorded form `عتيقة`; review canonical route policy manually.
+- `Aatika / Aatikah`: same recorded form `عاتكة`; review separately from `عتيقة`, which is a different spelling.
+- `Aatira / Aatirah`: same recorded form `عاطرة`; likely romanization variants, not separate lexical forms.
+- `Aasma / Aasmaa`: same recorded form `أسماء`; likely romanization variants.
