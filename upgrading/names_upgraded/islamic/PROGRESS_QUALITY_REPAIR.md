@@ -233,3 +233,22 @@
 
 - All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
 - Records with no direct source checked are explicitly marked provisional/unverified; none is declared fully verified.
+
+
+## Batch reviewed on 2026-10-16 — records 132–141
+
+132. `aban.json` — marked conflicting meanings for أبان unresolved instead of allowing inconsistent English/Urdu/Persian/Indic translations.
+133. `abanah.json` — retained a provisional historical-name form but clarified that the search URL does not verify exact lexical meaning, identity, or gender.
+134. `abar.json` — removed folk/placeholder meaning claims and left exact form/origin unverified.
+135. `abasi.json` — corrected عباسي translations to “of/relating to ʿAbbās,” not “servant of Abbas.”
+136. `abasin.json` — removed placeholder meaning and left the non-standard exact form اباسين unresolved.
+137. `abba.json` — retained the Hausa “father” gloss as provisional because a direct Hausa dictionary source was not checked.
+138. `abbaas.json` — corrected the frowning/stern/lion lexical profile and Urdu translation; flagged Abbas spellings as candidate variants.
+139. `abbad.json` — clarified the worshipper/devotee sense and removed an over-literal “of God” component.
+140. `abbadah.json` — distinguished the noun عبادة (“worship/devotion”) from the unverified exact Latin personal-name form and gender claim.
+141. `abbas.json` — aligned the meaning and translations with the dictionary-supported frowning/stern sense and secondary lion sense; flagged candidate variants.
+
+### Batch 132–141 validation and limits
+
+- All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
+- No record in this batch is marked fully verified; unverified spellings, name usage, historical identity, and translation fluency remain open where noted.
