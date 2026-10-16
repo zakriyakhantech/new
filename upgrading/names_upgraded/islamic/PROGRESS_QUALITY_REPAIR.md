@@ -366,3 +366,22 @@
 
 - All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
 - Candidate variants are flagged for manual canonical review only; no routes were merged or deleted. Compound source and native translation review remain open.
+
+
+## Batch reviewed on 2026-10-16 — records 202–211
+
+202. `abdulsalam.json` — attached lexical support for سلام and flagged the compound/divine-epithet interpretation for review.
+203. `abdulsamad.json` — expanded the gloss of الصمد to acknowledge the “Eternal/Self-Sufficient” theological range rather than a single simplified word.
+204. `abdulwadood.json` — marked compound meaning provisional pending direct component-level sources and native translation review.
+205. `abdulwahab.json` — marked compound meaning provisional pending direct component-level sources and native translation review.
+206. `abdulwahid.json` — marked compound meaning provisional pending direct component-level sources and native translation review.
+207. `abdun.json` — removed any inferred meaning for non-standard recorded form عبدن; exact form remains unresolved.
+208. `abdur.json` — clarified that the form represents an incomplete عبد الـ prefix unless a complete compound is established.
+209. `abdurrahman.json` — expanded candidate variant review to include Abdulrahman, Abderrahman, and Abdirahman.
+210. `abdus.json` — clarified that the recorded spelling is not a complete compound; the intended full name is unresolved.
+211. `abdushakur.json` — corrected a major translation conflation: الشكور (thankfulness/appreciation-related) is not الكريم (“generous”).
+
+### Batch 202–211 validation and limits
+
+- All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
+- Incomplete forms remain unresolved, and unsourced compound components are not marked fully verified.
