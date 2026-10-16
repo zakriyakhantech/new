@@ -214,3 +214,22 @@
 - All ten records were re-fetched from the working branch. JSON parsing succeeded for all 10; each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
 - All ten remain not fully verified; personal-name usage, frequency, religious status, and fluent/native review of every translation are separate checks.
 - `aaus.json` intentionally has no direct lexical source for the asserted personal-name etymology; its meaning remains unverified rather than being assigned a speculative source.
+
+
+## Batch reviewed on 2026-10-16 — records 122–131
+
+122. `aayesha.json` — added a direct Arabic lexicon source for عائشة/عائش; kept popularity and translation review separate.
+123. `aazad.json` — marked the Persian آزاد gloss as provisional because no direct dictionary source was checked in this pass.
+124. `aazam.json` — retained the Arabic greatness-related gloss as provisional pending a direct dictionary source.
+125. `aazim.json` — retained the Arabic عظیم/عظيم gloss as provisional pending a direct dictionary source.
+126. `abaan.json` — removed conflicting meaning claims (“time” vs “first frost/time of stars”) and set the lexical meaning unresolved until sourced.
+127. `abaas.json` — aligned the meaning and Urdu translation with the lexicon's frowning/stern sense; noted a secondary lion-related sense.
+128. `ababil.json` — clarified that أبابيل is a plural Qur'anic expression for flocks/companies of birds; that alone does not establish personal-name usage.
+129. `abad.json` — flagged the mismatch between Latin Abad and Arabic عبد (normally romanized Abd); no equivalence assumed.
+130. `abai.json` — corrected “Kazakh male given name” as a category label rather than a meaning; recorded the Kazakh lexical sense “prudent/cautious.”
+131. `abaid.json` — distinguished Arabic عبيد from the Latin spelling Abaid, noted Ubayd/Ubaid as candidate romanizations, and marked the exclusive diminutive gloss for review.
+
+### Batch 122–131 validation and limits
+
+- All ten records were re-fetched from the working branch; JSON parsing succeeded, each has 9 FAQ entries, zero duplicate normalized questions, FAQPage parity, and a populated canonical URL.
+- Records with no direct source checked are explicitly marked provisional/unverified; none is declared fully verified.
