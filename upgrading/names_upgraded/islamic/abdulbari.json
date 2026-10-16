@@ -253,39 +253,39 @@
     "faq": [
       {
         "q": "What does Abdulbari mean?",
-        "a": "Abdulbari is an Arabic-origin name meaning “Servant of the Creator”."
+        "a": "The record gives عَبْدُ الْبَارِي as a compound of عبد plus a divine epithet; the full gloss remains provisional until each component is sourced."
       },
       {
         "q": "What is the origin of Abdulbari?",
-        "a": "Abdulbari originates in Arabic and circulates in Muslim naming communities."
+        "a": "The recorded compound is Arabic-script; regional transmission and modern name use require separate evidence."
       },
       {
         "q": "Is Abdulbari an Arabic name?",
-        "a": "Yes, the recorded form عَبْدُ الْبَارِي is Arabic."
+        "a": "The compound begins with عبد (“servant”) plus a divine epithet; each component should be verified independently."
       },
       {
         "q": "What is the root of Abdulbari?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "The full meaning depends on both components; this record's root and translation fields need specialist review."
       },
       {
         "q": "Is Abdulbari an Islamic name?",
-        "a": "Abdulbari is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "The compound has religious wording, but this record is not a separate naming recommendation."
       },
       {
         "q": "Is Abdulbari a Quranic name?",
-        "a": "Abdulbari is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish the Latin spelling as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Abdulbari mean in Urdu?",
-        "a": "In Urdu it is written عبدالباری and carries the sense “عبدالباری، باری کا بندہ”."
+        "a": "The Urdu translation is provisional and needs fluent review."
       },
       {
         "q": "How is Abdulbari pronounced?",
-        "a": "A romanized syllable approximation is “ab-dul-ba-ri”."
+        "a": "Pronunciation is approximate; regional transliteration conventions vary."
       },
       {
         "q": "Is Abdulbari a boy's or girl's name?",
-        "a": "Documented usage records Abdulbari as a boy's name; actual use can vary by community."
+        "a": "The record classifies it as male, but regional frequency data has not been supplied."
       }
     ],
     "seo": {
@@ -325,24 +325,39 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "compound_component_sources_incomplete",
+        "personal_name_frequency_not_verified",
+        "native_translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 152,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 82,
+      "quality_score_basis": "Provisional editorial score only; each compound component and locale translation requires direct source/native review."
     },
     "evidence": {
-      "sources": [
-        "The recorded Arabic form عَبْدُ الْبَارِي carries the sense “Servant of the Creator”."
+      "sources": [],
+      "verification_method": "Direct lexical source is listed only where checked. All other compound components need direct dictionary evidence; name use and translations require separate review.",
+      "claim_evidence": [
+        {
+          "claim": "No direct source was checked for all components of abdulbari; retain the existing compound gloss as provisional.",
+          "source": null,
+          "status": "no_direct_source_checked_for_all_components"
+        },
+        {
+          "claim": "Personal-name usage and all translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "COMPOUND_COMPONENT_SOURCES_NEEDED"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Reviewed compound structure; sourced the العزيز component where checked; marked unsourced components and all translations for further verification.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -350,7 +365,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abdulbari",
-          "description": "Abdulbari — an Arabic-origin given name meaning Servant of the Creator",
+          "description": "Abdulbari — Abdulbari is an Arabic-origin name meaning “Servant of the Creator”.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -364,7 +379,7 @@
               "name": "What does Abdulbari mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdulbari is an Arabic-origin name meaning “Servant of the Creator”."
+                "text": "The record gives عَبْدُ الْبَارِي as a compound of عبد plus a divine epithet; the full gloss remains provisional until each component is sourced."
               }
             },
             {
@@ -372,7 +387,7 @@
               "name": "What is the origin of Abdulbari?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdulbari originates in Arabic and circulates in Muslim naming communities."
+                "text": "The recorded compound is Arabic-script; regional transmission and modern name use require separate evidence."
               }
             },
             {
@@ -380,7 +395,7 @@
               "name": "Is Abdulbari an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عَبْدُ الْبَارِي is Arabic."
+                "text": "The compound begins with عبد (“servant”) plus a divine epithet; each component should be verified independently."
               }
             },
             {
@@ -388,7 +403,7 @@
               "name": "What is the root of Abdulbari?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "The full meaning depends on both components; this record's root and translation fields need specialist review."
               }
             },
             {
@@ -396,7 +411,7 @@
               "name": "Is Abdulbari an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdulbari is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "The compound has religious wording, but this record is not a separate naming recommendation."
               }
             },
             {
@@ -404,7 +419,7 @@
               "name": "Is Abdulbari a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdulbari is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish the Latin spelling as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -412,7 +427,7 @@
               "name": "What does Abdulbari mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عبدالباری and carries the sense “عبدالباری، باری کا بندہ”."
+                "text": "The Urdu translation is provisional and needs fluent review."
               }
             },
             {
@@ -420,7 +435,7 @@
               "name": "How is Abdulbari pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “ab-dul-ba-ri”."
+                "text": "Pronunciation is approximate; regional transliteration conventions vary."
               }
             },
             {
@@ -428,7 +443,7 @@
               "name": "Is Abdulbari a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abdulbari as a boy's name; actual use can vary by community."
+                "text": "The record classifies it as male, but regional frequency data has not been supplied."
               }
             }
           ]
@@ -459,11 +474,15 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "compound_component_sources_incomplete",
+        "personal_name_frequency_not_verified",
+        "native_translation_review_required"
+      ],
+      "confidence": "MEDIUM",
+      "reviewed_by": "NameVerse evidence-led review; component-level sources and native translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,
