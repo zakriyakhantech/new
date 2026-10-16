@@ -20,3 +20,19 @@ This is a review queue, not an instruction to delete or merge records. Preserve 
 - The lexical dictionaries cited in the records support lexical meanings only.
 - Personal-name frequency, regional gender distribution, Qur'anic personal-name claims, and translation fluency require separate evidence/review.
 - No names were deleted, merged, or declared fully verified by this report.
+
+
+## Candidate variant group: Aasia / Aasiya / Aasiyah / Aasiyyah
+- Files: `aasia.json`, `aasiya.json`, `aasiyah.json`, `aasiyyah.json`
+- All records point to the same recorded Arabic-script form `آسية`.
+- Recommended status: **candidate transliteration variants — manual review**. Keep routes until canonical policy and actual community spellings are reviewed.
+- The previously repeated “living water/flowing spring” gloss was not supported by the checked dictionary evidence and has been removed from the four records.
+
+## Candidate variant pair: Aasma / Aasmaa
+- Files: `aasma.json`, `aasmaa.json`
+- Both use Arabic `أسماء`, documented as the plural of `اسم` (“name”); this is distinct from `سماء` (“sky/heaven”).
+- Recommended status: **candidate transliteration variants — manual review**. Do not merge automatically.
+
+## Related but not automatically mergeable: Aasima / Aasimat
+- `aasima.json` uses `عاصمة`; `aasimat.json` uses `عاصمات`, a plural form.
+- These are morphologically related but not identical forms; personal-name usage for Aasimat remains unverified. Do not auto-merge.
