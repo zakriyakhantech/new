@@ -20,10 +20,10 @@
       "name_status": "attested"
     },
     "core_meaning": {
-      "short_meaning": "Servant of the Eternal",
-      "primary_meaning": "Abdulsamad is an Arabic-origin name meaning “Servant of the Eternal”.",
+      "short_meaning": "Servant of al-Ṣamad (the Eternal/Self-Sufficient)",
+      "primary_meaning": "Abdulsamad corresponds to Arabic عَبْدُ الصَّمَد (ʿAbd al-Ṣamad), commonly rendered “servant of al-Ṣamad,” an epithet associated with eternal self-sufficiency; “Eternal” alone is a simplified gloss.",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "Abdulsamad corresponds to the Arabic form عَبْدُ الصَّمَد (Arabic عبد (ʿAbd) + الصمد (al-Ṣamad)). Its core sense is abdulsamad; servant of the eternal. Abdulsamad is Arabic عَبْدُ الصَّمَد (ʿAbd al-Ṣamad), meaning 'servant of the Eternal'.",
+      "meaning_explanation": "The component الصمد has a rich Qur'anic/theological interpretation and is often rendered the Eternal, the Self-Sufficient, or the One upon whom all depend. The name's meaning should not be reduced to one English gloss without acknowledging this range.",
       "meaning_confidence": "HIGH"
     },
     "etymology": {
@@ -252,39 +252,39 @@
     "faq": [
       {
         "q": "What does Abdulsamad mean?",
-        "a": "Abdulsamad is an Arabic-origin name meaning “Servant of the Eternal”."
+        "a": "The compound means servant of al-Ṣamad; the epithet is commonly explained in terms of eternal self-sufficiency and dependence of all on God."
       },
       {
         "q": "What is the origin of Abdulsamad?",
-        "a": "Abdulsamad originates in Arabic and circulates in Muslim naming communities."
+        "a": "The recorded form is Arabic عبد الصمد."
       },
       {
         "q": "Is Abdulsamad an Arabic name?",
-        "a": "Yes, the recorded form عَبْدُ الصَّمَد is Arabic."
+        "a": "The compound combines عبد and الصمد."
       },
       {
         "q": "What is the root of Abdulsamad?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "The exact theological nuance of الصمد requires specialist lexical/religious sourcing."
       },
       {
         "q": "Is Abdulsamad an Islamic name?",
-        "a": "Abdulsamad is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "The compound has religious meaning; this record is not a separate naming recommendation."
       },
       {
         "q": "Is Abdulsamad a Quranic name?",
-        "a": "Abdulsamad is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish the Latin spelling as an explicitly named Qur'anic personal name."
       },
       {
         "q": "What does Abdulsamad mean in Urdu?",
-        "a": "In Urdu it is written عبدالصمد and carries the sense “عبدالصمد، صمد کا بندہ”."
+        "a": "The Urdu translation should reflect the nuanced meaning of الصمد and needs review."
       },
       {
         "q": "How is Abdulsamad pronounced?",
-        "a": "A romanized syllable approximation is “ab-dul-sa-mad”."
+        "a": "Pronunciation is approximate and transliteration-dependent."
       },
       {
         "q": "Is Abdulsamad a boy's or girl's name?",
-        "a": "Documented usage records Abdulsamad as a boy's name; actual use can vary by community."
+        "a": "Modern name frequency is not independently established."
       }
     ],
     "seo": {
@@ -324,24 +324,38 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "theological_epithet_requires_specialist_source",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 151,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 78,
+      "quality_score_basis": "Provisional editorial score only; incomplete forms or unsourced compound components require further verification."
     },
     "evidence": {
-      "sources": [
-        "The recorded Arabic form عَبْدُ الصَّمَد carries the sense “Servant of the Eternal”."
+      "sources": [],
+      "verification_method": "Direct source is listed only where checked. Unsourced compound components and all regional translations require separate verification.",
+      "claim_evidence": [
+        {
+          "claim": "No direct component-level lexical source was checked for الصمد in this pass; keep the theological gloss provisional.",
+          "source": null,
+          "status": "no_direct_source_checked; claim_provisional"
+        },
+        {
+          "claim": "Personal-name usage and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "DIRECT_COMPONENT_SOURCE_NEEDED"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Reviewed incomplete prefixes and compound-name components; corrected the شكور/كريم conflation; retained manual source and translation checks.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -349,7 +363,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abdulsamad",
-          "description": "Abdulsamad — an Arabic-origin given name meaning Servant of the Eternal",
+          "description": "Abdulsamad — Abdulsamad corresponds to Arabic عَبْدُ الصَّمَد (ʿAbd al-Ṣamad), commonly rendered “servant of al-Ṣamad,” an epithet associated with eternal self-sufficiency; “Eternal” alone is a simplified gloss.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -363,7 +377,7 @@
               "name": "What does Abdulsamad mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdulsamad is an Arabic-origin name meaning “Servant of the Eternal”."
+                "text": "The compound means servant of al-Ṣamad; the epithet is commonly explained in terms of eternal self-sufficiency and dependence of all on God."
               }
             },
             {
@@ -371,7 +385,7 @@
               "name": "What is the origin of Abdulsamad?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdulsamad originates in Arabic and circulates in Muslim naming communities."
+                "text": "The recorded form is Arabic عبد الصمد."
               }
             },
             {
@@ -379,7 +393,7 @@
               "name": "Is Abdulsamad an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عَبْدُ الصَّمَد is Arabic."
+                "text": "The compound combines عبد and الصمد."
               }
             },
             {
@@ -387,7 +401,7 @@
               "name": "What is the root of Abdulsamad?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "The exact theological nuance of الصمد requires specialist lexical/religious sourcing."
               }
             },
             {
@@ -395,7 +409,7 @@
               "name": "Is Abdulsamad an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdulsamad is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "The compound has religious meaning; this record is not a separate naming recommendation."
               }
             },
             {
@@ -403,7 +417,7 @@
               "name": "Is Abdulsamad a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abdulsamad is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish the Latin spelling as an explicitly named Qur'anic personal name."
               }
             },
             {
@@ -411,7 +425,7 @@
               "name": "What does Abdulsamad mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عبدالصمد and carries the sense “عبدالصمد، صمد کا بندہ”."
+                "text": "The Urdu translation should reflect the nuanced meaning of الصمد and needs review."
               }
             },
             {
@@ -419,7 +433,7 @@
               "name": "How is Abdulsamad pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “ab-dul-sa-mad”."
+                "text": "Pronunciation is approximate and transliteration-dependent."
               }
             },
             {
@@ -427,7 +441,7 @@
               "name": "Is Abdulsamad a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abdulsamad as a boy's name; actual use can vary by community."
+                "text": "Modern name frequency is not independently established."
               }
             }
           ]
@@ -458,11 +472,14 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "theological_epithet_requires_specialist_source",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; source/name-use/translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,
