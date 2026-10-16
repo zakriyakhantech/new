@@ -21,10 +21,10 @@
     },
     "core_meaning": {
       "short_meaning": "Full-figured, well-formed",
-      "primary_meaning": "Abla is an Arabic-origin name meaning “Full-figured, well-formed”.",
+      "primary_meaning": "Abla/Ablah corresponds to Arabic عبلة, with a lexical gloss often given as full-figured or well-formed; the exact personal-name nuance and historical ʿAntara association need direct sources.",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "Abla corresponds to the Arabic form عبلة (ع ب ل). Its core sense is full-figured, well-formed. ʿAbla ('full-figured, well-formed'). The name of the beloved of the pre-Islamic poet ʿAntara ibn Shaddād in the ʿAntara tradition.",
-      "meaning_confidence": "HIGH"
+      "meaning_explanation": "The records use the same Arabic form عبلة. The previous Ablah gloss “servant of Allah” is unsupported. Keep the body/shape-related dictionary gloss cautious and separate from the traditional literary association with ʿAntara until directly sourced.",
+      "meaning_confidence": "MEDIUM"
     },
     "etymology": {
       "primary_language": "Arabic",
@@ -207,15 +207,20 @@
     },
     "name_variants": {
       "romanized_variants": [
-        "Abla"
+        "Abla",
+        "ablah",
+        "ablaah"
       ],
       "script_forms": [
         "عبلة",
         "عبله",
         "अबला"
       ],
-      "variant_notes": "Spelling variants reflect different transliteration conventions, not different names.",
-      "do_not_merge_with": []
+      "variant_notes": "Abla/Ablah are candidate romanization variants of the same recorded Arabic form عبلة; keep routes pending manual canonical review.",
+      "do_not_merge_with": [
+        "ablah",
+        "ablaah"
+      ]
     },
     "related_names": [],
     "historical_context": {
@@ -252,39 +257,39 @@
     "faq": [
       {
         "q": "What does Abla mean?",
-        "a": "Abla is an Arabic-origin name meaning “Full-figured, well-formed”."
+        "a": "The form عبلة is often glossed as full-figured/well-formed, but a direct dictionary source and the intended personal-name nuance need review."
       },
       {
         "q": "What is the origin of Abla?",
-        "a": "Abla originates in Arabic and circulates in Muslim naming communities."
+        "a": "The recorded form is Arabic-script عبلة; the historical literary association needs direct sourcing."
       },
       {
         "q": "Is Abla an Arabic name?",
-        "a": "Yes, the recorded form عبلة is Arabic."
+        "a": "The form is Arabic, but name-specific usage and literary claims require sources."
       },
       {
         "q": "What is the root of Abla?",
-        "a": "No root analysis is asserted for this spelling."
+        "a": "The exact root analysis should be checked by an Arabic lexicographer."
       },
       {
         "q": "Is Abla an Islamic name?",
-        "a": "Abla is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+        "a": "Arabic origin does not establish a religious recommendation."
       },
       {
         "q": "Is Abla a Quranic name?",
-        "a": "Abla is not independently established as a Qur'anic personal name."
+        "a": "This record does not establish the name as explicitly named in the Qur'an."
       },
       {
         "q": "What does Abla mean in Urdu?",
-        "a": "In Urdu it is written عبلة and carries the sense “خوش اندام، بھرا ہوا”."
+        "a": "The Urdu gloss is provisional and needs fluent review."
       },
       {
         "q": "How is Abla pronounced?",
-        "a": "A romanized syllable approximation is “ab-la”."
+        "a": "Pronunciation is approximate and transliteration-dependent."
       },
       {
         "q": "Is Abla a boy's or girl's name?",
-        "a": "Documented usage records Abla as a girl's name; actual use can vary by community."
+        "a": "Modern name-frequency data has not been supplied."
       }
     ],
     "seo": {
@@ -324,24 +329,39 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "unsupported_servant_of_allah_gloss_removed",
+        "historical_literary_association_needs_source",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 149,
-      "quality_score": 90,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root absent; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 78,
+      "quality_score_basis": "Provisional editorial score only; exact lexical form, name-use evidence, and native translation quality remain open."
     },
     "evidence": {
-      "sources": [
-        "The recorded Arabic form عبلة carries the sense “Full-figured, well-formed”."
+      "sources": [],
+      "verification_method": "Only listed reference URLs were checked; search pages are not direct evidence for exact lexical meaning or identity. Claims without direct dictionary/biographical sources remain provisional.",
+      "claim_evidence": [
+        {
+          "claim": "The recorded form عبلة is retained with a provisional full-figured/well-formed gloss; direct lexical source and historical bearer sourcing remain needed.",
+          "source": null,
+          "status": "no_direct_source_checked; claim_unverified"
+        },
+        {
+          "claim": "Personal-name usage, frequency, and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "claim_evidence_status": "DIRECT_LEXICAL_SOURCE_NEEDED; CLAIMS_UNVERIFIED"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8",
-      "methodology": "Parse atomic facts -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Removed unsupported folk glosses, clarified construct/plural forms, and separated lexical meanings from personal-name usage and historical claims.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
-      "processed_at": "2026-10-06T04:27:34+00:00"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -349,7 +369,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Abla",
-          "description": "Abla — an Arabic-origin given name meaning Full-figured, well-formed",
+          "description": "Abla — Abla/Ablah corresponds to Arabic عبلة, with a lexical gloss often given as full-figured or well-formed; the exact personal-name nuance and historical ʿAntara association need direct sources.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -363,7 +383,7 @@
               "name": "What does Abla mean?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abla is an Arabic-origin name meaning “Full-figured, well-formed”."
+                "text": "The form عبلة is often glossed as full-figured/well-formed, but a direct dictionary source and the intended personal-name nuance need review."
               }
             },
             {
@@ -371,7 +391,7 @@
               "name": "What is the origin of Abla?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abla originates in Arabic and circulates in Muslim naming communities."
+                "text": "The recorded form is Arabic-script عبلة; the historical literary association needs direct sourcing."
               }
             },
             {
@@ -379,7 +399,7 @@
               "name": "Is Abla an Arabic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, the recorded form عبلة is Arabic."
+                "text": "The form is Arabic, but name-specific usage and literary claims require sources."
               }
             },
             {
@@ -387,7 +407,7 @@
               "name": "What is the root of Abla?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No root analysis is asserted for this spelling."
+                "text": "The exact root analysis should be checked by an Arabic lexicographer."
               }
             },
             {
@@ -395,7 +415,7 @@
               "name": "Is Abla an Islamic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abla is used by Muslims, but it is a lexical name rather than an exclusively Islamic religious term."
+                "text": "Arabic origin does not establish a religious recommendation."
               }
             },
             {
@@ -403,7 +423,7 @@
               "name": "Is Abla a Quranic name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Abla is not independently established as a Qur'anic personal name."
+                "text": "This record does not establish the name as explicitly named in the Qur'an."
               }
             },
             {
@@ -411,7 +431,7 @@
               "name": "What does Abla mean in Urdu?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "In Urdu it is written عبلة and carries the sense “خوش اندام، بھرا ہوا”."
+                "text": "The Urdu gloss is provisional and needs fluent review."
               }
             },
             {
@@ -419,7 +439,7 @@
               "name": "How is Abla pronounced?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "A romanized syllable approximation is “ab-la”."
+                "text": "Pronunciation is approximate and transliteration-dependent."
               }
             },
             {
@@ -427,7 +447,7 @@
               "name": "Is Abla a boy's or girl's name?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Documented usage records Abla as a girl's name; actual use can vary by community."
+                "text": "Modern name-frequency data has not been supplied."
               }
             }
           ]
@@ -458,11 +478,15 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse verification pipeline",
-      "reviewed_at": "2026-10-06T04:27:34+00:00"
+      "needs_manual_verification": true,
+      "flags": [
+        "unsupported_servant_of_allah_gloss_removed",
+        "historical_literary_association_needs_source",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review; exact form/source and translation review pending",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,
