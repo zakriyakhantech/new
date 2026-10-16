@@ -11,14 +11,20 @@ Last updated: 2026-10-16
 - Record each completed file and any unresolved verification needs here.
 
 ## Progress
-- Individually edited and committed: 5 records
+- Individually edited and committed: 6 records
 - Fully source-verified / tier-1 certified: 0 records
 - Remaining records: total inventory must be reconciled against the live repository before stating a final count.
-- Last completed: `upgrading/names_upgraded/islamic/aabir.json`
-- Latest record commit: `b2ef6828fb3d2ac3e2fb201ba55c7484de5625af`
+- Last completed: `upgrading/names_upgraded/islamic/aabida.json`
+- Latest record commit: `c2204ca6bfe8187f47adb7747df45270e0e3f4fa`
 - Next action: inspect the next unreviewed Islamic JSON record alphabetically and review it individually.
 
 ## Record log
+
+### 6. Aabida — lexical/morphology references checked; native review pending
+- Checked the feminine active-participle form عابدة against Arabic grammar and lexical references.
+- Clarified the direct meaning “female worshipper/woman who worships” versus broader devotional interpretation.
+- Updated translations, synchronized FAQ and structured data, and recorded source URLs.
+- Outstanding: regional naming-frequency evidence and qualified native-speaker review for Arabic and Pashto translations.
 
 ### 5. Aabir — lexical references checked; native review pending
 - Cross-checked Arabic meaning/root against Lane’s Lexicon, Wiktionary, and Rekhta dictionary entries.
