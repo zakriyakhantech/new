@@ -24,8 +24,8 @@
       "short_meaning": "Free, liberated",
       "primary_meaning": "Aateqa is an Arabic-origin name meaning “Free, liberated”.",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "Aateqa corresponds to the Arabic form عاتقة (Arabic root ع ت ق (ʿ-t-q); عَاتِقَة (ʿātiqah)). Its core sense is free; liberated. Aateqa is Arabic عَاتِقَة (ʿātiqah) 'Free, liberated', the feminine active participle (fāʿilah pattern, feminine of عاتق (ʿātiq)) of عَتَقَ (ʿataqa, 'to be free, to be freed') from the root ع ت ق (ʿ-t-q). Aateqa is a variant romanization of Atika.",
-      "meaning_confidence": "HIGH"
+      "meaning_explanation": "The recorded form عاتقة is related to root ع ت ق, but the available cited entry does not by itself fully establish the exact personal-name gloss “free/liberated.” Retain the gloss as provisional pending a direct lexical entry for عاتقة and name-use evidence.",
+      "meaning_confidence": "MEDIUM"
     },
     "etymology": {
       "primary_language": "Arabic",
@@ -38,7 +38,7 @@
       "etymological_meaning": "From the root ع ت ق (ʿ-t-q)",
       "root_family": [],
       "etymology_explanation": "The form عاتقة is an established Arabic lexical item — the feminine of عاتق (ʿātiq) — and Aateqa is the word itself used as a personal name rather than a derived or diminutive form.",
-      "etymology_confidence": "HIGH",
+      "etymology_confidence": "MEDIUM",
       "false_etymology_warning": "No derivation beyond the documented Arabic form is asserted. Any etymology that attributes this spelling to a different root or language without a source should be treated as unverified."
     },
     "language": {
@@ -326,24 +326,42 @@
       "#NameOrigin"
     ],
     "content_quality": {
-      "tier1_verified": true,
-      "authenticity_flags": [],
+      "tier1_verified": false,
+      "authenticity_flags": [
+        "exact_form_specific_gloss_requires_direct_dictionary_check",
+        "personal_name_frequency_not_verified",
+        "translation_review_required"
+      ],
       "fabricated_content_removed": true,
       "fields_total": 151,
-      "quality_score": 95,
-      "quality_score_basis": "9 distinct FAQs; gloss verified; root present; uniqueness enforced by cross-field de-duplication; score reflects content depth, not field count."
+      "quality_score": 80,
+      "quality_score_basis": "Provisional editorial score only; lexical sources do not prove personal-name usage, popularity, scriptural status, or fluent translation review."
     },
     "evidence": {
       "sources": [
-        "The recorded Arabic form عاتقة (feminine active participle of عَتَقَ, root ع ت ق) carries the sense “Free, liberated”."
+        "https://www.laneslexicon.com/word/%D8%B9%D8%A7%D8%AA%D9%82",
+        "https://www.laneslexicon.com/word/%D8%B9%D8%AA%D9%82/n27958"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Checked the named lexical source(s) for the specified form or related dictionary entry. This does not establish modern personal-name frequency, regional gender distribution, religious status, or native-speaker translation quality.",
+      "claim_evidence": [
+        {
+          "claim": "Lane's Lexicon covers the related root عتق and form عاتق; the exact name-specific gloss “free/liberated” requires further verification.",
+          "source": "https://www.laneslexicon.com/word/%D8%B9%D8%A7%D8%AA%D9%82",
+          "status": "lexical_source_checked; name_usage_not_established"
+        },
+        {
+          "claim": "Personal-name usage, frequency, and all translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
+      ],
+      "claim_evidence_status": "LEXICAL_SOURCE_CHECKED; PERSONAL_NAME_USAGE_AND_TRANSLATIONS_PENDING"
     },
     "provenance": {
-      "pipeline": "NameVerse Production v8.2 (one-by-one HIGH curation)",
-      "methodology": "Single-name deep curation -> root verification -> rebuild distinct fields -> validate",
+      "pipeline": "NameVerse evidence-led batch review",
+      "methodology": "Checked lexical forms against named dictionary sources; separated word meanings from name-use claims; corrected unsupported or contradictory glosses; kept uncertainty explicit.",
       "upgraded_from": "v8",
-      "processed_at": "2026-10-09T04:24:45Z"
+      "processed_at": "2026-10-16T00:00:00+00:00"
     },
     "structured_data": {
       "@context": "https://schema.org",
@@ -351,7 +369,7 @@
         {
           "@type": "DefinedTerm",
           "name": "Aateqa",
-          "description": "Aateqa — an Arabic-origin given name meaning Free, liberated",
+          "description": "Aateqa — Aateqa is an Arabic-origin name meaning “Free, liberated”.",
           "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "NameVerse Islamic Names"
@@ -460,11 +478,15 @@
       ]
     },
     "editorial_validation": {
-      "needs_manual_verification": false,
-      "flags": [],
-      "confidence": "HIGH",
-      "reviewed_by": "NameVerse one-by-one HIGH curation",
-      "reviewed_at": "2026-10-09T04:24:45Z"
+      "needs_manual_verification": true,
+      "flags": [
+        "exact_form_specific_gloss_requires_direct_dictionary_check",
+        "personal_name_frequency_not_verified",
+        "translation_review_required"
+      ],
+      "confidence": "LOW",
+      "reviewed_by": "NameVerse evidence-led review (lexical source check; name-use/native translation review pending)",
+      "reviewed_at": "2026-10-16"
     },
     "render_policy": {
       "render_verified": true,
