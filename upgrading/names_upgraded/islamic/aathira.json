@@ -334,9 +334,22 @@
     },
     "evidence": {
       "sources": [
-        "The recorded Unknown form  carries the sense “Not objectively established”."
+        "https://www.laneslexicon.com/word/%D8%A3%D8%AB%D9%8A%D8%B1"
       ],
-      "verification_method": "Cross-checked lexical sources; no scriptural or statistical claim is asserted without a source."
+      "verification_method": "Checked named lexical sources for the recorded or related Arabic form. Modern personal-name usage and translation fluency require separate review.",
+      "claim_evidence": [
+        {
+          "claim": "Lane's Lexicon records أثير and the feminine أثيرة with a sense associated with a favorite or specially valued person; exact name usage remains provisional.",
+          "source": "https://www.laneslexicon.com/word/%D8%A3%D8%AB%D9%8A%D8%B1",
+          "status": "lexical_source_checked"
+        },
+        {
+          "claim": "Personal-name usage and translations",
+          "source": null,
+          "status": "not_verified_manual_review_required"
+        }
+      ],
+      "claim_evidence_status": "LEXICAL_SOURCE_CHECKED; NAME_USAGE_AND_TRANSLATIONS_PENDING"
     },
     "provenance": {
       "pipeline": "NameVerse evidence-led batch review",
