@@ -22,9 +22,9 @@
     },
     "core_meaning": {
       "short_meaning": "Exact lexical gloss unresolved",
-      "primary_meaning": "Abaan is recorded as أبان, but the file contains conflicting glosses (“time of something” versus “first frost/time of the stars”). The intended lexical sense is not verified.",
+      "primary_meaning": "Abaan is recorded with the Arabic-script form أبان. Reliable lexicons document the verb أبانَ with senses such as “to make clear,” “to express clearly,” and “to separate,” but those verb senses do not automatically establish the meaning of the personal name Abaan. Previously supplied glosses such as “first frost” remain unverified.",
       "literal_meaning": "The name is the Arabic word itself, used unchanged as a given name rather than a derived or diminutive form.",
-      "meaning_explanation": "The record gives incompatible meanings for أبان and lacks a direct source to resolve them. No single meaning is asserted until the form and source are checked.",
+      "meaning_explanation": "The Cairo Arabic Language Academy and Lane's Lexicon document the verb أبانَ, including meanings related to clarity and separation. The personal-name reading, grammatical form, and any separate historical-name meaning need evidence specific to the name; no unsupported gloss is selected.",
       "meaning_confidence": "LOW"
     },
     "etymology": {
@@ -37,8 +37,8 @@
       "feminine_form": null,
       "etymological_meaning": "The Arabic word أبان",
       "root_family": [],
-      "etymology_explanation": "The form أبان is an established Arabic lexical item used unchanged as a given name.",
-      "etymology_confidence": "MEDIUM",
+      "etymology_explanation": "The script form أبان is recorded, but the exact intended lexical analysis for the personal name has not been established. Verb entries for أبانَ are related lexical evidence, not proof of the name's derivation.",
+      "etymology_confidence": "LOW",
       "false_etymology_warning": "No derivation beyond the documented Arabic form is asserted. Any etymology that attributes this spelling to a different root or language without a source should be treated as unverified."
     },
     "language": {
@@ -257,7 +257,7 @@
       },
       {
         "q": "What is the origin of Abaan?",
-        "a": "The exact lexical interpretation and name origin require a direct source."
+        "a": "The record uses Arabic-script أبان. The Arabic verb أبانَ is documented in dictionaries, but the personal name's exact origin and intended meaning have not been established by the sources checked."
       },
       {
         "q": "Is Abaan an Arabic name?",
@@ -329,7 +329,9 @@
       "authenticity_flags": [
         "conflicting_lexical_glosses",
         "historical_bearer_claim_needs_source",
-        "translation_review_required"
+        "translation_review_required",
+        "personal_name_gloss_unresolved",
+        "verb_and_name_senses_must_not_be_conflated"
       ],
       "fabricated_content_removed": true,
       "fields_total": 149,
@@ -337,21 +339,57 @@
       "quality_score_basis": "Provisional editorial score only; name-use, frequency, religious status, and native translation quality remain separate verification tasks."
     },
     "evidence": {
-      "sources": [],
-      "verification_method": "Checked only the listed sources. Uncited or unsupported claims remain provisional; name-use, frequency, religious status, and translation quality require separate evidence.",
-      "claim_evidence": [
+      "sources": [
         {
-          "claim": "No direct lexical source was checked for the competing glosses of أبان; meaning remains unverified.",
-          "source": null,
-          "status": "no_direct_source_checked; claims_not_verified"
+          "title": "Cairo Arabic Language Academy, معنى أبان",
+          "url": "https://www.arabicacademy.gov.eg/ar/%D9%85%D8%AD%D8%B1%D9%83-%D8%A7%D9%84%D8%A8%D8%AD%D8%AB/%D8%A3%D8%A8%D8%A7%D9%86",
+          "source_type": "official_arabic_lexicon",
+          "language": "Arabic",
+          "supports": [
+            "The verb أبانَ can mean appeared/became clear, expressed clearly, separated, or made something clear"
+          ],
+          "limitations": "This entry documents the verb أبانَ, not necessarily the proper name Abān (أبان) or the competing name glosses in this record."
         },
         {
-          "claim": "Personal-name usage, frequency, and translations",
-          "source": null,
-          "status": "not_verified_manual_review_required"
+          "title": "Lane's Lexicon, أبان",
+          "url": "https://www.laneslexicon.com/word/%D8%A7%D8%A8%D8%A7%D9%86",
+          "source_type": "historical_arabic_lexicon",
+          "language": "Arabic-English",
+          "supports": [
+            "Lexical senses of the verb form أبان, including separating and making clear"
+          ],
+          "limitations": "Verb-form evidence only; it does not settle the intended meaning or historical use of the personal name Abaan."
+        },
+        {
+          "title": "Almaany Arabic–Persian Dictionary, أبان",
+          "url": "https://www.almaany.com/fa/dict/ar-fa/%D8%A3%D8%A8%D8%A7%D9%86/",
+          "source_type": "bilingual_dictionary",
+          "language": "Arabic-Persian",
+          "supports": [
+            "Verb أبان and its lexical senses such as revealing, clarifying, and separating"
+          ],
+          "limitations": "Secondary bilingual dictionary; not proof that the personal name has these meanings."
         }
       ],
-      "claim_evidence_status": "NO_DIRECT_SOURCE_CHECKED; CLAIMS_UNVERIFIED"
+      "verification_method": "Checked the exact written form against the Cairo Arabic Language Academy and Lane's Lexicon. These entries support lexical senses of the verb أبانَ (to become clear, make clear, express clearly, or separate), but they do not by themselves prove that the personal name Abaan has any one of those meanings. The competing name glosses remain unresolved.",
+      "claim_evidence": [
+        {
+          "claim": "The Arabic verb أبانَ has senses including becoming clear, making clear, expressing clearly, and separating.",
+          "source": "https://www.arabicacademy.gov.eg/ar/%D9%85%D8%AD%D8%B1%D9%83-%D8%A7%D9%84%D8%A8%D8%AD%D8%AB/%D8%A3%D8%A8%D8%A7%D9%86",
+          "status": "supported_for_verb_lexeme"
+        },
+        {
+          "claim": "The personal name Abaan (أبان) means “time of something” or “first frost/time of the stars.”",
+          "source": null,
+          "status": "not_resolved_by_sources_checked; do_not_publish_as_verified"
+        },
+        {
+          "claim": "Personal-name use, frequency, gender distribution, and religious status.",
+          "source": null,
+          "status": "not_verified; requires independent evidence"
+        }
+      ],
+      "claim_evidence_status": "VERB_LEXEME_DOCUMENTED; PERSONAL_NAME_GLOSS_UNRESOLVED"
     },
     "provenance": {
       "pipeline": "NameVerse evidence-led batch review",
