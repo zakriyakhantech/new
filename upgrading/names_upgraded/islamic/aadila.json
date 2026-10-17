@@ -350,9 +350,10 @@
     "evidence": {
       "sources": [
         "https://www.laneslexicon.com/word/%D8%B9%D8%A7%D8%AF%D9%84",
-        "https://www.laneslexicon.com/root/%D8%B9%D8%AF%D9%84"
+        "https://www.laneslexicon.com/root/%D8%B9%D8%AF%D9%84",
+        "https://www.arabicacademy.gov.eg/ar/%D9%85%D8%AD%D8%B1%D9%83-%D8%A7%D9%84%D8%A8%D8%AD%D8%AB/%D8%B9%D8%AF%D9%84"
       ],
-      "verification_method": "Independently checked Lane’s Lexicon entries for عادل and root عدل. The lexical evidence supports the root’s justice/equity field and the corresponding feminine form; it does not verify frequency of the exact Aadila spelling, regional gender distribution, or translation quality.",
+      "verification_method": "Cross-checked Lane’s Lexicon for عادل and root عدل with the Cairo Arabic Language Academy’s entry for the root عدل. The Academy records عَدَلَ in the sense of acting justly in judgment and defines العَدْل as fairness/equity; Lane documents the root’s justice/equity semantic field. This supports the core gloss “just/fair/equitable” and the related feminine form عادلة. It does not establish exact Latin-spelling frequency, name-bearer gender distribution by region, or translation quality.",
       "claim_evidence": [
         {
           "claim": "Arabic lexical form عادل (ʿādil) and its justice/equity sense",
@@ -363,13 +364,20 @@
           "claim": "Root ع د ل and justice/equity semantic field",
           "source": "https://www.laneslexicon.com/root/%D8%B9%D8%AF%D9%84",
           "status": "dictionary_root_entry_checked"
+        },
+        {
+          "claim": "Cairo Arabic Language Academy defines root عدل with justice/equity-related senses, including acting justly in judgment and الإنصاف (fairness/equity).",
+          "source": "https://www.arabicacademy.gov.eg/ar/%D9%85%D8%AD%D8%B1%D9%83-%D8%A7%D9%84%D8%A8%D8%AD%D8%AB/%D8%B9%D8%AF%D9%84",
+          "source_name": "Cairo Arabic Language Academy, root عدل",
+          "evidence_excerpt": "و- في حُكْمِه: حَكَمَ بالعَدْل ... العَدْلُ ... الإنْصافُ",
+          "status": "official_academy_root_entry_checked"
         }
       ],
-      "claim_evidence_status": "ARABIC_ROOT_AND_MASCULINE_LEXICAL_FORM_CHECKED; FEMININE_MORPHOLOGY_REVIEWED; EXACT_LATIN_SPELLING_FREQUENCY_AND_TRANSLATIONS_NOT_VERIFIED"
+      "claim_evidence_status": "ARABIC_ROOT_AND_MASCULINE_LEXICAL_FORM_CHECKED; FEMININE_FORM_RELATED_TO عادل; PERSONAL_NAME_FREQUENCY_AND_TRANSLATION_QUALITY_NOT_VERIFIED"
     },
     "provenance": {
       "pipeline": "NameVerse editorial revision",
-      "methodology": "Individual lexical review against Lane’s Lexicon entries for عادل and عدل; clarified feminine morphology and exact-spelling limits; adjusted gender confidence to reflect missing regional data; synchronized FAQ structured data and preserved translation/frequency caveats.",
+      "methodology": "Source-backed lexical revision: cross-checked Lane’s Lexicon and Cairo Arabic Language Academy root entry for عدل; retained the established direct gloss and separated linguistic evidence from personal-name frequency and translation claims.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
       "processed_at": "2026-10-16T00:00:00+00:00"
     },
@@ -502,10 +510,11 @@
         "name-frequency data not independently verified",
         "Arabic and Pashto translations require native-speaker review",
         "modern personal-name usage/frequency requires independent evidence",
-        "Source URLs and claim-level evidence require manual verification",
-        "Rendered canonical and breadcrumb URLs require deployment-level verification"
+        "Rendered canonical and breadcrumb URLs require deployment-level verification",
+        "Personal-name frequency and regional gender distribution are not independently verified",
+        "Native review required for Arabic and Pashto translations"
       ],
-      "confidence": "MEDIUM",
+      "confidence": "HIGH for core Arabic justice/equity lexical field; MEDIUM overall because personal-name usage and translations remain unverified",
       "reviewed_by": "NameVerse editorial revision (automated consistency pass; native/human review still required)",
       "reviewed_at": "2026-10-15"
     },
