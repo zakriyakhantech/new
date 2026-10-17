@@ -347,9 +347,10 @@
       "sources": [
         "Lane's Arabic-English Lexicon, عابر: https://www.laneslexicon.com/word/%D8%B9%D8%A7%D8%A8%D8%B1",
         "Wiktionary, Arabic عابر: https://en.wiktionary.org/wiki/عابر",
-        "Rekhta Dictionary, Aabir/عابر: https://www.rekhtadictionary.com/meaning-of-aabir"
+        "Rekhta Dictionary, Aabir/عابر: https://www.rekhtadictionary.com/meaning-of-aabir",
+        "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%B9%D8%A8%D8%B1"
       ],
-      "verification_method": "Checked the Arabic lexical gloss and active-participle/root analysis against Lane’s Lexicon, Wiktionary’s Arabic entry, and Rekhta’s Urdu/English dictionary entry. These sources support the passing/wayfarer sense; they do not establish regional name frequency. Native review of Pashto and Arabic translations remains pending.",
+      "verification_method": "Cross-checked Lane’s Lexicon and the Cairo Arabic Language Academy entry for root عبر. The Academy defines عَبَرَ الطريق/النهر as crossing from one side to the other and records العابِر as in عابر سبيل, meaning a traveller/passenger. This supports “one who crosses,” “passer-by,” and “wayfarer.” The record deliberately excludes the unsupported gloss “the last”; these lexical sources do not establish personal-name frequency or regional gender distribution.",
       "claim_evidence": [
         {
           "claim": "Arabic lexical meaning and root ع ب ر",
@@ -365,13 +366,20 @@
           "claim": "Urdu personal-name and dictionary usage",
           "source": "https://www.rekhtadictionary.com/meaning-of-aabir",
           "status": "dictionary_entry_checked; regional_frequency_not_measured"
+        },
+        {
+          "claim": "Cairo Arabic Language Academy records crossing/traversing for عَبَرَ and عابر سبيل as a traveller/passenger.",
+          "source": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%B9%D8%A8%D8%B1",
+          "source_name": "Cairo Arabic Language Academy, root عبر",
+          "evidence_excerpt": "النهر، أو الطريق ... قطعه من جانب إلى جانب ... هو عابر سبيل: مسافر",
+          "status": "official_academy_root_entry_checked"
         }
       ],
-      "claim_evidence_status": "LEXICAL_REFERENCES_CHECKED; NAME_FREQUENCY_AND_NATIVE_TRANSLATION_REVIEW_PENDING"
+      "claim_evidence_status": "ARABIC_CROSSING_AND_PASSER-BY_SENSES_CROSS-CHECKED_WITH_LANE_AND_CAIRO_ACADEMY; NAME_FREQUENCY_NOT_VERIFIED"
     },
     "provenance": {
       "pipeline": "NameVerse editorial revision",
-      "methodology": "Individual review with lexical-source cross-checking, meaning and translation revision, and synchronization of FAQ/structured data; name-frequency and native translation verification remain pending.",
+      "methodology": "Source-backed lexical revision: cross-checked Lane’s Lexicon and Cairo Arabic Language Academy root entry for عبر; confirmed crossing/passenger senses and retained a caution against unsupported meanings.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
       "processed_at": "2026-10-16T05:45:00+00:00"
     },
@@ -504,7 +512,7 @@
         "Modern name frequency not independently measured",
         "Rendered canonical/breadcrumb URLs require deployment-level verification"
       ],
-      "confidence": "HIGH",
+      "confidence": "HIGH for core Arabic lexical meaning; MEDIUM overall because name usage/frequency and translation review remain incomplete",
       "reviewed_by": "NameVerse editorial revision (automated consistency pass; native/human review still required)",
       "reviewed_at": "2026-10-15"
     },
