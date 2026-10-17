@@ -21,7 +21,7 @@
     },
     "core_meaning": {
       "short_meaning": "Father of Bakr",
-      "primary_meaning": "Abubakar is a regional romanization of Arabic Abū Bakr (أبو بكر), a kunya borne by the first caliph; the literal construct is “father of Bakr,” but this should not be treated as the complete historical etymology of the person's name.",
+      "primary_meaning": "Abubakar is a regional romanization of Arabic Abū Bakr (أبو بكر), the well-known kunya of Abū Bakr al-Ṣiddīq, the first caliph. The literal construction is “father of Bakr,” but a kunya can function as a nickname or honorific and does not necessarily describe a biological relationship. The deeper etymology of Bakr is not asserted here.",
       "literal_meaning": "Father of Bakr",
       "meaning_explanation": "The Arabic phrase أبو بكر is a kunya/name form. The literal construct “father of Bakr” describes its structure, not necessarily a literal biological relation or a standalone lexical meaning. The historical bearer claim needs a direct biographical source.",
       "meaning_confidence": "HIGH"
@@ -252,7 +252,7 @@
     "faq": [
       {
         "q": "What does Abubakar mean?",
-        "a": "Abubakar is a regional romanization of Abu Bakr (أبو بكر), a historical kunya; “father of Bakr” is the literal structure, not necessarily a literal name meaning."
+        "a": "Abubakar is a regional romanization of Arabic Abū Bakr (أبو بكر). Its literal construction is “father of Bakr,” but as a kunya it may function as a nickname rather than a literal statement of parentage."
       },
       {
         "q": "What is the origin of Abubakar?",
@@ -337,22 +337,29 @@
     },
     "evidence": {
       "sources": [
-        "https://sunnah.com/search?q=Abu%20Bakr"
+        "https://sunnah.com/search?q=Abu%20Bakr",
+        "https://www.britannica.com/biography/Abu-Bakr",
+        "https://islamqa.info/en/answers/6239"
       ],
-      "verification_method": "Direct lexical/biographical sources are listed only where checked. Search pages do not verify the exact historical identity or full etymology; name usage and translations require separate review.",
+      "verification_method": "Checked a reputable biographical reference and a focused discussion of the Arabic kunya. Encyclopaedia Britannica confirms Abū Bakr al-Ṣiddīq as Muhammad's close companion and the first caliph. The literal construction أبو بكر is “father of Bakr,” but a kunya can function as an honorific or nickname and does not necessarily indicate a biological son named Bakr. The precise etymology of Bakr is not asserted here.",
       "claim_evidence": [
         {
-          "claim": "The existing search/source text identifies Abu Bakr historically, but the literal kunya structure should not be overread as biological etymology.",
-          "source": "https://sunnah.com/search?q=Abu%20Bakr",
-          "status": "search_reference_checked; direct_claim_source_needed"
+          "claim": "Abū Bakr al-Ṣiddīq was Muhammad's close companion and succeeded him as the first caliph.",
+          "source": "https://www.britannica.com/biography/Abu-Bakr",
+          "status": "supported_by_encyclopaedia_biography"
         },
         {
-          "claim": "Personal-name usage and locale translations",
+          "claim": "Abū can form a kunya meaning “father of”; a kunya does not always imply that the person literally had a child with the name that follows.",
+          "source": "https://islamqa.info/en/answers/6239",
+          "status": "explained_by_specialist_religious_reference"
+        },
+        {
+          "claim": "The full etymology of Bakr or modern regional name frequency.",
           "source": null,
-          "status": "not_verified_manual_review_required"
+          "status": "not_established_by_sources_checked"
         }
       ],
-      "claim_evidence_status": "REFERENCE_CHECKED; DIRECT_EVIDENCE_AND_TRANSLATIONS_PENDING"
+      "claim_evidence_status": "HISTORICAL_BEARER_AND_KUNYA_STRUCTURE_SUPPORTED; DEEPER_ETYMology_AND_FREQUENCY_NOT_ESTABLISHED"
     },
     "provenance": {
       "pipeline": "NameVerse evidence-led batch review",
