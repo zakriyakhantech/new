@@ -24,7 +24,7 @@
       "short_meaning": "Meaning and origin unverified",
       "primary_meaning": "Aabish remains unverified as a personal name in this record. The Latin spelling and the recorded Arabic-script form عابش have not been matched to a reliable lexical entry that establishes a single origin and meaning. Online name lists repeat “father of the spring,” while another list gives a different historical claim; these secondary lists do not establish the etymology. Do not publish either claim as fact without a traceable primary or scholarly source.",
       "literal_meaning": "Meaning and origin unverified",
-      "meaning_explanation": "Searches for Aabish and عابش did not establish a reliable dictionary entry connecting this spelling to the claim “father of the spring.” That English phrase appears in secondary baby-name lists, but no supporting Arabic morphology or authoritative lexical source was located. A separate secondary list associates Aabish with a queen of Iran, illustrating that name-list claims conflict. Keep meaning, language origin, and gender unverified until stronger evidence is found.",
+      "meaning_explanation": "No reliable lexical source matching the exact recorded form عابش has been found. Lane's Lexicon documents عابس (ʿābis), with a different letter, as frowning or stern-faced; this lookalike must not be silently treated as the same name. Secondary name lists conflict, so no meaning or origin is asserted until the exact form is independently verified.",
       "meaning_confidence": "LOW"
     },
     "etymology": {
@@ -343,9 +343,29 @@
     "evidence": {
       "sources": [
         "Secondary list repeating the claim “father of the spring” (not accepted as proof): https://nameverse.vercel.app/names/islamic/letter/A/1",
-        "Secondary list giving a conflicting claim (“Queen of Iran, daughter of Saad”; not independently verified): https://darsequranonline.com/muslim-baby-girl-names/"
+        "Secondary list giving a conflicting claim (“Queen of Iran, daughter of Saad”; not independently verified): https://darsequranonline.com/muslim-baby-girl-names/",
+        {
+          "title": "Lane's Lexicon, عَابِسٌ",
+          "publisher": "Edward William Lane",
+          "url": "https://www.laneslexicon.com/word/%D8%B9%D8%A7%D8%A8%D8%B3",
+          "source_type": "historical_arabic_lexicon",
+          "supports": [
+            "The distinct spelling عابس (ʿābis) means frowning, stern-faced, or morose."
+          ],
+          "limitations": "This is not the recorded spelling عابش (ʿābish) and must not be used as proof that Aabish means frowning."
+        },
+        {
+          "title": "Almaany Arabic dictionary entry for عبس/عابس",
+          "publisher": "Almaany",
+          "url": "https://www.almaany.com/ar/dict/ar-ar/%D8%B9%D8%A8%D9%8A%D8%B3%D8%A7/",
+          "source_type": "lexical_reference",
+          "supports": [
+            "The root عبس relates to frowning or contracting the face; the form عابس is associated with a frowning or stern expression."
+          ],
+          "limitations": "Similar spelling only; does not establish the meaning or origin of Aabish/عابش."
+        }
       ],
-      "verification_method": "Searched the exact Latin spelling and recorded Arabic-script form, including claimed meaning. Search results surfaced conflicting secondary name-list claims but no reliable dictionary or scholarly source establishing the exact form’s origin or meaning. The conflicting claims are documented only to explain why the entry remains unverified; they are not treated as evidence.",
+      "verification_method": "Checked the exact recorded spelling against available lexical evidence and added explicit disambiguation for the similar but distinct Arabic form عابس (ʿābis). No meaning is assigned to Aabish based on that lookalike form.",
       "claim_evidence": [
         {
           "claim": "“Father of the spring” claim appears in a secondary NameVerse list",
@@ -356,9 +376,19 @@
           "claim": "A different historical claim appears in a secondary baby-name list",
           "source": "https://darsequranonline.com/muslim-baby-girl-names/",
           "status": "secondary_list_claim_only_not_independently_verified"
+        },
+        {
+          "claim": "Arabic عابس (ʿābis) means frowning/stern-faced, but differs orthographically from the record's عابش.",
+          "source": "https://www.laneslexicon.com/word/%D8%B9%D8%A7%D8%A8%D8%B3",
+          "status": "verified_disambiguation_only_not_meaning_for_Aabish"
+        },
+        {
+          "claim": "The exact personal-name form Aabish and the recorded spelling عابش remain lexically unresolved.",
+          "source": null,
+          "status": "not_verified; similar-form confusion documented"
         }
       ],
-      "claim_evidence_status": "CONFLICTING_SECONDARY_NAME_LISTS; NO_RELIABLE_LEXICAL_SOURCE_ESTABLISHED"
+      "claim_evidence_status": "EXACT_FORM_UNVERIFIED; SIMILAR_ARABIC_FORM_DISAMBIGUATED"
     },
     "provenance": {
       "pipeline": "NameVerse editorial revision",
@@ -495,7 +525,9 @@
         "Do not claim “father of the spring” without lexical evidence",
         "Confirm whether عابش is the intended script form or a transliteration error",
         "Gender and modern name usage unverified",
-        "Native review required for Arabic and Pashto"
+        "Native review required for Arabic and Pashto",
+        "exact_arabic_script_form_unverified",
+        "similar_spelling_not_equivalent_to_عابس"
       ],
       "confidence": "LOW",
       "reviewed_by": "NameVerse editorial revision (automated consistency pass; native/human review still required)",

@@ -343,19 +343,59 @@
     "evidence": {
       "sources": [
         "Dehkhoda Dictionary, entry آبان: https://vajehyab.com/dehkhoda/آبان",
-        "Encyclopaedia Iranica, ĀBĀN MĀH: https://www.iranicaonline.org/articles/aban-mah/"
+        "Encyclopaedia Iranica, ĀBĀN MĀH: https://www.iranicaonline.org/articles/aban-mah/",
+        {
+          "title": "ĀBĀN MĀH",
+          "publisher": "Encyclopaedia Iranica; Mary Boyce",
+          "url": "https://www.iranicaonline.org/articles/aban-mah/",
+          "source_type": "scholarly_encyclopedia",
+          "supports": [
+            "Ābān Māh is described as the eighth month of the Zoroastrian year and dedicated to the Waters; the article documents calendar history."
+          ],
+          "limitations": "Supports historical Iranian/Zoroastrian calendrical context, not contemporary given-name frequency or religious prescription for Muslims."
+        },
+        {
+          "title": "ĀBĀN",
+          "publisher": "Encyclopaedia Iranica; Mary Boyce",
+          "url": "https://www.iranicaonline.org/articles/aban/",
+          "source_type": "scholarly_encyclopedia",
+          "supports": [
+            "Middle Persian Ābān means “the waters” and is discussed in Iranian religious and calendrical context."
+          ],
+          "limitations": "Historical/etymological context only; not evidence of modern name usage."
+        },
+        {
+          "title": "آبان",
+          "publisher": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2%D8%A8%D8%A7%D9%86",
+          "source_type": "lexical_reference",
+          "supports": [
+            "Persian آبان (ābān) is identified as the eighth month of the Persian solar calendar."
+          ],
+          "limitations": "Community-edited lexical reference; corroboration only."
+        }
       ],
-      "verification_method": "Compared the Persian calendar-month definition and historical context against Dehkhoda’s Persian dictionary and Encyclopaedia Iranica. These sources do not establish modern given-name frequency or gender.",
+      "verification_method": "Rechecked the calendrical claim against Encyclopaedia Iranica by Mary Boyce and a Persian lexical entry. Kept modern given-name frequency, gender distribution, and Muslim religious status separate from historical calendar meanings.",
       "claim_evidence": [
         {
           "claim": "Persian calendar-month reference for Ābān",
           "source": "https://vajehyab.com/dehkhoda/%D8%A2%D8%A8%D8%A7%D9%86",
-          "status": "listed_source_not_independently_rechecked"
+          "status": "listed_source_not_directly_retrieved_in_this_pass; lexical claim corroborated by Wiktionary and Encyclopaedia Iranica context"
         },
         {
           "claim": "Historical Iranian calendar context",
           "source": "https://www.iranicaonline.org/articles/aban-mah/",
-          "status": "listed_source_not_independently_rechecked"
+          "status": "rechecked_against_scholarly_encyclopedia"
+        },
+        {
+          "claim": "Encyclopaedia Iranica documents Ābān Māh as the eighth month of the Zoroastrian year dedicated to the Waters.",
+          "source": "https://www.iranicaonline.org/articles/aban-mah/",
+          "status": "rechecked_against_scholarly_encyclopedia"
+        },
+        {
+          "claim": "Encyclopaedia Iranica records Middle Persian Ābān as meaning “the waters.”",
+          "source": "https://www.iranicaonline.org/articles/aban/",
+          "status": "rechecked_against_scholarly_encyclopedia"
         }
       ],
       "claim_evidence_status": "SOURCE_URLS_LISTED_NOT_INDEPENDENTLY_RECHECKED_IN_THIS_PASS"

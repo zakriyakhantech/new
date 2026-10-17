@@ -256,7 +256,7 @@
       },
       {
         "q": "What is the origin of Aazad?",
-        "a": "The record's source-language match is plausible but needs a direct dictionary source."
+        "a": "The recorded form matches Persian آزاد (āzād). Historical references connect the word with Middle Persian āzād/āzāt; this establishes the word's linguistic history, not how frequently it is used as a given name."
       },
       {
         "q": "Is Aazad an Arabic name?",
@@ -264,7 +264,7 @@
       },
       {
         "q": "What is the root of Aazad?",
-        "a": "A direct source for the exact lexical form is still needed."
+        "a": "Aazad is treated here as the Persian lexical form آزاد, not as an Arabic root-derived name. Historical sources trace the word through Middle Persian; a deeper reconstruction should be described as linguistic etymology, not an Arabic root."
       },
       {
         "q": "Is Aazad an Islamic name?",
@@ -326,31 +326,83 @@
     "content_quality": {
       "tier1_verified": false,
       "authenticity_flags": [
-        "direct_dictionary_source_needed",
+        "personal_name_frequency_not_verified",
+        "translation_review_required",
         "personal_name_frequency_not_verified",
         "translation_review_required"
       ],
       "fabricated_content_removed": true,
       "fields_total": 151,
       "quality_score": 80,
-      "quality_score_basis": "Provisional editorial score only; name-use, frequency, religious status, and native translation quality remain separate verification tasks."
+      "quality_score_basis": "Lexical gloss and historical etymology now have corroborating dictionary and academic sources; personal-name frequency and native translation quality remain unverified."
     },
     "evidence": {
-      "sources": [],
-      "verification_method": "Checked only the listed sources. Uncited or unsupported claims remain provisional; name-use, frequency, religious status, and translation quality require separate evidence.",
-      "claim_evidence": [
+      "sources": [
         {
-          "claim": "The existing lexical gloss was not directly source-checked in this pass; retain provisionally, not as verified.",
-          "source": null,
-          "status": "no_direct_source_checked; claims_not_verified"
+          "title": "Encyclopaedia Iranica, ĀZĀD (older ĀZĀT)",
+          "url": "https://www.iranicaonline.org/articles/azad-older-azat/",
+          "source_type": "academic_encyclopedia",
+          "language": "English",
+          "supports": [
+            "Middle Persian form and historical sense “free”; extended sense “noble”"
+          ],
+          "limitations": "Historical/etymological evidence, not evidence of modern given-name frequency or religious status."
         },
         {
-          "claim": "Personal-name usage, frequency, and translations",
-          "source": null,
-          "status": "not_verified_manual_review_required"
+          "title": "New Persian-English Dictionary, Sulayman Hayyim, University of Chicago Digital South Asia Library",
+          "url": "https://dsal.uchicago.edu/cgi-bin/app/hayyim_query.py?matchtype=default&qs=%D8%A2%D8%B2",
+          "source_type": "historical_dictionary",
+          "language": "Persian-English",
+          "supports": [
+            "Persian آزاد glossed as free and liberated/freed"
+          ],
+          "limitations": "Dictionary evidence for the lexical word, not personal-name frequency."
+        },
+        {
+          "title": "آزاد (āzād), Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/%D8%A2%D8%B2%D8%A7%D8%AF",
+          "source_type": "multilingual_lexical_reference",
+          "language": "Persian and related language entries",
+          "supports": [
+            "Persian آزاد: free, independent; proposed historical derivation through Middle Persian"
+          ],
+          "limitations": "Secondary/community-edited lexical resource; use the academic encyclopedia and historical dictionary as stronger corroboration."
+        },
+        {
+          "title": "Pedram Jam, study of آزاد / آزادان and historical semantic development",
+          "url": "https://irhj.sbu.ac.ir/article_94967.html",
+          "source_type": "academic_article",
+          "language": "Persian with English abstract",
+          "supports": [
+            "Historical development of āzād from Old Iranian through Middle Persian to New Persian"
+          ],
+          "limitations": "Historical semantics; does not establish modern personal-name usage or popularity."
         }
       ],
-      "claim_evidence_status": "NO_DIRECT_SOURCE_CHECKED; CLAIMS_UNVERIFIED"
+      "verification_method": "Cross-checked the Persian lexical form آزاد against an academic encyclopedia, a historical Persian-English dictionary hosted by the University of Chicago, and a scholarly article on historical semantics. Lexical meaning is supported; modern name frequency, gender distribution, and native-language translation quality remain separate questions.",
+      "claim_evidence": [
+        {
+          "claim": "Persian آزاد (āzād) means free; free/independent are supported lexical glosses.",
+          "source": "https://dsal.uchicago.edu/cgi-bin/app/hayyim_query.py?matchtype=default&qs=%D8%A2%D8%B2",
+          "status": "supported_by_historical_dictionary"
+        },
+        {
+          "claim": "The word has a documented Middle Persian antecedent and historical sense “free”; “noble” is also attested historically.",
+          "source": "https://www.iranicaonline.org/articles/azad-older-azat/",
+          "status": "supported_by_academic_encyclopedia"
+        },
+        {
+          "claim": "The spelling Aazad is used as a personal name and has a particular gender/frequency in modern communities.",
+          "source": null,
+          "status": "not_verified_by_lexical_sources; requires name-usage data"
+        },
+        {
+          "claim": "The name has a specifically Qur'anic or doctrinal status.",
+          "source": null,
+          "status": "not_established; no such claim made"
+        }
+      ],
+      "claim_evidence_status": "LEXICAL_MEANING_CORROBORATED; PERSONAL_NAME_USAGE_AND_RELIGIOUS_STATUS_NOT_ESTABLISHED"
     },
     "provenance": {
       "pipeline": "NameVerse evidence-led batch review",

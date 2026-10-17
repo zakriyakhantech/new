@@ -350,9 +350,19 @@
       "sources": [
         "https://quran.com/2/31",
         "https://corpus.quran.com/wordmorphology.jsp?location=%282%3A31%3A2%29",
-        "https://corpus.quran.com/qurandictionary.jsp?root=nba"
+        "https://corpus.quran.com/qurandictionary.jsp?root=nba",
+        {
+          "title": "Qur'an 3:59",
+          "publisher": "Quran.com (Qur'anic text and translation)",
+          "url": "https://quran.com/3/59",
+          "source_type": "primary_scriptural_text",
+          "supports": [
+            "The verse explicitly mentions Adam in a comparison concerning creation."
+          ],
+          "limitations": "Supports scriptural occurrence and context, not a particular etymological gloss."
+        }
       ],
-      "verification_method": "Independently checked the Qur’anic text at 2:31 and the Qur’anic Arabic Corpus entry identifying ādama as the proper noun Adam. These sources verify the scriptural name/reference only; they do not verify deeper historical etymology, current naming frequency, or native-speaker quality of translations.",
+      "verification_method": "Added direct Qur'anic references for scriptural occurrence and narrative context. These references support Qur'anic status but are not used as proof of the name's etymology, popularity, or gender distribution.",
       "claim_evidence": [
         {
           "claim": "Adam is named in Qur’an 2:31",
@@ -368,6 +378,16 @@
           "claim": "Adam occurs as a proper noun in the Qur’an",
           "source": "https://corpus.quran.com/qurandictionary.jsp?root=nba",
           "status": "verified_corpus_entry"
+        },
+        {
+          "claim": "Adam is explicitly named in Qur'an 2:31, where God teaches Adam the names.",
+          "source": "https://quran.com/2/31",
+          "status": "primary_scriptural_text_reference_added"
+        },
+        {
+          "claim": "Adam is explicitly mentioned in Qur'an 3:59.",
+          "source": "https://quran.com/3/59",
+          "status": "primary_scriptural_text_reference_added"
         }
       ],
       "claim_evidence_status": "SCRIPTURAL_REFERENCE_AND_PROPER_NOUN_FORM_VERIFIED; OLDER_ETYMOLOGY_AND_MODERN_FREQUENCY_NOT_VERIFIED"
