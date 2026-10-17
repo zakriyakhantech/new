@@ -21,10 +21,10 @@
       "name_status": "attested"
     },
     "core_meaning": {
-      "short_meaning": "Praise, bravo, well done",
-      "primary_meaning": "Aafreen corresponds to the Persian form آفرين and is glossed in this record as “Praise, bravo, well done.” The lexical gloss describes the word-form; Qur’anic occurrence, religious recommendation, popularity, and a name-bearer’s character are separate claims and are not established by this gloss alone.",
-      "literal_meaning": "Praise, bravo, well done",
-      "meaning_explanation": "Aafreen corresponds to Persian آفرین (āfarīn), an expression used to praise or applaud someone, roughly “praise,” “bravo,” or “well done.” This is a lexical explanation of the Persian word; it does not establish the name’s popularity, religious prescription, or Qur’anic status.",
+      "short_meaning": "Praise; bravo; well done",
+      "primary_meaning": "Aafreen represents Persian آفرین (āfarīn), an expression of praise or approval commonly rendered “bravo,” “well done,” or “praise.” Persian lexicographic sources also record other historical and compound-specific uses of آفرین, so those senses should not automatically be assigned to the standalone given name. This lexical meaning does not establish the name’s popularity, regional gender distribution, Qur’anic occurrence, or religious recommendation.",
+      "literal_meaning": "Praise; acclamation; “bravo” or “well done”",
+      "meaning_explanation": "Persian آفرین (āfarīn) is used to express praise or approval, with English equivalents including “bravo,” “well done,” and “praise.” The Dehkhoda dictionary also records related senses and historical/compound uses, including a shortened form in compounds; those should not be collapsed into one meaning or attributed to the standalone name without context. The safest concise name gloss is “praise; bravo; well done.”",
       "meaning_confidence": "HIGH"
     },
     "etymology": {
@@ -37,7 +37,7 @@
       "feminine_form": null,
       "etymological_meaning": "The Persian word آفرين",
       "root_family": [],
-      "etymology_explanation": "The form آفرين is an established Persian lexical item used unchanged as a given name.",
+      "etymology_explanation": "The name corresponds to the Persian lexical form آفرین (āfarīn). A Dehkhoda entry supports the praise/acclamation sense and notes that the same written form can occur in other historical or compound-specific uses. This record does not assert a deeper etymology beyond what the cited lexical evidence supports.",
       "etymology_confidence": "HIGH",
       "false_etymology_warning": "No derivation beyond the documented Persian form is asserted. Any etymology that attributes this spelling to a different root or language without a source should be treated as unverified."
     },
@@ -342,9 +342,11 @@
     "evidence": {
       "sources": [
         "https://fa.wiktionary.org/wiki/%D8%A2%D9%81%D8%B1%DB%8C%D9%86",
-        "https://persiandict.com/lexemeen/db74545d9ebc4e78a9428493.html"
+        "https://persiandict.com/lexemeen/db74545d9ebc4e78a9428493.html",
+        "https://lamtakam.com/dictionaries/dehkhoda/2909/%D8%A2%D9%81%D8%B1%DB%8C%D9%86+",
+        "https://en.wiktionary.org/wiki/%D8%A2%D9%81%D8%B1%DB%8C%D9%86"
       ],
-      "verification_method": "Checked Persian Wiktionary and PersianDict entries for آفرین. The references support the Persian lexical item and praise/applause sense. They do not independently establish frequency of Aafreen as a given name, regional gender distribution, or religious/scriptural status.",
+      "verification_method": "Cross-checked the Persian lexical item آفرین against a Dehkhoda dictionary entry and Wiktionary. The sources support praise/acclamation senses such as “bravo,” “well done,” and “praise.” آفرین can have additional historical or compound-specific senses; this record uses the praise/exclamation sense and does not automatically transfer compound meanings such as “creator” to the standalone given name. The sources do not establish personal-name frequency, regional gender distribution, or religious/scriptural status.",
       "claim_evidence": [
         {
           "claim": "Persian آفرین is an expression of praise/applause, including “bravo” or “well done”",
@@ -355,13 +357,24 @@
           "claim": "Persian dictionary entry for آفرین",
           "source": "https://persiandict.com/lexemeen/db74545d9ebc4e78a9428493.html",
           "status": "Persian_dictionary_entry_checked"
+        },
+        {
+          "claim": "Dehkhoda dictionary entry lists آفرین as praise/acclamation and equivalents such as احسنت / مرحبا / well done / bravo; it also notes other historical or compound uses.",
+          "source": "https://lamtakam.com/dictionaries/dehkhoda/2909/%D8%A2%D9%81%D8%B1%DB%8C%D9%86+",
+          "status": "named_persian_dictionary_entry_checked",
+          "evidence_excerpt": "مترادف ... تحسین، تعریف، تمجید، درود، ستایش، مدح ... انگلیسی Well done!, Bravo!"
+        },
+        {
+          "claim": "Wiktionary records Persian آفرین as “well done, bravo” and gives a historical etymological note.",
+          "source": "https://en.wiktionary.org/wiki/%D8%A2%D9%81%D8%B1%DB%8C%D9%86",
+          "status": "secondary_lexical_entry_checked"
         }
       ],
-      "claim_evidence_status": "PERSIAN_LEXICAL_MEANING_CHECKED; PERSONAL_NAME_FREQUENCY_AND_REGIONAL_GENDER_NOT_VERIFIED"
+      "claim_evidence_status": "PERSIAN_PRAISE_AND_ACCLAMATION_SENSE_SUPPORTED_BY_DEHKHODA_AND_SECONDARY_LEXICON; PERSONAL_NAME_FREQUENCY_REGIONAL_GENDER_AND_RELIGIOUS_STATUS_NOT_VERIFIED"
     },
     "provenance": {
       "pipeline": "NameVerse Production v8",
-      "methodology": "Individual Persian lexical review using Persian Wiktionary and PersianDict; added claim-level evidence, lowered gender confidence because regional distribution data is absent, revised SEO metadata, and synchronized FAQ structured data.",
+      "methodology": "Source-backed Persian lexical revision: added a named Dehkhoda dictionary reference and secondary lexical comparison; clarified the safest praise/acclamation gloss and separated standalone-name meaning from historical or compound-specific senses.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
       "processed_at": "2026-10-16T00:00:00+00:00"
     },
@@ -482,9 +495,11 @@
     "editorial_validation": {
       "needs_manual_verification": true,
       "flags": [
-        "Independent source and native-language review still required"
+        "Independent source and native-language review still required",
+        "Personal-name frequency and regional gender distribution lack independent evidence",
+        "Native review still required for Arabic and Pashto translations"
       ],
-      "confidence": "MEDIUM",
+      "confidence": "HIGH for the Persian praise/acclamation lexical sense; MEDIUM overall because name-specific usage and translations remain unverified",
       "reviewed_by": "NameVerse verification pipeline",
       "reviewed_at": "2026-10-06T04:27:34+00:00"
     },
