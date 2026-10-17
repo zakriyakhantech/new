@@ -345,21 +345,39 @@
     },
     "evidence": {
       "sources": [
-        "No named Arabic dictionary citation is stored in this record; add a reputable lexicon reference before tier-1 verification."
+        "Edward William Lane, An Arabic-English Lexicon, entry عَابِدٌ under root عبد: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2002.02.0032%3Aroot%3DEbd%3Aentry%3DEaAbidN",
+        "Hans Wehr Arabic-English Dictionary, root عبد: https://www.hanswehr.com/word/%D8%B9%D8%A8%D8%AF",
+        "Cairo Arabic Language Academy, معنى العابد (root عبد): https://www.arabicacademy.gov.eg/ar/%D9%85%D8%AD%D8%B1%D9%83-%D8%A7%D9%84%D8%A8%D8%AD%D8%AB/%D8%A7%D9%84%D8%B9%D8%A7%D8%A8%D8%AF"
       ],
-      "verification_method": "Individual editorial review of Arabic active-participle morphology and consistency between literal meaning and contextual paraphrase; named external lexicon citation remains pending.",
+      "verification_method": "Cross-checked the lexical sense and root against Lane's Arabic-English Lexicon, Hans Wehr, and the Cairo Arabic Language Academy entry for العابد. The dictionary evidence supports the lexical gloss; personal-name frequency, scriptural status, and non-Arabic translation quality are separate claims and are not verified by these dictionary entries.",
       "claim_evidence": [
         {
-          "claim": "Arabic lexical meaning and root ع ب د",
-          "source": "https://www.laneslexicon.com/word/%D8%B9%D8%A7%D8%A8%D8%AF",
-          "status": "listed_source_not_independently_rechecked"
+          "claim": "Lexical meaning of عابد (ʿābid): worshipper / one who worships",
+          "source": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2002.02.0032%3Aroot%3DEbd%3Aentry%3DEaAbidN",
+          "source_name": "Edward William Lane, An Arabic-English Lexicon, entry عَابِدٌ",
+          "evidence_excerpt": "Lane defines عَابِدٌ as a server, worshipper, or adorer of God and as one who obeys God with humility or submissiveness.",
+          "status": "checked"
+        },
+        {
+          "claim": "Arabic root ع ب د and semantic field of worship / service",
+          "source": "https://www.hanswehr.com/word/%D8%B9%D8%A8%D8%AF",
+          "source_name": "Hans Wehr Arabic-English Dictionary, root عبد",
+          "evidence_excerpt": "The root entry includes عَبَدَ with senses such as serve and worship, and عَبْد with senses including servant and worshipper in relevant constructions.",
+          "status": "checked"
+        },
+        {
+          "claim": "Modern Arabic dictionary definition of العابد",
+          "source": "https://www.arabicacademy.gov.eg/ar/%D9%85%D8%AD%D8%B1%D9%83_%D8%A7%D9%84%D8%A8%D8%AD%D8%AB/%D8%A7%D9%84%D8%B9%D8%A7%D8%A8%D8%AF",
+          "source_name": "Cairo Arabic Language Academy, معنى العابد",
+          "evidence_excerpt": "The entry gives العابد under root عبد and defines it as المُوحِّدُ.",
+          "status": "checked"
         }
       ],
-      "claim_evidence_status": "LANE_LEXICON_ENTRY_CHECKED; OTHER_SOURCE_URLS_AND_NONLEXICAL_CLAIMS_NOT_FULLY_VERIFIED"
+      "claim_evidence_status": "CORE_LEXICAL_GLOSS_CROSS_CHECKED_AGAINST_LANE_HANS_WEHR_AND_CAIRO_ARABIC_LANGUAGE_ACADEMY; NAME_USAGE_AND_TRANSLATIONS_REMAIN_SEPARATE"
     },
     "provenance": {
       "pipeline": "NameVerse editorial revision",
-      "methodology": "Individual editorial review of Arabic morphology, literal versus contextual meaning, and unsupported score/usage claims; independent lexicon citation remains pending.",
+      "methodology": "Core lexical gloss cross-checked against Lane's Lexicon, Hans Wehr, and the Cairo Arabic Language Academy. Personal-name usage, religious status, and non-Arabic translations are not inferred from dictionary evidence.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
       "processed_at": "2026-10-16T05:30:00+00:00"
     },
@@ -488,11 +506,11 @@
     "editorial_validation": {
       "needs_manual_verification": true,
       "flags": [
-        "Add a named reputable Arabic dictionary citation",
         "Verify personal-name usage independently",
-        "Native review needed for Pashto and Arabic translations"
+        "Native review needed for Pashto and Arabic translations",
+        "Confirm the linked dictionary entries remain accessible; native review still required for Arabic and Pashto translation copy."
       ],
-      "confidence": "MEDIUM",
+      "confidence": "HIGH for core Arabic lexical gloss; MEDIUM overall because usage and translation review remain incomplete",
       "reviewed_by": "NameVerse editorial revision (automated consistency pass; native/human review still required)",
       "reviewed_at": "2026-10-15"
     },
