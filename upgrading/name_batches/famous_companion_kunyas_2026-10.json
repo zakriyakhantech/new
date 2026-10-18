@@ -1,0 +1,1240 @@
+{
+  "manifest_version": 1,
+  "batch_id": "famous-companion-kunyas-2026-10-18",
+  "created_at": "2026-10-18T00:00:00+00:00",
+  "dataset": "upgrading/names_upgraded/islamic",
+  "template": "upgrading/names_upgraded/islamic/aaban.json",
+  "builder": "upgrading/scripts/add_famous_companion_kunyas_2026_10.py",
+  "selection_policy": [
+    "Only add a canonical Romanized name and Arabic-script form absent from the current dataset, including aliases, localized scripts, pronunciation scripts, and variants.",
+    "Every entry is explicitly typed as a historical kunya; a literal father/mother-of construction does not assert biological parenthood or make the kunya a modern given name.",
+    "Historical bearer and lexical construction are separate claims. Classical reference pointers are listed with limitations and are not claimed as independently rechecked in this pass.",
+    "Qur'anic status, Muslim cultural use, name popularity, and religious recommendation are not inferred from a Companion association.",
+    "Non-English glosses are editorial drafts requiring native-speaker review. Numerology, lucky attributes, personality claims, and name stories are suppressed."
+  ],
+  "verification_summary": {
+    "names": 10,
+    "name_type": "historical_kunya; not automatically a modern given name",
+    "latin_and_arabic_script_collision_audit": "passed before write; entire existing dataset scanned",
+    "schema": "super-2.0 key-path parity with aaban.json",
+    "historical_sources": "bibliographic pointers listed; not independently rechecked in this pass",
+    "quranic_claims": "no personal-name attestation claimed",
+    "popularity": "not measured",
+    "translations": "drafts; native review required"
+  },
+  "names": [
+    {
+      "name": "Abu Ubaydah",
+      "slug": "abuubaydah",
+      "gender": "Male",
+      "bearer": "ʿĀmir ibn ʿAbd Allāh ibn al-Jarrāḥ",
+      "gconf": "HIGH",
+      "aliases": [
+        "Abu Ubaidah",
+        "Abu Ubaida",
+        "Abu Ubaydah ibn al-Jarrah"
+      ],
+      "ar": "أَبُو عُبَيْدَة",
+      "tr": "abū ʿubayda",
+      "root": "",
+      "roottr": "",
+      "morph": "Arabic kunya construction: أبو (Abu, father of) or أم (Umm, mother of) + a personal name; not a claim of biological parenthood.",
+      "short": "Historical kunya; literally “father of Ubaydah”",
+      "primary": "Abu Ubaydah (أَبُو عُبَيْدَة) is a historical Arabic kunya borne by ʿĀmir ibn ʿAbd Allāh ibn al-Jarrāḥ. The literal construction is “father of Ubaydah”; a kunya is a conventional identifier and does not by itself assert biological parenthood. The biographical references listed here are pointers, not independently rechecked in this pass. They establish neither modern name frequency nor a Qur'anic or religious recommendation.",
+      "literal": "Historical kunya; literally “father of Ubaydah”",
+      "explain": "The record treats Abu Ubaydah as a historical kunya, not as a claim that it is a standalone modern given name. The Arabic lexical components are listed separately from the historical bearer. A kunya's literal kinship construction does not prove the bearer had a child with that name.",
+      "mconf": "MEDIUM",
+      "sem": "historical Companion kunya",
+      "concepts": [
+        "historical kunya",
+        "Companions of the Prophet",
+        "early Islamic history"
+      ],
+      "quran": false,
+      "qstatus": "not_claimed_as_quranic_personal_name",
+      "qnote": "This record documents a historical Companion kunya. No Qur'anic personal-name attestation or special religious status is claimed for the kunya.",
+      "rel_assoc": "Early Islamic historical usage",
+      "rel_conf": "MEDIUM",
+      "rel_status": "A historical identifier associated with a Companion; this is not a religious ruling or recommendation to use the kunya as a given name.",
+      "rel_explain": "The entry describes a historical bearer and Arabic kunya construction. Historical Muslim use is distinct from scriptural status, naming advice, and current frequency.",
+      "hadith": [
+        "not_verified",
+        "No specific hadith prescribing this kunya as a child's name or assigning it a special virtue is claimed."
+      ],
+      "prophetic": [
+        "not_verified",
+        "No prophetic name status is claimed for this historical kunya."
+      ],
+      "companion": [
+        "historically_attested",
+        "The listed biographical reference identifies ʿĀmir ibn ʿAbd Allāh ibn al-Jarrāḥ as a Companion known by this kunya; source pointer not independently rechecked in this pass."
+      ],
+      "name_status": "historical_kunya",
+      "cult_note": "This form is associated with the named historical bearer; the entry makes no claim about popularity or a contemporary bearer's character.",
+      "cult_interp": "No symbolic or personality interpretation is asserted; the record describes historical usage only.",
+      "hist_status": "biographical_reference_listed_not_rechecked",
+      "hist_note": "The famous Companion ʿĀmir ibn ʿAbd Allāh ibn al-Jarrāḥ is recorded by the kunya Abū ʿUbaydah in the listed biographical references; those references were not independently rechecked here.",
+      "usage_note": "Historical bearer usage is the scope of this record. Contemporary given-name frequency is not measured, and a historical kunya is not automatically a modern given name.",
+      "trs": {
+        "urdu": [
+          "أَبُو عُبَيْدَة",
+          "تاریخی کنیت؛ لفظی ساخت: عبيدة کا والد"
+        ],
+        "persian": [
+          "أَبُو عُبَيْدَة",
+          "کنیهٔ تاریخی؛ ساخت لفظی: پدرِ عبيدة"
+        ],
+        "hindi": [
+          "अबू उबैदा",
+          "ऐतिहासिक कुन्या; शाब्दिक संरचना: उबैदा के पिता"
+        ],
+        "pashto": [
+          "أَبُو عُبَيْدَة",
+          "تاریخي کنیه؛ لفظي جوړښت: د عبيدة پلار"
+        ],
+        "arabic": [
+          "أَبُو عُبَيْدَة",
+          "كُنْية تاريخية؛ تركيبها الحرفي: والد عبيدة"
+        ]
+      },
+      "pron": "a-boo u-bay-dah",
+      "pron_note": "Romanized pronunciation guide only; no IPA or regional pronunciation survey is asserted.",
+      "evidence": [
+        [
+          "Ibn Hajar al-Asqalani, al-Isaba fi Tamyiz al-Sahaba, entry for ʿĀmir ibn ʿAbd Allāh ibn al-Jarrāḥ",
+          "",
+          "Biographical reference for the historical bearer and recorded kunya.",
+          "Bibliographic pointer only; entry/page was not independently rechecked in this pass and does not establish modern given-name frequency."
+        ],
+        [
+          "Ibn Sa'd, al-Tabaqat al-Kubra, entry for ʿĀmir ibn ʿAbd Allāh ibn al-Jarrāḥ",
+          "",
+          "Classical biographical reference for the historical bearer.",
+          "Reference listed as a research lead, not independently rechecked in this pass."
+        ],
+        [
+          "Lane, An Arabic-English Lexicon, entries for أب (ab) and أم (umm)",
+          "",
+          "Lexical reference for the component words father (ab) and mother (umm).",
+          "The lexicon supports component glosses, not the historical bearer or contemporary personal-name use."
+        ]
+      ],
+      "claims": [
+        [
+          "The historical bearer ʿĀmir ibn ʿAbd Allāh ibn al-Jarrāḥ is recorded by this kunya",
+          "Ibn Hajar al-Asqalani, al-Isaba fi Tamyiz al-Sahaba, entry for ʿĀmir ibn ʿAbd Allāh ibn al-Jarrāḥ",
+          "biographical_reference_listed_not_independently_rechecked"
+        ],
+        [
+          "The Arabic lexical components Abu/Umm are glossed as father/mother in the literal construction",
+          "Lane, An Arabic-English Lexicon, entries for أب (ab) and أم (umm)",
+          "lexical_reference_listed_not_independently_rechecked"
+        ],
+        [
+          "A kunya is a conventional identifier; literal kinship wording alone does not establish biological parenthood",
+          null,
+          "editorial_caution_not_independently_sourced"
+        ]
+      ],
+      "flags": [
+        "historical_kunya_not_automatically_a_given_name",
+        "bibliographic_references_not_rechecked",
+        "modern_frequency_not_measured",
+        "translations_require_native_review"
+      ],
+      "selection": "Selected as a famous Companion kunya absent from the dataset; historical bearer usage is distinct from modern given-name frequency.",
+      "name_type": "historical_kunya"
+    },
+    {
+      "name": "Abu Ayyub",
+      "slug": "abuayyub",
+      "gender": "Male",
+      "bearer": "Khalid ibn Zayd al-Ansari",
+      "gconf": "HIGH",
+      "aliases": [
+        "Abu Ayyub al-Ansari",
+        "Abu Ayyub al Ansari"
+      ],
+      "ar": "أَبُو أَيُّوب",
+      "tr": "abū ayyūb",
+      "root": "",
+      "roottr": "",
+      "morph": "Arabic kunya construction: أبو (Abu, father of) or أم (Umm, mother of) + a personal name; not a claim of biological parenthood.",
+      "short": "Historical kunya; literally “father of Ayyub”",
+      "primary": "Abu Ayyub (أَبُو أَيُّوب) is a historical Arabic kunya borne by Khalid ibn Zayd al-Ansari. The literal construction is “father of Ayyub”; a kunya is a conventional identifier and does not by itself assert biological parenthood. The biographical references listed here are pointers, not independently rechecked in this pass. They establish neither modern name frequency nor a Qur'anic or religious recommendation.",
+      "literal": "Historical kunya; literally “father of Ayyub”",
+      "explain": "The record treats Abu Ayyub as a historical kunya, not as a claim that it is a standalone modern given name. The Arabic lexical components are listed separately from the historical bearer. A kunya's literal kinship construction does not prove the bearer had a child with that name.",
+      "mconf": "MEDIUM",
+      "sem": "historical Companion kunya",
+      "concepts": [
+        "historical kunya",
+        "Companions of the Prophet",
+        "early Islamic history"
+      ],
+      "quran": false,
+      "qstatus": "not_claimed_as_quranic_personal_name",
+      "qnote": "This record documents a historical Companion kunya. No Qur'anic personal-name attestation or special religious status is claimed for the kunya.",
+      "rel_assoc": "Early Islamic historical usage",
+      "rel_conf": "MEDIUM",
+      "rel_status": "A historical identifier associated with a Companion; this is not a religious ruling or recommendation to use the kunya as a given name.",
+      "rel_explain": "The entry describes a historical bearer and Arabic kunya construction. Historical Muslim use is distinct from scriptural status, naming advice, and current frequency.",
+      "hadith": [
+        "not_verified",
+        "No specific hadith prescribing this kunya as a child's name or assigning it a special virtue is claimed."
+      ],
+      "prophetic": [
+        "not_verified",
+        "No prophetic name status is claimed for this historical kunya."
+      ],
+      "companion": [
+        "historically_attested",
+        "The listed biographical reference identifies Khalid ibn Zayd al-Ansari as a Companion known by this kunya; source pointer not independently rechecked in this pass."
+      ],
+      "name_status": "historical_kunya",
+      "cult_note": "This form is associated with the named historical bearer; the entry makes no claim about popularity or a contemporary bearer's character.",
+      "cult_interp": "No symbolic or personality interpretation is asserted; the record describes historical usage only.",
+      "hist_status": "biographical_reference_listed_not_rechecked",
+      "hist_note": "Khalid ibn Zayd al-Ansari is widely known by the kunya Abū Ayyūb al-Anṣārī; the listed biographical references are pointers and were not independently rechecked here.",
+      "usage_note": "Historical bearer usage is the scope of this record. Contemporary given-name frequency is not measured, and a historical kunya is not automatically a modern given name.",
+      "trs": {
+        "urdu": [
+          "أَبُو أَيُّوب",
+          "تاریخی کنیت؛ لفظی ساخت: أيوب کا والد"
+        ],
+        "persian": [
+          "أَبُو أَيُّوب",
+          "کنیهٔ تاریخی؛ ساخت لفظی: پدرِ أيوب"
+        ],
+        "hindi": [
+          "अबू अय्यूब",
+          "ऐतिहासिक कुन्या; शाब्दिक संरचना: अय्यूब के पिता"
+        ],
+        "pashto": [
+          "أَبُو أَيُّوب",
+          "تاریخي کنیه؛ لفظي جوړښت: د أيوب پلار"
+        ],
+        "arabic": [
+          "أَبُو أَيُّوب",
+          "كُنْية تاريخية؛ تركيبها الحرفي: والد أيوب"
+        ]
+      },
+      "pron": "a-boo ay-yub",
+      "pron_note": "Romanized pronunciation guide only; no IPA or regional pronunciation survey is asserted.",
+      "evidence": [
+        [
+          "Ibn Hajar al-Asqalani, al-Isaba fi Tamyiz al-Sahaba, entry for Khalid ibn Zayd al-Ansari",
+          "",
+          "Biographical reference for the historical bearer and recorded kunya.",
+          "Bibliographic pointer only; entry/page was not independently rechecked in this pass and does not establish modern given-name frequency."
+        ],
+        [
+          "Ibn Sa'd, al-Tabaqat al-Kubra, entry for Khalid ibn Zayd al-Ansari",
+          "",
+          "Classical biographical reference for the historical bearer.",
+          "Reference listed as a research lead, not independently rechecked in this pass."
+        ],
+        [
+          "Lane, An Arabic-English Lexicon, entries for أب (ab) and أم (umm)",
+          "",
+          "Lexical reference for the component words father (ab) and mother (umm).",
+          "The lexicon supports component glosses, not the historical bearer or contemporary personal-name use."
+        ]
+      ],
+      "claims": [
+        [
+          "The historical bearer Khalid ibn Zayd al-Ansari is recorded by this kunya",
+          "Ibn Hajar al-Asqalani, al-Isaba fi Tamyiz al-Sahaba, entry for Khalid ibn Zayd al-Ansari",
+          "biographical_reference_listed_not_independently_rechecked"
+        ],
+        [
+          "The Arabic lexical components Abu/Umm are glossed as father/mother in the literal construction",
+          "Lane, An Arabic-English Lexicon, entries for أب (ab) and أم (umm)",
+          "lexical_reference_listed_not_independently_rechecked"
+        ],
+        [
+          "A kunya is a conventional identifier; literal kinship wording alone does not establish biological parenthood",
+          null,
+          "editorial_caution_not_independently_sourced"
+        ]
+      ],
+      "flags": [
+        "historical_kunya_not_automatically_a_given_name",
+        "bibliographic_references_not_rechecked",
+        "modern_frequency_not_measured",
+        "translations_require_native_review"
+      ],
+      "selection": "Selected for the well-known Companion Abu Ayyub al-Ansari; the record identifies a kunya rather than asserting name popularity.",
+      "name_type": "historical_kunya"
+    },
+    {
+      "name": "Abu Musa",
+      "slug": "abumusa",
+      "gender": "Male",
+      "bearer": "ʿAbd Allāh ibn Qays al-Ashʿari",
+      "gconf": "HIGH",
+      "aliases": [
+        "Abu Musa al-Ashari",
+        "Abu Musa al Ashari"
+      ],
+      "ar": "أَبُو مُوسَى",
+      "tr": "abū mūsā",
+      "root": "",
+      "roottr": "",
+      "morph": "Arabic kunya construction: أبو (Abu, father of) or أم (Umm, mother of) + a personal name; not a claim of biological parenthood.",
+      "short": "Historical kunya; literally “father of Musa”",
+      "primary": "Abu Musa (أَبُو مُوسَى) is a historical Arabic kunya borne by ʿAbd Allāh ibn Qays al-Ashʿari. The literal construction is “father of Musa”; a kunya is a conventional identifier and does not by itself assert biological parenthood. The biographical references listed here are pointers, not independently rechecked in this pass. They establish neither modern name frequency nor a Qur'anic or religious recommendation.",
+      "literal": "Historical kunya; literally “father of Musa”",
+      "explain": "The record treats Abu Musa as a historical kunya, not as a claim that it is a standalone modern given name. The Arabic lexical components are listed separately from the historical bearer. A kunya's literal kinship construction does not prove the bearer had a child with that name.",
+      "mconf": "MEDIUM",
+      "sem": "historical Companion kunya",
+      "concepts": [
+        "historical kunya",
+        "Companions of the Prophet",
+        "early Islamic history"
+      ],
+      "quran": false,
+      "qstatus": "not_claimed_as_quranic_personal_name",
+      "qnote": "This record documents a historical Companion kunya. No Qur'anic personal-name attestation or special religious status is claimed for the kunya.",
+      "rel_assoc": "Early Islamic historical usage",
+      "rel_conf": "MEDIUM",
+      "rel_status": "A historical identifier associated with a Companion; this is not a religious ruling or recommendation to use the kunya as a given name.",
+      "rel_explain": "The entry describes a historical bearer and Arabic kunya construction. Historical Muslim use is distinct from scriptural status, naming advice, and current frequency.",
+      "hadith": [
+        "not_verified",
+        "No specific hadith prescribing this kunya as a child's name or assigning it a special virtue is claimed."
+      ],
+      "prophetic": [
+        "not_verified",
+        "No prophetic name status is claimed for this historical kunya."
+      ],
+      "companion": [
+        "historically_attested",
+        "The listed biographical reference identifies ʿAbd Allāh ibn Qays al-Ashʿari as a Companion known by this kunya; source pointer not independently rechecked in this pass."
+      ],
+      "name_status": "historical_kunya",
+      "cult_note": "This form is associated with the named historical bearer; the entry makes no claim about popularity or a contemporary bearer's character.",
+      "cult_interp": "No symbolic or personality interpretation is asserted; the record describes historical usage only.",
+      "hist_status": "biographical_reference_listed_not_rechecked",
+      "hist_note": "The Companion ʿAbd Allāh ibn Qays al-Ashʿarī is recorded by the kunya Abū Mūsā; reference pointers are listed but not rechecked in this pass.",
+      "usage_note": "Historical bearer usage is the scope of this record. Contemporary given-name frequency is not measured, and a historical kunya is not automatically a modern given name.",
+      "trs": {
+        "urdu": [
+          "أَبُو مُوسَى",
+          "تاریخی کنیت؛ لفظی ساخت: موسى کا والد"
+        ],
+        "persian": [
+          "أَبُو مُوسَى",
+          "کنیهٔ تاریخی؛ ساخت لفظی: پدرِ موسى"
+        ],
+        "hindi": [
+          "अबू मूसा",
+          "ऐतिहासिक कुन्या; शाब्दिक संरचना: मूसा के पिता"
+        ],
+        "pashto": [
+          "أَبُو مُوسَى",
+          "تاریخي کنیه؛ لفظي جوړښت: د موسى پلار"
+        ],
+        "arabic": [
+          "أَبُو مُوسَى",
+          "كُنْية تاريخية؛ تركيبها الحرفي: والد موسى"
+        ]
+      },
+      "pron": "a-boo moo-saa",
+      "pron_note": "Romanized pronunciation guide only; no IPA or regional pronunciation survey is asserted.",
+      "evidence": [
+        [
+          "Ibn Hajar al-Asqalani, al-Isaba fi Tamyiz al-Sahaba, entry for ʿAbd Allāh ibn Qays al-Ashʿari",
+          "",
+          "Biographical reference for the historical bearer and recorded kunya.",
+          "Bibliographic pointer only; entry/page was not independently rechecked in this pass and does not establish modern given-name frequency."
+        ],
+        [
+          "Ibn Sa'd, al-Tabaqat al-Kubra, entry for ʿAbd Allāh ibn Qays al-Ashʿari",
+          "",
+          "Classical biographical reference for the historical bearer.",
+          "Reference listed as a research lead, not independently rechecked in this pass."
+        ],
+        [
+          "Lane, An Arabic-English Lexicon, entries for أب (ab) and أم (umm)",
+          "",
+          "Lexical reference for the component words father (ab) and mother (umm).",
+          "The lexicon supports component glosses, not the historical bearer or contemporary personal-name use."
+        ]
+      ],
+      "claims": [
+        [
+          "The historical bearer ʿAbd Allāh ibn Qays al-Ashʿari is recorded by this kunya",
+          "Ibn Hajar al-Asqalani, al-Isaba fi Tamyiz al-Sahaba, entry for ʿAbd Allāh ibn Qays al-Ashʿari",
+          "biographical_reference_listed_not_independently_rechecked"
+        ],
+        [
+          "The Arabic lexical components Abu/Umm are glossed as father/mother in the literal construction",
+          "Lane, An Arabic-English Lexicon, entries for أب (ab) and أم (umm)",
+          "lexical_reference_listed_not_independently_rechecked"
+        ],
+        [
+          "A kunya is a conventional identifier; literal kinship wording alone does not establish biological parenthood",
+          null,
+          "editorial_caution_not_independently_sourced"
+        ]
+      ],
+      "flags": [
+        "historical_kunya_not_automatically_a_given_name",
+        "bibliographic_references_not_rechecked",
+        "modern_frequency_not_measured",
+        "translations_require_native_review"
+      ],
+      "selection": "Selected for the notable Companion Abu Musa al-Ashari; historical usage is sourced separately from lexical meaning and popularity.",
+      "name_type": "historical_kunya"
+    },
+    {
+      "name": "Abu al-Darda",
+      "slug": "abudarda",
+      "gender": "Male",
+      "bearer": "the Companion and early Muslim scholar known as Abū al-Dardāʾ",
+      "gconf": "HIGH",
+      "aliases": [
+        "Abu Darda",
+        "Abu Dardaa",
+        "Abu al-Darda"
+      ],
+      "ar": "أَبُو الدَّرْدَاء",
+      "tr": "abū al-dardāʾ",
+      "root": "",
+      "roottr": "",
+      "morph": "Arabic kunya construction: أبو (Abu, father of) or أم (Umm, mother of) + a personal name; not a claim of biological parenthood.",
+      "short": "Historical kunya; literally “father of al-Darda”",
+      "primary": "Abu al-Darda (أَبُو الدَّرْدَاء) is a historical Arabic kunya borne by the Companion and early Muslim scholar known as Abū al-Dardāʾ. The literal construction is “father of al-Darda”; a kunya is a conventional identifier and does not by itself assert biological parenthood. The biographical references listed here are pointers, not independently rechecked in this pass. They establish neither modern name frequency nor a Qur'anic or religious recommendation.",
+      "literal": "Historical kunya; literally “father of al-Darda”",
+      "explain": "The record treats Abu al-Darda as a historical kunya, not as a claim that it is a standalone modern given name. The Arabic lexical components are listed separately from the historical bearer. A kunya's literal kinship construction does not prove the bearer had a child with that name.",
+      "mconf": "MEDIUM",
+      "sem": "historical Companion kunya",
+      "concepts": [
+        "historical kunya",
+        "Companions of the Prophet",
+        "early Islamic history"
+      ],
+      "quran": false,
+      "qstatus": "not_claimed_as_quranic_personal_name",
+      "qnote": "This record documents a historical Companion kunya. No Qur'anic personal-name attestation or special religious status is claimed for the kunya.",
+      "rel_assoc": "Early Islamic historical usage",
+      "rel_conf": "MEDIUM",
+      "rel_status": "A historical identifier associated with a Companion; this is not a religious ruling or recommendation to use the kunya as a given name.",
+      "rel_explain": "The entry describes a historical bearer and Arabic kunya construction. Historical Muslim use is distinct from scriptural status, naming advice, and current frequency.",
+      "hadith": [
+        "not_verified",
+        "No specific hadith prescribing this kunya as a child's name or assigning it a special virtue is claimed."
+      ],
+      "prophetic": [
+        "not_verified",
+        "No prophetic name status is claimed for this historical kunya."
+      ],
+      "companion": [
+        "historically_attested",
+        "The listed biographical reference identifies the Companion and early Muslim scholar known as Abū al-Dardāʾ as a Companion known by this kunya; source pointer not independently rechecked in this pass."
+      ],
+      "name_status": "historical_kunya",
+      "cult_note": "This form is associated with the named historical bearer; the entry makes no claim about popularity or a contemporary bearer's character.",
+      "cult_interp": "No symbolic or personality interpretation is asserted; the record describes historical usage only.",
+      "hist_status": "biographical_reference_listed_not_rechecked",
+      "hist_note": "Abū al-Dardāʾ is a Companion and early Muslim scholar known by this kunya. This entry does not assert a disputed personal-name expansion; the reference pointers remain to be checked.",
+      "usage_note": "Historical bearer usage is the scope of this record. Contemporary given-name frequency is not measured, and a historical kunya is not automatically a modern given name.",
+      "trs": {
+        "urdu": [
+          "أَبُو الدَّرْدَاء",
+          "تاریخی کنیت؛ لفظی ساخت: الدرداء کا والد"
+        ],
+        "persian": [
+          "أَبُو الدَّرْدَاء",
+          "کنیهٔ تاریخی؛ ساخت لفظی: پدرِ الدرداء"
+        ],
+        "hindi": [
+          "अबू अल-दर्दा",
+          "ऐतिहासिक कुन्या; शाब्दिक संरचना: अल-दर्दा के पिता"
+        ],
+        "pashto": [
+          "أَبُو الدَّرْدَاء",
+          "تاریخي کنیه؛ لفظي جوړښت: د الدرداء پلار"
+        ],
+        "arabic": [
+          "أَبُو الدَّرْدَاء",
+          "كُنْية تاريخية؛ تركيبها الحرفي: والد الدرداء"
+        ]
+      },
+      "pron": "a-boo ad-dar-daa",
+      "pron_note": "Romanized pronunciation guide only; no IPA or regional pronunciation survey is asserted.",
+      "evidence": [
+        [
+          "Ibn Hajar al-Asqalani, al-Isaba fi Tamyiz al-Sahaba, entry for the Companion and early Muslim scholar known as Abū al-Dardāʾ",
+          "",
+          "Biographical reference for the historical bearer and recorded kunya.",
+          "Bibliographic pointer only; entry/page was not independently rechecked in this pass and does not establish modern given-name frequency."
+        ],
+        [
+          "Ibn Sa'd, al-Tabaqat al-Kubra, entry for the Companion and early Muslim scholar known as Abū al-Dardāʾ",
+          "",
+          "Classical biographical reference for the historical bearer.",
+          "Reference listed as a research lead, not independently rechecked in this pass."
+        ],
+        [
+          "Lane, An Arabic-English Lexicon, entries for أب (ab) and أم (umm)",
+          "",
+          "Lexical reference for the component words father (ab) and mother (umm).",
+          "The lexicon supports component glosses, not the historical bearer or contemporary personal-name use."
+        ]
+      ],
+      "claims": [
+        [
+          "The historical bearer the Companion and early Muslim scholar known as Abū al-Dardāʾ is recorded by this kunya",
+          "Ibn Hajar al-Asqalani, al-Isaba fi Tamyiz al-Sahaba, entry for the Companion and early Muslim scholar known as Abū al-Dardāʾ",
+          "biographical_reference_listed_not_independently_rechecked"
+        ],
+        [
+          "The Arabic lexical components Abu/Umm are glossed as father/mother in the literal construction",
+          "Lane, An Arabic-English Lexicon, entries for أب (ab) and أم (umm)",
+          "lexical_reference_listed_not_independently_rechecked"
+        ],
+        [
+          "A kunya is a conventional identifier; literal kinship wording alone does not establish biological parenthood",
+          null,
+          "editorial_caution_not_independently_sourced"
+        ]
+      ],
+      "flags": [
+        "historical_kunya_not_automatically_a_given_name",
+        "bibliographic_references_not_rechecked",
+        "modern_frequency_not_measured",
+        "translations_require_native_review"
+      ],
+      "selection": "Selected as the historical kunya of a prominent early Muslim Companion and scholar; the bearer is not reduced to an unsupported etymology.",
+      "name_type": "historical_kunya"
+    },
+    {
+      "name": "Abu Talhah",
+      "slug": "abutalhah",
+      "gender": "Male",
+      "bearer": "Zayd ibn Sahl al-Ansari",
+      "gconf": "HIGH",
+      "aliases": [
+        "Abu Talha",
+        "Abu Talha al-Ansari",
+        "Abu Talhah al-Ansari"
+      ],
+      "ar": "أَبُو طَلْحَة",
+      "tr": "abū ṭalḥa",
+      "root": "",
+      "roottr": "",
+      "morph": "Arabic kunya construction: أبو (Abu, father of) or أم (Umm, mother of) + a personal name; not a claim of biological parenthood.",
+      "short": "Historical kunya; literally “father of Talhah”",
+      "primary": "Abu Talhah (أَبُو طَلْحَة) is a historical Arabic kunya borne by Zayd ibn Sahl al-Ansari. The literal construction is “father of Talhah”; a kunya is a conventional identifier and does not by itself assert biological parenthood. The biographical references listed here are pointers, not independently rechecked in this pass. They establish neither modern name frequency nor a Qur'anic or religious recommendation.",
+      "literal": "Historical kunya; literally “father of Talhah”",
+      "explain": "The record treats Abu Talhah as a historical kunya, not as a claim that it is a standalone modern given name. The Arabic lexical components are listed separately from the historical bearer. A kunya's literal kinship construction does not prove the bearer had a child with that name.",
+      "mconf": "MEDIUM",
+      "sem": "historical Companion kunya",
+      "concepts": [
+        "historical kunya",
+        "Companions of the Prophet",
+        "early Islamic history"
+      ],
+      "quran": false,
+      "qstatus": "not_claimed_as_quranic_personal_name",
+      "qnote": "This record documents a historical Companion kunya. No Qur'anic personal-name attestation or special religious status is claimed for the kunya.",
+      "rel_assoc": "Early Islamic historical usage",
+      "rel_conf": "MEDIUM",
+      "rel_status": "A historical identifier associated with a Companion; this is not a religious ruling or recommendation to use the kunya as a given name.",
+      "rel_explain": "The entry describes a historical bearer and Arabic kunya construction. Historical Muslim use is distinct from scriptural status, naming advice, and current frequency.",
+      "hadith": [
+        "not_verified",
+        "No specific hadith prescribing this kunya as a child's name or assigning it a special virtue is claimed."
+      ],
+      "prophetic": [
+        "not_verified",
+        "No prophetic name status is claimed for this historical kunya."
+      ],
+      "companion": [
+        "historically_attested",
+        "The listed biographical reference identifies Zayd ibn Sahl al-Ansari as a Companion known by this kunya; source pointer not independently rechecked in this pass."
+      ],
+      "name_status": "historical_kunya",
+      "cult_note": "This form is associated with the named historical bearer; the entry makes no claim about popularity or a contemporary bearer's character.",
+      "cult_interp": "No symbolic or personality interpretation is asserted; the record describes historical usage only.",
+      "hist_status": "biographical_reference_listed_not_rechecked",
+      "hist_note": "The Companion Zayd ibn Sahl al-Anṣārī is known as Abū Ṭalḥah; the listed classical biographical references are research pointers and were not independently rechecked.",
+      "usage_note": "Historical bearer usage is the scope of this record. Contemporary given-name frequency is not measured, and a historical kunya is not automatically a modern given name.",
+      "trs": {
+        "urdu": [
+          "أَبُو طَلْحَة",
+          "تاریخی کنیت؛ لفظی ساخت: طلحة کا والد"
+        ],
+        "persian": [
+          "أَبُو طَلْحَة",
+          "کنیهٔ تاریخی؛ ساخت لفظی: پدرِ طلحة"
+        ],
+        "hindi": [
+          "अबू तल्हा",
+          "ऐतिहासिक कुन्या; शाब्दिक संरचना: तल्हा के पिता"
+        ],
+        "pashto": [
+          "أَبُو طَلْحَة",
+          "تاریخي کنیه؛ لفظي جوړښت: د طلحة پلار"
+        ],
+        "arabic": [
+          "أَبُو طَلْحَة",
+          "كُنْية تاريخية؛ تركيبها الحرفي: والد طلحة"
+        ]
+      },
+      "pron": "a-boo tal-ha",
+      "pron_note": "Romanized pronunciation guide only; no IPA or regional pronunciation survey is asserted.",
+      "evidence": [
+        [
+          "Ibn Hajar al-Asqalani, al-Isaba fi Tamyiz al-Sahaba, entry for Zayd ibn Sahl al-Ansari",
+          "",
+          "Biographical reference for the historical bearer and recorded kunya.",
+          "Bibliographic pointer only; entry/page was not independently rechecked in this pass and does not establish modern given-name frequency."
+        ],
+        [
+          "Ibn Sa'd, al-Tabaqat al-Kubra, entry for Zayd ibn Sahl al-Ansari",
+          "",
+          "Classical biographical reference for the historical bearer.",
+          "Reference listed as a research lead, not independently rechecked in this pass."
+        ],
+        [
+          "Lane, An Arabic-English Lexicon, entries for أب (ab) and أم (umm)",
+          "",
+          "Lexical reference for the component words father (ab) and mother (umm).",
+          "The lexicon supports component glosses, not the historical bearer or contemporary personal-name use."
+        ]
+      ],
+      "claims": [
+        [
+          "The historical bearer Zayd ibn Sahl al-Ansari is recorded by this kunya",
+          "Ibn Hajar al-Asqalani, al-Isaba fi Tamyiz al-Sahaba, entry for Zayd ibn Sahl al-Ansari",
+          "biographical_reference_listed_not_independently_rechecked"
+        ],
+        [
+          "The Arabic lexical components Abu/Umm are glossed as father/mother in the literal construction",
+          "Lane, An Arabic-English Lexicon, entries for أب (ab) and أم (umm)",
+          "lexical_reference_listed_not_independently_rechecked"
+        ],
+        [
+          "A kunya is a conventional identifier; literal kinship wording alone does not establish biological parenthood",
+          null,
+          "editorial_caution_not_independently_sourced"
+        ]
+      ],
+      "flags": [
+        "historical_kunya_not_automatically_a_given_name",
+        "bibliographic_references_not_rechecked",
+        "modern_frequency_not_measured",
+        "translations_require_native_review"
+      ],
+      "selection": "Selected for the famous Companion Abu Talhah al-Ansari; the record labels the expression as a historical kunya.",
+      "name_type": "historical_kunya"
+    },
+    {
+      "name": "Umm Salamah",
+      "slug": "ummsalamah",
+      "gender": "Female",
+      "bearer": "Hind bint Abi Umayya, wife of the Prophet Muhammad",
+      "gconf": "HIGH",
+      "aliases": [
+        "Umm Salama",
+        "Umm Salamah bint Abi Umayya"
+      ],
+      "ar": "أُمُّ سَلَمَة",
+      "tr": "umm salama",
+      "root": "",
+      "roottr": "",
+      "morph": "Arabic kunya construction: أبو (Abu, father of) or أم (Umm, mother of) + a personal name; not a claim of biological parenthood.",
+      "short": "Historical kunya; literally “mother of Salamah”",
+      "primary": "Umm Salamah (أُمُّ سَلَمَة) is a historical Arabic kunya borne by Hind bint Abi Umayya, wife of the Prophet Muhammad. The literal construction is “mother of Salamah”; a kunya is a conventional identifier and does not by itself assert biological parenthood. The biographical references listed here are pointers, not independently rechecked in this pass. They establish neither modern name frequency nor a Qur'anic or religious recommendation.",
+      "literal": "Historical kunya; literally “mother of Salamah”",
+      "explain": "The record treats Umm Salamah as a historical kunya, not as a claim that it is a standalone modern given name. The Arabic lexical components are listed separately from the historical bearer. A kunya's literal kinship construction does not prove the bearer had a child with that name.",
+      "mconf": "MEDIUM",
+      "sem": "historical kunya of a Mother of the Believers",
+      "concepts": [
+        "historical kunya",
+        "Companions of the Prophet",
+        "early Islamic history"
+      ],
+      "quran": false,
+      "qstatus": "not_claimed_as_quranic_personal_name",
+      "qnote": "This record documents a historical Companion kunya. No Qur'anic personal-name attestation or special religious status is claimed for the kunya.",
+      "rel_assoc": "Early Islamic historical usage",
+      "rel_conf": "MEDIUM",
+      "rel_status": "A historical identifier associated with a Companion; this is not a religious ruling or recommendation to use the kunya as a given name.",
+      "rel_explain": "The entry describes a historical bearer and Arabic kunya construction. Historical Muslim use is distinct from scriptural status, naming advice, and current frequency.",
+      "hadith": [
+        "not_verified",
+        "No specific hadith prescribing this kunya as a child's name or assigning it a special virtue is claimed."
+      ],
+      "prophetic": [
+        "not_verified",
+        "No prophetic name status is claimed for this historical kunya."
+      ],
+      "companion": [
+        "historically_attested",
+        "The listed biographical reference identifies Hind bint Abi Umayya, wife of the Prophet Muhammad as a Companion known by this kunya; source pointer not independently rechecked in this pass."
+      ],
+      "name_status": "historical_kunya",
+      "cult_note": "This form is associated with the named historical bearer; the entry makes no claim about popularity or a contemporary bearer's character.",
+      "cult_interp": "No symbolic or personality interpretation is asserted; the record describes historical usage only.",
+      "hist_status": "biographical_reference_listed_not_rechecked",
+      "hist_note": "Hind bint Abī Umayya, a wife of the Prophet Muhammad, is widely known by the kunya Umm Salamah. The biographical references are listed as pointers, not independently rechecked here.",
+      "usage_note": "Historical bearer usage is the scope of this record. Contemporary given-name frequency is not measured, and a historical kunya is not automatically a modern given name.",
+      "trs": {
+        "urdu": [
+          "أُمُّ سَلَمَة",
+          "تاریخی کنیت؛ لفظی ساخت: سلمة کی والدہ"
+        ],
+        "persian": [
+          "أُمُّ سَلَمَة",
+          "کنیهٔ تاریخی؛ ساخت لفظی: مادرِ سلمة"
+        ],
+        "hindi": [
+          "उम्म सलमा",
+          "ऐतिहासिक कुन्या; शाब्दिक संरचना: सलमा की माता"
+        ],
+        "pashto": [
+          "أُمُّ سَلَمَة",
+          "تاریخي کنیه؛ لفظي جوړښت: د سلمة مور"
+        ],
+        "arabic": [
+          "أُمُّ سَلَمَة",
+          "كُنْية تاريخية؛ تركيبها الحرفي: والدة سلمة"
+        ]
+      },
+      "pron": "oom sa-la-mah",
+      "pron_note": "Romanized pronunciation guide only; no IPA or regional pronunciation survey is asserted.",
+      "evidence": [
+        [
+          "Ibn Hajar al-Asqalani, al-Isaba fi Tamyiz al-Sahaba, entry for Hind bint Abi Umayya, wife of the Prophet Muhammad",
+          "",
+          "Biographical reference for the historical bearer and recorded kunya.",
+          "Bibliographic pointer only; entry/page was not independently rechecked in this pass and does not establish modern given-name frequency."
+        ],
+        [
+          "Ibn Sa'd, al-Tabaqat al-Kubra, entry for Hind bint Abi Umayya, wife of the Prophet Muhammad",
+          "",
+          "Classical biographical reference for the historical bearer.",
+          "Reference listed as a research lead, not independently rechecked in this pass."
+        ],
+        [
+          "Lane, An Arabic-English Lexicon, entries for أب (ab) and أم (umm)",
+          "",
+          "Lexical reference for the component words father (ab) and mother (umm).",
+          "The lexicon supports component glosses, not the historical bearer or contemporary personal-name use."
+        ]
+      ],
+      "claims": [
+        [
+          "The historical bearer Hind bint Abi Umayya, wife of the Prophet Muhammad is recorded by this kunya",
+          "Ibn Hajar al-Asqalani, al-Isaba fi Tamyiz al-Sahaba, entry for Hind bint Abi Umayya, wife of the Prophet Muhammad",
+          "biographical_reference_listed_not_independently_rechecked"
+        ],
+        [
+          "The Arabic lexical components Abu/Umm are glossed as father/mother in the literal construction",
+          "Lane, An Arabic-English Lexicon, entries for أب (ab) and أم (umm)",
+          "lexical_reference_listed_not_independently_rechecked"
+        ],
+        [
+          "A kunya is a conventional identifier; literal kinship wording alone does not establish biological parenthood",
+          null,
+          "editorial_caution_not_independently_sourced"
+        ]
+      ],
+      "flags": [
+        "historical_kunya_not_automatically_a_given_name",
+        "bibliographic_references_not_rechecked",
+        "modern_frequency_not_measured",
+        "translations_require_native_review"
+      ],
+      "selection": "Selected for the famous early Muslim woman Umm Salamah; the entry distinguishes her historical kunya from a standalone given name.",
+      "name_type": "historical_kunya"
+    },
+    {
+      "name": "Umm Habibah",
+      "slug": "ummhabibah",
+      "gender": "Female",
+      "bearer": "Ramlah bint Abi Sufyan, wife of the Prophet Muhammad",
+      "gconf": "HIGH",
+      "aliases": [
+        "Umm Habiba",
+        "Umm Habibah bint Abi Sufyan"
+      ],
+      "ar": "أُمُّ حَبِيبَة",
+      "tr": "umm ḥabība",
+      "root": "",
+      "roottr": "",
+      "morph": "Arabic kunya construction: أبو (Abu, father of) or أم (Umm, mother of) + a personal name; not a claim of biological parenthood.",
+      "short": "Historical kunya; literally “mother of Habibah”",
+      "primary": "Umm Habibah (أُمُّ حَبِيبَة) is a historical Arabic kunya borne by Ramlah bint Abi Sufyan, wife of the Prophet Muhammad. The literal construction is “mother of Habibah”; a kunya is a conventional identifier and does not by itself assert biological parenthood. The biographical references listed here are pointers, not independently rechecked in this pass. They establish neither modern name frequency nor a Qur'anic or religious recommendation.",
+      "literal": "Historical kunya; literally “mother of Habibah”",
+      "explain": "The record treats Umm Habibah as a historical kunya, not as a claim that it is a standalone modern given name. The Arabic lexical components are listed separately from the historical bearer. A kunya's literal kinship construction does not prove the bearer had a child with that name.",
+      "mconf": "MEDIUM",
+      "sem": "historical kunya of a Mother of the Believers",
+      "concepts": [
+        "historical kunya",
+        "Companions of the Prophet",
+        "early Islamic history"
+      ],
+      "quran": false,
+      "qstatus": "not_claimed_as_quranic_personal_name",
+      "qnote": "This record documents a historical Companion kunya. No Qur'anic personal-name attestation or special religious status is claimed for the kunya.",
+      "rel_assoc": "Early Islamic historical usage",
+      "rel_conf": "MEDIUM",
+      "rel_status": "A historical identifier associated with a Companion; this is not a religious ruling or recommendation to use the kunya as a given name.",
+      "rel_explain": "The entry describes a historical bearer and Arabic kunya construction. Historical Muslim use is distinct from scriptural status, naming advice, and current frequency.",
+      "hadith": [
+        "not_verified",
+        "No specific hadith prescribing this kunya as a child's name or assigning it a special virtue is claimed."
+      ],
+      "prophetic": [
+        "not_verified",
+        "No prophetic name status is claimed for this historical kunya."
+      ],
+      "companion": [
+        "historically_attested",
+        "The listed biographical reference identifies Ramlah bint Abi Sufyan, wife of the Prophet Muhammad as a Companion known by this kunya; source pointer not independently rechecked in this pass."
+      ],
+      "name_status": "historical_kunya",
+      "cult_note": "This form is associated with the named historical bearer; the entry makes no claim about popularity or a contemporary bearer's character.",
+      "cult_interp": "No symbolic or personality interpretation is asserted; the record describes historical usage only.",
+      "hist_status": "biographical_reference_listed_not_rechecked",
+      "hist_note": "Ramlah bint Abī Sufyān is widely known as Umm Habibah and is counted among the wives of the Prophet Muhammad; reference pointers are not independently rechecked in this pass.",
+      "usage_note": "Historical bearer usage is the scope of this record. Contemporary given-name frequency is not measured, and a historical kunya is not automatically a modern given name.",
+      "trs": {
+        "urdu": [
+          "أُمُّ حَبِيبَة",
+          "تاریخی کنیت؛ لفظی ساخت: حبيبة کی والدہ"
+        ],
+        "persian": [
+          "أُمُّ حَبِيبَة",
+          "کنیهٔ تاریخی؛ ساخت لفظی: مادرِ حبيبة"
+        ],
+        "hindi": [
+          "उम्म हबीबा",
+          "ऐतिहासिक कुन्या; शाब्दिक संरचना: हबीबा की माता"
+        ],
+        "pashto": [
+          "أُمُّ حَبِيبَة",
+          "تاریخي کنیه؛ لفظي جوړښت: د حبيبة مور"
+        ],
+        "arabic": [
+          "أُمُّ حَبِيبَة",
+          "كُنْية تاريخية؛ تركيبها الحرفي: والدة حبيبة"
+        ]
+      },
+      "pron": "oom ha-bee-bah",
+      "pron_note": "Romanized pronunciation guide only; no IPA or regional pronunciation survey is asserted.",
+      "evidence": [
+        [
+          "Ibn Hajar al-Asqalani, al-Isaba fi Tamyiz al-Sahaba, entry for Ramlah bint Abi Sufyan, wife of the Prophet Muhammad",
+          "",
+          "Biographical reference for the historical bearer and recorded kunya.",
+          "Bibliographic pointer only; entry/page was not independently rechecked in this pass and does not establish modern given-name frequency."
+        ],
+        [
+          "Ibn Sa'd, al-Tabaqat al-Kubra, entry for Ramlah bint Abi Sufyan, wife of the Prophet Muhammad",
+          "",
+          "Classical biographical reference for the historical bearer.",
+          "Reference listed as a research lead, not independently rechecked in this pass."
+        ],
+        [
+          "Lane, An Arabic-English Lexicon, entries for أب (ab) and أم (umm)",
+          "",
+          "Lexical reference for the component words father (ab) and mother (umm).",
+          "The lexicon supports component glosses, not the historical bearer or contemporary personal-name use."
+        ]
+      ],
+      "claims": [
+        [
+          "The historical bearer Ramlah bint Abi Sufyan, wife of the Prophet Muhammad is recorded by this kunya",
+          "Ibn Hajar al-Asqalani, al-Isaba fi Tamyiz al-Sahaba, entry for Ramlah bint Abi Sufyan, wife of the Prophet Muhammad",
+          "biographical_reference_listed_not_independently_rechecked"
+        ],
+        [
+          "The Arabic lexical components Abu/Umm are glossed as father/mother in the literal construction",
+          "Lane, An Arabic-English Lexicon, entries for أب (ab) and أم (umm)",
+          "lexical_reference_listed_not_independently_rechecked"
+        ],
+        [
+          "A kunya is a conventional identifier; literal kinship wording alone does not establish biological parenthood",
+          null,
+          "editorial_caution_not_independently_sourced"
+        ]
+      ],
+      "flags": [
+        "historical_kunya_not_automatically_a_given_name",
+        "bibliographic_references_not_rechecked",
+        "modern_frequency_not_measured",
+        "translations_require_native_review"
+      ],
+      "selection": "Selected for the well-known wife of the Prophet called Umm Habibah; historical identity is not presented as a popularity measure.",
+      "name_type": "historical_kunya"
+    },
+    {
+      "name": "Umm Waraqah",
+      "slug": "ummwaraqa",
+      "gender": "Female",
+      "bearer": "the female Companion known in biographical sources as Umm Waraqah bint ʿAbd Allāh",
+      "gconf": "HIGH",
+      "aliases": [
+        "Umm Waraqah bint Abdullah",
+        "Umm Warqah"
+      ],
+      "ar": "أُمُّ وَرَقَة",
+      "tr": "umm waraqah",
+      "root": "",
+      "roottr": "",
+      "morph": "Arabic kunya construction: أبو (Abu, father of) or أم (Umm, mother of) + a personal name; not a claim of biological parenthood.",
+      "short": "Historical kunya; literally “mother of Waraqah”",
+      "primary": "Umm Waraqah (أُمُّ وَرَقَة) is a historical Arabic kunya borne by the female Companion known in biographical sources as Umm Waraqah bint ʿAbd Allāh. The literal construction is “mother of Waraqah”; a kunya is a conventional identifier and does not by itself assert biological parenthood. The biographical references listed here are pointers, not independently rechecked in this pass. They establish neither modern name frequency nor a Qur'anic or religious recommendation.",
+      "literal": "Historical kunya; literally “mother of Waraqah”",
+      "explain": "The record treats Umm Waraqah as a historical kunya, not as a claim that it is a standalone modern given name. The Arabic lexical components are listed separately from the historical bearer. A kunya's literal kinship construction does not prove the bearer had a child with that name.",
+      "mconf": "MEDIUM",
+      "sem": "historical Companion kunya",
+      "concepts": [
+        "historical kunya",
+        "Companions of the Prophet",
+        "early Islamic history"
+      ],
+      "quran": false,
+      "qstatus": "not_claimed_as_quranic_personal_name",
+      "qnote": "This record documents a historical Companion kunya. No Qur'anic personal-name attestation or special religious status is claimed for the kunya.",
+      "rel_assoc": "Early Islamic historical usage",
+      "rel_conf": "MEDIUM",
+      "rel_status": "A historical identifier associated with a Companion; this is not a religious ruling or recommendation to use the kunya as a given name.",
+      "rel_explain": "The entry describes a historical bearer and Arabic kunya construction. Historical Muslim use is distinct from scriptural status, naming advice, and current frequency.",
+      "hadith": [
+        "not_verified",
+        "No specific hadith prescribing this kunya as a child's name or assigning it a special virtue is claimed."
+      ],
+      "prophetic": [
+        "not_verified",
+        "No prophetic name status is claimed for this historical kunya."
+      ],
+      "companion": [
+        "historically_attested",
+        "The listed biographical reference identifies the female Companion known in biographical sources as Umm Waraqah bint ʿAbd Allāh as a Companion known by this kunya; source pointer not independently rechecked in this pass."
+      ],
+      "name_status": "historical_kunya",
+      "cult_note": "This form is associated with the named historical bearer; the entry makes no claim about popularity or a contemporary bearer's character.",
+      "cult_interp": "No symbolic or personality interpretation is asserted; the record describes historical usage only.",
+      "hist_status": "biographical_reference_listed_not_rechecked",
+      "hist_note": "Umm Waraqah bint ʿAbd Allāh is listed in the classical Companion-biography tradition; the reference pointers require independent page-level verification.",
+      "usage_note": "Historical bearer usage is the scope of this record. Contemporary given-name frequency is not measured, and a historical kunya is not automatically a modern given name.",
+      "trs": {
+        "urdu": [
+          "أُمُّ وَرَقَة",
+          "تاریخی کنیت؛ لفظی ساخت: ورقة کی والدہ"
+        ],
+        "persian": [
+          "أُمُّ وَرَقَة",
+          "کنیهٔ تاریخی؛ ساخت لفظی: مادرِ ورقة"
+        ],
+        "hindi": [
+          "उम्म वरक़ा",
+          "ऐतिहासिक कुन्या; शाब्दिक संरचना: वरक़ा की माता"
+        ],
+        "pashto": [
+          "أُمُّ وَرَقَة",
+          "تاریخي کنیه؛ لفظي جوړښت: د ورقة مور"
+        ],
+        "arabic": [
+          "أُمُّ وَرَقَة",
+          "كُنْية تاريخية؛ تركيبها الحرفي: والدة ورقة"
+        ]
+      },
+      "pron": "oom wa-ra-qah",
+      "pron_note": "Romanized pronunciation guide only; no IPA or regional pronunciation survey is asserted.",
+      "evidence": [
+        [
+          "Ibn Hajar al-Asqalani, al-Isaba fi Tamyiz al-Sahaba, entry for the female Companion known in biographical sources as Umm Waraqah bint ʿAbd Allāh",
+          "",
+          "Biographical reference for the historical bearer and recorded kunya.",
+          "Bibliographic pointer only; entry/page was not independently rechecked in this pass and does not establish modern given-name frequency."
+        ],
+        [
+          "Ibn Sa'd, al-Tabaqat al-Kubra, entry for the female Companion known in biographical sources as Umm Waraqah bint ʿAbd Allāh",
+          "",
+          "Classical biographical reference for the historical bearer.",
+          "Reference listed as a research lead, not independently rechecked in this pass."
+        ],
+        [
+          "Lane, An Arabic-English Lexicon, entries for أب (ab) and أم (umm)",
+          "",
+          "Lexical reference for the component words father (ab) and mother (umm).",
+          "The lexicon supports component glosses, not the historical bearer or contemporary personal-name use."
+        ]
+      ],
+      "claims": [
+        [
+          "The historical bearer the female Companion known in biographical sources as Umm Waraqah bint ʿAbd Allāh is recorded by this kunya",
+          "Ibn Hajar al-Asqalani, al-Isaba fi Tamyiz al-Sahaba, entry for the female Companion known in biographical sources as Umm Waraqah bint ʿAbd Allāh",
+          "biographical_reference_listed_not_independently_rechecked"
+        ],
+        [
+          "The Arabic lexical components Abu/Umm are glossed as father/mother in the literal construction",
+          "Lane, An Arabic-English Lexicon, entries for أب (ab) and أم (umm)",
+          "lexical_reference_listed_not_independently_rechecked"
+        ],
+        [
+          "A kunya is a conventional identifier; literal kinship wording alone does not establish biological parenthood",
+          null,
+          "editorial_caution_not_independently_sourced"
+        ]
+      ],
+      "flags": [
+        "historical_kunya_not_automatically_a_given_name",
+        "bibliographic_references_not_rechecked",
+        "modern_frequency_not_measured",
+        "translations_require_native_review"
+      ],
+      "selection": "Selected as a documented female Companion kunya absent from the dataset; a kunya is not treated as a verified modern given name.",
+      "name_type": "historical_kunya"
+    },
+    {
+      "name": "Umm Haram",
+      "slug": "ummharam",
+      "gender": "Female",
+      "bearer": "the female Companion Umm Haram bint Milhan",
+      "gconf": "HIGH",
+      "aliases": [
+        "Umm Haraam",
+        "Umm Haram bint Milhan"
+      ],
+      "ar": "أُمُّ حَرَام",
+      "tr": "umm ḥarām",
+      "root": "",
+      "roottr": "",
+      "morph": "Arabic kunya construction: أبو (Abu, father of) or أم (Umm, mother of) + a personal name; not a claim of biological parenthood.",
+      "short": "Historical kunya; literally “mother of Haram”",
+      "primary": "Umm Haram (أُمُّ حَرَام) is a historical Arabic kunya borne by the female Companion Umm Haram bint Milhan. The literal construction is “mother of Haram”; a kunya is a conventional identifier and does not by itself assert biological parenthood. The biographical references listed here are pointers, not independently rechecked in this pass. They establish neither modern name frequency nor a Qur'anic or religious recommendation.",
+      "literal": "Historical kunya; literally “mother of Haram”",
+      "explain": "The record treats Umm Haram as a historical kunya, not as a claim that it is a standalone modern given name. The Arabic lexical components are listed separately from the historical bearer. A kunya's literal kinship construction does not prove the bearer had a child with that name.",
+      "mconf": "MEDIUM",
+      "sem": "historical Companion kunya",
+      "concepts": [
+        "historical kunya",
+        "Companions of the Prophet",
+        "early Islamic history"
+      ],
+      "quran": false,
+      "qstatus": "not_claimed_as_quranic_personal_name",
+      "qnote": "This record documents a historical Companion kunya. No Qur'anic personal-name attestation or special religious status is claimed for the kunya.",
+      "rel_assoc": "Early Islamic historical usage",
+      "rel_conf": "MEDIUM",
+      "rel_status": "A historical identifier associated with a Companion; this is not a religious ruling or recommendation to use the kunya as a given name.",
+      "rel_explain": "The entry describes a historical bearer and Arabic kunya construction. Historical Muslim use is distinct from scriptural status, naming advice, and current frequency.",
+      "hadith": [
+        "not_verified",
+        "No specific hadith prescribing this kunya as a child's name or assigning it a special virtue is claimed."
+      ],
+      "prophetic": [
+        "not_verified",
+        "No prophetic name status is claimed for this historical kunya."
+      ],
+      "companion": [
+        "historically_attested",
+        "The listed biographical reference identifies the female Companion Umm Haram bint Milhan as a Companion known by this kunya; source pointer not independently rechecked in this pass."
+      ],
+      "name_status": "historical_kunya",
+      "cult_note": "This form is associated with the named historical bearer; the entry makes no claim about popularity or a contemporary bearer's character.",
+      "cult_interp": "No symbolic or personality interpretation is asserted; the record describes historical usage only.",
+      "hist_status": "biographical_reference_listed_not_rechecked",
+      "hist_note": "Umm Haram bint Milḥān is a female Companion named in classical biographical and hadith literature; source pointers are listed but not independently rechecked.",
+      "usage_note": "Historical bearer usage is the scope of this record. Contemporary given-name frequency is not measured, and a historical kunya is not automatically a modern given name.",
+      "trs": {
+        "urdu": [
+          "أُمُّ حَرَام",
+          "تاریخی کنیت؛ لفظی ساخت: حرام کی والدہ"
+        ],
+        "persian": [
+          "أُمُّ حَرَام",
+          "کنیهٔ تاریخی؛ ساخت لفظی: مادرِ حرام"
+        ],
+        "hindi": [
+          "उम्म हराम",
+          "ऐतिहासिक कुन्या; शाब्दिक संरचना: हराम की माता"
+        ],
+        "pashto": [
+          "أُمُّ حَرَام",
+          "تاریخي کنیه؛ لفظي جوړښت: د حرام مور"
+        ],
+        "arabic": [
+          "أُمُّ حَرَام",
+          "كُنْية تاريخية؛ تركيبها الحرفي: والدة حرام"
+        ]
+      },
+      "pron": "oom ha-raam",
+      "pron_note": "Romanized pronunciation guide only; no IPA or regional pronunciation survey is asserted.",
+      "evidence": [
+        [
+          "Ibn Hajar al-Asqalani, al-Isaba fi Tamyiz al-Sahaba, entry for the female Companion Umm Haram bint Milhan",
+          "",
+          "Biographical reference for the historical bearer and recorded kunya.",
+          "Bibliographic pointer only; entry/page was not independently rechecked in this pass and does not establish modern given-name frequency."
+        ],
+        [
+          "Ibn Sa'd, al-Tabaqat al-Kubra, entry for the female Companion Umm Haram bint Milhan",
+          "",
+          "Classical biographical reference for the historical bearer.",
+          "Reference listed as a research lead, not independently rechecked in this pass."
+        ],
+        [
+          "Lane, An Arabic-English Lexicon, entries for أب (ab) and أم (umm)",
+          "",
+          "Lexical reference for the component words father (ab) and mother (umm).",
+          "The lexicon supports component glosses, not the historical bearer or contemporary personal-name use."
+        ]
+      ],
+      "claims": [
+        [
+          "The historical bearer the female Companion Umm Haram bint Milhan is recorded by this kunya",
+          "Ibn Hajar al-Asqalani, al-Isaba fi Tamyiz al-Sahaba, entry for the female Companion Umm Haram bint Milhan",
+          "biographical_reference_listed_not_independently_rechecked"
+        ],
+        [
+          "The Arabic lexical components Abu/Umm are glossed as father/mother in the literal construction",
+          "Lane, An Arabic-English Lexicon, entries for أب (ab) and أم (umm)",
+          "lexical_reference_listed_not_independently_rechecked"
+        ],
+        [
+          "A kunya is a conventional identifier; literal kinship wording alone does not establish biological parenthood",
+          null,
+          "editorial_caution_not_independently_sourced"
+        ]
+      ],
+      "flags": [
+        "historical_kunya_not_automatically_a_given_name",
+        "bibliographic_references_not_rechecked",
+        "modern_frequency_not_measured",
+        "translations_require_native_review"
+      ],
+      "selection": "Selected for the famous female Companion Umm Haram bint Milhan; no Qur'anic-name or religious-recommendation claim is made.",
+      "name_type": "historical_kunya"
+    },
+    {
+      "name": "Umm Atiyyah",
+      "slug": "ummatiyyah",
+      "gender": "Female",
+      "bearer": "the female Companion and hadith transmitter known as Umm Atiyyah al-Ansariyyah",
+      "gconf": "HIGH",
+      "aliases": [
+        "Umm Atiyya",
+        "Umm Atiyyah al-Ansariyyah"
+      ],
+      "ar": "أُمُّ عَطِيَّة",
+      "tr": "umm ʿaṭiyya",
+      "root": "",
+      "roottr": "",
+      "morph": "Arabic kunya construction: أبو (Abu, father of) or أم (Umm, mother of) + a personal name; not a claim of biological parenthood.",
+      "short": "Historical kunya; literally “mother of Atiyyah”",
+      "primary": "Umm Atiyyah (أُمُّ عَطِيَّة) is a historical Arabic kunya borne by the female Companion and hadith transmitter known as Umm Atiyyah al-Ansariyyah. The literal construction is “mother of Atiyyah”; a kunya is a conventional identifier and does not by itself assert biological parenthood. The biographical references listed here are pointers, not independently rechecked in this pass. They establish neither modern name frequency nor a Qur'anic or religious recommendation.",
+      "literal": "Historical kunya; literally “mother of Atiyyah”",
+      "explain": "The record treats Umm Atiyyah as a historical kunya, not as a claim that it is a standalone modern given name. The Arabic lexical components are listed separately from the historical bearer. A kunya's literal kinship construction does not prove the bearer had a child with that name.",
+      "mconf": "MEDIUM",
+      "sem": "historical Companion kunya",
+      "concepts": [
+        "historical kunya",
+        "Companions of the Prophet",
+        "early Islamic history"
+      ],
+      "quran": false,
+      "qstatus": "not_claimed_as_quranic_personal_name",
+      "qnote": "This record documents a historical Companion kunya. No Qur'anic personal-name attestation or special religious status is claimed for the kunya.",
+      "rel_assoc": "Early Islamic historical usage",
+      "rel_conf": "MEDIUM",
+      "rel_status": "A historical identifier associated with a Companion; this is not a religious ruling or recommendation to use the kunya as a given name.",
+      "rel_explain": "The entry describes a historical bearer and Arabic kunya construction. Historical Muslim use is distinct from scriptural status, naming advice, and current frequency.",
+      "hadith": [
+        "not_verified",
+        "No specific hadith prescribing this kunya as a child's name or assigning it a special virtue is claimed."
+      ],
+      "prophetic": [
+        "not_verified",
+        "No prophetic name status is claimed for this historical kunya."
+      ],
+      "companion": [
+        "historically_attested",
+        "The listed biographical reference identifies the female Companion and hadith transmitter known as Umm Atiyyah al-Ansariyyah as a Companion known by this kunya; source pointer not independently rechecked in this pass."
+      ],
+      "name_status": "historical_kunya",
+      "cult_note": "This form is associated with the named historical bearer; the entry makes no claim about popularity or a contemporary bearer's character.",
+      "cult_interp": "No symbolic or personality interpretation is asserted; the record describes historical usage only.",
+      "hist_status": "biographical_reference_listed_not_rechecked",
+      "hist_note": "Umm ʿAṭiyyah al-Anṣāriyyah is recorded as a female Companion and transmitter; the listed classical biographical pointers are not independently rechecked in this pass.",
+      "usage_note": "Historical bearer usage is the scope of this record. Contemporary given-name frequency is not measured, and a historical kunya is not automatically a modern given name.",
+      "trs": {
+        "urdu": [
+          "أُمُّ عَطِيَّة",
+          "تاریخی کنیت؛ لفظی ساخت: عطية کی والدہ"
+        ],
+        "persian": [
+          "أُمُّ عَطِيَّة",
+          "کنیهٔ تاریخی؛ ساخت لفظی: مادرِ عطية"
+        ],
+        "hindi": [
+          "उम्म अतिय्या",
+          "ऐतिहासिक कुन्या; शाब्दिक संरचना: अतिय्या की माता"
+        ],
+        "pashto": [
+          "أُمُّ عَطِيَّة",
+          "تاریخي کنیه؛ لفظي جوړښت: د عطية مور"
+        ],
+        "arabic": [
+          "أُمُّ عَطِيَّة",
+          "كُنْية تاريخية؛ تركيبها الحرفي: والدة عطية"
+        ]
+      },
+      "pron": "oom a-tiy-yah",
+      "pron_note": "Romanized pronunciation guide only; no IPA or regional pronunciation survey is asserted.",
+      "evidence": [
+        [
+          "Ibn Hajar al-Asqalani, al-Isaba fi Tamyiz al-Sahaba, entry for the female Companion and hadith transmitter known as Umm Atiyyah al-Ansariyyah",
+          "",
+          "Biographical reference for the historical bearer and recorded kunya.",
+          "Bibliographic pointer only; entry/page was not independently rechecked in this pass and does not establish modern given-name frequency."
+        ],
+        [
+          "Ibn Sa'd, al-Tabaqat al-Kubra, entry for the female Companion and hadith transmitter known as Umm Atiyyah al-Ansariyyah",
+          "",
+          "Classical biographical reference for the historical bearer.",
+          "Reference listed as a research lead, not independently rechecked in this pass."
+        ],
+        [
+          "Lane, An Arabic-English Lexicon, entries for أب (ab) and أم (umm)",
+          "",
+          "Lexical reference for the component words father (ab) and mother (umm).",
+          "The lexicon supports component glosses, not the historical bearer or contemporary personal-name use."
+        ]
+      ],
+      "claims": [
+        [
+          "The historical bearer the female Companion and hadith transmitter known as Umm Atiyyah al-Ansariyyah is recorded by this kunya",
+          "Ibn Hajar al-Asqalani, al-Isaba fi Tamyiz al-Sahaba, entry for the female Companion and hadith transmitter known as Umm Atiyyah al-Ansariyyah",
+          "biographical_reference_listed_not_independently_rechecked"
+        ],
+        [
+          "The Arabic lexical components Abu/Umm are glossed as father/mother in the literal construction",
+          "Lane, An Arabic-English Lexicon, entries for أب (ab) and أم (umm)",
+          "lexical_reference_listed_not_independently_rechecked"
+        ],
+        [
+          "A kunya is a conventional identifier; literal kinship wording alone does not establish biological parenthood",
+          null,
+          "editorial_caution_not_independently_sourced"
+        ]
+      ],
+      "flags": [
+        "historical_kunya_not_automatically_a_given_name",
+        "bibliographic_references_not_rechecked",
+        "modern_frequency_not_measured",
+        "translations_require_native_review"
+      ],
+      "selection": "Selected for the well-known female Companion and transmitter Umm Atiyyah; the entry avoids turning the kunya into a modern frequency claim.",
+      "name_type": "historical_kunya"
+    }
+  ]
+}

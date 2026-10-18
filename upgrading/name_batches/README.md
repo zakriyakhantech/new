@@ -95,3 +95,30 @@ python3 upgrading/scripts/add_demand_names.py --manifest upgrading/name_batches/
 | Wathilah | وَاثِلَة | Ascetic companion of Ahl al-Suffah (Wathilah ibn al-Asqa') | Sahih Muslim 2276; Al-Isabah #9060 |
 | Sundus | سُنْدُس | Fine green silk garments of Paradise | Directly attested in Qur'an 18:31, 44:53, 76:21; Tafsir Ibn Kathir |
 
+
+## Historical Companion kunyas — October 2026 (`famous_companion_kunyas_2026-10.json`)
+
+This ten-record supplement contains famous historical **kunyas** (Abu/Umm forms), not an assertion that each expression is a standalone modern given name. The data records historical bearer identity, literal construction, Qur'anic status, current frequency, and translation limits separately. A literal “father/mother of” construction is not evidence of biological parenthood.
+
+The collision-audited builder reuses the super-2.0 record template and scans canonical Romanizations, aliases, Arabic-script forms, and localized scripts against the current Islamic dataset. The classical biographical and lexical references are committed as research pointers; they were not independently rechecked in this pass. All entries remain `tier1_verified: false`; popularity is not measured and translations need native review.
+
+| Kunya | Arabic | Historical bearer/context |
+| --- | --- | --- |
+| Abu Ubaydah | أَبُو عُبَيْدَة | ʿĀmir ibn ʿAbd Allāh ibn al-Jarrāḥ |
+| Abu Ayyub | أَبُو أَيُّوب | Khalid ibn Zayd al-Ansari |
+| Abu Musa | أَبُو مُوسَى | ʿAbd Allāh ibn Qays al-Ashʿari |
+| Abu al-Darda | أَبُو الدَّرْدَاء | Early Muslim Companion and scholar known by this kunya; no disputed personal-name expansion asserted |
+| Abu Talhah | أَبُو طَلْحَة | Zayd ibn Sahl al-Ansari |
+| Umm Salamah | أُمُّ سَلَمَة | Hind bint Abi Umayya, wife of the Prophet Muhammad |
+| Umm Habibah | أُمُّ حَبِيبَة | Ramlah bint Abi Sufyan, wife of the Prophet Muhammad |
+| Umm Waraqah | أُمُّ وَرَقَة | Female Companion recorded by this kunya |
+| Umm Haram | أُمُّ حَرَام | Umm Haram bint Milhan |
+| Umm Atiyyah | أُمُّ عَطِيَّة | Female Companion and hadith transmitter |
+
+Build and verify:
+
+```bash
+python3 upgrading/scripts/add_famous_companion_kunyas_2026_10.py                 # dry-run collision audit
+python3 upgrading/scripts/add_famous_companion_kunyas_2026_10.py --write          # write only after checks pass
+python3 upgrading/scripts/add_famous_companion_kunyas_2026_10.py --check          # verify records and manifests
+```
