@@ -2,9 +2,9 @@
 
 - Working branch: `quality-gates/all-name-records`
 - Dataset: `upgrading/names_upgraded/islamic/`
-- Total individually reviewed/edited so far: **81 records** (partial; not the full dataset).
-- Scope: FAQ answer accuracy and uniqueness, FAQPage JSON-LD parity, canonical and breadcrumb URLs, and cautious correction of meaning/form mismatches.
-- Safety rule: do not invent meanings, origins, Qur'anic claims, popularity, or translations. Keep uncertain claims explicitly unverified.
+- Total review records covered by this tracker: **328 records** (81 initial reviews, 210 records from batches 82–291, plus 27 early-gap records and the next 10-record batch reviewed on 2026-10-18); this is still only a partial dataset pass.
+- Scope: FAQ accuracy and FAQPage parity, canonical/breadcrumb consistency, cautious correction of meaning/form mismatches, and explicit separation of lexical claims from name-use evidence.
+- Safety rule: do not invent meanings, origins, Qur'anic claims, popularity, or translations. Keep uncertain claims explicitly unverified; a reviewed record is not automatically Tier 1 verified.
 
 ## Completed records
 
@@ -538,3 +538,44 @@
 
 - All ten records were re-fetched from the working branch; JSON parsing succeeded, FAQPage parity was checked, no duplicate normalized questions were found, and canonical URLs were populated.
 - Direct lexical/cultural sources and native translation review remain outstanding where flagged; no record is declared fully verified.
+
+
+## Early-A gap and continuation batch reviewed on 2026-10-18
+
+### Early-A gap — 27 records
+
+- `aalam.json` — retained the existing Al-Wasīṭ and Lane dictionary references for the Arabic lexical sense “world/creation”; clarified that they do not establish given-name frequency or gender distribution.
+- `aalee.json`, `aali.json`, `aalia.json`, `aaliah.json`, `aalima.json`, and `aaliya.json` — qualified unsourced Arabic-form/gloss claims and marked transliteration groups for human review; no records were merged.
+- `aalif.json` — clarified that the recorded form is the Arabic letter name alif; this does not establish its use as a personal name.
+- `aaliyah.json` — recorded the `علية` versus `عالية` form/translation mismatch; exact form and meaning are now unverified rather than silently conflated.
+- `aamaal.json` and `aamal.json` — marked the shared `آمال` form as a candidate transliteration pair, not an automatic duplicate.
+- `aameen.json` and `aamin.json` — distinguished `آمين` (supplicatory “amen”) from `أمين` (trustworthy); neither form is treated as the other.
+- `aamer.json` — flagged the shared `عامر` spelling with `aamir.json` as a candidate transliteration relationship; kept it separate from `أمير` (amīr).
+- `aamil.json` and `aamilah.json` — kept the worker/agent glosses provisional and separated grammatical form from name-use evidence.
+- `aamina.json` — corrected the recorded `أمينة` form to a trustworthiness gloss; clarified that “safe/secure” is more directly associated with the distinct form `آمنة`.
+- `aaminaat.json` — identified `أمينات` as a feminine plural and stopped presenting it as a verified singular name meaning.
+- `aaminah.json` — retained the provisional `أمينة` gloss and queued its Latin spelling relationship with Aamina for review.
+- `aamira.json` and `aamirah.json` — corrected feminine translation wording and flagged their shared `عامرة` form as a candidate spelling pair.
+- `aamirat.json` — identified the recorded `عامرات` form as plural; single-name usage remains unverified.
+- `aamirul.json`, `aamiya.json`, and `aamla.json` — removed unsupported or placeholder glosses; exact language, script, and name use remain unresolved.
+- `aamna.json` — distinguished `آمنة` (“safe/secure,” provisional) from `أمينة` (“trustworthy,” provisional).
+
+### Continuation after record 291 — 10 records
+
+- `adel.json` — qualified the `عادل` gloss and flagged its shared form with `adil.json` as a candidate transliteration pair; neither record was merged.
+- `adem.json` — corrected Qur'anic status: the Arabic personal name `آدم` is attested in Qur'an 2:31 and 3:33. The traditional “man/human” gloss is not asserted as a settled etymology, and Adem/Adam remains a spelling-review candidate.
+- `aden.json` — separated the word occurrence `جَنَّاتُ عَدْنٍ` in Qur'an 9:72 from any personal-name claim; the former “joy/happiness” locale translations were removed as unsupported.
+- `adena.json` — removed the unsupported “Aisha” gloss and left the exact form unresolved.
+- `adha.json` — flagged the Arabic-script/Latin-form ambiguity and removed the unsupported equation of the form with “sacrifice” or a religious ruling.
+- `adham.json` — retained the dark/black gloss only as provisional pending a direct lexical source.
+- `adhara.json` — removed unsupported “star/moon” glosses and left origin and script unverified.
+- `adi.json` — corrected the form/meaning mismatch: the recorded `عادي` does not support “friend/companion”; the intended form remains unresolved.
+- `adib.json` — retained the cultured/refined gloss as provisional pending a direct lexicon citation.
+- `adiba.json` — corrected masculine Arabic/locale wording to feminine forms and queued the shared `أديبة` spelling with Adibah for review.
+
+### Validation and limits
+
+- All 37 records were re-read after writing; JSON parsing succeeded, existing FAQ counts were preserved, FAQPage JSON-LD was regenerated from the visible FAQs, and canonical URLs match their slugs.
+- The reproducible batch validator passes: `python3 upgrading/scripts/review_islamic_verification_batch_2026_10_18.py --check`.
+- Unsupported placeholder “sources” were removed. The two existing Aalam dictionary references were retained; Adam/Adn Qur'anic references are limited to the stated textual occurrence. Other direct lexical sources, personal-name usage/frequency data, and native-speaker translation review remain outstanding.
+- All records remain `tier1_verified: false`; unmeasured popularity, numerology, lucky attributes, and personality claims are suppressed. “Reviewed” means editorially checked with uncertainty retained, not fully verified.

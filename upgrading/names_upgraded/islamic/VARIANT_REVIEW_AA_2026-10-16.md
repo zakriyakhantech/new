@@ -43,3 +43,27 @@ This is a review queue, not an instruction to delete or merge records. Preserve 
 - `Aatika / Aatikah`: same recorded form `عاتكة`; review separately from `عتيقة`, which is a different spelling.
 - `Aatira / Aatirah`: same recorded form `عاطرة`; likely romanization variants, not separate lexical forms.
 - `Aasma / Aasmaa`: same recorded form `أسماء`; likely romanization variants.
+
+
+## Additional review queue — 2026-10-18
+
+These are candidate transliteration relationships only. Preserve all record files and routes until a human reviews community spelling, source evidence, and canonical-route policy.
+
+| Candidate group | Recorded script form(s) | Review note |
+| --- | --- | --- |
+| `aalia` / `aaliah` / `aaliya` | `عالية` | Same form in the current records; likely transliteration variants, but no automatic merge. |
+| `aamaal` / `aamal` | `آمال` | Shared written form; confirm the intended vowelled form and community spellings. |
+| `aamina` / `aaminah` | `أمينة` | Same unvowelled form in the records; distinguish from `آمنة` (`aamna`) and review vowels/spelling. |
+| `aamer` / `aamir` | `عامر` | Same form in the records; keep distinct from `أمير` (amīr) and do not merge automatically. |
+| `aamira` / `aamirah` | `عامرة` | Same feminine form in the records; route and usage review required. |
+| `adel` / `adil` | `عادل` | Same form; transliteration and route review required. |
+| `adem` / `adam` | `آدم` | Candidate spelling relationship; the Qur'anic Arabic name is attested, but regional spelling usage and canonical route policy remain separate. |
+| `adiba` / `adibah` | `أديبة` | Same feminine form; keep routes until human review. |
+
+### Similar spellings that are not confirmed variants
+
+- `aalee` (`علي`) and `aali` (`عالي`) are distinct recorded forms; similar Latin spelling is not enough to merge them.
+- `aaliyah` currently has `علية`, while several related entries use `عالية`; this is a form/translation mismatch, not a confirmed variant group. Keep the meaning unresolved pending source review.
+- `aameen` (`آمين`) and `aamin` (`أمين`) are different forms and meanings; do not merge.
+- `aamina`/`aaminah` (`أمينة`) and `aamna` (`آمنة`) are different forms and should not be treated as synonyms without evidence.
+- `aamer`/`aamir` (`عامر`) should not be merged with `amir` (`أمير`).
