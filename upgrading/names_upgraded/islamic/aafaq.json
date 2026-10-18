@@ -24,7 +24,7 @@
       "short_meaning": "Horizons; regions or extents; figuratively, outlooks",
       "primary_meaning": "Aafaq represents Arabic آفاق (ʾāfāq), the plural of أُفُق (ufuq), meaning “horizon.” Literally, it refers to horizons; according to context, it can also refer to regions or extents, and figuratively to outlooks or intellectual horizons. These are lexical senses of the Arabic word and do not, by themselves, establish how commonly it is used as a personal name or confer a particular religious status.",
       "literal_meaning": "Horizons",
-      "meaning_explanation": "آفاق (ʾāfāq) is the Arabic plural of أُفُق (ufuq, “horizon”). “Horizons” is the most direct gloss. “Regions” or “extents” may fit some contexts, while “outlooks” is figurative. “Distant regions” can be a contextual rendering, but should not be presented as the only literal meaning. The lexical meaning is well established; personal-name frequency and religious significance require separate evidence.",
+      "meaning_explanation": "آفاق (ʾāfāq) is the plural of أُفُق (ufuq), “horizon.” Lane’s Lexicon and the Cairo Arabic Language Academy support the literal sense “horizons”; the Academy also records “region/area” and figurative “extent of knowledge or outlook” for أفق. Therefore “horizons” is the safest direct gloss, while “regions/extents” and “outlooks” should be presented as context-dependent senses. These lexical sources do not establish how frequently Aafaq is used as a personal name or whether it has a particular religious status.",
       "meaning_confidence": "HIGH"
     },
     "etymology": {
@@ -37,7 +37,7 @@
       "feminine_form": null,
       "etymological_meaning": "Plural of أُفُق (ufuq): horizons",
       "root_family": [],
-      "etymology_explanation": "The Arabic form آفاق is the plural of أُفُق (ufuq, “horizon”). Its lexical formation is distinct from claims about how often it is used as a given name.",
+      "etymology_explanation": "The Arabic word آفاق (ʾāfāq) is the plural of أُفُق (ufuq, “horizon”). Lane’s Lexicon and the Cairo Arabic Language Academy confirm the lexical form and plural; the Academy also records figurative use for a person’s range of knowledge or outlook. This is the word’s lexical formation, not proof of a distinct personal-name derivation.",
       "etymology_confidence": "HIGH",
       "false_etymology_warning": "Do not infer a separate personal-name derivation, religious status, or naming frequency from the Arabic lexical form alone."
     },
@@ -342,9 +342,10 @@
     "evidence": {
       "sources": [
         "https://www.laneslexicon.com/word/%D8%A3%D9%81%D9%82/n942",
-        "https://www.arabdict.com/ar/%D8%B9%D8%B1%D8%A8%D9%8A-%D8%B9%D8%B1%D8%A8%D9%8A/%D8%A7%D9%84%D8%A7%D9%81%D9%82"
+        "https://www.arabdict.com/ar/%D8%B9%D8%B1%D8%A8%D9%8A-%D8%B9%D8%B1%D8%A8%D9%8A/%D8%A7%D9%84%D8%A7%D9%81%D9%82",
+        "https://www.arabicacademy.gov.eg/ar/%D9%85%D8%AD%D8%B1%D9%83_%D8%A7%D9%84%D8%A8%D8%AD%D8%AB/%D8%A3%D9%81%D9%82"
       ],
-      "verification_method": "Independently checked Lane’s Lexicon for أُفُق and a modern Arabic dictionary entry for أفق/آفاق. These support the Arabic noun’s senses “horizon,” “region/tract,” and the plural آفاق. They do not establish modern personal-name frequency or gender distribution for Aafaq.",
+      "verification_method": "Cross-checked Lane’s Lexicon, a modern Arabic dictionary, and the Cairo Arabic Language Academy entry for أفق. The Academy defines أفق as a horizon/region and records آفاق as its plural; this supports the literal gloss “horizons” and the contextual senses “regions” and “outlooks.” These dictionary sources do not establish modern personal-name frequency, gender distribution, or religious status.",
       "claim_evidence": [
         {
           "claim": "أُفُق means a horizon, side/region/tract; plural آفاق",
@@ -355,13 +356,19 @@
           "claim": "Modern Arabic dictionary records أفق with plural آفاق and contextual horizon/region senses",
           "source": "https://www.arabdict.com/ar/%D8%B9%D8%B1%D8%A8%D9%8A-%D8%B9%D8%B1%D8%A8%D9%8A/%D8%A7%D9%84%D8%A7%D9%81%D9%82",
           "status": "dictionary_entry_checked"
+        },
+        {
+          "claim": "Cairo Arabic Language Academy records أفق as horizon/region and آفاق as its plural; it also records figurative “extent of knowledge/outlook” usage.",
+          "source": "https://www.arabicacademy.gov.eg/ar/%D9%85%D8%AD%D8%B1%D9%83_%D8%A7%D9%84%D8%A8%D8%AD%D8%AB/%D8%A3%D9%81%D9%82",
+          "status": "official_academy_dictionary_entry_checked",
+          "evidence_excerpt": "الأفق: الناحية ... مدى الاطلاع ... (ج) آفاق"
         }
       ],
-      "claim_evidence_status": "ARABIC_LEXICAL_FORM_AND_MEANING_CHECKED; PERSONAL_NAME_FREQUENCY_AND_GENDER_DISTRIBUTION_NOT_VERIFIED"
+      "claim_evidence_status": "ARABIC_LEXICAL_FORM_AND_PLURAL_CONFIRMED_BY_NAMED_DICTIONARY_SOURCES; PERSONAL_NAME_FREQUENCY_GENDER_DISTRIBUTION_AND_RELIGIOUS_STATUS_NOT_VERIFIED"
     },
     "provenance": {
       "pipeline": "NameVerse Production v8",
-      "methodology": "Second-pass source verification: checked Lane’s Lexicon and a modern Arabic dictionary for أُفُق/آفاق; added source-level evidence, removed unsupported male-gender confidence, revised SEO description, and synchronized FAQ structured data. Exact name frequency and native translation review remain open.",
+      "methodology": "Source-backed lexical revision: checked Lane’s Lexicon, a modern Arabic dictionary, and the Cairo Arabic Language Academy entry for أفق; clarified plural morphology and separated dictionary senses from personal-name usage, religious status, and translation review.",
       "upgraded_from": "v7 (recursive-corruption and semantic-duplication remediation)",
       "processed_at": "2026-10-16T00:00:00+00:00"
     },
@@ -482,11 +489,10 @@
     "editorial_validation": {
       "needs_manual_verification": true,
       "flags": [
-        "Add a named reputable Arabic dictionary source",
         "Native review needed for Pashto and Arabic translations",
         "Independent evidence for given-name usage and gender distribution is absent"
       ],
-      "confidence": "MEDIUM",
+      "confidence": "HIGH for core Arabic lexical form, plural, and contextual senses; MEDIUM overall because personal-name usage and native translation review remain incomplete",
       "reviewed_by": "NameVerse verification pipeline",
       "reviewed_at": "2026-10-06T04:27:34+00:00"
     },

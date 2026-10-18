@@ -351,9 +351,19 @@
     "evidence": {
       "sources": [
         "https://www.laneslexicon.com/word/%D8%B9%D8%A7%D8%AF%D9%84",
-        "https://www.laneslexicon.com/root/%D8%B9%D8%AF%D9%84"
+        "https://www.laneslexicon.com/root/%D8%B9%D8%AF%D9%84",
+        {
+          "title": "Cairo Arabic Language Academy, root عدل",
+          "publisher": "Cairo Arabic Language Academy",
+          "url": "https://www.arabicacademy.gov.eg/ar/%D9%85%D8%AD%D8%B1%D9%83-%D8%A7%D9%84%D8%A8%D8%AD%D8%AB/%D8%B9%D8%AF%D9%84",
+          "source_type": "official_arabic_dictionary",
+          "supports": [
+            "The root عدل includes acting justly in judgment and the noun العدل in the sense of fairness/equity."
+          ],
+          "limitations": "Supports the lexical root and semantic field; personal-name popularity and regional usage require separate data."
+        }
       ],
-      "verification_method": "Independently checked Lane’s Lexicon entries for عادل and the root عدل. The lexical evidence supports the Arabic form and justice/fairness sense; it does not verify popularity of the Aadhil spelling, regional gender distribution, or translation quality.",
+      "verification_method": "Cross-checked the justice/fairness gloss against the Cairo Arabic Language Academy root entry and the existing lexical references. No frequency or regional usage claim is inferred from dictionary evidence.",
       "claim_evidence": [
         {
           "claim": "Arabic lexical form عادل (ʿādil) and its relation to justice/equity",
@@ -364,6 +374,11 @@
           "claim": "Root ع د ل includes the sense of acting justly or equitably",
           "source": "https://www.laneslexicon.com/root/%D8%B9%D8%AF%D9%84",
           "status": "dictionary_root_entry_checked"
+        },
+        {
+          "claim": "Official Arabic Language Academy entry for عدل supports the semantic field of justice and fairness underlying عادل.",
+          "source": "https://www.arabicacademy.gov.eg/ar/%D9%85%D8%AD%D8%B1%D9%83-%D8%A7%D9%84%D8%A8%D8%AD%D8%AB/%D8%B9%D8%AF%D9%84",
+          "status": "official_dictionary_source_added"
         }
       ],
       "claim_evidence_status": "ARABIC_LEXICAL_MEANING_CHECKED; EXACT_LATIN_SPELLING_FREQUENCY_AND_TRANSLATIONS_NOT_VERIFIED"

@@ -328,29 +328,66 @@
       "authenticity_flags": [
         "fearer_of_allah_gloss_is_extension",
         "plural_form_name_usage_unverified",
-        "translation_review_required"
+        "translation_review_required",
+        "personal_name_frequency_not_verified"
       ],
       "fabricated_content_removed": true,
       "fields_total": 150,
       "quality_score": 75,
-      "quality_score_basis": "Provisional editorial score only; historical/etymological claims and translations need direct sources."
+      "quality_score_basis": "Core lexical gloss and Qur'anic usage corroborated with an official Arabic lexicon and a Qur'anic corpus; name frequency and translations remain separate verification tasks."
     },
     "evidence": {
-      "sources": [],
-      "verification_method": "No direct source for the exact etymology/historical claim was checked in this pass; unsupported meanings are removed or retained only provisionally.",
-      "claim_evidence": [
+      "sources": [
         {
-          "claim": "The plural form أبرار is associated with righteousness/piety; direct dictionary source not checked in this pass.",
-          "source": null,
-          "status": "direct_source_needed; claim_provisional"
+          "title": "Cairo Arabic Language Academy, root ب ر ر",
+          "url": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%A8%D8%B1%D8%B1",
+          "source_type": "official_arabic_lexicon",
+          "language": "Arabic",
+          "supports": [
+            "بَرّ is associated with righteousness/good conduct and its plural includes أبرار"
+          ],
+          "limitations": "Lexical evidence for the Arabic word family; does not prove popularity or name-bearer traits."
         },
         {
-          "claim": "Historical bearer, name usage, and translations",
-          "source": null,
-          "status": "not_verified_manual_review_required"
+          "title": "The Quranic Arabic Corpus, Quran Dictionary for root b-r-r",
+          "url": "https://corpus.quran.com/qurandictionary.jsp?q=brr",
+          "source_type": "quranic_corpus",
+          "language": "Arabic-English",
+          "supports": [
+            "أبرار / al-abrār is glossed as “the righteous” in Quranic occurrences including 3:193, 76:5, 82:13, and 83:22"
+          ],
+          "limitations": "Shows Qur'anic lexical usage, not that every person named Abrar has a particular character."
+        },
+        {
+          "title": "Almaany Arabic Dictionary, الأبرار",
+          "url": "https://www.almaany.com/ar/dict/ar-ar/%D8%A7%D9%84%D8%A3%D8%A8%D8%B1%D8%A7%D8%B1/",
+          "source_type": "bilingual_and_monolingual_lexical_reference",
+          "language": "Arabic",
+          "supports": [
+            "أبرار is a plural of بار and refers to righteous, sincere, good-doing people"
+          ],
+          "limitations": "Secondary dictionary; corroborative rather than sole authority."
         }
       ],
-      "claim_evidence_status": "DIRECT_SOURCE_NEEDED; ETYMOLOGY_AND_TRANSLATIONS_PENDING"
+      "verification_method": "Verified the Arabic plural أبرار against the Cairo Arabic Language Academy root entry and the Quranic Arabic Corpus. These support “the righteous” and the semantic field of righteousness/good conduct. “Fearer of Allah” can be a contextual religious paraphrase but is narrower than the direct lexical gloss. Name popularity and individual character are not inferred.",
+      "claim_evidence": [
+        {
+          "claim": "أبرار (abrār) is a plural form associated with righteousness and righteous people.",
+          "source": "https://www.arabicacademy.gov.eg/ar/search_engine/roots/%D8%A8%D8%B1%D8%B1",
+          "status": "supported_by_official_lexicon"
+        },
+        {
+          "claim": "The form الأبرار occurs in Qur'anic Arabic with the sense “the righteous,” including 76:5 and 82:13.",
+          "source": "https://corpus.quran.com/qurandictionary.jsp?q=brr",
+          "status": "supported_by_quranic_corpus"
+        },
+        {
+          "claim": "Every person named Abrar is pious or has specific personality traits.",
+          "source": null,
+          "status": "not_inferable_from_lexical_meaning"
+        }
+      ],
+      "claim_evidence_status": "LEXICAL_MEANING_CORROBORATED; PERSONAL_TRAITS_AND_POPULARITY_NOT_ESTABLISHED"
     },
     "provenance": {
       "pipeline": "NameVerse evidence-led batch review",

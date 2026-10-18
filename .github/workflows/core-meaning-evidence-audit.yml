@@ -1,0 +1,65 @@
+name: Core meaning evidence audit
+
+on:
+  workflow_dispatch:
+    inputs:
+      root:
+        description: "Directory to audit recursively"
+        required: true
+        default: "upgrading/names_upgraded"
+  pull_request:
+    paths:
+      - "scripts/core_meaning_evidence_audit.py"
+      - "tests/test_core_meaning_evidence_audit.py"
+      - ".github/workflows/core-meaning-evidence-audit.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/core_meaning_evidence_audit.py"
+      - "tests/test_core_meaning_evidence_audit.py"
+      - ".github/workflows/core-meaning-evidence-audit.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test audit tool
+        run: python -m unittest discover -s tests -p "test_core_meaning_evidence_audit.py" -v
+
+      - name: Run repository-wide audit
+        id: audit
+        continue-on-error: true
+        run: |
+          ROOT="${{ github.event.inputs.root || 'upgrading/names_upgraded' }}"
+          python scripts/core_meaning_evidence_audit.py \
+            --root "$ROOT" \
+            --json-report artifacts/core-meaning-audit.json \
+            --csv-report artifacts/core-meaning-audit.csv
+
+      - name: Upload audit reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nameverse-core-meaning-audit
+          path: |
+            artifacts/core-meaning-audit.json
+            artifacts/core-meaning-audit.csv
+          if-no-files-found: warn
+
+      - name: Fail if invalid JSON prevented a complete audit
+        if: steps.audit.outcome == 'failure'
+        run: |
+          echo "Audit reported invalid JSON or could not complete. Download the artifact for details."
+          exit 1
