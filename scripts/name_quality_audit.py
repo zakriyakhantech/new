@@ -7,7 +7,8 @@ LOW = {"low", "unknown", "unverified", "not_established", "none", ""}
 
 def urls(data):
     out=[]
-    src=data.get("evidence",{}).get("sources",[])
+    ev=data.get("evidence",{})
+    src=ev.get("sources",[]) if isinstance(ev,dict) else []
     for x in src if isinstance(src,list) else []:
         if isinstance(x,str) and x.strip().startswith(("https://","http://")): out.append(x.strip())
         elif isinstance(x,dict):
@@ -28,14 +29,16 @@ def main():
         try: obj=json.loads(p.read_text(encoding="utf-8"))
         except Exception as e:
             print(f"INVALID_JSON {p}: {e}"); invalid+=1; continue
+        if not isinstance(obj,dict) or "data" not in obj: continue  # indexes/manifests, not records
         total+=1; d=obj.get("data",{}); issues=[]; updates=[]
         if not isinstance(d,dict):
             print(f"INVALID_SCHEMA {p}: data object missing"); flagged+=1; continue
-        mc=str(d.get("core_meaning",{}).get("meaning_confidence","")).lower()
-        ec=str(d.get("etymology",{}).get("etymology_confidence","")).lower()
-        oc=str(d.get("origin",{}).get("origin_confidence","")).lower()
+        sub=lambda k: d.get(k) if isinstance(d.get(k),dict) else {}
+        mc=str(sub("core_meaning").get("meaning_confidence","")).lower()
+        ec=str(sub("etymology").get("etymology_confidence","")).lower()
+        oc=str(sub("origin").get("origin_confidence","")).lower()
         has_source=bool(urls(d))
-        v=d.get("verification",{}); ed=d.get("editorial",{})
+        v=sub("verification"); ed=sub("editorial")
         if v.get("tier1_verified") is True and (mc in LOW or oc in LOW or not has_source):
             issues.append("tier1 contradicts confidence/evidence")
             updates.append((v,"tier1_verified",False))
@@ -47,6 +50,10 @@ def main():
         if isinstance(faq,list):
             qs=[" ".join(str(x.get("question",x.get("q",""))).casefold().split()) for x in faq if isinstance(x,dict)]
             if len(qs)!=len(set(qs)): issues.append("duplicate FAQ questions")
+        if isinstance(d.get("popularity_by_region"),list) and d["popularity_by_region"]:
+            issues.append("undocumented per-region popularity scores")
+        if "seo_score" in sub("seo") or "quality_score" in sub("content_quality"):
+            issues.append("self-assigned seo/quality score")
         if issues:
             flagged+=1; print(f"REVIEW {p}: " + "; ".join(issues))
         if args.apply and updates:
